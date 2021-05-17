@@ -1,0 +1,13 @@
+Running tests.
+Data path: D:\src\code\cqframework\hiv-cds\input\tests\PlanDefinition\HelloHIVWorld
+Terminology path: D:\src\code\cqframework\hiv-cds\input\vocabulary\valueset
+Test HIVPatient
+Wed May 12 2021 17:15:01 GMT-0600 (Mountain Daylight Time)
+Patient=org.hl7.fhir.r4.model.Patient@3eed0f5
+Info=info
+Warning=warning
+Critical=critical
+Condition Indicating HIV=[org.hl7.fhir.r4.model.Condition@29fc1a2b]
+Patient Has HIV=true
+Patient Name=Peter Chalmers
+elapsed: 4.351 seconds

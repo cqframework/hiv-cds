@@ -1,0 +1,13 @@
+{
+    "cards": [
+        {
+            "summary": "Hello HIV World!",
+            "indicator": "info",
+            "detail": "This is a test.",
+            "source": {
+                "label": "Info for those with HIV",
+                "url": "https://www.cdc.gov/hiv/guidelines/testing.html"
+            }
+        }
+    ]
+}

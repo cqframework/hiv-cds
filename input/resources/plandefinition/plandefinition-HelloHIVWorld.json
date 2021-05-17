@@ -1,0 +1,122 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "plandefinition-HelloHIVWorld",
+  "url": "http://fhir.org/guides/ohsu/htnu18ig/PlanDefinition/plandefinition-HelloHIVWorld",
+  "identifier": [
+    {
+      "use": "official",
+      "value": "nachc-HIVSample"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "HelloHIVWorld",
+  "title": "Hello HIV World",
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/plan-definition-type",
+        "code": "eca-rule",
+        "display": "ECA Rule"
+      }
+    ]
+  },
+  "status": "draft",
+  "date": "2021-05-10T00:00:00-08:00",
+  "publisher": "National Association of Community Health Centers, Inc. (NACHC)",
+  "description": "This PlanDefinition defines a simple recommendation handling the sampling of HIV",
+  "useContext": [
+    {
+      "code": {
+        "system": "http://hl7.org/fhir/usage-context-type",
+        "version": "4.0.1",
+        "code": "focus",
+        "display": "Clinical Focus"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+            "version": "2021",
+            "code": "B20",
+            "display": "Human immunodeficiency virus [HIV] disease"
+          }
+        ]
+      }
+    }
+  ],
+  "purpose": "The purpose of this is to test the system to make sure we have complete end-to-end functionality",
+  "usage": "This is to be used in conjunction with a patient-facing FHIR application.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/ValueSet/iso3166-1-3",
+          "version": "4.0.1",
+          "code": "USA",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "topic": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/ValueSet/definition-topic",
+          "version": "4.0.1",
+          "code": "assessment",
+          "display": "Assessment"
+        }
+      ],
+      "text": "HIV Management"
+    }
+  ],
+  "copyright": "© Copyright National Association of Community Health Centers, Inc. (NACHC) 2021+.",
+  "library": [
+     "http://fhir.org/guides/nachc/hiv-cds/Library/HelloHIVWorld"
+  ],
+  "action": [
+    {
+      "title": "Hello HIV World!",
+      "documentation": [
+        {
+          "type": "documentation",
+          "display": "Info for those with HIV",
+          "url": "https://www.cdc.gov/hiv/guidelines/testing.html"
+        }
+      ],
+      "trigger": [
+        {
+          "type": "named-event",
+          "name": "patient-view"
+        }
+      ],
+      "condition": [
+        {
+          "kind": "start",
+          "expression": {
+            "language": "text/cql",
+            "expression": "Patient Has HIV"
+          }
+        }
+      ],
+      "dynamicValue": [
+        {
+          "path": "action.description",
+          "expression": {
+            "description": "Patient Name.",
+            "language": "text/cql.identifier",
+            "expression": "Patient Name"
+          }
+        },
+        {
+          "path": "action.extension",
+          "expression": {
+            "language": "text/cql.identifier",
+            "expression": "Info"
+          }
+        }
+      ]
+    }
+  ]
+}

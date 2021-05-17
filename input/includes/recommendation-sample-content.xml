@@ -1,0 +1,9 @@
+<table class="list">
+    <thead>
+    <tr><th>Resource</th><th>Type</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+    <tr><td><a href="PlanDefinition-plandefinition-HelloHIVWorld.html">Hello HIV World, Sample Recommendation - Plan Definition</a></td><td><a href="{{site.data.fhir.path}}plandefinition.html">Plan Definition</a></td><td>Clinical Decision Support Document that defines and exposes actions utilized for a CDS-Hooks request.</td></tr>
+    <tr><td><a href="Library-HelloHIVWorld.html">Hello HIV World, Sample Recommendation - Library</a></td><td><a href="{{site.data.fhir.path}}library.html">Library</a></td><td>CQL Library that provides the logic needed for the Sample Recommendation.</td></tr>
+    </tbody>
+</table>

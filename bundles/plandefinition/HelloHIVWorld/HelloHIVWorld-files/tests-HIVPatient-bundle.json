@@ -1,0 +1,63 @@
+{
+  "resourceType": "Bundle",
+  "id": "tests-HIVPatient-bundle",
+  "type": "transaction",
+  "entry": [ {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "HIVPatient-condition-1-hiv",
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+          "version": "4.0.1",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+          "version": "4.0.1",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/ValueSet/condition-category",
+          "version": "4.0.1",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "version": "2021",
+          "code": "B20",
+          "display": "Human immunodeficiency virus [HIV] disease"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/HIVPatient"
+      },
+      "onsetDateTime": "2018-02-10T10:00:00-07:00",
+      "recordedDate": "2021-05-10T12:00:00-07:00"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Condition/HIVPatient-condition-1-hiv"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Patient",
+      "id": "HIVPatient",
+      "gender": "male",
+      "birthDate": "1974-12-25"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/HIVPatient"
+    }
+  } ]
+}

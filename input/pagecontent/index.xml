@@ -1,0 +1,54 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="intro"> </a>
+  <h3>Introduction</h3>
+    <p>
+      The purpose of this Implementation Guide is to provide a basis of Clinical Decision Support regarding the recommendation for the screening of HIV.
+    </p>
+    <p>
+      This project was supported by Centers for Disease Control and Prevention under Cooperative Agreement number NU38OT000310. This information or content and conclusions are those of the author and should not be construed as the official position or policy of, nor should any endorsements be inferred by CDC, HRSA, HHS, IP or the U.S. Government.
+    </p>
+	<a name="technical"> </a>
+	<h3>Technical Overview</h3>
+	<p>
+    Implementing an evidence-based clinical decision support quality improvement (QI) initiative to improve health centers in HIV prevention, diagnoses, care, and treatment to improve health outcomes. NACHC strategic approach will leverage existing informatics clinical decision support infrastructure both internally and externally to advance efforts of health centers to implement evidence-based strategies to end the HIV epidemic in their communities.
+  </p>
+  <p>
+    NACHC and its partners are applying Human Centered Design Framework tools and strategies to develop a clinical decision support intervention that is care team and patient centric through:
+  </p>
+  <ul>
+    <li>
+      the use of EHR tools and technology
+    </li>
+    <li>
+      iterative data submission
+    </li>
+    <li>
+      harmonization of clinical, data, and measure workflow implementation strategies across the CDC’s HIV care cascade clinical guidelines, and CDS tools that foster shared decision making
+    </li>
+  </ul>
+
+  <img src="{{site.data.info.assets}}hiv-functional-diagram.png" style="max-width: 100%;" />
+  
+  <a name="walkthrough"> </a>
+  <p>
+    The main sections of this IG are:
+  </p>
+  <ul>
+    <!-- 
+    <li>
+      <a href="background.html">Background</a> - provides business context for the implementation guide and information that implementers should be
+      familiar with before reading the remainder of the IG.  There could be multiple pages for this.
+    </li>
+    <li>
+      <a href="spec.html">Detailed Specification</a> - The actual stuff implementers are expected to do.  (Could be multiple pages for this.)
+    </li>
+  -->
+    <li>
+      <a href="recommendation-sample.html">Hello HIV World</a> - An Example Sample Recommendation to express end-to-end functionality.
+    </li>
+    <li>
+      <a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information
+    </li>
+  </ul>
+</div>
