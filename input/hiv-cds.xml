@@ -89,6 +89,11 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="architecture.html"/>
+        <title value="Architecture"/>
+        <generation value="html"/>
+      </page>
+      <page>
         <nameUrl value="recommendation-sample.html"/>
         <title value="Sample Recommendation"/>
         <generation value="html"/>
@@ -145,6 +150,14 @@
     <parameter>
       <code value="path-resource"/>
       <value value="input/resources/plandefinition"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary/codesystem"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary/valueset"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

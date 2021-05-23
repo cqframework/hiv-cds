@@ -1,0 +1,26 @@
+<details open="true">
+    <summary><h3 class="integration">Integration and Delivery</h3></summary>  
+      <a name="integration"> </a>
+        <p>
+            Integration and delivery for HIV Screening involves the usage of reasoning as a service (or on-demand data ingestion) to deliver computational expressions for a clinical practice guideline. This mechanism of integration is utilized for the HIV Screening guidelines through the usage of CDS-Hooks to provide clinical decision support for a clinician's workflow.
+        </p>
+
+        <a name="serviceingestion"> </a>
+        <h4>Reasoning-as-a-Service (on-demand data ingest and insight/inference delivery)</h4>
+
+            <p>
+                Integration of inferences or insights as a Service is similarly discussed in the related Methods of Implementation.  
+                In this pattern, there is some trigger (e.g. user interface event) in the clinical information system (or application of use) that prompts the system to call a Clinical Reasoning Service that provides the execution capability for the computable representations of the clinical practice guideline.  
+                The application of record/use may require multiple “round trips” to get the clinical reasoning service the data required to make appropriate inferences and then to receive those inferences.  
+                The service may directly provide inferences as data elements, may return a presentation layer (e.g., html), may return a link (href) to launch an external application (e.g. SMART-on-FHIR), or some combination of all three.  
+                Of note, this pattern of integration is typically implemented as on-demand or just-in-time service calls, clinical reasoning, and inference/insight delivery. CDSHooks is a principle example of this pattern.
+            </p>
+
+            <div>
+                <img alt="Clinical Reasoning-as-a-Service" class="img-responsive img-rounded center-block" src="{{site.data.info.assets}}integration-content-service.png"/>
+            </div>
+
+            <p><em>Figure 3</em> An example and pattern of Clinical Reasoning-as-a-Service using CDS Hooks eventing, 'pre-fetch' of patient data, and response.</p>
+
+            Sourced from the <a href="http://build.fhir.org/ig/HL7/cqf-recommendations/documentation-approach-10-mechanisms-of-integration.html"> FHIR Clinical Guidelines IG. </a>
+</details>

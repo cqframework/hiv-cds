@@ -45,10 +45,13 @@
     </li>
   -->
     <li>
-      <a href="recommendation-sample.html">Hello HIV World</a> - An Example Sample Recommendation to express end-to-end functionality.
+      <a href="architecture.html"> Project Architecture </a> - A page describing the methods of integration for CQL (Clinical Quality Language) and CDS-Hooks.
     </li>
     <li>
-      <a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information
+      <a href="recommendation-sample.html"> Hello HIV World </a> - An Example Sample Recommendation to express end-to-end functionality.
+    </li>
+    <li>
+      <a href="downloads.html"> Downloads </a> - Allows downloading a copy of this implementation guide and other useful information
     </li>
   </ul>
 </div>

@@ -1,0 +1,38 @@
+<details open="true">
+    <summary><h3 class="clinicalknowledge">Clinical Knowledge</h3></summary>  
+      <a name="clinicalknowledge"> </a>
+        <p>
+            Clinical knowledge entails information about relations of particular signs and symptoms with specific diseases. It consists of interpretive action and interaction-factors that involve communication, opinions, and experiences. The computability of clinical knowledge will provide leverage and support for existing informatics and clinical decision support infrastructure.
+        </p>
+
+        <p>
+            Establishing a basis for computable clinical knowledge will help support the Quality Improvement Ecosystem through the ease of use for shared logic in regards to HIV Screening.
+        </p>
+
+        <div>
+            <img alt="Quality Improvement Ecosystem" class="img-responsive img-rounded center-block" src="{{site.data.info.assets}}quality-improvement-ecosystem.png"/>
+        </div>
+
+        <p><em>Figure 1</em> The Quality Improvement Ecosystem.</p>
+
+        <a name="cql"> </a>
+        <h4>Clinical Quality Language (CQL)</h4>
+
+            <p>
+                Clinical Quality Language (CQL) is a high-level, domain-specific language focused on clinical quality and targeted at measure and decision support artifact authors. CQL has matured into a capable and flexible specification for representing clinically-focused logic, and is being used in a broad variety of applications from cohort definition and quality measurement, to clinical decision and cognitive support, computable guidelines, and public health reporting.
+            </p>
+
+            <p>
+                The usage of CQL enables the automated point-to-point sharing of executable clinical knowledge along with providing a clinically focused, author-friendly, and human-readable language that can be used in conjunction with Fast Healthcare Interoperability Resources (FHIR) and CDS-Hooks.
+            </p>
+
+            <div>
+                <img alt="CQL Architecture" class="img-responsive img-rounded center-block" src="{{site.data.info.assets}}cql-architecture.png"/>
+            </div>
+
+            <p><em>Figure 2</em> The logical structure and architecture for CQL.</p>
+
+            Sourced from the <a href="https://cql.hl7.org/index.html"> Clinical Quality Language IG. </a>
+
+            <p></p>
+</details>

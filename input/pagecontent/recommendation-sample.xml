@@ -1,46 +1,54 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+  <!-- Title / Description -->
+  <details open="true">
+    <summary><h3 class="func-desc">Functional Description</h3></summary>  
+      <a name="func-desc"> </a>
+        <p>
+          <strong>A simple example utilizing a FHIR Plan Definition, Library, ValueSet, and CQL to express an example HIV Screening recommendation for end-to-end testing purposes.</strong>
+        </p>
+  </details>
 
-  <h3>Functional Description</h3>
+  <!-- Content -->
+  <details open="true">
+    <summary><h3 class="content">Content</h3></summary>
+      <a name="content"> </a>
+        <p>The following artifacts formalize the description of the logic and behavior defined by this recommendation.</p>
 
-    <p>
-        <strong>A simple example utilizing a FHIR Plan Definition, Library, ValueSet, and CQL to express an example HIV Screening recommendation for end-to-end testing purposes.</strong>
-    </p>
+        {% include recommendation-sample-content.xml %}
 
-  <h3>Content</h3>
-
-    <p>The following artifacts formalize the description of the logic and behavior defined by this recommendation.</p>
-
-    {% include recommendation-sample-content.xml %}
-
-    <h4>Common Libraries</h4>
-      {% include common-start.html %}
-      {% include common-libraries.html %}
-      {% include common-end.html %}
+        <a name="common"> </a>
+        <h4>Common Libraries</h4>
+          {% include common-start.html %}
+          {% include common-libraries.html %}
+          {% include common-end.html %}
+  </details>
     
     <!-- Example Data/Requests -->
-    <h3 class="title">Example Data / Requests</h3>
-      <a name="exampledatarequests"> </a>
-      <table class="grid">
-        <thead>
-        <tr>
-            <th>Description</th><th>Bundle</th><th>CDS Hooks Request</th><th>Expected Response</th>
-        </tr>
-        </thead>
-        <tbody>
-          <tr>
-              <td class="col-7">Patient that has been diagnosed with HIV.</td>
-              <td><a href="Bundle-HelloHIVWorld-bundle.json">Test Bundle</a></td>
-              <td>
-                <div style="overflow-x: auto; overflow-y: auto; height: 70vh;">
-                  {% highlight json %}{% include assets/files/request-HIVPatient.json %}{% endhighlight %}
-                </div>
-              </td>
-              <td>
-                <div style="overflow-x: auto; overflow-y: auto; height: 70vh;">
-                  {% highlight json %}{% include assets/files/response-HIVPatient.json %}{% endhighlight %}
-                </div>
-              </td>
-          </tr>
-        </tbody>
-      </table>
+    <details open="true">
+      <summary><h3 class="exampledatarequests">Example Data / Requests</h3></summary>
+        <a name="exampledatarequests"> </a>
+          <table class="grid">
+            <thead>
+            <tr>
+                <th>Description</th><th>Bundle</th><th>CDS Hooks Request</th><th>Expected Response</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td class="col-7">Patient that has been diagnosed with HIV.</td>
+                  <td><a href="Bundle-HelloHIVWorld-bundle.json">Test Bundle</a></td>
+                  <td>
+                    <div style="overflow-x: auto; overflow-y: auto; height: 70vh;">
+                      {% highlight json %}{% include assets/files/request-HIVPatient.json %}{% endhighlight %}
+                    </div>
+                  </td>
+                  <td>
+                    <div style="overflow-x: auto; overflow-y: auto; height: 70vh;">
+                      {% highlight json %}{% include assets/files/response-HIVPatient.json %}{% endhighlight %}
+                    </div>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+    </details>
 </div>
