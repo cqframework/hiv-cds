@@ -1,0 +1,572 @@
+{
+  "resourceType": "ValueSet",
+  "id": "idu-as-a-condition-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/idu-as-a-condition-choices",
+  "name": "idu-as-a-condition-choices",
+  "title": "IDU as a condition Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the IDU as a condition Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "concept": [ {
+        "code": "A40",
+        "display": "Streptococcal sepsis"
+      }, {
+        "code": "A41",
+        "display": "Other sepsis"
+      }, {
+        "code": "A480",
+        "display": "Gas gangrene"
+      }, {
+        "code": "B37.6",
+        "display": "Candidal endocarditis"
+      }, {
+        "code": "G06",
+        "display": "Intracranial and intraspinal abscess and granuloma"
+      }, {
+        "code": "G09",
+        "display": "Sequelae of inflammatory diseases of central nervous system"
+      }, {
+        "code": "I26.9",
+        "display": "Pulmonary embolism without acute cor pulmonale"
+      }, {
+        "code": "I33",
+        "display": "Acute and subacute endocarditis"
+      }, {
+        "code": "I34",
+        "display": "Nonrheumatic mitral valve disorders"
+      }, {
+        "code": "I35",
+        "display": "Nonrheumatic aortic valve disorders"
+      }, {
+        "code": "I36",
+        "display": "Nonrheumatic tricuspid valve disorders"
+      }, {
+        "code": "I37",
+        "display": "Nonrheumatic pulmonary valve disorders"
+      }, {
+        "code": "I38",
+        "display": "Endocarditis, valve unspecified"
+      }, {
+        "code": "I39",
+        "display": "Endocarditis and heart valve disorders in diseases classified elsewhere"
+      }, {
+        "code": "I40.0",
+        "display": "Infective myocarditis"
+      }, {
+        "code": "I80",
+        "display": "Phlebitis and thrombophlebitis"
+      }, {
+        "code": "K63.0",
+        "display": "Abscess of intestine"
+      }, {
+        "code": "K65.0",
+        "display": "Generalized (acute) peritonitis"
+      }, {
+        "code": "K75.0",
+        "display": "Abscess of liver"
+      }, {
+        "code": "L02",
+        "display": "Cutaneous abscess, furuncle and carbuncle"
+      }, {
+        "code": "L03",
+        "display": "Cellulitis and acute lymphangitis"
+      }, {
+        "code": "L97",
+        "display": "Non-pressure chronic ulcer of lower limb, not elsewhere classified"
+      }, {
+        "code": "L98.8",
+        "display": "Other specified disorders of the skin and subcutaneous tissue"
+      }, {
+        "code": "M54.02",
+        "display": "Panniculitis affecting regions of neck and back, cervical region"
+      }, {
+        "code": "M72.6",
+        "display": "Necrotizing fasciitis"
+      }, {
+        "code": "M79.3",
+        "display": "Panniculitis, unspecified"
+      }, {
+        "code": "M86",
+        "display": "Osteomyelitis"
+      }, {
+        "code": "M89.9",
+        "display": "Disorder of bone, unspecified"
+      }, {
+        "code": "N10",
+        "display": "Acute tubulo-interstitial nephritis"
+      }, {
+        "code": "R65.1",
+        "display": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "228388006",
+        "display": "IV - Intravenous drug user"
+      }, {
+        "code": "389299009",
+        "display": "Intravenous drug user (finding)"
+      }, {
+        "code": "390034003",
+        "display": "Intravenous drug user (finding)"
+      }, {
+        "code": "10327003",
+        "display": "Cocaine-induced mood disorder (disorder)"
+      }, {
+        "code": "10755161000119100",
+        "display": "Drug dependence in childbirth (disorder)"
+      }, {
+        "code": "1081000119105",
+        "display": "Opioid dependence, on agonist therapy (disorder)"
+      }, {
+        "code": "110281001",
+        "display": "Chronic drug abuse (disorder)"
+      }, {
+        "code": "11061003",
+        "display": "Psychoactive substance use disorder (disorder)"
+      }, {
+        "code": "111479008",
+        "display": "Organic mental disorder (disorder)"
+      }, {
+        "code": "125851000119106",
+        "display": "Continuous sedative abuse (disorder)"
+      }, {
+        "code": "1383008",
+        "display": "Hallucinogen mood disorder (disorder)"
+      }, {
+        "code": "145101000119102",
+        "display": "Intravenous cocaine abuse (disorder)"
+      }, {
+        "code": "145841000119107",
+        "display": "Episodic phencyclidine abuse (disorder)"
+      }, {
+        "code": "1461000119109",
+        "display": "Drug dependence in remission (disorder)"
+      }, {
+        "code": "1471000119103",
+        "display": "Drug abuse in remission (disorder)"
+      }, {
+        "code": "14784000",
+        "display": "Opioid-induced organic mental disorder (disorder)"
+      }, {
+        "code": "15277004",
+        "display": "Hallucinogen-induced anxiety disorder (disorder)"
+      }, {
+        "code": "153491000119103",
+        "display": "Drug dependence, continuous (disorder)"
+      }, {
+        "code": "153501000119105",
+        "display": "Drug dependence, episodic (disorder)"
+      }, {
+        "code": "16076691000119100",
+        "display": "Episodic polysubstance dependence (disorder)"
+      }, {
+        "code": "171047005",
+        "display": "Drugs of addiction education (procedure)"
+      }, {
+        "code": "191483003",
+        "display": "Drug-induced psychosis (disorder)"
+      }, {
+        "code": "191484009",
+        "display": "Drug-induced paranoia or hallucinatory states (disorder)"
+      }, {
+        "code": "191485005",
+        "display": "Drug-induced paranoid state (disorder)"
+      }, {
+        "code": "191486006",
+        "display": "Drug-induced hallucinosis (disorder)"
+      }, {
+        "code": "191492000",
+        "display": "Drug-induced delirium (disorder)"
+      }, {
+        "code": "191493005",
+        "display": "Drug-induced dementia (disorder)"
+      }, {
+        "code": "191494004",
+        "display": "Drug-induced amnestic syndrome (disorder)"
+      }, {
+        "code": "191495003",
+        "display": "Drug-induced depressive state (disorder)"
+      }, {
+        "code": "191496002",
+        "display": "Drug-induced personality disorder (disorder)"
+      }, {
+        "code": "191805002",
+        "display": "Episodic acute alcoholic intoxication in alcoholism (disorder)"
+      }, {
+        "code": "191812006",
+        "display": "Episodic chronic alcoholism (disorder)"
+      }, {
+        "code": "191816009",
+        "display": "Drug dependence (disorder)"
+      }, {
+        "code": "191819002",
+        "display": "Continuous opioid dependence (disorder)"
+      }, {
+        "code": "191820008",
+        "display": "Episodic opioid dependence (disorder)"
+      }, {
+        "code": "191821007",
+        "display": "Opioid dependence in remission (disorder)"
+      }, {
+        "code": "191825003",
+        "display": "Hypnotic or anxiolytic dependence, continuous (disorder)"
+      }, {
+        "code": "191826002",
+        "display": "Hypnotic or anxiolytic dependence, episodic (disorder)"
+      }, {
+        "code": "191827006",
+        "display": "Hypnotic or anxiolytic dependence in remission (disorder)"
+      }, {
+        "code": "191831000",
+        "display": "Cocaine dependence, continuous (disorder)"
+      }, {
+        "code": "191832007",
+        "display": "Cocaine dependence, episodic (disorder)"
+      }, {
+        "code": "191833002",
+        "display": "Cocaine dependence in remission (disorder)"
+      }, {
+        "code": "191843004",
+        "display": "Amphetamine or psychostimulant dependence, continuous (disorder)"
+      }, {
+        "code": "191844005",
+        "display": "Amphetamine or psychostimulant dependence, episodic (disorder)"
+      }, {
+        "code": "191849000",
+        "display": "Hallucinogen dependence, continuous (disorder)"
+      }, {
+        "code": "191850000",
+        "display": "Hallucinogen dependence, episodic (disorder)"
+      }, {
+        "code": "191851001",
+        "display": "Hallucinogen dependence in remission (disorder)"
+      }, {
+        "code": "191865004",
+        "display": "Combined opioid with non-opioid drug dependence (disorder)"
+      }, {
+        "code": "191867007",
+        "display": "Combined opioid with non-opioid drug dependence, continuous (disorder)"
+      }, {
+        "code": "191868002",
+        "display": "Combined opioid with non-opioid drug dependence, episodic (disorder)"
+      }, {
+        "code": "191869005",
+        "display": "Combined opioid with non-opioid drug dependence in remission (disorder)"
+      }, {
+        "code": "191871005",
+        "display": "Combined drug dependence, excluding opioids (disorder)"
+      }, {
+        "code": "191873008",
+        "display": "Combined drug dependence, excluding opioid, continuous (disorder)"
+      }, {
+        "code": "191874002",
+        "display": "Combined drug dependence, excluding opioid, episodic (disorder)"
+      }, {
+        "code": "191875001",
+        "display": "Combined drug dependence, excluding opioid, in remission (disorder)"
+      }, {
+        "code": "19445006",
+        "display": "Opioid-induced psychotic disorder with hallucinations (disorder)"
+      }, {
+        "code": "199252002",
+        "display": "Drug dependence during pregnancy - baby delivered (disorder)"
+      }, {
+        "code": "199253007",
+        "display": "Drug dependence in the puerperium - baby delivered (disorder)"
+      }, {
+        "code": "199254001",
+        "display": "Drug dependence during pregnancy - baby not yet delivered (disorder)"
+      }, {
+        "code": "199255000",
+        "display": "Drug dependence in the puerperium - baby delivered during previous episode of care (disorder)"
+      }, {
+        "code": "20385005",
+        "display": "Opioid-induced psychotic disorder with delusions (disorder)"
+      }, {
+        "code": "21647008",
+        "display": "Amphetamine dependence (disorder)"
+      }, {
+        "code": "230334008",
+        "display": "Drug-induced tic (disorder)"
+      }, {
+        "code": "230443000",
+        "display": "Narcotic withdrawal epilepsy (disorder)"
+      }, {
+        "code": "231451006",
+        "display": "Drug-induced intensive care psychosis (disorder)"
+      }, {
+        "code": "231461004",
+        "display": "Hypnotic or anxiolytic abuse (disorder)"
+      }, {
+        "code": "231467000",
+        "display": "Absinthe addiction (disorder)"
+      }, {
+        "code": "231468005",
+        "display": "Lysergic acid diethylamide dependence (disorder)"
+      }, {
+        "code": "231469002",
+        "display": "Mescaline dependence (disorder)"
+      }, {
+        "code": "231470001",
+        "display": "Anxiolytic dependence (disorder)"
+      }, {
+        "code": "231477003",
+        "display": "Heroin dependence (disorder)"
+      }, {
+        "code": "231478008",
+        "display": "Methadone dependence (disorder)"
+      }, {
+        "code": "231479000",
+        "display": "Morphine dependence (disorder)"
+      }, {
+        "code": "231480002",
+        "display": "Opium dependence (disorder)"
+      }, {
+        "code": "231481003",
+        "display": "Controlled drug dependence (disorder)"
+      }, {
+        "code": "231482005",
+        "display": "Active drug dependence (disorder)"
+      }, {
+        "code": "237228001",
+        "display": "Pregnancy and drug dependence (disorder)"
+      }, {
+        "code": "2403008",
+        "display": "Psychoactive substance dependence (disorder)"
+      }, {
+        "code": "25508008",
+        "display": "Pathological drug intoxication (disorder)"
+      }, {
+        "code": "26416006",
+        "display": "Drug abuse (disorder)"
+      }, {
+        "code": "267206008",
+        "display": "Drug dependence during pregnancy, childbirth and the puerperium (disorder)"
+      }, {
+        "code": "268640002",
+        "display": "Hypnotic or anxiolytic dependence (disorder)"
+      }, {
+        "code": "27956007",
+        "display": "Cocaine intoxication (disorder)"
+      }, {
+        "code": "288851000119106",
+        "display": "Opioid-induced mood disorder due to opioid abuse (disorder)"
+      }, {
+        "code": "288861000119108",
+        "display": "Opioid-induced mood disorder due to opioid dependence (disorder)"
+      }, {
+        "code": "29733004",
+        "display": "Opioid-induced mood disorder (disorder)"
+      }, {
+        "code": "30310000",
+        "display": "Nicotine-induced organic mental disorder (disorder)"
+      }, {
+        "code": "30491001",
+        "display": "Cocaine delusional disorder (disorder)"
+      }, {
+        "code": "313915006",
+        "display": "Hypnotic-induced organic mental disorder (disorder)"
+      }, {
+        "code": "31956009",
+        "display": "Cocaine dependence (disorder)"
+      }, {
+        "code": "32009006",
+        "display": "Hallucinogen hallucinosis (disorder)"
+      }, {
+        "code": "32358001",
+        "display": "Amphetamine delusional disorder (disorder)"
+      }, {
+        "code": "33845003",
+        "display": "Idiosyncratic drug effect (disorder)"
+      }, {
+        "code": "363101005",
+        "display": "Drug withdrawal (disorder)"
+      }, {
+        "code": "38247002",
+        "display": "Hallucinogen dependence (disorder)"
+      }, {
+        "code": "40571009",
+        "display": "Hallucinogen intoxication delirium (disorder)"
+      }, {
+        "code": "416714005",
+        "display": "Episodic flashbacks (disorder)"
+      }, {
+        "code": "417360004",
+        "display": "Duplicative flashbacks (disorder)"
+      }, {
+        "code": "425533007",
+        "display": "Episodic drug abuse (disorder)"
+      }, {
+        "code": "425885002",
+        "display": "Continuous phencyclidine abuse (disorder)"
+      }, {
+        "code": "426001001",
+        "display": "Fentanyl dependence (disorder)"
+      }, {
+        "code": "426590003",
+        "display": "Drug abuse, continuous (disorder)"
+      }, {
+        "code": "426873000",
+        "display": "Methamphetamine dependence (disorder)"
+      }, {
+        "code": "427205009",
+        "display": "Amphetamine abuse, continuous (disorder)"
+      }, {
+        "code": "427229002",
+        "display": "Episodic inhalant abuse (disorder)"
+      }, {
+        "code": "427975003",
+        "display": "Drug-induced delusional disorder (disorder)"
+      }, {
+        "code": "428561000124100",
+        "display": "Maternal substance abuse (situation)"
+      }, {
+        "code": "429001000124103",
+        "display": "Catha edulis abuse (disorder)"
+      }, {
+        "code": "429299000",
+        "display": "Combined drug dependence, continuous (disorder)"
+      }, {
+        "code": "429672007",
+        "display": "Drug-induced mood disorder (disorder)"
+      }, {
+        "code": "429692000",
+        "display": "Amphetamine abuse, episodic (disorder)"
+      }, {
+        "code": "441681009",
+        "display": "Dependence on unknown drug (disorder)"
+      }, {
+        "code": "445273005",
+        "display": "Polysubstance abuse (disorder)"
+      }, {
+        "code": "46975003",
+        "display": "Cocaine-induced organic mental disorder (disorder)"
+      }, {
+        "code": "50320000",
+        "display": "Hallucinogen intoxication (disorder)"
+      }, {
+        "code": "50933003",
+        "display": "Hallucinogen delusional disorder (disorder)"
+      }, {
+        "code": "51339003",
+        "display": "Polysubstance dependence (disorder)"
+      }, {
+        "code": "51493001",
+        "display": "Cocaine-induced anxiety disorder (disorder)"
+      }, {
+        "code": "52866005",
+        "display": "Opioid intoxication delirium (disorder)"
+      }, {
+        "code": "53050002",
+        "display": "Hallucinogen-induced organic mental disorder (disorder)"
+      }, {
+        "code": "5602001",
+        "display": "Opioid abuse (disorder)"
+      }, {
+        "code": "6348008",
+        "display": "Cocaine-induced psychotic disorder with hallucinations (disorder)"
+      }, {
+        "code": "6525002",
+        "display": "Dependent drug abuse (disorder)"
+      }, {
+        "code": "66214007",
+        "display": "Substance abuse (disorder)"
+      }, {
+        "code": "699449003",
+        "display": "Methamphetamine abuse (disorder)"
+      }, {
+        "code": "70328006",
+        "display": "Cocaine delirium (disorder)"
+      }, {
+        "code": "71328000",
+        "display": "Opioid-induced sexual dysfunction (disorder)"
+      }, {
+        "code": "713775002",
+        "display": "Novel psychoactive substance misuse (disorder)"
+      }, {
+        "code": "724653003",
+        "display": "Opioid dependence with current use (disorder)"
+      }, {
+        "code": "724656006",
+        "display": "Hypnotic dependence (disorder)"
+      }, {
+        "code": "724658007",
+        "display": "Hypnotic dependence with current use (disorder)"
+      }, {
+        "code": "724660009",
+        "display": "Hypnotic withdrawal (disorder)"
+      }, {
+        "code": "724663006",
+        "display": "Hypnotic withdrawal without complication (disorder)"
+      }, {
+        "code": "724688003",
+        "display": "Cocaine dependence with current use (disorder)"
+      }, {
+        "code": "724694006",
+        "display": "Harmful pattern of use of caffeine (disorder)"
+      }, {
+        "code": "724695007",
+        "display": "Hallucinogen dependence with current use (disorder)"
+      }, {
+        "code": "724697004",
+        "display": "Harmful pattern of use of nicotine (disorder)"
+      }, {
+        "code": "724704009",
+        "display": "Methylenedioxymethamphetamine dependence with current use (disorder)"
+      }, {
+        "code": "724712001",
+        "display": "Harmful use of dissociative drug (disorder)"
+      }, {
+        "code": "724713006",
+        "display": "Harmful use of ketamine (disorder)"
+      }, {
+        "code": "724724008",
+        "display": "Psychoactive substance dependence with current use (disorder)"
+      }, {
+        "code": "724725009",
+        "display": "Psychoactive substance withdrawal without complication (disorder)"
+      }, {
+        "code": "74851005",
+        "display": "Hallucinogen abuse (disorder)"
+      }, {
+        "code": "75544000",
+        "display": "Opioid dependence (disorder)"
+      }, {
+        "code": "78267003",
+        "display": "Cocaine abuse (disorder)"
+      }, {
+        "code": "78358001",
+        "display": "Amphetamine withdrawal (disorder)"
+      }, {
+        "code": "80868005",
+        "display": "Cocaine withdrawal (disorder)"
+      }, {
+        "code": "84758004",
+        "display": "Amphetamine abuse (disorder)"
+      }, {
+        "code": "87132004",
+        "display": "Opioid withdrawal (disorder)"
+      }, {
+        "code": "8837000",
+        "display": "Amphetamine delirium (disorder)"
+      }, {
+        "code": "90755006",
+        "display": "Nicotine withdrawal (disorder)"
+      }, {
+        "code": "91388009",
+        "display": "Psychoactive substance abuse (disorder)"
+      }, {
+        "code": "95918004",
+        "display": "Therapeutic drug dependence (disorder)"
+      }, {
+        "code": "9769006",
+        "display": "Drug habituation (disorder)"
+      } ]
+    } ]
+  }
+}

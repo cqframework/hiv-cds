@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-infections-and-venereal-diseases",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-infections-and-venereal-diseases",
+  "name": "chlamydia-infections-and-venereal-diseases",
+  "title": "Chlamydia Infections and Venereal Diseases",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Infections and Venereal Diseases element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Chlamydia Infections and Venereal Diseases",
+        "display": "Chlamydia Infections and Venereal Diseases"
+      } ]
+    } ]
+  }
+}

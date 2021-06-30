@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hepatitis-c-ag-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-ag-choices",
+  "name": "hepatitis-c-ag-choices",
+  "title": "Hepatitis C Ag Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C Ag Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "79189-7",
+        "display": "Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay"
+      }, {
+        "code": "54914-7",
+        "display": "Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay"
+      } ]
+    } ]
+  }
+}

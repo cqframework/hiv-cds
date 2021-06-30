@@ -89,6 +89,16 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="profiles.html" />
+        <title value="Profiles" />
+        <generation value="html" />
+        <page>
+          <nameUrl value="nachc-hivDataElementsByActivity.html" />
+          <title value="NACHC Data Element By Activity" />
+          <generation value="markdown" />
+        </page>
+      </page>
+      <page>
         <nameUrl value="architecture.html"/>
         <title value="Architecture"/>
         <generation value="html"/>
@@ -150,6 +160,10 @@
     <parameter>
       <code value="path-resource"/>
       <value value="input/resources/plandefinition"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/profiles"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

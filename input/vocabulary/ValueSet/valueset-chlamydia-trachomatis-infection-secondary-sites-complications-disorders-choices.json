@@ -1,0 +1,107 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-trachomatis-infection-secondary-sites-complications-disorders-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-infection-secondary-sites-complications-disorders-choices",
+  "name": "chlamydia-trachomatis-infection-secondary-sites-complications-disorders-choices",
+  "title": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "186729003",
+        "display": "Chlamydial infection of lower genitourinary tract (disorder)"
+      }, {
+        "code": "186731007",
+        "display": "Chlamydial infection of anus and rectum (disorder)"
+      }, {
+        "code": "186946009",
+        "display": "Lymphogranuloma venereum (disorder)"
+      }, {
+        "code": "188463006",
+        "display": "Chlamydial pelvic inflammatory disease (disorder)"
+      }, {
+        "code": "189312004",
+        "display": "Pelvic inflammation with female sterility caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "197172005",
+        "display": "Chlamydial peritonitis (disorder)"
+      }, {
+        "code": "206289001",
+        "display": "Congenital chlamydial pneumonia (disorder)"
+      }, {
+        "code": "232403001",
+        "display": "Chlamydial pharyngitis (disorder)"
+      }, {
+        "code": "233610007",
+        "display": "Neonatal chlamydial pneumonia (disorder)"
+      }, {
+        "code": "234099003",
+        "display": "Lymphedema due to lymphogranuloma venereum (disorder)"
+      }, {
+        "code": "236672003",
+        "display": "Chlamydial prostatitis (disorder)"
+      }, {
+        "code": "236683007",
+        "display": "Chlamydial urethritis (disorder)"
+      }, {
+        "code": "236749007",
+        "display": "Chlamydial balanitis (disorder)"
+      }, {
+        "code": "236767000",
+        "display": "Chlamydial epididymitis (disorder)"
+      }, {
+        "code": "236773004",
+        "display": "Chlamydial epididymo-orchitis (disorder)"
+      }, {
+        "code": "237039009",
+        "display": "Chlamydial salpingitis (disorder)"
+      }, {
+        "code": "237043008",
+        "display": "Chlamydial perihepatitis (disorder)"
+      }, {
+        "code": "237084006",
+        "display": "Chlamydial cervicitis (disorder)"
+      }, {
+        "code": "237097008",
+        "display": "Chlamydial vulvovaginitis (disorder)"
+      }, {
+        "code": "237106009",
+        "display": "Chlamydial bartholinitis (disorder)"
+      }, {
+        "code": "238372002",
+        "display": "Chlamydial dermatological disorders (disorder)"
+      }, {
+        "code": "240589008",
+        "display": "Chlamydia trachomatis infection (disorder)"
+      }, {
+        "code": "240590004",
+        "display": "Neonatal chlamydial infection (disorder)"
+      }, {
+        "code": "240602008",
+        "display": "Early lymphogranuloma venereum (disorder)"
+      }, {
+        "code": "240603003",
+        "display": "Late lymphogranuloma venereum (disorder)"
+      }, {
+        "code": "240604009",
+        "display": "Latent lymphogranuloma venereum (disorder)"
+      }, {
+        "code": "272262003",
+        "display": "Esthiomene (disorder)"
+      }, {
+        "code": "276681001",
+        "display": "Neonatal chlamydial dacryocystitis (disorder)"
+      }, {
+        "code": "367504009",
+        "display": "Pelvic inflammatory disease with female sterility due to Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "406566006",
+        "display": "Chlamydial infection of the central nervous system (disorder)"
+      } ]
+    } ]
+  }
+}

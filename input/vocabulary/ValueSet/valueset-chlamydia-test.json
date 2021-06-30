@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-test",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-test",
+  "name": "chlamydia-test",
+  "title": "Chlamydia test",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia test element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Chlamydia test",
+        "display": "Chlamydia test"
+      } ]
+    } ]
+  }
+}

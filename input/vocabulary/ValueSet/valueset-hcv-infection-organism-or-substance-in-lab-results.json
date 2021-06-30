@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hcv-infection-organism-or-substance-in-lab-results",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hcv-infection-organism-or-substance-in-lab-results",
+  "name": "hcv-infection-organism-or-substance-in-lab-results",
+  "title": "HCV Infection (Organism or Substance in Lab Results)",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HCV Infection (Organism or Substance in Lab Results) element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "HCV Infection (Organism or Substance in Lab Results)",
+        "display": "HCV Infection (Organism or Substance in Lab Results)"
+      } ]
+    } ]
+  }
+}

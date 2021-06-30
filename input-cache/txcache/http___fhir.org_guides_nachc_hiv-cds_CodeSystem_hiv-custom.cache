@@ -1,0 +1,1243 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chlamydia Infections and Venereal Diseases"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chlamydia Infections and Venereal Diseases\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chlamydia Infections and Venereal Diseases) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chlamydia Screening"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chlamydia Screening\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chlamydia Screening) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chlamydia test"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chlamydia test\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chlamydia test) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chlamydia trachomatis organism or Chlamydia trachomatis substance"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chlamydia trachomatis organism or Chlamydia trachomatis substance\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chlamydia trachomatis organism or Chlamydia trachomatis substance) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chlamydia Trachomatis Tests, FPAR"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chlamydia Trachomatis Tests, FPAR\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chlamydia Trachomatis Tests, FPAR) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chlamydia"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chlamydia\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chlamydia) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Chronic Infection of liver due to Hepatitis C virus."
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Chronic Infection of liver due to Hepatitis C virus.\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Chronic Infection of liver due to Hepatitis C virus.) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Drug Rehabilitation"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Drug Rehabilitation\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Drug Rehabilitation) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonococcal Infections and Venereal Diseases"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonococcal Infections and Venereal Diseases\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonococcal Infections and Venereal Diseases) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea [Secondary Sites Complications Chronic] (Disorders)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea [Secondary Sites Complications Chronic] (Disorders)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea test"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea test\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea test) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Value Set"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Value Set\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Value Set) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea (Tests for Neisseria gonorrhoeae by Culture and Identification Method)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea (Tests for Neisseria gonorrhoeae by Culture and Identification Method)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea (Tests for Neisseria gonorrhoeae by Culture and Identification Method)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea (Tests for Neisseria species by Culture and Identification Method)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea (Tests for Neisseria species by Culture and Identification Method)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "HCV Infection (Organism or Substance in Lab Results)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"HCV Infection (Organism or Substance in Lab Results)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#HCV Infection (Organism or Substance in Lab Results)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Hepatitis C Ag"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Hepatitis C Ag\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Hepatitis C Ag) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Hepatitis C condition"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Hepatitis C condition\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Hepatitis C condition) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Hepatitis C nucleic acid"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Hepatitis C nucleic acid\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Hepatitis C nucleic acid) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Hepatitis C virus antibody test."
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Hepatitis C virus antibody test.\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Hepatitis C virus antibody test.) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Hepatitis C virus antibody test using Immunoblotting (IB) method."
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Hepatitis C virus antibody test using Immunoblotting (IB) method.\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Hepatitis C virus antibody test using Immunoblotting (IB) method.) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Hepatitis C Virus Infection (Disorders)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Hepatitis C Virus Infection (Disorders)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Hepatitis C Virus Infection (Disorders)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Hepatitis C virus nucleic (RNA) test."
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Hepatitis C virus nucleic (RNA) test.\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Hepatitis C virus nucleic (RNA) test.) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "HIV-1 HIV 2 Ab Ag tests"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"HIV-1 HIV 2 Ab Ag tests\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#HIV-1 HIV 2 Ab Ag tests) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "HIV infection as a condition"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"HIV infection as a condition\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#HIV infection as a condition) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "HIV Viral Load"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"HIV Viral Load\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#HIV Viral Load) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "IDU as a condition"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"IDU as a condition\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#IDU as a condition) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Injection Drug Use"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Injection Drug Use\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Injection Drug Use) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Injection Findings"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Injection Findings\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Injection Findings) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Maternal Care"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Maternal Care\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Maternal Care) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Post Exposure Prophylaxis"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Post Exposure Prophylaxis\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Post Exposure Prophylaxis) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Pregnancy Conditions"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Pregnancy Conditions\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Pregnancy Conditions) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Pregnancy Encounters"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Pregnancy Encounters\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Pregnancy Encounters) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Pregnancy Observations"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Pregnancy Observations\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Pregnancy Observations) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Pregnancy Procedures"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Pregnancy Procedures\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Pregnancy Procedures) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Pregnancy Supervision"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Pregnancy Supervision\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Pregnancy Supervision) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Syphilis condition"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Syphilis condition\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Syphilis condition) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Syphilis (Organism or Substance in Lab Results)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Syphilis (Organism or Substance in Lab Results)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Syphilis (Organism or Substance in Lab Results)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Syphilis (Tests for Treponema pallidum Nucleic Acid)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Syphilis (Tests for Treponema pallidum Nucleic Acid)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Syphilis (Tests for Treponema pallidum Nucleic Acid)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Syphilis (Tests for Treponemal or Non Treponemal Antibody)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Syphilis (Tests for Treponemal or Non Treponemal Antibody)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Syphilis (Tests for Treponemal or Non Treponemal Antibody)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Syphilis"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Syphilis\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Syphilis) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Tests for Chlamydia trachomatis Antigen"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Tests for Chlamydia trachomatis Antigen\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Tests for Chlamydia trachomatis Antigen) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Tests for Chlamydia trachomatis by Culture and Identification Method)"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Tests for Chlamydia trachomatis by Culture and Identification Method)\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Tests for Chlamydia trachomatis by Culture and Identification Method)) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Tests for Chlamydia trachomatis Nucleic Acid"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Tests for Chlamydia trachomatis Nucleic Acid\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Tests for Chlamydia trachomatis Nucleic Acid) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "code" : "Gonorrhea Tests for Neisseria gonorrhea by Culture"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom\" is not known (encountered paired with code = \"Gonorrhea Tests for Neisseria gonorrhea by Culture\"); The code provided (http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom#Gonorrhea Tests for Neisseria gonorrhea by Culture) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chlamydia Infections and Venereal Diseases",
+        "display" : "Chlamydia Infections and Venereal Diseases"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chlamydia Screening",
+        "display" : "Chlamydia Screening"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chlamydia test",
+        "display" : "Chlamydia test"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)",
+        "display" : "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chlamydia trachomatis organism or Chlamydia trachomatis substance",
+        "display" : "Chlamydia trachomatis organism or Chlamydia trachomatis substance"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chlamydia Trachomatis Tests, FPAR",
+        "display" : "Chlamydia Trachomatis Tests, FPAR"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chlamydia",
+        "display" : "Chlamydia"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Chronic Infection of liver due to Hepatitis C virus.",
+        "display" : "Chronic Infection of liver due to Hepatitis C virus."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Drug Rehabilitation",
+        "display" : "Drug Rehabilitation"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonococcal Infections and Venereal Diseases",
+        "display" : "Gonococcal Infections and Venereal Diseases"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)",
+        "display" : "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)",
+        "display" : "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)",
+        "display" : "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea test",
+        "display" : "Gonorrhea test"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests",
+        "display" : "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea Tests for Neisseria gonorrhea by Culture",
+        "display" : "Gonorrhea Tests for Neisseria gonorrhea by Culture"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)",
+        "display" : "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)",
+        "display" : "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "HCV Infection (Organism or Substance in Lab Results)",
+        "display" : "HCV Infection (Organism or Substance in Lab Results)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Hepatitis C Ag",
+        "display" : "Hepatitis C Ag"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Hepatitis C condition",
+        "display" : "Hepatitis C condition"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Hepatitis C nucleic acid",
+        "display" : "Hepatitis C nucleic acid"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Hepatitis C virus antibody test.",
+        "display" : "Hepatitis C virus antibody test."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Hepatitis C virus antibody test using Immunoblotting (IB) method.",
+        "display" : "Hepatitis C virus antibody test using Immunoblotting (IB) method."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Hepatitis C Virus Infection (Disorders)",
+        "display" : "Hepatitis C Virus Infection (Disorders)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Hepatitis C virus nucleic (RNA) test.",
+        "display" : "Hepatitis C virus nucleic (RNA) test."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "HIV-1 HIV 2 Ab Ag tests",
+        "display" : "HIV-1 HIV 2 Ab Ag tests"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "HIV infection as a condition",
+        "display" : "HIV infection as a condition"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "HIV Viral Load",
+        "display" : "HIV Viral Load"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "IDU as a condition",
+        "display" : "IDU as a condition"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Injection Drug Use",
+        "display" : "Injection Drug Use"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Injection Findings",
+        "display" : "Injection Findings"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Maternal Care",
+        "display" : "Maternal Care"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Post Exposure Prophylaxis",
+        "display" : "Post Exposure Prophylaxis"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Pregnancy Conditions",
+        "display" : "Pregnancy Conditions"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Pregnancy Encounters",
+        "display" : "Pregnancy Encounters"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Pregnancy Observations",
+        "display" : "Pregnancy Observations"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Pregnancy Procedures",
+        "display" : "Pregnancy Procedures"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Pregnancy Supervision",
+        "display" : "Pregnancy Supervision"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Syphilis condition",
+        "display" : "Syphilis condition"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Syphilis (Organism or Substance in Lab Results)",
+        "display" : "Syphilis (Organism or Substance in Lab Results)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+        "display" : "Syphilis (Tests for Treponema pallidum Nucleic Acid)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Syphilis (Tests for Treponemal or Non Treponemal Antibody)",
+        "display" : "Syphilis (Tests for Treponemal or Non Treponemal Antibody)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Syphilis",
+        "display" : "Syphilis"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Tests for Chlamydia trachomatis Antigen",
+        "display" : "Tests for Chlamydia trachomatis Antigen"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Tests for Chlamydia trachomatis by Culture and Identification Method)",
+        "display" : "Tests for Chlamydia trachomatis by Culture and Identification Method)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept" : [{
+        "code" : "Tests for Chlamydia trachomatis Nucleic Acid",
+        "display" : "Tests for Chlamydia trachomatis Nucleic Acid"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+}
+-------------------------------------------------------------------------------------

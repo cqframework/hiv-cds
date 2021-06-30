@@ -1,0 +1,122 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hepatitis-c-nucleic-acid-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-nucleic-acid-choices",
+  "name": "hepatitis-c-nucleic-acid-choices",
+  "title": "Hepatitis C nucleic acid Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C nucleic acid Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "51657-5",
+        "display": "Hepatitis C virus Ab [Presence] in Body fluid"
+      }, {
+        "code": "39008-8",
+        "display": "Hepatitis C virus Ab [Presence] in Body fluid by Immunoblot"
+      }, {
+        "code": "42506-6",
+        "display": "Hepatitis C virus Ab [Presence] in Cerebral spinal fluid"
+      }, {
+        "code": "51656-7",
+        "display": "Hepatitis C virus Ab Signal/Cutoff in Body fluid"
+      }, {
+        "code": "81116-6",
+        "display": "Hepatitis C virus core Ab+Ag [Presence] in Serum"
+      }, {
+        "code": "48574-8",
+        "display": "Hepatitis C virus genotype [Identifier] in Blood by NAA with probe detection"
+      }, {
+        "code": "32286-7",
+        "display": "Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection"
+      }, {
+        "code": "49607-5",
+        "display": "Hepatitis C virus genotype [Identifier] in Tissue by NAA with probe detection"
+      }, {
+        "code": "48575-5",
+        "display": "Hepatitis C virus genotype [Identifier] in Unspecified specimen by NAA with probe detection"
+      }, {
+        "code": "82512-5",
+        "display": "Hepatitis C virus genotype 1 [Type] in Serum or Plasma by NAA with probe detection"
+      }, {
+        "code": "82380-7",
+        "display": "Hepatitis C virus genotype 1 NS5a gene mutations detected [Identifier]"
+      }, {
+        "code": "82381-5",
+        "display": "Hepatitis C virus genotype 1 NS5b gene mutations detected [Identifier]"
+      }, {
+        "code": "82513-3",
+        "display": "Hepatitis C virus genotype 3 [Presence] in Serum or Plasma by NAA with probe detection"
+      }, {
+        "code": "82514-1",
+        "display": "Hepatitis C virus genotype 3 NS5a gene mutations detected [Identifier]"
+      }, {
+        "code": "92731-9",
+        "display": "Hepatitis C virus genotype in Serum or Plasma by Sequencing"
+      }, {
+        "code": "89359-4",
+        "display": "Hepatitis C virus IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+      }, {
+        "code": "73654-6",
+        "display": "Hepatitis C virus NS3 gene mutations detected [Identifier] by Genotype method"
+      }, {
+        "code": "73655-3",
+        "display": "Hepatitis C virus NS5 gene mutations detected [Identifier] by Genotype method"
+      }, {
+        "code": "49370-0",
+        "display": "Hepatitis C virus RNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+      }, {
+        "code": "49369-2",
+        "display": "Hepatitis C virus RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+      }, {
+        "code": "49371-8",
+        "display": "Hepatitis C virus RNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+      }, {
+        "code": "49374-2",
+        "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Bone marrow by NAA with probe detection"
+      }, {
+        "code": "49373-4",
+        "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+      }, {
+        "code": "49375-9",
+        "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Tissue by NAA with probe detection"
+      }, {
+        "code": "49604-2",
+        "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Bone marrow by NAA with probe detection"
+      }, {
+        "code": "49603-4",
+        "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+      }, {
+        "code": "49608-3",
+        "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Tissue by NAA with probe detection"
+      }, {
+        "code": "51655-9",
+        "display": "Hepatitis C virus RNA [Presence] in Body fluid by NAA with probe detection"
+      }, {
+        "code": "1136302",
+        "display": "Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection"
+      }, {
+        "code": "49378-3",
+        "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Bone marrow by NAA with probe detection"
+      }, {
+        "code": "49377-5",
+        "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+      }, {
+        "code": "49379-1",
+        "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Tissue by NAA with probe detection"
+      }, {
+        "code": "53825-6",
+        "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
+      }, {
+        "code": "38998-1",
+        "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection"
+      }, {
+        "code": "59052-1",
+        "display": "HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
+      } ]
+    } ]
+  }
+}

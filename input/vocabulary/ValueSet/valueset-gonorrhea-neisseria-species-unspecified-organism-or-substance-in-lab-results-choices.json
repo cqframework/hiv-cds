@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-neisseria-species-unspecified-organism-or-substance-in-lab-results-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-neisseria-species-unspecified-organism-or-substance-in-lab-results-choices",
+  "name": "gonorrhea-neisseria-species-unspecified-organism-or-substance-in-lab-results-choices",
+  "title": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "414811005",
+        "display": "Neisseria species not Neisseria gonococci (organism)"
+      }, {
+        "code": "59083001",
+        "display": "Genus Neisseria (organism)"
+      }, {
+        "code": "715869002",
+        "display": "Neisseria species, not Neisseria meningitidis (organism)"
+      }, {
+        "code": "715872009",
+        "display": "Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)"
+      } ]
+    } ]
+  }
+}

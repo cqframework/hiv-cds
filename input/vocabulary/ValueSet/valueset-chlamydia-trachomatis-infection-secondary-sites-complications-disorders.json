@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-trachomatis-infection-secondary-sites-complications-disorders",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-infection-secondary-sites-complications-disorders",
+  "name": "chlamydia-trachomatis-infection-secondary-sites-complications-disorders",
+  "title": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders) element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)",
+        "display": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-tests-for-neisseria-gonorrhea-by-culture",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-for-neisseria-gonorrhea-by-culture",
+  "name": "gonorrhea-tests-for-neisseria-gonorrhea-by-culture",
+  "title": "Gonorrhea Tests for Neisseria gonorrhea by Culture",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Tests for Neisseria gonorrhea by Culture element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture",
+        "display": "Gonorrhea Tests for Neisseria gonorrhea by Culture"
+      } ]
+    } ]
+  }
+}

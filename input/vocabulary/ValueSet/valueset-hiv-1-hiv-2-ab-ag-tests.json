@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hiv-1-hiv-2-ab-ag-tests",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-1-hiv-2-ab-ag-tests",
+  "name": "hiv-1-hiv-2-ab-ag-tests",
+  "title": "HIV-1 HIV 2 Ab Ag tests",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HIV-1 HIV 2 Ab Ag tests element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "HIV-1 HIV 2 Ab Ag tests",
+        "display": "HIV-1 HIV 2 Ab Ag tests"
+      } ]
+    } ]
+  }
+}

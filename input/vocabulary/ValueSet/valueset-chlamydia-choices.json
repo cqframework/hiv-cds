@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-choices",
+  "name": "chlamydia-choices",
+  "title": "Chlamydia Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "concept": [ {
+        "code": "A55",
+        "display": "Chlamydial lymphogranuloma (venereum)"
+      }, {
+        "code": "A56.00",
+        "display": "Chlamydial infection of lower genitourinary tract, unspecified"
+      }, {
+        "code": "A56.01",
+        "display": "Chlamydial cystitis and urethritis"
+      }, {
+        "code": "A56.09",
+        "display": "Other chlamydial infection of lower genitourinary tract"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "105629000",
+        "display": "Chlamydial infection (disorder)"
+      }, {
+        "code": "10750051000119100",
+        "display": "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
+      }, {
+        "code": "1084821000119100",
+        "display": "Cystitis caused by Chlamydia (disorder)"
+      }, {
+        "code": "442505006",
+        "display": "Chlamydia trachomatis, serotype Ja (organism)"
+      }, {
+        "code": "446471004",
+        "display": "Infection of epididymis caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "446594000",
+        "display": "Infection of pharynx caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "446642005",
+        "display": "Infection of anus caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "446752000",
+        "display": "Infection of peritoneum caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "446902002",
+        "display": "Infection of testis caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "447353001",
+        "display": "Infection of cervix caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "447372001",
+        "display": "Infection of rectum caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "447386002",
+        "display": "Infection of vulva caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "447402003",
+        "display": "Infection of vagina caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "460618008",
+        "display": "Endocarditis caused by Genus Chlamydia (disorder)"
+      }, {
+        "code": "59134003",
+        "display": "Lymphogranuloma venereum antigen (substance)"
+      }, {
+        "code": "59484000",
+        "display": "Chlamydial polyarthritis (disorder)"
+      }, {
+        "code": "63938009",
+        "display": "Chlamydia trachomatis (organism)"
+      }, {
+        "code": "708219005",
+        "display": "Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)"
+      }, {
+        "code": "722520001",
+        "display": "Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "722552001",
+        "display": "Sequela of infection caused by Chlamydia (disorder)"
+      } ]
+    } ]
+  }
+}

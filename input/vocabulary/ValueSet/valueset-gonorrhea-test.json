@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-test",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-test",
+  "name": "gonorrhea-test",
+  "title": "Gonorrhea test",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea test element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gonorrhea test",
+        "display": "Gonorrhea test"
+      } ]
+    } ]
+  }
+}

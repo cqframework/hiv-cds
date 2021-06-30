@@ -1,0 +1,95 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-trachomatis-organism-or-chlamydia-trachomatis-substance-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-organism-or-chlamydia-trachomatis-substance-choices",
+  "name": "chlamydia-trachomatis-organism-or-chlamydia-trachomatis-substance-choices",
+  "title": "Chlamydia trachomatis organism or Chlamydia trachomatis substance Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia trachomatis organism or Chlamydia trachomatis substance Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "112121000119105",
+        "display": "Venereal disease caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "115289001",
+        "display": "Chlamydia trachomatis, serotype A (organism)"
+      }, {
+        "code": "115290005",
+        "display": "Chlamydia trachomatis, serotype B (organism)"
+      }, {
+        "code": "115291009",
+        "display": "Chlamydia trachomatis, serotype Ba (organism)"
+      }, {
+        "code": "115292002",
+        "display": "Chlamydia trachomatis, serotype C (organism)"
+      }, {
+        "code": "115293007",
+        "display": "Chlamydia trachomatis, serotype D (organism)"
+      }, {
+        "code": "115294001",
+        "display": "Chlamydia trachomatis, serotype E (organism)"
+      }, {
+        "code": "115295000",
+        "display": "Chlamydia trachomatis, serotype F (organism)"
+      }, {
+        "code": "115296004",
+        "display": "Chlamydia trachomatis, serotype I (organism)"
+      }, {
+        "code": "115297008",
+        "display": "Chlamydia trachomatis, serotype J (organism)"
+      }, {
+        "code": "115298003",
+        "display": "Chlamydia trachomatis, serotype K (organism)"
+      }, {
+        "code": "115299006",
+        "display": "Chlamydia trachomatis, serotype L (organism)"
+      }, {
+        "code": "115300003",
+        "display": "Chlamydia trachomatis, serotype L1 (organism)"
+      }, {
+        "code": "115301004",
+        "display": "Chlamydia trachomatis, serotype L2 (organism)"
+      }, {
+        "code": "115318000",
+        "display": "Chlamydia trachomatis, serotype L3 (organism)"
+      }, {
+        "code": "115319008",
+        "display": "Chlamydia trachomatis, serotype G (organism)"
+      }, {
+        "code": "115328009",
+        "display": "Chlamydia trachomatis, serotype H (organism)"
+      }, {
+        "code": "121002007",
+        "display": "Antigen of Chlamydia trachomatis (substance)"
+      }, {
+        "code": "121015003",
+        "display": "Antigen of Chlamydia trachomatis serotype F (substance)"
+      }, {
+        "code": "121016002",
+        "display": "Antigen of Chlamydia trachomatis serotype G (substance)"
+      }, {
+        "code": "121017006",
+        "display": "Antigen of Chlamydia trachomatis serotype K (substance)"
+      }, {
+        "code": "121106008",
+        "display": "Ribosomal ribonucleic acid of Chlamydia trachomatis (substance)"
+      }, {
+        "code": "121181000",
+        "display": "Deoxyribonucleic acid of Chlamydia trachomatis (substance)"
+      }, {
+        "code": "143511000119105",
+        "display": "Perihepatitis caused by Chlamydia trachomatis (disorder)"
+      }, {
+        "code": "1621000119101",
+        "display": "Chlamydia trachomatis infection in pregnancy (disorder)"
+      }, {
+        "code": "179101003",
+        "display": "Urethritis caused by Chlamydia trachomatis (disorder)"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "injection-findings",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-findings",
+  "name": "injection-findings",
+  "title": "Injection Findings",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Injection Findings element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Injection Findings",
+        "display": "Injection Findings"
+      } ]
+    } ]
+  }
+}

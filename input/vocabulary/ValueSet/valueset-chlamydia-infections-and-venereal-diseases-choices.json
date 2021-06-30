@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-infections-and-venereal-diseases-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-infections-and-venereal-diseases-choices",
+  "name": "chlamydia-infections-and-venereal-diseases-choices",
+  "title": "Chlamydia Infections and Venereal Diseases Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Infections and Venereal Diseases Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "420910002",
+        "display": "Chlamydia trachomatis infection of anus and rectum (disorder)"
+      }, {
+        "code": "426165006",
+        "display": "Acute genitourinary chlamydia infection (disorder)"
+      }, {
+        "code": "426247003",
+        "display": "Acute genitourinary Chlamydia trachomatis infection (disorder)"
+      }, {
+        "code": "428015005",
+        "display": "Chlamydia trachomatis infection of genital structure (disorder)"
+      } ]
+    } ]
+  }
+}

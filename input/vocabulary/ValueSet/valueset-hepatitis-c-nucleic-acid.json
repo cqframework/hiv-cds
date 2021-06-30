@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hepatitis-c-nucleic-acid",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-nucleic-acid",
+  "name": "hepatitis-c-nucleic-acid",
+  "title": "Hepatitis C nucleic acid",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C nucleic acid element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Hepatitis C nucleic acid",
+        "display": "Hepatitis C nucleic acid"
+      } ]
+    } ]
+  }
+}

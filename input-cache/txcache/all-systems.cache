@@ -1,5 +1,21 @@
 -------------------------------------------------------------------------------------
 {"code" : {
+  "code" : "application/xml"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "application/xml",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
   "code" : "text/cql"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
@@ -47,19 +63,3620 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/xml"
-}, "valueSet" :{
+{"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
-      "system" : "urn:ietf:bcp:13"
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A55",
+        "display" : "Chlamydial lymphogranuloma (venereum)"
+      },
+      {
+        "code" : "A56.00",
+        "display" : "Chlamydial infection of lower genitourinary tract, unspecified"
+      },
+      {
+        "code" : "A56.01",
+        "display" : "Chlamydial cystitis and urethritis"
+      },
+      {
+        "code" : "A56.09",
+        "display" : "Other chlamydial infection of lower genitourinary tract"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "105629000",
+        "display" : "Chlamydial infection (disorder)"
+      },
+      {
+        "code" : "10750051000119100",
+        "display" : "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
+      },
+      {
+        "code" : "1.08482E+15",
+        "display" : "Cystitis caused by Chlamydia (disorder)"
+      },
+      {
+        "code" : "442505006",
+        "display" : "Chlamydia trachomatis, serotype Ja (organism)"
+      },
+      {
+        "code" : "446471004",
+        "display" : "Infection of epididymis caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "446594000",
+        "display" : "Infection of pharynx caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "446642005",
+        "display" : "Infection of anus caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "446752000",
+        "display" : "Infection of peritoneum caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "446902002",
+        "display" : "Infection of testis caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "447353001",
+        "display" : "Infection of cervix caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "447372001",
+        "display" : "Infection of rectum caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "447386002",
+        "display" : "Infection of vulva caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "447402003",
+        "display" : "Infection of vagina caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "460618008",
+        "display" : "Endocarditis caused by Genus Chlamydia (disorder)"
+      },
+      {
+        "code" : "59134003",
+        "display" : "Lymphogranuloma venereum antigen (substance)"
+      },
+      {
+        "code" : "59484000",
+        "display" : "Chlamydial polyarthritis (disorder)"
+      },
+      {
+        "code" : "63938009",
+        "display" : "Chlamydia trachomatis (organism)"
+      },
+      {
+        "code" : "708219005",
+        "display" : "Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)"
+      },
+      {
+        "code" : "722520001",
+        "display" : "Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)"
+      },
+      {
+        "code" : "722552001",
+        "display" : "Sequela of infection caused by Chlamydia (disorder)"
+      }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "application/xml",
-  "severity" : null,
-  "error" : ""
+}}####
+e: {
+  "error" : "Error from server: Found content (\".\") after end of expression at character 2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A50.01",
+        "display" : "Early congenital syphilitic oculopathy"
+      },
+      {
+        "code" : "A50.02",
+        "display" : "Early congenital syphilitic osteochondropathy"
+      },
+      {
+        "code" : "A50.03",
+        "display" : "Early congenital syphilitic pharyngitis"
+      },
+      {
+        "code" : "A50.04",
+        "display" : "Early congenital syphilitic pneumonia"
+      },
+      {
+        "code" : "A50.05",
+        "display" : "Early congenital syphilitic rhinitis"
+      },
+      {
+        "code" : "A50.06",
+        "display" : "Early cutaneous congenital syphilis"
+      },
+      {
+        "code" : "A50.07",
+        "display" : "Early mucocutaneous congenital syphilis"
+      },
+      {
+        "code" : "A50.08",
+        "display" : "Early visceral congenital syphilis"
+      },
+      {
+        "code" : "A50.30",
+        "display" : "Late congenital syphilitic oculopathy, unspecified"
+      },
+      {
+        "code" : "A50.32",
+        "display" : "Late congenital syphilitic chorioretinitis"
+      },
+      {
+        "code" : "A50.39",
+        "display" : "Other late congenital syphilitic oculopathy"
+      },
+      {
+        "code" : "A50.43",
+        "display" : "Late congenital syphilitic polyneuropathy"
+      },
+      {
+        "code" : "A50.44",
+        "display" : "Late congenital syphilitic optic nerve atrophy"
+      },
+      {
+        "code" : "A50.51",
+        "display" : "Clutton's joints"
+      },
+      {
+        "code" : "A50.53",
+        "display" : "Hutchinson's triad"
+      },
+      {
+        "code" : "A50.54",
+        "display" : "Late congenital cardiovascular syphilis"
+      },
+      {
+        "code" : "A50.55",
+        "display" : "Late congenital syphilitic arthropathy"
+      },
+      {
+        "code" : "A50.56",
+        "display" : "Late congenital syphilitic osteochondropathy"
+      },
+      {
+        "code" : "A54.00",
+        "display" : "Gonococcal infection of lower genitourinary tract, unspecified"
+      },
+      {
+        "code" : "A54.01",
+        "display" : "Gonococcal cystitis and urethritis, unspecified"
+      },
+      {
+        "code" : "A54.02",
+        "display" : "Gonococcal vulvovaginitis, unspecified"
+      },
+      {
+        "code" : "A54.03",
+        "display" : "Gonococcal cervicitis, unspecified"
+      },
+      {
+        "code" : "A54.09",
+        "display" : "Other gonococcal infection of lower genitourinary tract"
+      },
+      {
+        "code" : "A54.1",
+        "display" : "Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess"
+      },
+      {
+        "code" : "A54.21",
+        "display" : "Gonococcal infection of kidney and ureter"
+      },
+      {
+        "code" : "A54.22",
+        "display" : "Gonococcal prostatitis"
+      },
+      {
+        "code" : "A54.23",
+        "display" : "Gonococcal infection of other male genital organs"
+      },
+      {
+        "code" : "A54.24",
+        "display" : "Gonococcal female pelvic inflammatory disease"
+      },
+      {
+        "code" : "A54.29",
+        "display" : "Other gonococcal genitourinary infections"
+      },
+      {
+        "code" : "A54.30",
+        "display" : "Gonococcal infection of eye, unspecified"
+      },
+      {
+        "code" : "A54.31",
+        "display" : "Gonococcal conjunctivitis"
+      },
+      {
+        "code" : "A54.32",
+        "display" : "Gonococcal iridocyclitis"
+      },
+      {
+        "code" : "A54.33",
+        "display" : "Gonococcal keratitis"
+      },
+      {
+        "code" : "A54.39",
+        "display" : "Other gonococcal eye infection"
+      },
+      {
+        "code" : "A54.40",
+        "display" : "Gonococcal infection of musculoskeletal system, unspecified"
+      },
+      {
+        "code" : "A54.41",
+        "display" : "Gonococcal spondylopathy"
+      },
+      {
+        "code" : "A54.42",
+        "display" : "Gonococcal arthritis"
+      },
+      {
+        "code" : "A54.43",
+        "display" : "Gonococcal osteomyelitis"
+      },
+      {
+        "code" : "A54.49",
+        "display" : "Gonococcal infection of other musculoskeletal tissue"
+      },
+      {
+        "code" : "A54.5",
+        "display" : "Gonococcal pharyngitis"
+      },
+      {
+        "code" : "A54.6",
+        "display" : "Gonococcal infection of anus and rectum"
+      },
+      {
+        "code" : "A54.81",
+        "display" : "Gonococcal meningitis"
+      },
+      {
+        "code" : "A54.82",
+        "display" : "Gonococcal brain abscess"
+      },
+      {
+        "code" : "A54.83",
+        "display" : "Gonococcal heart infection"
+      },
+      {
+        "code" : "A54.84",
+        "display" : "Gonococcal pneumonia"
+      },
+      {
+        "code" : "A54.85",
+        "display" : "Gonococcal peritonitis"
+      },
+      {
+        "code" : "A54.86",
+        "display" : "Gonococcal sepsis"
+      },
+      {
+        "code" : "A54.89",
+        "display" : "Other gonococcal infections"
+      },
+      {
+        "code" : "A54.9",
+        "display" : "Gonococcal infection, unspecified"
+      },
+      {
+        "code" : "A57",
+        "display" : "Chancroid"
+      },
+      {
+        "code" : "A58",
+        "display" : "Granuloma inguinale"
+      },
+      {
+        "code" : "A63.0",
+        "display" : "Anogenital (venereal) warts"
+      },
+      {
+        "code" : "A63.8",
+        "display" : "Other specified predominantly sexually transmitted diseases"
+      },
+      {
+        "code" : "A64",
+        "display" : "Unspecified sexually transmitted disease"
+      },
+      {
+        "code" : "A69.0",
+        "display" : "Necrotizing ulcerative stomatitis"
+      },
+      {
+        "code" : "A69.1",
+        "display" : "Other Vincent's infections"
+      },
+      {
+        "code" : "A69.8",
+        "display" : "Other specified spirochetal infections"
+      },
+      {
+        "code" : "A69.9",
+        "display" : "Spirochetal infection, unspecified"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1.08702E+15",
+        "display" : "Periurethral abscess caused by Neisseria gonorrhoeae (disorder)"
+      },
+      {
+        "code" : "1.08704E+15",
+        "display" : "Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)"
+      },
+      {
+        "code" : "1.08705E+15",
+        "display" : "Gonococcal osteomyelitis (disorder)"
+      },
+      {
+        "code" : "1.10041E+14",
+        "display" : "Reactive arthritis co-occurrent and due to nonspecific urethritis (disorder)"
+      },
+      {
+        "code" : "111806005",
+        "display" : "Acute gonococcal prostatitis (disorder)"
+      },
+      {
+        "code" : "111807001",
+        "display" : "Gonococcal endophthalmia (disorder)"
+      },
+      {
+        "code" : "1.14881E+14",
+        "display" : "Maternal gonorrhea during pregnancy (disorder)"
+      },
+      {
+        "code" : "11906007",
+        "display" : "Chronic gonococcal vulvovaginitis (disorder)"
+      },
+      {
+        "code" : "12373006",
+        "display" : "Chronic gonococcal bartholinitis (disorder)"
+      },
+      {
+        "code" : "151004",
+        "display" : "Gonococcal meningitis (disorder)"
+      },
+      {
+        "code" : "15628003",
+        "display" : "Gonorrhea (disorder)"
+      },
+      {
+        "code" : "16217981000119100",
+        "display" : "Infection of upper genitourinary tract caused by Neisseria gonorrheae (disorder)"
+      },
+      {
+        "code" : "17305005",
+        "display" : "Acute gonorrhea of genitourinary tract (disorder)"
+      },
+      {
+        "code" : "186915005",
+        "display" : "Chronic gonorrhea lower genitourinary tract (disorder)"
+      },
+      {
+        "code" : "186931002",
+        "display" : "Gonococcal anal infection (disorder)"
+      },
+      {
+        "code" : "186939000",
+        "display" : "Gonococcal peritonitis (disorder)"
+      },
+      {
+        "code" : "186946009",
+        "display" : "Lymphogranuloma venereum (disorder)"
+      },
+      {
+        "code" : "197848003",
+        "display" : "Gonococcal cystitis (disorder)"
+      },
+      {
+        "code" : "197967000",
+        "display" : "Gonococcal prostatitis (disorder)"
+      },
+      {
+        "code" : "198242009",
+        "display" : "Female gonococcal pelvic inflammatory disease (disorder)"
+      },
+      {
+        "code" : "199161008",
+        "display" : "Maternal gonorrhea during pregnancy, childbirth and the puerperium (disorder)"
+      },
+      {
+        "code" : "199163006",
+        "display" : "Maternal gonorrhea during pregnancy - baby delivered (disorder)"
+      },
+      {
+        "code" : "199164000",
+        "display" : "Maternal gonorrhea in the puerperium - baby delivered during current episode of care (disorder)"
+      },
+      {
+        "code" : "199165004",
+        "display" : "Maternal gonorrhea during pregnancy - baby not yet delivered (disorder)"
+      },
+      {
+        "code" : "199166003",
+        "display" : "Maternal gonorrhea in the puerperium - baby delivered during previous episode of care (disorder)"
+      },
+      {
+        "code" : "20943002",
+        "display" : "Acute gonococcal cervicitis (disorder)"
+      },
+      {
+        "code" : "231858009",
+        "display" : "Gonococcal conjunctivitis (disorder)"
+      },
+      {
+        "code" : "235861001",
+        "display" : "Abscess gonococcal (disorder)"
+      },
+      {
+        "code" : "235863003",
+        "display" : "Gonococcal hepatitis (disorder)"
+      },
+      {
+        "code" : "236682002",
+        "display" : "Gonococcal urethritis (disorder)"
+      },
+      {
+        "code" : "236687008",
+        "display" : "Gonococcal urethral abscess (disorder)"
+      },
+      {
+        "code" : "236766009",
+        "display" : "Gonococcal epididymitis (disorder)"
+      },
+      {
+        "code" : "236772009",
+        "display" : "Gonococcal epididymo-orchitis (disorder)"
+      },
+      {
+        "code" : "237038001",
+        "display" : "Gonococcal salpingitis (disorder)"
+      },
+      {
+        "code" : "237042003",
+        "display" : "Gonococcal perihepatitis (disorder)"
+      },
+      {
+        "code" : "237046000",
+        "display" : "Gonococcal tubo-ovarian abscess (disorder)"
+      },
+      {
+        "code" : "237069002",
+        "display" : "Gonococcal endometritis (disorder)"
+      },
+      {
+        "code" : "237083000",
+        "display" : "Gonococcal cervicitis (disorder)"
+      },
+      {
+        "code" : "237095000",
+        "display" : "Gonococcal vulvovaginitis (disorder)"
+      },
+      {
+        "code" : "237096004",
+        "display" : "Neonatal gonococcal vulvovaginitis (disorder)"
+      },
+      {
+        "code" : "238419002",
+        "display" : "Gonococcal lymphangitis of penis (disorder)"
+      },
+      {
+        "code" : "2390000",
+        "display" : "Acute gonococcal vulvovaginitis (disorder)"
+      },
+      {
+        "code" : "23975003",
+        "display" : "Chronic gonococcal seminal vesiculitis (disorder)"
+      },
+      {
+        "code" : "239785008",
+        "display" : "Post-dysenteric reactive arthritis (disorder)"
+      },
+      {
+        "code" : "239808004",
+        "display" : "Juvenile reactive arthritis triad (disorder)"
+      },
+      {
+        "code" : "240039005",
+        "display" : "Gonococcal tenosynovitis (disorder)"
+      },
+      {
+        "code" : "240571007",
+        "display" : "Neonatal gonococcal infection (disorder)"
+      },
+      {
+        "code" : "240572000",
+        "display" : "Gonorrhea with local complication (disorder)"
+      },
+      {
+        "code" : "240573005",
+        "display" : "Gonococcal Bartholin's gland abscess (disorder)"
+      },
+      {
+        "code" : "240574004",
+        "display" : "Gonococcal Skenitis (disorder)"
+      },
+      {
+        "code" : "240575003",
+        "display" : "Gonococcal Tysonitis (disorder)"
+      },
+      {
+        "code" : "240576002",
+        "display" : "Gonococcal Cowperitis (disorder)"
+      },
+      {
+        "code" : "240577006",
+        "display" : "Gonococcal Littritis (disorder)"
+      },
+      {
+        "code" : "240578001",
+        "display" : "Gonococcal Littré gland abscess (disorder)"
+      },
+      {
+        "code" : "240579009",
+        "display" : "Gonococcal paraurethral gland abscess (disorder)"
+      },
+      {
+        "code" : "240581006",
+        "display" : "Gonococcal female pelvic infection (disorder)"
+      },
+      {
+        "code" : "240582004",
+        "display" : "Gonococcal synovitis (disorder)"
+      },
+      {
+        "code" : "240583009",
+        "display" : "Cutaneous gonorrhea (disorder)"
+      },
+      {
+        "code" : "240602008",
+        "display" : "Early lymphogranuloma venereum (disorder)"
+      },
+      {
+        "code" : "240603003",
+        "display" : "Late lymphogranuloma venereum (disorder)"
+      },
+      {
+        "code" : "240604009",
+        "display" : "Latent lymphogranuloma venereum (disorder)"
+      },
+      {
+        "code" : "24868007",
+        "display" : "Acute gonococcal cystitis (disorder)"
+      },
+      {
+        "code" : "272006008",
+        "display" : "Gonococcal arthritis dermatitis syndrome (disorder)"
+      },
+      {
+        "code" : "272262003",
+        "display" : "Esthiomene (disorder)"
+      },
+      {
+        "code" : "27681008",
+        "display" : "Chronic gonorrhea (disorder)"
+      },
+      {
+        "code" : "28438004",
+        "display" : "Gonococcal conjunctivitis neonatorum (disorder)"
+      },
+      {
+        "code" : "28572009",
+        "display" : "Chronic gonorrhea of genitourinary tract (disorder)"
+      },
+      {
+        "code" : "29864006",
+        "display" : "Acute gonococcal urethritis (disorder)"
+      },
+      {
+        "code" : "30168008",
+        "display" : "Acute gonococcal epididymo-orchitis (disorder)"
+      },
+      {
+        "code" : "301990003",
+        "display" : "Gonococcal seminal vesiculitis (disorder)"
+      },
+      {
+        "code" : "307423008",
+        "display" : "Gonococcal pelvic peritonitis (disorder)"
+      },
+      {
+        "code" : "31999004",
+        "display" : "Chronic gonococcal endometritis (disorder)"
+      },
+      {
+        "code" : "35526001",
+        "display" : "Chronic gonococcal epididymo-orchitis (disorder)"
+      },
+      {
+        "code" : "35876006",
+        "display" : "Gonococcal infection of eye (disorder)"
+      },
+      {
+        "code" : "40149008",
+        "display" : "Gonococcal keratitis (disorder)"
+      },
+      {
+        "code" : "402956009",
+        "display" : "Localized cutaneous gonococcal infection (disorder)"
+      },
+      {
+        "code" : "402957000",
+        "display" : "Gonococcal bartholinitis (disorder)"
+      },
+      {
+        "code" : "402958005",
+        "display" : "Pustular vasculitis caused by gonococcal bacteraemia (disorder)"
+      },
+      {
+        "code" : "406581000",
+        "display" : "Gonococcal infection of the central nervous system (disorder)"
+      },
+      {
+        "code" : "42746002",
+        "display" : "Gonorrhea of rectum (disorder)"
+      },
+      {
+        "code" : "44412000",
+        "display" : "Chronic gonococcal urethritis (disorder)"
+      },
+      {
+        "code" : "444834005",
+        "display" : "Abscess of urethral gland caused by Neisseria gonorrhoeae (disorder)"
+      },
+      {
+        "code" : "44743006",
+        "display" : "Gonococcal infection of joint (disorder)"
+      },
+      {
+        "code" : "45377007",
+        "display" : "Acute gonococcal salpingitis (disorder)"
+      },
+      {
+        "code" : "46699001",
+        "display" : "Bursitis caused by Neisseria gonorrhoeae (disorder)"
+      },
+      {
+        "code" : "5085001",
+        "display" : "Gonococcemia (disorder)"
+      },
+      {
+        "code" : "50970007",
+        "display" : "Acute gonorrhea of upper genitourinary tract (disorder)"
+      },
+      {
+        "code" : "53529004",
+        "display" : "Chronic gonococcal salpingitis (disorder)"
+      },
+      {
+        "code" : "53664003",
+        "display" : "Gonococcal spondylitis (disorder)"
+      },
+      {
+        "code" : "54825009",
+        "display" : "Acute gonorrhea of lower genitourinary tract (disorder)"
+      },
+      {
+        "code" : "60335002",
+        "display" : "Gonococcal keratosis (disorder)"
+      },
+      {
+        "code" : "60893000",
+        "display" : "Chronic gonococcal prostatitis (disorder)"
+      },
+      {
+        "code" : "61048000",
+        "display" : "Gonococcal endocarditis (disorder)"
+      },
+      {
+        "code" : "65049003",
+        "display" : "Acute gonococcal seminal vesiculitis (disorder)"
+      },
+      {
+        "code" : "65295003",
+        "display" : "Acute gonococcal endometritis (disorder)"
+      },
+      {
+        "code" : "67224007",
+        "display" : "Reactive arthritis triad (disorder)"
+      },
+      {
+        "code" : "713261005",
+        "display" : "Gingival disease caused by Neisseria gonorrhoeae (disorder)"
+      },
+      {
+        "code" : "719755001",
+        "display" : "Conjunctivitis of adulthood caused by Neisseria gonorrhoeae (disorder)"
+      },
+      {
+        "code" : "72225002",
+        "display" : "Urethral stricture due to gonococcal infection (disorder)"
+      },
+      {
+        "code" : "74372003",
+        "display" : "Gonorrhea of pharynx (disorder)"
+      },
+      {
+        "code" : "762257007",
+        "display" : "Disseminated infection caused by Neisseria gonorrhoeae (disorder)"
+      },
+      {
+        "code" : "76802005",
+        "display" : "Chronic gonococcal cervicitis (disorder)"
+      },
+      {
+        "code" : "80388004",
+        "display" : "Chronic gonorrhea of upper genitourinary tract (disorder)"
+      },
+      {
+        "code" : "80604007",
+        "display" : "Acute gonococcal bartholinitis (disorder)"
+      },
+      {
+        "code" : "88813005",
+        "display" : "Chronic gonococcal cystitis (disorder)"
+      },
+      {
+        "code" : "9091006",
+        "display" : "Gonococcal iridocyclitis (disorder)"
+      },
+      {
+        "code" : "9241004",
+        "display" : "Gonococcal heart disease (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Found content (\".\") after end of expression at character 2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "B17.1",
+        "display" : "Acute hepatitis C"
+      },
+      {
+        "code" : "B17.10",
+        "display" : "Acute hepatitis C without hepatic coma"
+      },
+      {
+        "code" : "B17.11",
+        "display" : "Acute hepatitis C with hepatic coma"
+      },
+      {
+        "code" : "B18.2",
+        "display" : "Chronic viral hepatitis C"
+      },
+      {
+        "code" : "B19.2",
+        "display" : "Unspecified viral hepatitis C"
+      },
+      {
+        "code" : "B19.20",
+        "display" : "Unspecified viral hepatitis C without hepatic coma"
+      },
+      {
+        "code" : "B19.21",
+        "display" : "Unspecified viral hepatitis C with hepatic coma"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1.20241E+14",
+        "display" : "Glomerulonephritis due to hepatitis C (disorder)"
+      },
+      {
+        "code" : "1.25921E+14",
+        "display" : "Hepatic coma due to acute hepatitis C (disorder)"
+      },
+      {
+        "code" : "1.28971E+14",
+        "display" : "Cryoglobulinemia due to chronic hepatitis C (disorder)"
+      },
+      {
+        "code" : "1.46371E+14",
+        "display" : "Hepatic coma due to chronic hepatitis C (disorder)"
+      },
+      {
+        "code" : "186628001",
+        "display" : "Hepatic coma due to viral hepatitis C (disorder)"
+      },
+      {
+        "code" : "235866006",
+        "display" : "Acute hepatitis C (disorder)"
+      },
+      {
+        "code" : "278929008",
+        "display" : "Congenital hepatitis C infection (disorder)"
+      },
+      {
+        "code" : "3.47891E+14",
+        "display" : "Chronic hepatitis C with stage 3 fibrosis (disorder)"
+      },
+      {
+        "code" : "442374005",
+        "display" : "Hepatitis B and hepatitis C (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "702969000",
+        "display" : "Reactivation of hepatitis C viral hepatitis (disorder)"
+      },
+      {
+        "code" : "703866000",
+        "display" : "Chronic hepatitis C with stage 2 fibrosis (disorder)"
+      },
+      {
+        "code" : "708198006",
+        "display" : "Chronic active hepatitis C (disorder)"
+      },
+      {
+        "code" : "767809001",
+        "display" : "Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)"
+      },
+      {
+        "code" : "767810006",
+        "display" : "Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)"
+      },
+      {
+        "code" : "768006009",
+        "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)"
+      },
+      {
+        "code" : "768125005",
+        "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)"
+      },
+      {
+        "code" : "768126006",
+        "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)"
+      },
+      {
+        "code" : "768127002",
+        "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)"
+      },
+      {
+        "code" : "768288001",
+        "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)"
+      },
+      {
+        "code" : "768289009",
+        "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)"
+      },
+      {
+        "code" : "8.31E+11",
+        "display" : "Cirrhosis of liver due to chronic hepatitis C (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Found content (\".\") after end of expression at character 2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "713533000",
+        "display" : "Acquired hemolytic anemia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "62479008",
+        "display" : "Acquired immune deficiency syndrome (disorder)"
+      },
+      {
+        "code" : "236406007",
+        "display" : "Acquired immune deficiency syndrome-related nephropathy (disorder)"
+      },
+      {
+        "code" : "420721002",
+        "display" : "Acquired immunodeficiency syndrome-associated disorder (disorder)"
+      },
+      {
+        "code" : "713511002",
+        "display" : "Acute endocarditis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "111880001",
+        "display" : "Acute human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713530002",
+        "display" : "Agranulocytosis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713349004",
+        "display" : "Anemia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713508003",
+        "display" : "Aplastic anemia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "9.0681E+13",
+        "display" : "Asymptomatic human immunodeficiency virus A1 infection (disorder)"
+      },
+      {
+        "code" : "9.0691E+13",
+        "display" : "Asymptomatic human immunodeficiency virus A2 infection (disorder)"
+      },
+      {
+        "code" : "91947003",
+        "display" : "Asymptomatic human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "91948008",
+        "display" : "Asymptomatic human immunodeficiency virus infection in pregnancy (disorder)"
+      },
+      {
+        "code" : "713544008",
+        "display" : "Bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713897006",
+        "display" : "Burkitt lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713297001",
+        "display" : "Candidiasis of esophagus co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713497004",
+        "display" : "Candidiasis of mouth co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713523008",
+        "display" : "Cardiomyopathy co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713446007",
+        "display" : "Chronic infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "276665006",
+        "display" : "Congenital acquired immune deficiency syndrome (disorder)"
+      },
+      {
+        "code" : "52079000",
+        "display" : "Congenital human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713844000",
+        "display" : "Dementia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713543002",
+        "display" : "Demyelinating disease of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713718006",
+        "display" : "Diffuse non-Hodgkin immunoblastic lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713571008",
+        "display" : "Disorder of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713299003",
+        "display" : "Disorder of eye proper co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713300006",
+        "display" : "Disorder of gastrointestinal tract co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713504001",
+        "display" : "Disorder of kidney co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713527009",
+        "display" : "Disorder of peripheral nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713484001",
+        "display" : "Disorder of respiratory system co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713340000",
+        "display" : "Disorder of skin co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713503007",
+        "display" : "Disorder of spinal cord co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713967004",
+        "display" : "Disseminated atypical infection caused by Mycobacterium co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713445006",
+        "display" : "Disseminated infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713510001",
+        "display" : "Enlargement of liver co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713316008",
+        "display" : "Eruption of skin co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "733835007",
+        "display" : "Extrapulmonary tuberculosis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713887002",
+        "display" : "Focal segmental glomerulosclerosis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713505000",
+        "display" : "Gastrointestinal malabsorption syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "414376003",
+        "display" : "Hairy leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)"
+      },
+      {
+        "code" : "713298006",
+        "display" : "Heart disease co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713444005",
+        "display" : "Hemophagocytic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "442134007",
+        "display" : "Hepatitis B associated with Human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "7.2621E+13",
+        "display" : "Human immunodeficiency virus (HIV) II infection category B1 (disorder)"
+      },
+      {
+        "code" : "7.2631E+13",
+        "display" : "Human immunodeficiency virus (HIV) II infection category B2 (disorder)"
+      },
+      {
+        "code" : "398329009",
+        "display" : "Human immunodeficiency virus encephalitis (disorder)"
+      },
+      {
+        "code" : "397763006",
+        "display" : "Human immunodeficiency virus encephalopathy (disorder)"
+      },
+      {
+        "code" : "235726002",
+        "display" : "Human immunodeficiency virus enteropathy (disorder)"
+      },
+      {
+        "code" : "40780007",
+        "display" : "Human immunodeficiency virus I infection (disorder)"
+      },
+      {
+        "code" : "79019005",
+        "display" : "Human immunodeficiency virus II infection (disorder)"
+      },
+      {
+        "code" : "10755671000119100",
+        "display" : "Human immunodeficiency virus in mother complicating childbirth (disorder)"
+      },
+      {
+        "code" : "86406008",
+        "display" : "Human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "186706006",
+        "display" : "Human immunodeficiency virus infection constitutional disease (disorder)"
+      },
+      {
+        "code" : "87117006",
+        "display" : "Human immunodeficiency virus infection with acute lymphadenitis (disorder)"
+      },
+      {
+        "code" : "315019000",
+        "display" : "Human immunodeficiency virus infection with aseptic meningitis (disorder)"
+      },
+      {
+        "code" : "48794007",
+        "display" : "Human immunodeficiency virus infection with infectious mononucleosis-like syndrome (disorder)"
+      },
+      {
+        "code" : "186707002",
+        "display" : "Human immunodeficiency virus infection with neurological disease (disorder)"
+      },
+      {
+        "code" : "186708007",
+        "display" : "Human immunodeficiency virus infection with secondary clinical infectious disease (disorder)"
+      },
+      {
+        "code" : "230180003",
+        "display" : "Human immunodeficiency virus leukoencephalopathy (disorder)"
+      },
+      {
+        "code" : "240103002",
+        "display" : "Human immunodeficiency virus myopathy (disorder)"
+      },
+      {
+        "code" : "235009000",
+        "display" : "Human immunodeficiency virus-associated periodontitis (disorder)"
+      },
+      {
+        "code" : "281388009",
+        "display" : "Human immunodeficiency virus-related sclerosing cholangitis (disorder)"
+      },
+      {
+        "code" : "714464009",
+        "display" : "Immune reconstitution inflammatory syndrome caused by human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713732008",
+        "display" : "Infection caused by Aspergillus co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713729005",
+        "display" : "Infection caused by Coccidia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713845004",
+        "display" : "Infection caused by Cryptosporidium co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713722001",
+        "display" : "Infection caused by Cytomegalovirus co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713734009",
+        "display" : "Infection caused by Dermatophyte co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713730000",
+        "display" : "Infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713733003",
+        "display" : "Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713881001",
+        "display" : "Infection caused by Microsporidia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713545009",
+        "display" : "Infection caused by Nocardia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713490002",
+        "display" : "Infection caused by Pneumocystis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713342008",
+        "display" : "Infection caused by Salmonella co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713339002",
+        "display" : "Infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713570009",
+        "display" : "Infectious gastroenteritis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713532005",
+        "display" : "Infective arthritis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "733834006",
+        "display" : "Invasive carcinoma of uterine cervix co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713546005",
+        "display" : "Isosporiasis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "414604009",
+        "display" : "Leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)"
+      },
+      {
+        "code" : "713507008",
+        "display" : "Lymphadenopathy co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713572001",
+        "display" : "Malignant neoplastic disease co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713964006",
+        "display" : "Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713341001",
+        "display" : "Myelitis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713318009",
+        "display" : "Myocarditis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713695001",
+        "display" : "Nephrotic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713278001",
+        "display" : "Neuralgia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713506004",
+        "display" : "Neuritis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "230598008",
+        "display" : "Neuropathy caused by human immunodeficiency virus (disorder)"
+      },
+      {
+        "code" : "442537007",
+        "display" : "Non-Hodgkin lymphoma associated with Human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713880000",
+        "display" : "Opportunistic mycosis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "402901009",
+        "display" : "Oral hairy leukoplakia associated with human immunodeficiency virus disease (disorder)"
+      },
+      {
+        "code" : "713491003",
+        "display" : "Organic brain syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "405631006",
+        "display" : "Pediatric human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713489006",
+        "display" : "Polyneuropathy co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713488003",
+        "display" : "Presenile dementia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713325002",
+        "display" : "Primary cerebral lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713487008",
+        "display" : "Progressive multifocal leukoencephalopathy co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713731001",
+        "display" : "Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713320007",
+        "display" : "Radiculitis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713526000",
+        "display" : "Recurrent bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "714083007",
+        "display" : "Recurrent salmonella sepsis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713696000",
+        "display" : "Renal failure syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713483007",
+        "display" : "Reticulosarcoma co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713275003",
+        "display" : "Splenomegaly co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713260006",
+        "display" : "Subacute adenoviral encephalitis co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "81000119104",
+        "display" : "Symptomatic human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "code" : "713531003",
+        "display" : "Visual impairment co-occurrent with human immunodeficiency virus infection (disorder)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z21",
+        "display" : "Asymptomatic human immunodeficiency virus [HIV] infection status"
+      },
+      {
+        "code" : "B20",
+        "display" : "Human immunodeficiency virus [HIV] disease"
+      },
+      {
+        "code" : "O98.72",
+        "display" : "Human immunodeficiency virus [HIV] disease complicating childbirth"
+      },
+      {
+        "code" : "O98.711",
+        "display" : "Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester"
+      },
+      {
+        "code" : "O98.712",
+        "display" : "Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester"
+      },
+      {
+        "code" : "O98.713",
+        "display" : "Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester"
+      },
+      {
+        "code" : "O98.719",
+        "display" : "Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester"
+      },
+      {
+        "code" : "O98.73",
+        "display" : "Human immunodeficiency virus [HIV] disease complicating the puerperium"
+      },
+      {
+        "code" : "B97.35",
+        "display" : "Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Found content (\".\") after end of expression at character 2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A40",
+        "display" : "Streptococcal sepsis"
+      },
+      {
+        "code" : "A41",
+        "display" : "Other sepsis"
+      },
+      {
+        "code" : "A480",
+        "display" : "Gas gangrene"
+      },
+      {
+        "code" : "B37.6",
+        "display" : "Candidal endocarditis"
+      },
+      {
+        "code" : "G06",
+        "display" : "Intracranial and intraspinal abscess and granuloma"
+      },
+      {
+        "code" : "G09",
+        "display" : "Sequelae of inflammatory diseases of central nervous system"
+      },
+      {
+        "code" : "I26.9",
+        "display" : "Pulmonary embolism without acute cor pulmonale"
+      },
+      {
+        "code" : "I33",
+        "display" : "Acute and subacute endocarditis"
+      },
+      {
+        "code" : "I34",
+        "display" : "Nonrheumatic mitral valve disorders"
+      },
+      {
+        "code" : "I35",
+        "display" : "Nonrheumatic aortic valve disorders"
+      },
+      {
+        "code" : "I36",
+        "display" : "Nonrheumatic tricuspid valve disorders"
+      },
+      {
+        "code" : "I37",
+        "display" : "Nonrheumatic pulmonary valve disorders"
+      },
+      {
+        "code" : "I38",
+        "display" : "Endocarditis, valve unspecified"
+      },
+      {
+        "code" : "I39",
+        "display" : "Endocarditis and heart valve disorders in diseases classified elsewhere"
+      },
+      {
+        "code" : "I40.0",
+        "display" : "Infective myocarditis"
+      },
+      {
+        "code" : "I80",
+        "display" : "Phlebitis and thrombophlebitis"
+      },
+      {
+        "code" : "K63.0",
+        "display" : "Abscess of intestine"
+      },
+      {
+        "code" : "K65.0",
+        "display" : "Generalized (acute) peritonitis"
+      },
+      {
+        "code" : "K75.0",
+        "display" : "Abscess of liver"
+      },
+      {
+        "code" : "L02",
+        "display" : "Cutaneous abscess, furuncle and carbuncle"
+      },
+      {
+        "code" : "L03",
+        "display" : "Cellulitis and acute lymphangitis"
+      },
+      {
+        "code" : "L97",
+        "display" : "Non-pressure chronic ulcer of lower limb, not elsewhere classified"
+      },
+      {
+        "code" : "L98.8",
+        "display" : "Other specified disorders of the skin and subcutaneous tissue"
+      },
+      {
+        "code" : "M54.02",
+        "display" : "Panniculitis affecting regions of neck and back, cervical region"
+      },
+      {
+        "code" : "M72.6",
+        "display" : "Necrotizing fasciitis"
+      },
+      {
+        "code" : "M79.3",
+        "display" : "Panniculitis, unspecified"
+      },
+      {
+        "code" : "M86",
+        "display" : "Osteomyelitis"
+      },
+      {
+        "code" : "M89.9",
+        "display" : "Disorder of bone, unspecified"
+      },
+      {
+        "code" : "N10",
+        "display" : "Acute tubulo-interstitial nephritis"
+      },
+      {
+        "code" : "R65.1",
+        "display" : "Systemic inflammatory response syndrome (SIRS) of non-infectious origin"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "228388006",
+        "display" : "IV - Intravenous drug user"
+      },
+      {
+        "code" : "389299009",
+        "display" : "Intravenous drug user (finding)"
+      },
+      {
+        "code" : "390034003",
+        "display" : "Intravenous drug user (finding)"
+      },
+      {
+        "code" : "10327003",
+        "display" : "Cocaine-induced mood disorder (disorder)"
+      },
+      {
+        "code" : "10755161000119100",
+        "display" : "Drug dependence in childbirth (disorder)"
+      },
+      {
+        "code" : "1.081E+12",
+        "display" : "Opioid dependence, on agonist therapy (disorder)"
+      },
+      {
+        "code" : "110281001",
+        "display" : "Chronic drug abuse (disorder)"
+      },
+      {
+        "code" : "11061003",
+        "display" : "Psychoactive substance use disorder (disorder)"
+      },
+      {
+        "code" : "111479008",
+        "display" : "Organic mental disorder (disorder)"
+      },
+      {
+        "code" : "1.25851E+14",
+        "display" : "Continuous sedative abuse (disorder)"
+      },
+      {
+        "code" : "1383008",
+        "display" : "Hallucinogen mood disorder (disorder)"
+      },
+      {
+        "code" : "1.45101E+14",
+        "display" : "Intravenous cocaine abuse (disorder)"
+      },
+      {
+        "code" : "1.45841E+14",
+        "display" : "Episodic phencyclidine abuse (disorder)"
+      },
+      {
+        "code" : "1.461E+12",
+        "display" : "Drug dependence in remission (disorder)"
+      },
+      {
+        "code" : "1.471E+12",
+        "display" : "Drug abuse in remission (disorder)"
+      },
+      {
+        "code" : "14784000",
+        "display" : "Opioid-induced organic mental disorder (disorder)"
+      },
+      {
+        "code" : "15277004",
+        "display" : "Hallucinogen-induced anxiety disorder (disorder)"
+      },
+      {
+        "code" : "1.53491E+14",
+        "display" : "Drug dependence, continuous (disorder)"
+      },
+      {
+        "code" : "1.53501E+14",
+        "display" : "Drug dependence, episodic (disorder)"
+      },
+      {
+        "code" : "16076691000119100",
+        "display" : "Episodic polysubstance dependence (disorder)"
+      },
+      {
+        "code" : "171047005",
+        "display" : "Drugs of addiction education (procedure)"
+      },
+      {
+        "code" : "191483003",
+        "display" : "Drug-induced psychosis (disorder)"
+      },
+      {
+        "code" : "191484009",
+        "display" : "Drug-induced paranoia or hallucinatory states (disorder)"
+      },
+      {
+        "code" : "191485005",
+        "display" : "Drug-induced paranoid state (disorder)"
+      },
+      {
+        "code" : "191486006",
+        "display" : "Drug-induced hallucinosis (disorder)"
+      },
+      {
+        "code" : "191492000",
+        "display" : "Drug-induced delirium (disorder)"
+      },
+      {
+        "code" : "191493005",
+        "display" : "Drug-induced dementia (disorder)"
+      },
+      {
+        "code" : "191494004",
+        "display" : "Drug-induced amnestic syndrome (disorder)"
+      },
+      {
+        "code" : "191495003",
+        "display" : "Drug-induced depressive state (disorder)"
+      },
+      {
+        "code" : "191496002",
+        "display" : "Drug-induced personality disorder (disorder)"
+      },
+      {
+        "code" : "191805002",
+        "display" : "Episodic acute alcoholic intoxication in alcoholism (disorder)"
+      },
+      {
+        "code" : "191812006",
+        "display" : "Episodic chronic alcoholism (disorder)"
+      },
+      {
+        "code" : "191816009",
+        "display" : "Drug dependence (disorder)"
+      },
+      {
+        "code" : "191819002",
+        "display" : "Continuous opioid dependence (disorder)"
+      },
+      {
+        "code" : "191820008",
+        "display" : "Episodic opioid dependence (disorder)"
+      },
+      {
+        "code" : "191821007",
+        "display" : "Opioid dependence in remission (disorder)"
+      },
+      {
+        "code" : "191825003",
+        "display" : "Hypnotic or anxiolytic dependence, continuous (disorder)"
+      },
+      {
+        "code" : "191826002",
+        "display" : "Hypnotic or anxiolytic dependence, episodic (disorder)"
+      },
+      {
+        "code" : "191827006",
+        "display" : "Hypnotic or anxiolytic dependence in remission (disorder)"
+      },
+      {
+        "code" : "191831000",
+        "display" : "Cocaine dependence, continuous (disorder)"
+      },
+      {
+        "code" : "191832007",
+        "display" : "Cocaine dependence, episodic (disorder)"
+      },
+      {
+        "code" : "191833002",
+        "display" : "Cocaine dependence in remission (disorder)"
+      },
+      {
+        "code" : "191843004",
+        "display" : "Amphetamine or psychostimulant dependence, continuous (disorder)"
+      },
+      {
+        "code" : "191844005",
+        "display" : "Amphetamine or psychostimulant dependence, episodic (disorder)"
+      },
+      {
+        "code" : "191849000",
+        "display" : "Hallucinogen dependence, continuous (disorder)"
+      },
+      {
+        "code" : "191850000",
+        "display" : "Hallucinogen dependence, episodic (disorder)"
+      },
+      {
+        "code" : "191851001",
+        "display" : "Hallucinogen dependence in remission (disorder)"
+      },
+      {
+        "code" : "191865004",
+        "display" : "Combined opioid with non-opioid drug dependence (disorder)"
+      },
+      {
+        "code" : "191867007",
+        "display" : "Combined opioid with non-opioid drug dependence, continuous (disorder)"
+      },
+      {
+        "code" : "191868002",
+        "display" : "Combined opioid with non-opioid drug dependence, episodic (disorder)"
+      },
+      {
+        "code" : "191869005",
+        "display" : "Combined opioid with non-opioid drug dependence in remission (disorder)"
+      },
+      {
+        "code" : "191871005",
+        "display" : "Combined drug dependence, excluding opioids (disorder)"
+      },
+      {
+        "code" : "191873008",
+        "display" : "Combined drug dependence, excluding opioid, continuous (disorder)"
+      },
+      {
+        "code" : "191874002",
+        "display" : "Combined drug dependence, excluding opioid, episodic (disorder)"
+      },
+      {
+        "code" : "191875001",
+        "display" : "Combined drug dependence, excluding opioid, in remission (disorder)"
+      },
+      {
+        "code" : "19445006",
+        "display" : "Opioid-induced psychotic disorder with hallucinations (disorder)"
+      },
+      {
+        "code" : "199252002",
+        "display" : "Drug dependence during pregnancy - baby delivered (disorder)"
+      },
+      {
+        "code" : "199253007",
+        "display" : "Drug dependence in the puerperium - baby delivered (disorder)"
+      },
+      {
+        "code" : "199254001",
+        "display" : "Drug dependence during pregnancy - baby not yet delivered (disorder)"
+      },
+      {
+        "code" : "199255000",
+        "display" : "Drug dependence in the puerperium - baby delivered during previous episode of care (disorder)"
+      },
+      {
+        "code" : "20385005",
+        "display" : "Opioid-induced psychotic disorder with delusions (disorder)"
+      },
+      {
+        "code" : "21647008",
+        "display" : "Amphetamine dependence (disorder)"
+      },
+      {
+        "code" : "230334008",
+        "display" : "Drug-induced tic (disorder)"
+      },
+      {
+        "code" : "230443000",
+        "display" : "Narcotic withdrawal epilepsy (disorder)"
+      },
+      {
+        "code" : "231451006",
+        "display" : "Drug-induced intensive care psychosis (disorder)"
+      },
+      {
+        "code" : "231461004",
+        "display" : "Hypnotic or anxiolytic abuse (disorder)"
+      },
+      {
+        "code" : "231467000",
+        "display" : "Absinthe addiction (disorder)"
+      },
+      {
+        "code" : "231468005",
+        "display" : "Lysergic acid diethylamide dependence (disorder)"
+      },
+      {
+        "code" : "231469002",
+        "display" : "Mescaline dependence (disorder)"
+      },
+      {
+        "code" : "231470001",
+        "display" : "Anxiolytic dependence (disorder)"
+      },
+      {
+        "code" : "231477003",
+        "display" : "Heroin dependence (disorder)"
+      },
+      {
+        "code" : "231478008",
+        "display" : "Methadone dependence (disorder)"
+      },
+      {
+        "code" : "231479000",
+        "display" : "Morphine dependence (disorder)"
+      },
+      {
+        "code" : "231480002",
+        "display" : "Opium dependence (disorder)"
+      },
+      {
+        "code" : "231481003",
+        "display" : "Controlled drug dependence (disorder)"
+      },
+      {
+        "code" : "231482005",
+        "display" : "Active drug dependence (disorder)"
+      },
+      {
+        "code" : "237228001",
+        "display" : "Pregnancy and drug dependence (disorder)"
+      },
+      {
+        "code" : "2403008",
+        "display" : "Psychoactive substance dependence (disorder)"
+      },
+      {
+        "code" : "25508008",
+        "display" : "Pathological drug intoxication (disorder)"
+      },
+      {
+        "code" : "26416006",
+        "display" : "Drug abuse (disorder)"
+      },
+      {
+        "code" : "267206008",
+        "display" : "Drug dependence during pregnancy, childbirth and the puerperium (disorder)"
+      },
+      {
+        "code" : "268640002",
+        "display" : "Hypnotic or anxiolytic dependence (disorder)"
+      },
+      {
+        "code" : "27956007",
+        "display" : "Cocaine intoxication (disorder)"
+      },
+      {
+        "code" : "2.88851E+14",
+        "display" : "Opioid-induced mood disorder due to opioid abuse (disorder)"
+      },
+      {
+        "code" : "2.88861E+14",
+        "display" : "Opioid-induced mood disorder due to opioid dependence (disorder)"
+      },
+      {
+        "code" : "29733004",
+        "display" : "Opioid-induced mood disorder (disorder)"
+      },
+      {
+        "code" : "30310000",
+        "display" : "Nicotine-induced organic mental disorder (disorder)"
+      },
+      {
+        "code" : "30491001",
+        "display" : "Cocaine delusional disorder (disorder)"
+      },
+      {
+        "code" : "313915006",
+        "display" : "Hypnotic-induced organic mental disorder (disorder)"
+      },
+      {
+        "code" : "31956009",
+        "display" : "Cocaine dependence (disorder)"
+      },
+      {
+        "code" : "32009006",
+        "display" : "Hallucinogen hallucinosis (disorder)"
+      },
+      {
+        "code" : "32358001",
+        "display" : "Amphetamine delusional disorder (disorder)"
+      },
+      {
+        "code" : "33845003",
+        "display" : "Idiosyncratic drug effect (disorder)"
+      },
+      {
+        "code" : "363101005",
+        "display" : "Drug withdrawal (disorder)"
+      },
+      {
+        "code" : "38247002",
+        "display" : "Hallucinogen dependence (disorder)"
+      },
+      {
+        "code" : "40571009",
+        "display" : "Hallucinogen intoxication delirium (disorder)"
+      },
+      {
+        "code" : "416714005",
+        "display" : "Episodic flashbacks (disorder)"
+      },
+      {
+        "code" : "417360004",
+        "display" : "Duplicative flashbacks (disorder)"
+      },
+      {
+        "code" : "425533007",
+        "display" : "Episodic drug abuse (disorder)"
+      },
+      {
+        "code" : "425885002",
+        "display" : "Continuous phencyclidine abuse (disorder)"
+      },
+      {
+        "code" : "426001001",
+        "display" : "Fentanyl dependence (disorder)"
+      },
+      {
+        "code" : "426590003",
+        "display" : "Drug abuse, continuous (disorder)"
+      },
+      {
+        "code" : "426873000",
+        "display" : "Methamphetamine dependence (disorder)"
+      },
+      {
+        "code" : "427205009",
+        "display" : "Amphetamine abuse, continuous (disorder)"
+      },
+      {
+        "code" : "427229002",
+        "display" : "Episodic inhalant abuse (disorder)"
+      },
+      {
+        "code" : "427975003",
+        "display" : "Drug-induced delusional disorder (disorder)"
+      },
+      {
+        "code" : "4.28561E+14",
+        "display" : "Maternal substance abuse (situation)"
+      },
+      {
+        "code" : "4.29001E+14",
+        "display" : "Catha edulis abuse (disorder)"
+      },
+      {
+        "code" : "429299000",
+        "display" : "Combined drug dependence, continuous (disorder)"
+      },
+      {
+        "code" : "429672007",
+        "display" : "Drug-induced mood disorder (disorder)"
+      },
+      {
+        "code" : "429692000",
+        "display" : "Amphetamine abuse, episodic (disorder)"
+      },
+      {
+        "code" : "441681009",
+        "display" : "Dependence on unknown drug (disorder)"
+      },
+      {
+        "code" : "445273005",
+        "display" : "Polysubstance abuse (disorder)"
+      },
+      {
+        "code" : "46975003",
+        "display" : "Cocaine-induced organic mental disorder (disorder)"
+      },
+      {
+        "code" : "50320000",
+        "display" : "Hallucinogen intoxication (disorder)"
+      },
+      {
+        "code" : "50933003",
+        "display" : "Hallucinogen delusional disorder (disorder)"
+      },
+      {
+        "code" : "51339003",
+        "display" : "Polysubstance dependence (disorder)"
+      },
+      {
+        "code" : "51493001",
+        "display" : "Cocaine-induced anxiety disorder (disorder)"
+      },
+      {
+        "code" : "52866005",
+        "display" : "Opioid intoxication delirium (disorder)"
+      },
+      {
+        "code" : "53050002",
+        "display" : "Hallucinogen-induced organic mental disorder (disorder)"
+      },
+      {
+        "code" : "5602001",
+        "display" : "Opioid abuse (disorder)"
+      },
+      {
+        "code" : "6348008",
+        "display" : "Cocaine-induced psychotic disorder with hallucinations (disorder)"
+      },
+      {
+        "code" : "6525002",
+        "display" : "Dependent drug abuse (disorder)"
+      },
+      {
+        "code" : "66214007",
+        "display" : "Substance abuse (disorder)"
+      },
+      {
+        "code" : "699449003",
+        "display" : "Methamphetamine abuse (disorder)"
+      },
+      {
+        "code" : "70328006",
+        "display" : "Cocaine delirium (disorder)"
+      },
+      {
+        "code" : "71328000",
+        "display" : "Opioid-induced sexual dysfunction (disorder)"
+      },
+      {
+        "code" : "713775002",
+        "display" : "Novel psychoactive substance misuse (disorder)"
+      },
+      {
+        "code" : "724653003",
+        "display" : "Opioid dependence with current use (disorder)"
+      },
+      {
+        "code" : "724656006",
+        "display" : "Hypnotic dependence (disorder)"
+      },
+      {
+        "code" : "724658007",
+        "display" : "Hypnotic dependence with current use (disorder)"
+      },
+      {
+        "code" : "724660009",
+        "display" : "Hypnotic withdrawal (disorder)"
+      },
+      {
+        "code" : "724663006",
+        "display" : "Hypnotic withdrawal without complication (disorder)"
+      },
+      {
+        "code" : "724688003",
+        "display" : "Cocaine dependence with current use (disorder)"
+      },
+      {
+        "code" : "724694006",
+        "display" : "Harmful pattern of use of caffeine (disorder)"
+      },
+      {
+        "code" : "724695007",
+        "display" : "Hallucinogen dependence with current use (disorder)"
+      },
+      {
+        "code" : "724697004",
+        "display" : "Harmful pattern of use of nicotine (disorder)"
+      },
+      {
+        "code" : "724704009",
+        "display" : "Methylenedioxymethamphetamine dependence with current use (disorder)"
+      },
+      {
+        "code" : "724712001",
+        "display" : "Harmful use of dissociative drug (disorder)"
+      },
+      {
+        "code" : "724713006",
+        "display" : "Harmful use of ketamine (disorder)"
+      },
+      {
+        "code" : "724724008",
+        "display" : "Psychoactive substance dependence with current use (disorder)"
+      },
+      {
+        "code" : "724725009",
+        "display" : "Psychoactive substance withdrawal without complication (disorder)"
+      },
+      {
+        "code" : "74851005",
+        "display" : "Hallucinogen abuse (disorder)"
+      },
+      {
+        "code" : "75544000",
+        "display" : "Opioid dependence (disorder)"
+      },
+      {
+        "code" : "78267003",
+        "display" : "Cocaine abuse (disorder)"
+      },
+      {
+        "code" : "78358001",
+        "display" : "Amphetamine withdrawal (disorder)"
+      },
+      {
+        "code" : "80868005",
+        "display" : "Cocaine withdrawal (disorder)"
+      },
+      {
+        "code" : "84758004",
+        "display" : "Amphetamine abuse (disorder)"
+      },
+      {
+        "code" : "87132004",
+        "display" : "Opioid withdrawal (disorder)"
+      },
+      {
+        "code" : "8837000",
+        "display" : "Amphetamine delirium (disorder)"
+      },
+      {
+        "code" : "90755006",
+        "display" : "Nicotine withdrawal (disorder)"
+      },
+      {
+        "code" : "91388009",
+        "display" : "Psychoactive substance abuse (disorder)"
+      },
+      {
+        "code" : "95918004",
+        "display" : "Therapeutic drug dependence (disorder)"
+      },
+      {
+        "code" : "9769006",
+        "display" : "Drug habituation (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Found content (\".\") after end of expression at character 2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt",
+      "concept" : [{
+        "code" : "57022",
+        "display" : "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
+      },
+      {
+        "code" : "58600",
+        "display" : "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, unilateral or bilateral"
+      },
+      {
+        "code" : "58605",
+        "display" : "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)"
+      },
+      {
+        "code" : "58970",
+        "display" : "Follicle puncture for oocyte retrieval, any method"
+      },
+      {
+        "code" : "58974",
+        "display" : "Embryo transfer, intrauterine"
+      },
+      {
+        "code" : "58976",
+        "display" : "Gamete, zygote, or embryo intrafallopian transfer, any method"
+      },
+      {
+        "code" : "59000",
+        "display" : "Amniocentesis; diagnostic"
+      },
+      {
+        "code" : "59001",
+        "display" : "Amniocentesis; therapeutic amniotic fluid reduction (includes ultrasound guidance)"
+      },
+      {
+        "code" : "59012",
+        "display" : "Cordocentesis (intrauterine), any method"
+      },
+      {
+        "code" : "59015",
+        "display" : "Chorionic villus sampling, any method"
+      },
+      {
+        "code" : "59020",
+        "display" : "Fetal contraction stress test"
+      },
+      {
+        "code" : "59025",
+        "display" : "Fetal non-stress test"
+      },
+      {
+        "code" : "59030",
+        "display" : "Fetal scalp blood sampling"
+      },
+      {
+        "code" : "59050",
+        "display" : "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; supervision and interpretation"
+      },
+      {
+        "code" : "59051",
+        "display" : "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; interpretation only"
+      },
+      {
+        "code" : "59070",
+        "display" : "Transabdominal amnioinfusion, including ultrasound guidance"
+      },
+      {
+        "code" : "59072",
+        "display" : "Fetal umbilical cord occlusion, including ultrasound guidance"
+      },
+      {
+        "code" : "59074",
+        "display" : "Fetal fluid drainage (eg, vesicocentesis, thoracocentesis, paracentesis), including ultrasound guidance"
+      },
+      {
+        "code" : "59076",
+        "display" : "Fetal shunt placement, including ultrasound guidance"
+      },
+      {
+        "code" : "59100",
+        "display" : "Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)"
+      },
+      {
+        "code" : "59120",
+        "display" : "Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach"
+      },
+      {
+        "code" : "59121",
+        "display" : "Surgical treatment of ectopic pregnancy; tubal or ovarian, without salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59130",
+        "display" : "Surgical treatment of ectopic pregnancy; abdominal pregnancy"
+      },
+      {
+        "code" : "59135",
+        "display" : "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy requiring total hysterectomy"
+      },
+      {
+        "code" : "59136",
+        "display" : "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy with partial resection of uterus"
+      },
+      {
+        "code" : "59140",
+        "display" : "Surgical treatment of ectopic pregnancy; cervical, with evacuation"
+      },
+      {
+        "code" : "59150",
+        "display" : "Laparoscopic treatment of ectopic pregnancy; without salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59151",
+        "display" : "Laparoscopic treatment of ectopic pregnancy; with salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59160",
+        "display" : "Curettage, postpartum"
+      },
+      {
+        "code" : "59200",
+        "display" : "Insertion of cervical dilator (eg, laminaria, prostaglandin) (separate procedure)"
+      },
+      {
+        "code" : "59300",
+        "display" : "Episiotomy or vaginal repair, by other than attending"
+      },
+      {
+        "code" : "59320",
+        "display" : "Cerclage of cervix, during pregnancy; vaginal"
+      },
+      {
+        "code" : "59325",
+        "display" : "Cerclage of cervix, during pregnancy; abdominal"
+      },
+      {
+        "code" : "59350",
+        "display" : "Hysterorrhaphy of ruptured uterus"
+      },
+      {
+        "code" : "59412",
+        "display" : "External cephalic version, with or without tocolysis"
+      },
+      {
+        "code" : "59414",
+        "display" : "Delivery of placenta (separate procedure)"
+      },
+      {
+        "code" : "59430",
+        "display" : "Postpartum care only (separate procedure)"
+      },
+      {
+        "code" : "59525",
+        "display" : "Subtotal or total hysterectomy after cesarean delivery (List separately in addition to code for primary procedure)"
+      },
+      {
+        "code" : "59812",
+        "display" : "Treatment of incomplete abortion, any trimester, completed surgically"
+      },
+      {
+        "code" : "59820",
+        "display" : "Treatment of missed abortion, completed surgically; first trimester"
+      },
+      {
+        "code" : "59821",
+        "display" : "Treatment of missed abortion, completed surgically; second trimester"
+      },
+      {
+        "code" : "59830",
+        "display" : "Treatment of septic abortion, completed surgically"
+      },
+      {
+        "code" : "59840",
+        "display" : "Induced abortion, by dilation and curettage"
+      },
+      {
+        "code" : "59841",
+        "display" : "Induced abortion, by dilation and evacuation"
+      },
+      {
+        "code" : "59850",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines"
+      },
+      {
+        "code" : "59851",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"
+      },
+      {
+        "code" : "59852",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)"
+      },
+      {
+        "code" : "59855",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines"
+      },
+      {
+        "code" : "59856",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"
+      },
+      {
+        "code" : "59857",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)"
+      },
+      {
+        "code" : "59866",
+        "display" : "Multifetal pregnancy reduction(s) (MPR)"
+      },
+      {
+        "code" : "59870",
+        "display" : "Uterine evacuation and curettage for hydatidiform mole"
+      },
+      {
+        "code" : "59871",
+        "display" : "Removal of cerclage suture under anesthesia (other than local)"
+      },
+      {
+        "code" : "59897",
+        "display" : "Unlisted fetal invasive procedure, including ultrasound guidance, when performed"
+      },
+      {
+        "code" : "59898",
+        "display" : "Unlisted laparoscopy procedure, maternity care and delivery"
+      },
+      {
+        "code" : "59899",
+        "display" : "Unlisted procedure, maternity care and delivery"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "6708002",
+        "display" : "Intrauterine cordocentesis (procedure)"
+      },
+      {
+        "code" : "9221009",
+        "display" : "Surgical treatment of septic abortion (procedure)"
+      },
+      {
+        "code" : "9724000",
+        "display" : "Repair of current obstetric laceration of uterus (procedure)"
+      },
+      {
+        "code" : "10455003",
+        "display" : "Removal of ectopic cervical pregnancy by evacuation (procedure)"
+      },
+      {
+        "code" : "10763001",
+        "display" : "Therapeutic abortion by insertion of laminaria (procedure)"
+      },
+      {
+        "code" : "15220000",
+        "display" : "Laboratory test (procedure)"
+      },
+      {
+        "code" : "17744000",
+        "display" : "Subtotal hysterectomy after cesarean delivery (procedure)"
+      },
+      {
+        "code" : "18302006",
+        "display" : "Therapeutic abortion by hysterotomy (procedure)"
+      },
+      {
+        "code" : "18489003",
+        "display" : "Surgical treatment of missed abortion of first trimester (procedure)"
+      },
+      {
+        "code" : "24068006",
+        "display" : "Hysterectomy for removal of hydatidiform mole (procedure)"
+      },
+      {
+        "code" : "26578004",
+        "display" : "Hysterotomy with removal of hydatidiform mole (procedure)"
+      },
+      {
+        "code" : "28107008",
+        "display" : "Wright's obstetrical version (procedure)"
+      },
+      {
+        "code" : "28379004",
+        "display" : "Dilation and curettage of uterus after abortion (procedure)"
+      },
+      {
+        "code" : "36708009",
+        "display" : "External fetal monitor surveillance (regime/therapy)"
+      },
+      {
+        "code" : "40704000",
+        "display" : "Wright's obstetrical version with extraction (procedure)"
+      },
+      {
+        "code" : "41058005",
+        "display" : "Salpingectomy for tubal ectopic pregnancy by abdominal approach (procedure)"
+      },
+      {
+        "code" : "41059002",
+        "display" : "Cesarean hysterectomy (procedure)"
+      },
+      {
+        "code" : "41780001",
+        "display" : "External fetal monitor removal (regime/therapy)"
+      },
+      {
+        "code" : "43096003",
+        "display" : "Insertion of laminaria into vagina (procedure)"
+      },
+      {
+        "code" : "45460008",
+        "display" : "Intrauterine transfusion (procedure)"
+      },
+      {
+        "code" : "46681009",
+        "display" : "Cerclage of cervix during pregnancy by abdominal approach (procedure)"
+      },
+      {
+        "code" : "52660002",
+        "display" : "Induced abortion following intra-amniotic injection with hysterotomy (procedure)"
+      },
+      {
+        "code" : "56620000",
+        "display" : "Delivery of placenta following delivery of infant outside of hospital (procedure)"
+      },
+      {
+        "code" : "61893009",
+        "display" : "Laparoscopic treatment of ectopic pregnancy with oophorectomy (procedure)"
+      },
+      {
+        "code" : "62688006",
+        "display" : "Surgical treatment of spontaneous abortion of any trimester (procedure)"
+      },
+      {
+        "code" : "63407004",
+        "display" : "Episioproctotomy (procedure)"
+      },
+      {
+        "code" : "63596003",
+        "display" : "Laparoscopic treatment of ectopic pregnancy with salpingectomy (procedure)"
+      },
+      {
+        "code" : "65378009",
+        "display" : "Delayed repair of episiotomy (procedure)"
+      },
+      {
+        "code" : "69621003",
+        "display" : "Surgical treatment of missed abortion of third trimester (procedure)"
+      },
+      {
+        "code" : "73341009",
+        "display" : "Removal of ectopic fetus from ovary without oophorectomy (procedure)"
+      },
+      {
+        "code" : "75456002",
+        "display" : "Embryo transfer (procedure)"
+      },
+      {
+        "code" : "81130000",
+        "display" : "Removal of intraligamentous ectopic pregnancy (procedure)"
+      },
+      {
+        "code" : "81855008",
+        "display" : "Internal fetal monitoring during labor (regime/therapy)"
+      },
+      {
+        "code" : "82688001",
+        "display" : "Removal of ectopic fetus (procedure)"
+      },
+      {
+        "code" : "84275009",
+        "display" : "Obstetrical hysterotomy (procedure)"
+      },
+      {
+        "code" : "85179000",
+        "display" : "Insertion of laminaria into cervix (procedure)"
+      },
+      {
+        "code" : "85548006",
+        "display" : "Episiotomy (procedure)"
+      },
+      {
+        "code" : "87431004",
+        "display" : "Dilation of cervical canal (procedure)"
+      },
+      {
+        "code" : "87663001",
+        "display" : "External fetal monitor surveillance during multiple pregnancy (regime/therapy)"
+      },
+      {
+        "code" : "88144003",
+        "display" : "Removal of ectopic interstitial uterine pregnancy requiring total hysterectomy (procedure)"
+      },
+      {
+        "code" : "88362001",
+        "display" : "Removal of ectopic fetus from fallopian tube without salpingectomy (procedure)"
+      },
+      {
+        "code" : "90442009",
+        "display" : "Cerclage of cervix during pregnancy by vaginal approach (procedure)"
+      },
+      {
+        "code" : "176833006",
+        "display" : "Dilation of cervix uteri and curettage of uterus for removal of missed abortion (procedure)"
+      },
+      {
+        "code" : "176850008",
+        "display" : "Intra-amniotic prostaglandin instillation (procedure)"
+      },
+      {
+        "code" : "176852000",
+        "display" : "Extra-amniotic prostaglandin instillation (procedure)"
+      },
+      {
+        "code" : "176854004",
+        "display" : "Insertion of prostaglandin abortifacient suppository (procedure)"
+      },
+      {
+        "code" : "176928008",
+        "display" : "Excision of ectopic ovarian pregnancy (procedure)"
+      },
+      {
+        "code" : "176929000",
+        "display" : "Excision of ruptured ectopic tubal pregnancy (procedure)"
+      },
+      {
+        "code" : "176996001",
+        "display" : "Endoscopic intrafallopian transfer of gamete (procedure)"
+      },
+      {
+        "code" : "177037000",
+        "display" : "Oocyte recovery (procedure)"
+      },
+      {
+        "code" : "177038005",
+        "display" : "Endoscopic transurethral ultrasound directed oocyte recovery (procedure)"
+      },
+      {
+        "code" : "177039002",
+        "display" : "Endoscopic transvesical oocyte recovery (procedure)"
+      },
+      {
+        "code" : "177042008",
+        "display" : "Transvaginal oocyte recovery (procedure)"
+      },
+      {
+        "code" : "177091002",
+        "display" : "Fetoscopic sampling of fetal blood (procedure)"
+      },
+      {
+        "code" : "177100008",
+        "display" : "Percutaneous fetal procedure (procedure)"
+      },
+      {
+        "code" : "177101007",
+        "display" : "Percutaneous insertion of vesicoamniotic shunt (procedure)"
+      },
+      {
+        "code" : "177102000",
+        "display" : "Percutaneous insertion of pleuroamniotic shunt (procedure)"
+      },
+      {
+        "code" : "177106002",
+        "display" : "Percutaneous biopsy of fetus (procedure)"
+      },
+      {
+        "code" : "177107006",
+        "display" : "Percutaneous sampling of chorionic villus (procedure)"
+      },
+      {
+        "code" : "177112007",
+        "display" : "Therapeutic drainage of amniotic fluid (procedure)"
+      },
+      {
+        "code" : "177122001",
+        "display" : "External version of breech (procedure)"
+      },
+      {
+        "code" : "177136006",
+        "display" : "Prostaglandin induction of labor (procedure)"
+      },
+      {
+        "code" : "177212000",
+        "display" : "Normal delivery of placenta (procedure)"
+      },
+      {
+        "code" : "177222006",
+        "display" : "Repair of episiotomy (procedure)"
+      },
+      {
+        "code" : "215192006",
+        "display" : "Uterine evacuation and curettage of hydatidiform mole (procedure)"
+      },
+      {
+        "code" : "216209009",
+        "display" : "Removal of hydatidiform mole (procedure)"
+      },
+      {
+        "code" : "233560009",
+        "display" : "Percutaneous intraperitoneal fetal blood transfusion (procedure)"
+      },
+      {
+        "code" : "233561008",
+        "display" : "Percutaneous intravascular fetal blood transfusion (procedure)"
+      },
+      {
+        "code" : "236894009",
+        "display" : "Frozen embryo transfer (procedure)"
+      },
+      {
+        "code" : "236912008",
+        "display" : "Gamete intrafallopian transfer (procedure)"
+      },
+      {
+        "code" : "236913003",
+        "display" : "Fallopian replacement of egg with delayed insemination (procedure)"
+      },
+      {
+        "code" : "236914009",
+        "display" : "Zygote intrafallopian transfer (procedure)"
+      },
+      {
+        "code" : "236915005",
+        "display" : "Tubal embryo transfer (procedure)"
+      },
+      {
+        "code" : "236952005",
+        "display" : "Therapeutic drainage of amniotic fluid by single aspiration (procedure)"
+      },
+      {
+        "code" : "236953000",
+        "display" : "Therapeutic drainage of amniotic fluid by indwelling catheter (procedure)"
+      },
+      {
+        "code" : "236954006",
+        "display" : "Diagnostic amniocentesis with fluid replacement (procedure)"
+      },
+      {
+        "code" : "236955007",
+        "display" : "Hyperalimentation of fetus through amniotic cavity (procedure)"
+      },
+      {
+        "code" : "236956008",
+        "display" : "Amnioinfusion (procedure)"
+      },
+      {
+        "code" : "236966000",
+        "display" : "Cervical ripening with Prostaglandin E2 (procedure)"
+      },
+      {
+        "code" : "236987005",
+        "display" : "Emergency cesarean hysterectomy (procedure)"
+      },
+      {
+        "code" : "236988000",
+        "display" : "Elective cesarean hysterectomy (procedure)"
+      },
+      {
+        "code" : "236992007",
+        "display" : "Right mediolateral episiotomy (procedure)"
+      },
+      {
+        "code" : "236993002",
+        "display" : "Vacuum dilatation of cervix (procedure)"
+      },
+      {
+        "code" : "236994008",
+        "display" : "Placental delivery procedure (procedure)"
+      },
+      {
+        "code" : "237017007",
+        "display" : "Intramyometrial injection of prostaglandin (procedure)"
+      },
+      {
+        "code" : "237025009",
+        "display" : "Repair of right mediolateral episiotomy (procedure)"
+      },
+      {
+        "code" : "240278000",
+        "display" : "External cephalic version (procedure)"
+      },
+      {
+        "code" : "240284002",
+        "display" : "Multifetal pregnancy reduction (procedure)"
+      },
+      {
+        "code" : "240285001",
+        "display" : "Percutaneous insertion of fetal shunt (procedure)"
+      },
+      {
+        "code" : "240286000",
+        "display" : "Percutaneous insertion of ventriculoamniotic shunt (procedure)"
+      },
+      {
+        "code" : "240288004",
+        "display" : "Percutaneous insertion of peritoneal-amniotic shunt (procedure)"
+      },
+      {
+        "code" : "240289007",
+        "display" : "Percutaneous aspiration of fetal lesion (procedure)"
+      },
+      {
+        "code" : "240290003",
+        "display" : "Percutaneous aspiration of fetal ascites (procedure)"
+      },
+      {
+        "code" : "240291004",
+        "display" : "Percutaneous aspiration of fetal pleural effusion (procedure)"
+      },
+      {
+        "code" : "240292006",
+        "display" : "Percutaneous aspiration of fetal pericardial effusion (procedure)"
+      },
+      {
+        "code" : "243773009",
+        "display" : "Fetal blood sampling (procedure)"
+      },
+      {
+        "code" : "243774003",
+        "display" : "Transvaginal fetal blood sampling (procedure)"
+      },
+      {
+        "code" : "259863001",
+        "display" : "Removal of Shirodkar suture from cervix (procedure)"
+      },
+      {
+        "code" : "265082003",
+        "display" : "Laparoscopic oocyte recovery (procedure)"
+      },
+      {
+        "code" : "265635006",
+        "display" : "Diagnostic amniocentesis (procedure)"
+      },
+      {
+        "code" : "265642006",
+        "display" : "Obstetric monitoring (regime/therapy)"
+      },
+      {
+        "code" : "274973002",
+        "display" : "Dilation of cervix uteri and curettage for termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "275222009",
+        "display" : "Transcervical sampling of chorionic villus (procedure)"
+      },
+      {
+        "code" : "275223004",
+        "display" : "Transabdominal chorionic villus biopsy (procedure)"
+      },
+      {
+        "code" : "281568006",
+        "display" : "Fetal heart monitoring (regime/therapy)"
+      },
+      {
+        "code" : "281570002",
+        "display" : "Fetal heart monitoring in labor (regime/therapy)"
+      },
+      {
+        "code" : "285409006",
+        "display" : "Medical termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "285416007",
+        "display" : "Resuture of episiotomy (procedure)"
+      },
+      {
+        "code" : "285417003",
+        "display" : "Resuture of episiotomy dehiscence (procedure)"
+      },
+      {
+        "code" : "285434006",
+        "display" : "Insertion of abortifacient suppository (procedure)"
+      },
+      {
+        "code" : "287954004",
+        "display" : "Intrauterine exchange transfusion (procedure)"
+      },
+      {
+        "code" : "288045002",
+        "display" : "Injection of amnion for termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "288194000",
+        "display" : "Routine episiotomy and repair (procedure)"
+      },
+      {
+        "code" : "302375005",
+        "display" : "Operative termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "302384005",
+        "display" : "Controlled cord traction of placenta (procedure)"
+      },
+      {
+        "code" : "303720006",
+        "display" : "Sampling of chorionic villus (procedure)"
+      },
+      {
+        "code" : "309877008",
+        "display" : "Intrapartum cardiotochogram monitoring (regime/therapy)"
+      },
+      {
+        "code" : "315308008",
+        "display" : "Dilatation of cervix for delivery (procedure)"
+      },
+      {
+        "code" : "386276009",
+        "display" : "Electronic fetal monitoring: antepartum (regime/therapy)"
+      },
+      {
+        "code" : "386277000",
+        "display" : "Electronic fetal monitoring: intrapartum (regime/therapy)"
+      },
+      {
+        "code" : "386639001",
+        "display" : "Termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "386641000",
+        "display" : "Therapeutic abortion procedure (procedure)"
+      },
+      {
+        "code" : "387615001",
+        "display" : "Removal of ectopic pregnancy from fallopian tube (procedure)"
+      },
+      {
+        "code" : "387616000",
+        "display" : "Fimbrial extraction of tubal pregnancy (procedure)"
+      },
+      {
+        "code" : "387673001",
+        "display" : "Nonstress test (regime/therapy)"
+      },
+      {
+        "code" : "387678005",
+        "display" : "External obstetrical version (procedure)"
+      },
+      {
+        "code" : "387709005",
+        "display" : "Removal of ectopic fetus from abdominal cavity (procedure)"
+      },
+      {
+        "code" : "387710000",
+        "display" : "Removal of extrauterine ectopic fetus (procedure)"
+      },
+      {
+        "code" : "391896006",
+        "display" : "Therapeutic abortion by aspiration curettage (procedure)"
+      },
+      {
+        "code" : "391897002",
+        "display" : "Aspiration curettage of uterus for termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "391998006",
+        "display" : "Dilation and curettage of uterus after delivery (procedure)"
+      },
+      {
+        "code" : "392000009",
+        "display" : "Hysterotomy for retained placenta (procedure)"
+      },
+      {
+        "code" : "398221005",
+        "display" : "Fetal pH monitoring (regime/therapy)"
+      },
+      {
+        "code" : "405262001",
+        "display" : "Point of care testing (procedure)"
+      },
+      {
+        "code" : "408804006",
+        "display" : "Continuous fetal heart monitoring during labor (regime/therapy)"
+      },
+      {
+        "code" : "408805007",
+        "display" : "Intermittent fetal heart monitoring during labor (regime/therapy)"
+      },
+      {
+        "code" : "408806008",
+        "display" : "Fetal heart monitoring using hand held doppler (regime/therapy)"
+      },
+      {
+        "code" : "408807004",
+        "display" : "Fetal heart monitoring using fetal scalp electrode (regime/therapy)"
+      },
+      {
+        "code" : "408808009",
+        "display" : "Fetal heart monitoring using ultrasound transducer (regime/therapy)"
+      },
+      {
+        "code" : "408819007",
+        "display" : "Delivery of placenta by maternal effort (procedure)"
+      },
+      {
+        "code" : "408840008",
+        "display" : "Extra-amniotic termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "408845003",
+        "display" : "Fetal heart monitoring with Pinard stethoscope (regime/therapy)"
+      },
+      {
+        "code" : "425707001",
+        "display" : "Serial drainage of amniotic fluid (procedure)"
+      },
+      {
+        "code" : "425939004",
+        "display" : "Endoscopic serial drainage of amniotic fluid (procedure)"
+      },
+      {
+        "code" : "426287008",
+        "display" : "Amniocentesis for possible neural tube defect (procedure)"
+      },
+      {
+        "code" : "426737000",
+        "display" : "Endoscopic serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)"
+      },
+      {
+        "code" : "427230007",
+        "display" : "Amniocentesis for possible chromosomal abnormality (procedure)"
+      },
+      {
+        "code" : "427320001",
+        "display" : "Serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)"
+      },
+      {
+        "code" : "429613009",
+        "display" : "Percutaneous insertion of tracheal plug for congenital diaphragmatic hernia of fetus (procedure)"
+      },
+      {
+        "code" : "429737004",
+        "display" : "Percutaneous laser ablation of lesion of fetus (procedure)"
+      },
+      {
+        "code" : "433153009",
+        "display" : "Chorionic villus sampling using obstetric ultrasound guidance (procedure)"
+      },
+      {
+        "code" : "440148001",
+        "display" : "Partial excision of uterus for removal of interstitial ectopic pregnancy (procedure)"
+      },
+      {
+        "code" : "443005005",
+        "display" : "Diagnostic amniocentesis using ultrasound guidance (procedure)"
+      },
+      {
+        "code" : "445865006",
+        "display" : "Sampling of fetal blood using ultrasound guidance (procedure)"
+      },
+      {
+        "code" : "445912000",
+        "display" : "Excision of fallopian tube and surgical removal of ectopic pregnancy (procedure)"
+      },
+      {
+        "code" : "446135006",
+        "display" : "Amnioinfusion using ultrasound guidance (procedure)"
+      },
+      {
+        "code" : "446341008",
+        "display" : "Sampling of fetal blood and biopsy of fetus (procedure)"
+      },
+      {
+        "code" : "446934006",
+        "display" : "Retrieval of oocyte by transabdominal approach (procedure)"
+      },
+      {
+        "code" : "447214008",
+        "display" : "Ligation of umbilical cord of fetus (procedure)"
+      },
+      {
+        "code" : "447771005",
+        "display" : "Abdominal hysterectomy and excision of periuterine tissue (procedure)"
+      },
+      {
+        "code" : "447972007",
+        "display" : "Medical termination of pregnancy using prostaglandin (procedure)"
+      },
+      {
+        "code" : "448543003",
+        "display" : "Transmyometrial transfer of embryo to uterus (procedure)"
+      },
+      {
+        "code" : "450483001",
+        "display" : "Cesarean section through inverted T shaped incision of uterus (procedure)"
+      },
+      {
+        "code" : "450484007",
+        "display" : "Cesarean section through J shaped incision of uterus (procedure)"
+      },
+      {
+        "code" : "450563004",
+        "display" : "Laparoscopic excision of ectopic ovarian pregnancy (procedure)"
+      },
+      {
+        "code" : "700041001",
+        "display" : "Induced termination of pregnancy under unsafe conditions (procedure)"
+      },
+      {
+        "code" : "713117007",
+        "display" : "Monitoring fetal development (regime/therapy)"
+      },
+      {
+        "code" : "713120004",
+        "display" : "Counting fetal movement (regime/therapy)"
+      },
+      {
+        "code" : "714812005",
+        "display" : "Induced termination of pregnancy (procedure)"
+      },
+      {
+        "code" : "716100006",
+        "display" : "Doppler ultrasonography of vascular structure of fetal head (procedure)"
+      },
+      {
+        "code" : "725927001",
+        "display" : "Pronuclear transfer mitochondrial replacement therapy (procedure)"
+      },
+      {
+        "code" : "726556001",
+        "display" : "Maternal spindle transfer mitochondrial replacement therapy (procedure)"
+      },
+      {
+        "code" : "732970000",
+        "display" : "Controlled ovarian stimulation (procedure)"
+      },
+      {
+        "code" : "737099004",
+        "display" : "Abdominal hysterectomy with sacrocolpopexy using mesh (procedure)"
+      },
+      {
+        "code" : "4.80571E+14",
+        "display" : "Doppler ultrasound velocimetry of umbilical artery of fetus (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A52.2",
+        "display" : "Asymptomatic neurosyphilis"
+      },
+      {
+        "code" : "A52.0",
+        "display" : "Cardiovascular and cerebrovascular syphilis"
+      },
+      {
+        "code" : "A52.00",
+        "display" : "Cardiovascular syphilis, unspecified"
+      },
+      {
+        "code" : "A52.16",
+        "display" : "Charcôt's arthropathy (tabetic)"
+      },
+      {
+        "code" : "A50.51",
+        "display" : "Clutton's joints"
+      },
+      {
+        "code" : "A51.31",
+        "display" : "Condyloma latum"
+      },
+      {
+        "code" : "A50",
+        "display" : "Congenital syphilis"
+      },
+      {
+        "code" : "A50.9",
+        "display" : "Congenital syphilis, unspecified"
+      },
+      {
+        "code" : "A50.1",
+        "display" : "Early congenital syphilis, latent"
+      },
+      {
+        "code" : "A50.0",
+        "display" : "Early congenital syphilis, symptomatic"
+      },
+      {
+        "code" : "A50.2",
+        "display" : "Early congenital syphilis, unspecified"
+      },
+      {
+        "code" : "A50.01",
+        "display" : "Early congenital syphilitic oculopathy"
+      },
+      {
+        "code" : "A50.02",
+        "display" : "Early congenital syphilitic osteochondropathy"
+      },
+      {
+        "code" : "A50.03",
+        "display" : "Early congenital syphilitic pharyngitis"
+      },
+      {
+        "code" : "A50.04",
+        "display" : "Early congenital syphilitic pneumonia"
+      },
+      {
+        "code" : "A50.05",
+        "display" : "Early congenital syphilitic rhinitis"
+      },
+      {
+        "code" : "A50.06",
+        "display" : "Early cutaneous congenital syphilis"
+      },
+      {
+        "code" : "A50.07",
+        "display" : "Early mucocutaneous congenital syphilis"
+      },
+      {
+        "code" : "A51",
+        "display" : "Early syphilis"
+      },
+      {
+        "code" : "A51.5",
+        "display" : "Early syphilis, latent"
+      },
+      {
+        "code" : "A51.9",
+        "display" : "Early syphilis, unspecified"
+      },
+      {
+        "code" : "A50.08",
+        "display" : "Early visceral congenital syphilis"
+      },
+      {
+        "code" : "A52.17",
+        "display" : "General paresis"
+      },
+      {
+        "code" : "A50.52",
+        "display" : "Hutchinson's teeth"
+      },
+      {
+        "code" : "A50.53",
+        "display" : "Hutchinson's triad"
+      },
+      {
+        "code" : "A50.45",
+        "display" : "Juvenile general paresis"
+      },
+      {
+        "code" : "A50.54",
+        "display" : "Late congenital cardiovascular syphilis"
+      },
+      {
+        "code" : "A50.4",
+        "display" : "Late congenital neurosyphilis [juvenile neurosyphilis]"
+      },
+      {
+        "code" : "A50.40",
+        "display" : "Late congenital neurosyphilis, unspecified"
+      },
+      {
+        "code" : "A50.6",
+        "display" : "Late congenital syphilis, latent"
+      },
+      {
+        "code" : "A50.7",
+        "display" : "Late congenital syphilis, unspecified"
+      },
+      {
+        "code" : "A50.55",
+        "display" : "Late congenital syphilitic arthropathy"
+      },
+      {
+        "code" : "A50.32",
+        "display" : "Late congenital syphilitic chorioretinitis"
+      },
+      {
+        "code" : "A50.42",
+        "display" : "Late congenital syphilitic encephalitis"
+      },
+      {
+        "code" : "A50.31",
+        "display" : "Late congenital syphilitic interstitial keratitis"
+      },
+      {
+        "code" : "A50.41",
+        "display" : "Late congenital syphilitic meningitis"
+      },
+      {
+        "code" : "A50.3",
+        "display" : "Late congenital syphilitic oculopathy"
+      },
+      {
+        "code" : "A50.30",
+        "display" : "Late congenital syphilitic oculopathy, unspecified"
+      },
+      {
+        "code" : "A50.44",
+        "display" : "Late congenital syphilitic optic nerve atrophy"
+      },
+      {
+        "code" : "A50.56",
+        "display" : "Late congenital syphilitic osteochondropathy"
+      },
+      {
+        "code" : "A50.43",
+        "display" : "Late congenital syphilitic polyneuropathy"
+      },
+      {
+        "code" : "A52",
+        "display" : "Late syphilis"
+      },
+      {
+        "code" : "A52.8",
+        "display" : "Late syphilis, latent"
+      },
+      {
+        "code" : "A52.9",
+        "display" : "Late syphilis, unspecified"
+      },
+      {
+        "code" : "A52.14",
+        "display" : "Late syphilitic encephalitis"
+      },
+      {
+        "code" : "A52.13",
+        "display" : "Late syphilitic meningitis"
+      },
+      {
+        "code" : "A52.15",
+        "display" : "Late syphilitic neuropathy"
+      },
+      {
+        "code" : "A52.71",
+        "display" : "Late syphilitic oculopathy"
+      },
+      {
+        "code" : "A53.0",
+        "display" : "Latent syphilis, unspecified as early or late"
+      },
+      {
+        "code" : "A52.3",
+        "display" : "Neurosyphilis, unspecified"
+      },
+      {
+        "code" : "A65",
+        "display" : "Nonvenereal syphilis"
+      },
+      {
+        "code" : "A53",
+        "display" : "Other and unspecified syphilis"
+      },
+      {
+        "code" : "A52.09",
+        "display" : "Other cardiovascular syphilis"
+      },
+      {
+        "code" : "A52.12",
+        "display" : "Other cerebrospinal syphilis"
+      },
+      {
+        "code" : "A52.05",
+        "display" : "Other cerebrovascular syphilis"
+      },
+      {
+        "code" : "A50.09",
+        "display" : "Other early congenital syphilis, symptomatic"
+      },
+      {
+        "code" : "A52.76",
+        "display" : "Other genitourinary symptomatic late syphilis"
+      },
+      {
+        "code" : "A50.49",
+        "display" : "Other late congenital neurosyphilis"
+      },
+      {
+        "code" : "A50.5",
+        "display" : "Other late congenital syphilis, symptomatic"
+      },
+      {
+        "code" : "A50.59",
+        "display" : "Other late congenital syphilis, symptomatic"
+      },
+      {
+        "code" : "A50.39",
+        "display" : "Other late congenital syphilitic oculopathy"
+      },
+      {
+        "code" : "A51.4",
+        "display" : "Other secondary syphilis"
+      },
+      {
+        "code" : "A51.39",
+        "display" : "Other secondary syphilis of skin"
+      },
+      {
+        "code" : "A51.49",
+        "display" : "Other secondary syphilitic conditions"
+      },
+      {
+        "code" : "A52.7",
+        "display" : "Other symptomatic late syphilis"
+      },
+      {
+        "code" : "A52.79",
+        "display" : "Other symptomatic late syphilis"
+      },
+      {
+        "code" : "A52.19",
+        "display" : "Other symptomatic neurosyphilis"
+      },
+      {
+        "code" : "A52.06",
+        "display" : "Other syphilitic heart involvement"
+      },
+      {
+        "code" : "A51.1",
+        "display" : "Primary anal syphilis"
+      },
+      {
+        "code" : "A51.0",
+        "display" : "Primary genital syphilis"
+      },
+      {
+        "code" : "A51.2",
+        "display" : "Primary syphilis of other sites"
+      },
+      {
+        "code" : "A51.3",
+        "display" : "Secondary syphilis of skin and mucous membranes"
+      },
+      {
+        "code" : "A51.42",
+        "display" : "Secondary syphilitic female pelvic disease"
+      },
+      {
+        "code" : "A51.45",
+        "display" : "Secondary syphilitic hepatitis"
+      },
+      {
+        "code" : "A51.41",
+        "display" : "Secondary syphilitic meningitis"
+      },
+      {
+        "code" : "A51.44",
+        "display" : "Secondary syphilitic nephritis"
+      },
+      {
+        "code" : "A51.43",
+        "display" : "Secondary syphilitic oculopathy"
+      },
+      {
+        "code" : "A51.46",
+        "display" : "Secondary syphilitic osteopathy"
+      },
+      {
+        "code" : "A52.73",
+        "display" : "Symptomatic late syphilis of other respiratory organs"
+      },
+      {
+        "code" : "A52.1",
+        "display" : "Symptomatic neurosyphilis"
+      },
+      {
+        "code" : "A52.10",
+        "display" : "Symptomatic neurosyphilis, unspecified"
+      },
+      {
+        "code" : "O98.12",
+        "display" : "Syphilis complicating childbirth"
+      },
+      {
+        "code" : "O98.11",
+        "display" : "Syphilis complicating pregnancy"
+      },
+      {
+        "code" : "O98.1",
+        "display" : "Syphilis complicating pregnancy, childbirth and the puerperium"
+      },
+      {
+        "code" : "O98.111",
+        "display" : "Syphilis complicating pregnancy, first trimester"
+      },
+      {
+        "code" : "O98.112",
+        "display" : "Syphilis complicating pregnancy, second trimester"
+      },
+      {
+        "code" : "O98.113",
+        "display" : "Syphilis complicating pregnancy, third trimester"
+      },
+      {
+        "code" : "O98.119",
+        "display" : "Syphilis complicating pregnancy, unspecified trimester"
+      },
+      {
+        "code" : "O98.13",
+        "display" : "Syphilis complicating the puerperium"
+      },
+      {
+        "code" : "A52.77",
+        "display" : "Syphilis of bone and joint"
+      },
+      {
+        "code" : "A52.75",
+        "display" : "Syphilis of kidney and ureter"
+      },
+      {
+        "code" : "A52.74",
+        "display" : "Syphilis of liver and other viscera"
+      },
+      {
+        "code" : "A52.72",
+        "display" : "Syphilis of lung and bronchus"
+      },
+      {
+        "code" : "A52.78",
+        "display" : "Syphilis of other musculoskeletal tissue"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "Syphilis, unspecified"
+      },
+      {
+        "code" : "A51.32",
+        "display" : "Syphilitic alopecia"
+      },
+      {
+        "code" : "A52.01",
+        "display" : "Syphilitic aneurysm of aorta"
+      },
+      {
+        "code" : "A52.02",
+        "display" : "Syphilitic aortitis"
+      },
+      {
+        "code" : "A52.04",
+        "display" : "Syphilitic cerebral arteritis"
+      },
+      {
+        "code" : "A52.03",
+        "display" : "Syphilitic endocarditis"
+      },
+      {
+        "code" : "A50.57",
+        "display" : "Syphilitic saddle nose"
+      },
+      {
+        "code" : "A52.11",
+        "display" : "Tabes dorsalis"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "68863007",
+        "display" : "Acute syphilitic meningitis (disorder)"
+      },
+      {
+        "code" : "402952006",
+        "display" : "Anetoderma secondary to syphilis (disorder)"
+      },
+      {
+        "code" : "1.04471E+14",
+        "display" : "Charcot arthropathy due to syphilis (disorder)"
+      },
+      {
+        "code" : "240561005",
+        "display" : "Corona veneris (disorder)"
+      },
+      {
+        "code" : "698725008",
+        "display" : "Dementia associated with neurosyphilis (disorder)"
+      },
+      {
+        "code" : "703134008",
+        "display" : "Hypoplasia of enamel due to congenital syphilis (disorder)"
+      },
+      {
+        "code" : "449773001",
+        "display" : "Interstitial glossitis (disorder)"
+      },
+      {
+        "code" : "410469004",
+        "display" : "Iris papulosa (finding)"
+      },
+      {
+        "code" : "410468007",
+        "display" : "Iris roseola (finding)"
+      },
+      {
+        "code" : "711617002",
+        "display" : "Iritis caused by Treponema pallidum (disorder)"
+      },
+      {
+        "code" : "449776009",
+        "display" : "Luetic glossitis (disorder)"
+      },
+      {
+        "code" : "109436001",
+        "display" : "Moon's molar teeth (disorder)"
+      },
+      {
+        "code" : "721583004",
+        "display" : "Mucocutaneous early congenital syphilis (disorder)"
+      },
+      {
+        "code" : "402948006",
+        "display" : "Nail dystrophy due to secondary syphilis (disorder)"
+      },
+      {
+        "code" : "127058009",
+        "display" : "Paroxysmal cold hemoglobinuria associated with tertiary syphilis (disorder)"
+      },
+      {
+        "code" : "235898000",
+        "display" : "Pericellular fibrosis of congenital syphilis (disorder)"
+      },
+      {
+        "code" : "201738001",
+        "display" : "Post-infective arthropathy in syphilis (disorder)"
+      },
+      {
+        "code" : "186893003",
+        "display" : "Rupture of syphilitic cerebral aneurysm (disorder)"
+      },
+      {
+        "code" : "10759921000119107",
+        "display" : "Syphilis in mother complicating childbirth (disorder)"
+      },
+      {
+        "code" : "3.31151E+14",
+        "display" : "Syphilitic choroiditis (disorder)"
+      },
+      {
+        "code" : "301086002",
+        "display" : "Syphilitic meningitis (disorder)"
+      },
+      {
+        "code" : "34964002",
+        "display" : "Syphilitic peritonitis (disorder)"
+      },
+      {
+        "code" : "77782006",
+        "display" : "Syphilitic saddle nose (disorder)"
+      },
+      {
+        "code" : "9.4851E+13",
+        "display" : "Syphilitic valvular endocarditis (disorder)"
+      },
+      {
+        "code" : "239825002",
+        "display" : "Tabetic joint (disorder)"
+      },
+      {
+        "code" : "29500006",
+        "display" : "Urethral stricture due to syphilis (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Found content (\".\") after end of expression at character 2"
 }
 -------------------------------------------------------------------------------------

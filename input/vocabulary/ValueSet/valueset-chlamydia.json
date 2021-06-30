@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia",
+  "name": "chlamydia",
+  "title": "Chlamydia",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Chlamydia",
+        "display": "Chlamydia"
+      } ]
+    } ]
+  }
+}

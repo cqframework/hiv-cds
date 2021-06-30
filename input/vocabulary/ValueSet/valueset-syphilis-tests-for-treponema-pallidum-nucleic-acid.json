@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "syphilis-tests-for-treponema-pallidum-nucleic-acid",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponema-pallidum-nucleic-acid",
+  "name": "syphilis-tests-for-treponema-pallidum-nucleic-acid",
+  "title": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Tests for Treponema pallidum Nucleic Acid) element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+        "display": "Syphilis (Tests for Treponema pallidum Nucleic Acid)"
+      } ]
+    } ]
+  }
+}

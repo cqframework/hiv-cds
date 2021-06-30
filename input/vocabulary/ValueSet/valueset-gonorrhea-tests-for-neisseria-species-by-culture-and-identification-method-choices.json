@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-tests-for-neisseria-species-by-culture-and-identification-method-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-for-neisseria-species-by-culture-and-identification-method-choices",
+  "name": "gonorrhea-tests-for-neisseria-species-by-culture-and-identification-method-choices",
+  "title": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea (Tests for Neisseria species by Culture and Identification Method) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "43383-9",
+        "display": "Neisseria sp identified in Throat by Organism specific culture"
+      }, {
+        "code": "43384-7",
+        "display": "Neisseria sp identified in Urethra by Organism specific culture"
+      }, {
+        "code": "43385-4",
+        "display": "Neisseria sp identified in Cervix by Organism specific culture"
+      }, {
+        "code": "43386-2",
+        "display": "Neisseria sp identified in Anal by Organism specific culture"
+      }, {
+        "code": "43387-0",
+        "display": "Neisseria sp identified in Unspecified specimen by Organism specific culture"
+      }, {
+        "code": "80369-2",
+        "display": "Neisseria sp identified in Rectum by Organism specific culture"
+      } ]
+    } ]
+  }
+}

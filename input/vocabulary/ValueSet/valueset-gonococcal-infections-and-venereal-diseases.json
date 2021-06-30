@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonococcal-infections-and-venereal-diseases",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonococcal-infections-and-venereal-diseases",
+  "name": "gonococcal-infections-and-venereal-diseases",
+  "title": "Gonococcal Infections and Venereal Diseases",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonococcal Infections and Venereal Diseases element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gonococcal Infections and Venereal Diseases",
+        "display": "Gonococcal Infections and Venereal Diseases"
+      } ]
+    } ]
+  }
+}

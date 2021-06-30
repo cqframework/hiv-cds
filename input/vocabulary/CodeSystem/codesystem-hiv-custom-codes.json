@@ -1,0 +1,201 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hiv-custom-codes",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom-codes",
+  "name": "hiv-custom_codes",
+  "title": "Extended Codes CodeSystem codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Set of codes identified as being needed but not found in existing Code Systems",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "HIV infection as a condition",
+    "display": "HIV infection as a condition",
+    "definition": "HIV infection as a condition"
+  }, {
+    "code": "HIV-1 HIV 2 Ab Ag tests",
+    "display": "HIV-1 HIV 2 Ab Ag tests",
+    "definition": "HIV-1 HIV 2 Ab Ag tests"
+  }, {
+    "code": "HIV Viral Load",
+    "display": "HIV Viral Load",
+    "definition": "HIV Viral Load"
+  }, {
+    "code": "Hepatitis C Virus Infection (Disorders)",
+    "display": "Hepatitis C Virus Infection (Disorders)",
+    "definition": "Hepatitis C Virus Infection (Disorders)"
+  }, {
+    "code": "Chronic Infection of liver due to Hepatitis C virus.",
+    "display": "Chronic Infection of liver due to Hepatitis C virus.",
+    "definition": "Chronic Infection of liver due to Hepatitis C virus."
+  }, {
+    "code": "HCV Infection (Organism or Substance in Lab Results)",
+    "display": "HCV Infection (Organism or Substance in Lab Results)",
+    "definition": "HCV Infection (Organism or Substance in Lab Results)"
+  }, {
+    "code": "Hepatitis C condition",
+    "display": "Hepatitis C condition",
+    "definition": "Hepatitis C condition"
+  }, {
+    "code": "Hepatitis C Ag",
+    "display": "Hepatitis C Ag",
+    "definition": "Hepatitis C Ag"
+  }, {
+    "code": "Hepatitis C nucleic acid",
+    "display": "Hepatitis C nucleic acid",
+    "definition": "Hepatitis C nucleic acid"
+  }, {
+    "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method.",
+    "display": "Hepatitis C virus antibody test using Immunoblotting (IB) method.",
+    "definition": "Hepatitis C virus antibody test using Immunoblotting (IB) method."
+  }, {
+    "code": "Hepatitis C virus antibody test.",
+    "display": "Hepatitis C virus antibody test.",
+    "definition": "Hepatitis C virus antibody test."
+  }, {
+    "code": "Hepatitis C virus nucleic (RNA) test.",
+    "display": "Hepatitis C virus nucleic (RNA) test.",
+    "definition": "Hepatitis C virus nucleic (RNA) test."
+  }, {
+    "code": "Syphilis",
+    "display": "Syphilis",
+    "definition": "Syphilis"
+  }, {
+    "code": "Syphilis (Organism or Substance in Lab Results)",
+    "display": "Syphilis (Organism or Substance in Lab Results)",
+    "definition": "Syphilis (Organism or Substance in Lab Results)"
+  }, {
+    "code": "Syphilis condition",
+    "display": "Syphilis condition",
+    "definition": "Syphilis condition"
+  }, {
+    "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+    "display": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+    "definition": "Syphilis (Tests for Treponema pallidum Nucleic Acid)"
+  }, {
+    "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)",
+    "display": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)",
+    "definition": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)"
+  }, {
+    "code": "Gonococcal Infections and Venereal Diseases",
+    "display": "Gonococcal Infections and Venereal Diseases",
+    "definition": "Gonococcal Infections and Venereal Diseases"
+  }, {
+    "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)",
+    "display": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)",
+    "definition": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)"
+  }, {
+    "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)",
+    "display": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)",
+    "definition": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)"
+  }, {
+    "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)",
+    "display": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)",
+    "definition": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)"
+  }, {
+    "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture",
+    "display": "Gonorrhea Tests for Neisseria gonorrhea by Culture",
+    "definition": "Gonorrhea Tests for Neisseria gonorrhea by Culture"
+  }, {
+    "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)",
+    "display": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)",
+    "definition": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)"
+  }, {
+    "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)",
+    "display": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)",
+    "definition": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)"
+  }, {
+    "code": "Gonorrhea test",
+    "display": "Gonorrhea test",
+    "definition": "Gonorrhea test"
+  }, {
+    "code": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests",
+    "display": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests",
+    "definition": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests"
+  }, {
+    "code": "Chlamydia",
+    "display": "Chlamydia",
+    "definition": "Chlamydia"
+  }, {
+    "code": "Chlamydia Infections and Venereal Diseases",
+    "display": "Chlamydia Infections and Venereal Diseases",
+    "definition": "Chlamydia Infections and Venereal Diseases"
+  }, {
+    "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)",
+    "display": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)",
+    "definition": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)"
+  }, {
+    "code": "Chlamydia trachomatis organism or Chlamydia trachomatis substance",
+    "display": "Chlamydia trachomatis organism or Chlamydia trachomatis substance",
+    "definition": "Chlamydia trachomatis organism or Chlamydia trachomatis substance"
+  }, {
+    "code": "Chlamydia Screening",
+    "display": "Chlamydia Screening",
+    "definition": "Chlamydia Screening"
+  }, {
+    "code": "Chlamydia test",
+    "display": "Chlamydia test",
+    "definition": "Chlamydia test"
+  }, {
+    "code": "Chlamydia Trachomatis Tests, FPAR",
+    "display": "Chlamydia Trachomatis Tests, FPAR",
+    "definition": "Chlamydia Trachomatis Tests, FPAR"
+  }, {
+    "code": "Tests for Chlamydia trachomatis Antigen",
+    "display": "Tests for Chlamydia trachomatis Antigen",
+    "definition": "Tests for Chlamydia trachomatis Antigen"
+  }, {
+    "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)",
+    "display": "Tests for Chlamydia trachomatis by Culture and Identification Method)",
+    "definition": "Tests for Chlamydia trachomatis by Culture and Identification Method)"
+  }, {
+    "code": "Tests for Chlamydia trachomatis Nucleic Acid",
+    "display": "Tests for Chlamydia trachomatis Nucleic Acid",
+    "definition": "Tests for Chlamydia trachomatis Nucleic Acid"
+  }, {
+    "code": "Drug Rehabilitation",
+    "display": "Drug Rehabilitation",
+    "definition": "Drug Rehabilitation"
+  }, {
+    "code": "Injection Findings",
+    "display": "Injection Findings",
+    "definition": "Injection Findings"
+  }, {
+    "code": "IDU as a condition",
+    "display": "IDU as a condition",
+    "definition": "IDU as a condition"
+  }, {
+    "code": "Injection Drug Use",
+    "display": "Injection Drug Use",
+    "definition": "Injection Drug Use"
+  }, {
+    "code": "Pregnancy Encounters",
+    "display": "Pregnancy Encounters",
+    "definition": "Pregnancy Encounters"
+  }, {
+    "code": "Pregnancy Supervision",
+    "display": "Pregnancy Supervision",
+    "definition": "Pregnancy Supervision"
+  }, {
+    "code": "Maternal Care",
+    "display": "Maternal Care",
+    "definition": "Maternal Care"
+  }, {
+    "code": "Pregnancy Procedures",
+    "display": "Pregnancy Procedures",
+    "definition": "Pregnancy Procedures"
+  }, {
+    "code": "Pregnancy Observations",
+    "display": "Pregnancy Observations",
+    "definition": "Pregnancy Observations"
+  }, {
+    "code": "Pregnancy Conditions",
+    "display": "Pregnancy Conditions",
+    "definition": "Pregnancy Conditions"
+  }, {
+    "code": "Post Exposure Prophylaxis",
+    "display": "Post Exposure Prophylaxis",
+    "definition": "Post Exposure Prophylaxis"
+  } ]
+}

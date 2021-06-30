@@ -1,0 +1,98 @@
+{
+  "resourceType": "ValueSet",
+  "id": "tests-for-chlamydia-trachomatis-nucleic-acid-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-nucleic-acid-choices",
+  "name": "tests-for-chlamydia-trachomatis-nucleic-acid-choices",
+  "title": "Tests for Chlamydia trachomatis Nucleic Acid Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Tests for Chlamydia trachomatis Nucleic Acid Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "16599-3",
+        "display": "Chlamydia trachomatis DNA [Presence] in Blood by NAA with probe detection"
+      }, {
+        "code": "16601-7",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Urine by Probe"
+      }, {
+        "code": "21187-0",
+        "display": "Chlamydia trachomatis DNA [Presence] in Conjunctival specimen by NAA with probe detection"
+      }, {
+        "code": "21188-8",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Conjunctival specimen by Probe"
+      }, {
+        "code": "21189-6",
+        "display": "Chlamydia trachomatis DNA [Presence] in Cervical mucus by NAA with probe detection"
+      }, {
+        "code": "21192-0",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by Probe"
+      }, {
+        "code": "38469-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Blood by Probe"
+      }, {
+        "code": "45067-6",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
+      }, {
+        "code": "45070-0",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe"
+      }, {
+        "code": "45072-6",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe"
+      }, {
+        "code": "45073-4",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe"
+      }, {
+        "code": "45074-2",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe"
+      }, {
+        "code": "45078-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by Probe"
+      }, {
+        "code": "45080-9",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by Probe"
+      }, {
+        "code": "45085-8",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by Probe"
+      }, {
+        "code": "45086-6",
+        "display": "Chlamydia trachomatis DNA [Presence] in Nasopharynx by NAA with probe detection"
+      }, {
+        "code": "45089-0",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Anal by Probe"
+      }, {
+        "code": "45090-8",
+        "display": "Chlamydia trachomatis DNA [Presence] in Anal by NAA with probe detection"
+      }, {
+        "code": "51578-3",
+        "display": "Chlamydia trachomatis DNA [Presence] in Semen by NAA with probe detection"
+      }, {
+        "code": "57287-5",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Anal by NAA with probe detection"
+      }, {
+        "code": "57288-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by NAA with probe detection"
+      }, {
+        "code": "80363-5",
+        "display": "Chlamydia trachomatis DNA [Presence] in Rectum by NAA with probe detection"
+      }, {
+        "code": "80364-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Rectum by NAA with probe detection"
+      }, {
+        "code": "80365-0",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
+      }, {
+        "code": "82306-2",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Throat by NAA with probe detection"
+      }, {
+        "code": "87949-4",
+        "display": "Chlamydia trachomatis DNA [Presence] in Tissue by NAA with probe detection"
+      }, {
+        "code": "88221-7",
+        "display": "Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection"
+      } ]
+    } ]
+  }
+}

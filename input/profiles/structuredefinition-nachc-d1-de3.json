@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nachc-d1-de3",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-d1-de3",
+  "identifier": [ {
+    "use": "official",
+    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
+    "value": "NACHC.D1.DE3"
+  } ],
+  "name": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)",
+  "title": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)",
+  "status": "draft",
+  "experimental": false,
+  "description": "Gonorrhea",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.D1",
+        "display": "Gonorrhea"
+      } ]
+    }
+  } ],
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "Condition",
+      "path": "Condition",
+      "short": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)",
+      "comment": "Gonorrhea infection mapping",
+      "mustSupport": false
+    }, {
+      "id": "Condition.code",
+      "path": "Condition.code",
+      "min": 1,
+      "max": "*",
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-neisseria-species-unspecified-organism-or-substance-in-lab-results-choices"
+      }
+    } ]
+  }
+}

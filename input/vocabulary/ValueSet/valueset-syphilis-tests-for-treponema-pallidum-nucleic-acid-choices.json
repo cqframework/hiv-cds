@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "syphilis-tests-for-treponema-pallidum-nucleic-acid-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponema-pallidum-nucleic-acid-choices",
+  "name": "syphilis-tests-for-treponema-pallidum-nucleic-acid-choices",
+  "title": "Syphilis (Tests for Treponema pallidum Nucleic Acid) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Tests for Treponema pallidum Nucleic Acid) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "53605-2",
+        "display": "Treponema pallidum DNA [Presence] in Blood by NAA with probe detection"
+      }, {
+        "code": "49799-0",
+        "display": "Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+      }, {
+        "code": "91846-6",
+        "display": "Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection"
+      }, {
+        "code": "41163-7",
+        "display": "Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection"
+      }, {
+        "code": "76766-5",
+        "display": "Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection"
+      } ]
+    } ]
+  }
+}

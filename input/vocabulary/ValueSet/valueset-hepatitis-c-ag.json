@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hepatitis-c-ag",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-ag",
+  "name": "hepatitis-c-ag",
+  "title": "Hepatitis C Ag",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C Ag element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Hepatitis C Ag",
+        "display": "Hepatitis C Ag"
+      } ]
+    } ]
+  }
+}

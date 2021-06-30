@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "syphilis-organism-or-substance-in-lab-results-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-organism-or-substance-in-lab-results-choices",
+  "name": "syphilis-organism-or-substance-in-lab-results-choices",
+  "title": "Syphilis (Organism or Substance in Lab Results) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Organism or Substance in Lab Results) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "707439008",
+        "display": "Antigen of Treponema pallidum (substance)"
+      }, {
+        "code": "708462008",
+        "display": "Deoxyribonucleic acid of Treponema pallidum (substance)"
+      }, {
+        "code": "72904005",
+        "display": "Treponema pallidum (organism)"
+      }, {
+        "code": "44106000",
+        "display": "Treponema pallidum ss. endemicum (organism)"
+      }, {
+        "code": "43454006",
+        "display": "Treponema pallidum ss. pallidum (organism)"
+      }, {
+        "code": "6246005",
+        "display": "Treponema pallidum ss. pertenue (organism)"
+      } ]
+    } ]
+  }
+}

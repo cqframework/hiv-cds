@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-trachomatis-tests-fpar-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-tests-fpar-choices",
+  "name": "chlamydia-trachomatis-tests-fpar-choices",
+  "title": "Chlamydia Trachomatis Tests, FPAR Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Trachomatis Tests, FPAR Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "35729-3",
+        "display": "Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection"
+      } ]
+    } ]
+  }
+}

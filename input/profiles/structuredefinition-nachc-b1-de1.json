@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nachc-b1-de1",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-b1-de1",
+  "identifier": [ {
+    "use": "official",
+    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
+    "value": "NACHC.B1.DE1"
+  } ],
+  "name": "Hepatitis C Virus Infection (Disorders)",
+  "title": "Hepatitis C Virus Infection (Disorders)",
+  "status": "draft",
+  "experimental": false,
+  "description": "HCV",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.B1",
+        "display": "HCV"
+      } ]
+    }
+  } ],
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "Condition",
+      "path": "Condition",
+      "short": "Hepatitis C Virus Infection (Disorders)",
+      "comment": "HCV infection mapping",
+      "mustSupport": false
+    }, {
+      "id": "Condition.code",
+      "path": "Condition.code",
+      "min": 1,
+      "max": "*",
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-virus-infection-disorders-choices"
+      }
+    } ]
+  }
+}

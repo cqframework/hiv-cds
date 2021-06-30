@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-neisseria-gonorrhoeae-organism-or-substance-in-lab-results",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-neisseria-gonorrhoeae-organism-or-substance-in-lab-results",
+  "name": "gonorrhea-neisseria-gonorrhoeae-organism-or-substance-in-lab-results",
+  "title": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results) element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)",
+        "display": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)"
+      } ]
+    } ]
+  }
+}

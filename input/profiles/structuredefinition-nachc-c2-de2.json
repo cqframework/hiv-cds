@@ -1,0 +1,67 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nachc-c2-de2",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-c2-de2",
+  "identifier": [ {
+    "use": "official",
+    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
+    "value": "NACHC.C2.DE2"
+  } ],
+  "name": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)",
+  "title": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)",
+  "status": "draft",
+  "experimental": false,
+  "description": "Syphilis Test",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.C2",
+        "display": "Syphilis test"
+      } ]
+    }
+  } ],
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "Observation",
+      "path": "Observation",
+      "short": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)",
+      "comment": "Syph test mapping",
+      "mustSupport": false
+    }, {
+      "id": "Observation.code",
+      "path": "Observation.code",
+      "min": 1,
+      "max": "1",
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponemal-or-non-treponemal-antibody"
+      }
+    }, {
+      "id": "Observation.value[x]",
+      "path": "Observation.value[x]",
+      "min": 1,
+      "max": "*",
+      "type": [ {
+        "code": "CodeableConcept"
+      } ],
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponemal-or-non-treponemal-antibody-choices"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "syphilis",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis",
+  "name": "syphilis",
+  "title": "Syphilis",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Syphilis",
+        "display": "Syphilis"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nachc-d2-de5",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-d2-de5",
+  "identifier": [ {
+    "use": "official",
+    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
+    "value": "NACHC.D2.DE5"
+  } ],
+  "name": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests",
+  "title": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests",
+  "status": "draft",
+  "experimental": false,
+  "description": "Gonorrhea Test",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.D2",
+        "display": "Gonorrhea test"
+      } ]
+    }
+  } ],
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "Observation",
+      "path": "Observation",
+      "short": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests",
+      "comment": "Gonorrhea test mapping",
+      "mustSupport": false
+    }, {
+      "id": "Observation.code",
+      "path": "Observation.code",
+      "min": 1,
+      "max": "1",
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-and-chlamydia-gonorrhea-combined-tests"
+      }
+    }, {
+      "id": "Observation.value[x]",
+      "path": "Observation.value[x]",
+      "min": 1,
+      "max": "*",
+      "type": [ {
+        "code": "CodeableConcept"
+      } ],
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-and-chlamydia-gonorrhea-combined-tests-choices"
+      }
+    } ]
+  }
+}

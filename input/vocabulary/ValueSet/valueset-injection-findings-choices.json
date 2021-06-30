@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "injection-findings-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-findings-choices",
+  "name": "injection-findings-choices",
+  "title": "Injection Findings Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Injection Findings Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "228387001",
+        "display": "Injects drugs intramuscularly (finding)"
+      }, {
+        "code": "228389003",
+        "display": "Groin injector (finding)"
+      } ]
+    } ]
+  }
+}

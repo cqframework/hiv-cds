@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-screening",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-screening",
+  "name": "chlamydia-screening",
+  "title": "Chlamydia Screening",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Screening element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Chlamydia Screening",
+        "display": "Chlamydia Screening"
+      } ]
+    } ]
+  }
+}

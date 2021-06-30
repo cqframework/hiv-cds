@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "tests-for-chlamydia-trachomatis-antigen",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-antigen",
+  "name": "tests-for-chlamydia-trachomatis-antigen",
+  "title": "Tests for Chlamydia trachomatis Antigen",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Tests for Chlamydia trachomatis Antigen element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Tests for Chlamydia trachomatis Antigen",
+        "display": "Tests for Chlamydia trachomatis Antigen"
+      } ]
+    } ]
+  }
+}
