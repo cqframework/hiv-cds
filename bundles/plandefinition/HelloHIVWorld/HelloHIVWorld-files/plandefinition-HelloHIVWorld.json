@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "plandefinition-HelloHIVWorld",
-  "url": "http://fhir.org/guides/ohsu/htnu18ig/PlanDefinition/plandefinition-HelloHIVWorld",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/PlanDefinition/plandefinition-HelloHIVWorld",
   "identifier": [
     {
       "use": "official",
@@ -14,7 +14,7 @@
   "type": {
     "coding": [
       {
-        "system": "http://hl7.org/fhir/plan-definition-type",
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
         "code": "eca-rule",
         "display": "ECA Rule"
       }
@@ -27,7 +27,7 @@
   "useContext": [
     {
       "code": {
-        "system": "http://hl7.org/fhir/usage-context-type",
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
         "version": "4.0.1",
         "code": "focus",
         "display": "Clinical Focus"
@@ -62,7 +62,7 @@
     {
       "coding": [
         {
-          "system": "http://hl7.org/fhir/ValueSet/definition-topic",
+          "system": "http://terminology.hl7.org/CodeSystem/definition-topic",
           "version": "4.0.1",
           "code": "assessment",
           "display": "Assessment"

@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Mon, Jun 28, 2021 14:21+0000 for FHIR v4.6.0 
+  Generated on Tue, Jul 6, 2021 15:50+0000 for FHIR v4.6.0 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="4.6.0">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -6584,12 +6584,12 @@ A coverage may only be responsible for specific types of charges, and the sequen
   </xs:complexType>
   <xs:element name="AllergyIntolerance" type="AllergyIntolerance">
     <xs:annotation>
-      <xs:documentation xml:lang="en">Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.</xs:documentation>
+      <xs:documentation xml:lang="en">Risk of harmful or undesirable physiological response which is specific to an individual and associated with exposure to a substance.</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="AllergyIntolerance">
     <xs:annotation>
-      <xs:documentation xml:lang="en">Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.</xs:documentation>
+      <xs:documentation xml:lang="en">Risk of harmful or undesirable physiological response which is specific to an individual and associated with exposure to a substance.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -6686,7 +6686,7 @@ A coverage may only be responsible for specific types of charges, and the sequen
   </xs:complexType>
   <xs:complexType name="AllergyIntolerance.Reaction">
     <xs:annotation>
-      <xs:documentation xml:lang="en">Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.</xs:documentation>
+      <xs:documentation xml:lang="en">Risk of harmful or undesirable physiological response which is specific to an individual and associated with exposure to a substance.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
