@@ -1,4 +1,4 @@
-library NACHC_HIVDataElements
+library HIVContactDataElements
 
 using FHIR version '4.0.1'
 
@@ -6,10 +6,10 @@ include FHIRHelpers version '4.0.1'
 include FHIRCommon called FC
 
 include NACHCCommon called NC
-include NACHC_HIVCommon called AC
-include NACHC_HIVConcepts called Cx
+include HIVCommon called AC
+include HIVConcepts called Cx
 
-context Patient
+context Encounter
 
 /*
   @dataElement: NACHC.A1.DE1 HIV infection as a condition

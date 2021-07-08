@@ -23,7 +23,7 @@
   } ],
   "fhirVersion": "4.0.1",
   "mapping": [ {
-    "identity": "NACHC_HIV"
+    "identity": "HIV"
   } ],
   "kind": "resource",
   "abstract": false,
@@ -52,7 +52,7 @@
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-antigen"
       },
       "mapping": [ {
-        "identity": "NACHC_HIV",
+        "identity": "HIV",
         "map": "NACHC.E2.DE124"
       } ]
     }, {
@@ -75,7 +75,7 @@
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-antigen-choices"
       },
       "mapping": [ {
-        "identity": "NACHC_HIV",
+        "identity": "HIV",
         "map": "NACHC.E2.DE124"
       } ]
     } ]

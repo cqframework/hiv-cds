@@ -23,7 +23,7 @@
   } ],
   "fhirVersion": "4.0.1",
   "mapping": [ {
-    "identity": "NACHC_HIV"
+    "identity": "HIV"
   } ],
   "kind": "resource",
   "abstract": false,
@@ -52,7 +52,7 @@
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-choices"
       },
       "mapping": [ {
-        "identity": "NACHC_HIV",
+        "identity": "HIV",
         "map": "NACHC.E1.DE1"
       } ]
     } ]

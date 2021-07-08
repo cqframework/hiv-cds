@@ -23,7 +23,7 @@
   } ],
   "fhirVersion": "4.0.1",
   "mapping": [ {
-    "identity": "NACHC_HIV"
+    "identity": "HIV"
   } ],
   "kind": "resource",
   "abstract": false,
@@ -52,7 +52,7 @@
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponemal-or-non-treponemal-antibody"
       },
       "mapping": [ {
-        "identity": "NACHC_HIV",
+        "identity": "HIV",
         "map": "NACHC.C2.DE7"
       } ]
     }, {
@@ -75,7 +75,7 @@
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponemal-or-non-treponemal-antibody-choices"
       },
       "mapping": [ {
-        "identity": "NACHC_HIV",
+        "identity": "HIV",
         "map": "NACHC.C2.DE7"
       } ]
     } ]

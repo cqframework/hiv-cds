@@ -43,7 +43,7 @@
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.b1.de31",
-    "text": "Chronic Infection of liver due to Hepatitis C virus.",
+    "text": "Chronic Infection of liver due to Hepatitis C virus",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chronic-infection-of-liver-due-to-hepatitis-c-virus-choices"
   }, {

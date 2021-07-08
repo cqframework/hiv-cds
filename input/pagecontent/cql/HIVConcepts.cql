@@ -1,4 +1,4 @@
-library NACHC_HIVConcepts
+library HIVConcepts
 
 // Code Systems
 codesystem "ICD-10": 'http://hl7.org/fhir/sid/icd-10'
