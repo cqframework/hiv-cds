@@ -10,687 +10,684 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://loinc.org",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "15019-3",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid",
         "display": "Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid"
       }, {
-        "code": "1832-5",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Mass/volume] in Amniotic fluid",
         "display": "Alpha-1-Fetoprotein [Mass/volume] in Amniotic fluid"
       }, {
-        "code": "1834-1",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma",
         "display": "Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "19080-1",
+        "code": "Pregnancy Observations-Choriogonadotropin [Units/volume] in Serum or Plasma",
         "display": "Choriogonadotropin [Units/volume] in Serum or Plasma"
       }, {
-        "code": "19171-8",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Units/volume] in Amniotic fluid",
         "display": "Alpha-1-Fetoprotein [Units/volume] in Amniotic fluid"
       }, {
-        "code": "19176-7",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Units/volume] in Serum or Plasma",
         "display": "Alpha-1-Fetoprotein [Units/volume] in Serum or Plasma"
       }, {
-        "code": "19177-5",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Moles/volume] in Serum or Plasma",
         "display": "Alpha-1-Fetoprotein [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "19180-9",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit free [Units/volume] in Serum or Plasma",
         "display": "Choriogonadotropin.beta subunit free [Units/volume] in Serum or Plasma"
       }, {
-        "code": "20403-2",
+        "code": "Pregnancy Observations-Fibronectin.fetal [Mass/volume] in Vaginal fluid",
         "display": "Fibronectin.fetal [Mass/volume] in Vaginal fluid"
       }, {
-        "code": "20404-0",
+        "code": "Pregnancy Observations-Fibronectin.fetal [Presence] in Vaginal fluid",
         "display": "Fibronectin.fetal [Presence] in Vaginal fluid"
       }, {
-        "code": "20415-6",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma by Immunoassay (EIA) 3rd IS",
         "display": "Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma by Immunoassay (EIA) 3rd IS"
       }, {
-        "code": "20994-0",
+        "code": "Pregnancy Observations-Choriogonadotropin [Interpretation] in Serum or Plasma",
         "display": "Choriogonadotropin [Interpretation] in Serum or Plasma"
       }, {
-        "code": "75301",
+        "code": "Pregnancy Observations-Choriogonadotropin (pregnancy test) [Presence] in Urine",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Urine"
       }, {
-        "code": "75607",
+        "code": "Pregnancy Observations-Choriogonadotropin [Moles/volume] in Urine",
         "display": "Choriogonadotropin [Moles/volume] in Urine"
       }, {
-        "code": "76823",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Serum or Plasma",
         "display": "Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Serum or Plasma"
       }, {
-        "code": "77127",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma",
         "display": "Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "77433",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Urine",
         "display": "Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Urine"
       }, {
-        "code": "78042",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit [Mass/time] in 24 hour Urine",
         "display": "Choriogonadotropin.beta subunit [Mass/time] in 24 hour Urine"
       }, {
-        "code": "78345",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit [Moles/volume] in Urine",
         "display": "Choriogonadotropin.beta subunit [Moles/volume] in Urine"
       }, {
-        "code": "78619",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit free [Moles/volume] in Serum or Plasma",
         "display": "Choriogonadotropin.beta subunit free [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "79837",
+        "code": "Pregnancy Observations-Choriogonadotropin (pregnancy test) [Presence] in Serum or Plasma",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Serum or Plasma"
       }, {
-        "code": "80141",
+        "code": "Pregnancy Observations-Choriogonadotropin [Moles/volume] in Serum or Plasma",
         "display": "Choriogonadotropin [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "21198-7",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma",
         "display": "Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma"
       }, {
-        "code": "25372-4",
+        "code": "Pregnancy Observations-Choriogonadotropin [Units/volume] in Urine",
         "display": "Choriogonadotropin [Units/volume] in Urine"
       }, {
-        "code": "25373-2",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit free [Mass/volume] in Serum or Plasma",
         "display": "Choriogonadotropin.beta subunit free [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "31993-9",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Presence] in Serum or Plasma",
         "display": "Alpha-1-Fetoprotein [Presence] in Serum or Plasma"
       }, {
-        "code": "33773-3",
+        "code": "Pregnancy Observations-Karyotype [Identifier] in Amniotic fluid Nominal",
         "display": "Karyotype [Identifier] in Amniotic fluid Nominal"
       }, {
-        "code": "34493-7",
+        "code": "Pregnancy Observations-PRF1 gene targeted mutation analysis in Amniotic fluid by Molecular genetics method",
         "display": "PRF1 gene targeted mutation analysis in Amniotic fluid by Molecular genetics method"
       }, {
-        "code": "34656-9",
+        "code": "Pregnancy Observations-KEL gene targeted mutation analysis in Amniotic fluid or Chorionic villus sample by Molecular genetics method",
         "display": "KEL gene targeted mutation analysis in Amniotic fluid or Chorionic villus sample by Molecular genetics method"
       }, {
-        "code": "34670-0",
+        "code": "Pregnancy Observations-Choriogonadotropin [Mass/volume] in Serum or Plasma",
         "display": "Choriogonadotropin [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "34718-7",
+        "code": "Pregnancy Observations-CFTR gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal",
         "display": "CFTR gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "35457-1",
+        "code": "Pregnancy Observations-Maternal cell contamination [Identifier] in Amniotic fluid Nominal",
         "display": "Maternal cell contamination [Identifier] in Amniotic fluid Nominal"
       }, {
-        "code": "41273-4",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein interpretation in Amniotic fluid",
         "display": "Alpha-1-Fetoprotein interpretation in Amniotic fluid"
       }, {
-        "code": "41274-2",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein interpretation in Serum or Plasma",
         "display": "Alpha-1-Fetoprotein interpretation in Serum or Plasma"
       }, {
-        "code": "42316-0",
+        "code": "Pregnancy Observations-RHD gene allele [Genotype] in Amniotic fluid by Molecular genetics method Nominal",
         "display": "RHD gene allele [Genotype] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "43798-8",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein [Presence] in Amniotic fluid",
         "display": "Alpha-1-Fetoprotein [Presence] in Amniotic fluid"
       }, {
-        "code": "45194-8",
+        "code": "Pregnancy Observations-Choriogonadotropin.intact+Beta subunit [Units/volume] in Serum or Plasma",
         "display": "Choriogonadotropin.intact+Beta subunit [Units/volume] in Serum or Plasma"
       }, {
-        "code": "45273-0",
+        "code": "Pregnancy Observations-Pregnancy associated plasma protein A multiple of the median [Percentile]",
         "display": "Pregnancy associated plasma protein A multiple of the median [Percentile]"
       }, {
-        "code": "45331-6",
+        "code": "Pregnancy Observations-NF1 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal",
         "display": "NF1 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "45332-4",
+        "code": "Pregnancy Observations-NF2 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal",
         "display": "NF2 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "46731-6",
+        "code": "Pregnancy Observations-RHCE gene allele Cc [Genotype] in Amniotic fluid by Molecular genetics method Nominal",
         "display": "RHCE gene allele Cc [Genotype] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "46989-0",
+        "code": "Pregnancy Observations-CFTR gene targeted mutation analysis in Amniotic fluid by Molecular genetics method",
         "display": "CFTR gene targeted mutation analysis in Amniotic fluid by Molecular genetics method"
       }, {
-        "code": "48030-1",
+        "code": "Pregnancy Observations-RHCE gene allele Ee [Genotype] in Amniotic fluid by Molecular genetics method Nominal",
         "display": "RHCE gene allele Ee [Genotype] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "48039-2",
+        "code": "Pregnancy Observations-Fibronectin.fetal [Presence] in Unspecified specimen",
         "display": "Fibronectin.fetal [Presence] in Unspecified specimen"
       }, {
-        "code": "48781-9",
+        "code": "Pregnancy Observations-CYP21A2 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal",
         "display": "CYP21A2 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "49246-2",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein interpretation in Serum or Plasma Narrative",
         "display": "Alpha-1-Fetoprotein interpretation in Serum or Plasma Narrative"
       }, {
-        "code": "49318-9",
+        "code": "Pregnancy Observations-Alpha-1-Fetoprotein interpretation in Amniotic fluid Narrative",
         "display": "Alpha-1-Fetoprotein interpretation in Amniotic fluid Narrative"
       }, {
-        "code": "55869-2",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit [Mass/volume] in Serum or Plasma",
         "display": "Choriogonadotropin.beta subunit [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "55870-0",
+        "code": "Pregnancy Observations-Choriogonadotropin [Units/volume] in Cord blood",
         "display": "Choriogonadotropin [Units/volume] in Cord blood"
       }, {
-        "code": "56497-1",
+        "code": "Pregnancy Observations-Choriogonadotropin.beta subunit [Units] in 24 hour Urine",
         "display": "Choriogonadotropin.beta subunit [Units] in 24 hour Urine"
       }, {
-        "code": "64088-8",
+        "code": "Pregnancy Observations-Karyotype [Identifier] in Chorionic villus sample Narrative",
         "display": "Karyotype [Identifier] in Chorionic villus sample Narrative"
       }, {
-        "code": "64094-6",
+        "code": "Pregnancy Observations-Karyotype [Identifier] in Amniotic fluid Narrative",
         "display": "Karyotype [Identifier] in Amniotic fluid Narrative"
       }, {
-        "code": "80384-1",
+        "code": "Pregnancy Observations-Choriogonadotropin (pregnancy test) [Presence] in Urine by Rapid immunoassay",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Urine by Rapid immunoassay"
       }, {
-        "code": "80385-8",
+        "code": "Pregnancy Observations-Choriogonadotropin (pregnancy test) [Presence] in Serum by Rapid immunoassay",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Serum by Rapid immunoassay"
       }, {
-        "code": "83086-9",
+        "code": "Pregnancy Observations-Choriogonadotropin [Units/volume] in Serum or Plasma by Immunoassay",
         "display": "Choriogonadotropin [Units/volume] in Serum or Plasma by Immunoassay"
-      } ]
-    }, {
-      "system": "http://snomed.info/sct",
-      "concept": [ {
-        "code": "199004",
+      }, {
+        "code": "Pregnancy Observations-Decreased lactation (finding)",
         "display": "Decreased lactation (finding)"
       }, {
-        "code": "5852008",
+        "code": "Pregnancy Observations-Acromion right anterior position (finding)",
         "display": "Acromion right anterior position (finding)"
       }, {
-        "code": "5973007",
+        "code": "Pregnancy Observations-Right mentoposterior position (finding)",
         "display": "Right mentoposterior position (finding)"
       }, {
-        "code": "6096002",
+        "code": "Pregnancy Observations-Breech presentation (finding)",
         "display": "Breech presentation (finding)"
       }, {
-        "code": "6383007",
+        "code": "Pregnancy Observations-Premature labor (finding)",
         "display": "Premature labor (finding)"
       }, {
-        "code": "6509007",
+        "code": "Pregnancy Observations-Electrolyte imbalance following molar AND/OR ectopic pregnancy (disorder)",
         "display": "Electrolyte imbalance following molar AND/OR ectopic pregnancy (disorder)"
       }, {
-        "code": "6594005",
+        "code": "Pregnancy Observations-Cerebrovascular disorder in the puerperium (disorder)",
         "display": "Cerebrovascular disorder in the puerperium (disorder)"
       }, {
-        "code": "6636004",
+        "code": "Pregnancy Observations-Congenital cardiovascular disorder in mother complicating pregnancy, childbirth AND/OR puerperium (disorder)",
         "display": "Congenital cardiovascular disorder in mother complicating pregnancy, childbirth AND/OR puerperium (disorder)"
       }, {
-        "code": "6647006",
+        "code": "Pregnancy Observations-Legal abortion with defibrination syndrome (disorder)",
         "display": "Legal abortion with defibrination syndrome (disorder)"
       }, {
-        "code": "6867004",
+        "code": "Pregnancy Observations-Previous pregnancies more than 10 (finding)",
         "display": "Previous pregnancies more than 10 (finding)"
       }, {
-        "code": "9279009",
+        "code": "Pregnancy Observations-Extra-amniotic pregnancy (finding)",
         "display": "Extra-amniotic pregnancy (finding)"
       }, {
-        "code": "11082009",
+        "code": "Pregnancy Observations-Abnormal pregnancy (finding)",
         "display": "Abnormal pregnancy (finding)"
       }, {
-        "code": "11246006",
+        "code": "Pregnancy Observations-Brow left anterior position (finding)",
         "display": "Brow left anterior position (finding)"
       }, {
-        "code": "14080002",
+        "code": "Pregnancy Observations-Illegitimate pregnancy, life event (finding)",
         "display": "Illegitimate pregnancy, life event (finding)"
       }, {
-        "code": "14418008",
+        "code": "Pregnancy Observations-Precocious pregnancy (finding)",
         "display": "Precocious pregnancy (finding)"
       }, {
-        "code": "15692007",
+        "code": "Pregnancy Observations-Right lateral brow position (finding)",
         "display": "Right lateral brow position (finding)"
       }, {
-        "code": "17618008",
+        "code": "Pregnancy Observations-Previous pregnancies 9 (finding)",
         "display": "Previous pregnancies 9 (finding)"
       }, {
-        "code": "18559007",
+        "code": "Pregnancy Observations-Frank breech presentation (finding)",
         "display": "Frank breech presentation (finding)"
       }, {
-        "code": "18656007",
+        "code": "Pregnancy Observations-Grand multipara (finding)",
         "display": "Grand multipara (finding)"
       }, {
-        "code": "24536007",
+        "code": "Pregnancy Observations-Right mentoanterior position (finding)",
         "display": "Right mentoanterior position (finding)"
       }, {
-        "code": "26644000",
+        "code": "Pregnancy Observations-Shoulder right posterior position (finding)",
         "display": "Shoulder right posterior position (finding)"
       }, {
-        "code": "27921008",
+        "code": "Pregnancy Observations-Shoulder left posterior position (finding)",
         "display": "Shoulder left posterior position (finding)"
       }, {
-        "code": "29399001",
+        "code": "Pregnancy Observations-Elderly primigravida (finding)",
         "display": "Elderly primigravida (finding)"
       }, {
-        "code": "32808002",
+        "code": "Pregnancy Observations-Brow left posterior position (finding)",
         "display": "Brow left posterior position (finding)"
       }, {
-        "code": "38049006",
+        "code": "Pregnancy Observations-Incomplete breech presentation (finding)",
         "display": "Incomplete breech presentation (finding)"
       }, {
-        "code": "39587000",
+        "code": "Pregnancy Observations-Left mentolateral position (finding)",
         "display": "Left mentolateral position (finding)"
       }, {
-        "code": "41587001",
+        "code": "Pregnancy Observations-Third trimester pregnancy (finding)",
         "display": "Third trimester pregnancy (finding)"
       }, {
-        "code": "43957006",
+        "code": "Pregnancy Observations-Left lateral brow position (finding)",
         "display": "Left lateral brow position (finding)"
       }, {
-        "code": "45079001",
+        "code": "Pregnancy Observations-Acromion left anterior position (finding)",
         "display": "Acromion left anterior position (finding)"
       }, {
-        "code": "45307008",
+        "code": "Pregnancy Observations-Extrachorial pregnancy (finding)",
         "display": "Extrachorial pregnancy (finding)"
       }, {
-        "code": "47200007",
+        "code": "Pregnancy Observations-High risk pregnancy (finding)",
         "display": "High risk pregnancy (finding)"
       }, {
-        "code": "48782003",
+        "code": "Pregnancy Observations-Delivery normal (finding)",
         "display": "Delivery normal (finding)"
       }, {
-        "code": "48906005",
+        "code": "Pregnancy Observations-Breech presentation, double footling (finding)",
         "display": "Breech presentation, double footling (finding)"
       }, {
-        "code": "49168004",
+        "code": "Pregnancy Observations-Complete breech presentation (finding)",
         "display": "Complete breech presentation (finding)"
       }, {
-        "code": "54486001",
+        "code": "Pregnancy Observations-Left sacrolateral position (finding)",
         "display": "Left sacrolateral position (finding)"
       }, {
-        "code": "57630001",
+        "code": "Pregnancy Observations-First trimester pregnancy (finding)",
         "display": "First trimester pregnancy (finding)"
       }, {
-        "code": "58261003",
+        "code": "Pregnancy Observations-Sacroposterior position (finding)",
         "display": "Sacroposterior position (finding)"
       }, {
-        "code": "58532003",
+        "code": "Pregnancy Observations-Unwanted pregnancy (finding)",
         "display": "Unwanted pregnancy (finding)"
       }, {
-        "code": "58903006",
+        "code": "Pregnancy Observations-Breech presentation, single footling (finding)",
         "display": "Breech presentation, single footling (finding)"
       }, {
-        "code": "59466002",
+        "code": "Pregnancy Observations-Second trimester pregnancy (finding)",
         "display": "Second trimester pregnancy (finding)"
       }, {
-        "code": "60001007",
+        "code": "Pregnancy Observations-Not pregnant (finding)",
         "display": "Not pregnant (finding)"
       }, {
-        "code": "60854009",
+        "code": "Pregnancy Observations-Left mentoanterior position (finding)",
         "display": "Left mentoanterior position (finding)"
       }, {
-        "code": "64433002",
+        "code": "Pregnancy Observations-Left sacroanterior position (finding)",
         "display": "Left sacroanterior position (finding)"
       }, {
-        "code": "65727000",
+        "code": "Pregnancy Observations-Intrauterine pregnancy (finding)",
         "display": "Intrauterine pregnancy (finding)"
       }, {
-        "code": "69018001",
+        "code": "Pregnancy Observations-Right mentolateral position (finding)",
         "display": "Right mentolateral position (finding)"
       }, {
-        "code": "72892002",
+        "code": "Pregnancy Observations-Normal pregnancy (finding)",
         "display": "Normal pregnancy (finding)"
       }, {
-        "code": "77386006",
+        "code": "Pregnancy Observations-Pregnant (finding)",
         "display": "Pregnant (finding)"
       }, {
-        "code": "79643007",
+        "code": "Pregnancy Observations-Right sacroanterior position (finding)",
         "display": "Right sacroanterior position (finding)"
       }, {
-        "code": "79888005",
+        "code": "Pregnancy Observations-Sacroanterior position (finding)",
         "display": "Sacroanterior position (finding)"
       }, {
-        "code": "83074005",
+        "code": "Pregnancy Observations-Unplanned pregnancy (finding)",
         "display": "Unplanned pregnancy (finding)"
       }, {
-        "code": "87527008",
+        "code": "Pregnancy Observations-Term pregnancy (finding)",
         "display": "Term pregnancy (finding)"
       }, {
-        "code": "88992002",
+        "code": "Pregnancy Observations-Left mentoposterior position (finding)",
         "display": "Left mentoposterior position (finding)"
       }, {
-        "code": "89550007",
+        "code": "Pregnancy Observations-Right sacrolateral position (finding)",
         "display": "Right sacrolateral position (finding)"
       }, {
-        "code": "102872000",
+        "code": "Pregnancy Observations-Pregnancy on oral contraceptive (finding)",
         "display": "Pregnancy on oral contraceptive (finding)"
       }, {
-        "code": "102875003",
+        "code": "Pregnancy Observations-Surrogate pregnancy (finding)",
         "display": "Surrogate pregnancy (finding)"
       }, {
-        "code": "102876002",
+        "code": "Pregnancy Observations-Multigravida (finding)",
         "display": "Multigravida (finding)"
       }, {
-        "code": "102879009",
+        "code": "Pregnancy Observations-Post-term delivery (finding)",
         "display": "Post-term delivery (finding)"
       }, {
-        "code": "112071002",
+        "code": "Pregnancy Observations-Postmature pregnancy delivered (finding)",
         "display": "Postmature pregnancy delivered (finding)"
       }, {
-        "code": "112073004",
+        "code": "Pregnancy Observations-Right sacroposterior position (finding)",
         "display": "Right sacroposterior position (finding)"
       }, {
-        "code": "124736009",
+        "code": "Pregnancy Observations-Compound presentation (finding)",
         "display": "Compound presentation (finding)"
       }, {
-        "code": "127363001",
+        "code": "Pregnancy Observations-Number of pregnancies, currently pregnant (finding)",
         "display": "Number of pregnancies, currently pregnant (finding)"
       }, {
-        "code": "127364007",
+        "code": "Pregnancy Observations-Primigravida (finding)",
         "display": "Primigravida (finding)"
       }, {
-        "code": "127365008",
+        "code": "Pregnancy Observations-Gravida 2 (finding)",
         "display": "Gravida 2 (finding)"
       }, {
-        "code": "127366009",
+        "code": "Pregnancy Observations-Gravida 3 (finding)",
         "display": "Gravida 3 (finding)"
       }, {
-        "code": "127367000",
+        "code": "Pregnancy Observations-Gravida 4 (finding)",
         "display": "Gravida 4 (finding)"
       }, {
-        "code": "127368005",
+        "code": "Pregnancy Observations-Gravida 5 (finding)",
         "display": "Gravida 5 (finding)"
       }, {
-        "code": "127369002",
+        "code": "Pregnancy Observations-Gravida 6 (finding)",
         "display": "Gravida 6 (finding)"
       }, {
-        "code": "127370001",
+        "code": "Pregnancy Observations-Gravida 7 (finding)",
         "display": "Gravida 7 (finding)"
       }, {
-        "code": "127371002",
+        "code": "Pregnancy Observations-Gravida 8 (finding)",
         "display": "Gravida 8 (finding)"
       }, {
-        "code": "127372009",
+        "code": "Pregnancy Observations-Gravida 9 (finding)",
         "display": "Gravida 9 (finding)"
       }, {
-        "code": "127373004",
+        "code": "Pregnancy Observations-Gravida 10 (finding)",
         "display": "Gravida 10 (finding)"
       }, {
-        "code": "127374005",
+        "code": "Pregnancy Observations-Gravida more than 10 (finding)",
         "display": "Gravida more than 10 (finding)"
       }, {
-        "code": "163540009",
+        "code": "Pregnancy Observations-On examination - fetal movement diminished (finding)",
         "display": "On examination - fetal movement diminished (finding)"
       }, {
-        "code": "169560008",
+        "code": "Pregnancy Observations-Pregnant - urine test confirms (finding)",
         "display": "Pregnant - urine test confirms (finding)"
       }, {
-        "code": "169561007",
+        "code": "Pregnancy Observations-Pregnant - blood test confirms (finding)",
         "display": "Pregnant - blood test confirms (finding)"
       }, {
-        "code": "169562000",
+        "code": "Pregnancy Observations-Pregnant - vaginal examination confirms (finding)",
         "display": "Pregnant - vaginal examination confirms (finding)"
       }, {
-        "code": "169563005",
+        "code": "Pregnancy Observations-Pregnant - on history (finding)",
         "display": "Pregnant - on history (finding)"
       }, {
-        "code": "169564004",
+        "code": "Pregnancy Observations-Pregnant - on abdominal palpation (finding)",
         "display": "Pregnant - on abdominal palpation (finding)"
       }, {
-        "code": "169565003",
+        "code": "Pregnancy Observations-Pregnant - planned (finding)",
         "display": "Pregnant - planned (finding)"
       }, {
-        "code": "169566002",
+        "code": "Pregnancy Observations-Pregnancy unplanned but wanted (finding)",
         "display": "Pregnancy unplanned but wanted (finding)"
       }, {
-        "code": "169567006",
+        "code": "Pregnancy Observations-Pregnancy unplanned and unwanted (finding)",
         "display": "Pregnancy unplanned and unwanted (finding)"
       }, {
-        "code": "169568001",
+        "code": "Pregnancy Observations-Unplanned pregnancy unknown if child is wanted (finding)",
         "display": "Unplanned pregnancy unknown if child is wanted (finding)"
       }, {
-        "code": "169581008",
+        "code": "Pregnancy Observations-Antenatal care: grand multiparity (finding)",
         "display": "Antenatal care: grand multiparity (finding)"
       }, {
-        "code": "169582001",
+        "code": "Pregnancy Observations-Antenatal care: history of stillbirth (situation)",
         "display": "Antenatal care: history of stillbirth (situation)"
       }, {
-        "code": "169593004",
+        "code": "Pregnancy Observations-Antenatal care: poor antenatal attender (finding)",
         "display": "Antenatal care: poor antenatal attender (finding)"
       }, {
-        "code": "169827000",
+        "code": "Pregnancy Observations-Single stillbirth (finding)",
         "display": "Single stillbirth (finding)"
       }, {
-        "code": "169961004",
+        "code": "Pregnancy Observations-Normal birth (finding)",
         "display": "Normal birth (finding)"
       }, {
-        "code": "199047001",
+        "code": "Pregnancy Observations-False labor (finding)",
         "display": "False labor (finding)"
       }, {
-        "code": "199049003",
+        "code": "Pregnancy Observations-Threatened premature labor - not delivered (finding)",
         "display": "Threatened premature labor - not delivered (finding)"
       }, {
-        "code": "199050003",
+        "code": "Pregnancy Observations-False labor at or after 37 completed weeks of gestation (finding)",
         "display": "False labor at or after 37 completed weeks of gestation (finding)"
       }, {
-        "code": "199317008",
+        "code": "Pregnancy Observations-Twin pregnancy - delivered (finding)",
         "display": "Twin pregnancy - delivered (finding)"
       }, {
-        "code": "199321001",
+        "code": "Pregnancy Observations-Triplet pregnancy - delivered (finding)",
         "display": "Triplet pregnancy - delivered (finding)"
       }, {
-        "code": "199325005",
+        "code": "Pregnancy Observations-Quadruplet pregnancy - delivered (finding)",
         "display": "Quadruplet pregnancy - delivered (finding)"
       }, {
-        "code": "199355003",
+        "code": "Pregnancy Observations-Breech presentation with antenatal problem (finding)",
         "display": "Breech presentation with antenatal problem (finding)"
       }, {
-        "code": "199373000",
+        "code": "Pregnancy Observations-High head at term (finding)",
         "display": "High head at term (finding)"
       }, {
-        "code": "199375007",
+        "code": "Pregnancy Observations-High head at term - delivered (finding)",
         "display": "High head at term - delivered (finding)"
       }, {
-        "code": "199376008",
+        "code": "Pregnancy Observations-High head at term with antenatal problem (finding)",
         "display": "High head at term with antenatal problem (finding)"
       }, {
-        "code": "199714004",
+        "code": "Pregnancy Observations-Grand multiparity - delivered (finding)",
         "display": "Grand multiparity - delivered (finding)"
       }, {
-        "code": "199715003",
+        "code": "Pregnancy Observations-Grand multiparity with antenatal problem (finding)",
         "display": "Grand multiparity with antenatal problem (finding)"
       }, {
-        "code": "199718001",
+        "code": "Pregnancy Observations-Elderly primigravida - delivered (finding)",
         "display": "Elderly primigravida - delivered (finding)"
       }, {
-        "code": "199719009",
+        "code": "Pregnancy Observations-Elderly primigravida with antenatal problem (finding)",
         "display": "Elderly primigravida with antenatal problem (finding)"
       }, {
-        "code": "200130005",
+        "code": "Pregnancy Observations-Forceps delivery - delivered (finding)",
         "display": "Forceps delivery - delivered (finding)"
       }, {
-        "code": "200133007",
+        "code": "Pregnancy Observations-Delivery by combination of forceps and vacuum extractor (finding)",
         "display": "Delivery by combination of forceps and vacuum extractor (finding)"
       }, {
-        "code": "200138003",
+        "code": "Pregnancy Observations-Vacuum extractor delivery - delivered (finding)",
         "display": "Vacuum extractor delivery - delivered (finding)"
       }, {
-        "code": "200142000",
+        "code": "Pregnancy Observations-Breech extraction - delivered (finding)",
         "display": "Breech extraction - delivered (finding)"
       }, {
-        "code": "200146002",
+        "code": "Pregnancy Observations-Cesarean delivery - delivered (finding)",
         "display": "Cesarean delivery - delivered (finding)"
       }, {
-        "code": "200148001",
+        "code": "Pregnancy Observations-Delivery by elective cesarean section (finding)",
         "display": "Delivery by elective cesarean section (finding)"
       }, {
-        "code": "200149009",
+        "code": "Pregnancy Observations-Delivery by emergency cesarean section (finding)",
         "display": "Delivery by emergency cesarean section (finding)"
       }, {
-        "code": "200150009",
+        "code": "Pregnancy Observations-Delivery by cesarean hysterectomy (finding)",
         "display": "Delivery by cesarean hysterectomy (finding)"
       }, {
-        "code": "231958008",
+        "code": "Pregnancy Observations-Abnormal fetal heart beat, not clear if noted before OR after onset of labor in liveborn infant (finding)",
         "display": "Abnormal fetal heart beat, not clear if noted before OR after onset of labor in liveborn infant (finding)"
       }, {
-        "code": "237233002",
+        "code": "Pregnancy Observations-Concealed pregnancy (finding)",
         "display": "Concealed pregnancy (finding)"
       }, {
-        "code": "237238006",
+        "code": "Pregnancy Observations-Pregnancy with uncertain dates (finding)",
         "display": "Pregnancy with uncertain dates (finding)"
       }, {
-        "code": "237239003",
+        "code": "Pregnancy Observations-Low risk pregnancy (finding)",
         "display": "Low risk pregnancy (finding)"
       }, {
-        "code": "237240001",
+        "code": "Pregnancy Observations-Teenage pregnancy (finding)",
         "display": "Teenage pregnancy (finding)"
       }, {
-        "code": "237241002",
+        "code": "Pregnancy Observations-Viable pregnancy (finding)",
         "display": "Viable pregnancy (finding)"
       }, {
-        "code": "237242009",
+        "code": "Pregnancy Observations-Non-viable pregnancy (finding)",
         "display": "Non-viable pregnancy (finding)"
       }, {
-        "code": "237244005",
+        "code": "Pregnancy Observations-Single pregnancy (finding)",
         "display": "Single pregnancy (finding)"
       }, {
-        "code": "237313003",
+        "code": "Pregnancy Observations-Vaginal delivery following previous cesarean section (finding)",
         "display": "Vaginal delivery following previous cesarean section (finding)"
       }, {
-        "code": "248985009",
+        "code": "Pregnancy Observations-Presentation of pregnancy (finding)",
         "display": "Presentation of pregnancy (finding)"
       }, {
-        "code": "249084004",
+        "code": "Pregnancy Observations-Mentoanterior position (finding)",
         "display": "Mentoanterior position (finding)"
       }, {
-        "code": "249085003",
+        "code": "Pregnancy Observations-Direct mentoanterior position (finding)",
         "display": "Direct mentoanterior position (finding)"
       }, {
-        "code": "249086002",
+        "code": "Pregnancy Observations-Mentoposterior position (finding)",
         "display": "Mentoposterior position (finding)"
       }, {
-        "code": "249087006",
+        "code": "Pregnancy Observations-Direct mentoposterior position (finding)",
         "display": "Direct mentoposterior position (finding)"
       }, {
-        "code": "249088001",
+        "code": "Pregnancy Observations-Mentolateral position (finding)",
         "display": "Mentolateral position (finding)"
       }, {
-        "code": "249094009",
+        "code": "Pregnancy Observations-Anterior brow position (finding)",
         "display": "Anterior brow position (finding)"
       }, {
-        "code": "249095005",
+        "code": "Pregnancy Observations-Posterior brow position (finding)",
         "display": "Posterior brow position (finding)"
       }, {
-        "code": "249096006",
+        "code": "Pregnancy Observations-Lateral brow position (finding)",
         "display": "Lateral brow position (finding)"
       }, {
-        "code": "249102004",
+        "code": "Pregnancy Observations-Direct sacroposterior position (finding)",
         "display": "Direct sacroposterior position (finding)"
       }, {
-        "code": "249103009",
+        "code": "Pregnancy Observations-Sacrolateral position (finding)",
         "display": "Sacrolateral position (finding)"
       }, {
-        "code": "249106001",
+        "code": "Pregnancy Observations-Anterior shoulder presentation (finding)",
         "display": "Anterior shoulder presentation (finding)"
       }, {
-        "code": "249107005",
+        "code": "Pregnancy Observations-Shoulder right anterior position (finding)",
         "display": "Shoulder right anterior position (finding)"
       }, {
-        "code": "249108000",
+        "code": "Pregnancy Observations-Shoulder left anterior position (finding)",
         "display": "Shoulder left anterior position (finding)"
       }, {
-        "code": "249109008",
+        "code": "Pregnancy Observations-Posterior shoulder presentation (finding)",
         "display": "Posterior shoulder presentation (finding)"
       }, {
-        "code": "271373005",
+        "code": "Pregnancy Observations-Deliveries by spontaneous breech delivery (finding)",
         "display": "Deliveries by spontaneous breech delivery (finding)"
       }, {
-        "code": "274127000",
+        "code": "Pregnancy Observations-Abnormal delivery (finding)",
         "display": "Abnormal delivery (finding)"
       }, {
-        "code": "274128005",
+        "code": "Pregnancy Observations-Brow delivery (finding)",
         "display": "Brow delivery (finding)"
       }, {
-        "code": "274129002",
+        "code": "Pregnancy Observations-Face delivery (finding)",
         "display": "Face delivery (finding)"
       }, {
-        "code": "276367008",
+        "code": "Pregnancy Observations-Wanted pregnancy (finding)",
         "display": "Wanted pregnancy (finding)"
       }, {
-        "code": "276369006",
+        "code": "Pregnancy Observations-Reduced fetal movement (finding)",
         "display": "Reduced fetal movement (finding)"
       }, {
-        "code": "281307002",
+        "code": "Pregnancy Observations-Uncertain viability of pregnancy (finding)",
         "display": "Uncertain viability of pregnancy (finding)"
       }, {
-        "code": "282020008",
+        "code": "Pregnancy Observations-Premature delivery (finding)",
         "display": "Premature delivery (finding)"
       }, {
-        "code": "284075002",
+        "code": "Pregnancy Observations-Spotting per vagina in pregnancy (finding)",
         "display": "Spotting per vagina in pregnancy (finding)"
       }, {
-        "code": "288209009",
+        "code": "Pregnancy Observations-Normal delivery - occipitoanterior (finding)",
         "display": "Normal delivery - occipitoanterior (finding)"
       }, {
-        "code": "289240005",
+        "code": "Pregnancy Observations-Long duration of labor (finding)",
         "display": "Long duration of labor (finding)"
       }, {
-        "code": "289254002",
+        "code": "Pregnancy Observations-Expulsion of intrauterine contraceptive device during third stage of labor (finding)",
         "display": "Expulsion of intrauterine contraceptive device during third stage of labor (finding)"
       }, {
-        "code": "289259007",
+        "code": "Pregnancy Observations-Vaginal delivery (finding)",
         "display": "Vaginal delivery (finding)"
       }, {
-        "code": "289365005",
+        "code": "Pregnancy Observations-Finding of malposition of fetus (finding)",
         "display": "Finding of malposition of fetus (finding)"
       }, {
-        "code": "289366006",
+        "code": "Pregnancy Observations-Malposition of fetus in face presentation (finding)",
         "display": "Malposition of fetus in face presentation (finding)"
       }, {
-        "code": "289367002",
+        "code": "Pregnancy Observations-Malposition of fetus in brow presentation (finding)",
         "display": "Malposition of fetus in brow presentation (finding)"
       }, {
-        "code": "289368007",
+        "code": "Pregnancy Observations-Malposition of fetus in shoulder presentation (finding)",
         "display": "Malposition of fetus in shoulder presentation (finding)"
       }, {
-        "code": "289399008",
+        "code": "Pregnancy Observations-Compound presentation palpable vaginally (finding)",
         "display": "Compound presentation palpable vaginally (finding)"
       }, {
-        "code": "302254004",
+        "code": "Pregnancy Observations-Delivered by cesarean delivery following previous cesarean delivery (finding)",
         "display": "Delivered by cesarean delivery following previous cesarean delivery (finding)"
       }, {
-        "code": "309469004",
+        "code": "Pregnancy Observations-Spontaneous vertex delivery (finding)",
         "display": "Spontaneous vertex delivery (finding)"
       }, {
-        "code": "314204000",
+        "code": "Pregnancy Observations-Early stage of pregnancy (finding)",
         "display": "Early stage of pregnancy (finding)"
       }, {
-        "code": "364748006",
+        "code": "Pregnancy Observations-Finding of position of breech presentation (finding)",
         "display": "Finding of position of breech presentation (finding)"
       }, {
-        "code": "408812003",
+        "code": "Pregnancy Observations-Direct sacroanterior position (finding)",
         "display": "Direct sacroanterior position (finding)"
       }, {
-        "code": "430933008",
+        "code": "Pregnancy Observations-Gravid uterus size for dates discrepancy (finding)",
         "display": "Gravid uterus size for dates discrepancy (finding)"
       }, {
-        "code": "443460007",
+        "code": "Pregnancy Observations-Multigravida of advanced maternal age (finding)",
         "display": "Multigravida of advanced maternal age (finding)"
       }, {
-        "code": "444661007",
+        "code": "Pregnancy Observations-High risk pregnancy due to history of preterm labor (finding)",
         "display": "High risk pregnancy due to history of preterm labor (finding)"
       }, {
-        "code": "698716002",
+        "code": "Pregnancy Observations-Preterm spontaneous labor with preterm delivery (finding)",
         "display": "Preterm spontaneous labor with preterm delivery (finding)"
       }, {
-        "code": "698717006",
+        "code": "Pregnancy Observations-Preterm spontaneous labor with term delivery (finding)",
         "display": "Preterm spontaneous labor with term delivery (finding)"
       }, {
-        "code": "134781000119106",
+        "code": "Pregnancy Observations-High risk pregnancy due to recurrent miscarriage (finding)",
         "display": "High risk pregnancy due to recurrent miscarriage (finding)"
       }, {
-        "code": "451881000124101",
+        "code": "Pregnancy Observations-Tobacco use in mother complicating puerperium (finding)",
         "display": "Tobacco use in mother complicating puerperium (finding)"
       }, {
-        "code": "451891000124103",
+        "code": "Pregnancy Observations-Tobacco use in mother complicating pregnancy (finding)",
         "display": "Tobacco use in mother complicating pregnancy (finding)"
       }, {
-        "code": "451901000124104",
+        "code": "Pregnancy Observations-Tobacco smoking in mother complicating puerperium (finding)",
         "display": "Tobacco smoking in mother complicating puerperium (finding)"
       }, {
-        "code": "451921000124109",
+        "code": "Pregnancy Observations-Tobacco smoking in mother complicating pregnancy (finding)",
         "display": "Tobacco smoking in mother complicating pregnancy (finding)"
       }, {
-        "code": "456801000124104",
+        "code": "Pregnancy Observations-Self-reported (qualifier value)",
         "display": "Self-reported (qualifier value)"
       }, {
-        "code": "457811000124103",
+        "code": "Pregnancy Observations-Normal pregnancy in primigravida (finding)",
         "display": "Normal pregnancy in primigravida (finding)"
       }, {
-        "code": "457821000124106",
+        "code": "Pregnancy Observations-Normal pregnancy in multigravida (finding)",
         "display": "Normal pregnancy in multigravida (finding)"
       }, {
-        "code": "10760981000119100",
+        "code": "Pregnancy Observations-Psychological abuse complicating pregnancy (finding)",
         "display": "Psychological abuse complicating pregnancy (finding)"
       }, {
-        "code": "10761061000119100",
+        "code": "Pregnancy Observations-Sexual abuse complicating pregnancy (finding)",
         "display": "Sexual abuse complicating pregnancy (finding)"
       } ]
     } ]

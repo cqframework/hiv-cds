@@ -10,9 +10,9 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://loinc.org",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "35729-3",
+        "code": "Chlamydia Trachomatis Tests, FPAR-Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection"
       } ]
     } ]

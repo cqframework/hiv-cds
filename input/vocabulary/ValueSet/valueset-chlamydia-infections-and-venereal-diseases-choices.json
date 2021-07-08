@@ -10,18 +10,18 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "420910002",
+        "code": "Chlamydia Infections and Venereal Diseases-Chlamydia trachomatis infection of anus and rectum (disorder)",
         "display": "Chlamydia trachomatis infection of anus and rectum (disorder)"
       }, {
-        "code": "426165006",
+        "code": "Chlamydia Infections and Venereal Diseases-Acute genitourinary chlamydia infection (disorder)",
         "display": "Acute genitourinary chlamydia infection (disorder)"
       }, {
-        "code": "426247003",
+        "code": "Chlamydia Infections and Venereal Diseases-Acute genitourinary Chlamydia trachomatis infection (disorder)",
         "display": "Acute genitourinary Chlamydia trachomatis infection (disorder)"
       }, {
-        "code": "428015005",
+        "code": "Chlamydia Infections and Venereal Diseases-Chlamydia trachomatis infection of genital structure (disorder)",
         "display": "Chlamydia trachomatis infection of genital structure (disorder)"
       } ]
     } ]

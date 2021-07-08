@@ -1,0 +1,60 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nachc-f2-de668",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de668",
+  "name": "Pregnancy Procedures",
+  "title": "Pregnancy Procedures",
+  "status": "draft",
+  "experimental": false,
+  "description": "Procedures identified for Pregnancy",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.F2",
+        "display": "Pregnancy"
+      } ]
+    }
+  } ],
+  "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "Procedure",
+      "path": "Procedure",
+      "mustSupport": false
+    }, {
+      "id": "Procedure.code",
+      "path": "Procedure.code",
+      "short": "Pregnancy Procedures",
+      "comment": "Pregnancy Procedure mapping",
+      "min": 1,
+      "max": "*",
+      "mustSupport": true,
+      "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Pregnancy Procedures Choices"
+        } ],
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-procedures-choices"
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.F2.DE668"
+      } ]
+    } ]
+  }
+}

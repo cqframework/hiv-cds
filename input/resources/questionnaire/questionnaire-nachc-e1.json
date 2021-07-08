@@ -1,0 +1,62 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "nachc-e1",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/nachc-e1",
+  "name": "nachc-e1",
+  "title": "NACHC.E1 Chlamydia",
+  "status": "active",
+  "experimental": false,
+  "description": "TODO: description goes here",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "code": "nachc-e1",
+        "display": "NACHC.E1 Chlamydia"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de1",
+    "text": "Chlamydia",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-choices"
+  }, {
+    "linkId": "2",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de26",
+    "text": "Chlamydia Infections and Venereal Diseases",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-infections-and-venereal-diseases-choices"
+  }, {
+    "linkId": "3",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de31",
+    "text": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-infection-secondary-sites-complications-disorders-choices"
+  }, {
+    "linkId": "4",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de62",
+    "text": "Chlamydia trachomatis organism or Chlamydia trachomatis substance",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-organism-or-chlamydia-trachomatis-substance-choices"
+  } ]
+}

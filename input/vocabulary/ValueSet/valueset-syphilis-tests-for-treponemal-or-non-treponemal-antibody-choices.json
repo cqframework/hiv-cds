@@ -10,234 +10,234 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://loinc.org",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "22459-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Cerebral spinal fluid",
         "display": "Reagin Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "1238206",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Cerebral spinal fluid by VDRL",
         "display": "Reagin Ab [Presence] in Cerebral spinal fluid by VDRL"
       }, {
-        "code": "43813-5",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Cord blood",
         "display": "Reagin Ab [Presence] in Cord blood"
       }, {
-        "code": "51783-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Cord blood by VDRL",
         "display": "Reagin Ab [Presence] in Cord blood by VDRL"
       }, {
-        "code": "22461-8",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Serum",
         "display": "Reagin Ab [Presence] in Serum"
       }, {
-        "code": "20507-0",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Serum by RPR",
         "display": "Reagin Ab [Presence] in Serum by RPR"
       }, {
-        "code": "1239118",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Serum by VDRL",
         "display": "Reagin Ab [Presence] in Serum by VDRL"
       }, {
-        "code": "22464-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Unspecified specimen",
         "display": "Reagin Ab [Presence] in Unspecified specimen"
       }, {
-        "code": "14904-7",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Presence] in Unspecified specimen by VDRL",
         "display": "Reagin Ab [Presence] in Unspecified specimen by VDRL"
       }, {
-        "code": "46203-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Cerebral spinal fluid",
         "display": "Reagin Ab [Titer] in Cerebral spinal fluid"
       }, {
-        "code": "87925-4",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Cerebral spinal fluid by RPR",
         "display": "Reagin Ab [Titer] in Cerebral spinal fluid by RPR"
       }, {
-        "code": "31146-4",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Cerebral spinal fluid by VDRL",
         "display": "Reagin Ab [Titer] in Cerebral spinal fluid by VDRL"
       }, {
-        "code": "11084-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Serum",
         "display": "Reagin Ab [Titer] in Serum"
       }, {
-        "code": "31147-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Serum by RPR",
         "display": "Reagin Ab [Titer] in Serum by RPR"
       }, {
-        "code": "50690-7",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Serum by VDRL",
         "display": "Reagin Ab [Titer] in Serum by VDRL"
       }, {
-        "code": "47476-7",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Unspecified specimen",
         "display": "Reagin Ab [Titer] in Unspecified specimen"
       }, {
-        "code": "47235-7",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Titer] in Unspecified specimen by VDRL",
         "display": "Reagin Ab [Titer] in Unspecified specimen by VDRL"
       }, {
-        "code": "22460-0",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Units/volume] in Cerebral spinal fluid",
         "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "1237900",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Units/volume] in Cerebral spinal fluid by VDRL",
         "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid by VDRL"
       }, {
-        "code": "22462-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Units/volume] in Serum",
         "display": "Reagin Ab [Units/volume] in Serum"
       }, {
-        "code": "20508-8",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Units/volume] in Serum by RPR",
         "display": "Reagin Ab [Units/volume] in Serum by RPR"
       }, {
-        "code": "5291-0",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin Ab [Units/volume] in Serum by VDRL",
         "display": "Reagin Ab [Units/volume] in Serum by VDRL"
       }, {
-        "code": "73752-8",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma",
         "display": "Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma"
       }, {
-        "code": "22586-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Cerebral spinal fluid",
         "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "50689-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Hemagglutination",
         "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Hemagglutination"
       }, {
-        "code": "2895157",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Immunofluorescence",
         "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "22587-0",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Serum",
         "display": "Treponema pallidum Ab [Presence] in Serum"
       }, {
-        "code": "24312-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Serum by Agglutination",
         "display": "Treponema pallidum Ab [Presence] in Serum by Agglutination"
       }, {
-        "code": "2243108",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Serum by Hemagglutination",
         "display": "Treponema pallidum Ab [Presence] in Serum by Hemagglutination"
       }, {
-        "code": "17723-8",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Serum by Immobilization",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immobilization"
       }, {
-        "code": "24110-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Serum by Immunoassay",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "57032-5",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Serum by Immunoblot",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "1275885",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Presence] in Serum by Immunofluorescence",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immunofluorescence"
       }, {
-        "code": "51475-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Titer] in Cerebral spinal fluid",
         "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid"
       }, {
-        "code": "50695-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Titer] in Cerebral spinal fluid by Hemagglutination",
         "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid by Hemagglutination"
       }, {
-        "code": "22590-4",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Titer] in Serum",
         "display": "Treponema pallidum Ab [Titer] in Serum"
       }, {
-        "code": "26009-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Titer] in Serum by Hemagglutination",
         "display": "Treponema pallidum Ab [Titer] in Serum by Hemagglutination"
       }, {
-        "code": "34382-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Titer] in Serum by Immunofluorescence",
         "display": "Treponema pallidum Ab [Titer] in Serum by Immunofluorescence"
       }, {
-        "code": "1276191",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Titer] in Serum by Latex agglutination",
         "display": "Treponema pallidum Ab [Titer] in Serum by Latex agglutination"
       }, {
-        "code": "71793-4",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Titer] in Serum or Plasma by Agglutination",
         "display": "Treponema pallidum Ab [Titer] in Serum or Plasma by Agglutination"
       }, {
-        "code": "22585-4",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Blood",
         "display": "Treponema pallidum Ab [Units/volume] in Blood"
       }, {
-        "code": "13288-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Blood by Immunofluorescence",
         "display": "Treponema pallidum Ab [Units/volume] in Blood by Immunofluorescence"
       }, {
-        "code": "47511-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Body fluid",
         "display": "Treponema pallidum Ab [Units/volume] in Body fluid"
       }, {
-        "code": "39015-3",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Body fluid by Hemagglutination",
         "display": "Treponema pallidum Ab [Units/volume] in Body fluid by Hemagglutination"
       }, {
-        "code": "51474-5",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid",
         "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "49800-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid by Hemagglutination",
         "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid by Hemagglutination"
       }, {
-        "code": "11597-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Serum",
         "display": "Treponema pallidum Ab [Units/volume] in Serum"
       }, {
-        "code": "1275581",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Serum by Immobilization",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Immobilization"
       }, {
-        "code": "63464-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Serum by Immunoassay",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "17724-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Serum by Immunofluorescence",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunofluorescence"
       }, {
-        "code": "17725-3",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination"
       }, {
-        "code": "41122-3",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum Ab [Units/volume] in Unspecified specimen",
         "display": "Treponema pallidum Ab [Units/volume] in Unspecified specimen"
       }, {
-        "code": "58031-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid",
         "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "58751-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid by Immunofluorescence",
         "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "1702518",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Presence] in Serum",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum"
       }, {
-        "code": "47238-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Presence] in Serum by Immunoassay",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "40679-3",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Presence] in Serum by Immunoblot",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "17726-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence"
       }, {
-        "code": "47512-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "47051-8",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "22592-0",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Units/volume] in Serum",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Serum"
       }, {
-        "code": "51838-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Units/volume] in Serum by Immunoassay",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "17727-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG Ab [Units/volume] in Serum by Immunofluorescence",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunofluorescence"
       }, {
-        "code": "34147-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG+IgM Ab [Presence] in Serum",
         "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum"
       }, {
-        "code": "47236-5",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgG+IgM Ab [Presence] in Serum by Immunoassay",
         "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "69946-2",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Presence] in Cerebral spinal fluid by Immunoblot",
         "display": "Treponema pallidum IgM Ab [Presence] in Cerebral spinal fluid by Immunoblot"
       }, {
-        "code": "1702822",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Presence] in Serum",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum"
       }, {
-        "code": "47237-3",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Presence] in Serum by Immunoassay",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "40680-1",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Presence] in Serum by Immunoblot",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "17729-5",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Presence] in Serum by Immunofluorescence",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunofluorescence"
       }, {
-        "code": "47514-5",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "47063-3",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "22594-6",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Units/volume] in Serum",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Serum"
       }, {
-        "code": "51839-9",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Units/volume] in Serum by Immunoassay",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "17728-7",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema pallidum IgM Ab [Units/volume] in Serum by Immunofluorescence",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunofluorescence"
       }, {
-        "code": "26658-5",
+        "code": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)-Treponema sp Ab [Presence] in Serum",
         "display": "Treponema sp Ab [Presence] in Serum"
       } ]
     } ]

@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.F1.DE1"
-  } ],
   "name": "Drug Rehabilitation",
   "title": "Drug Rehabilitation",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
@@ -36,19 +34,27 @@
     "element": [ {
       "id": "Procedure",
       "path": "Procedure",
-      "short": "Drug Rehabilitation",
-      "comment": "Injection Drug Rehabilitation mapping",
       "mustSupport": false
     }, {
       "id": "Procedure.code",
       "path": "Procedure.code",
+      "short": "Drug Rehabilitation",
+      "comment": "Injection Drug Rehabilitation mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Drug Rehabilitation Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/drug-rehabilitation-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.F1.DE1"
+      } ]
     } ]
   }
 }

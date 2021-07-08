@@ -10,96 +10,96 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "186729003",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial infection of lower genitourinary tract (disorder)",
         "display": "Chlamydial infection of lower genitourinary tract (disorder)"
       }, {
-        "code": "186731007",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial infection of anus and rectum (disorder)",
         "display": "Chlamydial infection of anus and rectum (disorder)"
       }, {
-        "code": "186946009",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Lymphogranuloma venereum (disorder)",
         "display": "Lymphogranuloma venereum (disorder)"
       }, {
-        "code": "188463006",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial pelvic inflammatory disease (disorder)",
         "display": "Chlamydial pelvic inflammatory disease (disorder)"
       }, {
-        "code": "189312004",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Pelvic inflammation with female sterility caused by Chlamydia trachomatis (disorder)",
         "display": "Pelvic inflammation with female sterility caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "197172005",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial peritonitis (disorder)",
         "display": "Chlamydial peritonitis (disorder)"
       }, {
-        "code": "206289001",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Congenital chlamydial pneumonia (disorder)",
         "display": "Congenital chlamydial pneumonia (disorder)"
       }, {
-        "code": "232403001",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial pharyngitis (disorder)",
         "display": "Chlamydial pharyngitis (disorder)"
       }, {
-        "code": "233610007",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Neonatal chlamydial pneumonia (disorder)",
         "display": "Neonatal chlamydial pneumonia (disorder)"
       }, {
-        "code": "234099003",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Lymphedema due to lymphogranuloma venereum (disorder)",
         "display": "Lymphedema due to lymphogranuloma venereum (disorder)"
       }, {
-        "code": "236672003",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial prostatitis (disorder)",
         "display": "Chlamydial prostatitis (disorder)"
       }, {
-        "code": "236683007",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial urethritis (disorder)",
         "display": "Chlamydial urethritis (disorder)"
       }, {
-        "code": "236749007",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial balanitis (disorder)",
         "display": "Chlamydial balanitis (disorder)"
       }, {
-        "code": "236767000",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial epididymitis (disorder)",
         "display": "Chlamydial epididymitis (disorder)"
       }, {
-        "code": "236773004",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial epididymo-orchitis (disorder)",
         "display": "Chlamydial epididymo-orchitis (disorder)"
       }, {
-        "code": "237039009",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial salpingitis (disorder)",
         "display": "Chlamydial salpingitis (disorder)"
       }, {
-        "code": "237043008",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial perihepatitis (disorder)",
         "display": "Chlamydial perihepatitis (disorder)"
       }, {
-        "code": "237084006",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial cervicitis (disorder)",
         "display": "Chlamydial cervicitis (disorder)"
       }, {
-        "code": "237097008",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial vulvovaginitis (disorder)",
         "display": "Chlamydial vulvovaginitis (disorder)"
       }, {
-        "code": "237106009",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial bartholinitis (disorder)",
         "display": "Chlamydial bartholinitis (disorder)"
       }, {
-        "code": "238372002",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial dermatological disorders (disorder)",
         "display": "Chlamydial dermatological disorders (disorder)"
       }, {
-        "code": "240589008",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydia trachomatis infection (disorder)",
         "display": "Chlamydia trachomatis infection (disorder)"
       }, {
-        "code": "240590004",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Neonatal chlamydial infection (disorder)",
         "display": "Neonatal chlamydial infection (disorder)"
       }, {
-        "code": "240602008",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Early lymphogranuloma venereum (disorder)",
         "display": "Early lymphogranuloma venereum (disorder)"
       }, {
-        "code": "240603003",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Late lymphogranuloma venereum (disorder)",
         "display": "Late lymphogranuloma venereum (disorder)"
       }, {
-        "code": "240604009",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Latent lymphogranuloma venereum (disorder)",
         "display": "Latent lymphogranuloma venereum (disorder)"
       }, {
-        "code": "272262003",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Esthiomene (disorder)",
         "display": "Esthiomene (disorder)"
       }, {
-        "code": "276681001",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Neonatal chlamydial dacryocystitis (disorder)",
         "display": "Neonatal chlamydial dacryocystitis (disorder)"
       }, {
-        "code": "367504009",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Pelvic inflammatory disease with female sterility due to Chlamydia trachomatis (disorder)",
         "display": "Pelvic inflammatory disease with female sterility due to Chlamydia trachomatis (disorder)"
       }, {
-        "code": "406566006",
+        "code": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)-Chlamydial infection of the central nervous system (disorder)",
         "display": "Chlamydial infection of the central nervous system (disorder)"
       } ]
     } ]

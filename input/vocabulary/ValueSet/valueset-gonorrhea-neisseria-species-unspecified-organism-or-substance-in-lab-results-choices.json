@@ -10,18 +10,18 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "414811005",
+        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Neisseria species not Neisseria gonococci (organism)",
         "display": "Neisseria species not Neisseria gonococci (organism)"
       }, {
-        "code": "59083001",
+        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Genus Neisseria (organism)",
         "display": "Genus Neisseria (organism)"
       }, {
-        "code": "715869002",
+        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Neisseria species, not Neisseria meningitidis (organism)",
         "display": "Neisseria species, not Neisseria meningitidis (organism)"
       }, {
-        "code": "715872009",
+        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)",
         "display": "Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)"
       } ]
     } ]

@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-d1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-d1-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.D1.DE1"
-  } ],
   "name": "Gonococcal Infections and Venereal Diseases",
   "title": "Gonococcal Infections and Venereal Diseases",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Condition",
@@ -36,19 +34,27 @@
     "element": [ {
       "id": "Condition",
       "path": "Condition",
-      "short": "Gonococcal Infections and Venereal Diseases",
-      "comment": "Gonorrhea infection mapping",
       "mustSupport": false
     }, {
       "id": "Condition.code",
       "path": "Condition.code",
+      "short": "Gonococcal Infections and Venereal Diseases",
+      "comment": "Gonorrhea infection mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Gonococcal Infections and Venereal Diseases Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonococcal-infections-and-venereal-diseases-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.D1.DE1"
+      } ]
     } ]
   }
 }

@@ -3,19 +3,19 @@
   "id": "chronic-infection-of-liver-due-to-hepatitis-c-virus-choices",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chronic-infection-of-liver-due-to-hepatitis-c-virus-choices",
   "name": "chronic-infection-of-liver-due-to-hepatitis-c-virus-choices",
-  "title": "Chronic Infection of liver due to Hepatitis C virus. Choices",
+  "title": "Chronic Infection of liver due to Hepatitis C virus Choices",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Chronic Infection of liver due to Hepatitis C virus. Choices element",
+  "description": "Codes representing possible values for the Chronic Infection of liver due to Hepatitis C virus Choices element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "128302006",
+        "code": "Chronic Infection of liver due to Hepatitis C virus-Chronic hepatitis C (disorder)",
         "display": "Chronic hepatitis C (disorder)"
       }, {
-        "code": "435101000124104",
+        "code": "Chronic Infection of liver due to Hepatitis C virus-Chronic viral hepatitis C with hepatic coma (disorder)",
         "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
       } ]
     } ]

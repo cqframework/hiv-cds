@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-b1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-b1-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.B1.DE1"
-  } ],
   "name": "Hepatitis C Virus Infection (Disorders)",
   "title": "Hepatitis C Virus Infection (Disorders)",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Condition",
@@ -36,19 +34,27 @@
     "element": [ {
       "id": "Condition",
       "path": "Condition",
-      "short": "Hepatitis C Virus Infection (Disorders)",
-      "comment": "HCV infection mapping",
       "mustSupport": false
     }, {
       "id": "Condition.code",
       "path": "Condition.code",
+      "short": "Hepatitis C Virus Infection (Disorders)",
+      "comment": "HCV infection mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Hepatitis C Virus Infection (Disorders) Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-virus-infection-disorders-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.B1.DE1"
+      } ]
     } ]
   }
 }

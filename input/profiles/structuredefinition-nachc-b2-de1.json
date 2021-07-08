@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-b2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-b2-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.B2.DE1"
-  } ],
   "name": "Hepatitis C Ag",
   "title": "Hepatitis C Ag",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -36,22 +34,32 @@
     "element": [ {
       "id": "Observation",
       "path": "Observation",
-      "short": "Hepatitis C Ag",
-      "comment": "HCV test mapping",
       "mustSupport": false
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
+      "short": "Hepatitis C Ag",
+      "comment": "HCV test mapping",
       "min": 1,
       "max": "1",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Hepatitis C Ag"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-ag"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.B2.DE1"
+      } ]
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
+      "short": "Hepatitis C Ag",
+      "comment": "HCV test mapping",
       "min": 1,
       "max": "*",
       "type": [ {
@@ -59,9 +67,17 @@
       } ],
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Hepatitis C Ag Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-ag-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.B2.DE1"
+      } ]
     } ]
   }
 }

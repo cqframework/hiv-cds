@@ -10,36 +10,36 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "23915005",
+        "code": "Drug Rehabilitation-Combined alcohol and drug rehabilitation and detoxification (regime/therapy)",
         "display": "Combined alcohol and drug rehabilitation and detoxification (regime/therapy)"
       }, {
-        "code": "266707007",
+        "code": "Drug Rehabilitation-Drug addiction therapy (regime/therapy)",
         "display": "Drug addiction therapy (regime/therapy)"
       }, {
-        "code": "310653000",
+        "code": "Drug Rehabilitation-Drug addiction therapy using methadone (regime/therapy)",
         "display": "Drug addiction therapy using methadone (regime/therapy)"
       }, {
-        "code": "408941008",
+        "code": "Drug Rehabilitation-Drug abuse prevention (procedure)",
         "display": "Drug abuse prevention (procedure)"
       }, {
-        "code": "408942001",
+        "code": "Drug Rehabilitation-Drug abuse prevention assessment (procedure)",
         "display": "Drug abuse prevention assessment (procedure)"
       }, {
-        "code": "408943006",
+        "code": "Drug Rehabilitation-Drug abuse prevention education (procedure)",
         "display": "Drug abuse prevention education (procedure)"
       }, {
-        "code": "408944000",
+        "code": "Drug Rehabilitation-Drug abuse prevention management (procedure)",
         "display": "Drug abuse prevention management (procedure)"
       }, {
-        "code": "56876005",
+        "code": "Drug Rehabilitation-Drug rehabilitation and detoxification (regime/therapy)",
         "display": "Drug rehabilitation and detoxification (regime/therapy)"
       }, {
-        "code": "720174008",
+        "code": "Drug Rehabilitation-Drug harm reduction program (regime/therapy)",
         "display": "Drug harm reduction program (regime/therapy)"
       }, {
-        "code": "720177001",
+        "code": "Drug Rehabilitation-Drug relapse prevention program (regime/therapy)",
         "display": "Drug relapse prevention program (regime/therapy)"
       } ]
     } ]

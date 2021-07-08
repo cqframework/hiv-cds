@@ -10,21 +10,21 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://loinc.org",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "53605-2",
+        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Blood by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "49799-0",
+        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "91846-6",
+        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection"
       }, {
-        "code": "41163-7",
+        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "76766-5",
+        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection",
         "display": "Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection"
       } ]
     } ]

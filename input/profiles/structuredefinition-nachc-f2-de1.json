@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.F2.DE1"
-  } ],
   "name": "Pregnancy Encounters",
   "title": "Pregnancy Encounters",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Encounter",
@@ -36,19 +34,27 @@
     "element": [ {
       "id": "Encounter",
       "path": "Encounter",
-      "short": "Pregnancy Encounters",
-      "comment": "Pregnancy Encounter mapping",
       "mustSupport": false
     }, {
       "id": "Encounter.type",
       "path": "Encounter.type",
+      "short": "Pregnancy Encounters",
+      "comment": "Pregnancy Encounter mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Pregnancy Encounters Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-encounters-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.F2.DE1"
+      } ]
     } ]
   }
 }

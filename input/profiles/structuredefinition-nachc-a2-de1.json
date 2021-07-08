@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-a2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a2-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.A2.DE1"
-  } ],
   "name": "HIV-1 HIV 2 Ab Ag tests",
   "title": "HIV-1 HIV 2 Ab Ag tests",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -36,22 +34,32 @@
     "element": [ {
       "id": "Observation",
       "path": "Observation",
-      "short": "HIV-1 HIV 2 Ab Ag tests",
-      "comment": "HIV test mapping",
       "mustSupport": false
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
+      "short": "HIV-1 HIV 2 Ab Ag tests",
+      "comment": "HIV test mapping",
       "min": 1,
       "max": "1",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "HIV-1 HIV 2 Ab Ag tests"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-1-hiv-2-ab-ag-tests"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.A2.DE1"
+      } ]
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
+      "short": "HIV-1 HIV 2 Ab Ag tests",
+      "comment": "HIV test mapping",
       "min": 1,
       "max": "*",
       "type": [ {
@@ -59,9 +67,17 @@
       } ],
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "HIV-1 HIV 2 Ab Ag tests Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-1-hiv-2-ab-ag-tests-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.A2.DE1"
+      } ]
     } ]
   }
 }

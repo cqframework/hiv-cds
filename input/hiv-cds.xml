@@ -77,7 +77,7 @@
       <name value="HelloHIVWorldBundle"/>
       <description value="A Bundle containing Sample Recommendation (Hello HIV World) knowledge artifacts"/>
       <exampleBoolean value="true"/>
-  </resource>
+    </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
@@ -93,7 +93,7 @@
         <title value="Profiles" />
         <generation value="html" />
         <page>
-          <nameUrl value="nachc-hivDataElementsByActivity.html" />
+          <nameUrl value="NACHC_HIVDataElementsByActivity.html" />
           <title value="NACHC Data Element By Activity" />
           <generation value="markdown" />
         </page>
@@ -162,12 +162,20 @@
       <value value="input/resources/plandefinition"/>
     </parameter>
     <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources/questionnaire"/>
+    </parameter>
+    <parameter>
       <code value="path-resource" />
       <value value="input/profiles"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>
       <value value="input/vocabulary/codesystem"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary/conceptmap"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

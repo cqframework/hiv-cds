@@ -10,15 +10,15 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "409516001",
+        "code": "Post Exposure Prophylaxis-Post-exposure prophylaxis",
         "display": "Post-exposure prophylaxis"
       }, {
-        "code": "736459001",
+        "code": "Post Exposure Prophylaxis-Administration of prophylactic agent after sexual exposure (procedure)",
         "display": "Administration of prophylactic agent after sexual exposure (procedure)"
       }, {
-        "code": "473382005",
+        "code": "Post Exposure Prophylaxis-Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)",
         "display": "Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)"
       } ]
     } ]

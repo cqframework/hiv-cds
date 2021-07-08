@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f3-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f3-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.F3.DE1"
-  } ],
   "name": "Post Exposure Prophylaxis",
   "title": "Post Exposure Prophylaxis",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
@@ -36,19 +34,27 @@
     "element": [ {
       "id": "Procedure",
       "path": "Procedure",
-      "short": "Post Exposure Prophylaxis",
-      "comment": "PEP mapping",
       "mustSupport": false
     }, {
       "id": "Procedure.code",
       "path": "Procedure.code",
+      "short": "Post Exposure Prophylaxis",
+      "comment": "PEP mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Post Exposure Prophylaxis Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/post-exposure-prophylaxis-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.F3.DE1"
+      } ]
     } ]
   }
 }

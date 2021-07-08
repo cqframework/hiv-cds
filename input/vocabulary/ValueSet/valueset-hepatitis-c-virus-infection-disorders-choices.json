@@ -10,96 +10,93 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://hl7.org/fhir/sid/icd-10",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "B17.1",
+        "code": "Hepatitis C Virus Infection (Disorders)-Acute hepatitis C",
         "display": "Acute hepatitis C"
       }, {
-        "code": "B17.10",
+        "code": "Hepatitis C Virus Infection (Disorders)-Acute hepatitis C without hepatic coma",
         "display": "Acute hepatitis C without hepatic coma"
       }, {
-        "code": "B17.11",
+        "code": "Hepatitis C Virus Infection (Disorders)-Acute hepatitis C with hepatic coma",
         "display": "Acute hepatitis C with hepatic coma"
       }, {
-        "code": "B18.2",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic viral hepatitis C",
         "display": "Chronic viral hepatitis C"
       }, {
-        "code": "B19.2",
+        "code": "Hepatitis C Virus Infection (Disorders)-Unspecified viral hepatitis C",
         "display": "Unspecified viral hepatitis C"
       }, {
-        "code": "B19.20",
+        "code": "Hepatitis C Virus Infection (Disorders)-Unspecified viral hepatitis C without hepatic coma",
         "display": "Unspecified viral hepatitis C without hepatic coma"
       }, {
-        "code": "B19.21",
+        "code": "Hepatitis C Virus Infection (Disorders)-Unspecified viral hepatitis C with hepatic coma",
         "display": "Unspecified viral hepatitis C with hepatic coma"
-      } ]
-    }, {
-      "system": "http://snomed.info/sct",
-      "concept": [ {
-        "code": "120241000119100",
+      }, {
+        "code": "Hepatitis C Virus Infection (Disorders)-Glomerulonephritis due to hepatitis C (disorder)",
         "display": "Glomerulonephritis due to hepatitis C (disorder)"
       }, {
-        "code": "125921000119106",
+        "code": "Hepatitis C Virus Infection (Disorders)-Hepatic coma due to acute hepatitis C (disorder)",
         "display": "Hepatic coma due to acute hepatitis C (disorder)"
       }, {
-        "code": "128971000119101",
+        "code": "Hepatitis C Virus Infection (Disorders)-Cryoglobulinemia due to chronic hepatitis C (disorder)",
         "display": "Cryoglobulinemia due to chronic hepatitis C (disorder)"
       }, {
-        "code": "146371000119104",
+        "code": "Hepatitis C Virus Infection (Disorders)-Hepatic coma due to chronic hepatitis C (disorder)",
         "display": "Hepatic coma due to chronic hepatitis C (disorder)"
       }, {
-        "code": "186628001",
+        "code": "Hepatitis C Virus Infection (Disorders)-Hepatic coma due to viral hepatitis C (disorder)",
         "display": "Hepatic coma due to viral hepatitis C (disorder)"
       }, {
-        "code": "235866006",
+        "code": "Hepatitis C Virus Infection (Disorders)-Acute hepatitis C (disorder)",
         "display": "Acute hepatitis C (disorder)"
       }, {
-        "code": "278929008",
+        "code": "Hepatitis C Virus Infection (Disorders)-Congenital hepatitis C infection (disorder)",
         "display": "Congenital hepatitis C infection (disorder)"
       }, {
-        "code": "347891000119103",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C with stage 3 fibrosis (disorder)",
         "display": "Chronic hepatitis C with stage 3 fibrosis (disorder)"
       }, {
-        "code": "442374005",
+        "code": "Hepatitis C Virus Infection (Disorders)-Hepatitis B and hepatitis C (disorder)",
         "display": "Hepatitis B and hepatitis C (disorder)"
       }, {
-        "code": "50711007",
+        "code": "Hepatitis C Virus Infection (Disorders)-Viral hepatitis type C (disorder)",
         "display": "Viral hepatitis type C (disorder)"
       }, {
-        "code": "702969000",
+        "code": "Hepatitis C Virus Infection (Disorders)-Reactivation of hepatitis C viral hepatitis (disorder)",
         "display": "Reactivation of hepatitis C viral hepatitis (disorder)"
       }, {
-        "code": "703866000",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C with stage 2 fibrosis (disorder)",
         "display": "Chronic hepatitis C with stage 2 fibrosis (disorder)"
       }, {
-        "code": "708198006",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic active hepatitis C (disorder)",
         "display": "Chronic active hepatitis C (disorder)"
       }, {
-        "code": "767809001",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)",
         "display": "Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)"
       }, {
-        "code": "767810006",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)",
         "display": "Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)"
       }, {
-        "code": "768006009",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)",
         "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)"
       }, {
-        "code": "768125005",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)",
         "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)"
       }, {
-        "code": "768126006",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)",
         "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)"
       }, {
-        "code": "768127002",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)",
         "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)"
       }, {
-        "code": "768288001",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)",
         "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)"
       }, {
-        "code": "768289009",
+        "code": "Hepatitis C Virus Infection (Disorders)-Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)",
         "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)"
       }, {
-        "code": "831000119103",
+        "code": "Hepatitis C Virus Infection (Disorders)-Cirrhosis of liver due to chronic hepatitis C (disorder)",
         "display": "Cirrhosis of liver due to chronic hepatitis C (disorder)"
       } ]
     } ]

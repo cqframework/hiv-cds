@@ -10,201 +10,201 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://hl7.org/fhir/sid/icd-10",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "O09.00",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of infertility, unspecified trimester",
         "display": "Supervision of pregnancy with history of infertility, unspecified trimester"
       }, {
-        "code": "O09.01",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of infertility, first trimester",
         "display": "Supervision of pregnancy with history of infertility, first trimester"
       }, {
-        "code": "O09.02",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of infertility, second trimester",
         "display": "Supervision of pregnancy with history of infertility, second trimester"
       }, {
-        "code": "O09.03",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of infertility, third trimester",
         "display": "Supervision of pregnancy with history of infertility, third trimester"
       }, {
-        "code": "O09.10",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of ectopic pregnancy, unspecified trimester",
         "display": "Supervision of pregnancy with history of ectopic pregnancy, unspecified trimester"
       }, {
-        "code": "O09.11",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of ectopic pregnancy, first trimester",
         "display": "Supervision of pregnancy with history of ectopic pregnancy, first trimester"
       }, {
-        "code": "O09.12",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of ectopic pregnancy, second trimester",
         "display": "Supervision of pregnancy with history of ectopic pregnancy, second trimester"
       }, {
-        "code": "O09.13",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of ectopic pregnancy, third trimester",
         "display": "Supervision of pregnancy with history of ectopic pregnancy, third trimester"
       }, {
-        "code": "O09.211",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of pre-term labor, first trimester",
         "display": "Supervision of pregnancy with history of pre-term labor, first trimester"
       }, {
-        "code": "O09.212",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of pre-term labor, second trimester",
         "display": "Supervision of pregnancy with history of pre-term labor, second trimester"
       }, {
-        "code": "O09.213",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of pre-term labor, third trimester",
         "display": "Supervision of pregnancy with history of pre-term labor, third trimester"
       }, {
-        "code": "O09.219",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of pre-term labor, unspecified trimester",
         "display": "Supervision of pregnancy with history of pre-term labor, unspecified trimester"
       }, {
-        "code": "O09.291",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with other poor reproductive or obstetric history, first trimester",
         "display": "Supervision of pregnancy with other poor reproductive or obstetric history, first trimester"
       }, {
-        "code": "O09.292",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with other poor reproductive or obstetric history, second trimester",
         "display": "Supervision of pregnancy with other poor reproductive or obstetric history, second trimester"
       }, {
-        "code": "O09.293",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with other poor reproductive or obstetric history, third trimester",
         "display": "Supervision of pregnancy with other poor reproductive or obstetric history, third trimester"
       }, {
-        "code": "O09.299",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with other poor reproductive or obstetric history, unspecified trimester",
         "display": "Supervision of pregnancy with other poor reproductive or obstetric history, unspecified trimester"
       }, {
-        "code": "O09.30",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with insufficient antenatal care, unspecified trimester",
         "display": "Supervision of pregnancy with insufficient antenatal care, unspecified trimester"
       }, {
-        "code": "O09.31",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with insufficient antenatal care, first trimester",
         "display": "Supervision of pregnancy with insufficient antenatal care, first trimester"
       }, {
-        "code": "O09.32",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with insufficient antenatal care, second trimester",
         "display": "Supervision of pregnancy with insufficient antenatal care, second trimester"
       }, {
-        "code": "O09.33",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with insufficient antenatal care, third trimester",
         "display": "Supervision of pregnancy with insufficient antenatal care, third trimester"
       }, {
-        "code": "O09.40",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with grand multiparity, unspecified trimester",
         "display": "Supervision of pregnancy with grand multiparity, unspecified trimester"
       }, {
-        "code": "O09.41",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with grand multiparity, first trimester",
         "display": "Supervision of pregnancy with grand multiparity, first trimester"
       }, {
-        "code": "O09.42",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with grand multiparity, second trimester",
         "display": "Supervision of pregnancy with grand multiparity, second trimester"
       }, {
-        "code": "O09.43",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with grand multiparity, third trimester",
         "display": "Supervision of pregnancy with grand multiparity, third trimester"
       }, {
-        "code": "O09.511",
+        "code": "Pregnancy Supervision-Supervision of elderly primigravida, first trimester",
         "display": "Supervision of elderly primigravida, first trimester"
       }, {
-        "code": "O09.512",
+        "code": "Pregnancy Supervision-Supervision of elderly primigravida, second trimester",
         "display": "Supervision of elderly primigravida, second trimester"
       }, {
-        "code": "O09.513",
+        "code": "Pregnancy Supervision-Supervision of elderly primigravida, third trimester",
         "display": "Supervision of elderly primigravida, third trimester"
       }, {
-        "code": "O09.519",
+        "code": "Pregnancy Supervision-Supervision of elderly primigravida, unspecified trimester",
         "display": "Supervision of elderly primigravida, unspecified trimester"
       }, {
-        "code": "O09.521",
+        "code": "Pregnancy Supervision-Supervision of elderly multigravida, first trimester",
         "display": "Supervision of elderly multigravida, first trimester"
       }, {
-        "code": "O09.522",
+        "code": "Pregnancy Supervision-Supervision of elderly multigravida, second trimester",
         "display": "Supervision of elderly multigravida, second trimester"
       }, {
-        "code": "O09.523",
+        "code": "Pregnancy Supervision-Supervision of elderly multigravida, third trimester",
         "display": "Supervision of elderly multigravida, third trimester"
       }, {
-        "code": "O09.529",
+        "code": "Pregnancy Supervision-Supervision of elderly multigravida, unspecified trimester",
         "display": "Supervision of elderly multigravida, unspecified trimester"
       }, {
-        "code": "O09.611",
+        "code": "Pregnancy Supervision-Supervision of young primigravida, first trimester",
         "display": "Supervision of young primigravida, first trimester"
       }, {
-        "code": "O09.612",
+        "code": "Pregnancy Supervision-Supervision of young primigravida, second trimester",
         "display": "Supervision of young primigravida, second trimester"
       }, {
-        "code": "O09.613",
+        "code": "Pregnancy Supervision-Supervision of young primigravida, third trimester",
         "display": "Supervision of young primigravida, third trimester"
       }, {
-        "code": "O09.619",
+        "code": "Pregnancy Supervision-Supervision of young primigravida, unspecified trimester",
         "display": "Supervision of young primigravida, unspecified trimester"
       }, {
-        "code": "O09.621",
+        "code": "Pregnancy Supervision-Supervision of young multigravida, first trimester",
         "display": "Supervision of young multigravida, first trimester"
       }, {
-        "code": "O09.622",
+        "code": "Pregnancy Supervision-Supervision of young multigravida, second trimester",
         "display": "Supervision of young multigravida, second trimester"
       }, {
-        "code": "O09.623",
+        "code": "Pregnancy Supervision-Supervision of young multigravida, third trimester",
         "display": "Supervision of young multigravida, third trimester"
       }, {
-        "code": "O09.629",
+        "code": "Pregnancy Supervision-Supervision of young multigravida, unspecified trimester",
         "display": "Supervision of young multigravida, unspecified trimester"
       }, {
-        "code": "O09.70",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy due to social problems, unspecified trimester",
         "display": "Supervision of high risk pregnancy due to social problems, unspecified trimester"
       }, {
-        "code": "O09.71",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy due to social problems, first trimester",
         "display": "Supervision of high risk pregnancy due to social problems, first trimester"
       }, {
-        "code": "O09.72",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy due to social problems, second trimester",
         "display": "Supervision of high risk pregnancy due to social problems, second trimester"
       }, {
-        "code": "O09.73",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy due to social problems, third trimester",
         "display": "Supervision of high risk pregnancy due to social problems, third trimester"
       }, {
-        "code": "O09.811",
+        "code": "Pregnancy Supervision-Supervision of pregnancy resulting from assisted reproductive technology, first trimester",
         "display": "Supervision of pregnancy resulting from assisted reproductive technology, first trimester"
       }, {
-        "code": "O09.812",
+        "code": "Pregnancy Supervision-Supervision of pregnancy resulting from assisted reproductive technology, second trimester",
         "display": "Supervision of pregnancy resulting from assisted reproductive technology, second trimester"
       }, {
-        "code": "O09.813",
+        "code": "Pregnancy Supervision-Supervision of pregnancy resulting from assisted reproductive technology, third trimester",
         "display": "Supervision of pregnancy resulting from assisted reproductive technology, third trimester"
       }, {
-        "code": "O09.819",
+        "code": "Pregnancy Supervision-Supervision of pregnancy resulting from assisted reproductive technology, unspecified trimester",
         "display": "Supervision of pregnancy resulting from assisted reproductive technology, unspecified trimester"
       }, {
-        "code": "O09.821",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of in utero procedure during previous pregnancy, first trimester",
         "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, first trimester"
       }, {
-        "code": "O09.822",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of in utero procedure during previous pregnancy, second trimester",
         "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, second trimester"
       }, {
-        "code": "O09.823",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of in utero procedure during previous pregnancy, third trimester",
         "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, third trimester"
       }, {
-        "code": "O09.829",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of in utero procedure during previous pregnancy, unspecified trimester",
         "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, unspecified trimester"
       }, {
-        "code": "O09.891",
+        "code": "Pregnancy Supervision-Supervision of other high risk pregnancies, first trimester",
         "display": "Supervision of other high risk pregnancies, first trimester"
       }, {
-        "code": "O09.892",
+        "code": "Pregnancy Supervision-Supervision of other high risk pregnancies, second trimester",
         "display": "Supervision of other high risk pregnancies, second trimester"
       }, {
-        "code": "O09.893",
+        "code": "Pregnancy Supervision-Supervision of other high risk pregnancies, third trimester",
         "display": "Supervision of other high risk pregnancies, third trimester"
       }, {
-        "code": "O09.899",
+        "code": "Pregnancy Supervision-Supervision of other high risk pregnancies, unspecified trimester",
         "display": "Supervision of other high risk pregnancies, unspecified trimester"
       }, {
-        "code": "O09.90",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy, unspecified, unspecified trimester",
         "display": "Supervision of high risk pregnancy, unspecified, unspecified trimester"
       }, {
-        "code": "O09.91",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy, unspecified, first trimester",
         "display": "Supervision of high risk pregnancy, unspecified, first trimester"
       }, {
-        "code": "O09.92",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy, unspecified, second trimester",
         "display": "Supervision of high risk pregnancy, unspecified, second trimester"
       }, {
-        "code": "O09.93",
+        "code": "Pregnancy Supervision-Supervision of high risk pregnancy, unspecified, third trimester",
         "display": "Supervision of high risk pregnancy, unspecified, third trimester"
       }, {
-        "code": "O09.A",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of molar pregnancy",
         "display": "Supervision of pregnancy with history of molar pregnancy"
       }, {
-        "code": "O09.A0",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of molar pregnancy, unspecified trimester",
         "display": "Supervision of pregnancy with history of molar pregnancy, unspecified trimester"
       }, {
-        "code": "O09.A1",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of molar pregnancy, first trimester",
         "display": "Supervision of pregnancy with history of molar pregnancy, first trimester"
       }, {
-        "code": "O09.A2",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of molar pregnancy, second trimester",
         "display": "Supervision of pregnancy with history of molar pregnancy, second trimester"
       }, {
-        "code": "O09.A3",
+        "code": "Pregnancy Supervision-Supervision of pregnancy with history of molar pregnancy, third trimester",
         "display": "Supervision of pregnancy with history of molar pregnancy, third trimester"
       } ]
     } ]

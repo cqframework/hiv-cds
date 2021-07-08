@@ -10,75 +10,75 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "10295004",
+        "code": "Hepatitis C condition-Chronic viral hepatitis (disorder)",
         "display": "Chronic viral hepatitis (disorder)"
       }, {
-        "code": "1092801000119100",
+        "code": "Hepatitis C condition-Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)",
         "display": "Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)"
       }, {
-        "code": "1116000",
+        "code": "Hepatitis C condition-Chronic aggressive type B viral hepatitis (disorder)",
         "display": "Chronic aggressive type B viral hepatitis (disorder)"
       }, {
-        "code": "16098491000119109",
+        "code": "Hepatitis C condition-Chronic autoimmune hepatitis (disorder)",
         "display": "Chronic autoimmune hepatitis (disorder)"
       }, {
-        "code": "197284004",
+        "code": "Hepatitis C condition-Chronic active hepatitis (disorder)",
         "display": "Chronic active hepatitis (disorder)"
       }, {
-        "code": "235869004",
+        "code": "Hepatitis C condition-Chronic viral hepatitis B with hepatitis D (disorder)",
         "display": "Chronic viral hepatitis B with hepatitis D (disorder)"
       }, {
-        "code": "235889003",
+        "code": "Hepatitis C condition-Drug-induced chronic hepatitis (disorder)",
         "display": "Drug-induced chronic hepatitis (disorder)"
       }, {
-        "code": "307757001",
+        "code": "Hepatitis C condition-Chronic alcoholic hepatitis (disorder)",
         "display": "Chronic alcoholic hepatitis (disorder)"
       }, {
-        "code": "38662009",
+        "code": "Hepatitis C condition-Chronic persistent type B viral hepatitis (disorder)",
         "display": "Chronic persistent type B viral hepatitis (disorder)"
       }, {
-        "code": "41889008",
+        "code": "Hepatitis C condition-Chronic persistent hepatitis (disorder)",
         "display": "Chronic persistent hepatitis (disorder)"
       }, {
-        "code": "450880008",
+        "code": "Hepatitis C condition-Chronic hepatitis E (disorder)",
         "display": "Chronic hepatitis E (disorder)"
       }, {
-        "code": "50167007",
+        "code": "Hepatitis C condition-Chronic active type B viral hepatitis (disorder)",
         "display": "Chronic active type B viral hepatitis (disorder)"
       }, {
-        "code": "57339008",
+        "code": "Hepatitis C condition-Chronic lobular hepatitis (disorder)",
         "display": "Chronic lobular hepatitis (disorder)"
       }, {
-        "code": "60037002",
+        "code": "Hepatitis C condition-Chronic persistent viral hepatitis (disorder)",
         "display": "Chronic persistent viral hepatitis (disorder)"
       }, {
-        "code": "61977001",
+        "code": "Hepatitis C condition-Chronic type B viral hepatitis (disorder)",
         "display": "Chronic type B viral hepatitis (disorder)"
       }, {
-        "code": "66870002",
+        "code": "Hepatitis C condition-Chronic active viral hepatitis (disorder)",
         "display": "Chronic active viral hepatitis (disorder)"
       }, {
-        "code": "713966008",
+        "code": "Hepatitis C condition-Occult chronic type B viral hepatitis (disorder)",
         "display": "Occult chronic type B viral hepatitis (disorder)"
       }, {
-        "code": "76783007",
+        "code": "Hepatitis C condition-Chronic hepatitis (disorder)",
         "display": "Chronic hepatitis (disorder)"
       }, {
-        "code": "774204006",
+        "code": "Hepatitis C condition-Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)",
         "display": "Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)"
       }, {
-        "code": "838377003",
+        "code": "Hepatitis C condition-Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "838380002",
+        "code": "Hepatitis C condition-Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)",
         "display": "Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)"
       }, {
-        "code": "89789003",
+        "code": "Hepatitis C condition-Chronic aggressive viral hepatitis (disorder)",
         "display": "Chronic aggressive viral hepatitis (disorder)"
       }, {
-        "code": "9843006",
+        "code": "Hepatitis C condition-Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)",
         "display": "Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)"
       } ]
     } ]

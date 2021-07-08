@@ -10,561 +10,555 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://hl7.org/fhir/sid/icd-10",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "A40",
+        "code": "IDU as a condition-Streptococcal sepsis",
         "display": "Streptococcal sepsis"
       }, {
-        "code": "A41",
+        "code": "IDU as a condition-Other sepsis",
         "display": "Other sepsis"
       }, {
-        "code": "A480",
+        "code": "IDU as a condition-Gas gangrene",
         "display": "Gas gangrene"
       }, {
-        "code": "B37.6",
+        "code": "IDU as a condition-Candidal endocarditis",
         "display": "Candidal endocarditis"
       }, {
-        "code": "G06",
+        "code": "IDU as a condition-Intracranial and intraspinal abscess and granuloma",
         "display": "Intracranial and intraspinal abscess and granuloma"
       }, {
-        "code": "G09",
+        "code": "IDU as a condition-Sequelae of inflammatory diseases of central nervous system",
         "display": "Sequelae of inflammatory diseases of central nervous system"
       }, {
-        "code": "I26.9",
+        "code": "IDU as a condition-Pulmonary embolism without acute cor pulmonale",
         "display": "Pulmonary embolism without acute cor pulmonale"
       }, {
-        "code": "I33",
+        "code": "IDU as a condition-Acute and subacute endocarditis",
         "display": "Acute and subacute endocarditis"
       }, {
-        "code": "I34",
+        "code": "IDU as a condition-Nonrheumatic mitral valve disorders",
         "display": "Nonrheumatic mitral valve disorders"
       }, {
-        "code": "I35",
+        "code": "IDU as a condition-Nonrheumatic aortic valve disorders",
         "display": "Nonrheumatic aortic valve disorders"
       }, {
-        "code": "I36",
+        "code": "IDU as a condition-Nonrheumatic tricuspid valve disorders",
         "display": "Nonrheumatic tricuspid valve disorders"
       }, {
-        "code": "I37",
+        "code": "IDU as a condition-Nonrheumatic pulmonary valve disorders",
         "display": "Nonrheumatic pulmonary valve disorders"
       }, {
-        "code": "I38",
+        "code": "IDU as a condition-Endocarditis, valve unspecified",
         "display": "Endocarditis, valve unspecified"
       }, {
-        "code": "I39",
+        "code": "IDU as a condition-Endocarditis and heart valve disorders in diseases classified elsewhere",
         "display": "Endocarditis and heart valve disorders in diseases classified elsewhere"
       }, {
-        "code": "I40.0",
+        "code": "IDU as a condition-Infective myocarditis",
         "display": "Infective myocarditis"
       }, {
-        "code": "I80",
+        "code": "IDU as a condition-Phlebitis and thrombophlebitis",
         "display": "Phlebitis and thrombophlebitis"
       }, {
-        "code": "K63.0",
+        "code": "IDU as a condition-Abscess of intestine",
         "display": "Abscess of intestine"
       }, {
-        "code": "K65.0",
+        "code": "IDU as a condition-Generalized (acute) peritonitis",
         "display": "Generalized (acute) peritonitis"
       }, {
-        "code": "K75.0",
+        "code": "IDU as a condition-Abscess of liver",
         "display": "Abscess of liver"
       }, {
-        "code": "L02",
+        "code": "IDU as a condition-Cutaneous abscess, furuncle and carbuncle",
         "display": "Cutaneous abscess, furuncle and carbuncle"
       }, {
-        "code": "L03",
+        "code": "IDU as a condition-Cellulitis and acute lymphangitis",
         "display": "Cellulitis and acute lymphangitis"
       }, {
-        "code": "L97",
+        "code": "IDU as a condition-Non-pressure chronic ulcer of lower limb, not elsewhere classified",
         "display": "Non-pressure chronic ulcer of lower limb, not elsewhere classified"
       }, {
-        "code": "L98.8",
+        "code": "IDU as a condition-Other specified disorders of the skin and subcutaneous tissue",
         "display": "Other specified disorders of the skin and subcutaneous tissue"
       }, {
-        "code": "M54.02",
+        "code": "IDU as a condition-Panniculitis affecting regions of neck and back, cervical region",
         "display": "Panniculitis affecting regions of neck and back, cervical region"
       }, {
-        "code": "M72.6",
+        "code": "IDU as a condition-Necrotizing fasciitis",
         "display": "Necrotizing fasciitis"
       }, {
-        "code": "M79.3",
+        "code": "IDU as a condition-Panniculitis, unspecified",
         "display": "Panniculitis, unspecified"
       }, {
-        "code": "M86",
+        "code": "IDU as a condition-Osteomyelitis",
         "display": "Osteomyelitis"
       }, {
-        "code": "M89.9",
+        "code": "IDU as a condition-Disorder of bone, unspecified",
         "display": "Disorder of bone, unspecified"
       }, {
-        "code": "N10",
+        "code": "IDU as a condition-Acute tubulo-interstitial nephritis",
         "display": "Acute tubulo-interstitial nephritis"
       }, {
-        "code": "R65.1",
+        "code": "IDU as a condition-Systemic inflammatory response syndrome (SIRS) of non-infectious origin",
         "display": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin"
-      } ]
-    }, {
-      "system": "http://snomed.info/sct",
-      "concept": [ {
-        "code": "228388006",
+      }, {
+        "code": "IDU as a condition-IV - Intravenous drug user",
         "display": "IV - Intravenous drug user"
       }, {
-        "code": "389299009",
+        "code": "IDU as a condition-Intravenous drug user (finding)",
         "display": "Intravenous drug user (finding)"
       }, {
-        "code": "390034003",
-        "display": "Intravenous drug user (finding)"
-      }, {
-        "code": "10327003",
+        "code": "IDU as a condition-Cocaine-induced mood disorder (disorder)",
         "display": "Cocaine-induced mood disorder (disorder)"
       }, {
-        "code": "10755161000119100",
+        "code": "IDU as a condition-Drug dependence in childbirth (disorder)",
         "display": "Drug dependence in childbirth (disorder)"
       }, {
-        "code": "1081000119105",
+        "code": "IDU as a condition-Opioid dependence, on agonist therapy (disorder)",
         "display": "Opioid dependence, on agonist therapy (disorder)"
       }, {
-        "code": "110281001",
+        "code": "IDU as a condition-Chronic drug abuse (disorder)",
         "display": "Chronic drug abuse (disorder)"
       }, {
-        "code": "11061003",
+        "code": "IDU as a condition-Psychoactive substance use disorder (disorder)",
         "display": "Psychoactive substance use disorder (disorder)"
       }, {
-        "code": "111479008",
+        "code": "IDU as a condition-Organic mental disorder (disorder)",
         "display": "Organic mental disorder (disorder)"
       }, {
-        "code": "125851000119106",
+        "code": "IDU as a condition-Continuous sedative abuse (disorder)",
         "display": "Continuous sedative abuse (disorder)"
       }, {
-        "code": "1383008",
+        "code": "IDU as a condition-Hallucinogen mood disorder (disorder)",
         "display": "Hallucinogen mood disorder (disorder)"
       }, {
-        "code": "145101000119102",
+        "code": "IDU as a condition-Intravenous cocaine abuse (disorder)",
         "display": "Intravenous cocaine abuse (disorder)"
       }, {
-        "code": "145841000119107",
+        "code": "IDU as a condition-Episodic phencyclidine abuse (disorder)",
         "display": "Episodic phencyclidine abuse (disorder)"
       }, {
-        "code": "1461000119109",
+        "code": "IDU as a condition-Drug dependence in remission (disorder)",
         "display": "Drug dependence in remission (disorder)"
       }, {
-        "code": "1471000119103",
+        "code": "IDU as a condition-Drug abuse in remission (disorder)",
         "display": "Drug abuse in remission (disorder)"
       }, {
-        "code": "14784000",
+        "code": "IDU as a condition-Opioid-induced organic mental disorder (disorder)",
         "display": "Opioid-induced organic mental disorder (disorder)"
       }, {
-        "code": "15277004",
+        "code": "IDU as a condition-Hallucinogen-induced anxiety disorder (disorder)",
         "display": "Hallucinogen-induced anxiety disorder (disorder)"
       }, {
-        "code": "153491000119103",
+        "code": "IDU as a condition-Drug dependence, continuous (disorder)",
         "display": "Drug dependence, continuous (disorder)"
       }, {
-        "code": "153501000119105",
+        "code": "IDU as a condition-Drug dependence, episodic (disorder)",
         "display": "Drug dependence, episodic (disorder)"
       }, {
-        "code": "16076691000119100",
+        "code": "IDU as a condition-Episodic polysubstance dependence (disorder)",
         "display": "Episodic polysubstance dependence (disorder)"
       }, {
-        "code": "171047005",
+        "code": "IDU as a condition-Drugs of addiction education (procedure)",
         "display": "Drugs of addiction education (procedure)"
       }, {
-        "code": "191483003",
+        "code": "IDU as a condition-Drug-induced psychosis (disorder)",
         "display": "Drug-induced psychosis (disorder)"
       }, {
-        "code": "191484009",
+        "code": "IDU as a condition-Drug-induced paranoia or hallucinatory states (disorder)",
         "display": "Drug-induced paranoia or hallucinatory states (disorder)"
       }, {
-        "code": "191485005",
+        "code": "IDU as a condition-Drug-induced paranoid state (disorder)",
         "display": "Drug-induced paranoid state (disorder)"
       }, {
-        "code": "191486006",
+        "code": "IDU as a condition-Drug-induced hallucinosis (disorder)",
         "display": "Drug-induced hallucinosis (disorder)"
       }, {
-        "code": "191492000",
+        "code": "IDU as a condition-Drug-induced delirium (disorder)",
         "display": "Drug-induced delirium (disorder)"
       }, {
-        "code": "191493005",
+        "code": "IDU as a condition-Drug-induced dementia (disorder)",
         "display": "Drug-induced dementia (disorder)"
       }, {
-        "code": "191494004",
+        "code": "IDU as a condition-Drug-induced amnestic syndrome (disorder)",
         "display": "Drug-induced amnestic syndrome (disorder)"
       }, {
-        "code": "191495003",
+        "code": "IDU as a condition-Drug-induced depressive state (disorder)",
         "display": "Drug-induced depressive state (disorder)"
       }, {
-        "code": "191496002",
+        "code": "IDU as a condition-Drug-induced personality disorder (disorder)",
         "display": "Drug-induced personality disorder (disorder)"
       }, {
-        "code": "191805002",
+        "code": "IDU as a condition-Episodic acute alcoholic intoxication in alcoholism (disorder)",
         "display": "Episodic acute alcoholic intoxication in alcoholism (disorder)"
       }, {
-        "code": "191812006",
+        "code": "IDU as a condition-Episodic chronic alcoholism (disorder)",
         "display": "Episodic chronic alcoholism (disorder)"
       }, {
-        "code": "191816009",
+        "code": "IDU as a condition-Drug dependence (disorder)",
         "display": "Drug dependence (disorder)"
       }, {
-        "code": "191819002",
+        "code": "IDU as a condition-Continuous opioid dependence (disorder)",
         "display": "Continuous opioid dependence (disorder)"
       }, {
-        "code": "191820008",
+        "code": "IDU as a condition-Episodic opioid dependence (disorder)",
         "display": "Episodic opioid dependence (disorder)"
       }, {
-        "code": "191821007",
+        "code": "IDU as a condition-Opioid dependence in remission (disorder)",
         "display": "Opioid dependence in remission (disorder)"
       }, {
-        "code": "191825003",
+        "code": "IDU as a condition-Hypnotic or anxiolytic dependence, continuous (disorder)",
         "display": "Hypnotic or anxiolytic dependence, continuous (disorder)"
       }, {
-        "code": "191826002",
+        "code": "IDU as a condition-Hypnotic or anxiolytic dependence, episodic (disorder)",
         "display": "Hypnotic or anxiolytic dependence, episodic (disorder)"
       }, {
-        "code": "191827006",
+        "code": "IDU as a condition-Hypnotic or anxiolytic dependence in remission (disorder)",
         "display": "Hypnotic or anxiolytic dependence in remission (disorder)"
       }, {
-        "code": "191831000",
+        "code": "IDU as a condition-Cocaine dependence, continuous (disorder)",
         "display": "Cocaine dependence, continuous (disorder)"
       }, {
-        "code": "191832007",
+        "code": "IDU as a condition-Cocaine dependence, episodic (disorder)",
         "display": "Cocaine dependence, episodic (disorder)"
       }, {
-        "code": "191833002",
+        "code": "IDU as a condition-Cocaine dependence in remission (disorder)",
         "display": "Cocaine dependence in remission (disorder)"
       }, {
-        "code": "191843004",
+        "code": "IDU as a condition-Amphetamine or psychostimulant dependence, continuous (disorder)",
         "display": "Amphetamine or psychostimulant dependence, continuous (disorder)"
       }, {
-        "code": "191844005",
+        "code": "IDU as a condition-Amphetamine or psychostimulant dependence, episodic (disorder)",
         "display": "Amphetamine or psychostimulant dependence, episodic (disorder)"
       }, {
-        "code": "191849000",
+        "code": "IDU as a condition-Hallucinogen dependence, continuous (disorder)",
         "display": "Hallucinogen dependence, continuous (disorder)"
       }, {
-        "code": "191850000",
+        "code": "IDU as a condition-Hallucinogen dependence, episodic (disorder)",
         "display": "Hallucinogen dependence, episodic (disorder)"
       }, {
-        "code": "191851001",
+        "code": "IDU as a condition-Hallucinogen dependence in remission (disorder)",
         "display": "Hallucinogen dependence in remission (disorder)"
       }, {
-        "code": "191865004",
+        "code": "IDU as a condition-Combined opioid with non-opioid drug dependence (disorder)",
         "display": "Combined opioid with non-opioid drug dependence (disorder)"
       }, {
-        "code": "191867007",
+        "code": "IDU as a condition-Combined opioid with non-opioid drug dependence, continuous (disorder)",
         "display": "Combined opioid with non-opioid drug dependence, continuous (disorder)"
       }, {
-        "code": "191868002",
+        "code": "IDU as a condition-Combined opioid with non-opioid drug dependence, episodic (disorder)",
         "display": "Combined opioid with non-opioid drug dependence, episodic (disorder)"
       }, {
-        "code": "191869005",
+        "code": "IDU as a condition-Combined opioid with non-opioid drug dependence in remission (disorder)",
         "display": "Combined opioid with non-opioid drug dependence in remission (disorder)"
       }, {
-        "code": "191871005",
+        "code": "IDU as a condition-Combined drug dependence, excluding opioids (disorder)",
         "display": "Combined drug dependence, excluding opioids (disorder)"
       }, {
-        "code": "191873008",
+        "code": "IDU as a condition-Combined drug dependence, excluding opioid, continuous (disorder)",
         "display": "Combined drug dependence, excluding opioid, continuous (disorder)"
       }, {
-        "code": "191874002",
+        "code": "IDU as a condition-Combined drug dependence, excluding opioid, episodic (disorder)",
         "display": "Combined drug dependence, excluding opioid, episodic (disorder)"
       }, {
-        "code": "191875001",
+        "code": "IDU as a condition-Combined drug dependence, excluding opioid, in remission (disorder)",
         "display": "Combined drug dependence, excluding opioid, in remission (disorder)"
       }, {
-        "code": "19445006",
+        "code": "IDU as a condition-Opioid-induced psychotic disorder with hallucinations (disorder)",
         "display": "Opioid-induced psychotic disorder with hallucinations (disorder)"
       }, {
-        "code": "199252002",
+        "code": "IDU as a condition-Drug dependence during pregnancy - baby delivered (disorder)",
         "display": "Drug dependence during pregnancy - baby delivered (disorder)"
       }, {
-        "code": "199253007",
+        "code": "IDU as a condition-Drug dependence in the puerperium - baby delivered (disorder)",
         "display": "Drug dependence in the puerperium - baby delivered (disorder)"
       }, {
-        "code": "199254001",
+        "code": "IDU as a condition-Drug dependence during pregnancy - baby not yet delivered (disorder)",
         "display": "Drug dependence during pregnancy - baby not yet delivered (disorder)"
       }, {
-        "code": "199255000",
+        "code": "IDU as a condition-Drug dependence in the puerperium - baby delivered during previous episode of care (disorder)",
         "display": "Drug dependence in the puerperium - baby delivered during previous episode of care (disorder)"
       }, {
-        "code": "20385005",
+        "code": "IDU as a condition-Opioid-induced psychotic disorder with delusions (disorder)",
         "display": "Opioid-induced psychotic disorder with delusions (disorder)"
       }, {
-        "code": "21647008",
+        "code": "IDU as a condition-Amphetamine dependence (disorder)",
         "display": "Amphetamine dependence (disorder)"
       }, {
-        "code": "230334008",
+        "code": "IDU as a condition-Drug-induced tic (disorder)",
         "display": "Drug-induced tic (disorder)"
       }, {
-        "code": "230443000",
+        "code": "IDU as a condition-Narcotic withdrawal epilepsy (disorder)",
         "display": "Narcotic withdrawal epilepsy (disorder)"
       }, {
-        "code": "231451006",
+        "code": "IDU as a condition-Drug-induced intensive care psychosis (disorder)",
         "display": "Drug-induced intensive care psychosis (disorder)"
       }, {
-        "code": "231461004",
+        "code": "IDU as a condition-Hypnotic or anxiolytic abuse (disorder)",
         "display": "Hypnotic or anxiolytic abuse (disorder)"
       }, {
-        "code": "231467000",
+        "code": "IDU as a condition-Absinthe addiction (disorder)",
         "display": "Absinthe addiction (disorder)"
       }, {
-        "code": "231468005",
+        "code": "IDU as a condition-Lysergic acid diethylamide dependence (disorder)",
         "display": "Lysergic acid diethylamide dependence (disorder)"
       }, {
-        "code": "231469002",
+        "code": "IDU as a condition-Mescaline dependence (disorder)",
         "display": "Mescaline dependence (disorder)"
       }, {
-        "code": "231470001",
+        "code": "IDU as a condition-Anxiolytic dependence (disorder)",
         "display": "Anxiolytic dependence (disorder)"
       }, {
-        "code": "231477003",
+        "code": "IDU as a condition-Heroin dependence (disorder)",
         "display": "Heroin dependence (disorder)"
       }, {
-        "code": "231478008",
+        "code": "IDU as a condition-Methadone dependence (disorder)",
         "display": "Methadone dependence (disorder)"
       }, {
-        "code": "231479000",
+        "code": "IDU as a condition-Morphine dependence (disorder)",
         "display": "Morphine dependence (disorder)"
       }, {
-        "code": "231480002",
+        "code": "IDU as a condition-Opium dependence (disorder)",
         "display": "Opium dependence (disorder)"
       }, {
-        "code": "231481003",
+        "code": "IDU as a condition-Controlled drug dependence (disorder)",
         "display": "Controlled drug dependence (disorder)"
       }, {
-        "code": "231482005",
+        "code": "IDU as a condition-Active drug dependence (disorder)",
         "display": "Active drug dependence (disorder)"
       }, {
-        "code": "237228001",
+        "code": "IDU as a condition-Pregnancy and drug dependence (disorder)",
         "display": "Pregnancy and drug dependence (disorder)"
       }, {
-        "code": "2403008",
+        "code": "IDU as a condition-Psychoactive substance dependence (disorder)",
         "display": "Psychoactive substance dependence (disorder)"
       }, {
-        "code": "25508008",
+        "code": "IDU as a condition-Pathological drug intoxication (disorder)",
         "display": "Pathological drug intoxication (disorder)"
       }, {
-        "code": "26416006",
+        "code": "IDU as a condition-Drug abuse (disorder)",
         "display": "Drug abuse (disorder)"
       }, {
-        "code": "267206008",
+        "code": "IDU as a condition-Drug dependence during pregnancy, childbirth and the puerperium (disorder)",
         "display": "Drug dependence during pregnancy, childbirth and the puerperium (disorder)"
       }, {
-        "code": "268640002",
+        "code": "IDU as a condition-Hypnotic or anxiolytic dependence (disorder)",
         "display": "Hypnotic or anxiolytic dependence (disorder)"
       }, {
-        "code": "27956007",
+        "code": "IDU as a condition-Cocaine intoxication (disorder)",
         "display": "Cocaine intoxication (disorder)"
       }, {
-        "code": "288851000119106",
+        "code": "IDU as a condition-Opioid-induced mood disorder due to opioid abuse (disorder)",
         "display": "Opioid-induced mood disorder due to opioid abuse (disorder)"
       }, {
-        "code": "288861000119108",
+        "code": "IDU as a condition-Opioid-induced mood disorder due to opioid dependence (disorder)",
         "display": "Opioid-induced mood disorder due to opioid dependence (disorder)"
       }, {
-        "code": "29733004",
+        "code": "IDU as a condition-Opioid-induced mood disorder (disorder)",
         "display": "Opioid-induced mood disorder (disorder)"
       }, {
-        "code": "30310000",
+        "code": "IDU as a condition-Nicotine-induced organic mental disorder (disorder)",
         "display": "Nicotine-induced organic mental disorder (disorder)"
       }, {
-        "code": "30491001",
+        "code": "IDU as a condition-Cocaine delusional disorder (disorder)",
         "display": "Cocaine delusional disorder (disorder)"
       }, {
-        "code": "313915006",
+        "code": "IDU as a condition-Hypnotic-induced organic mental disorder (disorder)",
         "display": "Hypnotic-induced organic mental disorder (disorder)"
       }, {
-        "code": "31956009",
+        "code": "IDU as a condition-Cocaine dependence (disorder)",
         "display": "Cocaine dependence (disorder)"
       }, {
-        "code": "32009006",
+        "code": "IDU as a condition-Hallucinogen hallucinosis (disorder)",
         "display": "Hallucinogen hallucinosis (disorder)"
       }, {
-        "code": "32358001",
+        "code": "IDU as a condition-Amphetamine delusional disorder (disorder)",
         "display": "Amphetamine delusional disorder (disorder)"
       }, {
-        "code": "33845003",
+        "code": "IDU as a condition-Idiosyncratic drug effect (disorder)",
         "display": "Idiosyncratic drug effect (disorder)"
       }, {
-        "code": "363101005",
+        "code": "IDU as a condition-Drug withdrawal (disorder)",
         "display": "Drug withdrawal (disorder)"
       }, {
-        "code": "38247002",
+        "code": "IDU as a condition-Hallucinogen dependence (disorder)",
         "display": "Hallucinogen dependence (disorder)"
       }, {
-        "code": "40571009",
+        "code": "IDU as a condition-Hallucinogen intoxication delirium (disorder)",
         "display": "Hallucinogen intoxication delirium (disorder)"
       }, {
-        "code": "416714005",
+        "code": "IDU as a condition-Episodic flashbacks (disorder)",
         "display": "Episodic flashbacks (disorder)"
       }, {
-        "code": "417360004",
+        "code": "IDU as a condition-Duplicative flashbacks (disorder)",
         "display": "Duplicative flashbacks (disorder)"
       }, {
-        "code": "425533007",
+        "code": "IDU as a condition-Episodic drug abuse (disorder)",
         "display": "Episodic drug abuse (disorder)"
       }, {
-        "code": "425885002",
+        "code": "IDU as a condition-Continuous phencyclidine abuse (disorder)",
         "display": "Continuous phencyclidine abuse (disorder)"
       }, {
-        "code": "426001001",
+        "code": "IDU as a condition-Fentanyl dependence (disorder)",
         "display": "Fentanyl dependence (disorder)"
       }, {
-        "code": "426590003",
+        "code": "IDU as a condition-Drug abuse, continuous (disorder)",
         "display": "Drug abuse, continuous (disorder)"
       }, {
-        "code": "426873000",
+        "code": "IDU as a condition-Methamphetamine dependence (disorder)",
         "display": "Methamphetamine dependence (disorder)"
       }, {
-        "code": "427205009",
+        "code": "IDU as a condition-Amphetamine abuse, continuous (disorder)",
         "display": "Amphetamine abuse, continuous (disorder)"
       }, {
-        "code": "427229002",
+        "code": "IDU as a condition-Episodic inhalant abuse (disorder)",
         "display": "Episodic inhalant abuse (disorder)"
       }, {
-        "code": "427975003",
+        "code": "IDU as a condition-Drug-induced delusional disorder (disorder)",
         "display": "Drug-induced delusional disorder (disorder)"
       }, {
-        "code": "428561000124100",
+        "code": "IDU as a condition-Maternal substance abuse (situation)",
         "display": "Maternal substance abuse (situation)"
       }, {
-        "code": "429001000124103",
+        "code": "IDU as a condition-Catha edulis abuse (disorder)",
         "display": "Catha edulis abuse (disorder)"
       }, {
-        "code": "429299000",
+        "code": "IDU as a condition-Combined drug dependence, continuous (disorder)",
         "display": "Combined drug dependence, continuous (disorder)"
       }, {
-        "code": "429672007",
+        "code": "IDU as a condition-Drug-induced mood disorder (disorder)",
         "display": "Drug-induced mood disorder (disorder)"
       }, {
-        "code": "429692000",
+        "code": "IDU as a condition-Amphetamine abuse, episodic (disorder)",
         "display": "Amphetamine abuse, episodic (disorder)"
       }, {
-        "code": "441681009",
+        "code": "IDU as a condition-Dependence on unknown drug (disorder)",
         "display": "Dependence on unknown drug (disorder)"
       }, {
-        "code": "445273005",
+        "code": "IDU as a condition-Polysubstance abuse (disorder)",
         "display": "Polysubstance abuse (disorder)"
       }, {
-        "code": "46975003",
+        "code": "IDU as a condition-Cocaine-induced organic mental disorder (disorder)",
         "display": "Cocaine-induced organic mental disorder (disorder)"
       }, {
-        "code": "50320000",
+        "code": "IDU as a condition-Hallucinogen intoxication (disorder)",
         "display": "Hallucinogen intoxication (disorder)"
       }, {
-        "code": "50933003",
+        "code": "IDU as a condition-Hallucinogen delusional disorder (disorder)",
         "display": "Hallucinogen delusional disorder (disorder)"
       }, {
-        "code": "51339003",
+        "code": "IDU as a condition-Polysubstance dependence (disorder)",
         "display": "Polysubstance dependence (disorder)"
       }, {
-        "code": "51493001",
+        "code": "IDU as a condition-Cocaine-induced anxiety disorder (disorder)",
         "display": "Cocaine-induced anxiety disorder (disorder)"
       }, {
-        "code": "52866005",
+        "code": "IDU as a condition-Opioid intoxication delirium (disorder)",
         "display": "Opioid intoxication delirium (disorder)"
       }, {
-        "code": "53050002",
+        "code": "IDU as a condition-Hallucinogen-induced organic mental disorder (disorder)",
         "display": "Hallucinogen-induced organic mental disorder (disorder)"
       }, {
-        "code": "5602001",
+        "code": "IDU as a condition-Opioid abuse (disorder)",
         "display": "Opioid abuse (disorder)"
       }, {
-        "code": "6348008",
+        "code": "IDU as a condition-Cocaine-induced psychotic disorder with hallucinations (disorder)",
         "display": "Cocaine-induced psychotic disorder with hallucinations (disorder)"
       }, {
-        "code": "6525002",
+        "code": "IDU as a condition-Dependent drug abuse (disorder)",
         "display": "Dependent drug abuse (disorder)"
       }, {
-        "code": "66214007",
+        "code": "IDU as a condition-Substance abuse (disorder)",
         "display": "Substance abuse (disorder)"
       }, {
-        "code": "699449003",
+        "code": "IDU as a condition-Methamphetamine abuse (disorder)",
         "display": "Methamphetamine abuse (disorder)"
       }, {
-        "code": "70328006",
+        "code": "IDU as a condition-Cocaine delirium (disorder)",
         "display": "Cocaine delirium (disorder)"
       }, {
-        "code": "71328000",
+        "code": "IDU as a condition-Opioid-induced sexual dysfunction (disorder)",
         "display": "Opioid-induced sexual dysfunction (disorder)"
       }, {
-        "code": "713775002",
+        "code": "IDU as a condition-Novel psychoactive substance misuse (disorder)",
         "display": "Novel psychoactive substance misuse (disorder)"
       }, {
-        "code": "724653003",
+        "code": "IDU as a condition-Opioid dependence with current use (disorder)",
         "display": "Opioid dependence with current use (disorder)"
       }, {
-        "code": "724656006",
+        "code": "IDU as a condition-Hypnotic dependence (disorder)",
         "display": "Hypnotic dependence (disorder)"
       }, {
-        "code": "724658007",
+        "code": "IDU as a condition-Hypnotic dependence with current use (disorder)",
         "display": "Hypnotic dependence with current use (disorder)"
       }, {
-        "code": "724660009",
+        "code": "IDU as a condition-Hypnotic withdrawal (disorder)",
         "display": "Hypnotic withdrawal (disorder)"
       }, {
-        "code": "724663006",
+        "code": "IDU as a condition-Hypnotic withdrawal without complication (disorder)",
         "display": "Hypnotic withdrawal without complication (disorder)"
       }, {
-        "code": "724688003",
+        "code": "IDU as a condition-Cocaine dependence with current use (disorder)",
         "display": "Cocaine dependence with current use (disorder)"
       }, {
-        "code": "724694006",
+        "code": "IDU as a condition-Harmful pattern of use of caffeine (disorder)",
         "display": "Harmful pattern of use of caffeine (disorder)"
       }, {
-        "code": "724695007",
+        "code": "IDU as a condition-Hallucinogen dependence with current use (disorder)",
         "display": "Hallucinogen dependence with current use (disorder)"
       }, {
-        "code": "724697004",
+        "code": "IDU as a condition-Harmful pattern of use of nicotine (disorder)",
         "display": "Harmful pattern of use of nicotine (disorder)"
       }, {
-        "code": "724704009",
+        "code": "IDU as a condition-Methylenedioxymethamphetamine dependence with current use (disorder)",
         "display": "Methylenedioxymethamphetamine dependence with current use (disorder)"
       }, {
-        "code": "724712001",
+        "code": "IDU as a condition-Harmful use of dissociative drug (disorder)",
         "display": "Harmful use of dissociative drug (disorder)"
       }, {
-        "code": "724713006",
+        "code": "IDU as a condition-Harmful use of ketamine (disorder)",
         "display": "Harmful use of ketamine (disorder)"
       }, {
-        "code": "724724008",
+        "code": "IDU as a condition-Psychoactive substance dependence with current use (disorder)",
         "display": "Psychoactive substance dependence with current use (disorder)"
       }, {
-        "code": "724725009",
+        "code": "IDU as a condition-Psychoactive substance withdrawal without complication (disorder)",
         "display": "Psychoactive substance withdrawal without complication (disorder)"
       }, {
-        "code": "74851005",
+        "code": "IDU as a condition-Hallucinogen abuse (disorder)",
         "display": "Hallucinogen abuse (disorder)"
       }, {
-        "code": "75544000",
+        "code": "IDU as a condition-Opioid dependence (disorder)",
         "display": "Opioid dependence (disorder)"
       }, {
-        "code": "78267003",
+        "code": "IDU as a condition-Cocaine abuse (disorder)",
         "display": "Cocaine abuse (disorder)"
       }, {
-        "code": "78358001",
+        "code": "IDU as a condition-Amphetamine withdrawal (disorder)",
         "display": "Amphetamine withdrawal (disorder)"
       }, {
-        "code": "80868005",
+        "code": "IDU as a condition-Cocaine withdrawal (disorder)",
         "display": "Cocaine withdrawal (disorder)"
       }, {
-        "code": "84758004",
+        "code": "IDU as a condition-Amphetamine abuse (disorder)",
         "display": "Amphetamine abuse (disorder)"
       }, {
-        "code": "87132004",
+        "code": "IDU as a condition-Opioid withdrawal (disorder)",
         "display": "Opioid withdrawal (disorder)"
       }, {
-        "code": "8837000",
+        "code": "IDU as a condition-Amphetamine delirium (disorder)",
         "display": "Amphetamine delirium (disorder)"
       }, {
-        "code": "90755006",
+        "code": "IDU as a condition-Nicotine withdrawal (disorder)",
         "display": "Nicotine withdrawal (disorder)"
       }, {
-        "code": "91388009",
+        "code": "IDU as a condition-Psychoactive substance abuse (disorder)",
         "display": "Psychoactive substance abuse (disorder)"
       }, {
-        "code": "95918004",
+        "code": "IDU as a condition-Therapeutic drug dependence (disorder)",
         "display": "Therapeutic drug dependence (disorder)"
       }, {
-        "code": "9769006",
+        "code": "IDU as a condition-Drug habituation (disorder)",
         "display": "Drug habituation (disorder)"
       } ]
     } ]

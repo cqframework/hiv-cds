@@ -10,699 +10,699 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://hl7.org/fhir/sid/icd-10",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "F11.10",
+        "code": "Injection Drug Use-Opioid abuse, uncomplicated",
         "display": "Opioid abuse, uncomplicated"
       }, {
-        "code": "F11.11",
+        "code": "Injection Drug Use-Opioid abuse, in remission",
         "display": "Opioid abuse, in remission"
       }, {
-        "code": "F11.120",
+        "code": "Injection Drug Use-Opioid abuse with intoxication, uncomplicated",
         "display": "Opioid abuse with intoxication, uncomplicated"
       }, {
-        "code": "F11.121",
+        "code": "Injection Drug Use-Opioid abuse with intoxication delirium",
         "display": "Opioid abuse with intoxication delirium"
       }, {
-        "code": "F11.122",
+        "code": "Injection Drug Use-Opioid abuse with intoxication with perceptual disturbance",
         "display": "Opioid abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "F11.129",
+        "code": "Injection Drug Use-Opioid abuse with intoxication, unspecified",
         "display": "Opioid abuse with intoxication, unspecified"
       }, {
-        "code": "F11.14",
+        "code": "Injection Drug Use-Opioid abuse with opioid-induced mood disorder",
         "display": "Opioid abuse with opioid-induced mood disorder"
       }, {
-        "code": "F11.150",
+        "code": "Injection Drug Use-Opioid abuse with opioid-induced psychotic disorder with delusions",
         "display": "Opioid abuse with opioid-induced psychotic disorder with delusions"
       }, {
-        "code": "F11.151",
+        "code": "Injection Drug Use-Opioid abuse with opioid-induced psychotic disorder with hallucinations",
         "display": "Opioid abuse with opioid-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F11.159",
+        "code": "Injection Drug Use-Opioid abuse with opioid-induced psychotic disorder, unspecified",
         "display": "Opioid abuse with opioid-induced psychotic disorder, unspecified"
       }, {
-        "code": "F11.181",
+        "code": "Injection Drug Use-Opioid abuse with opioid-induced sexual dysfunction",
         "display": "Opioid abuse with opioid-induced sexual dysfunction"
       }, {
-        "code": "F11.182",
+        "code": "Injection Drug Use-Opioid abuse with opioid-induced sleep disorder",
         "display": "Opioid abuse with opioid-induced sleep disorder"
       }, {
-        "code": "F11.188",
+        "code": "Injection Drug Use-Opioid abuse with other opioid-induced disorder",
         "display": "Opioid abuse with other opioid-induced disorder"
       }, {
-        "code": "F11.19",
+        "code": "Injection Drug Use-Opioid abuse with unspecified opioid-induced disorder",
         "display": "Opioid abuse with unspecified opioid-induced disorder"
       }, {
-        "code": "F11.20",
+        "code": "Injection Drug Use-Opioid dependence, uncomplicated",
         "display": "Opioid dependence, uncomplicated"
       }, {
-        "code": "F11.21",
+        "code": "Injection Drug Use-Opioid dependence, in remission",
         "display": "Opioid dependence, in remission"
       }, {
-        "code": "F11.220",
+        "code": "Injection Drug Use-Opioid dependence with intoxication, uncomplicated",
         "display": "Opioid dependence with intoxication, uncomplicated"
       }, {
-        "code": "F11.221",
+        "code": "Injection Drug Use-Opioid dependence with intoxication delirium",
         "display": "Opioid dependence with intoxication delirium"
       }, {
-        "code": "F11.222",
+        "code": "Injection Drug Use-Opioid dependence with intoxication with perceptual disturbance",
         "display": "Opioid dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "F11.229",
+        "code": "Injection Drug Use-Opioid dependence with intoxication, unspecified",
         "display": "Opioid dependence with intoxication, unspecified"
       }, {
-        "code": "F11.23",
+        "code": "Injection Drug Use-Opioid dependence with withdrawal",
         "display": "Opioid dependence with withdrawal"
       }, {
-        "code": "F11.24",
+        "code": "Injection Drug Use-Opioid dependence with opioid-induced mood disorder",
         "display": "Opioid dependence with opioid-induced mood disorder"
       }, {
-        "code": "F11.250",
+        "code": "Injection Drug Use-Opioid dependence with opioid-induced psychotic disorder with delusions",
         "display": "Opioid dependence with opioid-induced psychotic disorder with delusions"
       }, {
-        "code": "F11.251",
+        "code": "Injection Drug Use-Opioid dependence with opioid-induced psychotic disorder with hallucinations",
         "display": "Opioid dependence with opioid-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F11.259",
+        "code": "Injection Drug Use-Opioid dependence with opioid-induced psychotic disorder, unspecified",
         "display": "Opioid dependence with opioid-induced psychotic disorder, unspecified"
       }, {
-        "code": "F11.281",
+        "code": "Injection Drug Use-Opioid dependence with opioid-induced sexual dysfunction",
         "display": "Opioid dependence with opioid-induced sexual dysfunction"
       }, {
-        "code": "F11.282",
+        "code": "Injection Drug Use-Opioid dependence with opioid-induced sleep disorder",
         "display": "Opioid dependence with opioid-induced sleep disorder"
       }, {
-        "code": "F11.288",
+        "code": "Injection Drug Use-Opioid dependence with other opioid-induced disorder",
         "display": "Opioid dependence with other opioid-induced disorder"
       }, {
-        "code": "F11.29",
+        "code": "Injection Drug Use-Opioid dependence with unspecified opioid-induced disorder",
         "display": "Opioid dependence with unspecified opioid-induced disorder"
       }, {
-        "code": "F11.90",
+        "code": "Injection Drug Use-Opioid use, unspecified, uncomplicated",
         "display": "Opioid use, unspecified, uncomplicated"
       }, {
-        "code": "F11.920",
+        "code": "Injection Drug Use-Opioid use, unspecified with intoxication, uncomplicated",
         "display": "Opioid use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "F11.921",
+        "code": "Injection Drug Use-Opioid use, unspecified with intoxication delirium",
         "display": "Opioid use, unspecified with intoxication delirium"
       }, {
-        "code": "F11.922",
+        "code": "Injection Drug Use-Opioid use, unspecified with intoxication with perceptual disturbance",
         "display": "Opioid use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "F11.929",
+        "code": "Injection Drug Use-Opioid use, unspecified with intoxication, unspecified",
         "display": "Opioid use, unspecified with intoxication, unspecified"
       }, {
-        "code": "F11.93",
+        "code": "Injection Drug Use-Opioid use, unspecified with withdrawal",
         "display": "Opioid use, unspecified with withdrawal"
       }, {
-        "code": "F11.94",
+        "code": "Injection Drug Use-Opioid use, unspecified with opioid-induced mood disorder",
         "display": "Opioid use, unspecified with opioid-induced mood disorder"
       }, {
-        "code": "F11.950",
+        "code": "Injection Drug Use-Opioid use, unspecified with opioid-induced psychotic disorder with delusions",
         "display": "Opioid use, unspecified with opioid-induced psychotic disorder with delusions"
       }, {
-        "code": "F11.951",
+        "code": "Injection Drug Use-Opioid use, unspecified with opioid-induced psychotic disorder with hallucinations",
         "display": "Opioid use, unspecified with opioid-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F11.959",
+        "code": "Injection Drug Use-Opioid use, unspecified with opioid-induced psychotic disorder, unspecified",
         "display": "Opioid use, unspecified with opioid-induced psychotic disorder, unspecified"
       }, {
-        "code": "F11.981",
+        "code": "Injection Drug Use-Opioid use, unspecified with opioid-induced sexual dysfunction",
         "display": "Opioid use, unspecified with opioid-induced sexual dysfunction"
       }, {
-        "code": "F11.982",
+        "code": "Injection Drug Use-Opioid use, unspecified with opioid-induced sleep disorder",
         "display": "Opioid use, unspecified with opioid-induced sleep disorder"
       }, {
-        "code": "F11.988",
+        "code": "Injection Drug Use-Opioid use, unspecified with other opioid-induced disorder",
         "display": "Opioid use, unspecified with other opioid-induced disorder"
       }, {
-        "code": "F11.99",
+        "code": "Injection Drug Use-Opioid use, unspecified with unspecified opioid-induced disorder",
         "display": "Opioid use, unspecified with unspecified opioid-induced disorder"
       }, {
-        "code": "F14.10",
+        "code": "Injection Drug Use-Cocaine abuse, uncomplicated",
         "display": "Cocaine abuse, uncomplicated"
       }, {
-        "code": "F14.11",
+        "code": "Injection Drug Use-Cocaine abuse, in remission",
         "display": "Cocaine abuse, in remission"
       }, {
-        "code": "F14.120",
+        "code": "Injection Drug Use-Cocaine abuse with intoxication, uncomplicated",
         "display": "Cocaine abuse with intoxication, uncomplicated"
       }, {
-        "code": "F14.121",
+        "code": "Injection Drug Use-Cocaine abuse with intoxication with delirium",
         "display": "Cocaine abuse with intoxication with delirium"
       }, {
-        "code": "F14.122",
+        "code": "Injection Drug Use-Cocaine abuse with intoxication with perceptual disturbance",
         "display": "Cocaine abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "F14.129",
+        "code": "Injection Drug Use-Cocaine abuse with intoxication, unspecified",
         "display": "Cocaine abuse with intoxication, unspecified"
       }, {
-        "code": "F14.14",
+        "code": "Injection Drug Use-Cocaine abuse with cocaine-induced mood disorder",
         "display": "Cocaine abuse with cocaine-induced mood disorder"
       }, {
-        "code": "F14.150",
+        "code": "Injection Drug Use-Cocaine abuse with cocaine-induced psychotic disorder with delusions",
         "display": "Cocaine abuse with cocaine-induced psychotic disorder with delusions"
       }, {
-        "code": "F14.151",
+        "code": "Injection Drug Use-Cocaine abuse with cocaine-induced psychotic disorder with hallucinations",
         "display": "Cocaine abuse with cocaine-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F14.159",
+        "code": "Injection Drug Use-Cocaine abuse with cocaine-induced psychotic disorder, unspecified",
         "display": "Cocaine abuse with cocaine-induced psychotic disorder, unspecified"
       }, {
-        "code": "F14.180",
+        "code": "Injection Drug Use-Cocaine abuse with cocaine-induced anxiety disorder",
         "display": "Cocaine abuse with cocaine-induced anxiety disorder"
       }, {
-        "code": "F14.181",
+        "code": "Injection Drug Use-Cocaine abuse with cocaine-induced sexual dysfunction",
         "display": "Cocaine abuse with cocaine-induced sexual dysfunction"
       }, {
-        "code": "F14.182",
+        "code": "Injection Drug Use-Cocaine abuse with cocaine-induced sleep disorder",
         "display": "Cocaine abuse with cocaine-induced sleep disorder"
       }, {
-        "code": "F14.188",
+        "code": "Injection Drug Use-Cocaine abuse with other cocaine-induced disorder",
         "display": "Cocaine abuse with other cocaine-induced disorder"
       }, {
-        "code": "F14.19",
+        "code": "Injection Drug Use-Cocaine abuse with unspecified cocaine-induced disorder",
         "display": "Cocaine abuse with unspecified cocaine-induced disorder"
       }, {
-        "code": "F14.20",
+        "code": "Injection Drug Use-Cocaine dependence, uncomplicated",
         "display": "Cocaine dependence, uncomplicated"
       }, {
-        "code": "F14.21",
+        "code": "Injection Drug Use-Cocaine dependence, in remission",
         "display": "Cocaine dependence, in remission"
       }, {
-        "code": "F14.220",
+        "code": "Injection Drug Use-Cocaine dependence with intoxication, uncomplicated",
         "display": "Cocaine dependence with intoxication, uncomplicated"
       }, {
-        "code": "F14.221",
+        "code": "Injection Drug Use-Cocaine dependence with intoxication delirium",
         "display": "Cocaine dependence with intoxication delirium"
       }, {
-        "code": "F14.222",
+        "code": "Injection Drug Use-Cocaine dependence with intoxication with perceptual disturbance",
         "display": "Cocaine dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "F14.229",
+        "code": "Injection Drug Use-Cocaine dependence with intoxication, unspecified",
         "display": "Cocaine dependence with intoxication, unspecified"
       }, {
-        "code": "F14.23",
+        "code": "Injection Drug Use-Cocaine dependence with withdrawal",
         "display": "Cocaine dependence with withdrawal"
       }, {
-        "code": "F14.24",
+        "code": "Injection Drug Use-Cocaine dependence with cocaine-induced mood disorder",
         "display": "Cocaine dependence with cocaine-induced mood disorder"
       }, {
-        "code": "F14.250",
+        "code": "Injection Drug Use-Cocaine dependence with cocaine-induced psychotic disorder with delusions",
         "display": "Cocaine dependence with cocaine-induced psychotic disorder with delusions"
       }, {
-        "code": "F14.251",
+        "code": "Injection Drug Use-Cocaine dependence with cocaine-induced psychotic disorder with hallucinations",
         "display": "Cocaine dependence with cocaine-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F14.259",
+        "code": "Injection Drug Use-Cocaine dependence with cocaine-induced psychotic disorder, unspecified",
         "display": "Cocaine dependence with cocaine-induced psychotic disorder, unspecified"
       }, {
-        "code": "F14.280",
+        "code": "Injection Drug Use-Cocaine dependence with cocaine-induced anxiety disorder",
         "display": "Cocaine dependence with cocaine-induced anxiety disorder"
       }, {
-        "code": "F14.281",
+        "code": "Injection Drug Use-Cocaine dependence with cocaine-induced sexual dysfunction",
         "display": "Cocaine dependence with cocaine-induced sexual dysfunction"
       }, {
-        "code": "F14.282",
+        "code": "Injection Drug Use-Cocaine dependence with cocaine-induced sleep disorder",
         "display": "Cocaine dependence with cocaine-induced sleep disorder"
       }, {
-        "code": "F14.288",
+        "code": "Injection Drug Use-Cocaine dependence with other cocaine-induced disorder",
         "display": "Cocaine dependence with other cocaine-induced disorder"
       }, {
-        "code": "F14.29",
+        "code": "Injection Drug Use-Cocaine dependence with unspecified cocaine-induced disorder",
         "display": "Cocaine dependence with unspecified cocaine-induced disorder"
       }, {
-        "code": "F14.90",
+        "code": "Injection Drug Use-Cocaine use, unspecified, uncomplicated",
         "display": "Cocaine use, unspecified, uncomplicated"
       }, {
-        "code": "F14.920",
+        "code": "Injection Drug Use-Cocaine use, unspecified with intoxication, uncomplicated",
         "display": "Cocaine use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "F14.921",
+        "code": "Injection Drug Use-Cocaine use, unspecified with intoxication delirium",
         "display": "Cocaine use, unspecified with intoxication delirium"
       }, {
-        "code": "F14.922",
+        "code": "Injection Drug Use-Cocaine use, unspecified with intoxication with perceptual disturbance",
         "display": "Cocaine use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "F14.929",
+        "code": "Injection Drug Use-Cocaine use, unspecified with intoxication, unspecified",
         "display": "Cocaine use, unspecified with intoxication, unspecified"
       }, {
-        "code": "F14.94",
+        "code": "Injection Drug Use-Cocaine use, unspecified with cocaine-induced mood disorder",
         "display": "Cocaine use, unspecified with cocaine-induced mood disorder"
       }, {
-        "code": "F14.950",
+        "code": "Injection Drug Use-Cocaine use, unspecified with cocaine-induced psychotic disorder with delusions",
         "display": "Cocaine use, unspecified with cocaine-induced psychotic disorder with delusions"
       }, {
-        "code": "F14.951",
+        "code": "Injection Drug Use-Cocaine use, unspecified with cocaine-induced psychotic disorder with hallucinations",
         "display": "Cocaine use, unspecified with cocaine-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F14.959",
+        "code": "Injection Drug Use-Cocaine use, unspecified with cocaine-induced psychotic disorder, unspecified",
         "display": "Cocaine use, unspecified with cocaine-induced psychotic disorder, unspecified"
       }, {
-        "code": "F14.980",
+        "code": "Injection Drug Use-Cocaine use, unspecified with cocaine-induced anxiety disorder",
         "display": "Cocaine use, unspecified with cocaine-induced anxiety disorder"
       }, {
-        "code": "F14.981",
+        "code": "Injection Drug Use-Cocaine use, unspecified with cocaine-induced sexual dysfunction",
         "display": "Cocaine use, unspecified with cocaine-induced sexual dysfunction"
       }, {
-        "code": "F14.982",
+        "code": "Injection Drug Use-Cocaine use, unspecified with cocaine-induced sleep disorder",
         "display": "Cocaine use, unspecified with cocaine-induced sleep disorder"
       }, {
-        "code": "F14.988",
+        "code": "Injection Drug Use-Cocaine use, unspecified with other cocaine-induced disorder",
         "display": "Cocaine use, unspecified with other cocaine-induced disorder"
       }, {
-        "code": "F14.99",
+        "code": "Injection Drug Use-Cocaine use, unspecified with unspecified cocaine-induced disorder",
         "display": "Cocaine use, unspecified with unspecified cocaine-induced disorder"
       }, {
-        "code": "F15.10",
+        "code": "Injection Drug Use-Other stimulant abuse, uncomplicated",
         "display": "Other stimulant abuse, uncomplicated"
       }, {
-        "code": "F15.11",
+        "code": "Injection Drug Use-Other stimulant abuse, in remission",
         "display": "Other stimulant abuse, in remission"
       }, {
-        "code": "F15.120",
+        "code": "Injection Drug Use-Other stimulant abuse with intoxication, uncomplicated",
         "display": "Other stimulant abuse with intoxication, uncomplicated"
       }, {
-        "code": "F15.121",
+        "code": "Injection Drug Use-Other stimulant abuse with intoxication delirium",
         "display": "Other stimulant abuse with intoxication delirium"
       }, {
-        "code": "F15.122",
+        "code": "Injection Drug Use-Other stimulant abuse with intoxication with perceptual disturbance",
         "display": "Other stimulant abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "F15.129",
+        "code": "Injection Drug Use-Other stimulant abuse with intoxication, unspecified",
         "display": "Other stimulant abuse with intoxication, unspecified"
       }, {
-        "code": "F15.14",
+        "code": "Injection Drug Use-Other stimulant abuse with stimulant-induced mood disorder",
         "display": "Other stimulant abuse with stimulant-induced mood disorder"
       }, {
-        "code": "F15.150",
+        "code": "Injection Drug Use-Other stimulant abuse with stimulant-induced psychotic disorder with delusions",
         "display": "Other stimulant abuse with stimulant-induced psychotic disorder with delusions"
       }, {
-        "code": "F15.151",
+        "code": "Injection Drug Use-Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations",
         "display": "Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F15.159",
+        "code": "Injection Drug Use-Other stimulant abuse with stimulant-induced psychotic disorder, unspecified",
         "display": "Other stimulant abuse with stimulant-induced psychotic disorder, unspecified"
       }, {
-        "code": "F15.180",
+        "code": "Injection Drug Use-Other stimulant abuse with stimulant-induced anxiety disorder",
         "display": "Other stimulant abuse with stimulant-induced anxiety disorder"
       }, {
-        "code": "F15.181",
+        "code": "Injection Drug Use-Other stimulant abuse with stimulant-induced sexual dysfunction",
         "display": "Other stimulant abuse with stimulant-induced sexual dysfunction"
       }, {
-        "code": "F15.182",
+        "code": "Injection Drug Use-Other stimulant abuse with stimulant-induced sleep disorder",
         "display": "Other stimulant abuse with stimulant-induced sleep disorder"
       }, {
-        "code": "F15.188",
+        "code": "Injection Drug Use-Other stimulant abuse with other stimulant-induced disorder",
         "display": "Other stimulant abuse with other stimulant-induced disorder"
       }, {
-        "code": "F15.19",
+        "code": "Injection Drug Use-Other stimulant abuse with unspecified stimulant-induced disorder",
         "display": "Other stimulant abuse with unspecified stimulant-induced disorder"
       }, {
-        "code": "F15.20",
+        "code": "Injection Drug Use-Other stimulant dependence, uncomplicated",
         "display": "Other stimulant dependence, uncomplicated"
       }, {
-        "code": "F15.21",
+        "code": "Injection Drug Use-Other stimulant dependence, in remission",
         "display": "Other stimulant dependence, in remission"
       }, {
-        "code": "F15.220",
+        "code": "Injection Drug Use-Other stimulant dependence with intoxication, uncomplicated",
         "display": "Other stimulant dependence with intoxication, uncomplicated"
       }, {
-        "code": "F15.221",
+        "code": "Injection Drug Use-Other stimulant dependence with intoxication delirium",
         "display": "Other stimulant dependence with intoxication delirium"
       }, {
-        "code": "F15.222",
+        "code": "Injection Drug Use-Other stimulant dependence with intoxication with perceptual disturbance",
         "display": "Other stimulant dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "F15.229",
+        "code": "Injection Drug Use-Other stimulant dependence with intoxication, unspecified",
         "display": "Other stimulant dependence with intoxication, unspecified"
       }, {
-        "code": "F15.23",
+        "code": "Injection Drug Use-Other stimulant dependence with withdrawal",
         "display": "Other stimulant dependence with withdrawal"
       }, {
-        "code": "F15.24",
+        "code": "Injection Drug Use-Other stimulant dependence with stimulant-induced mood disorder",
         "display": "Other stimulant dependence with stimulant-induced mood disorder"
       }, {
-        "code": "F15.250",
+        "code": "Injection Drug Use-Other stimulant dependence with stimulant-induced psychotic disorder with delusions",
         "display": "Other stimulant dependence with stimulant-induced psychotic disorder with delusions"
       }, {
-        "code": "F15.251",
+        "code": "Injection Drug Use-Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations",
         "display": "Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F15.259",
+        "code": "Injection Drug Use-Other stimulant dependence with stimulant-induced psychotic disorder, unspecified",
         "display": "Other stimulant dependence with stimulant-induced psychotic disorder, unspecified"
       }, {
-        "code": "F15.280",
+        "code": "Injection Drug Use-Other stimulant dependence with stimulant-induced anxiety disorder",
         "display": "Other stimulant dependence with stimulant-induced anxiety disorder"
       }, {
-        "code": "F15.281",
+        "code": "Injection Drug Use-Other stimulant dependence with stimulant-induced sexual dysfunction",
         "display": "Other stimulant dependence with stimulant-induced sexual dysfunction"
       }, {
-        "code": "F15.282",
+        "code": "Injection Drug Use-Other stimulant dependence with stimulant-induced sleep disorder",
         "display": "Other stimulant dependence with stimulant-induced sleep disorder"
       }, {
-        "code": "F15.288",
+        "code": "Injection Drug Use-Other stimulant dependence with other stimulant-induced disorder",
         "display": "Other stimulant dependence with other stimulant-induced disorder"
       }, {
-        "code": "F15.29",
+        "code": "Injection Drug Use-Other stimulant dependence with unspecified stimulant-induced disorder",
         "display": "Other stimulant dependence with unspecified stimulant-induced disorder"
       }, {
-        "code": "F15.90",
+        "code": "Injection Drug Use-Other stimulant use, unspecified, uncomplicated",
         "display": "Other stimulant use, unspecified, uncomplicated"
       }, {
-        "code": "F15.920",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with intoxication, uncomplicated",
         "display": "Other stimulant use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "F15.921",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with intoxication delirium",
         "display": "Other stimulant use, unspecified with intoxication delirium"
       }, {
-        "code": "F15.922",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with intoxication with perceptual disturbance",
         "display": "Other stimulant use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "F15.929",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with intoxication, unspecified",
         "display": "Other stimulant use, unspecified with intoxication, unspecified"
       }, {
-        "code": "F15.93",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with withdrawal",
         "display": "Other stimulant use, unspecified with withdrawal"
       }, {
-        "code": "F15.94",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with stimulant-induced mood disorder",
         "display": "Other stimulant use, unspecified with stimulant-induced mood disorder"
       }, {
-        "code": "F15.950",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with stimulant-induced psychotic disorder with delusions",
         "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder with delusions"
       }, {
-        "code": "F15.951",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with stimulant-induced psychotic disorder with hallucinations",
         "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F15.959",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with stimulant-induced psychotic disorder, unspecified",
         "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder, unspecified"
       }, {
-        "code": "F15.980",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with stimulant-induced anxiety disorder",
         "display": "Other stimulant use, unspecified with stimulant-induced anxiety disorder"
       }, {
-        "code": "F15.981",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with stimulant-induced sexual dysfunction",
         "display": "Other stimulant use, unspecified with stimulant-induced sexual dysfunction"
       }, {
-        "code": "F15.982",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with stimulant-induced sleep disorder",
         "display": "Other stimulant use, unspecified with stimulant-induced sleep disorder"
       }, {
-        "code": "F15.988",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with other stimulant-induced disorder",
         "display": "Other stimulant use, unspecified with other stimulant-induced disorder"
       }, {
-        "code": "F15.99",
+        "code": "Injection Drug Use-Other stimulant use, unspecified with unspecified stimulant-induced disorder",
         "display": "Other stimulant use, unspecified with unspecified stimulant-induced disorder"
       }, {
-        "code": "F16.10",
+        "code": "Injection Drug Use-Hallucinogen abuse, uncomplicated",
         "display": "Hallucinogen abuse, uncomplicated"
       }, {
-        "code": "F16.11",
+        "code": "Injection Drug Use-Hallucinogen abuse, in remission",
         "display": "Hallucinogen abuse, in remission"
       }, {
-        "code": "F16.120",
+        "code": "Injection Drug Use-Hallucinogen abuse with intoxication, uncomplicated",
         "display": "Hallucinogen abuse with intoxication, uncomplicated"
       }, {
-        "code": "F16.121",
+        "code": "Injection Drug Use-Hallucinogen abuse with intoxication with delirium",
         "display": "Hallucinogen abuse with intoxication with delirium"
       }, {
-        "code": "F16.122",
+        "code": "Injection Drug Use-Hallucinogen abuse with intoxication with perceptual disturbance",
         "display": "Hallucinogen abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "F16.129",
+        "code": "Injection Drug Use-Hallucinogen abuse with intoxication, unspecified",
         "display": "Hallucinogen abuse with intoxication, unspecified"
       }, {
-        "code": "F16.14",
+        "code": "Injection Drug Use-Hallucinogen abuse with hallucinogen-induced mood disorder",
         "display": "Hallucinogen abuse with hallucinogen-induced mood disorder"
       }, {
-        "code": "F16.150",
+        "code": "Injection Drug Use-Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions",
         "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions"
       }, {
-        "code": "F16.151",
+        "code": "Injection Drug Use-Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations",
         "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F16.159",
+        "code": "Injection Drug Use-Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified",
         "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified"
       }, {
-        "code": "F16.180",
+        "code": "Injection Drug Use-Hallucinogen abuse with hallucinogen-induced anxiety disorder",
         "display": "Hallucinogen abuse with hallucinogen-induced anxiety disorder"
       }, {
-        "code": "F16.183",
+        "code": "Injection Drug Use-Hallucinogen abuse with hallucinogen persisting perception disorder (flashbacks)",
         "display": "Hallucinogen abuse with hallucinogen persisting perception disorder (flashbacks)"
       }, {
-        "code": "F16.188",
+        "code": "Injection Drug Use-Hallucinogen abuse with other hallucinogen-induced disorder",
         "display": "Hallucinogen abuse with other hallucinogen-induced disorder"
       }, {
-        "code": "F16.19",
+        "code": "Injection Drug Use-Hallucinogen abuse with unspecified hallucinogen-induced disorder",
         "display": "Hallucinogen abuse with unspecified hallucinogen-induced disorder"
       }, {
-        "code": "F16.20",
+        "code": "Injection Drug Use-Hallucinogen dependence, uncomplicated",
         "display": "Hallucinogen dependence, uncomplicated"
       }, {
-        "code": "F16.21",
+        "code": "Injection Drug Use-Hallucinogen dependence, in remission",
         "display": "Hallucinogen dependence, in remission"
       }, {
-        "code": "F16.220",
+        "code": "Injection Drug Use-Hallucinogen dependence with intoxication, uncomplicated",
         "display": "Hallucinogen dependence with intoxication, uncomplicated"
       }, {
-        "code": "F16.221",
+        "code": "Injection Drug Use-Hallucinogen dependence with intoxication with delirium",
         "display": "Hallucinogen dependence with intoxication with delirium"
       }, {
-        "code": "F16.229",
+        "code": "Injection Drug Use-Hallucinogen dependence with intoxication, unspecified",
         "display": "Hallucinogen dependence with intoxication, unspecified"
       }, {
-        "code": "F16.24",
+        "code": "Injection Drug Use-Hallucinogen dependence with hallucinogen-induced mood disorder",
         "display": "Hallucinogen dependence with hallucinogen-induced mood disorder"
       }, {
-        "code": "F16.250",
+        "code": "Injection Drug Use-Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions",
         "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions"
       }, {
-        "code": "F16.251",
+        "code": "Injection Drug Use-Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations",
         "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F16.259",
+        "code": "Injection Drug Use-Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified",
         "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified"
       }, {
-        "code": "F16.280",
+        "code": "Injection Drug Use-Hallucinogen dependence with hallucinogen-induced anxiety disorder",
         "display": "Hallucinogen dependence with hallucinogen-induced anxiety disorder"
       }, {
-        "code": "F16.283",
+        "code": "Injection Drug Use-Hallucinogen dependence with hallucinogen persisting perception disorder (flashbacks)",
         "display": "Hallucinogen dependence with hallucinogen persisting perception disorder (flashbacks)"
       }, {
-        "code": "F16.288",
+        "code": "Injection Drug Use-Hallucinogen dependence with other hallucinogen-induced disorder",
         "display": "Hallucinogen dependence with other hallucinogen-induced disorder"
       }, {
-        "code": "F16.29",
+        "code": "Injection Drug Use-Hallucinogen dependence with unspecified hallucinogen-induced disorder",
         "display": "Hallucinogen dependence with unspecified hallucinogen-induced disorder"
       }, {
-        "code": "F16.90",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified, uncomplicated",
         "display": "Hallucinogen use, unspecified, uncomplicated"
       }, {
-        "code": "F16.920",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with intoxication, uncomplicated",
         "display": "Hallucinogen use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "F16.921",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with intoxication with delirium",
         "display": "Hallucinogen use, unspecified with intoxication with delirium"
       }, {
-        "code": "F16.929",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with intoxication, unspecified",
         "display": "Hallucinogen use, unspecified with intoxication, unspecified"
       }, {
-        "code": "F16.94",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with hallucinogen-induced mood disorder",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced mood disorder"
       }, {
-        "code": "F16.950",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with delusions",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with delusions"
       }, {
-        "code": "F16.951",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with hallucinations",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F16.959",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder, unspecified",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder, unspecified"
       }, {
-        "code": "F16.980",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with hallucinogen-induced anxiety disorder",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced anxiety disorder"
       }, {
-        "code": "F16.983",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with hallucinogen persisting perception disorder (flashbacks)",
         "display": "Hallucinogen use, unspecified with hallucinogen persisting perception disorder (flashbacks)"
       }, {
-        "code": "F16.988",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with other hallucinogen-induced disorder",
         "display": "Hallucinogen use, unspecified with other hallucinogen-induced disorder"
       }, {
-        "code": "F16.99",
+        "code": "Injection Drug Use-Hallucinogen use, unspecified with unspecified hallucinogen-induced disorder",
         "display": "Hallucinogen use, unspecified with unspecified hallucinogen-induced disorder"
       }, {
-        "code": "F19.10",
+        "code": "Injection Drug Use-Other psychoactive substance abuse, uncomplicated",
         "display": "Other psychoactive substance abuse, uncomplicated"
       }, {
-        "code": "F19.11",
+        "code": "Injection Drug Use-Other psychoactive substance abuse, in remission",
         "display": "Other psychoactive substance abuse, in remission"
       }, {
-        "code": "F19.120",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with intoxication, uncomplicated",
         "display": "Other psychoactive substance abuse with intoxication, uncomplicated"
       }, {
-        "code": "F19.121",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with intoxication delirium",
         "display": "Other psychoactive substance abuse with intoxication delirium"
       }, {
-        "code": "F19.122",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with intoxication with perceptual disturbances",
         "display": "Other psychoactive substance abuse with intoxication with perceptual disturbances"
       }, {
-        "code": "F19.129",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with intoxication, unspecified",
         "display": "Other psychoactive substance abuse with intoxication, unspecified"
       }, {
-        "code": "F19.14",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced mood disorder",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced mood disorder"
       }, {
-        "code": "F19.150",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions"
       }, {
-        "code": "F19.151",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F19.159",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified"
       }, {
-        "code": "F19.16",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced persisting amnestic disorder",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced persisting amnestic disorder"
       }, {
-        "code": "F19.17",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced persisting dementia",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced persisting dementia"
       }, {
-        "code": "F19.180",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced anxiety disorder",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced anxiety disorder"
       }, {
-        "code": "F19.181",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced sexual dysfunction",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced sexual dysfunction"
       }, {
-        "code": "F19.182",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with psychoactive substance-induced sleep disorder",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced sleep disorder"
       }, {
-        "code": "F19.188",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with other psychoactive substance-induced disorder",
         "display": "Other psychoactive substance abuse with other psychoactive substance-induced disorder"
       }, {
-        "code": "F19.19",
+        "code": "Injection Drug Use-Other psychoactive substance abuse with unspecified psychoactive substance-induced disorder",
         "display": "Other psychoactive substance abuse with unspecified psychoactive substance-induced disorder"
       }, {
-        "code": "F19.20",
+        "code": "Injection Drug Use-Other psychoactive substance dependence, uncomplicated",
         "display": "Other psychoactive substance dependence, uncomplicated"
       }, {
-        "code": "F19.21",
+        "code": "Injection Drug Use-Other psychoactive substance dependence, in remission",
         "display": "Other psychoactive substance dependence, in remission"
       }, {
-        "code": "F19.220",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with intoxication, uncomplicated",
         "display": "Other psychoactive substance dependence with intoxication, uncomplicated"
       }, {
-        "code": "F19.221",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with intoxication delirium",
         "display": "Other psychoactive substance dependence with intoxication delirium"
       }, {
-        "code": "F19.222",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with intoxication with perceptual disturbance",
         "display": "Other psychoactive substance dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "F19.229",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with intoxication, unspecified",
         "display": "Other psychoactive substance dependence with intoxication, unspecified"
       }, {
-        "code": "F19.230",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with withdrawal, uncomplicated",
         "display": "Other psychoactive substance dependence with withdrawal, uncomplicated"
       }, {
-        "code": "F19.231",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with withdrawal delirium",
         "display": "Other psychoactive substance dependence with withdrawal delirium"
       }, {
-        "code": "F19.232",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with withdrawal with perceptual disturbance",
         "display": "Other psychoactive substance dependence with withdrawal with perceptual disturbance"
       }, {
-        "code": "F19.239",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with withdrawal, unspecified",
         "display": "Other psychoactive substance dependence with withdrawal, unspecified"
       }, {
-        "code": "F19.24",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced mood disorder",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced mood disorder"
       }, {
-        "code": "F19.250",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions"
       }, {
-        "code": "F19.251",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F19.259",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified"
       }, {
-        "code": "F19.26",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced persisting amnestic disorder",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced persisting amnestic disorder"
       }, {
-        "code": "F19.27",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced persisting dementia",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced persisting dementia"
       }, {
-        "code": "F19.280",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced anxiety disorder",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced anxiety disorder"
       }, {
-        "code": "F19.281",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced sexual dysfunction",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced sexual dysfunction"
       }, {
-        "code": "F19.282",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with psychoactive substance-induced sleep disorder",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced sleep disorder"
       }, {
-        "code": "F19.288",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with other psychoactive substance-induced disorder",
         "display": "Other psychoactive substance dependence with other psychoactive substance-induced disorder"
       }, {
-        "code": "F19.29",
+        "code": "Injection Drug Use-Other psychoactive substance dependence with unspecified psychoactive substance-induced disorder",
         "display": "Other psychoactive substance dependence with unspecified psychoactive substance-induced disorder"
       }, {
-        "code": "F19.90",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified, uncomplicated",
         "display": "Other psychoactive substance use, unspecified, uncomplicated"
       }, {
-        "code": "F19.920",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with intoxication, uncomplicated",
         "display": "Other psychoactive substance use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "F19.921",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with intoxication with delirium",
         "display": "Other psychoactive substance use, unspecified with intoxication with delirium"
       }, {
-        "code": "F19.922",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with intoxication with perceptual disturbance",
         "display": "Other psychoactive substance use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "F19.929",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with intoxication, unspecified",
         "display": "Other psychoactive substance use, unspecified with intoxication, unspecified"
       }, {
-        "code": "F19.930",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with withdrawal, uncomplicated",
         "display": "Other psychoactive substance use, unspecified with withdrawal, uncomplicated"
       }, {
-        "code": "F19.931",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with withdrawal delirium",
         "display": "Other psychoactive substance use, unspecified with withdrawal delirium"
       }, {
-        "code": "F19.932",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with withdrawal with perceptual disturbance",
         "display": "Other psychoactive substance use, unspecified with withdrawal with perceptual disturbance"
       }, {
-        "code": "F19.939",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with withdrawal, unspecified",
         "display": "Other psychoactive substance use, unspecified with withdrawal, unspecified"
       }, {
-        "code": "F19.94",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced mood disorder",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced mood disorder"
       }, {
-        "code": "F19.950",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with delusions",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with delusions"
       }, {
-        "code": "F19.951",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with hallucinations",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with hallucinations"
       }, {
-        "code": "F19.959",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder, unspecified",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder, unspecified"
       }, {
-        "code": "F19.96",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced persisting amnestic disorder",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced persisting amnestic disorder"
       }, {
-        "code": "F19.97",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced persisting dementia",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced persisting dementia"
       }, {
-        "code": "F19.980",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced anxiety disorder",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced anxiety disorder"
       }, {
-        "code": "F19.981",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced sexual dysfunction",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced sexual dysfunction"
       }, {
-        "code": "F19.982",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with psychoactive substance-induced sleep disorder",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced sleep disorder"
       }, {
-        "code": "F19.988",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with other psychoactive substance-induced disorder",
         "display": "Other psychoactive substance use, unspecified with other psychoactive substance-induced disorder"
       }, {
-        "code": "F19.99",
+        "code": "Injection Drug Use-Other psychoactive substance use, unspecified with unspecified psychoactive substance-induced disorder",
         "display": "Other psychoactive substance use, unspecified with unspecified psychoactive substance-induced disorder"
       } ]
     } ]

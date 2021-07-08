@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hepatitis-c-virus-nucleic-rna-test",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-virus-nucleic-rna-test",
+  "name": "hepatitis-c-virus-nucleic-rna-test",
+  "title": "Hepatitis C virus nucleic (RNA) test",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C virus nucleic (RNA) test element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Hepatitis C virus nucleic (RNA) test",
+        "display": "Hepatitis C virus nucleic (RNA) test"
+      } ]
+    } ]
+  }
+}

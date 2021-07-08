@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-c1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-c1-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.C1.DE1"
-  } ],
   "name": "Syphilis",
   "title": "Syphilis",
   "status": "draft",
@@ -27,6 +22,9 @@
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Condition",
@@ -36,19 +34,27 @@
     "element": [ {
       "id": "Condition",
       "path": "Condition",
-      "short": "Syphilis",
-      "comment": "Syphilis infection mapping",
       "mustSupport": false
     }, {
       "id": "Condition.code",
       "path": "Condition.code",
+      "short": "Syphilis",
+      "comment": "Syphilis infection mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Syphilis Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.C1.DE1"
+      } ]
     } ]
   }
 }

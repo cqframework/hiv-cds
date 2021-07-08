@@ -10,12 +10,12 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://snomed.info/sct",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "228387001",
+        "code": "Injection Findings-Injects drugs intramuscularly (finding)",
         "display": "Injects drugs intramuscularly (finding)"
       }, {
-        "code": "228389003",
+        "code": "Injection Findings-Groin injector (finding)",
         "display": "Groin injector (finding)"
       } ]
     } ]

@@ -10,24 +10,24 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://loinc.org",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "43383-9",
+        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Throat by Organism specific culture",
         "display": "Neisseria sp identified in Throat by Organism specific culture"
       }, {
-        "code": "43384-7",
+        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Urethra by Organism specific culture",
         "display": "Neisseria sp identified in Urethra by Organism specific culture"
       }, {
-        "code": "43385-4",
+        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Cervix by Organism specific culture",
         "display": "Neisseria sp identified in Cervix by Organism specific culture"
       }, {
-        "code": "43386-2",
+        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Anal by Organism specific culture",
         "display": "Neisseria sp identified in Anal by Organism specific culture"
       }, {
-        "code": "43387-0",
+        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Unspecified specimen by Organism specific culture",
         "display": "Neisseria sp identified in Unspecified specimen by Organism specific culture"
       }, {
-        "code": "80369-2",
+        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Rectum by Organism specific culture",
         "display": "Neisseria sp identified in Rectum by Organism specific culture"
       } ]
     } ]

@@ -10,12 +10,12 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://loinc.org",
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "79189-7",
+        "code": "Hepatitis C Ag-Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay",
         "display": "Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "54914-7",
+        "code": "Hepatitis C Ag-Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay",
         "display": "Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay"
       } ]
     } ]

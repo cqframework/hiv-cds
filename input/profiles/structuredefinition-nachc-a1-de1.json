@@ -2,11 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-a1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a1-de1",
-  "identifier": [ {
-    "use": "official",
-    "system": "http://fhir.org/guides/nachc/hiv-cds/Identifier/data-elements",
-    "value": "NACHC.A1.DE1"
-  } ],
   "name": "HIV infection as a condition",
   "title": "HIV infection as a condition",
   "status": "draft",
@@ -22,11 +17,14 @@
       "coding": [ {
         "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
         "code": "NACHC.A1",
-        "display": "HIV Infection Conditions"
+        "display": "HIV"
       } ]
     }
   } ],
   "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "NACHC_HIV"
+  } ],
   "kind": "resource",
   "abstract": false,
   "type": "Condition",
@@ -36,19 +34,27 @@
     "element": [ {
       "id": "Condition",
       "path": "Condition",
-      "short": "HIV infection as a condition",
-      "comment": "HIV infection mapping",
       "mustSupport": false
     }, {
       "id": "Condition.code",
       "path": "Condition.code",
+      "short": "HIV infection as a condition",
+      "comment": "HIV infection mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "HIV infection as a condition Choices"
+        } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-infection-as-a-condition-choices"
-      }
+      },
+      "mapping": [ {
+        "identity": "NACHC_HIV",
+        "map": "NACHC.A1.DE1"
+      } ]
     } ]
   }
 }
