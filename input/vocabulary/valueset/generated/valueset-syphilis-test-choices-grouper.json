@@ -1,0 +1,347 @@
+{
+  "resourceType": "ValueSet",
+  "id": "syphilis-test-choices-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-test-choices-grouper",
+  "name": "Syphilis Test Choices Grouper",
+  "title": "Syphilis Test Choices Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-07-21T19:38:01-06:00",
+  "description": "Group Valueset with codes representing possible values for the Syphilis Test Choices Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponema-pallidum-nucleic-acid-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponemal-or-non-treponemal-antibody-choices" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2021-07-21T19:38:01-06:00",
+    "contains": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Blood by NAA with probe detection",
+      "display": "Treponema pallidum DNA [Presence] in Blood by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection",
+      "display": "Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection",
+      "display": "Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection",
+      "display": "Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection",
+      "display": "Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Cerebral spinal fluid",
+      "display": "Reagin Ab [Presence] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Cerebral spinal fluid by VDRL",
+      "display": "Reagin Ab [Presence] in Cerebral spinal fluid by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Cord blood",
+      "display": "Reagin Ab [Presence] in Cord blood"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Cord blood by VDRL",
+      "display": "Reagin Ab [Presence] in Cord blood by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Serum",
+      "display": "Reagin Ab [Presence] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Serum by RPR",
+      "display": "Reagin Ab [Presence] in Serum by RPR"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Serum by VDRL",
+      "display": "Reagin Ab [Presence] in Serum by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Unspecified specimen",
+      "display": "Reagin Ab [Presence] in Unspecified specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Presence] in Unspecified specimen by VDRL",
+      "display": "Reagin Ab [Presence] in Unspecified specimen by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Cerebral spinal fluid",
+      "display": "Reagin Ab [Titer] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Cerebral spinal fluid by RPR",
+      "display": "Reagin Ab [Titer] in Cerebral spinal fluid by RPR"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Cerebral spinal fluid by VDRL",
+      "display": "Reagin Ab [Titer] in Cerebral spinal fluid by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Serum",
+      "display": "Reagin Ab [Titer] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Serum by RPR",
+      "display": "Reagin Ab [Titer] in Serum by RPR"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Serum by VDRL",
+      "display": "Reagin Ab [Titer] in Serum by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Unspecified specimen",
+      "display": "Reagin Ab [Titer] in Unspecified specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Titer] in Unspecified specimen by VDRL",
+      "display": "Reagin Ab [Titer] in Unspecified specimen by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Units/volume] in Cerebral spinal fluid",
+      "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Units/volume] in Cerebral spinal fluid by VDRL",
+      "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Units/volume] in Serum",
+      "display": "Reagin Ab [Units/volume] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Units/volume] in Serum by RPR",
+      "display": "Reagin Ab [Units/volume] in Serum by RPR"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin Ab [Units/volume] in Serum by VDRL",
+      "display": "Reagin Ab [Units/volume] in Serum by VDRL"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma",
+      "display": "Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Cerebral spinal fluid",
+      "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Hemagglutination",
+      "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Hemagglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Immunofluorescence",
+      "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Serum",
+      "display": "Treponema pallidum Ab [Presence] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Serum by Agglutination",
+      "display": "Treponema pallidum Ab [Presence] in Serum by Agglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Serum by Hemagglutination",
+      "display": "Treponema pallidum Ab [Presence] in Serum by Hemagglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Serum by Immobilization",
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immobilization"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Serum by Immunoassay",
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Serum by Immunoblot",
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immunoblot"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Presence] in Serum by Immunofluorescence",
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Titer] in Cerebral spinal fluid",
+      "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Titer] in Cerebral spinal fluid by Hemagglutination",
+      "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid by Hemagglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Titer] in Serum",
+      "display": "Treponema pallidum Ab [Titer] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Titer] in Serum by Hemagglutination",
+      "display": "Treponema pallidum Ab [Titer] in Serum by Hemagglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Titer] in Serum by Immunofluorescence",
+      "display": "Treponema pallidum Ab [Titer] in Serum by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Titer] in Serum by Latex agglutination",
+      "display": "Treponema pallidum Ab [Titer] in Serum by Latex agglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Titer] in Serum or Plasma by Agglutination",
+      "display": "Treponema pallidum Ab [Titer] in Serum or Plasma by Agglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Blood",
+      "display": "Treponema pallidum Ab [Units/volume] in Blood"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Blood by Immunofluorescence",
+      "display": "Treponema pallidum Ab [Units/volume] in Blood by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Body fluid",
+      "display": "Treponema pallidum Ab [Units/volume] in Body fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Body fluid by Hemagglutination",
+      "display": "Treponema pallidum Ab [Units/volume] in Body fluid by Hemagglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid",
+      "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid by Hemagglutination",
+      "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid by Hemagglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Serum",
+      "display": "Treponema pallidum Ab [Units/volume] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Serum by Immobilization",
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Immobilization"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Serum by Immunoassay",
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Serum by Immunofluorescence",
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination",
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum Ab [Units/volume] in Unspecified specimen",
+      "display": "Treponema pallidum Ab [Units/volume] in Unspecified specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid",
+      "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid by Immunofluorescence",
+      "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Presence] in Serum",
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Presence] in Serum by Immunoassay",
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Presence] in Serum by Immunoblot",
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoblot"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence",
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid",
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence",
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Units/volume] in Serum",
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Units/volume] in Serum by Immunoassay",
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG Ab [Units/volume] in Serum by Immunofluorescence",
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG+IgM Ab [Presence] in Serum",
+      "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgG+IgM Ab [Presence] in Serum by Immunoassay",
+      "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Presence] in Cerebral spinal fluid by Immunoblot",
+      "display": "Treponema pallidum IgM Ab [Presence] in Cerebral spinal fluid by Immunoblot"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Presence] in Serum",
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Presence] in Serum by Immunoassay",
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Presence] in Serum by Immunoblot",
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoblot"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Presence] in Serum by Immunofluorescence",
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid",
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence",
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Units/volume] in Serum",
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Serum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Units/volume] in Serum by Immunoassay",
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema pallidum IgM Ab [Units/volume] in Serum by Immunofluorescence",
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Test-Treponema sp Ab [Presence] in Serum",
+      "display": "Treponema sp Ab [Presence] in Serum"
+    } ]
+  }
+}

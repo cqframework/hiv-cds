@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "tenofovir-disoproxil-fumarate-tdf-300mg-order-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tenofovir-disoproxil-fumarate-tdf-300mg-order-choices",
+  "name": "tenofovir-disoproxil-fumarate-tdf-300mg-order-choices",
+  "title": "Tenofovir Disoproxil Fumarate (TDF) 300mg Order Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Tenofovir Disoproxil Fumarate (TDF) 300mg Order Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG",
+        "display": "tenofovir disoproxil fumarate 300 MG"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG [Viread]",
+        "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
+      } ]
+    } ]
+  }
+}

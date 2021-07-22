@@ -12,22 +12,22 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Throat by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria sp identified in Throat by Organism specific culture",
         "display": "Neisseria sp identified in Throat by Organism specific culture"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Urethra by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria sp identified in Urethra by Organism specific culture",
         "display": "Neisseria sp identified in Urethra by Organism specific culture"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Cervix by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria sp identified in Cervix by Organism specific culture",
         "display": "Neisseria sp identified in Cervix by Organism specific culture"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Anal by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria sp identified in Anal by Organism specific culture",
         "display": "Neisseria sp identified in Anal by Organism specific culture"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Unspecified specimen by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria sp identified in Unspecified specimen by Organism specific culture",
         "display": "Neisseria sp identified in Unspecified specimen by Organism specific culture"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)-Neisseria sp identified in Rectum by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria sp identified in Rectum by Organism specific culture",
         "display": "Neisseria sp identified in Rectum by Organism specific culture"
       } ]
     } ]

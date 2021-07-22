@@ -1,0 +1,146 @@
+{
+  "resourceType": "ValueSet",
+  "id": "alternative-npep-order-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/alternative-npep-order-choices",
+  "name": "alternative-npep-order-choices",
+  "title": "Alternative nPEP Order Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Alternative nPEP Order Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG",
+        "display": "atazanavir 300 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG [Reyataz]",
+        "display": "atazanavir 300 MG [Reyataz]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG Oral Capsule",
+        "display": "atazanavir 300 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG Oral Capsule [Reyataz]",
+        "display": "atazanavir 300 MG Oral Capsule [Reyataz]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG",
+        "display": "darunavir 800 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG [Prezista]",
+        "display": "darunavir 800 MG [Prezista]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet",
+        "display": "darunavir 800 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet [Prezista]",
+        "display": "darunavir 800 MG Oral Tablet [Prezista]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG",
+        "display": "dolutegravir 50 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG [Tivicay]",
+        "display": "dolutegravir 50 MG [Tivicay]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet",
+        "display": "dolutegravir 50 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet [Tivicay]",
+        "display": "dolutegravir 50 MG Oral Tablet [Tivicay]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine / zidovudine Oral Tablet [Combivir]",
+        "display": "lamivudine / zidovudine Oral Tablet [Combivir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 150 MG / zidovudine 300 MG [Combivir]",
+        "display": "lamivudine 150 MG / zidovudine 300 MG [Combivir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG",
+        "display": "lamivudine 300 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG [Epivir]",
+        "display": "lamivudine 300 MG [Epivir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG Oral Tablet",
+        "display": "lamivudine 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG Oral Tablet [Epivir]",
+        "display": "lamivudine 300 MG Oral Tablet [Epivir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG",
+        "display": "raltegravir 400 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG [Isentress]",
+        "display": "raltegravir 400 MG [Isentress]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet",
+        "display": "raltegravir 400 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet [Isentress]",
+        "display": "raltegravir 400 MG Oral Tablet [Isentress]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG",
+        "display": "ritonavir 100 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG [Norvir]",
+        "display": "ritonavir 100 MG [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule",
+        "display": "ritonavir 100 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule [Norvir]",
+        "display": "ritonavir 100 MG Oral Capsule [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder",
+        "display": "ritonavir 100 MG Oral Powder"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder [Norvir]",
+        "display": "ritonavir 100 MG Oral Powder [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet",
+        "display": "ritonavir 100 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet [Norvir]",
+        "display": "ritonavir 100 MG Oral Tablet [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG",
+        "display": "zidovudine 100 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG [Retrovir]",
+        "display": "zidovudine 100 MG [Retrovir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG Oral Capsule",
+        "display": "zidovudine 100 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG Oral Capsule [Retrovir]",
+        "display": "zidovudine 100 MG Oral Capsule [Retrovir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG",
+        "display": "zidovudine 300 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG [Retrovir]",
+        "display": "zidovudine 300 MG [Retrovir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG Oral Tablet",
+        "display": "zidovudine 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG Oral Tablet [Retrovir]",
+        "display": "zidovudine 300 MG Oral Tablet [Retrovir]"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,1142 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "RxNorm",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ConceptMap/RxNorm",
+  "name": "RxNorm",
+  "title": "RxNorm",
+  "status": "draft",
+  "experimental": false,
+  "description": "Concept mapping from content extended codes to RxNorm",
+  "group": [ {
+    "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+    "target": "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "element": [ {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG",
+      "display": "darunavir 800 MG",
+      "target": [ {
+        "code": "1359268",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG [Prezista]",
+      "display": "darunavir 800 MG [Prezista]",
+      "target": [ {
+        "code": "1359270",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet",
+      "display": "darunavir 800 MG Oral Tablet",
+      "target": [ {
+        "code": "1359269",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet [Prezista]",
+      "display": "darunavir 800 MG Oral Tablet [Prezista]",
+      "target": [ {
+        "code": "1359271",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG",
+      "display": "dolutegravir 50 MG",
+      "target": [ {
+        "code": "1433869",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
+      "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
+      "target": [ {
+        "code": "2122522",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+      "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+      "target": [ {
+        "code": "2122519",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
+      "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
+      "target": [ {
+        "code": "2122526",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG [Tivicay]",
+      "display": "dolutegravir 50 MG [Tivicay]",
+      "target": [ {
+        "code": "1433875",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet",
+      "display": "dolutegravir 50 MG Oral Tablet",
+      "target": [ {
+        "code": "1433873",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet [Tivicay]",
+      "display": "dolutegravir 50 MG Oral Tablet [Tivicay]",
+      "target": [ {
+        "code": "1433879",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG",
+      "display": "efavirenz 200 MG",
+      "target": [ {
+        "code": "317359",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG [Sustiva]",
+      "display": "efavirenz 200 MG [Sustiva]",
+      "target": [ {
+        "code": "573284",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG Oral Capsule",
+      "display": "efavirenz 200 MG Oral Capsule",
+      "target": [ {
+        "code": "205290",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG Oral Capsule [Sustiva]",
+      "display": "efavirenz 200 MG Oral Capsule [Sustiva]",
+      "target": [ {
+        "code": "213390",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG Oral Tablet",
+      "display": "efavirenz 200 MG Oral Tablet",
+      "target": [ {
+        "code": "1088481",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG",
+      "display": "efavirenz 50 MG",
+      "target": [ {
+        "code": "315853",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG [Sustiva]",
+      "display": "efavirenz 50 MG [Sustiva]",
+      "target": [ {
+        "code": "573286",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG Oral Capsule",
+      "display": "efavirenz 50 MG Oral Capsule",
+      "target": [ {
+        "code": "205292",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG Oral Capsule [Sustiva]",
+      "display": "efavirenz 50 MG Oral Capsule [Sustiva]",
+      "target": [ {
+        "code": "213392",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG",
+      "display": "efavirenz 600 MG",
+      "target": [ {
+        "code": "350652",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]",
+      "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]",
+      "target": [ {
+        "code": "643068",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "target": [ {
+        "code": "643066",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]",
+      "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]",
+      "target": [ {
+        "code": "643070",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG [Sustiva]",
+      "display": "efavirenz 600 MG [Sustiva]",
+      "target": [ {
+        "code": "575878",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG Oral Tablet",
+      "display": "efavirenz 600 MG Oral Tablet",
+      "target": [ {
+        "code": "349477",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG Oral Tablet [Sustiva]",
+      "display": "efavirenz 600 MG Oral Tablet [Sustiva]",
+      "target": [ {
+        "code": "352143",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
+      "target": [ {
+        "code": "639887",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "target": [ {
+        "code": "476556",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
+      "target": [ {
+        "code": "639888",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide",
+      "display": "enfuvirtide",
+      "target": [ {
+        "code": "139896",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG",
+      "display": "enfuvirtide 90 MG",
+      "target": [ {
+        "code": "1736574",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG [Fuzeon]",
+      "display": "enfuvirtide 90 MG [Fuzeon]",
+      "target": [ {
+        "code": "1736577",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG Injection",
+      "display": "enfuvirtide 90 MG Injection",
+      "target": [ {
+        "code": "401981",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG Injection [Fuzeon]",
+      "display": "enfuvirtide 90 MG Injection [Fuzeon]",
+      "target": [ {
+        "code": "404460",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG/ML",
+      "display": "enfuvirtide 90 MG/ML",
+      "target": [ {
+        "code": "402414",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG/ML [Fuzeon]",
+      "display": "enfuvirtide 90 MG/ML [Fuzeon]",
+      "target": [ {
+        "code": "576416",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injectable Product",
+      "display": "enfuvirtide Injectable Product",
+      "target": [ {
+        "code": "1161890",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injectable Solution",
+      "display": "enfuvirtide Injectable Solution",
+      "target": [ {
+        "code": "402415",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injectable Solution [Fuzeon]",
+      "display": "enfuvirtide Injectable Solution [Fuzeon]",
+      "target": [ {
+        "code": "406055",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injection",
+      "display": "enfuvirtide Injection",
+      "target": [ {
+        "code": "1736575",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injection [Fuzeon]",
+      "display": "enfuvirtide Injection [Fuzeon]",
+      "target": [ {
+        "code": "1736578",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG",
+      "display": "fosamprenavir 700 MG",
+      "target": [ {
+        "code": "402364",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG [Lexiva]",
+      "display": "fosamprenavir 700 MG [Lexiva]",
+      "target": [ {
+        "code": "576110",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG Oral Tablet",
+      "display": "fosamprenavir 700 MG Oral Tablet",
+      "target": [ {
+        "code": "402109",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG Oral Tablet [Lexiva]",
+      "display": "fosamprenavir 700 MG Oral Tablet [Lexiva]",
+      "target": [ {
+        "code": "402110",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG",
+      "display": "maraviroc 150 MG",
+      "target": [ {
+        "code": "728221",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG [Selzentry]",
+      "display": "maraviroc 150 MG [Selzentry]",
+      "target": [ {
+        "code": "729199",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG Oral Tablet",
+      "display": "maraviroc 150 MG Oral Tablet",
+      "target": [ {
+        "code": "728223",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG Oral Tablet [Selzentry]",
+      "display": "maraviroc 150 MG Oral Tablet [Selzentry]",
+      "target": [ {
+        "code": "729201",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG",
+      "display": "maraviroc 300 MG",
+      "target": [ {
+        "code": "728224",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG [Selzentry]",
+      "display": "maraviroc 300 MG [Selzentry]",
+      "target": [ {
+        "code": "729202",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG Oral Tablet",
+      "display": "maraviroc 300 MG Oral Tablet",
+      "target": [ {
+        "code": "728225",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG Oral Tablet [Selzentry]",
+      "display": "maraviroc 300 MG Oral Tablet [Selzentry]",
+      "target": [ {
+        "code": "729203",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG",
+      "display": "raltegravir 400 MG",
+      "target": [ {
+        "code": "744840",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG [Isentress]",
+      "display": "raltegravir 400 MG [Isentress]",
+      "target": [ {
+        "code": "744844",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet",
+      "display": "raltegravir 400 MG Oral Tablet",
+      "target": [ {
+        "code": "744842",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet [Isentress]",
+      "display": "raltegravir 400 MG Oral Tablet [Isentress]",
+      "target": [ {
+        "code": "744846",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG",
+      "display": "raltegravir 600 MG",
+      "target": [ {
+        "code": "1924312",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG [Isentress]",
+      "display": "raltegravir 600 MG [Isentress]",
+      "target": [ {
+        "code": "1924314",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG Oral Tablet",
+      "display": "raltegravir 600 MG Oral Tablet",
+      "target": [ {
+        "code": "1924313",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG Oral Tablet [Isentress]",
+      "display": "raltegravir 600 MG Oral Tablet [Isentress]",
+      "target": [ {
+        "code": "1924315",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG",
+      "display": "ritonavir 100 MG",
+      "target": [ {
+        "code": "317488",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG [Norvir]",
+      "display": "ritonavir 100 MG [Norvir]",
+      "target": [ {
+        "code": "565134",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule",
+      "display": "ritonavir 100 MG Oral Capsule",
+      "target": [ {
+        "code": "317150",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule [Norvir]",
+      "display": "ritonavir 100 MG Oral Capsule [Norvir]",
+      "target": [ {
+        "code": "152970",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder",
+      "display": "ritonavir 100 MG Oral Powder",
+      "target": [ {
+        "code": "1926066",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder [Norvir]",
+      "display": "ritonavir 100 MG Oral Powder [Norvir]",
+      "target": [ {
+        "code": "1926069",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet",
+      "display": "ritonavir 100 MG Oral Tablet",
+      "target": [ {
+        "code": "900575",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet [Norvir]",
+      "display": "ritonavir 100 MG Oral Tablet [Norvir]",
+      "target": [ {
+        "code": "900577",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG",
+      "display": "saquinavir mesylate 500 MG",
+      "target": [ {
+        "code": "859862",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG [Invirase]",
+      "display": "saquinavir mesylate 500 MG [Invirase]",
+      "target": [ {
+        "code": "859864",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG Oral Tablet",
+      "display": "saquinavir mesylate 500 MG Oral Tablet",
+      "target": [ {
+        "code": "859863",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG Oral Tablet [Invirase]",
+      "display": "saquinavir mesylate 500 MG Oral Tablet [Invirase]",
+      "target": [ {
+        "code": "859865",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG",
+      "display": "stavudine 15 MG",
+      "target": [ {
+        "code": "328624",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG [Zerit]",
+      "display": "stavudine 15 MG [Zerit]",
+      "target": [ {
+        "code": "565117",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG Oral Capsule",
+      "display": "stavudine 15 MG Oral Capsule",
+      "target": [ {
+        "code": "313107",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG Oral Capsule [Zerit]",
+      "display": "stavudine 15 MG Oral Capsule [Zerit]",
+      "target": [ {
+        "code": "152941",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG",
+      "display": "stavudine 20 MG",
+      "target": [ {
+        "code": "328625",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG [Zerit]",
+      "display": "stavudine 20 MG [Zerit]",
+      "target": [ {
+        "code": "565118",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG Oral Capsule",
+      "display": "stavudine 20 MG Oral Capsule",
+      "target": [ {
+        "code": "313108",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG Oral Capsule [Zerit]",
+      "display": "stavudine 20 MG Oral Capsule [Zerit]",
+      "target": [ {
+        "code": "152942",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG",
+      "display": "stavudine 30 MG",
+      "target": [ {
+        "code": "328627",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG [Zerit]",
+      "display": "stavudine 30 MG [Zerit]",
+      "target": [ {
+        "code": "565119",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG Oral Capsule",
+      "display": "stavudine 30 MG Oral Capsule",
+      "target": [ {
+        "code": "313109",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG Oral Capsule [Zerit]",
+      "display": "stavudine 30 MG Oral Capsule [Zerit]",
+      "target": [ {
+        "code": "152943",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG",
+      "display": "stavudine 40 MG",
+      "target": [ {
+        "code": "330498",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG [Zerit]",
+      "display": "stavudine 40 MG [Zerit]",
+      "target": [ {
+        "code": "565120",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG Oral Capsule",
+      "display": "stavudine 40 MG Oral Capsule",
+      "target": [ {
+        "code": "313110",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG Oral Capsule [Zerit]",
+      "display": "stavudine 40 MG Oral Capsule [Zerit]",
+      "target": [ {
+        "code": "152944",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG",
+      "display": "tenofovir disoproxil fumarate 300 MG",
+      "target": [ {
+        "code": "393334",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG [Viread]",
+      "display": "tenofovir disoproxil fumarate 300 MG [Viread]",
+      "target": [ {
+        "code": "575802",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "target": [ {
+        "code": "349251",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
+      "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
+      "target": [ {
+        "code": "352050",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG",
+      "display": "atazanavir 300 MG",
+      "target": [ {
+        "code": "664740",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG [Reyataz]",
+      "display": "atazanavir 300 MG [Reyataz]",
+      "target": [ {
+        "code": "664742",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG Oral Capsule",
+      "display": "atazanavir 300 MG Oral Capsule",
+      "target": [ {
+        "code": "664741",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-atazanavir 300 MG Oral Capsule [Reyataz]",
+      "display": "atazanavir 300 MG Oral Capsule [Reyataz]",
+      "target": [ {
+        "code": "664743",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG",
+      "display": "darunavir 800 MG",
+      "target": [ {
+        "code": "1359268",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG [Prezista]",
+      "display": "darunavir 800 MG [Prezista]",
+      "target": [ {
+        "code": "1359270",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet",
+      "display": "darunavir 800 MG Oral Tablet",
+      "target": [ {
+        "code": "1359269",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet [Prezista]",
+      "display": "darunavir 800 MG Oral Tablet [Prezista]",
+      "target": [ {
+        "code": "1359271",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG",
+      "display": "dolutegravir 50 MG",
+      "target": [ {
+        "code": "1433869",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
+      "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
+      "target": [ {
+        "code": "2122522",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+      "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+      "target": [ {
+        "code": "2122519",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
+      "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
+      "target": [ {
+        "code": "2122526",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG [Tivicay]",
+      "display": "dolutegravir 50 MG [Tivicay]",
+      "target": [ {
+        "code": "1433875",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet",
+      "display": "dolutegravir 50 MG Oral Tablet",
+      "target": [ {
+        "code": "1433873",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet [Tivicay]",
+      "display": "dolutegravir 50 MG Oral Tablet [Tivicay]",
+      "target": [ {
+        "code": "1433879",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine / zidovudine Oral Tablet [Combivir]",
+      "display": "lamivudine / zidovudine Oral Tablet [Combivir]",
+      "target": [ {
+        "code": "368309",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 150 MG / zidovudine 300 MG [Combivir]",
+      "display": "lamivudine 150 MG / zidovudine 300 MG [Combivir]",
+      "target": [ {
+        "code": "573017",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
+      "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
+      "target": [ {
+        "code": "200082",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]",
+      "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]",
+      "target": [ {
+        "code": "213088",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG",
+      "display": "lamivudine 300 MG",
+      "target": [ {
+        "code": "350655",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG [Epivir]",
+      "display": "lamivudine 300 MG [Epivir]",
+      "target": [ {
+        "code": "575950",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG Oral Tablet",
+      "display": "lamivudine 300 MG Oral Tablet",
+      "target": [ {
+        "code": "349491",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-lamivudine 300 MG Oral Tablet [Epivir]",
+      "display": "lamivudine 300 MG Oral Tablet [Epivir]",
+      "target": [ {
+        "code": "352230",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG",
+      "display": "raltegravir 400 MG",
+      "target": [ {
+        "code": "744840",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG [Isentress]",
+      "display": "raltegravir 400 MG [Isentress]",
+      "target": [ {
+        "code": "744844",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet",
+      "display": "raltegravir 400 MG Oral Tablet",
+      "target": [ {
+        "code": "744842",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet [Isentress]",
+      "display": "raltegravir 400 MG Oral Tablet [Isentress]",
+      "target": [ {
+        "code": "744846",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG",
+      "display": "ritonavir 100 MG",
+      "target": [ {
+        "code": "317488",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG [Norvir]",
+      "display": "ritonavir 100 MG [Norvir]",
+      "target": [ {
+        "code": "565134",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule",
+      "display": "ritonavir 100 MG Oral Capsule",
+      "target": [ {
+        "code": "317150",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule [Norvir]",
+      "display": "ritonavir 100 MG Oral Capsule [Norvir]",
+      "target": [ {
+        "code": "152970",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder",
+      "display": "ritonavir 100 MG Oral Powder",
+      "target": [ {
+        "code": "1926066",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder [Norvir]",
+      "display": "ritonavir 100 MG Oral Powder [Norvir]",
+      "target": [ {
+        "code": "1926069",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet",
+      "display": "ritonavir 100 MG Oral Tablet",
+      "target": [ {
+        "code": "900575",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet [Norvir]",
+      "display": "ritonavir 100 MG Oral Tablet [Norvir]",
+      "target": [ {
+        "code": "900577",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG",
+      "display": "zidovudine 100 MG",
+      "target": [ {
+        "code": "316915",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG [Retrovir]",
+      "display": "zidovudine 100 MG [Retrovir]",
+      "target": [ {
+        "code": "566052",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG Oral Capsule",
+      "display": "zidovudine 100 MG Oral Capsule",
+      "target": [ {
+        "code": "198352",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 100 MG Oral Capsule [Retrovir]",
+      "display": "zidovudine 100 MG Oral Capsule [Retrovir]",
+      "target": [ {
+        "code": "201907",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG",
+      "display": "zidovudine 300 MG",
+      "target": [ {
+        "code": "316916",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG [Retrovir]",
+      "display": "zidovudine 300 MG [Retrovir]",
+      "target": [ {
+        "code": "565059",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG Oral Tablet",
+      "display": "zidovudine 300 MG Oral Tablet",
+      "target": [ {
+        "code": "199663",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Post Exposure Prophylaxis Medication Prescriptions-zidovudine 300 MG Oral Tablet [Retrovir]",
+      "display": "zidovudine 300 MG Oral Tablet [Retrovir]",
+      "target": [ {
+        "code": "152772",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Capsule",
+      "display": "emtricitabine 200 MG Oral Capsule",
+      "target": [ {
+        "code": "403875",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Capsule [Emtriva]",
+      "display": "emtricitabine 200 MG Oral Capsule [Emtriva]",
+      "target": [ {
+        "code": "404587",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG",
+      "display": "emtricitabine 200 MG",
+      "target": [ {
+        "code": "406016",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG [Emtriva]",
+      "display": "emtricitabine 200 MG [Emtriva]",
+      "target": [ {
+        "code": "576513",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Tablet",
+      "display": "emtricitabine 200 MG Oral Tablet",
+      "target": [ {
+        "code": "639883",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide",
+      "display": "emtricitabine / tenofovir alafenamide",
+      "target": [ {
+        "code": "1727491",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Oral Product",
+      "display": "emtricitabine / tenofovir alafenamide Oral Product",
+      "target": [ {
+        "code": "1747688",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Pill",
+      "display": "emtricitabine / tenofovir alafenamide Pill",
+      "target": [ {
+        "code": "1747689",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Oral Tablet",
+      "display": "emtricitabine / tenofovir alafenamide Oral Tablet",
+      "target": [ {
+        "code": "1747690",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
+      "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
+      "target": [ {
+        "code": "1747691",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]",
+      "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]",
+      "target": [ {
+        "code": "1747693",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]",
+      "display": "emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]",
+      "target": [ {
+        "code": "1747694",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]",
+      "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]",
+      "target": [ {
+        "code": "1747697",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "target": [ {
+        "code": "476556",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
+      "target": [ {
+        "code": "639887",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
+      "target": [ {
+        "code": "639888",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG",
+      "display": "tenofovir alafenamide 25 MG",
+      "target": [ {
+        "code": "1741729",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG Oral Tablet",
+      "display": "tenofovir alafenamide 25 MG Oral Tablet",
+      "target": [ {
+        "code": "1858261",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG [Vemlidy]",
+      "display": "tenofovir alafenamide 25 MG [Vemlidy]",
+      "target": [ {
+        "code": "1858263",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]",
+      "display": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]",
+      "target": [ {
+        "code": "1858267",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet",
+      "target": [ {
+        "code": "349251",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
+      "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
+      "target": [ {
+        "code": "352050",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG",
+      "display": "tenofovir disoproxil fumarate 300 MG",
+      "target": [ {
+        "code": "393334",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG [Viread]",
+      "display": "tenofovir disoproxil fumarate 300 MG [Viread]",
+      "target": [ {
+        "code": "575802",
+        "equivalence": "equivalent"
+      } ]
+    } ]
+  } ]
+}

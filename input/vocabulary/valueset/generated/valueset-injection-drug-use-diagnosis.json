@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "injection-drug-use-diagnosis",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-drug-use-diagnosis",
+  "name": "injection-drug-use-diagnosis",
+  "title": "Injection Drug Use Diagnosis",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Injection Drug Use Diagnosis element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Injection Drug Use Diagnosis",
+        "display": "Injection Drug Use Diagnosis"
+      } ]
+    } ]
+  }
+}

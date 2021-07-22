@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-diagnosis",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-diagnosis",
+  "name": "chlamydia-diagnosis",
+  "title": "Chlamydia Diagnosis",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Diagnosis element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Chlamydia Diagnosis",
+        "display": "Chlamydia Diagnosis"
+      } ]
+    } ]
+  }
+}

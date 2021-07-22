@@ -12,22 +12,22 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Syphilis (Organism or Substance in Lab Results)-Antigen of Treponema pallidum (substance)",
+        "code": "Syphilis Diagnosis-Antigen of Treponema pallidum (substance)",
         "display": "Antigen of Treponema pallidum (substance)"
       }, {
-        "code": "Syphilis (Organism or Substance in Lab Results)-Deoxyribonucleic acid of Treponema pallidum (substance)",
+        "code": "Syphilis Diagnosis-Deoxyribonucleic acid of Treponema pallidum (substance)",
         "display": "Deoxyribonucleic acid of Treponema pallidum (substance)"
       }, {
-        "code": "Syphilis (Organism or Substance in Lab Results)-Treponema pallidum (organism)",
+        "code": "Syphilis Diagnosis-Treponema pallidum (organism)",
         "display": "Treponema pallidum (organism)"
       }, {
-        "code": "Syphilis (Organism or Substance in Lab Results)-Treponema pallidum ss. endemicum (organism)",
+        "code": "Syphilis Diagnosis-Treponema pallidum ss. endemicum (organism)",
         "display": "Treponema pallidum ss. endemicum (organism)"
       }, {
-        "code": "Syphilis (Organism or Substance in Lab Results)-Treponema pallidum ss. pallidum (organism)",
+        "code": "Syphilis Diagnosis-Treponema pallidum ss. pallidum (organism)",
         "display": "Treponema pallidum ss. pallidum (organism)"
       }, {
-        "code": "Syphilis (Organism or Substance in Lab Results)-Treponema pallidum ss. pertenue (organism)",
+        "code": "Syphilis Diagnosis-Treponema pallidum ss. pertenue (organism)",
         "display": "Treponema pallidum ss. pertenue (organism)"
       } ]
     } ]

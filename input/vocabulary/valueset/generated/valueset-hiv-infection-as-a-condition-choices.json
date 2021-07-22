@@ -12,355 +12,355 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "HIV infection as a condition-Acquired hemolytic anemia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Acquired hemolytic anemia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Acquired hemolytic anemia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Acquired immune deficiency syndrome (disorder)",
+        "code": "HIV Diagnosis-Acquired immune deficiency syndrome (disorder)",
         "display": "Acquired immune deficiency syndrome (disorder)"
       }, {
-        "code": "HIV infection as a condition-Acquired immune deficiency syndrome-related nephropathy (disorder)",
+        "code": "HIV Diagnosis-Acquired immune deficiency syndrome-related nephropathy (disorder)",
         "display": "Acquired immune deficiency syndrome-related nephropathy (disorder)"
       }, {
-        "code": "HIV infection as a condition-Acquired immunodeficiency syndrome-associated disorder (disorder)",
+        "code": "HIV Diagnosis-Acquired immunodeficiency syndrome-associated disorder (disorder)",
         "display": "Acquired immunodeficiency syndrome-associated disorder (disorder)"
       }, {
-        "code": "HIV infection as a condition-Acute endocarditis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Acute endocarditis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Acute endocarditis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Acute human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Acute human immunodeficiency virus infection (disorder)",
         "display": "Acute human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Agranulocytosis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Agranulocytosis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Agranulocytosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Anemia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Anemia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Anemia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Aplastic anemia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Aplastic anemia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Aplastic anemia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Asymptomatic human immunodeficiency virus [HIV] infection status",
+        "code": "HIV Diagnosis-Asymptomatic human immunodeficiency virus [HIV] infection status",
         "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
       }, {
-        "code": "HIV infection as a condition-Asymptomatic human immunodeficiency virus A1 infection (disorder)",
+        "code": "HIV Diagnosis-Asymptomatic human immunodeficiency virus A1 infection (disorder)",
         "display": "Asymptomatic human immunodeficiency virus A1 infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Asymptomatic human immunodeficiency virus A2 infection (disorder)",
+        "code": "HIV Diagnosis-Asymptomatic human immunodeficiency virus A2 infection (disorder)",
         "display": "Asymptomatic human immunodeficiency virus A2 infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Asymptomatic human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Asymptomatic human immunodeficiency virus infection (disorder)",
         "display": "Asymptomatic human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Asymptomatic human immunodeficiency virus infection in pregnancy (disorder)",
+        "code": "HIV Diagnosis-Asymptomatic human immunodeficiency virus infection in pregnancy (disorder)",
         "display": "Asymptomatic human immunodeficiency virus infection in pregnancy (disorder)"
       }, {
-        "code": "HIV infection as a condition-Bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Burkitt lymphoma co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Burkitt lymphoma co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Burkitt lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Candidiasis of esophagus co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Candidiasis of esophagus co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Candidiasis of esophagus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Candidiasis of mouth co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Candidiasis of mouth co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Candidiasis of mouth co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Cardiomyopathy co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Cardiomyopathy co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Cardiomyopathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Chronic infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Chronic infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Chronic infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Congenital acquired immune deficiency syndrome (disorder)",
+        "code": "HIV Diagnosis-Congenital acquired immune deficiency syndrome (disorder)",
         "display": "Congenital acquired immune deficiency syndrome (disorder)"
       }, {
-        "code": "HIV infection as a condition-Congenital human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Congenital human immunodeficiency virus infection (disorder)",
         "display": "Congenital human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Dementia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Dementia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Dementia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Demyelinating disease of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Demyelinating disease of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Demyelinating disease of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Diffuse non-Hodgkin immunoblastic lymphoma co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Diffuse non-Hodgkin immunoblastic lymphoma co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Diffuse non-Hodgkin immunoblastic lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of eye proper co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of eye proper co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of eye proper co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of gastrointestinal tract co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of gastrointestinal tract co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of gastrointestinal tract co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of kidney co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of kidney co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of kidney co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of peripheral nervous system co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of peripheral nervous system co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of peripheral nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of respiratory system co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of respiratory system co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of respiratory system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of skin co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of skin co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of skin co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disorder of spinal cord co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disorder of spinal cord co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disorder of spinal cord co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disseminated atypical infection caused by Mycobacterium co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disseminated atypical infection caused by Mycobacterium co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disseminated atypical infection caused by Mycobacterium co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Disseminated infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Disseminated infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Disseminated infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Enlargement of liver co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Enlargement of liver co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Enlargement of liver co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Eruption of skin co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Eruption of skin co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Eruption of skin co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Extrapulmonary tuberculosis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Extrapulmonary tuberculosis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Extrapulmonary tuberculosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Focal segmental glomerulosclerosis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Focal segmental glomerulosclerosis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Focal segmental glomerulosclerosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Gastrointestinal malabsorption syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Gastrointestinal malabsorption syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Gastrointestinal malabsorption syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Hairy leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)",
+        "code": "HIV Diagnosis-Hairy leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)",
         "display": "Hairy leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)"
       }, {
-        "code": "HIV infection as a condition-Heart disease co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Heart disease co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Heart disease co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Hemophagocytic syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Hemophagocytic syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Hemophagocytic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Hepatitis B associated with Human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Hepatitis B associated with Human immunodeficiency virus infection (disorder)",
         "display": "Hepatitis B associated with Human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus (HIV) II infection category B1 (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus (HIV) II infection category B1 (disorder)",
         "display": "Human immunodeficiency virus (HIV) II infection category B1 (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus (HIV) II infection category B2 (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus (HIV) II infection category B2 (disorder)",
         "display": "Human immunodeficiency virus (HIV) II infection category B2 (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease",
+        "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease",
         "display": "Human immunodeficiency virus [HIV] disease"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating childbirth",
+        "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating childbirth",
         "display": "Human immunodeficiency virus [HIV] disease complicating childbirth"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester",
+        "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester",
         "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester",
+        "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester",
         "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester",
+        "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester",
         "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester",
+        "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester",
         "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating the puerperium",
+        "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating the puerperium",
         "display": "Human immunodeficiency virus [HIV] disease complicating the puerperium"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus encephalitis (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus encephalitis (disorder)",
         "display": "Human immunodeficiency virus encephalitis (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus encephalopathy (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus encephalopathy (disorder)",
         "display": "Human immunodeficiency virus encephalopathy (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus enteropathy (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus enteropathy (disorder)",
         "display": "Human immunodeficiency virus enteropathy (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus I infection (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus I infection (disorder)",
         "display": "Human immunodeficiency virus I infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus II infection (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus II infection (disorder)",
         "display": "Human immunodeficiency virus II infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus in mother complicating childbirth (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus in mother complicating childbirth (disorder)",
         "display": "Human immunodeficiency virus in mother complicating childbirth (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus infection (disorder)",
         "display": "Human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus infection constitutional disease (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus infection constitutional disease (disorder)",
         "display": "Human immunodeficiency virus infection constitutional disease (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus infection with acute lymphadenitis (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus infection with acute lymphadenitis (disorder)",
         "display": "Human immunodeficiency virus infection with acute lymphadenitis (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus infection with aseptic meningitis (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus infection with aseptic meningitis (disorder)",
         "display": "Human immunodeficiency virus infection with aseptic meningitis (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus infection with infectious mononucleosis-like syndrome (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus infection with infectious mononucleosis-like syndrome (disorder)",
         "display": "Human immunodeficiency virus infection with infectious mononucleosis-like syndrome (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus infection with neurological disease (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus infection with neurological disease (disorder)",
         "display": "Human immunodeficiency virus infection with neurological disease (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus infection with secondary clinical infectious disease (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus infection with secondary clinical infectious disease (disorder)",
         "display": "Human immunodeficiency virus infection with secondary clinical infectious disease (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus leukoencephalopathy (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus leukoencephalopathy (disorder)",
         "display": "Human immunodeficiency virus leukoencephalopathy (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus myopathy (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus myopathy (disorder)",
         "display": "Human immunodeficiency virus myopathy (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere",
+        "code": "HIV Diagnosis-Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere",
         "display": "Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus-associated periodontitis (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus-associated periodontitis (disorder)",
         "display": "Human immunodeficiency virus-associated periodontitis (disorder)"
       }, {
-        "code": "HIV infection as a condition-Human immunodeficiency virus-related sclerosing cholangitis (disorder)",
+        "code": "HIV Diagnosis-Human immunodeficiency virus-related sclerosing cholangitis (disorder)",
         "display": "Human immunodeficiency virus-related sclerosing cholangitis (disorder)"
       }, {
-        "code": "HIV infection as a condition-Immune reconstitution inflammatory syndrome caused by human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Immune reconstitution inflammatory syndrome caused by human immunodeficiency virus infection (disorder)",
         "display": "Immune reconstitution inflammatory syndrome caused by human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Aspergillus co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Aspergillus co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Aspergillus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Coccidia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Coccidia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Coccidia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Cryptosporidium co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Cryptosporidium co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Cryptosporidium co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Cytomegalovirus co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Cytomegalovirus co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Cytomegalovirus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Dermatophyte co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Dermatophyte co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Dermatophyte co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Microsporidia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Microsporidia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Microsporidia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Nocardia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Nocardia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Nocardia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Pneumocystis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Pneumocystis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Pneumocystis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Salmonella co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Salmonella co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Salmonella co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infectious gastroenteritis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infectious gastroenteritis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infectious gastroenteritis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Infective arthritis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Infective arthritis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Infective arthritis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Invasive carcinoma of uterine cervix co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Invasive carcinoma of uterine cervix co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Invasive carcinoma of uterine cervix co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Isosporiasis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Isosporiasis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Isosporiasis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)",
+        "code": "HIV Diagnosis-Leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)",
         "display": "Leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)"
       }, {
-        "code": "HIV infection as a condition-Lymphadenopathy co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Lymphadenopathy co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Lymphadenopathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Malignant neoplastic disease co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Malignant neoplastic disease co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Malignant neoplastic disease co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Myelitis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Myelitis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Myelitis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Myocarditis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Myocarditis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Myocarditis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Nephrotic syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Nephrotic syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Nephrotic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Neuralgia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Neuralgia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Neuralgia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Neuritis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Neuritis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Neuritis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Neuropathy caused by human immunodeficiency virus (disorder)",
+        "code": "HIV Diagnosis-Neuropathy caused by human immunodeficiency virus (disorder)",
         "display": "Neuropathy caused by human immunodeficiency virus (disorder)"
       }, {
-        "code": "HIV infection as a condition-Non-Hodgkin lymphoma associated with Human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Non-Hodgkin lymphoma associated with Human immunodeficiency virus infection (disorder)",
         "display": "Non-Hodgkin lymphoma associated with Human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Opportunistic mycosis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Opportunistic mycosis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Opportunistic mycosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Oral hairy leukoplakia associated with human immunodeficiency virus disease (disorder)",
+        "code": "HIV Diagnosis-Oral hairy leukoplakia associated with human immunodeficiency virus disease (disorder)",
         "display": "Oral hairy leukoplakia associated with human immunodeficiency virus disease (disorder)"
       }, {
-        "code": "HIV infection as a condition-Organic brain syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Organic brain syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Organic brain syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Pediatric human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Pediatric human immunodeficiency virus infection (disorder)",
         "display": "Pediatric human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Polyneuropathy co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Polyneuropathy co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Polyneuropathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Presenile dementia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Presenile dementia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Presenile dementia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Primary cerebral lymphoma co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Primary cerebral lymphoma co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Primary cerebral lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Progressive multifocal leukoencephalopathy co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Progressive multifocal leukoencephalopathy co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Progressive multifocal leukoencephalopathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Radiculitis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Radiculitis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Radiculitis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Recurrent bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Recurrent bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Recurrent bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Recurrent salmonella sepsis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Recurrent salmonella sepsis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Recurrent salmonella sepsis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Renal failure syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Renal failure syndrome co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Renal failure syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Reticulosarcoma co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Reticulosarcoma co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Reticulosarcoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Splenomegaly co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Splenomegaly co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Splenomegaly co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Subacute adenoviral encephalitis co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Subacute adenoviral encephalitis co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Subacute adenoviral encephalitis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Symptomatic human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Symptomatic human immunodeficiency virus infection (disorder)",
         "display": "Symptomatic human immunodeficiency virus infection (disorder)"
       }, {
-        "code": "HIV infection as a condition-Visual impairment co-occurrent with human immunodeficiency virus infection (disorder)",
+        "code": "HIV Diagnosis-Visual impairment co-occurrent with human immunodeficiency virus infection (disorder)",
         "display": "Visual impairment co-occurrent with human immunodeficiency virus infection (disorder)"
       } ]
     } ]

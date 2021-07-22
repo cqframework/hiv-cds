@@ -12,10 +12,10 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C Ag-Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay",
         "display": "Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "Hepatitis C Ag-Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay",
         "display": "Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay"
       } ]
     } ]

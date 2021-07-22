@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-c2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-c2-de1",
-  "name": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
-  "title": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+  "name": "Syphilis Test",
+  "title": "Syphilis Test",
   "status": "draft",
   "experimental": false,
-  "description": "Syphilis Test",
+  "description": "Concepts Associated with Syphilis Testing",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,7 +38,7 @@
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
-      "short": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+      "short": "Syphilis Test",
       "comment": "Syph test mapping",
       "min": 1,
       "max": "1",
@@ -46,10 +46,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Syphilis (Tests for Treponema pallidum Nucleic Acid)"
+          "valueString": "Syphilis Test"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponema-pallidum-nucleic-acid"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-test"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -58,7 +58,7 @@
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
-      "short": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+      "short": "Syphilis Test",
       "comment": "Syph test mapping",
       "min": 1,
       "max": "*",
@@ -69,10 +69,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Syphilis (Tests for Treponema pallidum Nucleic Acid) Choices"
+          "valueString": "Syphilis Test Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponema-pallidum-nucleic-acid-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-test-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

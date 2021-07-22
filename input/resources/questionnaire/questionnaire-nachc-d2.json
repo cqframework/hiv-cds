@@ -37,32 +37,8 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d2.de1",
-    "text": "Gonorrhea Tests for Neisseria gonorrhea by Culture",
+    "text": "Gonorrhea Test",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-for-neisseria-gonorrhea-by-culture-choices"
-  }, {
-    "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d2.de16",
-    "text": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-for-neisseria-gonorrhoeae-nucleic-acid-choices"
-  }, {
-    "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d2.de59",
-    "text": "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-for-neisseria-species-by-culture-and-identification-method-choices"
-  }, {
-    "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d2.de66",
-    "text": "Gonorrhea test",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-test-choices"
-  }, {
-    "linkId": "5",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d2.de100",
-    "text": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-and-chlamydia-gonorrhea-combined-tests-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-test-choices-grouper"
   } ]
 }

@@ -12,550 +12,550 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Syphilis-Acquired syphilis - early latent (disorder)",
+        "code": "Syphilis Diagnosis-Acquired syphilis - early latent (disorder)",
         "display": "Acquired syphilis - early latent (disorder)"
       }, {
-        "code": "Syphilis-Acquired syphilis - late latent (disorder)",
+        "code": "Syphilis Diagnosis-Acquired syphilis - late latent (disorder)",
         "display": "Acquired syphilis - late latent (disorder)"
       }, {
-        "code": "Syphilis-Acquired syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Acquired syphilis (disorder)",
         "display": "Acquired syphilis (disorder)"
       }, {
-        "code": "Syphilis-Acute myocarditis - syphilitic (disorder)",
+        "code": "Syphilis Diagnosis-Acute myocarditis - syphilitic (disorder)",
         "display": "Acute myocarditis - syphilitic (disorder)"
       }, {
-        "code": "Syphilis-Acute secondary syphilitic meningitis (disorder)",
+        "code": "Syphilis Diagnosis-Acute secondary syphilitic meningitis (disorder)",
         "display": "Acute secondary syphilitic meningitis (disorder)"
       }, {
-        "code": "Syphilis-Acute syphilitic pericarditis (disorder)",
+        "code": "Syphilis Diagnosis-Acute syphilitic pericarditis (disorder)",
         "display": "Acute syphilitic pericarditis (disorder)"
       }, {
-        "code": "Syphilis-Asymptomatic neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Asymptomatic neurosyphilis (disorder)",
         "display": "Asymptomatic neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Asymptomatic secondary neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Asymptomatic secondary neurosyphilis (disorder)",
         "display": "Asymptomatic secondary neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Bursitis caused by Treponema pallidum (disorder)",
+        "code": "Syphilis Diagnosis-Bursitis caused by Treponema pallidum (disorder)",
         "display": "Bursitis caused by Treponema pallidum (disorder)"
       }, {
-        "code": "Syphilis-Cardiovascular syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Cardiovascular syphilis (disorder)",
         "display": "Cardiovascular syphilis (disorder)"
       }, {
-        "code": "Syphilis-Chancre caused by Treponema pallidum (disorder)",
+        "code": "Syphilis Diagnosis-Chancre caused by Treponema pallidum (disorder)",
         "display": "Chancre caused by Treponema pallidum (disorder)"
       }, {
-        "code": "Syphilis-Clutton's joints (disorder)",
+        "code": "Syphilis Diagnosis-Clutton's joints (disorder)",
         "display": "Clutton's joints (disorder)"
       }, {
-        "code": "Syphilis-Condyloma latum (disorder)",
+        "code": "Syphilis Diagnosis-Condyloma latum (disorder)",
         "display": "Condyloma latum (disorder)"
       }, {
-        "code": "Syphilis-Condylomata lata of penis (disorder)",
+        "code": "Syphilis Diagnosis-Condylomata lata of penis (disorder)",
         "display": "Condylomata lata of penis (disorder)"
       }, {
-        "code": "Syphilis-Condylomata lata of perianal skin (disorder)",
+        "code": "Syphilis Diagnosis-Condylomata lata of perianal skin (disorder)",
         "display": "Condylomata lata of perianal skin (disorder)"
       }, {
-        "code": "Syphilis-Condylomata lata of vulva (disorder)",
+        "code": "Syphilis Diagnosis-Condylomata lata of vulva (disorder)",
         "display": "Condylomata lata of vulva (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilis (disorder)",
         "display": "Congenital syphilis (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilis with gumma (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilis with gumma (disorder)",
         "display": "Congenital syphilis with gumma (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic choroiditis (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic choroiditis (disorder)",
         "display": "Congenital syphilitic choroiditis (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic chronic coryza (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic chronic coryza (disorder)",
         "display": "Congenital syphilitic chronic coryza (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic encephalitis (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic encephalitis (disorder)",
         "display": "Congenital syphilitic encephalitis (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic hepatomegaly (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic hepatomegaly (disorder)",
         "display": "Congenital syphilitic hepatomegaly (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic meningitis (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic meningitis (disorder)",
         "display": "Congenital syphilitic meningitis (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic mucous patches (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic mucous patches (disorder)",
         "display": "Congenital syphilitic mucous patches (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic osteochondritis (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic osteochondritis (disorder)",
         "display": "Congenital syphilitic osteochondritis (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic pemphigus (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic pemphigus (disorder)",
         "display": "Congenital syphilitic pemphigus (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic periostitis (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic periostitis (disorder)",
         "display": "Congenital syphilitic periostitis (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic rhinitis (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic rhinitis (disorder)",
         "display": "Congenital syphilitic rhinitis (disorder)"
       }, {
-        "code": "Syphilis-Congenital syphilitic splenomegaly (disorder)",
+        "code": "Syphilis Diagnosis-Congenital syphilitic splenomegaly (disorder)",
         "display": "Congenital syphilitic splenomegaly (disorder)"
       }, {
-        "code": "Syphilis-Dementia paralytica juvenilis (disorder)",
+        "code": "Syphilis Diagnosis-Dementia paralytica juvenilis (disorder)",
         "display": "Dementia paralytica juvenilis (disorder)"
       }, {
-        "code": "Syphilis-Early congenital syphilis - latent (disorder)",
+        "code": "Syphilis Diagnosis-Early congenital syphilis - latent (disorder)",
         "display": "Early congenital syphilis - latent (disorder)"
       }, {
-        "code": "Syphilis-Early congenital syphilis (less than 2 years) (disorder)",
+        "code": "Syphilis Diagnosis-Early congenital syphilis (less than 2 years) (disorder)",
         "display": "Early congenital syphilis (less than 2 years) (disorder)"
       }, {
-        "code": "Syphilis-Early congenital syphilis with symptoms (disorder)",
+        "code": "Syphilis Diagnosis-Early congenital syphilis with symptoms (disorder)",
         "display": "Early congenital syphilis with symptoms (disorder)"
       }, {
-        "code": "Syphilis-Early latent congenital syphilis, positive serology, negative spinal fluid (disorder)",
+        "code": "Syphilis Diagnosis-Early latent congenital syphilis, positive serology, negative spinal fluid (disorder)",
         "display": "Early latent congenital syphilis, positive serology, negative spinal fluid (disorder)"
       }, {
-        "code": "Syphilis-Early latent syphilis, positive serology, negative cerebrospinal fluid, less than 2 years after infection (disorder)",
+        "code": "Syphilis Diagnosis-Early latent syphilis, positive serology, negative cerebrospinal fluid, less than 2 years after infection (disorder)",
         "display": "Early latent syphilis, positive serology, negative cerebrospinal fluid, less than 2 years after infection (disorder)"
       }, {
-        "code": "Syphilis-Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)",
+        "code": "Syphilis Diagnosis-Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)",
         "display": "Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)"
       }, {
-        "code": "Syphilis-Early symptomatic syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Early symptomatic syphilis (disorder)",
         "display": "Early symptomatic syphilis (disorder)"
       }, {
-        "code": "Syphilis-Endocochlear syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Endocochlear syphilis (disorder)",
         "display": "Endocochlear syphilis (disorder)"
       }, {
-        "code": "Syphilis-Female syphilitic pelvic inflammatory disease (disorder)",
+        "code": "Syphilis Diagnosis-Female syphilitic pelvic inflammatory disease (disorder)",
         "display": "Female syphilitic pelvic inflammatory disease (disorder)"
       }, {
-        "code": "Syphilis-General paresis - neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-General paresis - neurosyphilis (disorder)",
         "display": "General paresis - neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Gingival disease caused by Treponema pallidum (disorder)",
+        "code": "Syphilis Diagnosis-Gingival disease caused by Treponema pallidum (disorder)",
         "display": "Gingival disease caused by Treponema pallidum (disorder)"
       }, {
-        "code": "Syphilis-Gummatous neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Gummatous neurosyphilis (disorder)",
         "display": "Gummatous neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Hepatitis in late syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Hepatitis in late syphilis (disorder)",
         "display": "Hepatitis in late syphilis (disorder)"
       }, {
-        "code": "Syphilis-Hepatitis in secondary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Hepatitis in secondary syphilis (disorder)",
         "display": "Hepatitis in secondary syphilis (disorder)"
       }, {
-        "code": "Syphilis-Hutchinson's teeth (disorder)",
+        "code": "Syphilis Diagnosis-Hutchinson's teeth (disorder)",
         "display": "Hutchinson's teeth (disorder)"
       }, {
-        "code": "Syphilis-Hutchinson's triad (disorder)",
+        "code": "Syphilis Diagnosis-Hutchinson's triad (disorder)",
         "display": "Hutchinson's triad (disorder)"
       }, {
-        "code": "Syphilis-Juvenile tabes dorsalis (disorder)",
+        "code": "Syphilis Diagnosis-Juvenile tabes dorsalis (disorder)",
         "display": "Juvenile tabes dorsalis (disorder)"
       }, {
-        "code": "Syphilis-Juvenile taboparesis (disorder)",
+        "code": "Syphilis Diagnosis-Juvenile taboparesis (disorder)",
         "display": "Juvenile taboparesis (disorder)"
       }, {
-        "code": "Syphilis-Keratitis caused by syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Keratitis caused by syphilis (disorder)",
         "display": "Keratitis caused by syphilis (disorder)"
       }, {
-        "code": "Syphilis-Late congenital neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Late congenital neurosyphilis (disorder)",
         "display": "Late congenital neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Late congenital syphilis (2 years OR more) (disorder)",
+        "code": "Syphilis Diagnosis-Late congenital syphilis (2 years OR more) (disorder)",
         "display": "Late congenital syphilis (2 years OR more) (disorder)"
       }, {
-        "code": "Syphilis-Late congenital syphilis, latent (positive serology - cerebrospinal fluid, 2 years OR more) (disorder)",
+        "code": "Syphilis Diagnosis-Late congenital syphilis, latent (positive serology - cerebrospinal fluid, 2 years OR more) (disorder)",
         "display": "Late congenital syphilis, latent (positive serology - cerebrospinal fluid, 2 years OR more) (disorder)"
       }, {
-        "code": "Syphilis-Late congenital syphilitic meningitis (disorder)",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic meningitis (disorder)",
         "display": "Late congenital syphilitic meningitis (disorder)"
       }, {
-        "code": "Syphilis-Late congenital syphilitic oculopathy (disorder)",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy (disorder)",
         "display": "Late congenital syphilitic oculopathy (disorder)"
       }, {
-        "code": "Syphilis-Late congenital syphilitic polyneuropathy (disorder)",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic polyneuropathy (disorder)",
         "display": "Late congenital syphilitic polyneuropathy (disorder)"
       }, {
-        "code": "Syphilis-Late latent syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Late latent syphilis (disorder)",
         "display": "Late latent syphilis (disorder)"
       }, {
-        "code": "Syphilis-Late quaternary neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Late quaternary neurosyphilis (disorder)",
         "display": "Late quaternary neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Late secondary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Late secondary syphilis (disorder)",
         "display": "Late secondary syphilis (disorder)"
       }, {
-        "code": "Syphilis-Late syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Late syphilis (disorder)",
         "display": "Late syphilis (disorder)"
       }, {
-        "code": "Syphilis-Late syphilis of kidney (disorder)",
+        "code": "Syphilis Diagnosis-Late syphilis of kidney (disorder)",
         "display": "Late syphilis of kidney (disorder)"
       }, {
-        "code": "Syphilis-Late syphilis with clinical manifestations other than neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Late syphilis with clinical manifestations other than neurosyphilis (disorder)",
         "display": "Late syphilis with clinical manifestations other than neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Late syphilis, latent (positive serology, negative cephalospinal fluid 2 years after) (disorder)",
+        "code": "Syphilis Diagnosis-Late syphilis, latent (positive serology, negative cephalospinal fluid 2 years after) (disorder)",
         "display": "Late syphilis, latent (positive serology, negative cephalospinal fluid 2 years after) (disorder)"
       }, {
-        "code": "Syphilis-Late syphilitic encephalitis (disorder)",
+        "code": "Syphilis Diagnosis-Late syphilitic encephalitis (disorder)",
         "display": "Late syphilitic encephalitis (disorder)"
       }, {
-        "code": "Syphilis-Latent early syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Latent early syphilis (disorder)",
         "display": "Latent early syphilis (disorder)"
       }, {
-        "code": "Syphilis-Latent syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Latent syphilis (disorder)",
         "display": "Latent syphilis (disorder)"
       }, {
-        "code": "Syphilis-Latent syphilis with positive serology (disorder)",
+        "code": "Syphilis Diagnosis-Latent syphilis with positive serology (disorder)",
         "display": "Latent syphilis with positive serology (disorder)"
       }, {
-        "code": "Syphilis-Macular syphilide (disorder)",
+        "code": "Syphilis Diagnosis-Macular syphilide (disorder)",
         "display": "Macular syphilide (disorder)"
       }, {
-        "code": "Syphilis-Maternal syphilis during pregnancy - baby delivered (disorder)",
+        "code": "Syphilis Diagnosis-Maternal syphilis during pregnancy - baby delivered (disorder)",
         "display": "Maternal syphilis during pregnancy - baby delivered (disorder)"
       }, {
-        "code": "Syphilis-Maternal syphilis during pregnancy - baby not yet delivered (disorder)",
+        "code": "Syphilis Diagnosis-Maternal syphilis during pregnancy - baby not yet delivered (disorder)",
         "display": "Maternal syphilis during pregnancy - baby not yet delivered (disorder)"
       }, {
-        "code": "Syphilis-Maternal syphilis during pregnancy, childbirth and the puerperium (disorder)",
+        "code": "Syphilis Diagnosis-Maternal syphilis during pregnancy, childbirth and the puerperium (disorder)",
         "display": "Maternal syphilis during pregnancy, childbirth and the puerperium (disorder)"
       }, {
-        "code": "Syphilis-Maternal syphilis in the puerperium - baby delivered during current episode of care (disorder)",
+        "code": "Syphilis Diagnosis-Maternal syphilis in the puerperium - baby delivered during current episode of care (disorder)",
         "display": "Maternal syphilis in the puerperium - baby delivered during current episode of care (disorder)"
       }, {
-        "code": "Syphilis-Maternal syphilis in the puerperium - baby delivered during previous episode of care (disorder)",
+        "code": "Syphilis Diagnosis-Maternal syphilis in the puerperium - baby delivered during previous episode of care (disorder)",
         "display": "Maternal syphilis in the puerperium - baby delivered during previous episode of care (disorder)"
       }, {
-        "code": "Syphilis-Meningovascular syphilis - quaternary stage (disorder)",
+        "code": "Syphilis Diagnosis-Meningovascular syphilis - quaternary stage (disorder)",
         "display": "Meningovascular syphilis - quaternary stage (disorder)"
       }, {
-        "code": "Syphilis-Nasal syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Nasal syphilis (disorder)",
         "display": "Nasal syphilis (disorder)"
       }, {
-        "code": "Syphilis-Neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Neurosyphilis (disorder)",
         "display": "Neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Nodular syphilide (disorder)",
+        "code": "Syphilis Diagnosis-Nodular syphilide (disorder)",
         "display": "Nodular syphilide (disorder)"
       }, {
-        "code": "Syphilis-Ocular syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Ocular syphilis (disorder)",
         "display": "Ocular syphilis (disorder)"
       }, {
-        "code": "Syphilis-Oral mucous membrane lesion due to late syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Oral mucous membrane lesion due to late syphilis (disorder)",
         "display": "Oral mucous membrane lesion due to late syphilis (disorder)"
       }, {
-        "code": "Syphilis-Oral syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Oral syphilis (disorder)",
         "display": "Oral syphilis (disorder)"
       }, {
-        "code": "Syphilis-Papular syphilide (disorder)",
+        "code": "Syphilis Diagnosis-Papular syphilide (disorder)",
         "display": "Papular syphilide (disorder)"
       }, {
-        "code": "Syphilis-Primary anal syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Primary anal syphilis (disorder)",
         "display": "Primary anal syphilis (disorder)"
       }, {
-        "code": "Syphilis-Primary extragenital syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Primary extragenital syphilis (disorder)",
         "display": "Primary extragenital syphilis (disorder)"
       }, {
-        "code": "Syphilis-Primary genital syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Primary genital syphilis (disorder)",
         "display": "Primary genital syphilis (disorder)"
       }, {
-        "code": "Syphilis-Primary symptomatic early syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Primary symptomatic early syphilis (disorder)",
         "display": "Primary symptomatic early syphilis (disorder)"
       }, {
-        "code": "Syphilis-Primary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Primary syphilis (disorder)",
         "display": "Primary syphilis (disorder)"
       }, {
-        "code": "Syphilis-Primary syphilis of breast (disorder)",
+        "code": "Syphilis Diagnosis-Primary syphilis of breast (disorder)",
         "display": "Primary syphilis of breast (disorder)"
       }, {
-        "code": "Syphilis-Primary syphilis of fingers (disorder)",
+        "code": "Syphilis Diagnosis-Primary syphilis of fingers (disorder)",
         "display": "Primary syphilis of fingers (disorder)"
       }, {
-        "code": "Syphilis-Primary syphilis of lip (disorder)",
+        "code": "Syphilis Diagnosis-Primary syphilis of lip (disorder)",
         "display": "Primary syphilis of lip (disorder)"
       }, {
-        "code": "Syphilis-Primary syphilis of nipple (disorder)",
+        "code": "Syphilis Diagnosis-Primary syphilis of nipple (disorder)",
         "display": "Primary syphilis of nipple (disorder)"
       }, {
-        "code": "Syphilis-Primary syphilis of tonsils (disorder)",
+        "code": "Syphilis Diagnosis-Primary syphilis of tonsils (disorder)",
         "display": "Primary syphilis of tonsils (disorder)"
       }, {
-        "code": "Syphilis-Progressive locomotor ataxia (disorder)",
+        "code": "Syphilis Diagnosis-Progressive locomotor ataxia (disorder)",
         "display": "Progressive locomotor ataxia (disorder)"
       }, {
-        "code": "Syphilis-Pustular syphilide (disorder)",
+        "code": "Syphilis Diagnosis-Pustular syphilide (disorder)",
         "display": "Pustular syphilide (disorder)"
       }, {
-        "code": "Syphilis-Quaternary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Quaternary syphilis (disorder)",
         "display": "Quaternary syphilis (disorder)"
       }, {
-        "code": "Syphilis-Rash of secondary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Rash of secondary syphilis (disorder)",
         "display": "Rash of secondary syphilis (disorder)"
       }, {
-        "code": "Syphilis-Secondary neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Secondary neurosyphilis (disorder)",
         "display": "Secondary neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Secondary symptomatic early syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Secondary symptomatic early syphilis (disorder)",
         "display": "Secondary symptomatic early syphilis (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis (disorder)",
         "display": "Secondary syphilis (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of anus (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of anus (disorder)",
         "display": "Secondary syphilis of anus (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of bone (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of bone (disorder)",
         "display": "Secondary syphilis of bone (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of liver (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of liver (disorder)",
         "display": "Secondary syphilis of liver (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of mouth (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of mouth (disorder)",
         "display": "Secondary syphilis of mouth (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of mucous membrane (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of mucous membrane (disorder)",
         "display": "Secondary syphilis of mucous membrane (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of pharynx (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of pharynx (disorder)",
         "display": "Secondary syphilis of pharynx (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of skin (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of skin (disorder)",
         "display": "Secondary syphilis of skin (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of skin and mucous membrane (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of skin and mucous membrane (disorder)",
         "display": "Secondary syphilis of skin and mucous membrane (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of tonsil (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of tonsil (disorder)",
         "display": "Secondary syphilis of tonsil (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of viscera (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of viscera (disorder)",
         "display": "Secondary syphilis of viscera (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis of vulva (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis of vulva (disorder)",
         "display": "Secondary syphilis of vulva (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis relapse (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis relapse (disorder)",
         "display": "Secondary syphilis relapse (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis, relapse (treated) (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis, relapse (treated) (disorder)",
         "display": "Secondary syphilis, relapse (treated) (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilis, relapse (untreated) (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilis, relapse (untreated) (disorder)",
         "display": "Secondary syphilis, relapse (untreated) (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilitic adenopathy (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilitic adenopathy (disorder)",
         "display": "Secondary syphilitic adenopathy (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilitic chorioretinitis (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilitic chorioretinitis (disorder)",
         "display": "Secondary syphilitic chorioretinitis (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilitic iridocyclitis (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilitic iridocyclitis (disorder)",
         "display": "Secondary syphilitic iridocyclitis (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilitic meningitis (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilitic meningitis (disorder)",
         "display": "Secondary syphilitic meningitis (disorder)"
       }, {
-        "code": "Syphilis-Secondary syphilitic periostitis (disorder)",
+        "code": "Syphilis Diagnosis-Secondary syphilitic periostitis (disorder)",
         "display": "Secondary syphilitic periostitis (disorder)"
       }, {
-        "code": "Syphilis-Serological relapse after treatment of latent early syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Serological relapse after treatment of latent early syphilis (disorder)",
         "display": "Serological relapse after treatment of latent early syphilis (disorder)"
       }, {
-        "code": "Syphilis-Spastic spinal syphilitic paralysis (disorder)",
+        "code": "Syphilis Diagnosis-Spastic spinal syphilitic paralysis (disorder)",
         "display": "Spastic spinal syphilitic paralysis (disorder)"
       }, {
-        "code": "Syphilis-Symptomatic late congenital syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Symptomatic late congenital syphilis (disorder)",
         "display": "Symptomatic late congenital syphilis (disorder)"
       }, {
-        "code": "Syphilis-Syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis (disorder)",
         "display": "Syphilis (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of bone (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of bone (disorder)",
         "display": "Syphilis of bone (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of breast (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of breast (disorder)",
         "display": "Syphilis of breast (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of bursa (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of bursa (disorder)",
         "display": "Syphilis of bursa (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of kidney (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of kidney (disorder)",
         "display": "Syphilis of kidney (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of liver (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of liver (disorder)",
         "display": "Syphilis of liver (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of lung (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of lung (disorder)",
         "display": "Syphilis of lung (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of mitral valve (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of mitral valve (disorder)",
         "display": "Syphilis of mitral valve (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of muscle (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of muscle (disorder)",
         "display": "Syphilis of muscle (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of pulmonary valve (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of pulmonary valve (disorder)",
         "display": "Syphilis of pulmonary valve (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of synovium (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of synovium (disorder)",
         "display": "Syphilis of synovium (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of tendon (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of tendon (disorder)",
         "display": "Syphilis of tendon (disorder)"
       }, {
-        "code": "Syphilis-Syphilis of tricuspid valve (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis of tricuspid valve (disorder)",
         "display": "Syphilis of tricuspid valve (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic acoustic neuritis - quaternary stage (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic acoustic neuritis - quaternary stage (disorder)",
         "display": "Syphilitic acoustic neuritis - quaternary stage (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic acoustic neuritis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic acoustic neuritis (disorder)",
         "display": "Syphilitic acoustic neuritis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic alopecia (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic alopecia (disorder)",
         "display": "Syphilitic alopecia (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic aneurysm (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic aneurysm (disorder)",
         "display": "Syphilitic aneurysm (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic aneurysm of aorta (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic aneurysm of aorta (disorder)",
         "display": "Syphilitic aneurysm of aorta (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic aortic incompetence (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic aortic incompetence (disorder)",
         "display": "Syphilitic aortic incompetence (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic aortic stenosis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic aortic stenosis (disorder)",
         "display": "Syphilitic aortic stenosis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic aortitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic aortitis (disorder)",
         "display": "Syphilitic aortitis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic balanitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic balanitis (disorder)",
         "display": "Syphilitic balanitis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic cerebral arteritis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic cerebral arteritis (disorder)",
         "display": "Syphilitic cerebral arteritis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic chancre of oral mucous membranes (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic chancre of oral mucous membranes (disorder)",
         "display": "Syphilitic chancre of oral mucous membranes (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic chancre of penis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic chancre of penis (disorder)",
         "display": "Syphilitic chancre of penis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic chancre of vulva (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic chancre of vulva (disorder)",
         "display": "Syphilitic chancre of vulva (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic chorioretinitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic chorioretinitis (disorder)",
         "display": "Syphilitic chorioretinitis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic cirrhosis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic cirrhosis (disorder)",
         "display": "Syphilitic cirrhosis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic coronary artery disease (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic coronary artery disease (disorder)",
         "display": "Syphilitic coronary artery disease (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic disseminated retinochoroiditis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic disseminated retinochoroiditis (disorder)",
         "display": "Syphilitic disseminated retinochoroiditis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic encephalitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic encephalitis (disorder)",
         "display": "Syphilitic encephalitis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic endocarditis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic endocarditis (disorder)",
         "display": "Syphilitic endocarditis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic endocarditis of aortic valve (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic endocarditis of aortic valve (disorder)",
         "display": "Syphilitic endocarditis of aortic valve (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic endocarditis of mitral valve (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic endocarditis of mitral valve (disorder)",
         "display": "Syphilitic endocarditis of mitral valve (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic endocarditis of pulmonary valve (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic endocarditis of pulmonary valve (disorder)",
         "display": "Syphilitic endocarditis of pulmonary valve (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic endocarditis of tricuspid valve (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic endocarditis of tricuspid valve (disorder)",
         "display": "Syphilitic endocarditis of tricuspid valve (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic episcleritis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic episcleritis (disorder)",
         "display": "Syphilitic episcleritis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic gumma (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic gumma (disorder)",
         "display": "Syphilitic gumma (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic gumma of central nervous system (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic gumma of central nervous system (disorder)",
         "display": "Syphilitic gumma of central nervous system (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic gumma of oral cavity (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic gumma of oral cavity (disorder)",
         "display": "Syphilitic gumma of oral cavity (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic interstitial keratitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic interstitial keratitis (disorder)",
         "display": "Syphilitic interstitial keratitis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic leukoderma (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic leukoderma (disorder)",
         "display": "Syphilitic leukoderma (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic leukoplakia of tongue (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic leukoplakia of tongue (disorder)",
         "display": "Syphilitic leukoplakia of tongue (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic mucosal ulceration (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic mucosal ulceration (disorder)",
         "display": "Syphilitic mucosal ulceration (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic myocarditis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic myocarditis (disorder)",
         "display": "Syphilitic myocarditis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic optic atrophy (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic optic atrophy (disorder)",
         "display": "Syphilitic optic atrophy (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic oral leukoplakia (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic oral leukoplakia (disorder)",
         "display": "Syphilitic oral leukoplakia (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic oral snail track ulcer (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic oral snail track ulcer (disorder)",
         "display": "Syphilitic oral snail track ulcer (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic ostial coronary disease (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic ostial coronary disease (disorder)",
         "display": "Syphilitic ostial coronary disease (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic parkinsonism (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic parkinsonism (disorder)",
         "display": "Syphilitic parkinsonism (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic pericarditis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic pericarditis (disorder)",
         "display": "Syphilitic pericarditis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic polyneuropathy (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic polyneuropathy (disorder)",
         "display": "Syphilitic polyneuropathy (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic portal cirrhosis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic portal cirrhosis (disorder)",
         "display": "Syphilitic portal cirrhosis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic prostatitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic prostatitis (disorder)",
         "display": "Syphilitic prostatitis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic punched out ulcer (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic punched out ulcer (disorder)",
         "display": "Syphilitic punched out ulcer (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic retinitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic retinitis (disorder)",
         "display": "Syphilitic retinitis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic retrobulbar neuritis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic retrobulbar neuritis (disorder)",
         "display": "Syphilitic retrobulbar neuritis (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic skin disorder (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic skin disorder (disorder)",
         "display": "Syphilitic skin disorder (disorder)"
       }, {
-        "code": "Syphilis-Syphilitic valve disease (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic valve disease (disorder)",
         "display": "Syphilitic valve disease (disorder)"
       }, {
-        "code": "Syphilis-Tabetic neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Tabetic neurosyphilis (disorder)",
         "display": "Tabetic neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis-Taboparesis (disorder)",
+        "code": "Syphilis Diagnosis-Taboparesis (disorder)",
         "display": "Taboparesis (disorder)"
       }, {
-        "code": "Syphilis-Tertiary syphilitic chorioretinitis (disorder)",
+        "code": "Syphilis Diagnosis-Tertiary syphilitic chorioretinitis (disorder)",
         "display": "Tertiary syphilitic chorioretinitis (disorder)"
       }, {
-        "code": "Syphilis-Uveitis due to secondary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Uveitis due to secondary syphilis (disorder)",
         "display": "Uveitis due to secondary syphilis (disorder)"
       } ]
     } ]

@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hiv-test-ordered-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-test-ordered-choices",
+  "name": "hiv-test-ordered-choices",
+  "title": "HIV Test Ordered Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HIV Test Ordered Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "HIV Test Ordered-Human immunodeficiency virus test offered (finding)",
+        "display": "Human immunodeficiency virus test offered (finding)"
+      }, {
+        "code": "HIV Test Ordered-Human immunodeficiency virus antigen test (procedure)",
+        "display": "Human immunodeficiency virus antigen test (procedure)"
+      } ]
+    } ]
+  }
+}

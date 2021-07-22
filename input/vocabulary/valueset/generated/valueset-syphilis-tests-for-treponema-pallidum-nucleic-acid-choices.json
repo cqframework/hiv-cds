@@ -12,19 +12,19 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Blood by NAA with probe detection",
+        "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Blood by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection",
+        "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection",
+        "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection"
       }, {
-        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Syphilis Test-Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Syphilis (Tests for Treponema pallidum Nucleic Acid)-Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection",
+        "code": "Syphilis Test-Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection",
         "display": "Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection"
       } ]
     } ]

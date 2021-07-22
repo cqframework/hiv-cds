@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "emtricitabine-ftc-200mg-order-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/emtricitabine-ftc-200mg-order-choices",
+  "name": "emtricitabine-ftc-200mg-order-choices",
+  "title": "Emtricitabine (FTC) 200mg Order Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Emtricitabine (FTC) 200mg Order Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Capsule",
+        "display": "emtricitabine 200 MG Oral Capsule"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Capsule [Emtriva]",
+        "display": "emtricitabine 200 MG Oral Capsule [Emtriva]"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG",
+        "display": "emtricitabine 200 MG"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG [Emtriva]",
+        "display": "emtricitabine 200 MG [Emtriva]"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Tablet",
+        "display": "emtricitabine 200 MG Oral Tablet"
+      } ]
+    } ]
+  }
+}

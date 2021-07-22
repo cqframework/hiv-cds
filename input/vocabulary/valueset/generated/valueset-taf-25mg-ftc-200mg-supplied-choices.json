@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "taf-25mg-ftc-200mg-supplied-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/taf-25mg-ftc-200mg-supplied-choices",
+  "name": "taf-25mg-ftc-200mg-supplied-choices",
+  "title": "TAF 25mg / FTC 200mg Supplied Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the TAF 25mg / FTC 200mg Supplied Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pre Exposure Prophylaxis Dispensed Medications-61958-2002",
+        "display": "61958-2002"
+      }, {
+        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-0230",
+        "display": "70518-0230"
+      } ]
+    } ]
+  }
+}

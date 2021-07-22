@@ -12,61 +12,61 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-HCV antibody RIBA tests - Meaningful Use set by Immunoblot",
+        "code": "Hepatitis C Test-HCV antibody RIBA tests - Meaningful Use set by Immunoblot",
         "display": "HCV antibody RIBA tests - Meaningful Use set by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus 100+5-1-1 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus 100+5-1-1 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus 100+5-1-1 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus 100-3 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus 100-3 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus 100-3 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus 5-1-1 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus 5-1-1 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus 5-1-1 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus Ab band pattern [Interpretation] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab band pattern [Interpretation] in Serum by Immunoblot",
         "display": "Hepatitis C virus Ab band pattern [Interpretation] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus c1 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus c1 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus c1 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus c2 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus c2 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus c2 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus c22p Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus c22p Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus c22p Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus c33c Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus c33c Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus c33c Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus E2 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus E2 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus E2 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus IgG Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus IgG Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus IgG Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus IgG band pattern [Interpretation] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus IgG band pattern [Interpretation] in Serum by Immunoblot",
         "display": "Hepatitis C virus IgG band pattern [Interpretation] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus NS3 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus NS3 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus NS3 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus NS4 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus NS4 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus NS4 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus NS5 Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus NS5 Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus NS5 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "Hepatitis C virus antibody test using Immunoblotting (IB) method-Hepatitis C virus superoxide dismutase Ab [Presence] in Serum by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus superoxide dismutase Ab [Presence] in Serum by Immunoblot",
         "display": "Hepatitis C virus superoxide dismutase Ab [Presence] in Serum by Immunoblot"
       } ]
     } ]

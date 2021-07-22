@@ -37,14 +37,14 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.a2.de1",
-    "text": "HIV-1 HIV 2 Ab Ag tests",
+    "text": "HIV Test",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-1-hiv-2-ab-ag-tests-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-test-choices-grouper"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.a2.de172",
-    "text": "HIV Viral Load",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.a2.de216",
+    "text": "HIV Test Ordered",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-viral-load-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-test-ordered-choices"
   } ]
 }

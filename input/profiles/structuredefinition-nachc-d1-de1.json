@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-d1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-d1-de1",
-  "name": "Gonococcal Infections and Venereal Diseases",
-  "title": "Gonococcal Infections and Venereal Diseases",
+  "name": "Gonorrhea Diagnosis",
+  "title": "Gonorrhea Diagnosis",
   "status": "draft",
   "experimental": false,
-  "description": "Gonorrhea",
+  "description": "Concepts Associated with Gonorrhea Diagnosis",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,7 +38,7 @@
     }, {
       "id": "Condition.code",
       "path": "Condition.code",
-      "short": "Gonococcal Infections and Venereal Diseases",
+      "short": "Gonorrhea Diagnosis",
       "comment": "Gonorrhea infection mapping",
       "min": 1,
       "max": "*",
@@ -46,10 +46,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Gonococcal Infections and Venereal Diseases Choices"
+          "valueString": "Gonorrhea Diagnosis Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonococcal-infections-and-venereal-diseases-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-diagnosis-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

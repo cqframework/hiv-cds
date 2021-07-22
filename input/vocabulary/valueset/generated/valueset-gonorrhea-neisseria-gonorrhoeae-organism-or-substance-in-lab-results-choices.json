@@ -12,37 +12,37 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Antigen of Neisseria gonorrhoeae (substance)",
+        "code": "Gonorrhea Diagnosis-Antigen of Neisseria gonorrhoeae (substance)",
         "display": "Antigen of Neisseria gonorrhoeae (substance)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)",
+        "code": "Gonorrhea Diagnosis-Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)",
         "display": "Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Penicillinase-producing Neisseria gonorrhoeae (organism)",
+        "code": "Gonorrhea Diagnosis-Penicillinase-producing Neisseria gonorrhoeae (organism)",
         "display": "Penicillinase-producing Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Tetracycline-resistant Neisseria gonorrhoeae (organism)",
+        "code": "Gonorrhea Diagnosis-Tetracycline-resistant Neisseria gonorrhoeae (organism)",
         "display": "Tetracycline-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Cephalosporin-resistant Neisseria gonorrhoeae (organism)",
+        "code": "Gonorrhea Diagnosis-Cephalosporin-resistant Neisseria gonorrhoeae (organism)",
         "display": "Cephalosporin-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Spectinomycin-resistant Neisseria gonorrhoeae (organism)",
+        "code": "Gonorrhea Diagnosis-Spectinomycin-resistant Neisseria gonorrhoeae (organism)",
         "display": "Spectinomycin-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)",
+        "code": "Gonorrhea Diagnosis-Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)",
         "display": "Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Neisseria gonorrhoeae, beta lactamase negative (organism)",
+        "code": "Gonorrhea Diagnosis-Neisseria gonorrhoeae, beta lactamase negative (organism)",
         "display": "Neisseria gonorrhoeae, beta lactamase negative (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Neisseria gonorrhoeae (organism)",
+        "code": "Gonorrhea Diagnosis-Neisseria gonorrhoeae (organism)",
         "display": "Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)",
+        "code": "Gonorrhea Diagnosis-Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)",
         "display": "Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)"
       }, {
-        "code": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)-Gram-negative diplococcus (organism)",
+        "code": "Gonorrhea Diagnosis-Gram-negative diplococcus (organism)",
         "display": "Gram-negative diplococcus (organism)"
       } ]
     } ]

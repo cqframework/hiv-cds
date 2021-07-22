@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sexual-activity-number-of-partners",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-number-of-partners",
+  "name": "sexual-activity-number-of-partners",
+  "title": "Sexual Activity -  Number of Partners",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity -  Number of Partners element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Whether the patient has had more than 1 partner since previous HIV test",
+        "display": "Whether the patient has had more than 1 partner since previous HIV test"
+      } ]
+    } ]
+  }
+}

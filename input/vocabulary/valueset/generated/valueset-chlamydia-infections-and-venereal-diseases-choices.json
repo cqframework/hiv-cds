@@ -12,16 +12,16 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chlamydia Infections and Venereal Diseases-Chlamydia trachomatis infection of anus and rectum (disorder)",
+        "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection of anus and rectum (disorder)",
         "display": "Chlamydia trachomatis infection of anus and rectum (disorder)"
       }, {
-        "code": "Chlamydia Infections and Venereal Diseases-Acute genitourinary chlamydia infection (disorder)",
+        "code": "Chlamydia Diagnosis-Acute genitourinary chlamydia infection (disorder)",
         "display": "Acute genitourinary chlamydia infection (disorder)"
       }, {
-        "code": "Chlamydia Infections and Venereal Diseases-Acute genitourinary Chlamydia trachomatis infection (disorder)",
+        "code": "Chlamydia Diagnosis-Acute genitourinary Chlamydia trachomatis infection (disorder)",
         "display": "Acute genitourinary Chlamydia trachomatis infection (disorder)"
       }, {
-        "code": "Chlamydia Infections and Venereal Diseases-Chlamydia trachomatis infection of genital structure (disorder)",
+        "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection of genital structure (disorder)",
         "display": "Chlamydia trachomatis infection of genital structure (disorder)"
       } ]
     } ]

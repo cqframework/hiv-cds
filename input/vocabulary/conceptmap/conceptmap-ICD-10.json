@@ -11,7 +11,7 @@
     "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
     "target": "http://hl7.org/fhir/sid/icd-10",
     "element": [ {
-      "code": "HIV infection as a condition-Asymptomatic human immunodeficiency virus [HIV] infection status",
+      "code": "HIV Diagnosis-Asymptomatic human immunodeficiency virus [HIV] infection status",
       "display": "Asymptomatic human immunodeficiency virus [HIV] infection status",
       "target": [ {
         "code": "Z21",
@@ -19,7 +19,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease",
+      "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease",
       "display": "Human immunodeficiency virus [HIV] disease",
       "target": [ {
         "code": "B20",
@@ -27,7 +27,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating childbirth",
+      "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating childbirth",
       "display": "Human immunodeficiency virus [HIV] disease complicating childbirth",
       "target": [ {
         "code": "O98.72",
@@ -35,7 +35,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester",
+      "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester",
       "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester",
       "target": [ {
         "code": "O98.711",
@@ -43,7 +43,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester",
+      "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester",
       "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester",
       "target": [ {
         "code": "O98.712",
@@ -51,7 +51,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester",
+      "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester",
       "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester",
       "target": [ {
         "code": "O98.713",
@@ -59,7 +59,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester",
+      "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester",
       "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester",
       "target": [ {
         "code": "O98.719",
@@ -67,7 +67,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus [HIV] disease complicating the puerperium",
+      "code": "HIV Diagnosis-Human immunodeficiency virus [HIV] disease complicating the puerperium",
       "display": "Human immunodeficiency virus [HIV] disease complicating the puerperium",
       "target": [ {
         "code": "O98.73",
@@ -75,7 +75,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV infection as a condition-Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere",
+      "code": "HIV Diagnosis-Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere",
       "display": "Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere",
       "target": [ {
         "code": "B97.35",
@@ -83,7 +83,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Virus Infection (Disorders)-Acute hepatitis C",
+      "code": "Hepatitis C Diagnosis-Acute hepatitis C",
       "display": "Acute hepatitis C",
       "target": [ {
         "code": "B17.1",
@@ -91,7 +91,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Virus Infection (Disorders)-Acute hepatitis C without hepatic coma",
+      "code": "Hepatitis C Diagnosis-Acute hepatitis C without hepatic coma",
       "display": "Acute hepatitis C without hepatic coma",
       "target": [ {
         "code": "B17.10",
@@ -99,7 +99,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Virus Infection (Disorders)-Acute hepatitis C with hepatic coma",
+      "code": "Hepatitis C Diagnosis-Acute hepatitis C with hepatic coma",
       "display": "Acute hepatitis C with hepatic coma",
       "target": [ {
         "code": "B17.11",
@@ -107,7 +107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Virus Infection (Disorders)-Chronic viral hepatitis C",
+      "code": "Hepatitis C Diagnosis-Chronic viral hepatitis C",
       "display": "Chronic viral hepatitis C",
       "target": [ {
         "code": "B18.2",
@@ -115,7 +115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Virus Infection (Disorders)-Unspecified viral hepatitis C",
+      "code": "Hepatitis C Diagnosis-Unspecified viral hepatitis C",
       "display": "Unspecified viral hepatitis C",
       "target": [ {
         "code": "B19.2",
@@ -123,7 +123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Virus Infection (Disorders)-Unspecified viral hepatitis C without hepatic coma",
+      "code": "Hepatitis C Diagnosis-Unspecified viral hepatitis C without hepatic coma",
       "display": "Unspecified viral hepatitis C without hepatic coma",
       "target": [ {
         "code": "B19.20",
@@ -131,7 +131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Virus Infection (Disorders)-Unspecified viral hepatitis C with hepatic coma",
+      "code": "Hepatitis C Diagnosis-Unspecified viral hepatitis C with hepatic coma",
       "display": "Unspecified viral hepatitis C with hepatic coma",
       "target": [ {
         "code": "B19.21",
@@ -139,7 +139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Asymptomatic neurosyphilis",
+      "code": "Syphilis Diagnosis-Asymptomatic neurosyphilis",
       "display": "Asymptomatic neurosyphilis",
       "target": [ {
         "code": "A52.2",
@@ -147,7 +147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Cardiovascular and cerebrovascular syphilis",
+      "code": "Syphilis Diagnosis-Cardiovascular and cerebrovascular syphilis",
       "display": "Cardiovascular and cerebrovascular syphilis",
       "target": [ {
         "code": "A52.0",
@@ -155,7 +155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Cardiovascular syphilis, unspecified",
+      "code": "Syphilis Diagnosis-Cardiovascular syphilis, unspecified",
       "display": "Cardiovascular syphilis, unspecified",
       "target": [ {
         "code": "A52.00",
@@ -163,7 +163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Charcôt's arthropathy (tabetic)",
+      "code": "Syphilis Diagnosis-Charcôt's arthropathy (tabetic)",
       "display": "Charcôt's arthropathy (tabetic)",
       "target": [ {
         "code": "A52.16",
@@ -171,7 +171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Clutton's joints",
+      "code": "Syphilis Diagnosis-Clutton's joints",
       "display": "Clutton's joints",
       "target": [ {
         "code": "A50.51",
@@ -179,7 +179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Condyloma latum",
+      "code": "Syphilis Diagnosis-Condyloma latum",
       "display": "Condyloma latum",
       "target": [ {
         "code": "A51.31",
@@ -187,7 +187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Congenital syphilis",
+      "code": "Syphilis Diagnosis-Congenital syphilis",
       "display": "Congenital syphilis",
       "target": [ {
         "code": "A50",
@@ -195,7 +195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Congenital syphilis, unspecified",
+      "code": "Syphilis Diagnosis-Congenital syphilis, unspecified",
       "display": "Congenital syphilis, unspecified",
       "target": [ {
         "code": "A50.9",
@@ -203,7 +203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilis, latent",
+      "code": "Syphilis Diagnosis-Early congenital syphilis, latent",
       "display": "Early congenital syphilis, latent",
       "target": [ {
         "code": "A50.1",
@@ -211,7 +211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilis, symptomatic",
+      "code": "Syphilis Diagnosis-Early congenital syphilis, symptomatic",
       "display": "Early congenital syphilis, symptomatic",
       "target": [ {
         "code": "A50.0",
@@ -219,7 +219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilis, unspecified",
+      "code": "Syphilis Diagnosis-Early congenital syphilis, unspecified",
       "display": "Early congenital syphilis, unspecified",
       "target": [ {
         "code": "A50.2",
@@ -227,7 +227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilitic oculopathy",
+      "code": "Syphilis Diagnosis-Early congenital syphilitic oculopathy",
       "display": "Early congenital syphilitic oculopathy",
       "target": [ {
         "code": "A50.01",
@@ -235,7 +235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilitic osteochondropathy",
+      "code": "Syphilis Diagnosis-Early congenital syphilitic osteochondropathy",
       "display": "Early congenital syphilitic osteochondropathy",
       "target": [ {
         "code": "A50.02",
@@ -243,7 +243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilitic pharyngitis",
+      "code": "Syphilis Diagnosis-Early congenital syphilitic pharyngitis",
       "display": "Early congenital syphilitic pharyngitis",
       "target": [ {
         "code": "A50.03",
@@ -251,7 +251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilitic pneumonia",
+      "code": "Syphilis Diagnosis-Early congenital syphilitic pneumonia",
       "display": "Early congenital syphilitic pneumonia",
       "target": [ {
         "code": "A50.04",
@@ -259,7 +259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early congenital syphilitic rhinitis",
+      "code": "Syphilis Diagnosis-Early congenital syphilitic rhinitis",
       "display": "Early congenital syphilitic rhinitis",
       "target": [ {
         "code": "A50.05",
@@ -267,7 +267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early cutaneous congenital syphilis",
+      "code": "Syphilis Diagnosis-Early cutaneous congenital syphilis",
       "display": "Early cutaneous congenital syphilis",
       "target": [ {
         "code": "A50.06",
@@ -275,7 +275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early mucocutaneous congenital syphilis",
+      "code": "Syphilis Diagnosis-Early mucocutaneous congenital syphilis",
       "display": "Early mucocutaneous congenital syphilis",
       "target": [ {
         "code": "A50.07",
@@ -283,7 +283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early syphilis",
+      "code": "Syphilis Diagnosis-Early syphilis",
       "display": "Early syphilis",
       "target": [ {
         "code": "A51",
@@ -291,7 +291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early syphilis, latent",
+      "code": "Syphilis Diagnosis-Early syphilis, latent",
       "display": "Early syphilis, latent",
       "target": [ {
         "code": "A51.5",
@@ -299,7 +299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early syphilis, unspecified",
+      "code": "Syphilis Diagnosis-Early syphilis, unspecified",
       "display": "Early syphilis, unspecified",
       "target": [ {
         "code": "A51.9",
@@ -307,7 +307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Early visceral congenital syphilis",
+      "code": "Syphilis Diagnosis-Early visceral congenital syphilis",
       "display": "Early visceral congenital syphilis",
       "target": [ {
         "code": "A50.08",
@@ -315,7 +315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-General paresis",
+      "code": "Syphilis Diagnosis-General paresis",
       "display": "General paresis",
       "target": [ {
         "code": "A52.17",
@@ -323,7 +323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Hutchinson's teeth",
+      "code": "Syphilis Diagnosis-Hutchinson's teeth",
       "display": "Hutchinson's teeth",
       "target": [ {
         "code": "A50.52",
@@ -331,7 +331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Hutchinson's triad",
+      "code": "Syphilis Diagnosis-Hutchinson's triad",
       "display": "Hutchinson's triad",
       "target": [ {
         "code": "A50.53",
@@ -339,7 +339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Juvenile general paresis",
+      "code": "Syphilis Diagnosis-Juvenile general paresis",
       "display": "Juvenile general paresis",
       "target": [ {
         "code": "A50.45",
@@ -347,7 +347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital cardiovascular syphilis",
+      "code": "Syphilis Diagnosis-Late congenital cardiovascular syphilis",
       "display": "Late congenital cardiovascular syphilis",
       "target": [ {
         "code": "A50.54",
@@ -355,7 +355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital neurosyphilis [juvenile neurosyphilis]",
+      "code": "Syphilis Diagnosis-Late congenital neurosyphilis [juvenile neurosyphilis]",
       "display": "Late congenital neurosyphilis [juvenile neurosyphilis]",
       "target": [ {
         "code": "A50.4",
@@ -363,7 +363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital neurosyphilis, unspecified",
+      "code": "Syphilis Diagnosis-Late congenital neurosyphilis, unspecified",
       "display": "Late congenital neurosyphilis, unspecified",
       "target": [ {
         "code": "A50.40",
@@ -371,7 +371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilis, latent",
+      "code": "Syphilis Diagnosis-Late congenital syphilis, latent",
       "display": "Late congenital syphilis, latent",
       "target": [ {
         "code": "A50.6",
@@ -379,7 +379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilis, unspecified",
+      "code": "Syphilis Diagnosis-Late congenital syphilis, unspecified",
       "display": "Late congenital syphilis, unspecified",
       "target": [ {
         "code": "A50.7",
@@ -387,7 +387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic arthropathy",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic arthropathy",
       "display": "Late congenital syphilitic arthropathy",
       "target": [ {
         "code": "A50.55",
@@ -395,7 +395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic chorioretinitis",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic chorioretinitis",
       "display": "Late congenital syphilitic chorioretinitis",
       "target": [ {
         "code": "A50.32",
@@ -403,7 +403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic encephalitis",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic encephalitis",
       "display": "Late congenital syphilitic encephalitis",
       "target": [ {
         "code": "A50.42",
@@ -411,7 +411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic interstitial keratitis",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic interstitial keratitis",
       "display": "Late congenital syphilitic interstitial keratitis",
       "target": [ {
         "code": "A50.31",
@@ -419,7 +419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic meningitis",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic meningitis",
       "display": "Late congenital syphilitic meningitis",
       "target": [ {
         "code": "A50.41",
@@ -427,7 +427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic oculopathy",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy",
       "display": "Late congenital syphilitic oculopathy",
       "target": [ {
         "code": "A50.3",
@@ -435,7 +435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic oculopathy, unspecified",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy, unspecified",
       "display": "Late congenital syphilitic oculopathy, unspecified",
       "target": [ {
         "code": "A50.30",
@@ -443,7 +443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic optic nerve atrophy",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic optic nerve atrophy",
       "display": "Late congenital syphilitic optic nerve atrophy",
       "target": [ {
         "code": "A50.44",
@@ -451,7 +451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic osteochondropathy",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic osteochondropathy",
       "display": "Late congenital syphilitic osteochondropathy",
       "target": [ {
         "code": "A50.56",
@@ -459,7 +459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late congenital syphilitic polyneuropathy",
+      "code": "Syphilis Diagnosis-Late congenital syphilitic polyneuropathy",
       "display": "Late congenital syphilitic polyneuropathy",
       "target": [ {
         "code": "A50.43",
@@ -467,7 +467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late syphilis",
+      "code": "Syphilis Diagnosis-Late syphilis",
       "display": "Late syphilis",
       "target": [ {
         "code": "A52",
@@ -475,7 +475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late syphilis, latent",
+      "code": "Syphilis Diagnosis-Late syphilis, latent",
       "display": "Late syphilis, latent",
       "target": [ {
         "code": "A52.8",
@@ -483,7 +483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late syphilis, unspecified",
+      "code": "Syphilis Diagnosis-Late syphilis, unspecified",
       "display": "Late syphilis, unspecified",
       "target": [ {
         "code": "A52.9",
@@ -491,7 +491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late syphilitic encephalitis",
+      "code": "Syphilis Diagnosis-Late syphilitic encephalitis",
       "display": "Late syphilitic encephalitis",
       "target": [ {
         "code": "A52.14",
@@ -499,7 +499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late syphilitic meningitis",
+      "code": "Syphilis Diagnosis-Late syphilitic meningitis",
       "display": "Late syphilitic meningitis",
       "target": [ {
         "code": "A52.13",
@@ -507,7 +507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late syphilitic neuropathy",
+      "code": "Syphilis Diagnosis-Late syphilitic neuropathy",
       "display": "Late syphilitic neuropathy",
       "target": [ {
         "code": "A52.15",
@@ -515,7 +515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Late syphilitic oculopathy",
+      "code": "Syphilis Diagnosis-Late syphilitic oculopathy",
       "display": "Late syphilitic oculopathy",
       "target": [ {
         "code": "A52.71",
@@ -523,7 +523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Latent syphilis, unspecified as early or late",
+      "code": "Syphilis Diagnosis-Latent syphilis, unspecified as early or late",
       "display": "Latent syphilis, unspecified as early or late",
       "target": [ {
         "code": "A53.0",
@@ -531,7 +531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Neurosyphilis, unspecified",
+      "code": "Syphilis Diagnosis-Neurosyphilis, unspecified",
       "display": "Neurosyphilis, unspecified",
       "target": [ {
         "code": "A52.3",
@@ -539,7 +539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Nonvenereal syphilis",
+      "code": "Syphilis Diagnosis-Nonvenereal syphilis",
       "display": "Nonvenereal syphilis",
       "target": [ {
         "code": "A65",
@@ -547,7 +547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other and unspecified syphilis",
+      "code": "Syphilis Diagnosis-Other and unspecified syphilis",
       "display": "Other and unspecified syphilis",
       "target": [ {
         "code": "A53",
@@ -555,7 +555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other cardiovascular syphilis",
+      "code": "Syphilis Diagnosis-Other cardiovascular syphilis",
       "display": "Other cardiovascular syphilis",
       "target": [ {
         "code": "A52.09",
@@ -563,7 +563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other cerebrospinal syphilis",
+      "code": "Syphilis Diagnosis-Other cerebrospinal syphilis",
       "display": "Other cerebrospinal syphilis",
       "target": [ {
         "code": "A52.12",
@@ -571,7 +571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other cerebrovascular syphilis",
+      "code": "Syphilis Diagnosis-Other cerebrovascular syphilis",
       "display": "Other cerebrovascular syphilis",
       "target": [ {
         "code": "A52.05",
@@ -579,7 +579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other early congenital syphilis, symptomatic",
+      "code": "Syphilis Diagnosis-Other early congenital syphilis, symptomatic",
       "display": "Other early congenital syphilis, symptomatic",
       "target": [ {
         "code": "A50.09",
@@ -587,7 +587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other genitourinary symptomatic late syphilis",
+      "code": "Syphilis Diagnosis-Other genitourinary symptomatic late syphilis",
       "display": "Other genitourinary symptomatic late syphilis",
       "target": [ {
         "code": "A52.76",
@@ -595,7 +595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other late congenital neurosyphilis",
+      "code": "Syphilis Diagnosis-Other late congenital neurosyphilis",
       "display": "Other late congenital neurosyphilis",
       "target": [ {
         "code": "A50.49",
@@ -603,7 +603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other late congenital syphilis, symptomatic",
+      "code": "Syphilis Diagnosis-Other late congenital syphilis, symptomatic",
       "display": "Other late congenital syphilis, symptomatic",
       "target": [ {
         "code": "A50.5",
@@ -611,7 +611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other late congenital syphilitic oculopathy",
+      "code": "Syphilis Diagnosis-Other late congenital syphilitic oculopathy",
       "display": "Other late congenital syphilitic oculopathy",
       "target": [ {
         "code": "A50.39",
@@ -619,7 +619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other secondary syphilis",
+      "code": "Syphilis Diagnosis-Other secondary syphilis",
       "display": "Other secondary syphilis",
       "target": [ {
         "code": "A51.4",
@@ -627,7 +627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other secondary syphilis of skin",
+      "code": "Syphilis Diagnosis-Other secondary syphilis of skin",
       "display": "Other secondary syphilis of skin",
       "target": [ {
         "code": "A51.39",
@@ -635,7 +635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other secondary syphilitic conditions",
+      "code": "Syphilis Diagnosis-Other secondary syphilitic conditions",
       "display": "Other secondary syphilitic conditions",
       "target": [ {
         "code": "A51.49",
@@ -643,7 +643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other symptomatic late syphilis",
+      "code": "Syphilis Diagnosis-Other symptomatic late syphilis",
       "display": "Other symptomatic late syphilis",
       "target": [ {
         "code": "A52.7",
@@ -651,7 +651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other symptomatic neurosyphilis",
+      "code": "Syphilis Diagnosis-Other symptomatic neurosyphilis",
       "display": "Other symptomatic neurosyphilis",
       "target": [ {
         "code": "A52.19",
@@ -659,7 +659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Other syphilitic heart involvement",
+      "code": "Syphilis Diagnosis-Other syphilitic heart involvement",
       "display": "Other syphilitic heart involvement",
       "target": [ {
         "code": "A52.06",
@@ -667,7 +667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Primary anal syphilis",
+      "code": "Syphilis Diagnosis-Primary anal syphilis",
       "display": "Primary anal syphilis",
       "target": [ {
         "code": "A51.1",
@@ -675,7 +675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Primary genital syphilis",
+      "code": "Syphilis Diagnosis-Primary genital syphilis",
       "display": "Primary genital syphilis",
       "target": [ {
         "code": "A51.0",
@@ -683,7 +683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Primary syphilis of other sites",
+      "code": "Syphilis Diagnosis-Primary syphilis of other sites",
       "display": "Primary syphilis of other sites",
       "target": [ {
         "code": "A51.2",
@@ -691,7 +691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Secondary syphilis of skin and mucous membranes",
+      "code": "Syphilis Diagnosis-Secondary syphilis of skin and mucous membranes",
       "display": "Secondary syphilis of skin and mucous membranes",
       "target": [ {
         "code": "A51.3",
@@ -699,7 +699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Secondary syphilitic female pelvic disease",
+      "code": "Syphilis Diagnosis-Secondary syphilitic female pelvic disease",
       "display": "Secondary syphilitic female pelvic disease",
       "target": [ {
         "code": "A51.42",
@@ -707,7 +707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Secondary syphilitic hepatitis",
+      "code": "Syphilis Diagnosis-Secondary syphilitic hepatitis",
       "display": "Secondary syphilitic hepatitis",
       "target": [ {
         "code": "A51.45",
@@ -715,7 +715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Secondary syphilitic meningitis",
+      "code": "Syphilis Diagnosis-Secondary syphilitic meningitis",
       "display": "Secondary syphilitic meningitis",
       "target": [ {
         "code": "A51.41",
@@ -723,7 +723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Secondary syphilitic nephritis",
+      "code": "Syphilis Diagnosis-Secondary syphilitic nephritis",
       "display": "Secondary syphilitic nephritis",
       "target": [ {
         "code": "A51.44",
@@ -731,7 +731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Secondary syphilitic oculopathy",
+      "code": "Syphilis Diagnosis-Secondary syphilitic oculopathy",
       "display": "Secondary syphilitic oculopathy",
       "target": [ {
         "code": "A51.43",
@@ -739,7 +739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Secondary syphilitic osteopathy",
+      "code": "Syphilis Diagnosis-Secondary syphilitic osteopathy",
       "display": "Secondary syphilitic osteopathy",
       "target": [ {
         "code": "A51.46",
@@ -747,7 +747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Symptomatic late syphilis of other respiratory organs",
+      "code": "Syphilis Diagnosis-Symptomatic late syphilis of other respiratory organs",
       "display": "Symptomatic late syphilis of other respiratory organs",
       "target": [ {
         "code": "A52.73",
@@ -755,7 +755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Symptomatic neurosyphilis",
+      "code": "Syphilis Diagnosis-Symptomatic neurosyphilis",
       "display": "Symptomatic neurosyphilis",
       "target": [ {
         "code": "A52.1",
@@ -763,7 +763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Symptomatic neurosyphilis, unspecified",
+      "code": "Syphilis Diagnosis-Symptomatic neurosyphilis, unspecified",
       "display": "Symptomatic neurosyphilis, unspecified",
       "target": [ {
         "code": "A52.10",
@@ -771,7 +771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating childbirth",
+      "code": "Syphilis Diagnosis-Syphilis complicating childbirth",
       "display": "Syphilis complicating childbirth",
       "target": [ {
         "code": "O98.12",
@@ -779,7 +779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating pregnancy",
+      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy",
       "display": "Syphilis complicating pregnancy",
       "target": [ {
         "code": "O98.11",
@@ -787,7 +787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating pregnancy, childbirth and the puerperium",
+      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, childbirth and the puerperium",
       "display": "Syphilis complicating pregnancy, childbirth and the puerperium",
       "target": [ {
         "code": "O98.1",
@@ -795,7 +795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating pregnancy, first trimester",
+      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, first trimester",
       "display": "Syphilis complicating pregnancy, first trimester",
       "target": [ {
         "code": "O98.111",
@@ -803,7 +803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating pregnancy, second trimester",
+      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, second trimester",
       "display": "Syphilis complicating pregnancy, second trimester",
       "target": [ {
         "code": "O98.112",
@@ -811,7 +811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating pregnancy, third trimester",
+      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, third trimester",
       "display": "Syphilis complicating pregnancy, third trimester",
       "target": [ {
         "code": "O98.113",
@@ -819,7 +819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating pregnancy, unspecified trimester",
+      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, unspecified trimester",
       "display": "Syphilis complicating pregnancy, unspecified trimester",
       "target": [ {
         "code": "O98.119",
@@ -827,7 +827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis complicating the puerperium",
+      "code": "Syphilis Diagnosis-Syphilis complicating the puerperium",
       "display": "Syphilis complicating the puerperium",
       "target": [ {
         "code": "O98.13",
@@ -835,7 +835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis of bone and joint",
+      "code": "Syphilis Diagnosis-Syphilis of bone and joint",
       "display": "Syphilis of bone and joint",
       "target": [ {
         "code": "A52.77",
@@ -843,7 +843,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis of kidney and ureter",
+      "code": "Syphilis Diagnosis-Syphilis of kidney and ureter",
       "display": "Syphilis of kidney and ureter",
       "target": [ {
         "code": "A52.75",
@@ -851,7 +851,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis of liver and other viscera",
+      "code": "Syphilis Diagnosis-Syphilis of liver and other viscera",
       "display": "Syphilis of liver and other viscera",
       "target": [ {
         "code": "A52.74",
@@ -859,7 +859,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis of lung and bronchus",
+      "code": "Syphilis Diagnosis-Syphilis of lung and bronchus",
       "display": "Syphilis of lung and bronchus",
       "target": [ {
         "code": "A52.72",
@@ -867,7 +867,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis of other musculoskeletal tissue",
+      "code": "Syphilis Diagnosis-Syphilis of other musculoskeletal tissue",
       "display": "Syphilis of other musculoskeletal tissue",
       "target": [ {
         "code": "A52.78",
@@ -875,7 +875,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilis, unspecified",
+      "code": "Syphilis Diagnosis-Syphilis, unspecified",
       "display": "Syphilis, unspecified",
       "target": [ {
         "code": "A53.9",
@@ -883,7 +883,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilitic alopecia",
+      "code": "Syphilis Diagnosis-Syphilitic alopecia",
       "display": "Syphilitic alopecia",
       "target": [ {
         "code": "A51.32",
@@ -891,7 +891,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilitic aneurysm of aorta",
+      "code": "Syphilis Diagnosis-Syphilitic aneurysm of aorta",
       "display": "Syphilitic aneurysm of aorta",
       "target": [ {
         "code": "A52.01",
@@ -899,7 +899,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilitic aortitis",
+      "code": "Syphilis Diagnosis-Syphilitic aortitis",
       "display": "Syphilitic aortitis",
       "target": [ {
         "code": "A52.02",
@@ -907,7 +907,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilitic cerebral arteritis",
+      "code": "Syphilis Diagnosis-Syphilitic cerebral arteritis",
       "display": "Syphilitic cerebral arteritis",
       "target": [ {
         "code": "A52.04",
@@ -915,7 +915,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilitic endocarditis",
+      "code": "Syphilis Diagnosis-Syphilitic endocarditis",
       "display": "Syphilitic endocarditis",
       "target": [ {
         "code": "A52.03",
@@ -923,7 +923,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Syphilitic saddle nose",
+      "code": "Syphilis Diagnosis-Syphilitic saddle nose",
       "display": "Syphilitic saddle nose",
       "target": [ {
         "code": "A50.57",
@@ -931,7 +931,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis condition-Tabes dorsalis",
+      "code": "Syphilis Diagnosis-Tabes dorsalis",
       "display": "Tabes dorsalis",
       "target": [ {
         "code": "A52.11",
@@ -939,7 +939,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic oculopathy",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic oculopathy",
       "display": "Early congenital syphilitic oculopathy",
       "target": [ {
         "code": "A50.01",
@@ -947,7 +947,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic osteochondropathy",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic osteochondropathy",
       "display": "Early congenital syphilitic osteochondropathy",
       "target": [ {
         "code": "A50.02",
@@ -955,7 +955,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic pharyngitis",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic pharyngitis",
       "display": "Early congenital syphilitic pharyngitis",
       "target": [ {
         "code": "A50.03",
@@ -963,7 +963,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic pneumonia",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic pneumonia",
       "display": "Early congenital syphilitic pneumonia",
       "target": [ {
         "code": "A50.04",
@@ -971,7 +971,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic rhinitis",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic rhinitis",
       "display": "Early congenital syphilitic rhinitis",
       "target": [ {
         "code": "A50.05",
@@ -979,7 +979,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early cutaneous congenital syphilis",
+      "code": "Gonorrhea Diagnosis-Early cutaneous congenital syphilis",
       "display": "Early cutaneous congenital syphilis",
       "target": [ {
         "code": "A50.06",
@@ -987,7 +987,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early mucocutaneous congenital syphilis",
+      "code": "Gonorrhea Diagnosis-Early mucocutaneous congenital syphilis",
       "display": "Early mucocutaneous congenital syphilis",
       "target": [ {
         "code": "A50.07",
@@ -995,7 +995,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Early visceral congenital syphilis",
+      "code": "Gonorrhea Diagnosis-Early visceral congenital syphilis",
       "display": "Early visceral congenital syphilis",
       "target": [ {
         "code": "A50.08",
@@ -1003,7 +1003,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic oculopathy, unspecified",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic oculopathy, unspecified",
       "display": "Late congenital syphilitic oculopathy, unspecified",
       "target": [ {
         "code": "A50.30",
@@ -1011,7 +1011,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic chorioretinitis",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic chorioretinitis",
       "display": "Late congenital syphilitic chorioretinitis",
       "target": [ {
         "code": "A50.32",
@@ -1019,7 +1019,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other late congenital syphilitic oculopathy",
+      "code": "Gonorrhea Diagnosis-Other late congenital syphilitic oculopathy",
       "display": "Other late congenital syphilitic oculopathy",
       "target": [ {
         "code": "A50.39",
@@ -1027,7 +1027,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic polyneuropathy",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic polyneuropathy",
       "display": "Late congenital syphilitic polyneuropathy",
       "target": [ {
         "code": "A50.43",
@@ -1035,7 +1035,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic optic nerve atrophy",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic optic nerve atrophy",
       "display": "Late congenital syphilitic optic nerve atrophy",
       "target": [ {
         "code": "A50.44",
@@ -1043,7 +1043,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Clutton's joints",
+      "code": "Gonorrhea Diagnosis-Clutton's joints",
       "display": "Clutton's joints",
       "target": [ {
         "code": "A50.51",
@@ -1051,7 +1051,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Hutchinson's triad",
+      "code": "Gonorrhea Diagnosis-Hutchinson's triad",
       "display": "Hutchinson's triad",
       "target": [ {
         "code": "A50.53",
@@ -1059,7 +1059,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Late congenital cardiovascular syphilis",
+      "code": "Gonorrhea Diagnosis-Late congenital cardiovascular syphilis",
       "display": "Late congenital cardiovascular syphilis",
       "target": [ {
         "code": "A50.54",
@@ -1067,7 +1067,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic arthropathy",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic arthropathy",
       "display": "Late congenital syphilitic arthropathy",
       "target": [ {
         "code": "A50.55",
@@ -1075,7 +1075,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic osteochondropathy",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic osteochondropathy",
       "display": "Late congenital syphilitic osteochondropathy",
       "target": [ {
         "code": "A50.56",
@@ -1083,7 +1083,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of lower genitourinary tract, unspecified",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of lower genitourinary tract, unspecified",
       "display": "Gonococcal infection of lower genitourinary tract, unspecified",
       "target": [ {
         "code": "A54.00",
@@ -1091,7 +1091,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal cystitis and urethritis, unspecified",
+      "code": "Gonorrhea Diagnosis-Gonococcal cystitis and urethritis, unspecified",
       "display": "Gonococcal cystitis and urethritis, unspecified",
       "target": [ {
         "code": "A54.01",
@@ -1099,7 +1099,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal vulvovaginitis, unspecified",
+      "code": "Gonorrhea Diagnosis-Gonococcal vulvovaginitis, unspecified",
       "display": "Gonococcal vulvovaginitis, unspecified",
       "target": [ {
         "code": "A54.02",
@@ -1107,7 +1107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal cervicitis, unspecified",
+      "code": "Gonorrhea Diagnosis-Gonococcal cervicitis, unspecified",
       "display": "Gonococcal cervicitis, unspecified",
       "target": [ {
         "code": "A54.03",
@@ -1115,7 +1115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal infection of lower genitourinary tract",
+      "code": "Gonorrhea Diagnosis-Other gonococcal infection of lower genitourinary tract",
       "display": "Other gonococcal infection of lower genitourinary tract",
       "target": [ {
         "code": "A54.09",
@@ -1123,7 +1123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess",
       "display": "Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess",
       "target": [ {
         "code": "A54.1",
@@ -1131,7 +1131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of kidney and ureter",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of kidney and ureter",
       "display": "Gonococcal infection of kidney and ureter",
       "target": [ {
         "code": "A54.21",
@@ -1139,7 +1139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal prostatitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal prostatitis",
       "display": "Gonococcal prostatitis",
       "target": [ {
         "code": "A54.22",
@@ -1147,7 +1147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of other male genital organs",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of other male genital organs",
       "display": "Gonococcal infection of other male genital organs",
       "target": [ {
         "code": "A54.23",
@@ -1155,7 +1155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal female pelvic inflammatory disease",
+      "code": "Gonorrhea Diagnosis-Gonococcal female pelvic inflammatory disease",
       "display": "Gonococcal female pelvic inflammatory disease",
       "target": [ {
         "code": "A54.24",
@@ -1163,7 +1163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal genitourinary infections",
+      "code": "Gonorrhea Diagnosis-Other gonococcal genitourinary infections",
       "display": "Other gonococcal genitourinary infections",
       "target": [ {
         "code": "A54.29",
@@ -1171,7 +1171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of eye, unspecified",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of eye, unspecified",
       "display": "Gonococcal infection of eye, unspecified",
       "target": [ {
         "code": "A54.30",
@@ -1179,7 +1179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal conjunctivitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal conjunctivitis",
       "display": "Gonococcal conjunctivitis",
       "target": [ {
         "code": "A54.31",
@@ -1187,7 +1187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal iridocyclitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal iridocyclitis",
       "display": "Gonococcal iridocyclitis",
       "target": [ {
         "code": "A54.32",
@@ -1195,7 +1195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal keratitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal keratitis",
       "display": "Gonococcal keratitis",
       "target": [ {
         "code": "A54.33",
@@ -1203,7 +1203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal eye infection",
+      "code": "Gonorrhea Diagnosis-Other gonococcal eye infection",
       "display": "Other gonococcal eye infection",
       "target": [ {
         "code": "A54.39",
@@ -1211,7 +1211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of musculoskeletal system, unspecified",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of musculoskeletal system, unspecified",
       "display": "Gonococcal infection of musculoskeletal system, unspecified",
       "target": [ {
         "code": "A54.40",
@@ -1219,7 +1219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal spondylopathy",
+      "code": "Gonorrhea Diagnosis-Gonococcal spondylopathy",
       "display": "Gonococcal spondylopathy",
       "target": [ {
         "code": "A54.41",
@@ -1227,7 +1227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal arthritis",
+      "code": "Gonorrhea Diagnosis-Gonococcal arthritis",
       "display": "Gonococcal arthritis",
       "target": [ {
         "code": "A54.42",
@@ -1235,7 +1235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal osteomyelitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal osteomyelitis",
       "display": "Gonococcal osteomyelitis",
       "target": [ {
         "code": "A54.43",
@@ -1243,7 +1243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of other musculoskeletal tissue",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of other musculoskeletal tissue",
       "display": "Gonococcal infection of other musculoskeletal tissue",
       "target": [ {
         "code": "A54.49",
@@ -1251,7 +1251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal pharyngitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal pharyngitis",
       "display": "Gonococcal pharyngitis",
       "target": [ {
         "code": "A54.5",
@@ -1259,7 +1259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of anus and rectum",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of anus and rectum",
       "display": "Gonococcal infection of anus and rectum",
       "target": [ {
         "code": "A54.6",
@@ -1267,7 +1267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal meningitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal meningitis",
       "display": "Gonococcal meningitis",
       "target": [ {
         "code": "A54.81",
@@ -1275,7 +1275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal brain abscess",
+      "code": "Gonorrhea Diagnosis-Gonococcal brain abscess",
       "display": "Gonococcal brain abscess",
       "target": [ {
         "code": "A54.82",
@@ -1283,7 +1283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal heart infection",
+      "code": "Gonorrhea Diagnosis-Gonococcal heart infection",
       "display": "Gonococcal heart infection",
       "target": [ {
         "code": "A54.83",
@@ -1291,7 +1291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal pneumonia",
+      "code": "Gonorrhea Diagnosis-Gonococcal pneumonia",
       "display": "Gonococcal pneumonia",
       "target": [ {
         "code": "A54.84",
@@ -1299,7 +1299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal peritonitis",
+      "code": "Gonorrhea Diagnosis-Gonococcal peritonitis",
       "display": "Gonococcal peritonitis",
       "target": [ {
         "code": "A54.85",
@@ -1307,7 +1307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal sepsis",
+      "code": "Gonorrhea Diagnosis-Gonococcal sepsis",
       "display": "Gonococcal sepsis",
       "target": [ {
         "code": "A54.86",
@@ -1315,7 +1315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal infections",
+      "code": "Gonorrhea Diagnosis-Other gonococcal infections",
       "display": "Other gonococcal infections",
       "target": [ {
         "code": "A54.89",
@@ -1323,7 +1323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection, unspecified",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection, unspecified",
       "display": "Gonococcal infection, unspecified",
       "target": [ {
         "code": "A54.9",
@@ -1331,7 +1331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Chancroid",
+      "code": "Gonorrhea Diagnosis-Chancroid",
       "display": "Chancroid",
       "target": [ {
         "code": "A57",
@@ -1339,7 +1339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Granuloma inguinale",
+      "code": "Gonorrhea Diagnosis-Granuloma inguinale",
       "display": "Granuloma inguinale",
       "target": [ {
         "code": "A58",
@@ -1347,7 +1347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Anogenital (venereal) warts",
+      "code": "Gonorrhea Diagnosis-Anogenital (venereal) warts",
       "display": "Anogenital (venereal) warts",
       "target": [ {
         "code": "A63.0",
@@ -1355,7 +1355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other specified predominantly sexually transmitted diseases",
+      "code": "Gonorrhea Diagnosis-Other specified predominantly sexually transmitted diseases",
       "display": "Other specified predominantly sexually transmitted diseases",
       "target": [ {
         "code": "A63.8",
@@ -1363,7 +1363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Unspecified sexually transmitted disease",
+      "code": "Gonorrhea Diagnosis-Unspecified sexually transmitted disease",
       "display": "Unspecified sexually transmitted disease",
       "target": [ {
         "code": "A64",
@@ -1371,7 +1371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Necrotizing ulcerative stomatitis",
+      "code": "Gonorrhea Diagnosis-Necrotizing ulcerative stomatitis",
       "display": "Necrotizing ulcerative stomatitis",
       "target": [ {
         "code": "A69.0",
@@ -1379,7 +1379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other Vincent's infections",
+      "code": "Gonorrhea Diagnosis-Other Vincent's infections",
       "display": "Other Vincent's infections",
       "target": [ {
         "code": "A69.1",
@@ -1387,7 +1387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Other specified spirochetal infections",
+      "code": "Gonorrhea Diagnosis-Other specified spirochetal infections",
       "display": "Other specified spirochetal infections",
       "target": [ {
         "code": "A69.8",
@@ -1395,7 +1395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonococcal Infections and Venereal Diseases-Spirochetal infection, unspecified",
+      "code": "Gonorrhea Diagnosis-Spirochetal infection, unspecified",
       "display": "Spirochetal infection, unspecified",
       "target": [ {
         "code": "A69.9",
@@ -1403,7 +1403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia-Chlamydial lymphogranuloma (venereum)",
+      "code": "Chlamydia Diagnosis-Chlamydial lymphogranuloma (venereum)",
       "display": "Chlamydial lymphogranuloma (venereum)",
       "target": [ {
         "code": "A55",
@@ -1411,7 +1411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia-Chlamydial infection of lower genitourinary tract, unspecified",
+      "code": "Chlamydia Diagnosis-Chlamydial infection of lower genitourinary tract, unspecified",
       "display": "Chlamydial infection of lower genitourinary tract, unspecified",
       "target": [ {
         "code": "A56.00",
@@ -1419,7 +1419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia-Chlamydial cystitis and urethritis",
+      "code": "Chlamydia Diagnosis-Chlamydial cystitis and urethritis",
       "display": "Chlamydial cystitis and urethritis",
       "target": [ {
         "code": "A56.01",
@@ -1427,7 +1427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia-Other chlamydial infection of lower genitourinary tract",
+      "code": "Chlamydia Diagnosis-Other chlamydial infection of lower genitourinary tract",
       "display": "Other chlamydial infection of lower genitourinary tract",
       "target": [ {
         "code": "A56.09",
@@ -1435,7 +1435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Streptococcal sepsis",
+      "code": "Injection Drug Use Diagnosis-Streptococcal sepsis",
       "display": "Streptococcal sepsis",
       "target": [ {
         "code": "A40",
@@ -1443,7 +1443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Other sepsis",
+      "code": "Injection Drug Use Diagnosis-Other sepsis",
       "display": "Other sepsis",
       "target": [ {
         "code": "A41",
@@ -1451,7 +1451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Gas gangrene",
+      "code": "Injection Drug Use Diagnosis-Gas gangrene",
       "display": "Gas gangrene",
       "target": [ {
         "code": "A480",
@@ -1459,7 +1459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Candidal endocarditis",
+      "code": "Injection Drug Use Diagnosis-Candidal endocarditis",
       "display": "Candidal endocarditis",
       "target": [ {
         "code": "B37.6",
@@ -1467,7 +1467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Intracranial and intraspinal abscess and granuloma",
+      "code": "Injection Drug Use Diagnosis-Intracranial and intraspinal abscess and granuloma",
       "display": "Intracranial and intraspinal abscess and granuloma",
       "target": [ {
         "code": "G06",
@@ -1475,7 +1475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Sequelae of inflammatory diseases of central nervous system",
+      "code": "Injection Drug Use Diagnosis-Sequelae of inflammatory diseases of central nervous system",
       "display": "Sequelae of inflammatory diseases of central nervous system",
       "target": [ {
         "code": "G09",
@@ -1483,7 +1483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Pulmonary embolism without acute cor pulmonale",
+      "code": "Injection Drug Use Diagnosis-Pulmonary embolism without acute cor pulmonale",
       "display": "Pulmonary embolism without acute cor pulmonale",
       "target": [ {
         "code": "I26.9",
@@ -1491,7 +1491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Acute and subacute endocarditis",
+      "code": "Injection Drug Use Diagnosis-Acute and subacute endocarditis",
       "display": "Acute and subacute endocarditis",
       "target": [ {
         "code": "I33",
@@ -1499,7 +1499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Nonrheumatic mitral valve disorders",
+      "code": "Injection Drug Use Diagnosis-Nonrheumatic mitral valve disorders",
       "display": "Nonrheumatic mitral valve disorders",
       "target": [ {
         "code": "I34",
@@ -1507,7 +1507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Nonrheumatic aortic valve disorders",
+      "code": "Injection Drug Use Diagnosis-Nonrheumatic aortic valve disorders",
       "display": "Nonrheumatic aortic valve disorders",
       "target": [ {
         "code": "I35",
@@ -1515,7 +1515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Nonrheumatic tricuspid valve disorders",
+      "code": "Injection Drug Use Diagnosis-Nonrheumatic tricuspid valve disorders",
       "display": "Nonrheumatic tricuspid valve disorders",
       "target": [ {
         "code": "I36",
@@ -1523,7 +1523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Nonrheumatic pulmonary valve disorders",
+      "code": "Injection Drug Use Diagnosis-Nonrheumatic pulmonary valve disorders",
       "display": "Nonrheumatic pulmonary valve disorders",
       "target": [ {
         "code": "I37",
@@ -1531,7 +1531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Endocarditis, valve unspecified",
+      "code": "Injection Drug Use Diagnosis-Endocarditis, valve unspecified",
       "display": "Endocarditis, valve unspecified",
       "target": [ {
         "code": "I38",
@@ -1539,7 +1539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Endocarditis and heart valve disorders in diseases classified elsewhere",
+      "code": "Injection Drug Use Diagnosis-Endocarditis and heart valve disorders in diseases classified elsewhere",
       "display": "Endocarditis and heart valve disorders in diseases classified elsewhere",
       "target": [ {
         "code": "I39",
@@ -1547,7 +1547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Infective myocarditis",
+      "code": "Injection Drug Use Diagnosis-Infective myocarditis",
       "display": "Infective myocarditis",
       "target": [ {
         "code": "I40.0",
@@ -1555,7 +1555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Phlebitis and thrombophlebitis",
+      "code": "Injection Drug Use Diagnosis-Phlebitis and thrombophlebitis",
       "display": "Phlebitis and thrombophlebitis",
       "target": [ {
         "code": "I80",
@@ -1563,7 +1563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Abscess of intestine",
+      "code": "Injection Drug Use Diagnosis-Abscess of intestine",
       "display": "Abscess of intestine",
       "target": [ {
         "code": "K63.0",
@@ -1571,7 +1571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Generalized (acute) peritonitis",
+      "code": "Injection Drug Use Diagnosis-Generalized (acute) peritonitis",
       "display": "Generalized (acute) peritonitis",
       "target": [ {
         "code": "K65.0",
@@ -1579,7 +1579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Abscess of liver",
+      "code": "Injection Drug Use Diagnosis-Abscess of liver",
       "display": "Abscess of liver",
       "target": [ {
         "code": "K75.0",
@@ -1587,7 +1587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Cutaneous abscess, furuncle and carbuncle",
+      "code": "Injection Drug Use Diagnosis-Cutaneous abscess, furuncle and carbuncle",
       "display": "Cutaneous abscess, furuncle and carbuncle",
       "target": [ {
         "code": "L02",
@@ -1595,7 +1595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Cellulitis and acute lymphangitis",
+      "code": "Injection Drug Use Diagnosis-Cellulitis and acute lymphangitis",
       "display": "Cellulitis and acute lymphangitis",
       "target": [ {
         "code": "L03",
@@ -1603,7 +1603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Non-pressure chronic ulcer of lower limb, not elsewhere classified",
+      "code": "Injection Drug Use Diagnosis-Non-pressure chronic ulcer of lower limb, not elsewhere classified",
       "display": "Non-pressure chronic ulcer of lower limb, not elsewhere classified",
       "target": [ {
         "code": "L97",
@@ -1611,7 +1611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Other specified disorders of the skin and subcutaneous tissue",
+      "code": "Injection Drug Use Diagnosis-Other specified disorders of the skin and subcutaneous tissue",
       "display": "Other specified disorders of the skin and subcutaneous tissue",
       "target": [ {
         "code": "L98.8",
@@ -1619,7 +1619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Panniculitis affecting regions of neck and back, cervical region",
+      "code": "Injection Drug Use Diagnosis-Panniculitis affecting regions of neck and back, cervical region",
       "display": "Panniculitis affecting regions of neck and back, cervical region",
       "target": [ {
         "code": "M54.02",
@@ -1627,7 +1627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Necrotizing fasciitis",
+      "code": "Injection Drug Use Diagnosis-Necrotizing fasciitis",
       "display": "Necrotizing fasciitis",
       "target": [ {
         "code": "M72.6",
@@ -1635,7 +1635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Panniculitis, unspecified",
+      "code": "Injection Drug Use Diagnosis-Panniculitis, unspecified",
       "display": "Panniculitis, unspecified",
       "target": [ {
         "code": "M79.3",
@@ -1643,7 +1643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Osteomyelitis",
+      "code": "Injection Drug Use Diagnosis-Osteomyelitis",
       "display": "Osteomyelitis",
       "target": [ {
         "code": "M86",
@@ -1651,7 +1651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Disorder of bone, unspecified",
+      "code": "Injection Drug Use Diagnosis-Disorder of bone, unspecified",
       "display": "Disorder of bone, unspecified",
       "target": [ {
         "code": "M89.9",
@@ -1659,7 +1659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Acute tubulo-interstitial nephritis",
+      "code": "Injection Drug Use Diagnosis-Acute tubulo-interstitial nephritis",
       "display": "Acute tubulo-interstitial nephritis",
       "target": [ {
         "code": "N10",
@@ -1667,7 +1667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "IDU as a condition-Systemic inflammatory response syndrome (SIRS) of non-infectious origin",
+      "code": "Injection Drug Use Diagnosis-Systemic inflammatory response syndrome (SIRS) of non-infectious origin",
       "display": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin",
       "target": [ {
         "code": "R65.1",

@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-a2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a2-de1",
-  "name": "HIV-1 HIV 2 Ab Ag tests",
-  "title": "HIV-1 HIV 2 Ab Ag tests",
+  "name": "HIV Test",
+  "title": "HIV Test",
   "status": "draft",
   "experimental": false,
-  "description": "HIV Test",
+  "description": "Concepts Associated with HIV Testing",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,7 +38,7 @@
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
-      "short": "HIV-1 HIV 2 Ab Ag tests",
+      "short": "HIV Test",
       "comment": "HIV test mapping",
       "min": 1,
       "max": "1",
@@ -46,10 +46,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "HIV-1 HIV 2 Ab Ag tests"
+          "valueString": "HIV Test"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-1-hiv-2-ab-ag-tests"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-test"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -58,7 +58,7 @@
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
-      "short": "HIV-1 HIV 2 Ab Ag tests",
+      "short": "HIV Test",
       "comment": "HIV test mapping",
       "min": 1,
       "max": "*",
@@ -69,10 +69,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "HIV-1 HIV 2 Ab Ag tests Choices"
+          "valueString": "HIV Test Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-1-hiv-2-ab-ag-tests-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-test-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

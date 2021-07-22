@@ -37,20 +37,8 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.c1.de1",
-    "text": "Syphilis",
+    "text": "Syphilis Diagnosis",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-choices"
-  }, {
-    "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.c1.de184",
-    "text": "Syphilis (Organism or Substance in Lab Results)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-organism-or-substance-in-lab-results-choices"
-  }, {
-    "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.c1.de191",
-    "text": "Syphilis condition",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-condition-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-diagnosis-choices-grouper"
   } ]
 }

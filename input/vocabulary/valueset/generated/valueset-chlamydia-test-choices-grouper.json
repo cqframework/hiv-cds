@@ -1,0 +1,771 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-test-choices-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-test-choices-grouper",
+  "name": "Chlamydia Test Choices Grouper",
+  "title": "Chlamydia Test Choices Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-07-21T19:38:01-06:00",
+  "description": "Group Valueset with codes representing possible values for the Chlamydia Test Choices Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-screening-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-test-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-tests-fpar-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-antigen-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-by-culture-and-identification-method-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-nucleic-acid-choices" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2021-07-21T19:38:01-06:00",
+    "contains": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Cervix by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Cervix by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Vaginal fluid by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Vaginal fluid by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Urine sediment by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Urine sediment by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Genital specimen by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Genital specimen by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Cervix by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Urethra by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Urethra by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Genital fluid by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Genital fluid by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urine sediment",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Unspecified specimen",
+      "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Unspecified specimen by Probe with signal amplification",
+      "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen by Probe with signal amplification"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Vaginal fluid by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Genital specimen",
+      "display": "Chlamydia trachomatis Ag [Presence] in Genital specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Genital specimen by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Genital specimen by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp identified in Cervix by Organism specific culture",
+      "display": "Chlamydia sp identified in Cervix by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp identified in Vaginal fluid by Organism specific culture",
+      "display": "Chlamydia sp identified in Vaginal fluid by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis L2 DNA [Presence] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis L2 DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Identifier] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Identifier] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Units/volume] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Units/volume] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Cervix by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urethra by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp identified in Genital specimen by Organism specific culture",
+      "display": "Chlamydia sp identified in Genital specimen by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp identified in Unspecified specimen by Organism specific culture",
+      "display": "Chlamydia sp identified in Unspecified specimen by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Genital specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Deprecated Chlamydia trachomatis [Presence] in Penis by Organism specific culture",
+      "display": "Deprecated Chlamydia trachomatis [Presence] in Penis by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Deprecated Chlamydia trachomatis Ag [Presence] in Penis by Immunofluorescence",
+      "display": "Deprecated Chlamydia trachomatis Ag [Presence] in Penis by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Urine",
+      "display": "Chlamydia sp Ag [Presence] in Urine"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Body fluid by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Body fluid by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Stool by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Stool by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Tissue by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Tissue by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Body fluid",
+      "display": "Chlamydia sp Ag [Presence] in Body fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Genital specimen",
+      "display": "Chlamydia sp Ag [Presence] in Genital specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Stool",
+      "display": "Chlamydia sp Ag [Presence] in Stool"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Unspecified specimen",
+      "display": "Chlamydia sp Ag [Presence] in Unspecified specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Vaginal fluid by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Vaginal fluid by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Urine by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Urine by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Vaginal fluid",
+      "display": "Chlamydia sp Ag [Presence] in Vaginal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Genital specimen by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Urine by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Nose by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Nose by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Anal by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Anal by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Cervix by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Cervix by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Cervix by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Genital specimen by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Genital specimen by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Vaginal fluid by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Vaginal fluid by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Vaginal fluid by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Nose by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Nose by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Anal by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Anal by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Throat by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Throat by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Throat by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Throat by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Urine by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Urine by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Urethra by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Urethra by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Urethra by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Urethra by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Unspecified specimen by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Unspecified specimen by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp rRNA [Presence] in Nasopharynx by Probe",
+      "display": "Chlamydia sp rRNA [Presence] in Nasopharynx by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp IgG Ab [Presence] in Body fluid",
+      "display": "Chlamydia sp IgG Ab [Presence] in Body fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Deprecated Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Penis by DNA probe",
+      "display": "Deprecated Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Penis by DNA probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp identified in Anal by Organism specific culture",
+      "display": "Chlamydia sp identified in Anal by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp identified in Body fluid by Organism specific culture",
+      "display": "Chlamydia sp identified in Body fluid by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp identified in Nasopharynx by Organism specific culture",
+      "display": "Chlamydia sp identified in Nasopharynx by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Anal by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Anal by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Anal by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Anal by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Anal",
+      "display": "Chlamydia sp Ag [Presence] in Anal"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Cervix by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Cervix by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Cervix",
+      "display": "Chlamydia sp Ag [Presence] in Cervix"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Cervix by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Cervix by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Body fluid by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Body fluid by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Urine by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Urine by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Urethra by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Urethra by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Urethra",
+      "display": "Chlamydia sp Ag [Presence] in Urethra"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Urethra by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Urethra by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ab [Presence] in Body fluid",
+      "display": "Chlamydia trachomatis Ab [Presence] in Body fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Nasopharynx by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Nasopharynx by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Nasopharynx by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Nasopharynx by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Nasopharynx",
+      "display": "Chlamydia sp Ag [Presence] in Nasopharynx"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Unspecified specimen from Donor by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Unspecified specimen by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Unspecified specimen by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-HEDIS 2010-2013 Codes to identify Chlamydia screening (CHL-C)",
+      "display": "HEDIS 2010-2013 Codes to identify Chlamydia screening (CHL-C)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Genital specimen by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Genital specimen by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Genital specimen by Immunofluorescence",
+      "display": "Chlamydia sp Ag [Presence] in Genital specimen by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp Ag [Presence] in Unspecified specimen by Immunoassay",
+      "display": "Chlamydia sp Ag [Presence] in Unspecified specimen by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urine by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urine by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urethra by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urethra by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Cervix by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Cervix by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Vaginal fluid by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Unspecified specimen",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Unspecified specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-HEDIS 2014-2016 Value Set - Chlamydia Tests",
+      "display": "HEDIS 2014-2016 Value Set - Chlamydia Tests"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Urethra by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Urethra by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-HEDIS 2017, 2018 Value Set - Chlamydia Tests",
+      "display": "HEDIS 2017, 2018 Value Set - Chlamydia Tests"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Nasopharynx by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Nasopharynx by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Rectum by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Rectum by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-HEDIS 2019-2020 Value Set - Chlamydia Tests",
+      "display": "HEDIS 2019-2020 Value Set - Chlamydia Tests"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Genital specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Urine by NAA with probe detection",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Urine by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection",
+      "display": "Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood",
+      "display": "Chlamydia trachomatis Ag [Presence] in Blood"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen",
+      "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cervix"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid",
+      "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Stool",
+      "display": "Chlamydia trachomatis Ag [Presence] in Stool"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urethra"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Nasopharynx",
+      "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Anal",
+      "display": "Chlamydia trachomatis Ag [Presence] in Anal"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Body fluid",
+      "display": "Chlamydia trachomatis Ag [Presence] in Body fluid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay",
+      "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence",
+      "display": "Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Blood by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Blood by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Urethra by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Urethra by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Anal by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Anal by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Conjunctival specimen by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Conjunctival specimen by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Nasopharynx by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Nasopharynx by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Rectum by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Rectum by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Tissue by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Tissue by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Throat by Organism specific culture",
+      "display": "Chlamydia trachomatis [Presence] in Throat by Organism specific culture"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Blood by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Blood by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urine by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urine by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Conjunctival specimen by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Conjunctival specimen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Conjunctival specimen by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Conjunctival specimen by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Cervical mucus by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Cervical mucus by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urethra by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Blood by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Blood by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Cervix by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Nasopharynx by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Nasopharynx by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Nasopharynx by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Anal by Probe",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Anal by Probe"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Anal by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Anal by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Semen by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Semen by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Anal by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Anal by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Nasopharynx by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Rectum by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Rectum by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Rectum by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Rectum by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Throat by NAA with probe detection",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Throat by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Tissue by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Tissue by NAA with probe detection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection",
+      "display": "Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection"
+    } ]
+  }
+}

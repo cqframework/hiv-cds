@@ -12,88 +12,88 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Blood",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood",
         "display": "Chlamydia trachomatis Ag [Presence] in Blood"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen",
         "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid",
         "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Cervix",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix",
         "display": "Chlamydia trachomatis Ag [Presence] in Cervix"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Vaginal fluid",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid",
         "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Stool",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Stool",
         "display": "Chlamydia trachomatis Ag [Presence] in Stool"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Urethra",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra",
         "display": "Chlamydia trachomatis Ag [Presence] in Urethra"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Nasopharynx",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Nasopharynx",
         "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Anal",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Anal",
         "display": "Chlamydia trachomatis Ag [Presence] in Anal"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Body fluid",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Body fluid",
         "display": "Chlamydia trachomatis Ag [Presence] in Body fluid"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence"
       }, {
-        "code": "Tests for Chlamydia trachomatis Antigen-Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence"
       } ]
     } ]

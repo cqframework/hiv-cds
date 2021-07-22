@@ -12,31 +12,31 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Blood by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Blood by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Blood by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Urethra by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Urethra by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Urethra by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Anal by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Anal by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Anal by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Conjunctival specimen by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Conjunctival specimen by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Conjunctival specimen by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Nasopharynx by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Nasopharynx by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Nasopharynx by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Rectum by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Rectum by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Rectum by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Tissue by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Tissue by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Tissue by Organism specific culture"
       }, {
-        "code": "Tests for Chlamydia trachomatis by Culture and Identification Method)-Chlamydia trachomatis [Presence] in Throat by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Throat by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Throat by Organism specific culture"
       } ]
     } ]

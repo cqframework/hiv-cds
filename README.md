@@ -14,9 +14,11 @@ The guide is published under an Apache 2 [license](LICENSE).
 
 ## Repository and Build Information
 
-***
+This repository contains the source for the HIV Screening Implementation Guide, and uses the [FHIR Implementation Guide publisher](http://wiki.hl7.org/index.php?title=IG_Publisher_Documentation) to produce a FHIR Implementation Guide.
 
-### TODO
+Commits to this repository will automatically trigger a new build of the IG, which will then be published to the following location:
+
+[https://build.fhir.org/ig/cqframework/hiv-cds/](https://build.fhir.org/ig/cqframework/hiv-cds/)
 
 <br/>
 

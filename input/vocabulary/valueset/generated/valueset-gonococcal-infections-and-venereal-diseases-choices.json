@@ -12,499 +12,499 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic oculopathy",
+        "code": "Gonorrhea Diagnosis-Early congenital syphilitic oculopathy",
         "display": "Early congenital syphilitic oculopathy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic osteochondropathy",
+        "code": "Gonorrhea Diagnosis-Early congenital syphilitic osteochondropathy",
         "display": "Early congenital syphilitic osteochondropathy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic pharyngitis",
+        "code": "Gonorrhea Diagnosis-Early congenital syphilitic pharyngitis",
         "display": "Early congenital syphilitic pharyngitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic pneumonia",
+        "code": "Gonorrhea Diagnosis-Early congenital syphilitic pneumonia",
         "display": "Early congenital syphilitic pneumonia"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early congenital syphilitic rhinitis",
+        "code": "Gonorrhea Diagnosis-Early congenital syphilitic rhinitis",
         "display": "Early congenital syphilitic rhinitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early cutaneous congenital syphilis",
+        "code": "Gonorrhea Diagnosis-Early cutaneous congenital syphilis",
         "display": "Early cutaneous congenital syphilis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early mucocutaneous congenital syphilis",
+        "code": "Gonorrhea Diagnosis-Early mucocutaneous congenital syphilis",
         "display": "Early mucocutaneous congenital syphilis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early visceral congenital syphilis",
+        "code": "Gonorrhea Diagnosis-Early visceral congenital syphilis",
         "display": "Early visceral congenital syphilis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic oculopathy, unspecified",
+        "code": "Gonorrhea Diagnosis-Late congenital syphilitic oculopathy, unspecified",
         "display": "Late congenital syphilitic oculopathy, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic chorioretinitis",
+        "code": "Gonorrhea Diagnosis-Late congenital syphilitic chorioretinitis",
         "display": "Late congenital syphilitic chorioretinitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other late congenital syphilitic oculopathy",
+        "code": "Gonorrhea Diagnosis-Other late congenital syphilitic oculopathy",
         "display": "Other late congenital syphilitic oculopathy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic polyneuropathy",
+        "code": "Gonorrhea Diagnosis-Late congenital syphilitic polyneuropathy",
         "display": "Late congenital syphilitic polyneuropathy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic optic nerve atrophy",
+        "code": "Gonorrhea Diagnosis-Late congenital syphilitic optic nerve atrophy",
         "display": "Late congenital syphilitic optic nerve atrophy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Clutton's joints",
+        "code": "Gonorrhea Diagnosis-Clutton's joints",
         "display": "Clutton's joints"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Hutchinson's triad",
+        "code": "Gonorrhea Diagnosis-Hutchinson's triad",
         "display": "Hutchinson's triad"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late congenital cardiovascular syphilis",
+        "code": "Gonorrhea Diagnosis-Late congenital cardiovascular syphilis",
         "display": "Late congenital cardiovascular syphilis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic arthropathy",
+        "code": "Gonorrhea Diagnosis-Late congenital syphilitic arthropathy",
         "display": "Late congenital syphilitic arthropathy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late congenital syphilitic osteochondropathy",
+        "code": "Gonorrhea Diagnosis-Late congenital syphilitic osteochondropathy",
         "display": "Late congenital syphilitic osteochondropathy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of lower genitourinary tract, unspecified",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of lower genitourinary tract, unspecified",
         "display": "Gonococcal infection of lower genitourinary tract, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal cystitis and urethritis, unspecified",
+        "code": "Gonorrhea Diagnosis-Gonococcal cystitis and urethritis, unspecified",
         "display": "Gonococcal cystitis and urethritis, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal vulvovaginitis, unspecified",
+        "code": "Gonorrhea Diagnosis-Gonococcal vulvovaginitis, unspecified",
         "display": "Gonococcal vulvovaginitis, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal cervicitis, unspecified",
+        "code": "Gonorrhea Diagnosis-Gonococcal cervicitis, unspecified",
         "display": "Gonococcal cervicitis, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal infection of lower genitourinary tract",
+        "code": "Gonorrhea Diagnosis-Other gonococcal infection of lower genitourinary tract",
         "display": "Other gonococcal infection of lower genitourinary tract"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess",
         "display": "Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of kidney and ureter",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of kidney and ureter",
         "display": "Gonococcal infection of kidney and ureter"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal prostatitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal prostatitis",
         "display": "Gonococcal prostatitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of other male genital organs",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of other male genital organs",
         "display": "Gonococcal infection of other male genital organs"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal female pelvic inflammatory disease",
+        "code": "Gonorrhea Diagnosis-Gonococcal female pelvic inflammatory disease",
         "display": "Gonococcal female pelvic inflammatory disease"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal genitourinary infections",
+        "code": "Gonorrhea Diagnosis-Other gonococcal genitourinary infections",
         "display": "Other gonococcal genitourinary infections"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of eye, unspecified",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of eye, unspecified",
         "display": "Gonococcal infection of eye, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal conjunctivitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal conjunctivitis",
         "display": "Gonococcal conjunctivitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal iridocyclitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal iridocyclitis",
         "display": "Gonococcal iridocyclitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal keratitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal keratitis",
         "display": "Gonococcal keratitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal eye infection",
+        "code": "Gonorrhea Diagnosis-Other gonococcal eye infection",
         "display": "Other gonococcal eye infection"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of musculoskeletal system, unspecified",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of musculoskeletal system, unspecified",
         "display": "Gonococcal infection of musculoskeletal system, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal spondylopathy",
+        "code": "Gonorrhea Diagnosis-Gonococcal spondylopathy",
         "display": "Gonococcal spondylopathy"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal arthritis",
+        "code": "Gonorrhea Diagnosis-Gonococcal arthritis",
         "display": "Gonococcal arthritis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal osteomyelitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal osteomyelitis",
         "display": "Gonococcal osteomyelitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of other musculoskeletal tissue",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of other musculoskeletal tissue",
         "display": "Gonococcal infection of other musculoskeletal tissue"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal pharyngitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal pharyngitis",
         "display": "Gonococcal pharyngitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of anus and rectum",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of anus and rectum",
         "display": "Gonococcal infection of anus and rectum"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal meningitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal meningitis",
         "display": "Gonococcal meningitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal brain abscess",
+        "code": "Gonorrhea Diagnosis-Gonococcal brain abscess",
         "display": "Gonococcal brain abscess"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal heart infection",
+        "code": "Gonorrhea Diagnosis-Gonococcal heart infection",
         "display": "Gonococcal heart infection"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal pneumonia",
+        "code": "Gonorrhea Diagnosis-Gonococcal pneumonia",
         "display": "Gonococcal pneumonia"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal peritonitis",
+        "code": "Gonorrhea Diagnosis-Gonococcal peritonitis",
         "display": "Gonococcal peritonitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal sepsis",
+        "code": "Gonorrhea Diagnosis-Gonococcal sepsis",
         "display": "Gonococcal sepsis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other gonococcal infections",
+        "code": "Gonorrhea Diagnosis-Other gonococcal infections",
         "display": "Other gonococcal infections"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection, unspecified",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection, unspecified",
         "display": "Gonococcal infection, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chancroid",
+        "code": "Gonorrhea Diagnosis-Chancroid",
         "display": "Chancroid"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Granuloma inguinale",
+        "code": "Gonorrhea Diagnosis-Granuloma inguinale",
         "display": "Granuloma inguinale"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Anogenital (venereal) warts",
+        "code": "Gonorrhea Diagnosis-Anogenital (venereal) warts",
         "display": "Anogenital (venereal) warts"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other specified predominantly sexually transmitted diseases",
+        "code": "Gonorrhea Diagnosis-Other specified predominantly sexually transmitted diseases",
         "display": "Other specified predominantly sexually transmitted diseases"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Unspecified sexually transmitted disease",
+        "code": "Gonorrhea Diagnosis-Unspecified sexually transmitted disease",
         "display": "Unspecified sexually transmitted disease"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Necrotizing ulcerative stomatitis",
+        "code": "Gonorrhea Diagnosis-Necrotizing ulcerative stomatitis",
         "display": "Necrotizing ulcerative stomatitis"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other Vincent's infections",
+        "code": "Gonorrhea Diagnosis-Other Vincent's infections",
         "display": "Other Vincent's infections"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Other specified spirochetal infections",
+        "code": "Gonorrhea Diagnosis-Other specified spirochetal infections",
         "display": "Other specified spirochetal infections"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Spirochetal infection, unspecified",
+        "code": "Gonorrhea Diagnosis-Spirochetal infection, unspecified",
         "display": "Spirochetal infection, unspecified"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Periurethral abscess caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Periurethral abscess caused by Neisseria gonorrhoeae (disorder)",
         "display": "Periurethral abscess caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)",
         "display": "Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal osteomyelitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal osteomyelitis (disorder)",
         "display": "Gonococcal osteomyelitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Reactive arthritis co-occurrent and due to nonspecific urethritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Reactive arthritis co-occurrent and due to nonspecific urethritis (disorder)",
         "display": "Reactive arthritis co-occurrent and due to nonspecific urethritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal prostatitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal prostatitis (disorder)",
         "display": "Acute gonococcal prostatitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal endophthalmia (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal endophthalmia (disorder)",
         "display": "Gonococcal endophthalmia (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Maternal gonorrhea during pregnancy (disorder)",
+        "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy (disorder)",
         "display": "Maternal gonorrhea during pregnancy (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal vulvovaginitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal vulvovaginitis (disorder)",
         "display": "Chronic gonococcal vulvovaginitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal bartholinitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal bartholinitis (disorder)",
         "display": "Chronic gonococcal bartholinitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal meningitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal meningitis (disorder)",
         "display": "Gonococcal meningitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonorrhea (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonorrhea (disorder)",
         "display": "Gonorrhea (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Infection of upper genitourinary tract caused by Neisseria gonorrheae (disorder)",
+        "code": "Gonorrhea Diagnosis-Infection of upper genitourinary tract caused by Neisseria gonorrheae (disorder)",
         "display": "Infection of upper genitourinary tract caused by Neisseria gonorrheae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonorrhea of genitourinary tract (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonorrhea of genitourinary tract (disorder)",
         "display": "Acute gonorrhea of genitourinary tract (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonorrhea lower genitourinary tract (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonorrhea lower genitourinary tract (disorder)",
         "display": "Chronic gonorrhea lower genitourinary tract (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal anal infection (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal anal infection (disorder)",
         "display": "Gonococcal anal infection (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal peritonitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal peritonitis (disorder)",
         "display": "Gonococcal peritonitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Lymphogranuloma venereum (disorder)",
+        "code": "Gonorrhea Diagnosis-Lymphogranuloma venereum (disorder)",
         "display": "Lymphogranuloma venereum (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal cystitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal cystitis (disorder)",
         "display": "Gonococcal cystitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal prostatitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal prostatitis (disorder)",
         "display": "Gonococcal prostatitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Female gonococcal pelvic inflammatory disease (disorder)",
+        "code": "Gonorrhea Diagnosis-Female gonococcal pelvic inflammatory disease (disorder)",
         "display": "Female gonococcal pelvic inflammatory disease (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Maternal gonorrhea during pregnancy, childbirth and the puerperium (disorder)",
+        "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy, childbirth and the puerperium (disorder)",
         "display": "Maternal gonorrhea during pregnancy, childbirth and the puerperium (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Maternal gonorrhea during pregnancy - baby delivered (disorder)",
+        "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy - baby delivered (disorder)",
         "display": "Maternal gonorrhea during pregnancy - baby delivered (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Maternal gonorrhea in the puerperium - baby delivered during current episode of care (disorder)",
+        "code": "Gonorrhea Diagnosis-Maternal gonorrhea in the puerperium - baby delivered during current episode of care (disorder)",
         "display": "Maternal gonorrhea in the puerperium - baby delivered during current episode of care (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Maternal gonorrhea during pregnancy - baby not yet delivered (disorder)",
+        "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy - baby not yet delivered (disorder)",
         "display": "Maternal gonorrhea during pregnancy - baby not yet delivered (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Maternal gonorrhea in the puerperium - baby delivered during previous episode of care (disorder)",
+        "code": "Gonorrhea Diagnosis-Maternal gonorrhea in the puerperium - baby delivered during previous episode of care (disorder)",
         "display": "Maternal gonorrhea in the puerperium - baby delivered during previous episode of care (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal cervicitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal cervicitis (disorder)",
         "display": "Acute gonococcal cervicitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal conjunctivitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal conjunctivitis (disorder)",
         "display": "Gonococcal conjunctivitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Abscess gonococcal (disorder)",
+        "code": "Gonorrhea Diagnosis-Abscess gonococcal (disorder)",
         "display": "Abscess gonococcal (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal hepatitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal hepatitis (disorder)",
         "display": "Gonococcal hepatitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal urethritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal urethritis (disorder)",
         "display": "Gonococcal urethritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal urethral abscess (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal urethral abscess (disorder)",
         "display": "Gonococcal urethral abscess (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal epididymitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal epididymitis (disorder)",
         "display": "Gonococcal epididymitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal epididymo-orchitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal epididymo-orchitis (disorder)",
         "display": "Gonococcal epididymo-orchitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal salpingitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal salpingitis (disorder)",
         "display": "Gonococcal salpingitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal perihepatitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal perihepatitis (disorder)",
         "display": "Gonococcal perihepatitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal tubo-ovarian abscess (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal tubo-ovarian abscess (disorder)",
         "display": "Gonococcal tubo-ovarian abscess (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal endometritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal endometritis (disorder)",
         "display": "Gonococcal endometritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal cervicitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal cervicitis (disorder)",
         "display": "Gonococcal cervicitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal vulvovaginitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal vulvovaginitis (disorder)",
         "display": "Gonococcal vulvovaginitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Neonatal gonococcal vulvovaginitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Neonatal gonococcal vulvovaginitis (disorder)",
         "display": "Neonatal gonococcal vulvovaginitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal lymphangitis of penis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal lymphangitis of penis (disorder)",
         "display": "Gonococcal lymphangitis of penis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal vulvovaginitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal vulvovaginitis (disorder)",
         "display": "Acute gonococcal vulvovaginitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal seminal vesiculitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal seminal vesiculitis (disorder)",
         "display": "Chronic gonococcal seminal vesiculitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Post-dysenteric reactive arthritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Post-dysenteric reactive arthritis (disorder)",
         "display": "Post-dysenteric reactive arthritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Juvenile reactive arthritis triad (disorder)",
+        "code": "Gonorrhea Diagnosis-Juvenile reactive arthritis triad (disorder)",
         "display": "Juvenile reactive arthritis triad (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal tenosynovitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal tenosynovitis (disorder)",
         "display": "Gonococcal tenosynovitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Neonatal gonococcal infection (disorder)",
+        "code": "Gonorrhea Diagnosis-Neonatal gonococcal infection (disorder)",
         "display": "Neonatal gonococcal infection (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonorrhea with local complication (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonorrhea with local complication (disorder)",
         "display": "Gonorrhea with local complication (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal Bartholin's gland abscess (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal Bartholin's gland abscess (disorder)",
         "display": "Gonococcal Bartholin's gland abscess (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal Skenitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal Skenitis (disorder)",
         "display": "Gonococcal Skenitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal Tysonitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal Tysonitis (disorder)",
         "display": "Gonococcal Tysonitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal Cowperitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal Cowperitis (disorder)",
         "display": "Gonococcal Cowperitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal Littritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal Littritis (disorder)",
         "display": "Gonococcal Littritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal Littré gland abscess (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal Littré gland abscess (disorder)",
         "display": "Gonococcal Littré gland abscess (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal paraurethral gland abscess (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal paraurethral gland abscess (disorder)",
         "display": "Gonococcal paraurethral gland abscess (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal female pelvic infection (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal female pelvic infection (disorder)",
         "display": "Gonococcal female pelvic infection (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal synovitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal synovitis (disorder)",
         "display": "Gonococcal synovitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Cutaneous gonorrhea (disorder)",
+        "code": "Gonorrhea Diagnosis-Cutaneous gonorrhea (disorder)",
         "display": "Cutaneous gonorrhea (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Early lymphogranuloma venereum (disorder)",
+        "code": "Gonorrhea Diagnosis-Early lymphogranuloma venereum (disorder)",
         "display": "Early lymphogranuloma venereum (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Late lymphogranuloma venereum (disorder)",
+        "code": "Gonorrhea Diagnosis-Late lymphogranuloma venereum (disorder)",
         "display": "Late lymphogranuloma venereum (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Latent lymphogranuloma venereum (disorder)",
+        "code": "Gonorrhea Diagnosis-Latent lymphogranuloma venereum (disorder)",
         "display": "Latent lymphogranuloma venereum (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal cystitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal cystitis (disorder)",
         "display": "Acute gonococcal cystitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal arthritis dermatitis syndrome (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal arthritis dermatitis syndrome (disorder)",
         "display": "Gonococcal arthritis dermatitis syndrome (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Esthiomene (disorder)",
+        "code": "Gonorrhea Diagnosis-Esthiomene (disorder)",
         "display": "Esthiomene (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonorrhea (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonorrhea (disorder)",
         "display": "Chronic gonorrhea (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal conjunctivitis neonatorum (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal conjunctivitis neonatorum (disorder)",
         "display": "Gonococcal conjunctivitis neonatorum (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonorrhea of genitourinary tract (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonorrhea of genitourinary tract (disorder)",
         "display": "Chronic gonorrhea of genitourinary tract (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal urethritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal urethritis (disorder)",
         "display": "Acute gonococcal urethritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal epididymo-orchitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal epididymo-orchitis (disorder)",
         "display": "Acute gonococcal epididymo-orchitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal seminal vesiculitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal seminal vesiculitis (disorder)",
         "display": "Gonococcal seminal vesiculitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal pelvic peritonitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal pelvic peritonitis (disorder)",
         "display": "Gonococcal pelvic peritonitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal endometritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal endometritis (disorder)",
         "display": "Chronic gonococcal endometritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal epididymo-orchitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal epididymo-orchitis (disorder)",
         "display": "Chronic gonococcal epididymo-orchitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of eye (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of eye (disorder)",
         "display": "Gonococcal infection of eye (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal keratitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal keratitis (disorder)",
         "display": "Gonococcal keratitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Localized cutaneous gonococcal infection (disorder)",
+        "code": "Gonorrhea Diagnosis-Localized cutaneous gonococcal infection (disorder)",
         "display": "Localized cutaneous gonococcal infection (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal bartholinitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal bartholinitis (disorder)",
         "display": "Gonococcal bartholinitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Pustular vasculitis caused by gonococcal bacteraemia (disorder)",
+        "code": "Gonorrhea Diagnosis-Pustular vasculitis caused by gonococcal bacteraemia (disorder)",
         "display": "Pustular vasculitis caused by gonococcal bacteraemia (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of the central nervous system (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of the central nervous system (disorder)",
         "display": "Gonococcal infection of the central nervous system (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonorrhea of rectum (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonorrhea of rectum (disorder)",
         "display": "Gonorrhea of rectum (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal urethritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal urethritis (disorder)",
         "display": "Chronic gonococcal urethritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Abscess of urethral gland caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Abscess of urethral gland caused by Neisseria gonorrhoeae (disorder)",
         "display": "Abscess of urethral gland caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal infection of joint (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal infection of joint (disorder)",
         "display": "Gonococcal infection of joint (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal salpingitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal salpingitis (disorder)",
         "display": "Acute gonococcal salpingitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Bursitis caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Bursitis caused by Neisseria gonorrhoeae (disorder)",
         "display": "Bursitis caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcemia (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcemia (disorder)",
         "display": "Gonococcemia (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonorrhea of upper genitourinary tract (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonorrhea of upper genitourinary tract (disorder)",
         "display": "Acute gonorrhea of upper genitourinary tract (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal salpingitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal salpingitis (disorder)",
         "display": "Chronic gonococcal salpingitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal spondylitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal spondylitis (disorder)",
         "display": "Gonococcal spondylitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonorrhea of lower genitourinary tract (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonorrhea of lower genitourinary tract (disorder)",
         "display": "Acute gonorrhea of lower genitourinary tract (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal keratosis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal keratosis (disorder)",
         "display": "Gonococcal keratosis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal prostatitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal prostatitis (disorder)",
         "display": "Chronic gonococcal prostatitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal endocarditis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal endocarditis (disorder)",
         "display": "Gonococcal endocarditis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal seminal vesiculitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal seminal vesiculitis (disorder)",
         "display": "Acute gonococcal seminal vesiculitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal endometritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal endometritis (disorder)",
         "display": "Acute gonococcal endometritis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Reactive arthritis triad (disorder)",
+        "code": "Gonorrhea Diagnosis-Reactive arthritis triad (disorder)",
         "display": "Reactive arthritis triad (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gingival disease caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Gingival disease caused by Neisseria gonorrhoeae (disorder)",
         "display": "Gingival disease caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Conjunctivitis of adulthood caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Conjunctivitis of adulthood caused by Neisseria gonorrhoeae (disorder)",
         "display": "Conjunctivitis of adulthood caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Urethral stricture due to gonococcal infection (disorder)",
+        "code": "Gonorrhea Diagnosis-Urethral stricture due to gonococcal infection (disorder)",
         "display": "Urethral stricture due to gonococcal infection (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonorrhea of pharynx (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonorrhea of pharynx (disorder)",
         "display": "Gonorrhea of pharynx (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Disseminated infection caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Disseminated infection caused by Neisseria gonorrhoeae (disorder)",
         "display": "Disseminated infection caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal cervicitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal cervicitis (disorder)",
         "display": "Chronic gonococcal cervicitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonorrhea of upper genitourinary tract (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonorrhea of upper genitourinary tract (disorder)",
         "display": "Chronic gonorrhea of upper genitourinary tract (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Acute gonococcal bartholinitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal bartholinitis (disorder)",
         "display": "Acute gonococcal bartholinitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Chronic gonococcal cystitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Chronic gonococcal cystitis (disorder)",
         "display": "Chronic gonococcal cystitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal iridocyclitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal iridocyclitis (disorder)",
         "display": "Gonococcal iridocyclitis (disorder)"
       }, {
-        "code": "Gonococcal Infections and Venereal Diseases-Gonococcal heart disease (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal heart disease (disorder)",
         "display": "Gonococcal heart disease (disorder)"
       } ]
     } ]

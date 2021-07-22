@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pre-exposure-prophylaxis-dispensed-medications",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pre-exposure-prophylaxis-dispensed-medications",
+  "name": "pre-exposure-prophylaxis-dispensed-medications",
+  "title": "Pre Exposure Prophylaxis Dispensed Medications",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Pre Exposure Prophylaxis Dispensed Medications element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pre Exposure Prophylaxis Dispensed Medications",
+        "display": "Pre Exposure Prophylaxis Dispensed Medications"
+      } ]
+    } ]
+  }
+}

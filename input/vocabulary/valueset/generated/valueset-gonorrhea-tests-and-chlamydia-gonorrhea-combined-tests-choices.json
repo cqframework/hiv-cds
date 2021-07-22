@@ -12,10 +12,10 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
       }, {
-        "code": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests-Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay",
         "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
       } ]
     } ]

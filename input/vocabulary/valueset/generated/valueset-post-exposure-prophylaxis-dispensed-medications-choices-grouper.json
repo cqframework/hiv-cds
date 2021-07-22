@@ -1,0 +1,1055 @@
+{
+  "resourceType": "ValueSet",
+  "id": "post-exposure-prophylaxis-dispensed-medications-choices-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/post-exposure-prophylaxis-dispensed-medications-choices-grouper",
+  "name": "Post Exposure Prophylaxis Dispensed Medications Choices Grouper",
+  "title": "Post Exposure Prophylaxis Dispensed Medications Choices Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-07-21T19:38:01-06:00",
+  "description": "Group Valueset with codes representing possible values for the Post Exposure Prophylaxis Dispensed Medications Choices Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/preferred-npep-supplied-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/alternative-npep-supplied-choices" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2021-07-21T19:38:01-06:00",
+    "contains": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1327",
+      "display": "50090-1327"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-52125-613",
+      "display": "52125-613"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-59676-566",
+      "display": "59676-566"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0566",
+      "display": "69189-0566"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1483",
+      "display": "70518-1483"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-228",
+      "display": "49702-228"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1355",
+      "display": "50090-1355"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-1130",
+      "display": "53808-1130"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61786-771",
+      "display": "61786-771"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1818",
+      "display": "67296-1818"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1487",
+      "display": "70518-1487"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0093-5234",
+      "display": "0093-5234"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-497",
+      "display": "65862-497"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69097-210",
+      "display": "69097-210"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-2905",
+      "display": "70518-2905"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-76282-678",
+      "display": "76282-678"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-15584-0101",
+      "display": "15584-0101"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-35356-064",
+      "display": "35356-064"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-0980",
+      "display": "50090-0980"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0208",
+      "display": "53808-0208"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-5805",
+      "display": "54569-5805"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54868-5643",
+      "display": "54868-5643"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0118",
+      "display": "69189-0118"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0341",
+      "display": "70518-0341"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-42543-719",
+      "display": "42543-719"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-51407-112",
+      "display": "51407-112"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-64380-719",
+      "display": "64380-719"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0093-7607",
+      "display": "0093-7607"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0093-7704",
+      "display": "0093-7704"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-1930",
+      "display": "0378-1930"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-33342-106",
+      "display": "33342-106"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-42291-439",
+      "display": "42291-439"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-42385-913",
+      "display": "42385-913"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-42385-953",
+      "display": "42385-953"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-60219-2095",
+      "display": "60219-2095"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-60505-4202",
+      "display": "60505-4202"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-354",
+      "display": "65862-354"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1237",
+      "display": "67296-1237"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1433",
+      "display": "67296-1433"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68180-287",
+      "display": "68180-287"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69097-209",
+      "display": "69097-209"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69238-1527",
+      "display": "69238-1527"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69238-2095",
+      "display": "69238-2095"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-3077",
+      "display": "70518-3077"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70710-1367",
+      "display": "70710-1367"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70771-1594",
+      "display": "70771-1594"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-76282-677",
+      "display": "76282-677"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-35356-070",
+      "display": "35356-070"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-0870",
+      "display": "50090-0870"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-52959-969",
+      "display": "52959-969"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0805",
+      "display": "53808-0805"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-5588",
+      "display": "54569-5588"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54868-5141",
+      "display": "54868-5141"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-55154-4425",
+      "display": "55154-4425"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-58118-0100",
+      "display": "58118-0100"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61786-596",
+      "display": "61786-596"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61919-669",
+      "display": "61919-669"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61958-0701",
+      "display": "61958-0701"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-63629-7581",
+      "display": "63629-7581"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68071-2112",
+      "display": "68071-2112"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0701",
+      "display": "69189-0701"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0097",
+      "display": "70518-0097"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0004-0380",
+      "display": "0004-0380"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0004-0381",
+      "display": "0004-0381"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-63304-583",
+      "display": "63304-583"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-3520",
+      "display": "0378-3520"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49349-811",
+      "display": "49349-811"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-207",
+      "display": "49702-207"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0281",
+      "display": "53808-0281"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-1010",
+      "display": "53808-1010"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-63379-030",
+      "display": "63379-030"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0210",
+      "display": "69189-0210"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0069-0807",
+      "display": "0069-0807"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-215",
+      "display": "49702-215"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-223",
+      "display": "49702-223"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-52125-011",
+      "display": "52125-011"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0069-0808",
+      "display": "0069-0808"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-216",
+      "display": "49702-216"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-224",
+      "display": "49702-224"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1486",
+      "display": "50090-1486"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-6214",
+      "display": "54569-6214"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54868-5809",
+      "display": "54868-5809"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-260",
+      "display": "49702-260"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61919-706",
+      "display": "61919-706"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1235",
+      "display": "67296-1235"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0006-0227",
+      "display": "0006-0227"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49349-430",
+      "display": "49349-430"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1085",
+      "display": "50090-1085"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0650",
+      "display": "53808-0650"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-6034",
+      "display": "54569-6034"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54868-0117",
+      "display": "54868-0117"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61786-843",
+      "display": "61786-843"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-66336-214",
+      "display": "66336-214"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68071-2113",
+      "display": "68071-2113"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0227",
+      "display": "69189-0227"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1621",
+      "display": "70518-1621"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-76519-1130",
+      "display": "76519-1130"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0074-6633",
+      "display": "0074-6633"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0074-3399",
+      "display": "0074-3399"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-597",
+      "display": "31722-597"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65162-061",
+      "display": "65162-061"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1519",
+      "display": "70518-1519"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0054-0407",
+      "display": "0054-0407"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-60687-364",
+      "display": "60687-364"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-60687-420",
+      "display": "60687-420"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-687",
+      "display": "65862-687"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1234",
+      "display": "67296-1234"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68382-696",
+      "display": "68382-696"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1086",
+      "display": "70518-1086"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-2007",
+      "display": "70518-2007"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0074-3333",
+      "display": "0074-3333"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1162",
+      "display": "50090-1162"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-1119",
+      "display": "53808-1119"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-6170",
+      "display": "54569-6170"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61786-386",
+      "display": "61786-386"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69189-3335",
+      "display": "69189-3335"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0004-0245",
+      "display": "0004-0245"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49349-624",
+      "display": "49349-624"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0004-0244",
+      "display": "0004-0244"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0674",
+      "display": "53808-0674"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-5040",
+      "display": "0378-5040"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-515",
+      "display": "31722-515"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-57237-234",
+      "display": "57237-234"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-64980-354",
+      "display": "64980-354"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-111",
+      "display": "65862-111"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0003-1964",
+      "display": "0003-1964"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-5041",
+      "display": "0378-5041"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-516",
+      "display": "31722-516"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0852",
+      "display": "53808-0852"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-57237-235",
+      "display": "57237-235"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-64980-355",
+      "display": "64980-355"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-112",
+      "display": "65862-112"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0003-1965",
+      "display": "0003-1965"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0656",
+      "display": "53808-0656"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-5042",
+      "display": "0378-5042"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-517",
+      "display": "31722-517"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-57237-236",
+      "display": "57237-236"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-64980-356",
+      "display": "64980-356"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-046",
+      "display": "65862-046"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0003-1966",
+      "display": "0003-1966"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0657",
+      "display": "53808-0657"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0179-0028",
+      "display": "0179-0028"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-5043",
+      "display": "0378-5043"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-518",
+      "display": "31722-518"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49349-066",
+      "display": "49349-066"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0594",
+      "display": "53808-0594"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0595",
+      "display": "53808-0595"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-57237-237",
+      "display": "57237-237"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-64980-357",
+      "display": "64980-357"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-047",
+      "display": "65862-047"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0003-1967",
+      "display": "0003-1967"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0795",
+      "display": "53808-0795"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-55154-0082",
+      "display": "55154-0082"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-72189-156",
+      "display": "72189-156"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-72189-227",
+      "display": "72189-227"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0093-5528",
+      "display": "0093-5528"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-42385-922",
+      "display": "42385-922"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-51407-173",
+      "display": "51407-173"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69238-1138",
+      "display": "69238-1138"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0946",
+      "display": "70518-0946"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70710-1052",
+      "display": "70710-1052"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70771-1593",
+      "display": "70771-1593"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0904-6875",
+      "display": "0904-6875"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-16714-862",
+      "display": "16714-862"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-60687-399",
+      "display": "60687-399"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-713",
+      "display": "65862-713"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1365",
+      "display": "70518-1365"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-59762-0410",
+      "display": "59762-0410"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1236",
+      "display": "67296-1236"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69097-446",
+      "display": "69097-446"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-2832",
+      "display": "70518-2832"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0003-3622",
+      "display": "0003-3622"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1007",
+      "display": "50090-1007"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-5864",
+      "display": "54569-5864"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54868-5838",
+      "display": "54868-5838"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0469",
+      "display": "70518-0469"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-246",
+      "display": "49702-246"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-33342-003",
+      "display": "33342-003"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-55700-411",
+      "display": "55700-411"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-57297-284",
+      "display": "57297-284"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61919-061",
+      "display": "61919-061"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-64380-707",
+      "display": "64380-707"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68071-3311",
+      "display": "68071-3311"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68180-284",
+      "display": "68180-284"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68788-6394",
+      "display": "68788-6394"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-71335-0141",
+      "display": "71335-0141"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-11819-359",
+      "display": "11819-359"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0093-5385",
+      "display": "0093-5385"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-5180",
+      "display": "0378-5180"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-21695-996",
+      "display": "21695-996"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-506",
+      "display": "31722-506"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-739",
+      "display": "31722-739"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-42291-363",
+      "display": "42291-363"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-43063-346",
+      "display": "43063-346"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-43063-900",
+      "display": "43063-900"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1419",
+      "display": "50090-1419"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-2018",
+      "display": "50090-2018"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-3920",
+      "display": "50090-3920"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50268-456",
+      "display": "50268-456"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50436-0597",
+      "display": "50436-0597"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54741-102",
+      "display": "54741-102"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-55700-096",
+      "display": "55700-096"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-60760-385",
+      "display": "60760-385"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-63629-4872",
+      "display": "63629-4872"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-036",
+      "display": "65862-036"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-597",
+      "display": "65862-597"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68071-4450",
+      "display": "68071-4450"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68084-416",
+      "display": "68084-416"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68788-7298",
+      "display": "68788-7298"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69097-315",
+      "display": "69097-315"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0697",
+      "display": "70518-0697"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-71335-0639",
+      "display": "71335-0639"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-72865-144",
+      "display": "72865-144"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-76282-115",
+      "display": "76282-115"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-76519-1005",
+      "display": "76519-1005"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0173-0595",
+      "display": "0173-0595"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-16590-061",
+      "display": "16590-061"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-21695-846",
+      "display": "21695-846"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49349-683",
+      "display": "49349-683"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-202",
+      "display": "49702-202"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-50090-0610",
+      "display": "50090-0610"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-52959-546",
+      "display": "52959-546"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0895",
+      "display": "53808-0895"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-4524",
+      "display": "54569-4524"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-55289-389",
+      "display": "55289-389"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-63379-025",
+      "display": "63379-025"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-42799-403",
+      "display": "42799-403"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-52343-044",
+      "display": "52343-044"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53104-0100",
+      "display": "53104-0100"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-64376-128",
+      "display": "64376-128"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-107",
+      "display": "65862-107"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68084-461",
+      "display": "68084-461"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0173-0108",
+      "display": "0173-0108"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-211",
+      "display": "49702-211"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54868-1974",
+      "display": "54868-1974"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0054-0052",
+      "display": "0054-0052"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-31722-509",
+      "display": "31722-509"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49349-838",
+      "display": "49349-838"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61786-984",
+      "display": "61786-984"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0509",
+      "display": "69189-0509"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1656",
+      "display": "70518-1656"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0378-6106",
+      "display": "0378-6106"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-0527-1905",
+      "display": "0527-1905"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-21695-369",
+      "display": "21695-369"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-48792-7809",
+      "display": "48792-7809"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49349-867",
+      "display": "49349-867"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-52343-045",
+      "display": "52343-045"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53104-0101",
+      "display": "53104-0101"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0812",
+      "display": "53808-0812"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0878",
+      "display": "53808-0878"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-54569-6171",
+      "display": "54569-6171"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-57237-241",
+      "display": "57237-241"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-61786-305",
+      "display": "61786-305"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-63629-4144",
+      "display": "63629-4144"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-65862-024",
+      "display": "65862-024"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-68084-462",
+      "display": "68084-462"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-76365-0300",
+      "display": "76365-0300"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Post Exposure Prophylaxis Dispensed Medications-49702-214",
+      "display": "49702-214"
+    } ]
+  }
+}

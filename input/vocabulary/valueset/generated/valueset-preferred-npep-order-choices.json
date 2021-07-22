@@ -1,0 +1,299 @@
+{
+  "resourceType": "ValueSet",
+  "id": "preferred-npep-order-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/preferred-npep-order-choices",
+  "name": "preferred-npep-order-choices",
+  "title": "Preferred nPEP Order Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Preferred nPEP Order Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG",
+        "display": "darunavir 800 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG [Prezista]",
+        "display": "darunavir 800 MG [Prezista]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet",
+        "display": "darunavir 800 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-darunavir 800 MG Oral Tablet [Prezista]",
+        "display": "darunavir 800 MG Oral Tablet [Prezista]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG",
+        "display": "dolutegravir 50 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG [Tivicay]",
+        "display": "dolutegravir 50 MG [Tivicay]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet",
+        "display": "dolutegravir 50 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-dolutegravir 50 MG Oral Tablet [Tivicay]",
+        "display": "dolutegravir 50 MG Oral Tablet [Tivicay]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG",
+        "display": "efavirenz 200 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG [Sustiva]",
+        "display": "efavirenz 200 MG [Sustiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG Oral Capsule",
+        "display": "efavirenz 200 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG Oral Capsule [Sustiva]",
+        "display": "efavirenz 200 MG Oral Capsule [Sustiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 200 MG Oral Tablet",
+        "display": "efavirenz 200 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG",
+        "display": "efavirenz 50 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG [Sustiva]",
+        "display": "efavirenz 50 MG [Sustiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG Oral Capsule",
+        "display": "efavirenz 50 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 50 MG Oral Capsule [Sustiva]",
+        "display": "efavirenz 50 MG Oral Capsule [Sustiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG",
+        "display": "efavirenz 600 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG [Sustiva]",
+        "display": "efavirenz 600 MG [Sustiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG Oral Tablet",
+        "display": "efavirenz 600 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-efavirenz 600 MG Oral Tablet [Sustiva]",
+        "display": "efavirenz 600 MG Oral Tablet [Sustiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide",
+        "display": "enfuvirtide"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG",
+        "display": "enfuvirtide 90 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG [Fuzeon]",
+        "display": "enfuvirtide 90 MG [Fuzeon]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG Injection",
+        "display": "enfuvirtide 90 MG Injection"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG Injection [Fuzeon]",
+        "display": "enfuvirtide 90 MG Injection [Fuzeon]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG/ML",
+        "display": "enfuvirtide 90 MG/ML"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide 90 MG/ML [Fuzeon]",
+        "display": "enfuvirtide 90 MG/ML [Fuzeon]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injectable Product",
+        "display": "enfuvirtide Injectable Product"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injectable Solution",
+        "display": "enfuvirtide Injectable Solution"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injectable Solution [Fuzeon]",
+        "display": "enfuvirtide Injectable Solution [Fuzeon]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injection",
+        "display": "enfuvirtide Injection"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-enfuvirtide Injection [Fuzeon]",
+        "display": "enfuvirtide Injection [Fuzeon]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG",
+        "display": "fosamprenavir 700 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG [Lexiva]",
+        "display": "fosamprenavir 700 MG [Lexiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG Oral Tablet",
+        "display": "fosamprenavir 700 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-fosamprenavir 700 MG Oral Tablet [Lexiva]",
+        "display": "fosamprenavir 700 MG Oral Tablet [Lexiva]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG",
+        "display": "maraviroc 150 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG [Selzentry]",
+        "display": "maraviroc 150 MG [Selzentry]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG Oral Tablet",
+        "display": "maraviroc 150 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 150 MG Oral Tablet [Selzentry]",
+        "display": "maraviroc 150 MG Oral Tablet [Selzentry]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG",
+        "display": "maraviroc 300 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG [Selzentry]",
+        "display": "maraviroc 300 MG [Selzentry]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG Oral Tablet",
+        "display": "maraviroc 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-maraviroc 300 MG Oral Tablet [Selzentry]",
+        "display": "maraviroc 300 MG Oral Tablet [Selzentry]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG",
+        "display": "raltegravir 400 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG [Isentress]",
+        "display": "raltegravir 400 MG [Isentress]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet",
+        "display": "raltegravir 400 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 400 MG Oral Tablet [Isentress]",
+        "display": "raltegravir 400 MG Oral Tablet [Isentress]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG",
+        "display": "raltegravir 600 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG [Isentress]",
+        "display": "raltegravir 600 MG [Isentress]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG Oral Tablet",
+        "display": "raltegravir 600 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-raltegravir 600 MG Oral Tablet [Isentress]",
+        "display": "raltegravir 600 MG Oral Tablet [Isentress]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG",
+        "display": "ritonavir 100 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG [Norvir]",
+        "display": "ritonavir 100 MG [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule",
+        "display": "ritonavir 100 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Capsule [Norvir]",
+        "display": "ritonavir 100 MG Oral Capsule [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder",
+        "display": "ritonavir 100 MG Oral Powder"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Powder [Norvir]",
+        "display": "ritonavir 100 MG Oral Powder [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet",
+        "display": "ritonavir 100 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-ritonavir 100 MG Oral Tablet [Norvir]",
+        "display": "ritonavir 100 MG Oral Tablet [Norvir]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG",
+        "display": "saquinavir mesylate 500 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG [Invirase]",
+        "display": "saquinavir mesylate 500 MG [Invirase]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG Oral Tablet",
+        "display": "saquinavir mesylate 500 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-saquinavir mesylate 500 MG Oral Tablet [Invirase]",
+        "display": "saquinavir mesylate 500 MG Oral Tablet [Invirase]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG",
+        "display": "stavudine 15 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG [Zerit]",
+        "display": "stavudine 15 MG [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG Oral Capsule",
+        "display": "stavudine 15 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 15 MG Oral Capsule [Zerit]",
+        "display": "stavudine 15 MG Oral Capsule [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG",
+        "display": "stavudine 20 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG [Zerit]",
+        "display": "stavudine 20 MG [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG Oral Capsule",
+        "display": "stavudine 20 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 20 MG Oral Capsule [Zerit]",
+        "display": "stavudine 20 MG Oral Capsule [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG",
+        "display": "stavudine 30 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG [Zerit]",
+        "display": "stavudine 30 MG [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG Oral Capsule",
+        "display": "stavudine 30 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 30 MG Oral Capsule [Zerit]",
+        "display": "stavudine 30 MG Oral Capsule [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG",
+        "display": "stavudine 40 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG [Zerit]",
+        "display": "stavudine 40 MG [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG Oral Capsule",
+        "display": "stavudine 40 MG Oral Capsule"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-stavudine 40 MG Oral Capsule [Zerit]",
+        "display": "stavudine 40 MG Oral Capsule [Zerit]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG",
+        "display": "tenofovir disoproxil fumarate 300 MG"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG [Viread]",
+        "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      }, {
+        "code": "Post Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
+      } ]
+    } ]
+  }
+}

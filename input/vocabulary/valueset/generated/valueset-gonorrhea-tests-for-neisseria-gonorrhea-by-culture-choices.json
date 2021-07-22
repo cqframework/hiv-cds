@@ -12,46 +12,46 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Anal by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Anal by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Anal by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Conjunctival specimen by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Conjunctival specimen by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Conjunctival specimen by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Endometrium by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Endometrium by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Endometrium by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Genital specimen by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Genital specimen by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Genital specimen by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Genital lochia by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Genital lochia by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Genital lochia by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Vaginal fluid by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Vaginal fluid by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Vaginal fluid by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Semen by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Semen by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Semen by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Synovial fluid by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Synovial fluid by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Synovial fluid by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Throat by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Throat by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Throat by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Urethra by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Urethra by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Urethra by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Unspecified specimen by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Unspecified specimen by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Unspecified specimen by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Rectum by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Rectum by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Rectum by Organism specific culture"
       }, {
-        "code": "Gonorrhea Tests for Neisseria gonorrhea by Culture-Neisseria gonorrhoeae [Presence] in Aspirate by Organism specific culture",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Aspirate by Organism specific culture",
         "display": "Neisseria gonorrhoeae [Presence] in Aspirate by Organism specific culture"
       } ]
     } ]

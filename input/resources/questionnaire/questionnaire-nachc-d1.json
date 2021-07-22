@@ -37,26 +37,8 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d1.de1",
-    "text": "Gonococcal Infections and Venereal Diseases",
+    "text": "Gonorrhea Diagnosis",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonococcal-infections-and-venereal-diseases-choices"
-  }, {
-    "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d1.de184",
-    "text": "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-neisseria-gonorrhoeae-organism-or-substance-in-lab-results-choices"
-  }, {
-    "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d1.de196",
-    "text": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-neisseria-species-unspecified-organism-or-substance-in-lab-results-choices"
-  }, {
-    "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.d1.de201",
-    "text": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-secondary-sites-complications-chronic-disorders-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-diagnosis-choices-grouper"
   } ]
 }

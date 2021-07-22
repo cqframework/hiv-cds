@@ -12,70 +12,70 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C virus nucleic (RNA) test-HCV RNA screening tests - Meaningful Use set",
+        "code": "Hepatitis C Test-HCV RNA screening tests - Meaningful Use set",
         "display": "HCV RNA screening tests - Meaningful Use set"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [log units/volume] (viral load) in Unspecified specimen by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [log units/volume] (viral load) in Unspecified specimen by NAA with probe detection",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Presence] in Unspecified specimen by Probe with signal amplification",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Presence] in Unspecified specimen by Probe with signal amplification",
         "display": "Hepatitis C virus RNA [Presence] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 5 iU/mL",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 5 iU/mL",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 5 iU/mL"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 iU/mL",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 iU/mL",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 iU/mL"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 500 IU/mL",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 500 IU/mL",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 500 IU/mL"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with signal amplification",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA [Units/volume] (viral load) in Unspecified specimen by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Unspecified specimen by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Hepatitis C virus nucleic (RNA) test-Hepatitis C virus RNA panel (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA panel (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus RNA panel (viral load) in Serum or Plasma by NAA with probe detection"
       } ]
     } ]

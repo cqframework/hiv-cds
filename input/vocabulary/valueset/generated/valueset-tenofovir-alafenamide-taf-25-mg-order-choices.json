@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "tenofovir-alafenamide-taf-25-mg-order-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tenofovir-alafenamide-taf-25-mg-order-choices",
+  "name": "tenofovir-alafenamide-taf-25-mg-order-choices",
+  "title": "Tenofovir Alafenamide (TAF) 25 mg Order Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Tenofovir Alafenamide (TAF) 25 mg Order Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG",
+        "display": "tenofovir alafenamide 25 MG"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG Oral Tablet",
+        "display": "tenofovir alafenamide 25 MG Oral Tablet"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG [Vemlidy]",
+        "display": "tenofovir alafenamide 25 MG [Vemlidy]"
+      }, {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]",
+        "display": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]"
+      } ]
+    } ]
+  }
+}

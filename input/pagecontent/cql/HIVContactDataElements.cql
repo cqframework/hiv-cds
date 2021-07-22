@@ -12,297 +12,113 @@ include HIVConcepts called Cx
 context Encounter
 
 /*
-  @dataElement: NACHC.A1.DE1 HIV infection as a condition
+  @dataElement: NACHC.A0.DE1 Patient Encounter
+  @activity: NACHC.A0 Contact & Profile
+  @description: Concepts Associated with Patient Encounters
+*/
+define "Patient Encounter":
+  [Encounter: Cx."Patient Encounter"]
+
+/*
+  @dataElement: NACHC.A1.DE1 HIV Diagnosis
   @activity: NACHC.A1 HIV
-  @description: HIV
+  @description: Concepts Associated with HIV Diagnosis
 */
-define "HIV infection as a condition":
-  [Condition: Cx."HIV infection as a condition"]
+define "HIV Diagnosis":
+  [Condition: Cx."HIV Diagnosis"]
 
 /*
-  @dataElement: NACHC.A2.DE1 HIV-1 HIV 2 Ab Ag tests
+  @dataElement: NACHC.A2.DE1 HIV Test
   @activity: NACHC.A2 HIV test
-  @description: HIV Test
+  @description: Concepts Associated with HIV Testing
 */
-define "HIV-1 HIV 2 Ab Ag tests":
-  [Observation: Cx."HIV-1 HIV 2 Ab Ag tests"]
+define "HIV Test":
+  [Observation: Cx."HIV Test"]
 
 /*
-  @dataElement: NACHC.A2.DE172 HIV Viral Load
+  @dataElement: NACHC.A2.DE216 HIV Test Ordered
   @activity: NACHC.A2 HIV test
-  @description: HIV Test
+  @description: Concepts Associated with Ordering an HIV Test
 */
-define "HIV Viral Load":
-  [Observation: Cx."HIV Viral Load"]
+define "HIV Test Ordered":
+  [ServiceRequest: Cx."HIV Test Ordered"]
 
 /*
-  @dataElement: NACHC.B1.DE1 Hepatitis C Virus Infection (Disorders)
+  @dataElement: NACHC.B1.DE1 Hepatitis C Diagnosis
   @activity: NACHC.B1 HCV
-  @description: HCV
+  @description: Concepts Associated with HCV Diagnosis
 */
-define "Hepatitis C Virus Infection (Disorders)":
-  [Condition: Cx."Hepatitis C Virus Infection (Disorders)"]
+define "Hepatitis C Diagnosis":
+  [Condition: Cx."Hepatitis C Diagnosis"]
 
 /*
-  @dataElement: NACHC.B1.DE31 Chronic Infection of liver due to Hepatitis C virus
-  @activity: NACHC.B1 HCV
-  @description: HCV
-*/
-define "Chronic Infection of liver due to Hepatitis C virus":
-  [Condition: Cx."Chronic Infection of liver due to Hepatitis C virus"]
-
-/*
-  @dataElement: NACHC.B1.DE34 HCV Infection (Organism or Substance in Lab Results)
-  @activity: NACHC.B1 HCV
-  @description: HCV
-*/
-define "HCV Infection (Organism or Substance in Lab Results)":
-  [Condition: Cx."HCV Infection (Organism or Substance in Lab Results)"]
-
-/*
-  @dataElement: NACHC.B1.DE65 Hepatitis C condition
-  @activity: NACHC.B1 HCV
-  @description: HCV
-*/
-define "Hepatitis C condition":
-  [Condition: Cx."Hepatitis C condition"]
-
-/*
-  @dataElement: NACHC.B2.DE1 Hepatitis C Ag
+  @dataElement: NACHC.B2.DE1 Hepatitis C Test
   @activity: NACHC.B2 HCV test
-  @description: HCV Test
+  @description: Concepts Associated with HCV Testing
 */
-define "Hepatitis C Ag":
-  [Observation: Cx."Hepatitis C Ag"]
+define "Hepatitis C Test":
+  [Observation: Cx."Hepatitis C Test"]
 
 /*
-  @dataElement: NACHC.B2.DE4 Hepatitis C nucleic acid
+  @dataElement: NACHC.B2.DE1 Hepatitis C Procedures
   @activity: NACHC.B2 HCV test
-  @description: HCV Test
+  @description: Concepts Associated with HCV Procedures
 */
-define "Hepatitis C nucleic acid":
-  [Observation: Cx."Hepatitis C nucleic acid"]
+define "Hepatitis C Procedures":
+  [Observation: Cx."Hepatitis C Procedures"]
 
 /*
-  @dataElement: NACHC.B2.DE40 Hepatitis C virus antibody test using Immunoblotting (IB) method
-  @activity: NACHC.B2 HCV test
-  @description: HCV Test
-*/
-define "Hepatitis C virus antibody test using Immunoblotting (IB) method":
-  [Observation: Cx."Hepatitis C virus antibody test using Immunoblotting (IB) method"]
-
-/*
-  @dataElement: NACHC.B2.DE60 Hepatitis C virus antibody test
-  @activity: NACHC.B2 HCV test
-  @description: HCV Test
-*/
-define "Hepatitis C virus antibody test":
-  [Observation: Cx."Hepatitis C virus antibody test"]
-
-/*
-  @dataElement: NACHC.B2.DE80 Hepatitis C virus nucleic (RNA) test
-  @activity: NACHC.B2 HCV test
-  @description: HCV Test
-*/
-define "Hepatitis C virus nucleic (RNA) test":
-  [Observation: Cx."Hepatitis C virus nucleic (RNA) test"]
-
-/*
-  @dataElement: NACHC.C1.DE1 Syphilis
+  @dataElement: NACHC.C1.DE1 Syphilis Diagnosis
   @activity: NACHC.C1 Syphilis
-  @description: Syphilis
+  @description: Concepts Associated with Syphilis Diagnosis
 */
-define "Syphilis":
-  [Condition: Cx."Syphilis"]
+define "Syphilis Diagnosis":
+  [Condition: Cx."Syphilis Diagnosis"]
 
 /*
-  @dataElement: NACHC.C1.DE184 Syphilis (Organism or Substance in Lab Results)
-  @activity: NACHC.C1 Syphilis
-  @description: Syphilis
-*/
-define "Syphilis (Organism or Substance in Lab Results)":
-  [Condition: Cx."Syphilis (Organism or Substance in Lab Results)"]
-
-/*
-  @dataElement: NACHC.C1.DE191 Syphilis condition
-  @activity: NACHC.C1 Syphilis
-  @description: Syphilis
-*/
-define "Syphilis condition":
-  [Condition: Cx."Syphilis condition"]
-
-/*
-  @dataElement: NACHC.C2.DE1 Syphilis (Tests for Treponema pallidum Nucleic Acid)
+  @dataElement: NACHC.C2.DE1 Syphilis Test
   @activity: NACHC.C2 Syphilis test
-  @description: Syphilis Test
+  @description: Concepts Associated with Syphilis Testing
 */
-define "Syphilis (Tests for Treponema pallidum Nucleic Acid)":
-  [Observation: Cx."Syphilis (Tests for Treponema pallidum Nucleic Acid)"]
+define "Syphilis Test":
+  [Observation: Cx."Syphilis Test"]
 
 /*
-  @dataElement: NACHC.C2.DE7 Syphilis (Tests for Treponemal or Non Treponemal Antibody)
-  @activity: NACHC.C2 Syphilis test
-  @description: Syphilis Test
-*/
-define "Syphilis (Tests for Treponemal or Non Treponemal Antibody)":
-  [Observation: Cx."Syphilis (Tests for Treponemal or Non Treponemal Antibody)"]
-
-/*
-  @dataElement: NACHC.D1.DE1 Gonococcal Infections and Venereal Diseases
+  @dataElement: NACHC.D1.DE1 Gonorrhea Diagnosis
   @activity: NACHC.D1 Gonorrhea
-  @description: Gonorrhea
+  @description: Concepts Associated with Gonorrhea Diagnosis
 */
-define "Gonococcal Infections and Venereal Diseases":
-  [Condition: Cx."Gonococcal Infections and Venereal Diseases"]
+define "Gonorrhea Diagnosis":
+  [Condition: Cx."Gonorrhea Diagnosis"]
 
 /*
-  @dataElement: NACHC.D1.DE184 Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)
-  @activity: NACHC.D1 Gonorrhea
-  @description: Gonorrhea
-*/
-define "Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)":
-  [Condition: Cx."Gonorrhea [Neisseria gonorrhoeae] (Organism or Substance in Lab Results)"]
-
-/*
-  @dataElement: NACHC.D1.DE196 Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)
-  @activity: NACHC.D1 Gonorrhea
-  @description: Gonorrhea
-*/
-define "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)":
-  [Condition: Cx."Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)"]
-
-/*
-  @dataElement: NACHC.D1.DE201 Gonorrhea [Secondary Sites Complications Chronic] (Disorders)
-  @activity: NACHC.D1 Gonorrhea
-  @description: Gonorrhea
-*/
-define "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)":
-  [Condition: Cx."Gonorrhea [Secondary Sites Complications Chronic] (Disorders)"]
-
-/*
-  @dataElement: NACHC.D2.DE1 Gonorrhea Tests for Neisseria gonorrhea by Culture
+  @dataElement: NACHC.D2.DE1 Gonorrhea Test
   @activity: NACHC.D2 Gonorrhea test
-  @description: Gonorrhea Test
+  @description: Concepts Associated with Gonorrhea Testing
 */
-define "Gonorrhea Tests for Neisseria gonorrhea by Culture":
-  [Observation: Cx."Gonorrhea Tests for Neisseria gonorrhea by Culture"]
+define "Gonorrhea Test":
+  [Observation: Cx."Gonorrhea Test"]
 
 /*
-  @dataElement: NACHC.D2.DE100 Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests
-  @activity: NACHC.D2 Gonorrhea test
-  @description: Gonorrhea Test
-*/
-define "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests":
-  [Observation: Cx."Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests"]
-
-/*
-  @dataElement: NACHC.D2.DE16 Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)
-  @activity: NACHC.D2 Gonorrhea test
-  @description: Gonorrhea Test
-*/
-define "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)":
-  [Observation: Cx."Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)"]
-
-/*
-  @dataElement: NACHC.D2.DE59 Gonorrhea (Tests for Neisseria species by Culture and Identification Method)
-  @activity: NACHC.D2 Gonorrhea test
-  @description: Gonorrhea Test
-*/
-define "Gonorrhea (Tests for Neisseria species by Culture and Identification Method)":
-  [Observation: Cx."Gonorrhea (Tests for Neisseria species by Culture and Identification Method)"]
-
-/*
-  @dataElement: NACHC.D2.DE66 Gonorrhea test
-  @activity: NACHC.D2 Gonorrhea test
-  @description: Gonorrhea Test
-*/
-define "Gonorrhea test":
-  [Observation: Cx."Gonorrhea test"]
-
-/*
-  @dataElement: NACHC.E1.DE1 Chlamydia
+  @dataElement: NACHC.E1.DE1 Chlamydia Diagnosis
   @activity: NACHC.E1 Chlamydia
-  @description: Chlamydia
+  @description: Concepts Associated with Chlamydia Diagnosis
 */
-define "Chlamydia":
-  [Condition: Cx."Chlamydia"]
+define "Chlamydia Diagnosis":
+  [Condition: Cx."Chlamydia Diagnosis"]
 
 /*
-  @dataElement: NACHC.E1.DE26 Chlamydia Infections and Venereal Diseases
-  @activity: NACHC.E1 Chlamydia
-  @description: Chlamydia
-*/
-define "Chlamydia Infections and Venereal Diseases":
-  [Condition: Cx."Chlamydia Infections and Venereal Diseases"]
-
-/*
-  @dataElement: NACHC.E1.DE31 Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)
-  @activity: NACHC.E1 Chlamydia
-  @description: Chlamydia
-*/
-define "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)":
-  [Condition: Cx."Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)"]
-
-/*
-  @dataElement: NACHC.E1.DE62 Chlamydia trachomatis organism or Chlamydia trachomatis substance
-  @activity: NACHC.E1 Chlamydia
-  @description: Chlamydia
-*/
-define "Chlamydia trachomatis organism or Chlamydia trachomatis substance":
-  [Condition: Cx."Chlamydia trachomatis organism or Chlamydia trachomatis substance"]
-
-/*
-  @dataElement: NACHC.E2.DE1 Chlamydia Screening
+  @dataElement: NACHC.E2.DE1 Chlamydia Test
   @activity: NACHC.E2 Chlamydia test
-  @description: Chlamydia Test
+  @description: Concepts Associated with Chlamydia Testing
 */
-define "Chlamydia Screening":
-  [Observation: Cx."Chlamydia Screening"]
-
-/*
-  @dataElement: NACHC.E2.DE122 Chlamydia Trachomatis Tests, FPAR
-  @activity: NACHC.E2 Chlamydia test
-  @description: Chlamydia Test
-*/
-define "Chlamydia Trachomatis Tests, FPAR":
-  [Observation: Cx."Chlamydia Trachomatis Tests, FPAR"]
-
-/*
-  @dataElement: NACHC.E2.DE124 Tests for Chlamydia trachomatis Antigen
-  @activity: NACHC.E2 Chlamydia test
-  @description: Chlamydia Test
-*/
-define "Tests for Chlamydia trachomatis Antigen":
-  [Observation: Cx."Tests for Chlamydia trachomatis Antigen"]
-
-/*
-  @dataElement: NACHC.E2.DE153 Tests for Chlamydia trachomatis by Culture and Identification Method)
-  @activity: NACHC.E2 Chlamydia test
-  @description: Chlamydia Test
-*/
-define "Tests for Chlamydia trachomatis by Culture and Identification Method)":
-  [Observation: Cx."Tests for Chlamydia trachomatis by Culture and Identification Method)"]
-
-/*
-  @dataElement: NACHC.E2.DE163 Tests for Chlamydia trachomatis Nucleic Acid
-  @activity: NACHC.E2 Chlamydia test
-  @description: Chlamydia Test
-*/
-define "Tests for Chlamydia trachomatis Nucleic Acid":
-  [Observation: Cx."Tests for Chlamydia trachomatis Nucleic Acid"]
-
-/*
-  @dataElement: NACHC.E2.DE48 Chlamydia test
-  @activity: NACHC.E2 Chlamydia test
-  @description: Chlamydia Test
-*/
-define "Chlamydia test":
-  [Observation: Cx."Chlamydia test"]
+define "Chlamydia Test":
+  [Observation: Cx."Chlamydia Test"]
 
 /*
   @dataElement: NACHC.F1.DE1 Drug Rehabilitation
   @activity: NACHC.F1 Injection Drug Use
-  @description: Injection Drug Use
+  @description: Concepts related to Injection Drug Use Rehabiliation
 */
 define "Drug Rehabilitation":
   [Procedure: Cx."Drug Rehabilitation"]
@@ -310,23 +126,23 @@ define "Drug Rehabilitation":
 /*
   @dataElement: NACHC.F1.DE12 Injection Findings
   @activity: NACHC.F1 Injection Drug Use
-  @description: Injection Drug Use
+  @description: Concepts related to findings or observations related to Injection Drug Usage
 */
 define "Injection Findings":
   [Observation: Cx."Injection Findings"]
 
 /*
-  @dataElement: NACHC.F1.DE15 IDU as a condition
+  @dataElement: NACHC.F1.DE15 Injection Drug Use Diagnosis
   @activity: NACHC.F1 Injection Drug Use
-  @description: Injection Drug Use
+  @description: Concepts Associated with Injection Drug Use Diagnosis
 */
-define "IDU as a condition":
-  [Condition: Cx."IDU as a condition"]
+define "Injection Drug Use Diagnosis":
+  [Condition: Cx."Injection Drug Use Diagnosis"]
 
 /*
   @dataElement: NACHC.F1.DE200 Injection Drug Use
   @activity: NACHC.F1 Injection Drug Use
-  @description: Injection Drug Use
+  @description: Concepts related to Injection Drug Use History
 */
 define "Injection Drug Use":
   [MedicationStatement: Cx."Injection Drug Use"]
@@ -380,10 +196,234 @@ define "Pregnancy Observations":
   [Observation: Cx."Pregnancy Observations"]
 
 /*
-  @dataElement: NACHC.F3.DE1 Post Exposure Prophylaxis
-  @activity: NACHC.F3 Post Exposure Prophylaxis
-  @description: Post Exposure Prophylaxis
+  @dataElement: NACHC.G1.DE1 Post Exposure Prophylaxis
+  @activity: NACHC.G1 Post Exposure Prophylaxis
+  @description: Concepts and Procedures Identifying Post Exposure Prophylaxis
 */
 define "Post Exposure Prophylaxis":
   [Procedure: Cx."Post Exposure Prophylaxis"]
+
+/*
+  @dataElement: NACHC.G1.DE143 Post Exposure Prophylaxis Dispensed Medications
+  @activity: NACHC.G1 Post Exposure Prophylaxis
+  @description: List of Medications Provisioned and Supplied for Non-Occupational Post Exposure Prophylaxis
+*/
+define "Post Exposure Prophylaxis Dispensed Medications":
+  [MedicationDispense: Cx."Post Exposure Prophylaxis Dispensed Medications"]
+
+/*
+  @dataElement: NACHC.G1.DE5 Post Exposure Prophylaxis Medication Prescriptions
+  @activity: NACHC.G1 Post Exposure Prophylaxis
+  @description: List of Medication Prescriptions for Non-Occupational Post Exposure Prophylaxis
+*/
+define "Post Exposure Prophylaxis Medication Prescriptions":
+  [MedicationRequest: Cx."Post Exposure Prophylaxis Medication Prescriptions"]
+
+/*
+  @dataElement: NACHC.G2.DE1 Pre Exposure Prophylaxis Medication Prescriptions
+  @activity: NACHC.G2 Pre Exposure Prophylaxis
+  @description: List of Medication Prescriptions for Non-Occupational Pre Exposure Prophylaxis
+*/
+define "Pre Exposure Prophylaxis Medication Prescriptions":
+  [MedicationRequest: Cx."Pre Exposure Prophylaxis Medication Prescriptions"]
+
+/*
+  @dataElement: NACHC.G2.DE26 Pre Exposure Prophylaxis Dispensed Medications
+  @activity: NACHC.G2 Pre Exposure Prophylaxis
+  @description: List of Medications Provisioned and Supplied for Non-Occupational Pre Exposure Prophylaxis
+*/
+define "Pre Exposure Prophylaxis Dispensed Medications":
+  [MedicationDispense: Cx."Pre Exposure Prophylaxis Dispensed Medications"]
+
+/*
+  @dataElement: NACHC.H1.DE1 Previous HIV Screening
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has previously been screened for HIV?
+*/
+define "Previous HIV Screening":
+  [Observation: Cx."HIV Test"]
+
+/*
+  @dataElement: NACHC.H1.DE10 Sexual Activity - Past Year
+  @activity: NACHC.H1 Risk Factors
+  @description: Have you been sexually active in the past year?
+*/
+define "Sexual Activity - Past Year":
+  [Observation: Cx."Sexual Activity - Past Year"]
+
+/*
+  @dataElement: NACHC.H1.DE11 Sexual Activity -  History
+  @activity: NACHC.H1 Risk Factors
+  @description: Have you ever been sexually active?
+*/
+define "Sexual Activity -  History":
+  [Observation: Cx."Sexual Activity -  History"]
+
+/*
+  @dataElement: NACHC.H1.DE12 Sexual Activity - Men
+  @activity: NACHC.H1 Risk Factors
+  @description: Do you have sex with men?
+*/
+define "Sexual Activity - Men":
+  [Observation: Cx."Sexual Activity - Men"]
+
+/*
+  @dataElement: NACHC.H1.DE13 Sexual Activity -  Women
+  @activity: NACHC.H1 Risk Factors
+  @description: Do you have sex with women?
+*/
+define "Sexual Activity -  Women":
+  [Observation: Cx."Sexual Activity -  Women"]
+
+/*
+  @dataElement: NACHC.H1.DE14 Sexual Activity -  Number of Partners
+  @activity: NACHC.H1 Risk Factors
+  @description: Have you had more than 1 sexual partner since last being tested for HIV?
+*/
+define "Sexual Activity -  Number of Partners":
+  [Observation: Cx."Sexual Activity -  Number of Partners"]
+
+/*
+  @dataElement: NACHC.H1.DE15 Sexual Activity - New Partner Past 3 Months
+  @activity: NACHC.H1 Risk Factors
+  @description: In the past 3 months, have you had sex with someone you didn’t know or had just met?
+*/
+define "Sexual Activity - New Partner Past 3 Months":
+  [Observation: Cx."Sexual Activity - New Partner Past 3 Months"]
+
+/*
+  @dataElement: NACHC.H1.DE16 Sexual Activity -  Partners History
+  @activity: NACHC.H1 Risk Factors
+  @description: Do you know whether your partner has other sexual partners?
+*/
+define "Sexual Activity -  Partners History":
+  [Observation: Cx."Sexual Activity -  Partners History"]
+
+/*
+  @dataElement: NACHC.H1.DE17 Sexual Activity -  Partners Number of Partners
+  @activity: NACHC.H1 Risk Factors
+  @description: Do you know whether your partner has had more than 1 sexual partner since their last HIV test?
+*/
+define "Sexual Activity -  Partners Number of Partners":
+  [Observation: Cx."Sexual Activity -  Partners Number of Partners"]
+
+/*
+  @dataElement: NACHC.H1.DE18 Sexual Activity -  Coercion
+  @activity: NACHC.H1 Risk Factors
+  @description: Have you ever been coerced or pressured to have sex?
+*/
+define "Sexual Activity -  Coercion":
+  [Observation: Cx."Sexual Activity -  Coercion"]
+
+/*
+  @dataElement: NACHC.H1.DE19 Sexual Activity - Kind of Sex - Anal
+  @activity: NACHC.H1 Risk Factors
+  @description: In the past 3 months have you had anal sex?
+*/
+define "Sexual Activity - Kind of Sex - Anal":
+  [Observation: Cx."Sexual Activity - Kind of Sex - Anal"]
+
+/*
+  @dataElement: NACHC.H1.DE2 Previous HIV Diagnosis
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has previously been diagnosed with HIV?
+*/
+define "Previous HIV Diagnosis":
+  [Observation: Cx."HIV Diagnosis"]
+
+/*
+  @dataElement: NACHC.H1.DE20 Sexual Activity - Male - Kind of Sex - Receptive Anal
+  @activity: NACHC.H1 Risk Factors
+  @description: If Male: In the past 3 months have you had receptive anal sex?
+*/
+define "Sexual Activity - Male - Kind of Sex - Receptive Anal":
+  [Observation: Cx."Sexual Activity - Male - Kind of Sex - Receptive Anal"]
+
+/*
+  @dataElement: NACHC.H1.DE21 Sexual Activity - Male - Kind of Sex - Insertive Anal
+  @activity: NACHC.H1 Risk Factors
+  @description: If Male: In the past 3 months have you had insertive anal sex?
+*/
+define "Sexual Activity - Male - Kind of Sex - Insertive Anal":
+  [Observation: Cx."Sexual Activity - Male - Kind of Sex - Insertive Anal"]
+
+/*
+  @dataElement: NACHC.H1.DE22 Sexual Activity - Kind of Sex - Vaginal
+  @activity: NACHC.H1 Risk Factors
+  @description: In the past 3 months have you had vaginal sex?
+*/
+define "Sexual Activity - Kind of Sex - Vaginal":
+  [Observation: Cx."Sexual Activity - Kind of Sex - Vaginal"]
+
+/*
+  @dataElement: NACHC.H1.DE23 Sexual Activity - Drug or Alcohol Use
+  @activity: NACHC.H1 Risk Factors
+  @description: Have you or any of your partners used alcohol or drugs when you had sex?
+*/
+define "Sexual Activity - Drug or Alcohol Use":
+  [Observation: Cx."Sexual Activity - Drug or Alcohol Use"]
+
+/*
+  @dataElement: NACHC.H1.DE24 Sexual Activity - Exchanged for Sex
+  @activity: NACHC.H1 Risk Factors
+  @description: Have you ever exchanged sex for drugs or money?
+*/
+define "Sexual Activity - Exchanged for Sex":
+  [Observation: Cx."Sexual Activity - Exchanged for Sex"]
+
+/*
+  @dataElement: NACHC.H1.DE3 Patient Currently Pregnant
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient is currently pregnant?
+*/
+define "Patient Currently Pregnant":
+  [Observation: Cx."Pregnancy Conditions"]
+
+/*
+  @dataElement: NACHC.H1.DE4 Patient Diagnosed with HCV
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with HCV?
+*/
+define "Patient Diagnosed with HCV":
+  [Observation: Cx."Hepatitis C Diagnosis"]
+
+/*
+  @dataElement: NACHC.H1.DE5 Patient Diagnosed with Syphilis
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with Syphilis?
+*/
+define "Patient Diagnosed with Syphilis":
+  [Observation: Cx."Syphilis Diagnosis"]
+
+/*
+  @dataElement: NACHC.H1.DE6 Patient Diagnosed with Gonorrhea
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with Gonorrhea?
+*/
+define "Patient Diagnosed with Gonorrhea":
+  [Observation: Cx."Gonorrhea Diagnosis"]
+
+/*
+  @dataElement: NACHC.H1.DE7 Patient Diagnosed with Chlamydia
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with Chlamydia?
+*/
+define "Patient Diagnosed with Chlamydia":
+  [Observation: Cx."Chlamydia Diagnosis"]
+
+/*
+  @dataElement: NACHC.H1.DE8 Patient has used Injection Drugs
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been using Injection Drugs?
+*/
+define "Patient has used Injection Drugs":
+  [Observation: Cx."Injection Drug Use Diagnosis"]
+
+/*
+  @dataElement: NACHC.H1.DE9 Previous experience with PREP
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has previously been given PREP?
+*/
+define "Previous experience with PREP":
+  [Observation: Cx."Pre Exposure Prophylaxis Medication Prescriptions"]
 

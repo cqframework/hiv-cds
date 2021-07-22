@@ -12,109 +12,109 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus Ab [Presence] in Body fluid",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Presence] in Body fluid",
         "display": "Hepatitis C virus Ab [Presence] in Body fluid"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus Ab [Presence] in Body fluid by Immunoblot",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Presence] in Body fluid by Immunoblot",
         "display": "Hepatitis C virus Ab [Presence] in Body fluid by Immunoblot"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus Ab [Presence] in Cerebral spinal fluid",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Presence] in Cerebral spinal fluid",
         "display": "Hepatitis C virus Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus Ab Signal/Cutoff in Body fluid",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab Signal/Cutoff in Body fluid",
         "display": "Hepatitis C virus Ab Signal/Cutoff in Body fluid"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus core Ab+Ag [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus core Ab+Ag [Presence] in Serum",
         "display": "Hepatitis C virus core Ab+Ag [Presence] in Serum"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype [Identifier] in Blood by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype [Identifier] in Blood by NAA with probe detection",
         "display": "Hepatitis C virus genotype [Identifier] in Blood by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype [Identifier] in Tissue by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype [Identifier] in Tissue by NAA with probe detection",
         "display": "Hepatitis C virus genotype [Identifier] in Tissue by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype [Identifier] in Unspecified specimen by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype [Identifier] in Unspecified specimen by NAA with probe detection",
         "display": "Hepatitis C virus genotype [Identifier] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype 1 [Type] in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype 1 [Type] in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus genotype 1 [Type] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype 1 NS5a gene mutations detected [Identifier]",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype 1 NS5a gene mutations detected [Identifier]",
         "display": "Hepatitis C virus genotype 1 NS5a gene mutations detected [Identifier]"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype 1 NS5b gene mutations detected [Identifier]",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype 1 NS5b gene mutations detected [Identifier]",
         "display": "Hepatitis C virus genotype 1 NS5b gene mutations detected [Identifier]"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype 3 [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype 3 [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "Hepatitis C virus genotype 3 [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype 3 NS5a gene mutations detected [Identifier]",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype 3 NS5a gene mutations detected [Identifier]",
         "display": "Hepatitis C virus genotype 3 NS5a gene mutations detected [Identifier]"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus genotype in Serum or Plasma by Sequencing",
+        "code": "Hepatitis C Test-Hepatitis C virus genotype in Serum or Plasma by Sequencing",
         "display": "Hepatitis C virus genotype in Serum or Plasma by Sequencing"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
         "display": "Hepatitis C virus IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus NS3 gene mutations detected [Identifier] by Genotype method",
+        "code": "Hepatitis C Test-Hepatitis C virus NS3 gene mutations detected [Identifier] by Genotype method",
         "display": "Hepatitis C virus NS3 gene mutations detected [Identifier] by Genotype method"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus NS5 gene mutations detected [Identifier] by Genotype method",
+        "code": "Hepatitis C Test-Hepatitis C virus NS5 gene mutations detected [Identifier] by Genotype method",
         "display": "Hepatitis C virus NS5 gene mutations detected [Identifier] by Genotype method"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [#/volume] (viral load) in Bone marrow by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [#/volume] (viral load) in Bone marrow by NAA with probe detection",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [#/volume] (viral load) in Tissue by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [#/volume] (viral load) in Tissue by NAA with probe detection",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Log #/volume] (viral load) in Bone marrow by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Log #/volume] (viral load) in Bone marrow by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Log #/volume] (viral load) in Tissue by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Log #/volume] (viral load) in Tissue by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [log units/volume] (viral load) in Bone marrow by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [log units/volume] (viral load) in Bone marrow by NAA with probe detection",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [log units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [log units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [log units/volume] (viral load) in Tissue by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [log units/volume] (viral load) in Tissue by NAA with probe detection",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Presence] in Body fluid by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Presence] in Body fluid by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Presence] in Body fluid by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Units/volume] (viral load) in Bone marrow by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Bone marrow by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-Hepatitis C virus RNA [Units/volume] (viral load) in Tissue by NAA with probe detection",
+        "code": "Hepatitis C Test-Hepatitis C virus RNA [Units/volume] (viral load) in Tissue by NAA with probe detection",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection",
+        "code": "Hepatitis C Test-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection",
         "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection"
       }, {
-        "code": "Hepatitis C nucleic acid-HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "Hepatitis C Test-HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
       } ]
     } ]

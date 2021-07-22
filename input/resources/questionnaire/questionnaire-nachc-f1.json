@@ -49,9 +49,9 @@
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f1.de15",
-    "text": "IDU as a condition",
+    "text": "Injection Drug Use Diagnosis",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/idu-as-a-condition-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-drug-use-diagnosis-choices"
   }, {
     "linkId": "4",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f1.de200",

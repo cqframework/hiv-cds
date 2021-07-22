@@ -12,88 +12,88 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Antigen of Hepacivirus C (substance)",
+        "code": "Hepatitis C Diagnosis-Antigen of Hepacivirus C (substance)",
         "display": "Antigen of Hepacivirus C (substance)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Ribosomal ribonucleic acid of Hepatitis C virus (substance)",
+        "code": "Hepatitis C Diagnosis-Ribosomal ribonucleic acid of Hepatitis C virus (substance)",
         "display": "Ribosomal ribonucleic acid of Hepatitis C virus (substance)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Ribonucleic acid of Hepatitis C virus (substance)",
+        "code": "Hepatitis C Diagnosis-Ribonucleic acid of Hepatitis C virus (substance)",
         "display": "Ribonucleic acid of Hepatitis C virus (substance)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 1a (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 1a (organism)",
         "display": "Hepatitis C virus subtype 1a (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 1b (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 1b (organism)",
         "display": "Hepatitis C virus subtype 1b (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 2a (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 2a (organism)",
         "display": "Hepatitis C virus subtype 2a (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 2b (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 2b (organism)",
         "display": "Hepatitis C virus subtype 2b (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 3a (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 3a (organism)",
         "display": "Hepatitis C virus subtype 3a (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 3b (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 3b (organism)",
         "display": "Hepatitis C virus subtype 3b (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 5a (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 5a (organism)",
         "display": "Hepatitis C virus subtype 5a (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 6a (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 6a (organism)",
         "display": "Hepatitis C virus subtype 6a (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 4a (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4a (organism)",
         "display": "Hepatitis C virus subtype 4a (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 1 (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 1 (organism)",
         "display": "Hepatitis C virus genotype 1 (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 2 (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 2 (organism)",
         "display": "Hepatitis C virus genotype 2 (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 3 (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 3 (organism)",
         "display": "Hepatitis C virus genotype 3 (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 4 (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 4 (organism)",
         "display": "Hepatitis C virus genotype 4 (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 5 (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 5 (organism)",
         "display": "Hepatitis C virus genotype 5 (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 6 (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 6 (organism)",
         "display": "Hepatitis C virus genotype 6 (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 1c (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 1c (organism)",
         "display": "Hepatitis C virus subtype 1c (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 2c (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 2c (organism)",
         "display": "Hepatitis C virus subtype 2c (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 4b (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4b (organism)",
         "display": "Hepatitis C virus subtype 4b (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 4c (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4c (organism)",
         "display": "Hepatitis C virus subtype 4c (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 4d (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4d (organism)",
         "display": "Hepatitis C virus subtype 4d (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus subtype 4e (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4e (organism)",
         "display": "Hepatitis C virus subtype 4e (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus (organism)",
         "display": "Hepatitis C virus (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Antigen of Hepatitis C virus core (substance)",
+        "code": "Hepatitis C Diagnosis-Antigen of Hepatitis C virus core (substance)",
         "display": "Antigen of Hepatitis C virus core (substance)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 4h (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 4h (organism)",
         "display": "Hepatitis C virus genotype 4h (organism)"
       }, {
-        "code": "HCV Infection (Organism or Substance in Lab Results)-Hepatitis C virus genotype 3c (organism)",
+        "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 3c (organism)",
         "display": "Hepatitis C virus genotype 3c (organism)"
       } ]
     } ]

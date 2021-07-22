@@ -37,38 +37,8 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e2.de1",
-    "text": "Chlamydia Screening",
+    "text": "Chlamydia Test",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-screening-choices"
-  }, {
-    "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e2.de48",
-    "text": "Chlamydia test",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-test-choices"
-  }, {
-    "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e2.de122",
-    "text": "Chlamydia Trachomatis Tests, FPAR",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-tests-fpar-choices"
-  }, {
-    "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e2.de124",
-    "text": "Tests for Chlamydia trachomatis Antigen",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-antigen-choices"
-  }, {
-    "linkId": "5",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e2.de153",
-    "text": "Tests for Chlamydia trachomatis by Culture and Identification Method)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-by-culture-and-identification-method-choices"
-  }, {
-    "linkId": "6",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e2.de163",
-    "text": "Tests for Chlamydia trachomatis Nucleic Acid",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/tests-for-chlamydia-trachomatis-nucleic-acid-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-test-choices-grouper"
   } ]
 }

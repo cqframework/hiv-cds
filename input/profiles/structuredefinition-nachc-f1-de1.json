@@ -6,7 +6,7 @@
   "title": "Drug Rehabilitation",
   "status": "draft",
   "experimental": false,
-  "description": "Injection Drug Use",
+  "description": "Concepts related to Injection Drug Use Rehabiliation",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",

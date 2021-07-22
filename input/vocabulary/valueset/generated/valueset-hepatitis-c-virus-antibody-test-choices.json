@@ -12,61 +12,61 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C virus antibody test-HCV antibody screening - Meaningful Use set",
+        "code": "Hepatitis C Test-HCV antibody screening - Meaningful Use set",
         "display": "HCV antibody screening - Meaningful Use set"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus 100-3 Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus 100-3 Ab [Presence] in Serum",
         "display": "Hepatitis C virus 100-3 Ab [Presence] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus 22-3 Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus 22-3 Ab [Presence] in Serum",
         "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus 5-1-1 Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus 5-1-1 Ab [Presence] in Serum",
         "display": "Hepatitis C virus 5-1-1 Ab [Presence] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Presence] in Serum",
         "display": "Hepatitis C virus Ab [Presence] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay",
         "display": "Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
         "display": "Hepatitis C virus Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus Ab [Units/volume] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Units/volume] in Serum",
         "display": "Hepatitis C virus Ab [Units/volume] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay",
         "display": "Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay",
         "display": "Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum",
         "display": "Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus c33c Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus c33c Ab [Presence] in Serum",
         "display": "Hepatitis C virus c33c Ab [Presence] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus IgG Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus IgG Ab [Presence] in Serum",
         "display": "Hepatitis C virus IgG Ab [Presence] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus IgG Ab [Presence] in Serum or Plasma by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus IgG Ab [Presence] in Serum or Plasma by Immunoassay",
         "display": "Hepatitis C virus IgG Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus IgG Ab [Units/volume] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus IgG Ab [Units/volume] in Serum",
         "display": "Hepatitis C virus IgG Ab [Units/volume] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus IgG Ab [Units/volume] in Serum by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus IgG Ab [Units/volume] in Serum by Immunoassay",
         "display": "Hepatitis C virus IgG Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus IgM Ab [Units/volume] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus IgM Ab [Units/volume] in Serum",
         "display": "Hepatitis C virus IgM Ab [Units/volume] in Serum"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus IgM Ab [Units/volume] in Serum by Immunoassay",
+        "code": "Hepatitis C Test-Hepatitis C virus IgM Ab [Units/volume] in Serum by Immunoassay",
         "display": "Hepatitis C virus IgM Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "Hepatitis C virus antibody test-Hepatitis C virus superoxide dismutase Ab [Presence] in Serum",
+        "code": "Hepatitis C Test-Hepatitis C virus superoxide dismutase Ab [Presence] in Serum",
         "display": "Hepatitis C virus superoxide dismutase Ab [Presence] in Serum"
       } ]
     } ]

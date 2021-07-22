@@ -37,7 +37,7 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.a1.de1",
-    "text": "HIV infection as a condition",
+    "text": "HIV Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-infection-as-a-condition-choices"
   } ]

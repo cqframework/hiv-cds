@@ -6,7 +6,7 @@
   "title": "Injection Drug Use",
   "status": "draft",
   "experimental": false,
-  "description": "Injection Drug Use",
+  "description": "Concepts related to Injection Drug Use History",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",

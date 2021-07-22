@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "syphilis-diagnosis",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-diagnosis",
+  "name": "syphilis-diagnosis",
+  "title": "Syphilis Diagnosis",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis Diagnosis element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Syphilis Diagnosis",
+        "display": "Syphilis Diagnosis"
+      } ]
+    } ]
+  }
+}

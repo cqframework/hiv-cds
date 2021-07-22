@@ -12,382 +12,382 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Syphilis condition-Asymptomatic neurosyphilis",
+        "code": "Syphilis Diagnosis-Asymptomatic neurosyphilis",
         "display": "Asymptomatic neurosyphilis"
       }, {
-        "code": "Syphilis condition-Cardiovascular and cerebrovascular syphilis",
+        "code": "Syphilis Diagnosis-Cardiovascular and cerebrovascular syphilis",
         "display": "Cardiovascular and cerebrovascular syphilis"
       }, {
-        "code": "Syphilis condition-Cardiovascular syphilis, unspecified",
+        "code": "Syphilis Diagnosis-Cardiovascular syphilis, unspecified",
         "display": "Cardiovascular syphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Charcôt's arthropathy (tabetic)",
+        "code": "Syphilis Diagnosis-Charcôt's arthropathy (tabetic)",
         "display": "Charcôt's arthropathy (tabetic)"
       }, {
-        "code": "Syphilis condition-Clutton's joints",
+        "code": "Syphilis Diagnosis-Clutton's joints",
         "display": "Clutton's joints"
       }, {
-        "code": "Syphilis condition-Condyloma latum",
+        "code": "Syphilis Diagnosis-Condyloma latum",
         "display": "Condyloma latum"
       }, {
-        "code": "Syphilis condition-Congenital syphilis",
+        "code": "Syphilis Diagnosis-Congenital syphilis",
         "display": "Congenital syphilis"
       }, {
-        "code": "Syphilis condition-Congenital syphilis, unspecified",
+        "code": "Syphilis Diagnosis-Congenital syphilis, unspecified",
         "display": "Congenital syphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Early congenital syphilis, latent",
+        "code": "Syphilis Diagnosis-Early congenital syphilis, latent",
         "display": "Early congenital syphilis, latent"
       }, {
-        "code": "Syphilis condition-Early congenital syphilis, symptomatic",
+        "code": "Syphilis Diagnosis-Early congenital syphilis, symptomatic",
         "display": "Early congenital syphilis, symptomatic"
       }, {
-        "code": "Syphilis condition-Early congenital syphilis, unspecified",
+        "code": "Syphilis Diagnosis-Early congenital syphilis, unspecified",
         "display": "Early congenital syphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Early congenital syphilitic oculopathy",
+        "code": "Syphilis Diagnosis-Early congenital syphilitic oculopathy",
         "display": "Early congenital syphilitic oculopathy"
       }, {
-        "code": "Syphilis condition-Early congenital syphilitic osteochondropathy",
+        "code": "Syphilis Diagnosis-Early congenital syphilitic osteochondropathy",
         "display": "Early congenital syphilitic osteochondropathy"
       }, {
-        "code": "Syphilis condition-Early congenital syphilitic pharyngitis",
+        "code": "Syphilis Diagnosis-Early congenital syphilitic pharyngitis",
         "display": "Early congenital syphilitic pharyngitis"
       }, {
-        "code": "Syphilis condition-Early congenital syphilitic pneumonia",
+        "code": "Syphilis Diagnosis-Early congenital syphilitic pneumonia",
         "display": "Early congenital syphilitic pneumonia"
       }, {
-        "code": "Syphilis condition-Early congenital syphilitic rhinitis",
+        "code": "Syphilis Diagnosis-Early congenital syphilitic rhinitis",
         "display": "Early congenital syphilitic rhinitis"
       }, {
-        "code": "Syphilis condition-Early cutaneous congenital syphilis",
+        "code": "Syphilis Diagnosis-Early cutaneous congenital syphilis",
         "display": "Early cutaneous congenital syphilis"
       }, {
-        "code": "Syphilis condition-Early mucocutaneous congenital syphilis",
+        "code": "Syphilis Diagnosis-Early mucocutaneous congenital syphilis",
         "display": "Early mucocutaneous congenital syphilis"
       }, {
-        "code": "Syphilis condition-Early syphilis",
+        "code": "Syphilis Diagnosis-Early syphilis",
         "display": "Early syphilis"
       }, {
-        "code": "Syphilis condition-Early syphilis, latent",
+        "code": "Syphilis Diagnosis-Early syphilis, latent",
         "display": "Early syphilis, latent"
       }, {
-        "code": "Syphilis condition-Early syphilis, unspecified",
+        "code": "Syphilis Diagnosis-Early syphilis, unspecified",
         "display": "Early syphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Early visceral congenital syphilis",
+        "code": "Syphilis Diagnosis-Early visceral congenital syphilis",
         "display": "Early visceral congenital syphilis"
       }, {
-        "code": "Syphilis condition-General paresis",
+        "code": "Syphilis Diagnosis-General paresis",
         "display": "General paresis"
       }, {
-        "code": "Syphilis condition-Hutchinson's teeth",
+        "code": "Syphilis Diagnosis-Hutchinson's teeth",
         "display": "Hutchinson's teeth"
       }, {
-        "code": "Syphilis condition-Hutchinson's triad",
+        "code": "Syphilis Diagnosis-Hutchinson's triad",
         "display": "Hutchinson's triad"
       }, {
-        "code": "Syphilis condition-Juvenile general paresis",
+        "code": "Syphilis Diagnosis-Juvenile general paresis",
         "display": "Juvenile general paresis"
       }, {
-        "code": "Syphilis condition-Late congenital cardiovascular syphilis",
+        "code": "Syphilis Diagnosis-Late congenital cardiovascular syphilis",
         "display": "Late congenital cardiovascular syphilis"
       }, {
-        "code": "Syphilis condition-Late congenital neurosyphilis [juvenile neurosyphilis]",
+        "code": "Syphilis Diagnosis-Late congenital neurosyphilis [juvenile neurosyphilis]",
         "display": "Late congenital neurosyphilis [juvenile neurosyphilis]"
       }, {
-        "code": "Syphilis condition-Late congenital neurosyphilis, unspecified",
+        "code": "Syphilis Diagnosis-Late congenital neurosyphilis, unspecified",
         "display": "Late congenital neurosyphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Late congenital syphilis, latent",
+        "code": "Syphilis Diagnosis-Late congenital syphilis, latent",
         "display": "Late congenital syphilis, latent"
       }, {
-        "code": "Syphilis condition-Late congenital syphilis, unspecified",
+        "code": "Syphilis Diagnosis-Late congenital syphilis, unspecified",
         "display": "Late congenital syphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic arthropathy",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic arthropathy",
         "display": "Late congenital syphilitic arthropathy"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic chorioretinitis",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic chorioretinitis",
         "display": "Late congenital syphilitic chorioretinitis"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic encephalitis",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic encephalitis",
         "display": "Late congenital syphilitic encephalitis"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic interstitial keratitis",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic interstitial keratitis",
         "display": "Late congenital syphilitic interstitial keratitis"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic meningitis",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic meningitis",
         "display": "Late congenital syphilitic meningitis"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic oculopathy",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy",
         "display": "Late congenital syphilitic oculopathy"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic oculopathy, unspecified",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy, unspecified",
         "display": "Late congenital syphilitic oculopathy, unspecified"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic optic nerve atrophy",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic optic nerve atrophy",
         "display": "Late congenital syphilitic optic nerve atrophy"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic osteochondropathy",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic osteochondropathy",
         "display": "Late congenital syphilitic osteochondropathy"
       }, {
-        "code": "Syphilis condition-Late congenital syphilitic polyneuropathy",
+        "code": "Syphilis Diagnosis-Late congenital syphilitic polyneuropathy",
         "display": "Late congenital syphilitic polyneuropathy"
       }, {
-        "code": "Syphilis condition-Late syphilis",
+        "code": "Syphilis Diagnosis-Late syphilis",
         "display": "Late syphilis"
       }, {
-        "code": "Syphilis condition-Late syphilis, latent",
+        "code": "Syphilis Diagnosis-Late syphilis, latent",
         "display": "Late syphilis, latent"
       }, {
-        "code": "Syphilis condition-Late syphilis, unspecified",
+        "code": "Syphilis Diagnosis-Late syphilis, unspecified",
         "display": "Late syphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Late syphilitic encephalitis",
+        "code": "Syphilis Diagnosis-Late syphilitic encephalitis",
         "display": "Late syphilitic encephalitis"
       }, {
-        "code": "Syphilis condition-Late syphilitic meningitis",
+        "code": "Syphilis Diagnosis-Late syphilitic meningitis",
         "display": "Late syphilitic meningitis"
       }, {
-        "code": "Syphilis condition-Late syphilitic neuropathy",
+        "code": "Syphilis Diagnosis-Late syphilitic neuropathy",
         "display": "Late syphilitic neuropathy"
       }, {
-        "code": "Syphilis condition-Late syphilitic oculopathy",
+        "code": "Syphilis Diagnosis-Late syphilitic oculopathy",
         "display": "Late syphilitic oculopathy"
       }, {
-        "code": "Syphilis condition-Latent syphilis, unspecified as early or late",
+        "code": "Syphilis Diagnosis-Latent syphilis, unspecified as early or late",
         "display": "Latent syphilis, unspecified as early or late"
       }, {
-        "code": "Syphilis condition-Neurosyphilis, unspecified",
+        "code": "Syphilis Diagnosis-Neurosyphilis, unspecified",
         "display": "Neurosyphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Nonvenereal syphilis",
+        "code": "Syphilis Diagnosis-Nonvenereal syphilis",
         "display": "Nonvenereal syphilis"
       }, {
-        "code": "Syphilis condition-Other and unspecified syphilis",
+        "code": "Syphilis Diagnosis-Other and unspecified syphilis",
         "display": "Other and unspecified syphilis"
       }, {
-        "code": "Syphilis condition-Other cardiovascular syphilis",
+        "code": "Syphilis Diagnosis-Other cardiovascular syphilis",
         "display": "Other cardiovascular syphilis"
       }, {
-        "code": "Syphilis condition-Other cerebrospinal syphilis",
+        "code": "Syphilis Diagnosis-Other cerebrospinal syphilis",
         "display": "Other cerebrospinal syphilis"
       }, {
-        "code": "Syphilis condition-Other cerebrovascular syphilis",
+        "code": "Syphilis Diagnosis-Other cerebrovascular syphilis",
         "display": "Other cerebrovascular syphilis"
       }, {
-        "code": "Syphilis condition-Other early congenital syphilis, symptomatic",
+        "code": "Syphilis Diagnosis-Other early congenital syphilis, symptomatic",
         "display": "Other early congenital syphilis, symptomatic"
       }, {
-        "code": "Syphilis condition-Other genitourinary symptomatic late syphilis",
+        "code": "Syphilis Diagnosis-Other genitourinary symptomatic late syphilis",
         "display": "Other genitourinary symptomatic late syphilis"
       }, {
-        "code": "Syphilis condition-Other late congenital neurosyphilis",
+        "code": "Syphilis Diagnosis-Other late congenital neurosyphilis",
         "display": "Other late congenital neurosyphilis"
       }, {
-        "code": "Syphilis condition-Other late congenital syphilis, symptomatic",
+        "code": "Syphilis Diagnosis-Other late congenital syphilis, symptomatic",
         "display": "Other late congenital syphilis, symptomatic"
       }, {
-        "code": "Syphilis condition-Other late congenital syphilitic oculopathy",
+        "code": "Syphilis Diagnosis-Other late congenital syphilitic oculopathy",
         "display": "Other late congenital syphilitic oculopathy"
       }, {
-        "code": "Syphilis condition-Other secondary syphilis",
+        "code": "Syphilis Diagnosis-Other secondary syphilis",
         "display": "Other secondary syphilis"
       }, {
-        "code": "Syphilis condition-Other secondary syphilis of skin",
+        "code": "Syphilis Diagnosis-Other secondary syphilis of skin",
         "display": "Other secondary syphilis of skin"
       }, {
-        "code": "Syphilis condition-Other secondary syphilitic conditions",
+        "code": "Syphilis Diagnosis-Other secondary syphilitic conditions",
         "display": "Other secondary syphilitic conditions"
       }, {
-        "code": "Syphilis condition-Other symptomatic late syphilis",
+        "code": "Syphilis Diagnosis-Other symptomatic late syphilis",
         "display": "Other symptomatic late syphilis"
       }, {
-        "code": "Syphilis condition-Other symptomatic neurosyphilis",
+        "code": "Syphilis Diagnosis-Other symptomatic neurosyphilis",
         "display": "Other symptomatic neurosyphilis"
       }, {
-        "code": "Syphilis condition-Other syphilitic heart involvement",
+        "code": "Syphilis Diagnosis-Other syphilitic heart involvement",
         "display": "Other syphilitic heart involvement"
       }, {
-        "code": "Syphilis condition-Primary anal syphilis",
+        "code": "Syphilis Diagnosis-Primary anal syphilis",
         "display": "Primary anal syphilis"
       }, {
-        "code": "Syphilis condition-Primary genital syphilis",
+        "code": "Syphilis Diagnosis-Primary genital syphilis",
         "display": "Primary genital syphilis"
       }, {
-        "code": "Syphilis condition-Primary syphilis of other sites",
+        "code": "Syphilis Diagnosis-Primary syphilis of other sites",
         "display": "Primary syphilis of other sites"
       }, {
-        "code": "Syphilis condition-Secondary syphilis of skin and mucous membranes",
+        "code": "Syphilis Diagnosis-Secondary syphilis of skin and mucous membranes",
         "display": "Secondary syphilis of skin and mucous membranes"
       }, {
-        "code": "Syphilis condition-Secondary syphilitic female pelvic disease",
+        "code": "Syphilis Diagnosis-Secondary syphilitic female pelvic disease",
         "display": "Secondary syphilitic female pelvic disease"
       }, {
-        "code": "Syphilis condition-Secondary syphilitic hepatitis",
+        "code": "Syphilis Diagnosis-Secondary syphilitic hepatitis",
         "display": "Secondary syphilitic hepatitis"
       }, {
-        "code": "Syphilis condition-Secondary syphilitic meningitis",
+        "code": "Syphilis Diagnosis-Secondary syphilitic meningitis",
         "display": "Secondary syphilitic meningitis"
       }, {
-        "code": "Syphilis condition-Secondary syphilitic nephritis",
+        "code": "Syphilis Diagnosis-Secondary syphilitic nephritis",
         "display": "Secondary syphilitic nephritis"
       }, {
-        "code": "Syphilis condition-Secondary syphilitic oculopathy",
+        "code": "Syphilis Diagnosis-Secondary syphilitic oculopathy",
         "display": "Secondary syphilitic oculopathy"
       }, {
-        "code": "Syphilis condition-Secondary syphilitic osteopathy",
+        "code": "Syphilis Diagnosis-Secondary syphilitic osteopathy",
         "display": "Secondary syphilitic osteopathy"
       }, {
-        "code": "Syphilis condition-Symptomatic late syphilis of other respiratory organs",
+        "code": "Syphilis Diagnosis-Symptomatic late syphilis of other respiratory organs",
         "display": "Symptomatic late syphilis of other respiratory organs"
       }, {
-        "code": "Syphilis condition-Symptomatic neurosyphilis",
+        "code": "Syphilis Diagnosis-Symptomatic neurosyphilis",
         "display": "Symptomatic neurosyphilis"
       }, {
-        "code": "Syphilis condition-Symptomatic neurosyphilis, unspecified",
+        "code": "Syphilis Diagnosis-Symptomatic neurosyphilis, unspecified",
         "display": "Symptomatic neurosyphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Syphilis complicating childbirth",
+        "code": "Syphilis Diagnosis-Syphilis complicating childbirth",
         "display": "Syphilis complicating childbirth"
       }, {
-        "code": "Syphilis condition-Syphilis complicating pregnancy",
+        "code": "Syphilis Diagnosis-Syphilis complicating pregnancy",
         "display": "Syphilis complicating pregnancy"
       }, {
-        "code": "Syphilis condition-Syphilis complicating pregnancy, childbirth and the puerperium",
+        "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, childbirth and the puerperium",
         "display": "Syphilis complicating pregnancy, childbirth and the puerperium"
       }, {
-        "code": "Syphilis condition-Syphilis complicating pregnancy, first trimester",
+        "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, first trimester",
         "display": "Syphilis complicating pregnancy, first trimester"
       }, {
-        "code": "Syphilis condition-Syphilis complicating pregnancy, second trimester",
+        "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, second trimester",
         "display": "Syphilis complicating pregnancy, second trimester"
       }, {
-        "code": "Syphilis condition-Syphilis complicating pregnancy, third trimester",
+        "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, third trimester",
         "display": "Syphilis complicating pregnancy, third trimester"
       }, {
-        "code": "Syphilis condition-Syphilis complicating pregnancy, unspecified trimester",
+        "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, unspecified trimester",
         "display": "Syphilis complicating pregnancy, unspecified trimester"
       }, {
-        "code": "Syphilis condition-Syphilis complicating the puerperium",
+        "code": "Syphilis Diagnosis-Syphilis complicating the puerperium",
         "display": "Syphilis complicating the puerperium"
       }, {
-        "code": "Syphilis condition-Syphilis of bone and joint",
+        "code": "Syphilis Diagnosis-Syphilis of bone and joint",
         "display": "Syphilis of bone and joint"
       }, {
-        "code": "Syphilis condition-Syphilis of kidney and ureter",
+        "code": "Syphilis Diagnosis-Syphilis of kidney and ureter",
         "display": "Syphilis of kidney and ureter"
       }, {
-        "code": "Syphilis condition-Syphilis of liver and other viscera",
+        "code": "Syphilis Diagnosis-Syphilis of liver and other viscera",
         "display": "Syphilis of liver and other viscera"
       }, {
-        "code": "Syphilis condition-Syphilis of lung and bronchus",
+        "code": "Syphilis Diagnosis-Syphilis of lung and bronchus",
         "display": "Syphilis of lung and bronchus"
       }, {
-        "code": "Syphilis condition-Syphilis of other musculoskeletal tissue",
+        "code": "Syphilis Diagnosis-Syphilis of other musculoskeletal tissue",
         "display": "Syphilis of other musculoskeletal tissue"
       }, {
-        "code": "Syphilis condition-Syphilis, unspecified",
+        "code": "Syphilis Diagnosis-Syphilis, unspecified",
         "display": "Syphilis, unspecified"
       }, {
-        "code": "Syphilis condition-Syphilitic alopecia",
+        "code": "Syphilis Diagnosis-Syphilitic alopecia",
         "display": "Syphilitic alopecia"
       }, {
-        "code": "Syphilis condition-Syphilitic aneurysm of aorta",
+        "code": "Syphilis Diagnosis-Syphilitic aneurysm of aorta",
         "display": "Syphilitic aneurysm of aorta"
       }, {
-        "code": "Syphilis condition-Syphilitic aortitis",
+        "code": "Syphilis Diagnosis-Syphilitic aortitis",
         "display": "Syphilitic aortitis"
       }, {
-        "code": "Syphilis condition-Syphilitic cerebral arteritis",
+        "code": "Syphilis Diagnosis-Syphilitic cerebral arteritis",
         "display": "Syphilitic cerebral arteritis"
       }, {
-        "code": "Syphilis condition-Syphilitic endocarditis",
+        "code": "Syphilis Diagnosis-Syphilitic endocarditis",
         "display": "Syphilitic endocarditis"
       }, {
-        "code": "Syphilis condition-Syphilitic saddle nose",
+        "code": "Syphilis Diagnosis-Syphilitic saddle nose",
         "display": "Syphilitic saddle nose"
       }, {
-        "code": "Syphilis condition-Tabes dorsalis",
+        "code": "Syphilis Diagnosis-Tabes dorsalis",
         "display": "Tabes dorsalis"
       }, {
-        "code": "Syphilis condition-Acute syphilitic meningitis (disorder)",
+        "code": "Syphilis Diagnosis-Acute syphilitic meningitis (disorder)",
         "display": "Acute syphilitic meningitis (disorder)"
       }, {
-        "code": "Syphilis condition-Anetoderma secondary to syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Anetoderma secondary to syphilis (disorder)",
         "display": "Anetoderma secondary to syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Charcot arthropathy due to syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Charcot arthropathy due to syphilis (disorder)",
         "display": "Charcot arthropathy due to syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Corona veneris (disorder)",
+        "code": "Syphilis Diagnosis-Corona veneris (disorder)",
         "display": "Corona veneris (disorder)"
       }, {
-        "code": "Syphilis condition-Dementia associated with neurosyphilis (disorder)",
+        "code": "Syphilis Diagnosis-Dementia associated with neurosyphilis (disorder)",
         "display": "Dementia associated with neurosyphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Hypoplasia of enamel due to congenital syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Hypoplasia of enamel due to congenital syphilis (disorder)",
         "display": "Hypoplasia of enamel due to congenital syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Interstitial glossitis (disorder)",
+        "code": "Syphilis Diagnosis-Interstitial glossitis (disorder)",
         "display": "Interstitial glossitis (disorder)"
       }, {
-        "code": "Syphilis condition-Iris papulosa (finding)",
+        "code": "Syphilis Diagnosis-Iris papulosa (finding)",
         "display": "Iris papulosa (finding)"
       }, {
-        "code": "Syphilis condition-Iris roseola (finding)",
+        "code": "Syphilis Diagnosis-Iris roseola (finding)",
         "display": "Iris roseola (finding)"
       }, {
-        "code": "Syphilis condition-Iritis caused by Treponema pallidum (disorder)",
+        "code": "Syphilis Diagnosis-Iritis caused by Treponema pallidum (disorder)",
         "display": "Iritis caused by Treponema pallidum (disorder)"
       }, {
-        "code": "Syphilis condition-Luetic glossitis (disorder)",
+        "code": "Syphilis Diagnosis-Luetic glossitis (disorder)",
         "display": "Luetic glossitis (disorder)"
       }, {
-        "code": "Syphilis condition-Moon's molar teeth (disorder)",
+        "code": "Syphilis Diagnosis-Moon's molar teeth (disorder)",
         "display": "Moon's molar teeth (disorder)"
       }, {
-        "code": "Syphilis condition-Mucocutaneous early congenital syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Mucocutaneous early congenital syphilis (disorder)",
         "display": "Mucocutaneous early congenital syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Nail dystrophy due to secondary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Nail dystrophy due to secondary syphilis (disorder)",
         "display": "Nail dystrophy due to secondary syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Paroxysmal cold hemoglobinuria associated with tertiary syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Paroxysmal cold hemoglobinuria associated with tertiary syphilis (disorder)",
         "display": "Paroxysmal cold hemoglobinuria associated with tertiary syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Pericellular fibrosis of congenital syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Pericellular fibrosis of congenital syphilis (disorder)",
         "display": "Pericellular fibrosis of congenital syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Post-infective arthropathy in syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Post-infective arthropathy in syphilis (disorder)",
         "display": "Post-infective arthropathy in syphilis (disorder)"
       }, {
-        "code": "Syphilis condition-Rupture of syphilitic cerebral aneurysm (disorder)",
+        "code": "Syphilis Diagnosis-Rupture of syphilitic cerebral aneurysm (disorder)",
         "display": "Rupture of syphilitic cerebral aneurysm (disorder)"
       }, {
-        "code": "Syphilis condition-Syphilis in mother complicating childbirth (disorder)",
+        "code": "Syphilis Diagnosis-Syphilis in mother complicating childbirth (disorder)",
         "display": "Syphilis in mother complicating childbirth (disorder)"
       }, {
-        "code": "Syphilis condition-Syphilitic choroiditis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic choroiditis (disorder)",
         "display": "Syphilitic choroiditis (disorder)"
       }, {
-        "code": "Syphilis condition-Syphilitic meningitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic meningitis (disorder)",
         "display": "Syphilitic meningitis (disorder)"
       }, {
-        "code": "Syphilis condition-Syphilitic peritonitis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic peritonitis (disorder)",
         "display": "Syphilitic peritonitis (disorder)"
       }, {
-        "code": "Syphilis condition-Syphilitic saddle nose (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic saddle nose (disorder)",
         "display": "Syphilitic saddle nose (disorder)"
       }, {
-        "code": "Syphilis condition-Syphilitic valvular endocarditis (disorder)",
+        "code": "Syphilis Diagnosis-Syphilitic valvular endocarditis (disorder)",
         "display": "Syphilitic valvular endocarditis (disorder)"
       }, {
-        "code": "Syphilis condition-Tabetic joint (disorder)",
+        "code": "Syphilis Diagnosis-Tabetic joint (disorder)",
         "display": "Tabetic joint (disorder)"
       }, {
-        "code": "Syphilis condition-Urethral stricture due to syphilis (disorder)",
+        "code": "Syphilis Diagnosis-Urethral stricture due to syphilis (disorder)",
         "display": "Urethral stricture due to syphilis (disorder)"
       } ]
     } ]

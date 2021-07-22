@@ -12,46 +12,46 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Gonorrhea in mother complicating childbirth (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonorrhea in mother complicating childbirth (disorder)",
         "display": "Gonorrhea in mother complicating childbirth (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Gonococcal abscess of brain (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal abscess of brain (disorder)",
         "display": "Gonococcal abscess of brain (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Infection of anus and rectum caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Infection of anus and rectum caused by Neisseria gonorrhoeae (disorder)",
         "display": "Infection of anus and rectum caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Infection of lower genitourinary tract co-occurrent with abscess of periurethral gland caused by Gonococcus (disorder)",
+        "code": "Gonorrhea Diagnosis-Infection of lower genitourinary tract co-occurrent with abscess of periurethral gland caused by Gonococcus (disorder)",
         "display": "Infection of lower genitourinary tract co-occurrent with abscess of periurethral gland caused by Gonococcus (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Gonococcal pneumonia (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal pneumonia (disorder)",
         "display": "Gonococcal pneumonia (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)",
+        "code": "Gonorrhea Diagnosis-Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)",
         "display": "Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Severe sepsis with acute organ dysfunction caused by Gonococcus (disorder)",
+        "code": "Gonorrhea Diagnosis-Severe sepsis with acute organ dysfunction caused by Gonococcus (disorder)",
         "display": "Severe sepsis with acute organ dysfunction caused by Gonococcus (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Acute gonococcal pericarditis (disorder)",
+        "code": "Gonorrhea Diagnosis-Acute gonococcal pericarditis (disorder)",
         "display": "Acute gonococcal pericarditis (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Gonococcal penile fistula (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal penile fistula (disorder)",
         "display": "Gonococcal penile fistula (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Gonococcal cellulitis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal cellulitis (disorder)",
         "display": "Gonococcal cellulitis (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Gonococcal iritis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal iritis (disorder)",
         "display": "Gonococcal iritis (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Infection of musculoskeletal system caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Infection of musculoskeletal system caused by Neisseria gonorrhoeae (disorder)",
         "display": "Infection of musculoskeletal system caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Infection of genitourinary system caused by Neisseria gonorrhoeae (disorder)",
+        "code": "Gonorrhea Diagnosis-Infection of genitourinary system caused by Neisseria gonorrhoeae (disorder)",
         "display": "Infection of genitourinary system caused by Neisseria gonorrhoeae (disorder)"
       }, {
-        "code": "Gonorrhea [Secondary Sites Complications Chronic] (Disorders)-Gonococcal pericarditis (disorder)",
+        "code": "Gonorrhea Diagnosis-Gonococcal pericarditis (disorder)",
         "display": "Gonococcal pericarditis (disorder)"
       } ]
     } ]

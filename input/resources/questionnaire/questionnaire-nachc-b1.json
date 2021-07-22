@@ -37,26 +37,8 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.b1.de1",
-    "text": "Hepatitis C Virus Infection (Disorders)",
+    "text": "Hepatitis C Diagnosis",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-virus-infection-disorders-choices"
-  }, {
-    "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.b1.de31",
-    "text": "Chronic Infection of liver due to Hepatitis C virus",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chronic-infection-of-liver-due-to-hepatitis-c-virus-choices"
-  }, {
-    "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.b1.de34",
-    "text": "HCV Infection (Organism or Substance in Lab Results)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hcv-infection-organism-or-substance-in-lab-results-choices"
-  }, {
-    "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.b1.de65",
-    "text": "Hepatitis C condition",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-condition-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-diagnosis-choices-grouper"
   } ]
 }

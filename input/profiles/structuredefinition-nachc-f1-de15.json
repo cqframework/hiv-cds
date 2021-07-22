@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f1-de15",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de15",
-  "name": "IDU as a condition",
-  "title": "IDU as a condition",
+  "name": "Injection Drug Use Diagnosis",
+  "title": "Injection Drug Use Diagnosis",
   "status": "draft",
   "experimental": false,
-  "description": "Injection Drug Use",
+  "description": "Concepts Associated with Injection Drug Use Diagnosis",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,7 +38,7 @@
     }, {
       "id": "Condition.code",
       "path": "Condition.code",
-      "short": "IDU as a condition",
+      "short": "Injection Drug Use Diagnosis",
       "comment": "Injection Drug Conditions mapping",
       "min": 1,
       "max": "*",
@@ -46,10 +46,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "IDU as a condition Choices"
+          "valueString": "Injection Drug Use Diagnosis Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/idu-as-a-condition-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-drug-use-diagnosis-choices"
       },
       "mapping": [ {
         "identity": "HIV",

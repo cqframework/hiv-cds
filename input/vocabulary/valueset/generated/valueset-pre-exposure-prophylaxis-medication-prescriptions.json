@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pre-exposure-prophylaxis-medication-prescriptions",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pre-exposure-prophylaxis-medication-prescriptions",
+  "name": "pre-exposure-prophylaxis-medication-prescriptions",
+  "title": "Pre Exposure Prophylaxis Medication Prescriptions",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Pre Exposure Prophylaxis Medication Prescriptions element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pre Exposure Prophylaxis Medication Prescriptions",
+        "display": "Pre Exposure Prophylaxis Medication Prescriptions"
+      } ]
+    } ]
+  }
+}

@@ -37,26 +37,8 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de1",
-    "text": "Chlamydia",
+    "text": "Chlamydia Diagnosis",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-choices"
-  }, {
-    "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de26",
-    "text": "Chlamydia Infections and Venereal Diseases",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-infections-and-venereal-diseases-choices"
-  }, {
-    "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de31",
-    "text": "Chlamydia trachomatis Infection [Secondary Sites Complications] (Disorders)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-infection-secondary-sites-complications-disorders-choices"
-  }, {
-    "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.e1.de62",
-    "text": "Chlamydia trachomatis organism or Chlamydia trachomatis substance",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-organism-or-chlamydia-trachomatis-substance-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-diagnosis-choices-grouper"
   } ]
 }

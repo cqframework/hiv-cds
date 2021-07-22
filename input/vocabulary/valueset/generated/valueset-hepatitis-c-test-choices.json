@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hepatitis-c-test-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-test-choices",
+  "name": "hepatitis-c-test-choices",
+  "title": "Hepatitis C Test Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C Test Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Hepatitis C Test-Anti-Nuclear Antibodies (ANA), IgG by ELISA",
+        "display": "Anti-Nuclear Antibodies (ANA), IgG by ELISA"
+      }, {
+        "code": "Hepatitis C Test-Hepatitis C antibody",
+        "display": "Hepatitis C antibody"
+      }, {
+        "code": "Hepatitis C Test-Hepatitis C antibody, confirmatory test",
+        "display": "Hepatitis C antibody, confirmatory test"
+      }, {
+        "code": "Hepatitis C Test-Hepatitis C, direct probe technique",
+        "display": "Hepatitis C, direct probe technique"
+      }, {
+        "code": "Hepatitis C Test-Hepatitis C, amplified probe technique",
+        "display": "Hepatitis C, amplified probe technique"
+      }, {
+        "code": "Hepatitis C Test-Hepatitis C, quantification",
+        "display": "Hepatitis C, quantification"
+      }, {
+        "code": "Hepatitis C Test-Hepatitis C virus (HCV) genotype test",
+        "display": "Hepatitis C virus (HCV) genotype test"
+      }, {
+        "code": "Hepatitis C Test-Hepatitis C antibody screening, for an individual at high risk and other covered indication(s) (This HCPCS code is used for patients covered by Medicare and other payers following Medicare guidelines)",
+        "display": "Hepatitis C antibody screening, for an individual at high risk and other covered indication(s) (This HCPCS code is used for patients covered by Medicare and other payers following Medicare guidelines)"
+      } ]
+    } ]
+  }
+}

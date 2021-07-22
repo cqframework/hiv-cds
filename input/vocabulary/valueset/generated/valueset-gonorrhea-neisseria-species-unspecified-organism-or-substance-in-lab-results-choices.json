@@ -12,16 +12,16 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Neisseria species not Neisseria gonococci (organism)",
+        "code": "Gonorrhea Diagnosis-Neisseria species not Neisseria gonococci (organism)",
         "display": "Neisseria species not Neisseria gonococci (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Genus Neisseria (organism)",
+        "code": "Gonorrhea Diagnosis-Genus Neisseria (organism)",
         "display": "Genus Neisseria (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Neisseria species, not Neisseria meningitidis (organism)",
+        "code": "Gonorrhea Diagnosis-Neisseria species, not Neisseria meningitidis (organism)",
         "display": "Neisseria species, not Neisseria meningitidis (organism)"
       }, {
-        "code": "Gonorrhea [Neisseria species Unspecified] (Organism or Substance in Lab Results)-Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)",
+        "code": "Gonorrhea Diagnosis-Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)",
         "display": "Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)"
       } ]
     } ]

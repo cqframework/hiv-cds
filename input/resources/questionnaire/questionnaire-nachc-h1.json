@@ -1,0 +1,158 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "nachc-h1",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/nachc-h1",
+  "name": "nachc-h1",
+  "title": "NACHC.H1 Risk Factors",
+  "status": "active",
+  "experimental": false,
+  "description": "NACHC - CDC Risk Factors Questionnaire Assessment",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "code": "nachc-h1",
+        "display": "NACHC.H1 Risk Factors"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de1",
+    "text": "Previous HIV Screening",
+    "type": "boolean"
+  }, {
+    "linkId": "2",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de2",
+    "text": "Previous HIV Diagnosis",
+    "type": "boolean"
+  }, {
+    "linkId": "3",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de3",
+    "text": "Patient Currently Pregnant",
+    "type": "boolean"
+  }, {
+    "linkId": "4",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de4",
+    "text": "Patient Diagnosed with HCV",
+    "type": "boolean"
+  }, {
+    "linkId": "5",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de5",
+    "text": "Patient Diagnosed with Syphilis",
+    "type": "boolean"
+  }, {
+    "linkId": "6",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de6",
+    "text": "Patient Diagnosed with Gonorrhea",
+    "type": "boolean"
+  }, {
+    "linkId": "7",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de7",
+    "text": "Patient Diagnosed with Chlamydia",
+    "type": "boolean"
+  }, {
+    "linkId": "8",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de8",
+    "text": "Patient has used Injection Drugs",
+    "type": "boolean"
+  }, {
+    "linkId": "9",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de9",
+    "text": "Previous experience with PREP",
+    "type": "boolean"
+  }, {
+    "linkId": "10",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de10",
+    "text": "Sexual Activity - Past Year",
+    "type": "boolean"
+  }, {
+    "linkId": "11",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de11",
+    "text": "Sexual Activity -  History",
+    "type": "boolean"
+  }, {
+    "linkId": "12",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de12",
+    "text": "Sexual Activity - Men",
+    "type": "boolean"
+  }, {
+    "linkId": "13",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de13",
+    "text": "Sexual Activity -  Women",
+    "type": "boolean"
+  }, {
+    "linkId": "14",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de14",
+    "text": "Sexual Activity -  Number of Partners",
+    "type": "boolean"
+  }, {
+    "linkId": "15",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de15",
+    "text": "Sexual Activity - New Partner Past 3 Months",
+    "type": "boolean"
+  }, {
+    "linkId": "16",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de16",
+    "text": "Sexual Activity -  Partners History",
+    "type": "boolean"
+  }, {
+    "linkId": "17",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de17",
+    "text": "Sexual Activity -  Partners Number of Partners",
+    "type": "boolean"
+  }, {
+    "linkId": "18",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de18",
+    "text": "Sexual Activity -  Coercion",
+    "type": "boolean"
+  }, {
+    "linkId": "19",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de19",
+    "text": "Sexual Activity - Kind of Sex - Anal",
+    "type": "boolean"
+  }, {
+    "linkId": "20",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de20",
+    "text": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
+    "type": "boolean"
+  }, {
+    "linkId": "21",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de21",
+    "text": "Sexual Activity - Male - Kind of Sex - Insertive Anal",
+    "type": "boolean"
+  }, {
+    "linkId": "22",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de22",
+    "text": "Sexual Activity - Kind of Sex - Vaginal",
+    "type": "boolean"
+  }, {
+    "linkId": "23",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de23",
+    "text": "Sexual Activity - Drug or Alcohol Use",
+    "type": "boolean"
+  }, {
+    "linkId": "24",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de24",
+    "text": "Sexual Activity - Exchanged for Sex",
+    "type": "boolean"
+  } ]
+}

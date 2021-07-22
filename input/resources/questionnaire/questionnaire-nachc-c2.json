@@ -37,14 +37,8 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.c2.de1",
-    "text": "Syphilis (Tests for Treponema pallidum Nucleic Acid)",
+    "text": "Syphilis Test",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponema-pallidum-nucleic-acid-choices"
-  }, {
-    "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.c2.de7",
-    "text": "Syphilis (Tests for Treponemal or Non Treponemal Antibody)",
-    "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponemal-or-non-treponemal-antibody-choices"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-test-choices-grouper"
   } ]
 }

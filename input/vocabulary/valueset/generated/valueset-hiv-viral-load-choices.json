@@ -12,133 +12,133 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "HIV Viral Load-Deprecated HIV 1 DNA [Presence] in Serum or Plasma by Probe and target amplification method",
+        "code": "HIV Test-Deprecated HIV 1 DNA [Presence] in Serum or Plasma by Probe and target amplification method",
         "display": "Deprecated HIV 1 DNA [Presence] in Serum or Plasma by Probe and target amplification method"
       }, {
-        "code": "HIV Viral Load-HIV 1 proviral DNA [Presence] in Blood by NAA with probe detection",
+        "code": "HIV Test-HIV 1 proviral DNA [Presence] in Blood by NAA with probe detection",
         "display": "HIV 1 proviral DNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 proviral DNA [Presence] in Blood by Probe with amplification",
+        "code": "HIV Test-HIV 1 proviral DNA [Presence] in Blood by Probe with amplification",
         "display": "HIV 1 proviral DNA [Presence] in Blood by Probe with amplification"
       }, {
-        "code": "HIV Viral Load-HIV 1 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 1 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
         "display": "HIV 1 RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL",
         "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification",
         "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe",
         "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 400 copies/mL",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 400 copies/mL",
         "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 400 copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL",
         "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 400 copies/mL",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 400 copies/mL",
         "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 400 copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL",
         "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection",
         "display": "HIV 1 RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [#/volume] in Serum",
+        "code": "HIV Test-HIV 1 RNA [#/volume] in Serum",
         "display": "HIV 1 RNA [#/volume] in Serum"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Interpretation] in Serum",
+        "code": "HIV Test-HIV 1 RNA [Interpretation] in Serum",
         "display": "HIV 1 RNA [Interpretation] in Serum"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection",
         "display": "HIV 1 RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Presence] in Blood by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Presence] in Blood by NAA with probe detection",
         "display": "HIV 1 RNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Presence] in Cerebral spinal fluid by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Presence] in Cerebral spinal fluid by NAA with probe detection",
         "display": "HIV 1 RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Presence] in Serum or Plasma from Donor by Probe with amplification",
+        "code": "HIV Test-HIV 1 RNA [Presence] in Serum or Plasma from Donor by Probe with amplification",
         "display": "HIV 1 RNA [Presence] in Serum or Plasma from Donor by Probe with amplification"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "HIV 1 RNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification",
+        "code": "HIV Test-HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification",
         "display": "HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification",
+        "code": "HIV Test-HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification",
         "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification"
       }, {
-        "code": "HIV Viral Load-HIV 1 RNA panel (viral load) in Cerebral spinal fluid by NAA with probe detection",
+        "code": "HIV Test-HIV 1 RNA panel (viral load) in Cerebral spinal fluid by NAA with probe detection",
         "display": "HIV 1 RNA panel (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection",
+        "code": "HIV Test-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection",
         "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 2 proviral DNA [Presence] in Blood by NAA with probe detection",
+        "code": "HIV Test-HIV 2 proviral DNA [Presence] in Blood by NAA with probe detection",
         "display": "HIV 2 proviral DNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 2 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 2 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 2 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 2 proviral DNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "HIV Test-HIV 2 proviral DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "HIV 2 proviral DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 2 RNA [Presence] in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 2 RNA [Presence] in Serum or Plasma by NAA with probe detection",
         "display": "HIV 2 RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+        "code": "HIV Test-HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
         "display": "HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "HIV Viral Load-HIV proviral DNA [Presence] in Blood by Probe with amplification",
+        "code": "HIV Test-HIV proviral DNA [Presence] in Blood by Probe with amplification",
         "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
       } ]
     } ]

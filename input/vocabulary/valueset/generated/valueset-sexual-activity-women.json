@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sexual-activity-women",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-women",
+  "name": "sexual-activity-women",
+  "title": "Sexual Activity -  Women",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity -  Women element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Whether the patient has been sexually active with women",
+        "display": "Whether the patient has been sexually active with women"
+      } ]
+    } ]
+  }
+}

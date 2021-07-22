@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hiv-test-ordered",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-test-ordered",
+  "name": "hiv-test-ordered",
+  "title": "HIV Test Ordered",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HIV Test Ordered element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "HIV Test Ordered",
+        "display": "HIV Test Ordered"
+      } ]
+    } ]
+  }
+}

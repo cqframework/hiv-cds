@@ -1,0 +1,803 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-diagnosis-choices-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-diagnosis-choices-grouper",
+  "name": "Gonorrhea Diagnosis Choices Grouper",
+  "title": "Gonorrhea Diagnosis Choices Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-07-21T19:38:01-06:00",
+  "description": "Group Valueset with codes representing possible values for the Gonorrhea Diagnosis Choices Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonococcal-infections-and-venereal-diseases-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-neisseria-gonorrhoeae-organism-or-substance-in-lab-results-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-neisseria-species-unspecified-organism-or-substance-in-lab-results-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-secondary-sites-complications-chronic-disorders-choices" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2021-07-21T19:38:01-06:00",
+    "contains": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic oculopathy",
+      "display": "Early congenital syphilitic oculopathy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic osteochondropathy",
+      "display": "Early congenital syphilitic osteochondropathy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic pharyngitis",
+      "display": "Early congenital syphilitic pharyngitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic pneumonia",
+      "display": "Early congenital syphilitic pneumonia"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early congenital syphilitic rhinitis",
+      "display": "Early congenital syphilitic rhinitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early cutaneous congenital syphilis",
+      "display": "Early cutaneous congenital syphilis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early mucocutaneous congenital syphilis",
+      "display": "Early mucocutaneous congenital syphilis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early visceral congenital syphilis",
+      "display": "Early visceral congenital syphilis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic oculopathy, unspecified",
+      "display": "Late congenital syphilitic oculopathy, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic chorioretinitis",
+      "display": "Late congenital syphilitic chorioretinitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other late congenital syphilitic oculopathy",
+      "display": "Other late congenital syphilitic oculopathy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic polyneuropathy",
+      "display": "Late congenital syphilitic polyneuropathy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic optic nerve atrophy",
+      "display": "Late congenital syphilitic optic nerve atrophy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Clutton's joints",
+      "display": "Clutton's joints"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Hutchinson's triad",
+      "display": "Hutchinson's triad"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late congenital cardiovascular syphilis",
+      "display": "Late congenital cardiovascular syphilis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic arthropathy",
+      "display": "Late congenital syphilitic arthropathy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late congenital syphilitic osteochondropathy",
+      "display": "Late congenital syphilitic osteochondropathy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of lower genitourinary tract, unspecified",
+      "display": "Gonococcal infection of lower genitourinary tract, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal cystitis and urethritis, unspecified",
+      "display": "Gonococcal cystitis and urethritis, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal vulvovaginitis, unspecified",
+      "display": "Gonococcal vulvovaginitis, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal cervicitis, unspecified",
+      "display": "Gonococcal cervicitis, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other gonococcal infection of lower genitourinary tract",
+      "display": "Other gonococcal infection of lower genitourinary tract"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess",
+      "display": "Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of kidney and ureter",
+      "display": "Gonococcal infection of kidney and ureter"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal prostatitis",
+      "display": "Gonococcal prostatitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of other male genital organs",
+      "display": "Gonococcal infection of other male genital organs"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal female pelvic inflammatory disease",
+      "display": "Gonococcal female pelvic inflammatory disease"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other gonococcal genitourinary infections",
+      "display": "Other gonococcal genitourinary infections"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of eye, unspecified",
+      "display": "Gonococcal infection of eye, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal conjunctivitis",
+      "display": "Gonococcal conjunctivitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal iridocyclitis",
+      "display": "Gonococcal iridocyclitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal keratitis",
+      "display": "Gonococcal keratitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other gonococcal eye infection",
+      "display": "Other gonococcal eye infection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of musculoskeletal system, unspecified",
+      "display": "Gonococcal infection of musculoskeletal system, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal spondylopathy",
+      "display": "Gonococcal spondylopathy"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal arthritis",
+      "display": "Gonococcal arthritis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal osteomyelitis",
+      "display": "Gonococcal osteomyelitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of other musculoskeletal tissue",
+      "display": "Gonococcal infection of other musculoskeletal tissue"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal pharyngitis",
+      "display": "Gonococcal pharyngitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of anus and rectum",
+      "display": "Gonococcal infection of anus and rectum"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal meningitis",
+      "display": "Gonococcal meningitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal brain abscess",
+      "display": "Gonococcal brain abscess"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal heart infection",
+      "display": "Gonococcal heart infection"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal pneumonia",
+      "display": "Gonococcal pneumonia"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal peritonitis",
+      "display": "Gonococcal peritonitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal sepsis",
+      "display": "Gonococcal sepsis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other gonococcal infections",
+      "display": "Other gonococcal infections"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection, unspecified",
+      "display": "Gonococcal infection, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chancroid",
+      "display": "Chancroid"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Granuloma inguinale",
+      "display": "Granuloma inguinale"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Anogenital (venereal) warts",
+      "display": "Anogenital (venereal) warts"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other specified predominantly sexually transmitted diseases",
+      "display": "Other specified predominantly sexually transmitted diseases"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Unspecified sexually transmitted disease",
+      "display": "Unspecified sexually transmitted disease"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Necrotizing ulcerative stomatitis",
+      "display": "Necrotizing ulcerative stomatitis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other Vincent's infections",
+      "display": "Other Vincent's infections"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Other specified spirochetal infections",
+      "display": "Other specified spirochetal infections"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Spirochetal infection, unspecified",
+      "display": "Spirochetal infection, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Periurethral abscess caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Periurethral abscess caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal osteomyelitis (disorder)",
+      "display": "Gonococcal osteomyelitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Reactive arthritis co-occurrent and due to nonspecific urethritis (disorder)",
+      "display": "Reactive arthritis co-occurrent and due to nonspecific urethritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal prostatitis (disorder)",
+      "display": "Acute gonococcal prostatitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal endophthalmia (disorder)",
+      "display": "Gonococcal endophthalmia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy (disorder)",
+      "display": "Maternal gonorrhea during pregnancy (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal vulvovaginitis (disorder)",
+      "display": "Chronic gonococcal vulvovaginitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal bartholinitis (disorder)",
+      "display": "Chronic gonococcal bartholinitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal meningitis (disorder)",
+      "display": "Gonococcal meningitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonorrhea (disorder)",
+      "display": "Gonorrhea (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Infection of upper genitourinary tract caused by Neisseria gonorrheae (disorder)",
+      "display": "Infection of upper genitourinary tract caused by Neisseria gonorrheae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonorrhea of genitourinary tract (disorder)",
+      "display": "Acute gonorrhea of genitourinary tract (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonorrhea lower genitourinary tract (disorder)",
+      "display": "Chronic gonorrhea lower genitourinary tract (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal anal infection (disorder)",
+      "display": "Gonococcal anal infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal peritonitis (disorder)",
+      "display": "Gonococcal peritonitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Lymphogranuloma venereum (disorder)",
+      "display": "Lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal cystitis (disorder)",
+      "display": "Gonococcal cystitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal prostatitis (disorder)",
+      "display": "Gonococcal prostatitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Female gonococcal pelvic inflammatory disease (disorder)",
+      "display": "Female gonococcal pelvic inflammatory disease (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy, childbirth and the puerperium (disorder)",
+      "display": "Maternal gonorrhea during pregnancy, childbirth and the puerperium (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy - baby delivered (disorder)",
+      "display": "Maternal gonorrhea during pregnancy - baby delivered (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Maternal gonorrhea in the puerperium - baby delivered during current episode of care (disorder)",
+      "display": "Maternal gonorrhea in the puerperium - baby delivered during current episode of care (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Maternal gonorrhea during pregnancy - baby not yet delivered (disorder)",
+      "display": "Maternal gonorrhea during pregnancy - baby not yet delivered (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Maternal gonorrhea in the puerperium - baby delivered during previous episode of care (disorder)",
+      "display": "Maternal gonorrhea in the puerperium - baby delivered during previous episode of care (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal cervicitis (disorder)",
+      "display": "Acute gonococcal cervicitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal conjunctivitis (disorder)",
+      "display": "Gonococcal conjunctivitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Abscess gonococcal (disorder)",
+      "display": "Abscess gonococcal (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal hepatitis (disorder)",
+      "display": "Gonococcal hepatitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal urethritis (disorder)",
+      "display": "Gonococcal urethritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal urethral abscess (disorder)",
+      "display": "Gonococcal urethral abscess (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal epididymitis (disorder)",
+      "display": "Gonococcal epididymitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal epididymo-orchitis (disorder)",
+      "display": "Gonococcal epididymo-orchitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal salpingitis (disorder)",
+      "display": "Gonococcal salpingitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal perihepatitis (disorder)",
+      "display": "Gonococcal perihepatitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal tubo-ovarian abscess (disorder)",
+      "display": "Gonococcal tubo-ovarian abscess (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal endometritis (disorder)",
+      "display": "Gonococcal endometritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal cervicitis (disorder)",
+      "display": "Gonococcal cervicitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal vulvovaginitis (disorder)",
+      "display": "Gonococcal vulvovaginitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Neonatal gonococcal vulvovaginitis (disorder)",
+      "display": "Neonatal gonococcal vulvovaginitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal lymphangitis of penis (disorder)",
+      "display": "Gonococcal lymphangitis of penis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal vulvovaginitis (disorder)",
+      "display": "Acute gonococcal vulvovaginitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal seminal vesiculitis (disorder)",
+      "display": "Chronic gonococcal seminal vesiculitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Post-dysenteric reactive arthritis (disorder)",
+      "display": "Post-dysenteric reactive arthritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Juvenile reactive arthritis triad (disorder)",
+      "display": "Juvenile reactive arthritis triad (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal tenosynovitis (disorder)",
+      "display": "Gonococcal tenosynovitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Neonatal gonococcal infection (disorder)",
+      "display": "Neonatal gonococcal infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonorrhea with local complication (disorder)",
+      "display": "Gonorrhea with local complication (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal Bartholin's gland abscess (disorder)",
+      "display": "Gonococcal Bartholin's gland abscess (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal Skenitis (disorder)",
+      "display": "Gonococcal Skenitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal Tysonitis (disorder)",
+      "display": "Gonococcal Tysonitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal Cowperitis (disorder)",
+      "display": "Gonococcal Cowperitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal Littritis (disorder)",
+      "display": "Gonococcal Littritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal Littré gland abscess (disorder)",
+      "display": "Gonococcal Littré gland abscess (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal paraurethral gland abscess (disorder)",
+      "display": "Gonococcal paraurethral gland abscess (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal female pelvic infection (disorder)",
+      "display": "Gonococcal female pelvic infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal synovitis (disorder)",
+      "display": "Gonococcal synovitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Cutaneous gonorrhea (disorder)",
+      "display": "Cutaneous gonorrhea (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Early lymphogranuloma venereum (disorder)",
+      "display": "Early lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Late lymphogranuloma venereum (disorder)",
+      "display": "Late lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Latent lymphogranuloma venereum (disorder)",
+      "display": "Latent lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal cystitis (disorder)",
+      "display": "Acute gonococcal cystitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal arthritis dermatitis syndrome (disorder)",
+      "display": "Gonococcal arthritis dermatitis syndrome (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Esthiomene (disorder)",
+      "display": "Esthiomene (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonorrhea (disorder)",
+      "display": "Chronic gonorrhea (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal conjunctivitis neonatorum (disorder)",
+      "display": "Gonococcal conjunctivitis neonatorum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonorrhea of genitourinary tract (disorder)",
+      "display": "Chronic gonorrhea of genitourinary tract (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal urethritis (disorder)",
+      "display": "Acute gonococcal urethritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal epididymo-orchitis (disorder)",
+      "display": "Acute gonococcal epididymo-orchitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal seminal vesiculitis (disorder)",
+      "display": "Gonococcal seminal vesiculitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal pelvic peritonitis (disorder)",
+      "display": "Gonococcal pelvic peritonitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal endometritis (disorder)",
+      "display": "Chronic gonococcal endometritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal epididymo-orchitis (disorder)",
+      "display": "Chronic gonococcal epididymo-orchitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of eye (disorder)",
+      "display": "Gonococcal infection of eye (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal keratitis (disorder)",
+      "display": "Gonococcal keratitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Localized cutaneous gonococcal infection (disorder)",
+      "display": "Localized cutaneous gonococcal infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal bartholinitis (disorder)",
+      "display": "Gonococcal bartholinitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Pustular vasculitis caused by gonococcal bacteraemia (disorder)",
+      "display": "Pustular vasculitis caused by gonococcal bacteraemia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of the central nervous system (disorder)",
+      "display": "Gonococcal infection of the central nervous system (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonorrhea of rectum (disorder)",
+      "display": "Gonorrhea of rectum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal urethritis (disorder)",
+      "display": "Chronic gonococcal urethritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Abscess of urethral gland caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Abscess of urethral gland caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal infection of joint (disorder)",
+      "display": "Gonococcal infection of joint (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal salpingitis (disorder)",
+      "display": "Acute gonococcal salpingitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Bursitis caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Bursitis caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcemia (disorder)",
+      "display": "Gonococcemia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonorrhea of upper genitourinary tract (disorder)",
+      "display": "Acute gonorrhea of upper genitourinary tract (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal salpingitis (disorder)",
+      "display": "Chronic gonococcal salpingitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal spondylitis (disorder)",
+      "display": "Gonococcal spondylitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonorrhea of lower genitourinary tract (disorder)",
+      "display": "Acute gonorrhea of lower genitourinary tract (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal keratosis (disorder)",
+      "display": "Gonococcal keratosis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal prostatitis (disorder)",
+      "display": "Chronic gonococcal prostatitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal endocarditis (disorder)",
+      "display": "Gonococcal endocarditis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal seminal vesiculitis (disorder)",
+      "display": "Acute gonococcal seminal vesiculitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal endometritis (disorder)",
+      "display": "Acute gonococcal endometritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Reactive arthritis triad (disorder)",
+      "display": "Reactive arthritis triad (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gingival disease caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Gingival disease caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Conjunctivitis of adulthood caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Conjunctivitis of adulthood caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Urethral stricture due to gonococcal infection (disorder)",
+      "display": "Urethral stricture due to gonococcal infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonorrhea of pharynx (disorder)",
+      "display": "Gonorrhea of pharynx (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Disseminated infection caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Disseminated infection caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal cervicitis (disorder)",
+      "display": "Chronic gonococcal cervicitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonorrhea of upper genitourinary tract (disorder)",
+      "display": "Chronic gonorrhea of upper genitourinary tract (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal bartholinitis (disorder)",
+      "display": "Acute gonococcal bartholinitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Chronic gonococcal cystitis (disorder)",
+      "display": "Chronic gonococcal cystitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal iridocyclitis (disorder)",
+      "display": "Gonococcal iridocyclitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal heart disease (disorder)",
+      "display": "Gonococcal heart disease (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Antigen of Neisseria gonorrhoeae (substance)",
+      "display": "Antigen of Neisseria gonorrhoeae (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)",
+      "display": "Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Penicillinase-producing Neisseria gonorrhoeae (organism)",
+      "display": "Penicillinase-producing Neisseria gonorrhoeae (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Tetracycline-resistant Neisseria gonorrhoeae (organism)",
+      "display": "Tetracycline-resistant Neisseria gonorrhoeae (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Cephalosporin-resistant Neisseria gonorrhoeae (organism)",
+      "display": "Cephalosporin-resistant Neisseria gonorrhoeae (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Spectinomycin-resistant Neisseria gonorrhoeae (organism)",
+      "display": "Spectinomycin-resistant Neisseria gonorrhoeae (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)",
+      "display": "Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Neisseria gonorrhoeae, beta lactamase negative (organism)",
+      "display": "Neisseria gonorrhoeae, beta lactamase negative (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Neisseria gonorrhoeae (organism)",
+      "display": "Neisseria gonorrhoeae (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)",
+      "display": "Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gram-negative diplococcus (organism)",
+      "display": "Gram-negative diplococcus (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Neisseria species not Neisseria gonococci (organism)",
+      "display": "Neisseria species not Neisseria gonococci (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Genus Neisseria (organism)",
+      "display": "Genus Neisseria (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Neisseria species, not Neisseria meningitidis (organism)",
+      "display": "Neisseria species, not Neisseria meningitidis (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)",
+      "display": "Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonorrhea in mother complicating childbirth (disorder)",
+      "display": "Gonorrhea in mother complicating childbirth (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal abscess of brain (disorder)",
+      "display": "Gonococcal abscess of brain (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Infection of anus and rectum caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Infection of anus and rectum caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Infection of lower genitourinary tract co-occurrent with abscess of periurethral gland caused by Gonococcus (disorder)",
+      "display": "Infection of lower genitourinary tract co-occurrent with abscess of periurethral gland caused by Gonococcus (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal pneumonia (disorder)",
+      "display": "Gonococcal pneumonia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)",
+      "display": "Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Severe sepsis with acute organ dysfunction caused by Gonococcus (disorder)",
+      "display": "Severe sepsis with acute organ dysfunction caused by Gonococcus (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Acute gonococcal pericarditis (disorder)",
+      "display": "Acute gonococcal pericarditis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal penile fistula (disorder)",
+      "display": "Gonococcal penile fistula (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal cellulitis (disorder)",
+      "display": "Gonococcal cellulitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal iritis (disorder)",
+      "display": "Gonococcal iritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Infection of musculoskeletal system caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Infection of musculoskeletal system caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Infection of genitourinary system caused by Neisseria gonorrhoeae (disorder)",
+      "display": "Infection of genitourinary system caused by Neisseria gonorrhoeae (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Diagnosis-Gonococcal pericarditis (disorder)",
+      "display": "Gonococcal pericarditis (disorder)"
+    } ]
+  }
+}

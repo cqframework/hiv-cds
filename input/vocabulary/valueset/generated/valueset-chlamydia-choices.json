@@ -12,76 +12,76 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chlamydia-Chlamydial lymphogranuloma (venereum)",
+        "code": "Chlamydia Diagnosis-Chlamydial lymphogranuloma (venereum)",
         "display": "Chlamydial lymphogranuloma (venereum)"
       }, {
-        "code": "Chlamydia-Chlamydial infection of lower genitourinary tract, unspecified",
+        "code": "Chlamydia Diagnosis-Chlamydial infection of lower genitourinary tract, unspecified",
         "display": "Chlamydial infection of lower genitourinary tract, unspecified"
       }, {
-        "code": "Chlamydia-Chlamydial cystitis and urethritis",
+        "code": "Chlamydia Diagnosis-Chlamydial cystitis and urethritis",
         "display": "Chlamydial cystitis and urethritis"
       }, {
-        "code": "Chlamydia-Other chlamydial infection of lower genitourinary tract",
+        "code": "Chlamydia Diagnosis-Other chlamydial infection of lower genitourinary tract",
         "display": "Other chlamydial infection of lower genitourinary tract"
       }, {
-        "code": "Chlamydia-Chlamydial infection (disorder)",
+        "code": "Chlamydia Diagnosis-Chlamydial infection (disorder)",
         "display": "Chlamydial infection (disorder)"
       }, {
-        "code": "Chlamydia-Chlamydia trachomatis infection in mother complicating childbirth (disorder)",
+        "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection in mother complicating childbirth (disorder)",
         "display": "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
       }, {
-        "code": "Chlamydia-Cystitis caused by Chlamydia (disorder)",
+        "code": "Chlamydia Diagnosis-Cystitis caused by Chlamydia (disorder)",
         "display": "Cystitis caused by Chlamydia (disorder)"
       }, {
-        "code": "Chlamydia-Chlamydia trachomatis, serotype Ja (organism)",
+        "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype Ja (organism)",
         "display": "Chlamydia trachomatis, serotype Ja (organism)"
       }, {
-        "code": "Chlamydia-Infection of epididymis caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of epididymis caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of epididymis caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of pharynx caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of pharynx caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of pharynx caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of anus caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of anus caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of anus caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of peritoneum caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of peritoneum caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of peritoneum caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of testis caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of testis caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of testis caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of cervix caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of cervix caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of cervix caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of rectum caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of rectum caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of rectum caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of vulva caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of vulva caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of vulva caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Infection of vagina caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Infection of vagina caused by Chlamydia trachomatis (disorder)",
         "display": "Infection of vagina caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Endocarditis caused by Genus Chlamydia (disorder)",
+        "code": "Chlamydia Diagnosis-Endocarditis caused by Genus Chlamydia (disorder)",
         "display": "Endocarditis caused by Genus Chlamydia (disorder)"
       }, {
-        "code": "Chlamydia-Lymphogranuloma venereum antigen (substance)",
+        "code": "Chlamydia Diagnosis-Lymphogranuloma venereum antigen (substance)",
         "display": "Lymphogranuloma venereum antigen (substance)"
       }, {
-        "code": "Chlamydia-Chlamydial polyarthritis (disorder)",
+        "code": "Chlamydia Diagnosis-Chlamydial polyarthritis (disorder)",
         "display": "Chlamydial polyarthritis (disorder)"
       }, {
-        "code": "Chlamydia-Chlamydia trachomatis (organism)",
+        "code": "Chlamydia Diagnosis-Chlamydia trachomatis (organism)",
         "display": "Chlamydia trachomatis (organism)"
       }, {
-        "code": "Chlamydia-Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)",
+        "code": "Chlamydia Diagnosis-Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)",
         "display": "Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)"
       }, {
-        "code": "Chlamydia-Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)",
+        "code": "Chlamydia Diagnosis-Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)",
         "display": "Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "Chlamydia-Sequela of infection caused by Chlamydia (disorder)",
+        "code": "Chlamydia Diagnosis-Sequela of infection caused by Chlamydia (disorder)",
         "display": "Sequela of infection caused by Chlamydia (disorder)"
       } ]
     } ]

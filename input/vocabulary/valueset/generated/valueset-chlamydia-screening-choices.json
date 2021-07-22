@@ -12,145 +12,145 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chlamydia Screening-Chlamydia trachomatis [Presence] in Cervix by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Cervix by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Cervix by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis [Presence] in Vaginal fluid by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Vaginal fluid by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Vaginal fluid by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis [Presence] in Urine sediment by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Urine sediment by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Urine sediment by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunoassay"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunofluorescence"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Genital specimen by Probe",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Genital specimen by Probe",
         "display": "Chlamydia trachomatis rRNA [Presence] in Genital specimen by Probe"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Presence] in Cervix by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Cervix by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Presence] in Cervix by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Presence] in Urethra by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Urethra by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Presence] in Urethra by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Genital fluid by Probe",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Genital fluid by Probe",
         "display": "Chlamydia trachomatis rRNA [Presence] in Genital fluid by Probe"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis Ag [Presence] in Urine sediment",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urine sediment",
         "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis Ag [Presence] in Unspecified specimen",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Unspecified specimen",
         "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection",
         "display": "Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Presence] in Unspecified specimen by Probe with signal amplification",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Unspecified specimen by Probe with signal amplification",
         "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification",
+        "code": "Chlamydia Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification",
         "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Presence] in Vaginal fluid by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Vaginal fluid by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Presence] in Vaginal fluid by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis Ag [Presence] in Genital specimen",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Genital specimen",
         "display": "Chlamydia trachomatis Ag [Presence] in Genital specimen"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis [Presence] in Genital specimen by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Genital specimen by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Genital specimen by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia sp identified in Cervix by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia sp identified in Cervix by Organism specific culture",
         "display": "Chlamydia sp identified in Cervix by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia sp identified in Vaginal fluid by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia sp identified in Vaginal fluid by Organism specific culture",
         "display": "Chlamydia sp identified in Vaginal fluid by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis L2 DNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis L2 DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis L2 DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Identifier] in Unspecified specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Identifier] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Identifier] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Units/volume] in Unspecified specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Units/volume] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Units/volume] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe",
         "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Cervix by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Cervix by NAA with probe detection",
         "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Urethra by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urethra by NAA with probe detection",
         "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by NAA with probe detection",
         "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia sp identified in Genital specimen by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia sp identified in Genital specimen by Organism specific culture",
         "display": "Chlamydia sp identified in Genital specimen by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia sp identified in Unspecified specimen by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia sp identified in Unspecified specimen by Organism specific culture",
         "display": "Chlamydia sp identified in Unspecified specimen by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture",
+        "code": "Chlamydia Test-Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture",
         "display": "Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay",
         "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunofluorescence",
+        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunofluorescence",
         "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunofluorescence"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Presence] in Genital specimen by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Genital specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Presence] in Genital specimen by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection",
         "display": "Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection"
       }, {
-        "code": "Chlamydia Screening-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection",
+        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection"
       } ]
     } ]

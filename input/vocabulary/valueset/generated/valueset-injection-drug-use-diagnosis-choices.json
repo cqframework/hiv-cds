@@ -1,0 +1,566 @@
+{
+  "resourceType": "ValueSet",
+  "id": "injection-drug-use-diagnosis-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-drug-use-diagnosis-choices",
+  "name": "injection-drug-use-diagnosis-choices",
+  "title": "Injection Drug Use Diagnosis Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Injection Drug Use Diagnosis Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Injection Drug Use Diagnosis-Streptococcal sepsis",
+        "display": "Streptococcal sepsis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Other sepsis",
+        "display": "Other sepsis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Gas gangrene",
+        "display": "Gas gangrene"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Candidal endocarditis",
+        "display": "Candidal endocarditis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Intracranial and intraspinal abscess and granuloma",
+        "display": "Intracranial and intraspinal abscess and granuloma"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Sequelae of inflammatory diseases of central nervous system",
+        "display": "Sequelae of inflammatory diseases of central nervous system"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Pulmonary embolism without acute cor pulmonale",
+        "display": "Pulmonary embolism without acute cor pulmonale"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Acute and subacute endocarditis",
+        "display": "Acute and subacute endocarditis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Nonrheumatic mitral valve disorders",
+        "display": "Nonrheumatic mitral valve disorders"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Nonrheumatic aortic valve disorders",
+        "display": "Nonrheumatic aortic valve disorders"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Nonrheumatic tricuspid valve disorders",
+        "display": "Nonrheumatic tricuspid valve disorders"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Nonrheumatic pulmonary valve disorders",
+        "display": "Nonrheumatic pulmonary valve disorders"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Endocarditis, valve unspecified",
+        "display": "Endocarditis, valve unspecified"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Endocarditis and heart valve disorders in diseases classified elsewhere",
+        "display": "Endocarditis and heart valve disorders in diseases classified elsewhere"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Infective myocarditis",
+        "display": "Infective myocarditis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Phlebitis and thrombophlebitis",
+        "display": "Phlebitis and thrombophlebitis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Abscess of intestine",
+        "display": "Abscess of intestine"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Generalized (acute) peritonitis",
+        "display": "Generalized (acute) peritonitis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Abscess of liver",
+        "display": "Abscess of liver"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cutaneous abscess, furuncle and carbuncle",
+        "display": "Cutaneous abscess, furuncle and carbuncle"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cellulitis and acute lymphangitis",
+        "display": "Cellulitis and acute lymphangitis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Non-pressure chronic ulcer of lower limb, not elsewhere classified",
+        "display": "Non-pressure chronic ulcer of lower limb, not elsewhere classified"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Other specified disorders of the skin and subcutaneous tissue",
+        "display": "Other specified disorders of the skin and subcutaneous tissue"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Panniculitis affecting regions of neck and back, cervical region",
+        "display": "Panniculitis affecting regions of neck and back, cervical region"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Necrotizing fasciitis",
+        "display": "Necrotizing fasciitis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Panniculitis, unspecified",
+        "display": "Panniculitis, unspecified"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Osteomyelitis",
+        "display": "Osteomyelitis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Disorder of bone, unspecified",
+        "display": "Disorder of bone, unspecified"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Acute tubulo-interstitial nephritis",
+        "display": "Acute tubulo-interstitial nephritis"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Systemic inflammatory response syndrome (SIRS) of non-infectious origin",
+        "display": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin"
+      }, {
+        "code": "Injection Drug Use Diagnosis-IV - Intravenous drug user",
+        "display": "IV - Intravenous drug user"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Intravenous drug user (finding)",
+        "display": "Intravenous drug user (finding)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine-induced mood disorder (disorder)",
+        "display": "Cocaine-induced mood disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence in childbirth (disorder)",
+        "display": "Drug dependence in childbirth (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid dependence, on agonist therapy (disorder)",
+        "display": "Opioid dependence, on agonist therapy (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Chronic drug abuse (disorder)",
+        "display": "Chronic drug abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Psychoactive substance use disorder (disorder)",
+        "display": "Psychoactive substance use disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Organic mental disorder (disorder)",
+        "display": "Organic mental disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Continuous sedative abuse (disorder)",
+        "display": "Continuous sedative abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen mood disorder (disorder)",
+        "display": "Hallucinogen mood disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Intravenous cocaine abuse (disorder)",
+        "display": "Intravenous cocaine abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic phencyclidine abuse (disorder)",
+        "display": "Episodic phencyclidine abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence in remission (disorder)",
+        "display": "Drug dependence in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug abuse in remission (disorder)",
+        "display": "Drug abuse in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid-induced organic mental disorder (disorder)",
+        "display": "Opioid-induced organic mental disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen-induced anxiety disorder (disorder)",
+        "display": "Hallucinogen-induced anxiety disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence, continuous (disorder)",
+        "display": "Drug dependence, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence, episodic (disorder)",
+        "display": "Drug dependence, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic polysubstance dependence (disorder)",
+        "display": "Episodic polysubstance dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drugs of addiction education (procedure)",
+        "display": "Drugs of addiction education (procedure)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced psychosis (disorder)",
+        "display": "Drug-induced psychosis (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced paranoia or hallucinatory states (disorder)",
+        "display": "Drug-induced paranoia or hallucinatory states (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced paranoid state (disorder)",
+        "display": "Drug-induced paranoid state (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced hallucinosis (disorder)",
+        "display": "Drug-induced hallucinosis (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced delirium (disorder)",
+        "display": "Drug-induced delirium (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced dementia (disorder)",
+        "display": "Drug-induced dementia (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced amnestic syndrome (disorder)",
+        "display": "Drug-induced amnestic syndrome (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced depressive state (disorder)",
+        "display": "Drug-induced depressive state (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced personality disorder (disorder)",
+        "display": "Drug-induced personality disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic acute alcoholic intoxication in alcoholism (disorder)",
+        "display": "Episodic acute alcoholic intoxication in alcoholism (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic chronic alcoholism (disorder)",
+        "display": "Episodic chronic alcoholism (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence (disorder)",
+        "display": "Drug dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Continuous opioid dependence (disorder)",
+        "display": "Continuous opioid dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic opioid dependence (disorder)",
+        "display": "Episodic opioid dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid dependence in remission (disorder)",
+        "display": "Opioid dependence in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic or anxiolytic dependence, continuous (disorder)",
+        "display": "Hypnotic or anxiolytic dependence, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic or anxiolytic dependence, episodic (disorder)",
+        "display": "Hypnotic or anxiolytic dependence, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic or anxiolytic dependence in remission (disorder)",
+        "display": "Hypnotic or anxiolytic dependence in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine dependence, continuous (disorder)",
+        "display": "Cocaine dependence, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine dependence, episodic (disorder)",
+        "display": "Cocaine dependence, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine dependence in remission (disorder)",
+        "display": "Cocaine dependence in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine or psychostimulant dependence, continuous (disorder)",
+        "display": "Amphetamine or psychostimulant dependence, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine or psychostimulant dependence, episodic (disorder)",
+        "display": "Amphetamine or psychostimulant dependence, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen dependence, continuous (disorder)",
+        "display": "Hallucinogen dependence, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen dependence, episodic (disorder)",
+        "display": "Hallucinogen dependence, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen dependence in remission (disorder)",
+        "display": "Hallucinogen dependence in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined opioid with non-opioid drug dependence (disorder)",
+        "display": "Combined opioid with non-opioid drug dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined opioid with non-opioid drug dependence, continuous (disorder)",
+        "display": "Combined opioid with non-opioid drug dependence, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined opioid with non-opioid drug dependence, episodic (disorder)",
+        "display": "Combined opioid with non-opioid drug dependence, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined opioid with non-opioid drug dependence in remission (disorder)",
+        "display": "Combined opioid with non-opioid drug dependence in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined drug dependence, excluding opioids (disorder)",
+        "display": "Combined drug dependence, excluding opioids (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined drug dependence, excluding opioid, continuous (disorder)",
+        "display": "Combined drug dependence, excluding opioid, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined drug dependence, excluding opioid, episodic (disorder)",
+        "display": "Combined drug dependence, excluding opioid, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined drug dependence, excluding opioid, in remission (disorder)",
+        "display": "Combined drug dependence, excluding opioid, in remission (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid-induced psychotic disorder with hallucinations (disorder)",
+        "display": "Opioid-induced psychotic disorder with hallucinations (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence during pregnancy - baby delivered (disorder)",
+        "display": "Drug dependence during pregnancy - baby delivered (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence in the puerperium - baby delivered (disorder)",
+        "display": "Drug dependence in the puerperium - baby delivered (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence during pregnancy - baby not yet delivered (disorder)",
+        "display": "Drug dependence during pregnancy - baby not yet delivered (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence in the puerperium - baby delivered during previous episode of care (disorder)",
+        "display": "Drug dependence in the puerperium - baby delivered during previous episode of care (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid-induced psychotic disorder with delusions (disorder)",
+        "display": "Opioid-induced psychotic disorder with delusions (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine dependence (disorder)",
+        "display": "Amphetamine dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced tic (disorder)",
+        "display": "Drug-induced tic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Narcotic withdrawal epilepsy (disorder)",
+        "display": "Narcotic withdrawal epilepsy (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced intensive care psychosis (disorder)",
+        "display": "Drug-induced intensive care psychosis (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic or anxiolytic abuse (disorder)",
+        "display": "Hypnotic or anxiolytic abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Absinthe addiction (disorder)",
+        "display": "Absinthe addiction (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Lysergic acid diethylamide dependence (disorder)",
+        "display": "Lysergic acid diethylamide dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Mescaline dependence (disorder)",
+        "display": "Mescaline dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Anxiolytic dependence (disorder)",
+        "display": "Anxiolytic dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Heroin dependence (disorder)",
+        "display": "Heroin dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Methadone dependence (disorder)",
+        "display": "Methadone dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Morphine dependence (disorder)",
+        "display": "Morphine dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opium dependence (disorder)",
+        "display": "Opium dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Controlled drug dependence (disorder)",
+        "display": "Controlled drug dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Active drug dependence (disorder)",
+        "display": "Active drug dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Pregnancy and drug dependence (disorder)",
+        "display": "Pregnancy and drug dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Psychoactive substance dependence (disorder)",
+        "display": "Psychoactive substance dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Pathological drug intoxication (disorder)",
+        "display": "Pathological drug intoxication (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug abuse (disorder)",
+        "display": "Drug abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug dependence during pregnancy, childbirth and the puerperium (disorder)",
+        "display": "Drug dependence during pregnancy, childbirth and the puerperium (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic or anxiolytic dependence (disorder)",
+        "display": "Hypnotic or anxiolytic dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine intoxication (disorder)",
+        "display": "Cocaine intoxication (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid-induced mood disorder due to opioid abuse (disorder)",
+        "display": "Opioid-induced mood disorder due to opioid abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid-induced mood disorder due to opioid dependence (disorder)",
+        "display": "Opioid-induced mood disorder due to opioid dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid-induced mood disorder (disorder)",
+        "display": "Opioid-induced mood disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Nicotine-induced organic mental disorder (disorder)",
+        "display": "Nicotine-induced organic mental disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine delusional disorder (disorder)",
+        "display": "Cocaine delusional disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic-induced organic mental disorder (disorder)",
+        "display": "Hypnotic-induced organic mental disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine dependence (disorder)",
+        "display": "Cocaine dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen hallucinosis (disorder)",
+        "display": "Hallucinogen hallucinosis (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine delusional disorder (disorder)",
+        "display": "Amphetamine delusional disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Idiosyncratic drug effect (disorder)",
+        "display": "Idiosyncratic drug effect (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug withdrawal (disorder)",
+        "display": "Drug withdrawal (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen dependence (disorder)",
+        "display": "Hallucinogen dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen intoxication delirium (disorder)",
+        "display": "Hallucinogen intoxication delirium (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic flashbacks (disorder)",
+        "display": "Episodic flashbacks (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Duplicative flashbacks (disorder)",
+        "display": "Duplicative flashbacks (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic drug abuse (disorder)",
+        "display": "Episodic drug abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Continuous phencyclidine abuse (disorder)",
+        "display": "Continuous phencyclidine abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Fentanyl dependence (disorder)",
+        "display": "Fentanyl dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug abuse, continuous (disorder)",
+        "display": "Drug abuse, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Methamphetamine dependence (disorder)",
+        "display": "Methamphetamine dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine abuse, continuous (disorder)",
+        "display": "Amphetamine abuse, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Episodic inhalant abuse (disorder)",
+        "display": "Episodic inhalant abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced delusional disorder (disorder)",
+        "display": "Drug-induced delusional disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Maternal substance abuse (situation)",
+        "display": "Maternal substance abuse (situation)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Catha edulis abuse (disorder)",
+        "display": "Catha edulis abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Combined drug dependence, continuous (disorder)",
+        "display": "Combined drug dependence, continuous (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug-induced mood disorder (disorder)",
+        "display": "Drug-induced mood disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine abuse, episodic (disorder)",
+        "display": "Amphetamine abuse, episodic (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Dependence on unknown drug (disorder)",
+        "display": "Dependence on unknown drug (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Polysubstance abuse (disorder)",
+        "display": "Polysubstance abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine-induced organic mental disorder (disorder)",
+        "display": "Cocaine-induced organic mental disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen intoxication (disorder)",
+        "display": "Hallucinogen intoxication (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen delusional disorder (disorder)",
+        "display": "Hallucinogen delusional disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Polysubstance dependence (disorder)",
+        "display": "Polysubstance dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine-induced anxiety disorder (disorder)",
+        "display": "Cocaine-induced anxiety disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid intoxication delirium (disorder)",
+        "display": "Opioid intoxication delirium (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen-induced organic mental disorder (disorder)",
+        "display": "Hallucinogen-induced organic mental disorder (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid abuse (disorder)",
+        "display": "Opioid abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine-induced psychotic disorder with hallucinations (disorder)",
+        "display": "Cocaine-induced psychotic disorder with hallucinations (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Dependent drug abuse (disorder)",
+        "display": "Dependent drug abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Substance abuse (disorder)",
+        "display": "Substance abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Methamphetamine abuse (disorder)",
+        "display": "Methamphetamine abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine delirium (disorder)",
+        "display": "Cocaine delirium (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid-induced sexual dysfunction (disorder)",
+        "display": "Opioid-induced sexual dysfunction (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Novel psychoactive substance misuse (disorder)",
+        "display": "Novel psychoactive substance misuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid dependence with current use (disorder)",
+        "display": "Opioid dependence with current use (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic dependence (disorder)",
+        "display": "Hypnotic dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic dependence with current use (disorder)",
+        "display": "Hypnotic dependence with current use (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic withdrawal (disorder)",
+        "display": "Hypnotic withdrawal (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hypnotic withdrawal without complication (disorder)",
+        "display": "Hypnotic withdrawal without complication (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine dependence with current use (disorder)",
+        "display": "Cocaine dependence with current use (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Harmful pattern of use of caffeine (disorder)",
+        "display": "Harmful pattern of use of caffeine (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen dependence with current use (disorder)",
+        "display": "Hallucinogen dependence with current use (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Harmful pattern of use of nicotine (disorder)",
+        "display": "Harmful pattern of use of nicotine (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Methylenedioxymethamphetamine dependence with current use (disorder)",
+        "display": "Methylenedioxymethamphetamine dependence with current use (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Harmful use of dissociative drug (disorder)",
+        "display": "Harmful use of dissociative drug (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Harmful use of ketamine (disorder)",
+        "display": "Harmful use of ketamine (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Psychoactive substance dependence with current use (disorder)",
+        "display": "Psychoactive substance dependence with current use (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Psychoactive substance withdrawal without complication (disorder)",
+        "display": "Psychoactive substance withdrawal without complication (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Hallucinogen abuse (disorder)",
+        "display": "Hallucinogen abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid dependence (disorder)",
+        "display": "Opioid dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine abuse (disorder)",
+        "display": "Cocaine abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine withdrawal (disorder)",
+        "display": "Amphetamine withdrawal (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Cocaine withdrawal (disorder)",
+        "display": "Cocaine withdrawal (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine abuse (disorder)",
+        "display": "Amphetamine abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Opioid withdrawal (disorder)",
+        "display": "Opioid withdrawal (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Amphetamine delirium (disorder)",
+        "display": "Amphetamine delirium (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Nicotine withdrawal (disorder)",
+        "display": "Nicotine withdrawal (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Psychoactive substance abuse (disorder)",
+        "display": "Psychoactive substance abuse (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Therapeutic drug dependence (disorder)",
+        "display": "Therapeutic drug dependence (disorder)"
+      }, {
+        "code": "Injection Drug Use Diagnosis-Drug habituation (disorder)",
+        "display": "Drug habituation (disorder)"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-diagnosis-choices-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-diagnosis-choices-grouper",
+  "name": "Chlamydia Diagnosis Choices Grouper",
+  "title": "Chlamydia Diagnosis Choices Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-07-21T19:38:01-06:00",
+  "description": "Group Valueset with codes representing possible values for the Chlamydia Diagnosis Choices Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-infections-and-venereal-diseases-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-infection-secondary-sites-complications-disorders-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-organism-or-chlamydia-trachomatis-substance-choices" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2021-07-21T19:38:01-06:00",
+    "contains": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial lymphogranuloma (venereum)",
+      "display": "Chlamydial lymphogranuloma (venereum)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial infection of lower genitourinary tract, unspecified",
+      "display": "Chlamydial infection of lower genitourinary tract, unspecified"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial cystitis and urethritis",
+      "display": "Chlamydial cystitis and urethritis"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Other chlamydial infection of lower genitourinary tract",
+      "display": "Other chlamydial infection of lower genitourinary tract"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial infection (disorder)",
+      "display": "Chlamydial infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection in mother complicating childbirth (disorder)",
+      "display": "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Cystitis caused by Chlamydia (disorder)",
+      "display": "Cystitis caused by Chlamydia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype Ja (organism)",
+      "display": "Chlamydia trachomatis, serotype Ja (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of epididymis caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of epididymis caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of pharynx caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of pharynx caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of anus caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of anus caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of peritoneum caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of peritoneum caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of testis caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of testis caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of cervix caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of cervix caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of rectum caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of rectum caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of vulva caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of vulva caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Infection of vagina caused by Chlamydia trachomatis (disorder)",
+      "display": "Infection of vagina caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Endocarditis caused by Genus Chlamydia (disorder)",
+      "display": "Endocarditis caused by Genus Chlamydia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Lymphogranuloma venereum antigen (substance)",
+      "display": "Lymphogranuloma venereum antigen (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial polyarthritis (disorder)",
+      "display": "Chlamydial polyarthritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis (organism)",
+      "display": "Chlamydia trachomatis (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)",
+      "display": "Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)",
+      "display": "Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Sequela of infection caused by Chlamydia (disorder)",
+      "display": "Sequela of infection caused by Chlamydia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection of anus and rectum (disorder)",
+      "display": "Chlamydia trachomatis infection of anus and rectum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Acute genitourinary chlamydia infection (disorder)",
+      "display": "Acute genitourinary chlamydia infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Acute genitourinary Chlamydia trachomatis infection (disorder)",
+      "display": "Acute genitourinary Chlamydia trachomatis infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection of genital structure (disorder)",
+      "display": "Chlamydia trachomatis infection of genital structure (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial infection of lower genitourinary tract (disorder)",
+      "display": "Chlamydial infection of lower genitourinary tract (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial infection of anus and rectum (disorder)",
+      "display": "Chlamydial infection of anus and rectum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Lymphogranuloma venereum (disorder)",
+      "display": "Lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial pelvic inflammatory disease (disorder)",
+      "display": "Chlamydial pelvic inflammatory disease (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Pelvic inflammation with female sterility caused by Chlamydia trachomatis (disorder)",
+      "display": "Pelvic inflammation with female sterility caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial peritonitis (disorder)",
+      "display": "Chlamydial peritonitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Congenital chlamydial pneumonia (disorder)",
+      "display": "Congenital chlamydial pneumonia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial pharyngitis (disorder)",
+      "display": "Chlamydial pharyngitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Neonatal chlamydial pneumonia (disorder)",
+      "display": "Neonatal chlamydial pneumonia (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Lymphedema due to lymphogranuloma venereum (disorder)",
+      "display": "Lymphedema due to lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial prostatitis (disorder)",
+      "display": "Chlamydial prostatitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial urethritis (disorder)",
+      "display": "Chlamydial urethritis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial balanitis (disorder)",
+      "display": "Chlamydial balanitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial epididymitis (disorder)",
+      "display": "Chlamydial epididymitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial epididymo-orchitis (disorder)",
+      "display": "Chlamydial epididymo-orchitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial salpingitis (disorder)",
+      "display": "Chlamydial salpingitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial perihepatitis (disorder)",
+      "display": "Chlamydial perihepatitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial cervicitis (disorder)",
+      "display": "Chlamydial cervicitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial vulvovaginitis (disorder)",
+      "display": "Chlamydial vulvovaginitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial bartholinitis (disorder)",
+      "display": "Chlamydial bartholinitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial dermatological disorders (disorder)",
+      "display": "Chlamydial dermatological disorders (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection (disorder)",
+      "display": "Chlamydia trachomatis infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Neonatal chlamydial infection (disorder)",
+      "display": "Neonatal chlamydial infection (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Early lymphogranuloma venereum (disorder)",
+      "display": "Early lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Late lymphogranuloma venereum (disorder)",
+      "display": "Late lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Latent lymphogranuloma venereum (disorder)",
+      "display": "Latent lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Esthiomene (disorder)",
+      "display": "Esthiomene (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Neonatal chlamydial dacryocystitis (disorder)",
+      "display": "Neonatal chlamydial dacryocystitis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Pelvic inflammatory disease with female sterility due to Chlamydia trachomatis (disorder)",
+      "display": "Pelvic inflammatory disease with female sterility due to Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydial infection of the central nervous system (disorder)",
+      "display": "Chlamydial infection of the central nervous system (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Venereal disease caused by Chlamydia trachomatis (disorder)",
+      "display": "Venereal disease caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype A (organism)",
+      "display": "Chlamydia trachomatis, serotype A (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype B (organism)",
+      "display": "Chlamydia trachomatis, serotype B (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype Ba (organism)",
+      "display": "Chlamydia trachomatis, serotype Ba (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype C (organism)",
+      "display": "Chlamydia trachomatis, serotype C (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype D (organism)",
+      "display": "Chlamydia trachomatis, serotype D (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype E (organism)",
+      "display": "Chlamydia trachomatis, serotype E (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype F (organism)",
+      "display": "Chlamydia trachomatis, serotype F (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype I (organism)",
+      "display": "Chlamydia trachomatis, serotype I (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype J (organism)",
+      "display": "Chlamydia trachomatis, serotype J (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype K (organism)",
+      "display": "Chlamydia trachomatis, serotype K (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype L (organism)",
+      "display": "Chlamydia trachomatis, serotype L (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype L1 (organism)",
+      "display": "Chlamydia trachomatis, serotype L1 (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype L2 (organism)",
+      "display": "Chlamydia trachomatis, serotype L2 (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype L3 (organism)",
+      "display": "Chlamydia trachomatis, serotype L3 (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype G (organism)",
+      "display": "Chlamydia trachomatis, serotype G (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis, serotype H (organism)",
+      "display": "Chlamydia trachomatis, serotype H (organism)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Antigen of Chlamydia trachomatis (substance)",
+      "display": "Antigen of Chlamydia trachomatis (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Antigen of Chlamydia trachomatis serotype F (substance)",
+      "display": "Antigen of Chlamydia trachomatis serotype F (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Antigen of Chlamydia trachomatis serotype G (substance)",
+      "display": "Antigen of Chlamydia trachomatis serotype G (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Antigen of Chlamydia trachomatis serotype K (substance)",
+      "display": "Antigen of Chlamydia trachomatis serotype K (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Ribosomal ribonucleic acid of Chlamydia trachomatis (substance)",
+      "display": "Ribosomal ribonucleic acid of Chlamydia trachomatis (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Deoxyribonucleic acid of Chlamydia trachomatis (substance)",
+      "display": "Deoxyribonucleic acid of Chlamydia trachomatis (substance)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Perihepatitis caused by Chlamydia trachomatis (disorder)",
+      "display": "Perihepatitis caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Chlamydia trachomatis infection in pregnancy (disorder)",
+      "display": "Chlamydia trachomatis infection in pregnancy (disorder)"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Chlamydia Diagnosis-Urethritis caused by Chlamydia trachomatis (disorder)",
+      "display": "Urethritis caused by Chlamydia trachomatis (disorder)"
+    } ]
+  }
+}

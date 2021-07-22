@@ -12,10 +12,10 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chronic Infection of liver due to Hepatitis C virus-Chronic hepatitis C (disorder)",
+        "code": "Hepatitis C Diagnosis-Chronic hepatitis C (disorder)",
         "display": "Chronic hepatitis C (disorder)"
       }, {
-        "code": "Chronic Infection of liver due to Hepatitis C virus-Chronic viral hepatitis C with hepatic coma (disorder)",
+        "code": "Hepatitis C Diagnosis-Chronic viral hepatitis C with hepatic coma (disorder)",
         "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
       } ]
     } ]

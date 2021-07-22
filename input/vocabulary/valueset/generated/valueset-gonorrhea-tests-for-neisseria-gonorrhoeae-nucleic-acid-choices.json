@@ -12,130 +12,130 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Cervical mucus by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Cervical mucus by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Cervical mucus by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Vaginal fluid by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Vaginal fluid by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Vaginal fluid by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Conjunctival specimen by Probe",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Conjunctival specimen by Probe",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Conjunctival specimen by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Conjunctival specimen by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Conjunctival specimen by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Conjunctival specimen by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification",
+        "code": "Gonorrhea Test-Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification",
         "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Urethra by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Urethra by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Urethra by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Nasopharynx by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Nasopharynx by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Nasopharynx by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Nasopharynx by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Nasopharynx by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Nasopharynx by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Anal by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Anal by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Anal by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Throat by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Throat by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Throat by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection",
+        "code": "Gonorrhea Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection",
         "display": "Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Anorectal by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Anorectal by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Anorectal by NAA with probe detection"
       }, {
-        "code": "Gonorrhea (Tests for Neisseria gonorrhoeae Nucleic Acid)-Neisseria gonorrhoeae DNA [Presence] in Throat by NAA with probe detection",
+        "code": "Gonorrhea Test-Neisseria gonorrhoeae DNA [Presence] in Throat by NAA with probe detection",
         "display": "Neisseria gonorrhoeae DNA [Presence] in Throat by NAA with probe detection"
       } ]
     } ]
