@@ -12,28 +12,28 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-24236-297",
+        "code": "Prep Dispensed Medications-24236-297",
         "display": "24236-297"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-46014-0601",
+        "code": "Prep Dispensed Medications-46014-0601",
         "display": "46014-0601"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-53808-0801",
+        "code": "Prep Dispensed Medications-53808-0801",
         "display": "53808-0801"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-54868-4853",
+        "code": "Prep Dispensed Medications-54868-4853",
         "display": "54868-4853"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-61958-0601",
+        "code": "Prep Dispensed Medications-61958-0601",
         "display": "61958-0601"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-69097-642",
+        "code": "Prep Dispensed Medications-69097-642",
         "display": "69097-642"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-1847",
+        "code": "Prep Dispensed Medications-70518-1847",
         "display": "70518-1847"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-2906",
+        "code": "Prep Dispensed Medications-70518-2906",
         "display": "70518-2906"
       } ]
     } ]

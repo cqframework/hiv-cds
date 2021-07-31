@@ -12,11 +12,11 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C Diagnosis-Chronic hepatitis C (disorder)",
-        "display": "Chronic hepatitis C (disorder)"
+        "code": "Hepatitis C Diagnosis-128302006",
+        "display": "128302006"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic viral hepatitis C with hepatic coma (disorder)",
-        "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
+        "code": "Hepatitis C Diagnosis-435101000124104",
+        "display": "435101000124104"
       } ]
     } ]
   }

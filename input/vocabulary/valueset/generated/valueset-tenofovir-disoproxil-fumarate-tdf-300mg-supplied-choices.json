@@ -12,88 +12,88 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-0093-7104",
+        "code": "Prep Dispensed Medications-0093-7104",
         "display": "0093-7104"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-0904-6821",
+        "code": "Prep Dispensed Medications-0904-6821",
         "display": "0904-6821"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-16714-820",
+        "code": "Prep Dispensed Medications-16714-820",
         "display": "16714-820"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-24236-284",
+        "code": "Prep Dispensed Medications-24236-284",
         "display": "24236-284"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-31722-535",
+        "code": "Prep Dispensed Medications-31722-535",
         "display": "31722-535"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-33342-096",
+        "code": "Prep Dispensed Medications-33342-096",
         "display": "33342-096"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-42291-800",
+        "code": "Prep Dispensed Medications-42291-800",
         "display": "42291-800"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-42385-901",
+        "code": "Prep Dispensed Medications-42385-901",
         "display": "42385-901"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-50090-0754",
+        "code": "Prep Dispensed Medications-50090-0754",
         "display": "50090-0754"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-50268-758",
+        "code": "Prep Dispensed Medications-50268-758",
         "display": "50268-758"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-53808-0810",
+        "code": "Prep Dispensed Medications-53808-0810",
         "display": "53808-0810"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-53808-1128",
+        "code": "Prep Dispensed Medications-53808-1128",
         "display": "53808-1128"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-54569-5334",
+        "code": "Prep Dispensed Medications-54569-5334",
         "display": "54569-5334"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-55154-4426",
+        "code": "Prep Dispensed Medications-55154-4426",
         "display": "55154-4426"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-60505-4666",
+        "code": "Prep Dispensed Medications-60505-4666",
         "display": "60505-4666"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-60687-366",
+        "code": "Prep Dispensed Medications-60687-366",
         "display": "60687-366"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-61958-0401",
+        "code": "Prep Dispensed Medications-61958-0401",
         "display": "61958-0401"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-64380-714",
+        "code": "Prep Dispensed Medications-64380-714",
         "display": "64380-714"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-65862-421",
+        "code": "Prep Dispensed Medications-65862-421",
         "display": "65862-421"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-67184-0521",
+        "code": "Prep Dispensed Medications-67184-0521",
         "display": "67184-0521"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-69025-103",
+        "code": "Prep Dispensed Medications-69025-103",
         "display": "69025-103"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-69076-105",
+        "code": "Prep Dispensed Medications-69076-105",
         "display": "69076-105"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-69097-533",
+        "code": "Prep Dispensed Medications-69097-533",
         "display": "69097-533"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-69189-0401",
+        "code": "Prep Dispensed Medications-69189-0401",
         "display": "69189-0401"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-0546",
+        "code": "Prep Dispensed Medications-70518-0546",
         "display": "70518-0546"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-0918",
+        "code": "Prep Dispensed Medications-70518-0918",
         "display": "70518-0918"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-1002",
+        "code": "Prep Dispensed Medications-70518-1002",
         "display": "70518-1002"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-2151",
+        "code": "Prep Dispensed Medications-70518-2151",
         "display": "70518-2151"
       } ]
     } ]

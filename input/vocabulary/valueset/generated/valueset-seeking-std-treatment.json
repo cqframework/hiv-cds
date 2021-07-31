@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "seeking-std-treatment",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/seeking-std-treatment",
+  "name": "seeking-std-treatment",
+  "title": "Seeking STD Treatment",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Seeking STD Treatment element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Whether the patient is currently seeking evaluation and treatment for an STD",
+        "display": "Whether the patient is currently seeking evaluation and treatment for an STD"
+      } ]
+    } ]
+  }
+}

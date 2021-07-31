@@ -2,8 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-g2-de26",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g2-de26",
-  "name": "Pre Exposure Prophylaxis Dispensed Medications",
-  "title": "Pre Exposure Prophylaxis Dispensed Medications",
+  "name": "Prep Dispensed Medications",
+  "title": "Prep Dispensed Medications",
   "status": "draft",
   "experimental": false,
   "description": "List of Medications Provisioned and Supplied for Non-Occupational Pre Exposure Prophylaxis",
@@ -38,7 +38,7 @@
     }, {
       "id": "MedicationDispense.medication[x]",
       "path": "MedicationDispense.medication[x]",
-      "short": "Pre Exposure Prophylaxis Dispensed Medications",
+      "short": "Prep Dispensed Medications",
       "comment": "PrEP Medication mapping??Sourced: https://confluence.nachc.org/download/attachments/17415026/2021-07-09%20HIV%20Pre-exposure%20prophylaxis%20%28PrEP%29%20%5BRxNorm%5D%20%5BNDC%5D.xlsx?version=1&modificationDate=1626704083728&api=v2Dispense",
       "min": 1,
       "max": "*",
@@ -49,10 +49,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Pre Exposure Prophylaxis Dispensed Medications Choices Grouper"
+          "valueString": "Prep Dispensed Medications Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pre-exposure-prophylaxis-dispensed-medications-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/prep-dispensed-medications-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

@@ -6,7 +6,7 @@
   "title": "HIV Test Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-21T19:38:01-06:00",
+  "date": "2021-07-31T04:35:49-06:00",
   "description": "Group Valueset with codes representing possible values for the HIV Test Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -17,859 +17,859 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-07-21T19:38:01-06:00",
+    "timestamp": "2021-07-31T04:35:49-06:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-Deprecated HIV 1 Ab/HIV 2 Ab Ab [Ratio] in Serum by Immunoblot (IB)",
-      "display": "Deprecated HIV 1 Ab/HIV 2 Ab Ab [Ratio] in Serum by Immunoblot (IB)"
+      "code": "HIV Test-49965-7",
+      "display": "49965-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-Deprecated HIV 1 Ab+Ag [Presence] in Serum",
-      "display": "Deprecated HIV 1 Ab+Ag [Presence] in Serum"
+      "code": "HIV Test-51866-2",
+      "display": "51866-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 [Interpretation] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 [Interpretation] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-44607-0",
+      "display": "44607-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 [Interpretation] in Serum or Plasma by Immunoassay Narrative",
-      "display": "HIV 1 [Interpretation] in Serum or Plasma by Immunoassay Narrative"
+      "code": "HIV Test-49483-1",
+      "display": "49483-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Body fluid",
-      "display": "HIV 1 Ab [Presence] in Body fluid"
+      "code": "HIV Test-29327-4",
+      "display": "29327-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Body fluid by Immunoassay",
-      "display": "HIV 1 Ab [Presence] in Body fluid by Immunoassay"
+      "code": "HIV Test-34591-8",
+      "display": "34591-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Body fluid by Immunoblot",
-      "display": "HIV 1 Ab [Presence] in Body fluid by Immunoblot"
+      "code": "HIV Test-34592-6",
+      "display": "34592-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Capillary blood",
-      "display": "HIV 1 Ab [Presence] in Capillary blood"
+      "code": "HIV Test-41145-4",
+      "display": "41145-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Capillary blood by Immunoassay",
-      "display": "HIV 1 Ab [Presence] in Capillary blood by Immunoassay"
+      "code": "HIV Test-33866-5",
+      "display": "33866-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Cerebral spinal fluid",
-      "display": "HIV 1 Ab [Presence] in Cerebral spinal fluid"
+      "code": "HIV Test-16974-8",
+      "display": "16974-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Cerebral spinal fluid by Immunoblot",
-      "display": "HIV 1 Ab [Presence] in Cerebral spinal fluid by Immunoblot"
+      "code": "HIV Test-57974-8",
+      "display": "57974-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Cerebral spinal fluid by Immunofluorescence",
-      "display": "HIV 1 Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
+      "code": "HIV Test-42627-0",
+      "display": "42627-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Saliva (oral fluid)",
-      "display": "HIV 1 Ab [Presence] in Saliva (oral fluid)"
+      "code": "HIV Test-41144-7",
+      "display": "41144-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Saliva (oral fluid) by Immunoassay",
-      "display": "HIV 1 Ab [Presence] in Saliva (oral fluid) by Immunoassay"
+      "code": "HIV Test-35437-3",
+      "display": "35437-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35439-9",
+      "display": "35439-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum",
-      "display": "HIV 1 Ab [Presence] in Serum"
+      "code": "HIV Test-2197878",
+      "display": "2197878"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum by Immunofluorescence",
-      "display": "HIV 1 Ab [Presence] in Serum by Immunofluorescence"
+      "code": "HIV Test-14092-1",
+      "display": "14092-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum from Donor",
-      "display": "HIV 1 Ab [Presence] in Serum from Donor"
+      "code": "HIV Test-21007-0",
+      "display": "21007-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 Ab [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-29893-5",
+      "display": "29893-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum or Plasma by Immunoblot",
-      "display": "HIV 1 Ab [Presence] in Serum or Plasma by Immunoblot"
+      "code": "HIV Test-1213154",
+      "display": "1213154"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunoblot",
-      "display": "HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunoblot"
+      "code": "HIV Test-86233-4",
+      "display": "86233-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunofluorescence",
-      "display": "HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunofluorescence"
+      "code": "HIV Test-85686-4",
+      "display": "85686-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
-      "display": "HIV 1 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+      "code": "HIV Test-68961-2",
+      "display": "68961-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Unspecified specimen",
-      "display": "HIV 1 Ab [Presence] in Unspecified specimen"
+      "code": "HIV Test-53379-4",
+      "display": "53379-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Unspecified specimen by Immunoassay",
-      "display": "HIV 1 Ab [Presence] in Unspecified specimen by Immunoassay"
+      "code": "HIV Test-89374-3",
+      "display": "89374-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Unspecified specimen by Rapid immunoassay",
-      "display": "HIV 1 Ab [Presence] in Unspecified specimen by Rapid immunoassay"
+      "code": "HIV Test-49905-3",
+      "display": "49905-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Presence] in Urine by Immunoblot",
-      "display": "HIV 1 Ab [Presence] in Urine by Immunoblot"
+      "code": "HIV Test-32571-2",
+      "display": "32571-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Units/volume] in Saliva (oral fluid)",
-      "display": "HIV 1 Ab [Units/volume] in Saliva (oral fluid)"
+      "code": "HIV Test-41143-9",
+      "display": "41143-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Units/volume] in Saliva (oral fluid) by Immunoassay",
-      "display": "HIV 1 Ab [Units/volume] in Saliva (oral fluid) by Immunoassay"
+      "code": "HIV Test-35438-1",
+      "display": "35438-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Units/volume] in Serum",
-      "display": "HIV 1 Ab [Units/volume] in Serum"
+      "code": "HIV Test-22356-0",
+      "display": "22356-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Units/volume] in Serum by Immunofluorescence",
-      "display": "HIV 1 Ab [Units/volume] in Serum by Immunofluorescence"
+      "code": "HIV Test-43599-0",
+      "display": "43599-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab [Units/volume] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 Ab [Units/volume] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-1212851",
+      "display": "1212851"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ab band pattern [Interpretation] in Serum by Immunoblot",
-      "display": "HIV 1 Ab band pattern [Interpretation] in Serum by Immunoblot"
+      "code": "HIV Test-13499-9",
+      "display": "13499-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ag [Presence] in Cerebral spinal fluid",
-      "display": "HIV 1 Ag [Presence] in Cerebral spinal fluid"
+      "code": "HIV Test-16977-1",
+      "display": "16977-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ag [Presence] in Serum",
-      "display": "HIV 1 Ag [Presence] in Serum"
+      "code": "HIV Test-24012-7",
+      "display": "24012-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ag [Presence] in Serum from Donor",
-      "display": "HIV 1 Ag [Presence] in Serum from Donor"
+      "code": "HIV Test-44531-2",
+      "display": "44531-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ag [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 Ag [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-1213458",
+      "display": "1213458"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 Ag [Units/volume] in Serum",
-      "display": "HIV 1 Ag [Units/volume] in Serum"
+      "code": "HIV Test-16976-3",
+      "display": "16976-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 Ab [Identifier] in Serum or Plasma by Rapid immunoassay",
-      "display": "HIV 1 and 2 Ab [Identifier] in Serum or Plasma by Rapid immunoassay"
+      "code": "HIV Test-69668-2",
+      "display": "69668-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 Ab [Identifier] in Serum, Plasma or Blood by Rapid immunoassay",
-      "display": "HIV 1 and 2 Ab [Identifier] in Serum, Plasma or Blood by Rapid immunoassay"
+      "code": "HIV Test-80203-3",
+      "display": "80203-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 Ab [Interpretation] in Serum Narrative",
-      "display": "HIV 1 and 2 Ab [Interpretation] in Serum Narrative"
+      "code": "HIV Test-42768-2",
+      "display": "42768-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 Ab and HIV 1 p24 Ag panel - Serum or Plasma by Immunoassay",
-      "display": "HIV 1 and 2 Ab and HIV 1 p24 Ag panel - Serum or Plasma by Immunoassay"
+      "code": "HIV Test-85037-0",
+      "display": "85037-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 Ab band pattern [Interpretation] in Serum by Immunoblot",
-      "display": "HIV 1 and 2 Ab band pattern [Interpretation] in Serum by Immunoblot"
+      "code": "HIV Test-43185-8",
+      "display": "43185-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 Ab panel - Serum, Plasma or Blood by Rapid immunoassay",
-      "display": "HIV 1 and 2 Ab panel - Serum, Plasma or Blood by Rapid immunoassay"
+      "code": "HIV Test-89365-1",
+      "display": "89365-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 IgG Ab [Identifier] in Serum or Plasma by Immunoblot",
-      "display": "HIV 1 and 2 IgG Ab [Identifier] in Serum or Plasma by Immunoblot"
+      "code": "HIV Test-77685-6",
+      "display": "77685-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 tests - FPAR 2.0 set",
-      "display": "HIV 1 and 2 tests - FPAR 2.0 set"
+      "code": "HIV Test-86657-4",
+      "display": "86657-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 and 2 tests - Meaningful Use set",
-      "display": "HIV 1 and 2 tests - Meaningful Use set"
+      "code": "HIV Test-75622-1",
+      "display": "75622-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp105 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp105 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12893-4",
+      "display": "12893-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp120 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 gp120 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35441-5",
+      "display": "35441-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp120 Ab [Presence] in Serum",
-      "display": "HIV 1 gp120 Ab [Presence] in Serum"
+      "code": "HIV Test-44532-0",
+      "display": "44532-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp120 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp120 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-9661-0",
+      "display": "9661-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp120+gp160 Ab [Presence] in Serum",
-      "display": "HIV 1 gp120+gp160 Ab [Presence] in Serum"
+      "code": "HIV Test-43013-2",
+      "display": "43013-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp120+gp160 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp120+gp160 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-14126-7",
+      "display": "14126-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp120+gp160 Ab [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 gp120+gp160 Ab [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-40439-2",
+      "display": "40439-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp160 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 gp160 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35440-7",
+      "display": "35440-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp160 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp160 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2834315",
+      "display": "2834315"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp34 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp34 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12870-2",
+      "display": "12870-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp40 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp40 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-35452-2",
+      "display": "35452-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp41 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 gp41 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35446-4",
+      "display": "35446-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp41 Ab [Presence] in Serum",
-      "display": "HIV 1 gp41 Ab [Presence] in Serum"
+      "code": "HIV Test-43012-4",
+      "display": "43012-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp41 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp41 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2835227",
+      "display": "2835227"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp41 Ab [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 gp41 Ab [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-40438-4",
+      "display": "40438-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 gp41+gp43 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 gp41+gp43 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-19110-6",
+      "display": "19110-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 IgG Ab [Presence] in Cerebral spinal fluid",
-      "display": "HIV 1 IgG Ab [Presence] in Cerebral spinal fluid"
+      "code": "HIV Test-31430-2",
+      "display": "31430-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 IgG Ab [Presence] in Cerebral spinal fluid by Immunoblot",
-      "display": "HIV 1 IgG Ab [Presence] in Cerebral spinal fluid by Immunoblot"
+      "code": "HIV Test-28004-0",
+      "display": "28004-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 IgG Ab [Presence] in Serum",
-      "display": "HIV 1 IgG Ab [Presence] in Serum"
+      "code": "HIV Test-16975-5",
+      "display": "16975-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 IgG Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 IgG Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-40732-0",
+      "display": "40732-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 IgG band pattern [Interpretation] in Cerebral spinal fluid by Immunoblot",
-      "display": "HIV 1 IgG band pattern [Interpretation] in Cerebral spinal fluid by Immunoblot"
+      "code": "HIV Test-28052-9",
+      "display": "28052-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p15 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p15 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12872-8",
+      "display": "12872-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p15+p18 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p15+p18 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-16132-3",
+      "display": "16132-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p17 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p17 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35449-8",
+      "display": "35449-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p17 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p17 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2835531",
+      "display": "2835531"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p17+p18 Ab [Presence] in Serum",
-      "display": "HIV 1 p17+p18 Ab [Presence] in Serum"
+      "code": "HIV Test-32842-7",
+      "display": "32842-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p17+p18 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p17+p18 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-32827-8",
+      "display": "32827-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p18 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p18 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35450-6",
+      "display": "35450-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p18 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p18 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12859-5",
+      "display": "12859-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p23 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p23 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12855-3",
+      "display": "12855-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p24 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35448-0",
+      "display": "35448-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ab [Presence] in Serum",
-      "display": "HIV 1 p24 Ab [Presence] in Serum"
+      "code": "HIV Test-43011-6",
+      "display": "43011-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p24 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2835836",
+      "display": "2835836"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ab [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 p24 Ab [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-40437-6",
+      "display": "40437-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ab [Titer] in Serum by Immunoblot",
-      "display": "HIV 1 p24 Ab [Titer] in Serum by Immunoblot"
+      "code": "HIV Test-21331-4",
+      "display": "21331-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ab [Units/volume] in Serum",
-      "display": "HIV 1 p24 Ab [Units/volume] in Serum"
+      "code": "HIV Test-16978-9",
+      "display": "16978-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Mass/volume] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 p24 Ag [Mass/volume] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-42339-2",
+      "display": "42339-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Presence] in Cerebral spinal fluid",
-      "display": "HIV 1 p24 Ag [Presence] in Cerebral spinal fluid"
+      "code": "HIV Test-49718-0",
+      "display": "49718-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Presence] in Serum",
-      "display": "HIV 1 p24 Ag [Presence] in Serum"
+      "code": "HIV Test-9821-0",
+      "display": "9821-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-18396-2",
+      "display": "18396-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Presence] in Serum or Plasma by Neutralization test",
-      "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma by Neutralization test"
+      "code": "HIV Test-33660-2",
+      "display": "33660-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Presence] in Serum or Plasma from Donor by Immunoassay",
-      "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma from Donor by Immunoassay"
+      "code": "HIV Test-44872-0",
+      "display": "44872-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Units/volume] in Cerebral spinal fluid",
-      "display": "HIV 1 p24 Ag [Units/volume] in Cerebral spinal fluid"
+      "code": "HIV Test-16979-7",
+      "display": "16979-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Units/volume] in Serum",
-      "display": "HIV 1 p24 Ag [Units/volume] in Serum"
+      "code": "HIV Test-2836111",
+      "display": "2836111"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-53601-1",
+      "display": "53601-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p26 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p26 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12871-0",
+      "display": "12871-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p28 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p28 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12857-9",
+      "display": "12857-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p31 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p31 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35447-2",
+      "display": "35447-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p31 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p31 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2836719",
+      "display": "2836719"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p31+p32 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p31+p32 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-35564-4",
+      "display": "35564-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p32 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p32 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12858-7",
+      "display": "12858-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p40 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p40 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-35565-1",
+      "display": "35565-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p41 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p41 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-31072-2",
+      "display": "31072-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p41 Ab [Titer] in Serum by Immunoblot",
-      "display": "HIV 1 p41 Ab [Titer] in Serum by Immunoblot"
+      "code": "HIV Test-21332-2",
+      "display": "21332-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p51 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p51 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35445-6",
+      "display": "35445-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p51 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p51 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2837022",
+      "display": "2837022"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p53 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p53 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12876-9",
+      "display": "12876-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p55 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p55 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35444-9",
+      "display": "35444-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p55 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p55 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2837327",
+      "display": "2837327"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p58 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p58 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12895-9",
+      "display": "12895-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p64 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p64 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12875-1",
+      "display": "12875-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p65 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p65 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35443-1",
+      "display": "35443-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p65 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p65 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12856-1",
+      "display": "12856-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p65+p66 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p65+p66 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-33508-3",
+      "display": "33508-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p66 Ab [Presence] in Saliva (oral fluid) by Immunoblot",
-      "display": "HIV 1 p66 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
+      "code": "HIV Test-35442-3",
+      "display": "35442-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p66 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p66 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-2837631",
+      "display": "2837631"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 p68 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1 p68 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-12894-2",
+      "display": "12894-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Cerebral spinal fluid",
-      "display": "HIV 1+2 Ab [Presence] in Cerebral spinal fluid"
+      "code": "HIV Test-32602-5",
+      "display": "32602-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Serum",
-      "display": "HIV 1+2 Ab [Presence] in Serum"
+      "code": "HIV Test-2198182",
+      "display": "2198182"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 1+2 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-44873-8",
+      "display": "44873-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Serum from Donor",
-      "display": "HIV 1+2 Ab [Presence] in Serum from Donor"
+      "code": "HIV Test-44533-8",
+      "display": "44533-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-31201-7",
+      "display": "31201-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
-      "display": "HIV 1+2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+      "code": "HIV Test-80387-4",
+      "display": "80387-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Unspecified specimen",
-      "display": "HIV 1+2 Ab [Presence] in Unspecified specimen"
+      "code": "HIV Test-43010-8",
+      "display": "43010-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Unspecified specimen by Immunoassay",
-      "display": "HIV 1+2 Ab [Presence] in Unspecified specimen by Immunoassay"
+      "code": "HIV Test-42600-7",
+      "display": "42600-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Presence] in Unspecified specimen by Rapid immunoassay",
-      "display": "HIV 1+2 Ab [Presence] in Unspecified specimen by Rapid immunoassay"
+      "code": "HIV Test-49580-4",
+      "display": "49580-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Units/volume] in Serum",
-      "display": "HIV 1+2 Ab [Units/volume] in Serum"
+      "code": "HIV Test-22357-8",
+      "display": "22357-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab [Units/volume] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1+2 Ab [Units/volume] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-1213762",
+      "display": "1213762"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab and HIV1 p24 Ag [Identifier] in Serum, Plasma or Blood by Rapid immunoassay",
-      "display": "HIV 1+2 Ab and HIV1 p24 Ag [Identifier] in Serum, Plasma or Blood by Rapid immunoassay"
+      "code": "HIV Test-75666-8",
+      "display": "75666-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab and HIV1 p24 Ag panel - Serum or Plasma by Immunoassay",
-      "display": "HIV 1+2 Ab and HIV1 p24 Ag panel - Serum or Plasma by Immunoassay"
+      "code": "HIV Test-83101-6",
+      "display": "83101-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-56888-1",
+      "display": "56888-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 Ab+HIV1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1+2 Ab+HIV1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-58900-2",
+      "display": "58900-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 IgG Ab [Presence] in Blood by Rapid immunoassay",
-      "display": "HIV 1+2 IgG Ab [Presence] in Blood by Rapid immunoassay"
+      "code": "HIV Test-73906-0",
+      "display": "73906-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 IgG Ab [Presence] in DBS",
-      "display": "HIV 1+2 IgG Ab [Presence] in DBS"
+      "code": "HIV Test-54086-4",
+      "display": "54086-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 IgG Ab [Presence] in Serum",
-      "display": "HIV 1+2 IgG Ab [Presence] in Serum"
+      "code": "HIV Test-43009-0",
+      "display": "43009-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 IgG Ab [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1+2 IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-40733-8",
+      "display": "40733-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 IgG Ab [Presence] in Serum or Plasma by Rapid immunoassay",
-      "display": "HIV 1+2 IgG Ab [Presence] in Serum or Plasma by Rapid immunoassay"
+      "code": "HIV Test-73905-2",
+      "display": "73905-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 IgM Ab [Units/volume] in Serum",
-      "display": "HIV 1+2 IgM Ab [Units/volume] in Serum"
+      "code": "HIV Test-43008-2",
+      "display": "43008-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay",
-      "display": "HIV 1+2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-41290-8",
+      "display": "41290-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+O+2 Ab [Presence] in Body fluid",
-      "display": "HIV 1+O+2 Ab [Presence] in Body fluid"
+      "code": "HIV Test-57975-5",
+      "display": "57975-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+O+2 Ab [Presence] in Serum or Plasma",
-      "display": "HIV 1+O+2 Ab [Presence] in Serum or Plasma"
+      "code": "HIV Test-48345-3",
+      "display": "48345-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+O+2 Ab [Units/volume] in Serum or Plasma",
-      "display": "HIV 1+O+2 Ab [Units/volume] in Serum or Plasma"
+      "code": "HIV Test-48346-1",
+      "display": "48346-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab [Presence] in Cerebral spinal fluid by Immunoblot",
-      "display": "HIV 2 Ab [Presence] in Cerebral spinal fluid by Immunoblot"
+      "code": "HIV Test-47029-4",
+      "display": "47029-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab [Presence] in Serum",
-      "display": "HIV 2 Ab [Presence] in Serum"
+      "code": "HIV Test-2198486",
+      "display": "2198486"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-1214646",
+      "display": "1214646"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab [Presence] in Serum or Plasma by Immunoassay",
-      "display": "HIV 2 Ab [Presence] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-30361-0",
+      "display": "30361-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
-      "display": "HIV 2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+      "code": "HIV Test-81641-3",
+      "display": "81641-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab [Units/volume] in Serum",
-      "display": "HIV 2 Ab [Units/volume] in Serum"
+      "code": "HIV Test-22358-6",
+      "display": "22358-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab [Units/volume] in Serum or Plasma by Immunoassay",
-      "display": "HIV 2 Ab [Units/volume] in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-1214068",
+      "display": "1214068"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab band pattern [Interpretation] in Serum by Immunoblot",
-      "display": "HIV 2 Ab band pattern [Interpretation] in Serum by Immunoblot"
+      "code": "HIV Test-31073-0",
+      "display": "31073-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 Ab Signal/Cutoff in Serum or Plasma by Immunoassay",
-      "display": "HIV 2 Ab Signal/Cutoff in Serum or Plasma by Immunoassay"
+      "code": "HIV Test-51786-2",
+      "display": "51786-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp105 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp105 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-21334-8",
+      "display": "21334-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp120 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp120 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-21335-5",
+      "display": "21335-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp125 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp125 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-10901-7",
+      "display": "10901-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp140 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp140 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-57976-3",
+      "display": "57976-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp15 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp15 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-21336-3",
+      "display": "21336-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp34 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp34 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-21337-1",
+      "display": "21337-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp36 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp36 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-10902-5",
+      "display": "10902-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 gp80 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 gp80 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-11078-3",
+      "display": "11078-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 IgG Ab [Presence] in Serum",
-      "display": "HIV 2 IgG Ab [Presence] in Serum"
+      "code": "HIV Test-33807-9",
+      "display": "33807-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 IgG Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 IgG Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-33806-1",
+      "display": "33806-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p15 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p15 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-62456-9",
+      "display": "62456-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p16 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p16 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-57977-1",
+      "display": "57977-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p26 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p26 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-11079-1",
+      "display": "11079-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p31 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p31 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-21338-9",
+      "display": "21338-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p31+p34 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p31+p34 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-45212-8",
+      "display": "45212-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p34 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p34 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-57978-9",
+      "display": "57978-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p41 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p41 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-13920-4",
+      "display": "13920-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p53 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p53 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-11080-9",
+      "display": "11080-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p55 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p55 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-21339-7",
+      "display": "21339-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p56 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p56 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-11081-7",
+      "display": "11081-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p58 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p58 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-21340-5",
+      "display": "21340-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 p68 Ab [Presence] in Serum by Immunoblot",
-      "display": "HIV 2 p68 Ab [Presence] in Serum by Immunoblot"
+      "code": "HIV Test-11082-5",
+      "display": "11082-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-Deprecated HIV 1 DNA [Presence] in Serum or Plasma by Probe and target amplification method",
-      "display": "Deprecated HIV 1 DNA [Presence] in Serum or Plasma by Probe and target amplification method"
+      "code": "HIV Test-30245-5",
+      "display": "30245-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 proviral DNA [Presence] in Blood by NAA with probe detection",
-      "display": "HIV 1 proviral DNA [Presence] in Blood by NAA with probe detection"
+      "code": "HIV Test-44871-2",
+      "display": "44871-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 proviral DNA [Presence] in Blood by Probe with amplification",
-      "display": "HIV 1 proviral DNA [Presence] in Blood by Probe with amplification"
+      "code": "HIV Test-2899083",
+      "display": "2899083"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 1 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-48023-6",
+      "display": "48023-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+      "code": "HIV Test-41498-7",
+      "display": "41498-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL"
+      "code": "HIV Test-70241-5",
+      "display": "70241-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification"
+      "code": "HIV Test-59419-2",
+      "display": "59419-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-20447-9",
+      "display": "20447-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe"
+      "code": "HIV Test-21008-8",
+      "display": "21008-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 400 copies/mL",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 400 copies/mL"
+      "code": "HIV Test-48551-6",
+      "display": "48551-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL"
+      "code": "HIV Test-48511-0",
+      "display": "48511-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 400 copies/mL",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 400 copies/mL"
+      "code": "HIV Test-41513-3",
+      "display": "41513-3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL"
+      "code": "HIV Test-41515-8",
+      "display": "41515-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection",
-      "display": "HIV 1 RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
+      "code": "HIV Test-25836-8",
+      "display": "25836-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [#/volume] in Serum",
-      "display": "HIV 1 RNA [#/volume] in Serum"
+      "code": "HIV Test-21333-0",
+      "display": "21333-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Interpretation] in Serum",
-      "display": "HIV 1 RNA [Interpretation] in Serum"
+      "code": "HIV Test-24013-5",
+      "display": "24013-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+      "code": "HIV Test-41497-9",
+      "display": "41497-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification"
+      "code": "HIV Test-29539-4",
+      "display": "29539-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-29541-0",
+      "display": "29541-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL"
+      "code": "HIV Test-51780-5",
+      "display": "51780-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL"
+      "code": "HIV Test-48510-2",
+      "display": "48510-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL"
+      "code": "HIV Test-48552-4",
+      "display": "48552-4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL"
+      "code": "HIV Test-41516-6",
+      "display": "41516-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL"
+      "code": "HIV Test-41514-1",
+      "display": "41514-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection",
-      "display": "HIV 1 RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection"
+      "code": "HIV Test-49890-7",
+      "display": "49890-7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Presence] in Blood by NAA with probe detection",
-      "display": "HIV 1 RNA [Presence] in Blood by NAA with probe detection"
+      "code": "HIV Test-1138706",
+      "display": "1138706"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Presence] in Cerebral spinal fluid by NAA with probe detection",
-      "display": "HIV 1 RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+      "code": "HIV Test-42917-5",
+      "display": "42917-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-25835-0",
+      "display": "25835-0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Presence] in Serum or Plasma from Donor by Probe with amplification",
-      "display": "HIV 1 RNA [Presence] in Serum or Plasma from Donor by Probe with amplification"
+      "code": "HIV Test-47359-5",
+      "display": "47359-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Presence] in Unspecified specimen by NAA with probe detection",
-      "display": "HIV 1 RNA [Presence] in Unspecified specimen by NAA with probe detection"
+      "code": "HIV Test-1139009",
+      "display": "1139009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification",
-      "display": "HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification"
+      "code": "HIV Test-23876-6",
+      "display": "23876-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-62469-2",
+      "display": "62469-2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification",
-      "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification"
+      "code": "HIV Test-10351-5",
+      "display": "10351-5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1 RNA panel (viral load) in Cerebral spinal fluid by NAA with probe detection",
-      "display": "HIV 1 RNA panel (viral load) in Cerebral spinal fluid by NAA with probe detection"
+      "code": "HIV Test-50624-6",
+      "display": "50624-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-53825-6",
+      "display": "53825-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection",
-      "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection"
+      "code": "HIV Test-38998-1",
+      "display": "38998-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-59052-1",
+      "display": "59052-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 proviral DNA [Presence] in Blood by NAA with probe detection",
-      "display": "HIV 2 proviral DNA [Presence] in Blood by NAA with probe detection"
+      "code": "HIV Test-25841-8",
+      "display": "25841-8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 2 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-34699-9",
+      "display": "34699-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 proviral DNA [Presence] in Unspecified specimen by NAA with probe detection",
-      "display": "HIV 2 proviral DNA [Presence] in Unspecified specimen by NAA with probe detection"
+      "code": "HIV Test-25842-6",
+      "display": "25842-6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 RNA [Presence] in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 2 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-69353-1",
+      "display": "69353-1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
-      "display": "HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      "code": "HIV Test-69354-9",
+      "display": "69354-9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test-HIV proviral DNA [Presence] in Blood by Probe with amplification",
-      "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+      "code": "HIV Test-2898779",
+      "display": "2898779"
     } ]
   }
 }

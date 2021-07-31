@@ -39,12 +39,12 @@
                   <td><a href="Bundle-HelloHIVWorld-bundle.json">Test Bundle</a></td>
                   <td>
                     <div style="overflow-x: auto; overflow-y: auto; height: 70vh;">
-                      {% highlight json %}{% include assets/files/request-HIVPatient.json %}{% endhighlight %}
+                      {% highlight json %}{% include assets/files/HelloHIVWorld/request-HIVPatient.json %}{% endhighlight %}
                     </div>
                   </td>
                   <td>
                     <div style="overflow-x: auto; overflow-y: auto; height: 70vh;">
-                      {% highlight json %}{% include assets/files/response-HIVPatient.json %}{% endhighlight %}
+                      {% highlight json %}{% include assets/files/HelloHIVWorld/response-HIVPatient.json %}{% endhighlight %}
                     </div>
                   </td>
               </tr>

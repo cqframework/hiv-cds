@@ -12,89 +12,89 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay",
-        "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay"
+        "code": "Chlamydia Test-14468-3",
+        "display": "14468-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay",
-        "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay"
+        "code": "Chlamydia Test-14469-1",
+        "display": "14469-1"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay",
-        "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay"
+        "code": "Chlamydia Test-14470-9",
+        "display": "14470-9"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay",
-        "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay"
+        "code": "Chlamydia Test-14471-7",
+        "display": "14471-7"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay",
-        "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay"
+        "code": "Chlamydia Test-14472-5",
+        "display": "14472-5"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence"
+        "code": "Chlamydia Test-14507-8",
+        "display": "14507-8"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+        "code": "Chlamydia Test-14508-6",
+        "display": "14508-6"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence"
+        "code": "Chlamydia Test-14509-4",
+        "display": "14509-4"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence"
+        "code": "Chlamydia Test-14510-2",
+        "display": "14510-2"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence"
+        "code": "Chlamydia Test-14511-0",
+        "display": "14511-0"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Blood",
-        "display": "Chlamydia trachomatis Ag [Presence] in Blood"
+        "code": "Chlamydia Test-31768-5",
+        "display": "31768-5"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen",
-        "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen"
+        "code": "Chlamydia Test-31769-3",
+        "display": "31769-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid",
-        "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid"
+        "code": "Chlamydia Test-31770-1",
+        "display": "31770-1"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Cervix",
-        "display": "Chlamydia trachomatis Ag [Presence] in Cervix"
+        "code": "Chlamydia Test-31771-9",
+        "display": "31771-9"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Vaginal fluid",
-        "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid"
+        "code": "Chlamydia Test-31772-7",
+        "display": "31772-7"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Stool",
-        "display": "Chlamydia trachomatis Ag [Presence] in Stool"
+        "code": "Chlamydia Test-31774-3",
+        "display": "31774-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Urethra",
-        "display": "Chlamydia trachomatis Ag [Presence] in Urethra"
+        "code": "Chlamydia Test-31776-8",
+        "display": "31776-8"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Nasopharynx",
-        "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx"
+        "code": "Chlamydia Test-34709-6",
+        "display": "34709-6"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Anal",
-        "display": "Chlamydia trachomatis Ag [Presence] in Anal"
+        "code": "Chlamydia Test-34710-4",
+        "display": "34710-4"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay",
-        "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay"
+        "code": "Chlamydia Test-45092-4",
+        "display": "45092-4"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Body fluid",
-        "display": "Chlamydia trachomatis Ag [Presence] in Body fluid"
+        "code": "Chlamydia Test-47234-0",
+        "display": "47234-0"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay",
-        "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay"
+        "code": "Chlamydia Test-1625390",
+        "display": "1625390"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence"
+        "code": "Chlamydia Test-1625696",
+        "display": "1625696"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence"
+        "code": "Chlamydia Test-1626305",
+        "display": "1626305"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence"
+        "code": "Chlamydia Test-1626608",
+        "display": "1626608"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence"
+        "code": "Chlamydia Test-91860-7",
+        "display": "91860-7"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence"
+        "code": "Chlamydia Test-91861-5",
+        "display": "91861-5"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence",
-        "display": "Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence"
+        "code": "Chlamydia Test-91873-0",
+        "display": "91873-0"
       } ]
     } ]
   }

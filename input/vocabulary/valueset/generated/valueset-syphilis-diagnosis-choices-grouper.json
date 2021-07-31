@@ -6,7 +6,7 @@
   "title": "Syphilis Diagnosis Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-21T19:38:01-06:00",
+  "date": "2021-07-31T04:35:49-06:00",
   "description": "Group Valueset with codes representing possible values for the Syphilis Diagnosis Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -19,1263 +19,1271 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-07-21T19:38:01-06:00",
+    "timestamp": "2021-07-31T04:35:49-06:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Acquired syphilis - early latent (disorder)",
-      "display": "Acquired syphilis - early latent (disorder)"
+      "code": "Syphilis Diagnosis-266130009",
+      "display": "266130009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Acquired syphilis - late latent (disorder)",
-      "display": "Acquired syphilis - late latent (disorder)"
+      "code": "Syphilis Diagnosis-266136003",
+      "display": "266136003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Acquired syphilis (disorder)",
-      "display": "Acquired syphilis (disorder)"
+      "code": "Syphilis Diagnosis-240555007",
+      "display": "240555007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Acute myocarditis - syphilitic (disorder)",
-      "display": "Acute myocarditis - syphilitic (disorder)"
+      "code": "Syphilis Diagnosis-194947001",
+      "display": "194947001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Acute secondary syphilitic meningitis (disorder)",
-      "display": "Acute secondary syphilitic meningitis (disorder)"
+      "code": "Syphilis Diagnosis-186863009",
+      "display": "186863009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Acute syphilitic pericarditis (disorder)",
-      "display": "Acute syphilitic pericarditis (disorder)"
+      "code": "Syphilis Diagnosis-194907008",
+      "display": "194907008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Asymptomatic neurosyphilis (disorder)",
-      "display": "Asymptomatic neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-37754005",
+      "display": "37754005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Asymptomatic secondary neurosyphilis (disorder)",
-      "display": "Asymptomatic secondary neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-240565001",
+      "display": "240565001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Bursitis caused by Treponema pallidum (disorder)",
-      "display": "Bursitis caused by Treponema pallidum (disorder)"
+      "code": "Syphilis Diagnosis-202933002",
+      "display": "202933002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Cardiovascular syphilis (disorder)",
-      "display": "Cardiovascular syphilis (disorder)"
+      "code": "Syphilis Diagnosis-83883001",
+      "display": "83883001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Chancre caused by Treponema pallidum (disorder)",
-      "display": "Chancre caused by Treponema pallidum (disorder)"
+      "code": "Syphilis Diagnosis-736686006",
+      "display": "736686006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Clutton's joints (disorder)",
-      "display": "Clutton's joints (disorder)"
+      "code": "Syphilis Diagnosis-19290004",
+      "display": "19290004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Condyloma latum (disorder)",
-      "display": "Condyloma latum (disorder)"
+      "code": "Syphilis Diagnosis-91554004",
+      "display": "91554004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Condylomata lata of penis (disorder)",
-      "display": "Condylomata lata of penis (disorder)"
+      "code": "Syphilis Diagnosis-402945009",
+      "display": "402945009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Condylomata lata of perianal skin (disorder)",
-      "display": "Condylomata lata of perianal skin (disorder)"
+      "code": "Syphilis Diagnosis-402944008",
+      "display": "402944008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Condylomata lata of vulva (disorder)",
-      "display": "Condylomata lata of vulva (disorder)"
+      "code": "Syphilis Diagnosis-402946005",
+      "display": "402946005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilis (disorder)",
-      "display": "Congenital syphilis (disorder)"
+      "code": "Syphilis Diagnosis-35742006",
+      "display": "35742006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilis with gumma (disorder)",
-      "display": "Congenital syphilis with gumma (disorder)"
+      "code": "Syphilis Diagnosis-87318008",
+      "display": "87318008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic choroiditis (disorder)",
-      "display": "Congenital syphilitic choroiditis (disorder)"
+      "code": "Syphilis Diagnosis-9941009",
+      "display": "9941009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic chronic coryza (disorder)",
-      "display": "Congenital syphilitic chronic coryza (disorder)"
+      "code": "Syphilis Diagnosis-275376007",
+      "display": "275376007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic encephalitis (disorder)",
-      "display": "Congenital syphilitic encephalitis (disorder)"
+      "code": "Syphilis Diagnosis-32735002",
+      "display": "32735002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic hepatomegaly (disorder)",
-      "display": "Congenital syphilitic hepatomegaly (disorder)"
+      "code": "Syphilis Diagnosis-192008",
+      "display": "192008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic meningitis (disorder)",
-      "display": "Congenital syphilitic meningitis (disorder)"
+      "code": "Syphilis Diagnosis-6267005",
+      "display": "6267005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic mucous patches (disorder)",
-      "display": "Congenital syphilitic mucous patches (disorder)"
+      "code": "Syphilis Diagnosis-54069001",
+      "display": "54069001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic osteochondritis (disorder)",
-      "display": "Congenital syphilitic osteochondritis (disorder)"
+      "code": "Syphilis Diagnosis-58392004",
+      "display": "58392004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic pemphigus (disorder)",
-      "display": "Congenital syphilitic pemphigus (disorder)"
+      "code": "Syphilis Diagnosis-59721007",
+      "display": "59721007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic periostitis (disorder)",
-      "display": "Congenital syphilitic periostitis (disorder)"
+      "code": "Syphilis Diagnosis-27648007",
+      "display": "27648007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic rhinitis (disorder)",
-      "display": "Congenital syphilitic rhinitis (disorder)"
+      "code": "Syphilis Diagnosis-276700005",
+      "display": "276700005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilitic splenomegaly (disorder)",
-      "display": "Congenital syphilitic splenomegaly (disorder)"
+      "code": "Syphilis Diagnosis-56118002",
+      "display": "56118002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Dementia paralytica juvenilis (disorder)",
-      "display": "Dementia paralytica juvenilis (disorder)"
+      "code": "Syphilis Diagnosis-82959004",
+      "display": "82959004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilis - latent (disorder)",
-      "display": "Early congenital syphilis - latent (disorder)"
+      "code": "Syphilis Diagnosis-186833000",
+      "display": "186833000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilis (less than 2 years) (disorder)",
-      "display": "Early congenital syphilis (less than 2 years) (disorder)"
+      "code": "Syphilis Diagnosis-4359001",
+      "display": "4359001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilis with symptoms (disorder)",
-      "display": "Early congenital syphilis with symptoms (disorder)"
+      "code": "Syphilis Diagnosis-266125005",
+      "display": "266125005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early latent congenital syphilis, positive serology, negative spinal fluid (disorder)",
-      "display": "Early latent congenital syphilis, positive serology, negative spinal fluid (disorder)"
+      "code": "Syphilis Diagnosis-46235002",
+      "display": "46235002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early latent syphilis, positive serology, negative cerebrospinal fluid, less than 2 years after infection (disorder)",
-      "display": "Early latent syphilis, positive serology, negative cerebrospinal fluid, less than 2 years after infection (disorder)"
+      "code": "Syphilis Diagnosis-31137003",
+      "display": "31137003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)",
-      "display": "Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)"
+      "code": "Syphilis Diagnosis-1107004",
+      "display": "1107004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early symptomatic syphilis (disorder)",
-      "display": "Early symptomatic syphilis (disorder)"
+      "code": "Syphilis Diagnosis-186846005",
+      "display": "186846005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Endocochlear syphilis (disorder)",
-      "display": "Endocochlear syphilis (disorder)"
+      "code": "Syphilis Diagnosis-232313005",
+      "display": "232313005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Female syphilitic pelvic inflammatory disease (disorder)",
-      "display": "Female syphilitic pelvic inflammatory disease (disorder)"
+      "code": "Syphilis Diagnosis-198175009",
+      "display": "198175009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-General paresis - neurosyphilis (disorder)",
-      "display": "General paresis - neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-51928006",
+      "display": "51928006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Gingival disease caused by Treponema pallidum (disorder)",
-      "display": "Gingival disease caused by Treponema pallidum (disorder)"
+      "code": "Syphilis Diagnosis-713251003",
+      "display": "713251003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Gummatous neurosyphilis (disorder)",
-      "display": "Gummatous neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-240566000",
+      "display": "240566000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Hepatitis in late syphilis (disorder)",
-      "display": "Hepatitis in late syphilis (disorder)"
+      "code": "Syphilis Diagnosis-197347003",
+      "display": "197347003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Hepatitis in secondary syphilis (disorder)",
-      "display": "Hepatitis in secondary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-197348008",
+      "display": "197348008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Hutchinson's teeth (disorder)",
-      "display": "Hutchinson's teeth (disorder)"
+      "code": "Syphilis Diagnosis-86443005",
+      "display": "86443005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Hutchinson's triad (disorder)",
-      "display": "Hutchinson's triad (disorder)"
+      "code": "Syphilis Diagnosis-240554006",
+      "display": "240554006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Juvenile tabes dorsalis (disorder)",
-      "display": "Juvenile tabes dorsalis (disorder)"
+      "code": "Syphilis Diagnosis-240552005",
+      "display": "240552005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Juvenile taboparesis (disorder)",
-      "display": "Juvenile taboparesis (disorder)"
+      "code": "Syphilis Diagnosis-68764005",
+      "display": "68764005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Keratitis caused by syphilis (disorder)",
-      "display": "Keratitis caused by syphilis (disorder)"
+      "code": "Syphilis Diagnosis-193786000",
+      "display": "193786000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital neurosyphilis (disorder)",
-      "display": "Late congenital neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-266126006",
+      "display": "266126006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilis (2 years OR more) (disorder)",
-      "display": "Late congenital syphilis (2 years OR more) (disorder)"
+      "code": "Syphilis Diagnosis-82323002",
+      "display": "82323002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilis, latent (positive serology - cerebrospinal fluid, 2 years OR more) (disorder)",
-      "display": "Late congenital syphilis, latent (positive serology - cerebrospinal fluid, 2 years OR more) (disorder)"
+      "code": "Syphilis Diagnosis-827006",
+      "display": "827006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic meningitis (disorder)",
-      "display": "Late congenital syphilitic meningitis (disorder)"
+      "code": "Syphilis Diagnosis-230152000",
+      "display": "230152000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy (disorder)",
-      "display": "Late congenital syphilitic oculopathy (disorder)"
+      "code": "Syphilis Diagnosis-186842007",
+      "display": "186842007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic polyneuropathy (disorder)",
-      "display": "Late congenital syphilitic polyneuropathy (disorder)"
+      "code": "Syphilis Diagnosis-230563005",
+      "display": "230563005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late latent syphilis (disorder)",
-      "display": "Late latent syphilis (disorder)"
+      "code": "Syphilis Diagnosis-186903006",
+      "display": "186903006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late quaternary neurosyphilis (disorder)",
-      "display": "Late quaternary neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-266133006",
+      "display": "266133006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late secondary syphilis (disorder)",
-      "display": "Late secondary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-402947001",
+      "display": "402947001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilis (disorder)",
-      "display": "Late syphilis (disorder)"
+      "code": "Syphilis Diagnosis-72083004",
+      "display": "72083004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilis of kidney (disorder)",
-      "display": "Late syphilis of kidney (disorder)"
+      "code": "Syphilis Diagnosis-197757004",
+      "display": "197757004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilis with clinical manifestations other than neurosyphilis (disorder)",
-      "display": "Late syphilis with clinical manifestations other than neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-405635002",
+      "display": "405635002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilis, latent (positive serology, negative cephalospinal fluid 2 years after) (disorder)",
-      "display": "Late syphilis, latent (positive serology, negative cephalospinal fluid 2 years after) (disorder)"
+      "code": "Syphilis Diagnosis-66887000",
+      "display": "66887000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilitic encephalitis (disorder)",
-      "display": "Late syphilitic encephalitis (disorder)"
+      "code": "Syphilis Diagnosis-230182006",
+      "display": "230182006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Latent early syphilis (disorder)",
-      "display": "Latent early syphilis (disorder)"
+      "code": "Syphilis Diagnosis-186867005",
+      "display": "186867005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Latent syphilis (disorder)",
-      "display": "Latent syphilis (disorder)"
+      "code": "Syphilis Diagnosis-444150000",
+      "display": "444150000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Latent syphilis with positive serology (disorder)",
-      "display": "Latent syphilis with positive serology (disorder)"
+      "code": "Syphilis Diagnosis-67125004",
+      "display": "67125004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Macular syphilide (disorder)",
-      "display": "Macular syphilide (disorder)"
+      "code": "Syphilis Diagnosis-240558009",
+      "display": "240558009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Maternal syphilis during pregnancy - baby delivered (disorder)",
-      "display": "Maternal syphilis during pregnancy - baby delivered (disorder)"
+      "code": "Syphilis Diagnosis-199156006",
+      "display": "199156006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Maternal syphilis during pregnancy - baby not yet delivered (disorder)",
-      "display": "Maternal syphilis during pregnancy - baby not yet delivered (disorder)"
+      "code": "Syphilis Diagnosis-199158007",
+      "display": "199158007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Maternal syphilis during pregnancy, childbirth and the puerperium (disorder)",
-      "display": "Maternal syphilis during pregnancy, childbirth and the puerperium (disorder)"
+      "code": "Syphilis Diagnosis-199154009",
+      "display": "199154009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Maternal syphilis in the puerperium - baby delivered during current episode of care (disorder)",
-      "display": "Maternal syphilis in the puerperium - baby delivered during current episode of care (disorder)"
+      "code": "Syphilis Diagnosis-199157002",
+      "display": "199157002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Maternal syphilis in the puerperium - baby delivered during previous episode of care (disorder)",
-      "display": "Maternal syphilis in the puerperium - baby delivered during previous episode of care (disorder)"
+      "code": "Syphilis Diagnosis-199159004",
+      "display": "199159004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Meningovascular syphilis - quaternary stage (disorder)",
-      "display": "Meningovascular syphilis - quaternary stage (disorder)"
+      "code": "Syphilis Diagnosis-240568004",
+      "display": "240568004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Nasal syphilis (disorder)",
-      "display": "Nasal syphilis (disorder)"
+      "code": "Syphilis Diagnosis-232367004",
+      "display": "232367004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Neurosyphilis (disorder)",
-      "display": "Neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-26039008",
+      "display": "26039008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Nodular syphilide (disorder)",
-      "display": "Nodular syphilide (disorder)"
+      "code": "Syphilis Diagnosis-402949003",
+      "display": "402949003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Ocular syphilis (disorder)",
-      "display": "Ocular syphilis (disorder)"
+      "code": "Syphilis Diagnosis-410478005",
+      "display": "410478005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Oral mucous membrane lesion due to late syphilis (disorder)",
-      "display": "Oral mucous membrane lesion due to late syphilis (disorder)"
+      "code": "Syphilis Diagnosis-402951004",
+      "display": "402951004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Oral syphilis (disorder)",
-      "display": "Oral syphilis (disorder)"
+      "code": "Syphilis Diagnosis-235062007",
+      "display": "235062007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Papular syphilide (disorder)",
-      "display": "Papular syphilide (disorder)"
+      "code": "Syphilis Diagnosis-240560006",
+      "display": "240560006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary anal syphilis (disorder)",
-      "display": "Primary anal syphilis (disorder)"
+      "code": "Syphilis Diagnosis-31015008",
+      "display": "31015008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary extragenital syphilis (disorder)",
-      "display": "Primary extragenital syphilis (disorder)"
+      "code": "Syphilis Diagnosis-240556008",
+      "display": "240556008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary genital syphilis (disorder)",
-      "display": "Primary genital syphilis (disorder)"
+      "code": "Syphilis Diagnosis-186847001",
+      "display": "186847001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary symptomatic early syphilis (disorder)",
-      "display": "Primary symptomatic early syphilis (disorder)"
+      "code": "Syphilis Diagnosis-13095005",
+      "display": "13095005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary syphilis (disorder)",
-      "display": "Primary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-266127002",
+      "display": "266127002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary syphilis of breast (disorder)",
-      "display": "Primary syphilis of breast (disorder)"
+      "code": "Syphilis Diagnosis-27460003",
+      "display": "27460003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary syphilis of fingers (disorder)",
-      "display": "Primary syphilis of fingers (disorder)"
+      "code": "Syphilis Diagnosis-54274001",
+      "display": "54274001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary syphilis of lip (disorder)",
-      "display": "Primary syphilis of lip (disorder)"
+      "code": "Syphilis Diagnosis-28198007",
+      "display": "28198007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary syphilis of nipple (disorder)",
-      "display": "Primary syphilis of nipple (disorder)"
+      "code": "Syphilis Diagnosis-237447001",
+      "display": "237447001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary syphilis of tonsils (disorder)",
-      "display": "Primary syphilis of tonsils (disorder)"
+      "code": "Syphilis Diagnosis-10345003",
+      "display": "10345003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Progressive locomotor ataxia (disorder)",
-      "display": "Progressive locomotor ataxia (disorder)"
+      "code": "Syphilis Diagnosis-314840009",
+      "display": "314840009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Pustular syphilide (disorder)",
-      "display": "Pustular syphilide (disorder)"
+      "code": "Syphilis Diagnosis-240562003",
+      "display": "240562003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Quaternary syphilis (disorder)",
-      "display": "Quaternary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-278481001",
+      "display": "278481001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Rash of secondary syphilis (disorder)",
-      "display": "Rash of secondary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-266128007",
+      "display": "266128007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary neurosyphilis (disorder)",
-      "display": "Secondary neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-240564002",
+      "display": "240564002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary symptomatic early syphilis (disorder)",
-      "display": "Secondary symptomatic early syphilis (disorder)"
+      "code": "Syphilis Diagnosis-13731006",
+      "display": "13731006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis (disorder)",
-      "display": "Secondary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-240557004",
+      "display": "240557004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of anus (disorder)",
-      "display": "Secondary syphilis of anus (disorder)"
+      "code": "Syphilis Diagnosis-77028001",
+      "display": "77028001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of bone (disorder)",
-      "display": "Secondary syphilis of bone (disorder)"
+      "code": "Syphilis Diagnosis-63751007",
+      "display": "63751007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of liver (disorder)",
-      "display": "Secondary syphilis of liver (disorder)"
+      "code": "Syphilis Diagnosis-80770009",
+      "display": "80770009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of mouth (disorder)",
-      "display": "Secondary syphilis of mouth (disorder)"
+      "code": "Syphilis Diagnosis-60528006",
+      "display": "60528006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of mucous membrane (disorder)",
-      "display": "Secondary syphilis of mucous membrane (disorder)"
+      "code": "Syphilis Diagnosis-39085002",
+      "display": "39085002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of pharynx (disorder)",
-      "display": "Secondary syphilis of pharynx (disorder)"
+      "code": "Syphilis Diagnosis-51960003",
+      "display": "51960003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of skin (disorder)",
-      "display": "Secondary syphilis of skin (disorder)"
+      "code": "Syphilis Diagnosis-59233003",
+      "display": "59233003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of skin and mucous membrane (disorder)",
-      "display": "Secondary syphilis of skin and mucous membrane (disorder)"
+      "code": "Syphilis Diagnosis-186850003",
+      "display": "186850003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of tonsil (disorder)",
-      "display": "Secondary syphilis of tonsil (disorder)"
+      "code": "Syphilis Diagnosis-81339006",
+      "display": "81339006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of viscera (disorder)",
-      "display": "Secondary syphilis of viscera (disorder)"
+      "code": "Syphilis Diagnosis-58227000",
+      "display": "58227000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of vulva (disorder)",
-      "display": "Secondary syphilis of vulva (disorder)"
+      "code": "Syphilis Diagnosis-52414005",
+      "display": "52414005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis relapse (disorder)",
-      "display": "Secondary syphilis relapse (disorder)"
+      "code": "Syphilis Diagnosis-186861006",
+      "display": "186861006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis, relapse (treated) (disorder)",
-      "display": "Secondary syphilis, relapse (treated) (disorder)"
+      "code": "Syphilis Diagnosis-85857008",
+      "display": "85857008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis, relapse (untreated) (disorder)",
-      "display": "Secondary syphilis, relapse (untreated) (disorder)"
+      "code": "Syphilis Diagnosis-62861003",
+      "display": "62861003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic adenopathy (disorder)",
-      "display": "Secondary syphilitic adenopathy (disorder)"
+      "code": "Syphilis Diagnosis-59934002",
+      "display": "59934002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic chorioretinitis (disorder)",
-      "display": "Secondary syphilitic chorioretinitis (disorder)"
+      "code": "Syphilis Diagnosis-66281009",
+      "display": "66281009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic iridocyclitis (disorder)",
-      "display": "Secondary syphilitic iridocyclitis (disorder)"
+      "code": "Syphilis Diagnosis-30080002",
+      "display": "30080002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic meningitis (disorder)",
-      "display": "Secondary syphilitic meningitis (disorder)"
+      "code": "Syphilis Diagnosis-192647003",
+      "display": "192647003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic periostitis (disorder)",
-      "display": "Secondary syphilitic periostitis (disorder)"
+      "code": "Syphilis Diagnosis-69595007",
+      "display": "69595007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Serological relapse after treatment of latent early syphilis (disorder)",
-      "display": "Serological relapse after treatment of latent early syphilis (disorder)"
+      "code": "Syphilis Diagnosis-186868000",
+      "display": "186868000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Spastic spinal syphilitic paralysis (disorder)",
-      "display": "Spastic spinal syphilitic paralysis (disorder)"
+      "code": "Syphilis Diagnosis-75299005",
+      "display": "75299005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Symptomatic late congenital syphilis (disorder)",
-      "display": "Symptomatic late congenital syphilis (disorder)"
+      "code": "Syphilis Diagnosis-735515000",
+      "display": "735515000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis (disorder)",
-      "display": "Syphilis (disorder)"
+      "code": "Syphilis Diagnosis-76272004",
+      "display": "76272004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of bone (disorder)",
-      "display": "Syphilis of bone (disorder)"
+      "code": "Syphilis Diagnosis-50528008",
+      "display": "50528008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of breast (disorder)",
-      "display": "Syphilis of breast (disorder)"
+      "code": "Syphilis Diagnosis-237446005",
+      "display": "237446005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of bursa (disorder)",
-      "display": "Syphilis of bursa (disorder)"
+      "code": "Syphilis Diagnosis-23550005",
+      "display": "23550005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of kidney (disorder)",
-      "display": "Syphilis of kidney (disorder)"
+      "code": "Syphilis Diagnosis-59530001",
+      "display": "59530001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of liver (disorder)",
-      "display": "Syphilis of liver (disorder)"
+      "code": "Syphilis Diagnosis-86028001",
+      "display": "86028001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of lung (disorder)",
-      "display": "Syphilis of lung (disorder)"
+      "code": "Syphilis Diagnosis-8555001",
+      "display": "8555001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of mitral valve (disorder)",
-      "display": "Syphilis of mitral valve (disorder)"
+      "code": "Syphilis Diagnosis-58056005",
+      "display": "58056005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of muscle (disorder)",
-      "display": "Syphilis of muscle (disorder)"
+      "code": "Syphilis Diagnosis-88943008",
+      "display": "88943008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of pulmonary valve (disorder)",
-      "display": "Syphilis of pulmonary valve (disorder)"
+      "code": "Syphilis Diagnosis-45058001",
+      "display": "45058001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of synovium (disorder)",
-      "display": "Syphilis of synovium (disorder)"
+      "code": "Syphilis Diagnosis-37430004",
+      "display": "37430004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of tendon (disorder)",
-      "display": "Syphilis of tendon (disorder)"
+      "code": "Syphilis Diagnosis-49923008",
+      "display": "49923008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of tricuspid valve (disorder)",
-      "display": "Syphilis of tricuspid valve (disorder)"
+      "code": "Syphilis Diagnosis-42770003",
+      "display": "42770003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic acoustic neuritis - quaternary stage (disorder)",
-      "display": "Syphilitic acoustic neuritis - quaternary stage (disorder)"
+      "code": "Syphilis Diagnosis-302813001",
+      "display": "302813001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic acoustic neuritis (disorder)",
-      "display": "Syphilitic acoustic neuritis (disorder)"
+      "code": "Syphilis Diagnosis-19206003",
+      "display": "19206003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic alopecia (disorder)",
-      "display": "Syphilitic alopecia (disorder)"
+      "code": "Syphilis Diagnosis-59307008",
+      "display": "59307008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic aneurysm (disorder)",
-      "display": "Syphilitic aneurysm (disorder)"
+      "code": "Syphilis Diagnosis-234017002",
+      "display": "234017002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic aneurysm of aorta (disorder)",
-      "display": "Syphilitic aneurysm of aorta (disorder)"
+      "code": "Syphilis Diagnosis-12232008",
+      "display": "12232008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic aortic incompetence (disorder)",
-      "display": "Syphilitic aortic incompetence (disorder)"
+      "code": "Syphilis Diagnosis-61612001",
+      "display": "61612001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic aortic stenosis (disorder)",
-      "display": "Syphilitic aortic stenosis (disorder)"
+      "code": "Syphilis Diagnosis-82355002",
+      "display": "82355002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic aortitis (disorder)",
-      "display": "Syphilitic aortitis (disorder)"
+      "code": "Syphilis Diagnosis-20735004",
+      "display": "20735004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic balanitis (disorder)",
-      "display": "Syphilitic balanitis (disorder)"
+      "code": "Syphilis Diagnosis-402943002",
+      "display": "402943002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic cerebral arteritis (disorder)",
-      "display": "Syphilitic cerebral arteritis (disorder)"
+      "code": "Syphilis Diagnosis-230735006",
+      "display": "230735006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic chancre of oral mucous membranes (disorder)",
-      "display": "Syphilitic chancre of oral mucous membranes (disorder)"
+      "code": "Syphilis Diagnosis-402942007",
+      "display": "402942007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic chancre of penis (disorder)",
-      "display": "Syphilitic chancre of penis (disorder)"
+      "code": "Syphilis Diagnosis-402940004",
+      "display": "402940004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic chancre of vulva (disorder)",
-      "display": "Syphilitic chancre of vulva (disorder)"
+      "code": "Syphilis Diagnosis-402941000",
+      "display": "402941000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic chorioretinitis (disorder)",
-      "display": "Syphilitic chorioretinitis (disorder)"
+      "code": "Syphilis Diagnosis-312934004",
+      "display": "312934004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic cirrhosis (disorder)",
-      "display": "Syphilitic cirrhosis (disorder)"
+      "code": "Syphilis Diagnosis-16070004",
+      "display": "16070004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic coronary artery disease (disorder)",
-      "display": "Syphilitic coronary artery disease (disorder)"
+      "code": "Syphilis Diagnosis-240567009",
+      "display": "240567009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic disseminated retinochoroiditis (disorder)",
-      "display": "Syphilitic disseminated retinochoroiditis (disorder)"
+      "code": "Syphilis Diagnosis-77939001",
+      "display": "77939001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic encephalitis (disorder)",
-      "display": "Syphilitic encephalitis (disorder)"
+      "code": "Syphilis Diagnosis-26135000",
+      "display": "26135000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic endocarditis (disorder)",
-      "display": "Syphilitic endocarditis (disorder)"
+      "code": "Syphilis Diagnosis-67391006",
+      "display": "67391006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic endocarditis of aortic valve (disorder)",
-      "display": "Syphilitic endocarditis of aortic valve (disorder)"
+      "code": "Syphilis Diagnosis-278480000",
+      "display": "278480000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic endocarditis of mitral valve (disorder)",
-      "display": "Syphilitic endocarditis of mitral valve (disorder)"
+      "code": "Syphilis Diagnosis-186875004",
+      "display": "186875004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic endocarditis of pulmonary valve (disorder)",
-      "display": "Syphilitic endocarditis of pulmonary valve (disorder)"
+      "code": "Syphilis Diagnosis-186878002",
+      "display": "186878002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic endocarditis of tricuspid valve (disorder)",
-      "display": "Syphilitic endocarditis of tricuspid valve (disorder)"
+      "code": "Syphilis Diagnosis-186877007",
+      "display": "186877007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic episcleritis (disorder)",
-      "display": "Syphilitic episcleritis (disorder)"
+      "code": "Syphilis Diagnosis-11338007",
+      "display": "11338007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic gumma (disorder)",
-      "display": "Syphilitic gumma (disorder)"
+      "code": "Syphilis Diagnosis-64102008",
+      "display": "64102008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic gumma of central nervous system (disorder)",
-      "display": "Syphilitic gumma of central nervous system (disorder)"
+      "code": "Syphilis Diagnosis-21523006",
+      "display": "21523006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic gumma of oral cavity (disorder)",
-      "display": "Syphilitic gumma of oral cavity (disorder)"
+      "code": "Syphilis Diagnosis-235064008",
+      "display": "235064008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic interstitial keratitis (disorder)",
-      "display": "Syphilitic interstitial keratitis (disorder)"
+      "code": "Syphilis Diagnosis-44568006",
+      "display": "44568006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic leukoderma (disorder)",
-      "display": "Syphilitic leukoderma (disorder)"
+      "code": "Syphilis Diagnosis-55768006",
+      "display": "55768006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic leukoplakia of tongue (disorder)",
-      "display": "Syphilitic leukoplakia of tongue (disorder)"
+      "code": "Syphilis Diagnosis-402950003",
+      "display": "402950003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic mucosal ulceration (disorder)",
-      "display": "Syphilitic mucosal ulceration (disorder)"
+      "code": "Syphilis Diagnosis-240563008",
+      "display": "240563008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic myocarditis (disorder)",
-      "display": "Syphilitic myocarditis (disorder)"
+      "code": "Syphilis Diagnosis-4082005",
+      "display": "4082005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic optic atrophy (disorder)",
-      "display": "Syphilitic optic atrophy (disorder)"
+      "code": "Syphilis Diagnosis-22386003",
+      "display": "22386003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic oral leukoplakia (disorder)",
-      "display": "Syphilitic oral leukoplakia (disorder)"
+      "code": "Syphilis Diagnosis-235032001",
+      "display": "235032001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic oral snail track ulcer (disorder)",
-      "display": "Syphilitic oral snail track ulcer (disorder)"
+      "code": "Syphilis Diagnosis-235065009",
+      "display": "235065009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic ostial coronary disease (disorder)",
-      "display": "Syphilitic ostial coronary disease (disorder)"
+      "code": "Syphilis Diagnosis-62207008",
+      "display": "62207008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic parkinsonism (disorder)",
-      "display": "Syphilitic parkinsonism (disorder)"
+      "code": "Syphilis Diagnosis-38523005",
+      "display": "38523005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic pericarditis (disorder)",
-      "display": "Syphilitic pericarditis (disorder)"
+      "code": "Syphilis Diagnosis-3589003",
+      "display": "3589003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic polyneuropathy (disorder)",
-      "display": "Syphilitic polyneuropathy (disorder)"
+      "code": "Syphilis Diagnosis-240569007",
+      "display": "240569007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic portal cirrhosis (disorder)",
-      "display": "Syphilitic portal cirrhosis (disorder)"
+      "code": "Syphilis Diagnosis-197305002",
+      "display": "197305002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic prostatitis (disorder)",
-      "display": "Syphilitic prostatitis (disorder)"
+      "code": "Syphilis Diagnosis-197966009",
+      "display": "197966009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic punched out ulcer (disorder)",
-      "display": "Syphilitic punched out ulcer (disorder)"
+      "code": "Syphilis Diagnosis-4483005",
+      "display": "4483005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic retinitis (disorder)",
-      "display": "Syphilitic retinitis (disorder)"
+      "code": "Syphilis Diagnosis-410470003",
+      "display": "410470003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic retrobulbar neuritis (disorder)",
-      "display": "Syphilitic retrobulbar neuritis (disorder)"
+      "code": "Syphilis Diagnosis-36276008",
+      "display": "36276008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic skin disorder (disorder)",
-      "display": "Syphilitic skin disorder (disorder)"
+      "code": "Syphilis Diagnosis-371237000",
+      "display": "371237000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic valve disease (disorder)",
-      "display": "Syphilitic valve disease (disorder)"
+      "code": "Syphilis Diagnosis-233849007",
+      "display": "233849007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Tabetic neurosyphilis (disorder)",
-      "display": "Tabetic neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-315826004",
+      "display": "315826004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Taboparesis (disorder)",
-      "display": "Taboparesis (disorder)"
+      "code": "Syphilis Diagnosis-13310005",
+      "display": "13310005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Tertiary syphilitic chorioretinitis (disorder)",
-      "display": "Tertiary syphilitic chorioretinitis (disorder)"
+      "code": "Syphilis Diagnosis-312955002",
+      "display": "312955002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Uveitis due to secondary syphilis (disorder)",
-      "display": "Uveitis due to secondary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-186854007",
+      "display": "186854007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Antigen of Treponema pallidum (substance)",
-      "display": "Antigen of Treponema pallidum (substance)"
+      "code": "Syphilis Diagnosis-707439008",
+      "display": "707439008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Deoxyribonucleic acid of Treponema pallidum (substance)",
-      "display": "Deoxyribonucleic acid of Treponema pallidum (substance)"
+      "code": "Syphilis Diagnosis-708462008",
+      "display": "708462008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Treponema pallidum (organism)",
-      "display": "Treponema pallidum (organism)"
+      "code": "Syphilis Diagnosis-72904005",
+      "display": "72904005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Treponema pallidum ss. endemicum (organism)",
-      "display": "Treponema pallidum ss. endemicum (organism)"
+      "code": "Syphilis Diagnosis-44106000",
+      "display": "44106000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Treponema pallidum ss. pallidum (organism)",
-      "display": "Treponema pallidum ss. pallidum (organism)"
+      "code": "Syphilis Diagnosis-43454006",
+      "display": "43454006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Treponema pallidum ss. pertenue (organism)",
-      "display": "Treponema pallidum ss. pertenue (organism)"
+      "code": "Syphilis Diagnosis-6246005",
+      "display": "6246005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Asymptomatic neurosyphilis",
-      "display": "Asymptomatic neurosyphilis"
+      "code": "Syphilis Diagnosis-A52.2",
+      "display": "A52.2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Cardiovascular and cerebrovascular syphilis",
-      "display": "Cardiovascular and cerebrovascular syphilis"
+      "code": "Syphilis Diagnosis-A52.0",
+      "display": "A52.0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Cardiovascular syphilis, unspecified",
-      "display": "Cardiovascular syphilis, unspecified"
+      "code": "Syphilis Diagnosis-A52.00",
+      "display": "A52.00"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Charcôt's arthropathy (tabetic)",
-      "display": "Charcôt's arthropathy (tabetic)"
+      "code": "Syphilis Diagnosis-A52.16",
+      "display": "A52.16"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Clutton's joints",
-      "display": "Clutton's joints"
+      "code": "Syphilis Diagnosis-A50.51",
+      "display": "A50.51"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Condyloma latum",
-      "display": "Condyloma latum"
+      "code": "Syphilis Diagnosis-A51.31",
+      "display": "A51.31"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilis",
-      "display": "Congenital syphilis"
+      "code": "Syphilis Diagnosis-A50",
+      "display": "A50"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Congenital syphilis, unspecified",
-      "display": "Congenital syphilis, unspecified"
+      "code": "Syphilis Diagnosis-A50.9",
+      "display": "A50.9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilis, latent",
-      "display": "Early congenital syphilis, latent"
+      "code": "Syphilis Diagnosis-A50.1",
+      "display": "A50.1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilis, symptomatic",
-      "display": "Early congenital syphilis, symptomatic"
+      "code": "Syphilis Diagnosis-A50.0",
+      "display": "A50.0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilis, unspecified",
-      "display": "Early congenital syphilis, unspecified"
+      "code": "Syphilis Diagnosis-A50.2",
+      "display": "A50.2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilitic oculopathy",
-      "display": "Early congenital syphilitic oculopathy"
+      "code": "Syphilis Diagnosis-A50.01",
+      "display": "A50.01"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilitic osteochondropathy",
-      "display": "Early congenital syphilitic osteochondropathy"
+      "code": "Syphilis Diagnosis-A50.02",
+      "display": "A50.02"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilitic pharyngitis",
-      "display": "Early congenital syphilitic pharyngitis"
+      "code": "Syphilis Diagnosis-A50.03",
+      "display": "A50.03"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilitic pneumonia",
-      "display": "Early congenital syphilitic pneumonia"
+      "code": "Syphilis Diagnosis-A50.04",
+      "display": "A50.04"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early congenital syphilitic rhinitis",
-      "display": "Early congenital syphilitic rhinitis"
+      "code": "Syphilis Diagnosis-A50.05",
+      "display": "A50.05"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early cutaneous congenital syphilis",
-      "display": "Early cutaneous congenital syphilis"
+      "code": "Syphilis Diagnosis-A50.06",
+      "display": "A50.06"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early mucocutaneous congenital syphilis",
-      "display": "Early mucocutaneous congenital syphilis"
+      "code": "Syphilis Diagnosis-A50.07",
+      "display": "A50.07"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early syphilis",
-      "display": "Early syphilis"
+      "code": "Syphilis Diagnosis-A51",
+      "display": "A51"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early syphilis, latent",
-      "display": "Early syphilis, latent"
+      "code": "Syphilis Diagnosis-A51.5",
+      "display": "A51.5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early syphilis, unspecified",
-      "display": "Early syphilis, unspecified"
+      "code": "Syphilis Diagnosis-A51.9",
+      "display": "A51.9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Early visceral congenital syphilis",
-      "display": "Early visceral congenital syphilis"
+      "code": "Syphilis Diagnosis-A50.08",
+      "display": "A50.08"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-General paresis",
-      "display": "General paresis"
+      "code": "Syphilis Diagnosis-A52.17",
+      "display": "A52.17"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Hutchinson's teeth",
-      "display": "Hutchinson's teeth"
+      "code": "Syphilis Diagnosis-A50.52",
+      "display": "A50.52"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Hutchinson's triad",
-      "display": "Hutchinson's triad"
+      "code": "Syphilis Diagnosis-A50.53",
+      "display": "A50.53"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Juvenile general paresis",
-      "display": "Juvenile general paresis"
+      "code": "Syphilis Diagnosis-A50.45",
+      "display": "A50.45"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital cardiovascular syphilis",
-      "display": "Late congenital cardiovascular syphilis"
+      "code": "Syphilis Diagnosis-A50.54",
+      "display": "A50.54"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital neurosyphilis [juvenile neurosyphilis]",
-      "display": "Late congenital neurosyphilis [juvenile neurosyphilis]"
+      "code": "Syphilis Diagnosis-A50.4",
+      "display": "A50.4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital neurosyphilis, unspecified",
-      "display": "Late congenital neurosyphilis, unspecified"
+      "code": "Syphilis Diagnosis-A50.40",
+      "display": "A50.40"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilis, latent",
-      "display": "Late congenital syphilis, latent"
+      "code": "Syphilis Diagnosis-A50.6",
+      "display": "A50.6"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilis, unspecified",
-      "display": "Late congenital syphilis, unspecified"
+      "code": "Syphilis Diagnosis-A50.7",
+      "display": "A50.7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic arthropathy",
-      "display": "Late congenital syphilitic arthropathy"
+      "code": "Syphilis Diagnosis-A50.55",
+      "display": "A50.55"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic chorioretinitis",
-      "display": "Late congenital syphilitic chorioretinitis"
+      "code": "Syphilis Diagnosis-A50.32",
+      "display": "A50.32"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic encephalitis",
-      "display": "Late congenital syphilitic encephalitis"
+      "code": "Syphilis Diagnosis-A50.42",
+      "display": "A50.42"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic interstitial keratitis",
-      "display": "Late congenital syphilitic interstitial keratitis"
+      "code": "Syphilis Diagnosis-A50.31",
+      "display": "A50.31"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic meningitis",
-      "display": "Late congenital syphilitic meningitis"
+      "code": "Syphilis Diagnosis-A50.41",
+      "display": "A50.41"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy",
-      "display": "Late congenital syphilitic oculopathy"
+      "code": "Syphilis Diagnosis-A50.3",
+      "display": "A50.3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic oculopathy, unspecified",
-      "display": "Late congenital syphilitic oculopathy, unspecified"
+      "code": "Syphilis Diagnosis-A50.30",
+      "display": "A50.30"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic optic nerve atrophy",
-      "display": "Late congenital syphilitic optic nerve atrophy"
+      "code": "Syphilis Diagnosis-A50.44",
+      "display": "A50.44"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic osteochondropathy",
-      "display": "Late congenital syphilitic osteochondropathy"
+      "code": "Syphilis Diagnosis-A50.56",
+      "display": "A50.56"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late congenital syphilitic polyneuropathy",
-      "display": "Late congenital syphilitic polyneuropathy"
+      "code": "Syphilis Diagnosis-A50.43",
+      "display": "A50.43"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilis",
-      "display": "Late syphilis"
+      "code": "Syphilis Diagnosis-A52",
+      "display": "A52"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilis, latent",
-      "display": "Late syphilis, latent"
+      "code": "Syphilis Diagnosis-A52.8",
+      "display": "A52.8"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilis, unspecified",
-      "display": "Late syphilis, unspecified"
+      "code": "Syphilis Diagnosis-A52.9",
+      "display": "A52.9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilitic encephalitis",
-      "display": "Late syphilitic encephalitis"
+      "code": "Syphilis Diagnosis-A52.14",
+      "display": "A52.14"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilitic meningitis",
-      "display": "Late syphilitic meningitis"
+      "code": "Syphilis Diagnosis-A52.13",
+      "display": "A52.13"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilitic neuropathy",
-      "display": "Late syphilitic neuropathy"
+      "code": "Syphilis Diagnosis-A52.15",
+      "display": "A52.15"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Late syphilitic oculopathy",
-      "display": "Late syphilitic oculopathy"
+      "code": "Syphilis Diagnosis-A52.71",
+      "display": "A52.71"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Latent syphilis, unspecified as early or late",
-      "display": "Latent syphilis, unspecified as early or late"
+      "code": "Syphilis Diagnosis-A53.0",
+      "display": "A53.0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Neurosyphilis, unspecified",
-      "display": "Neurosyphilis, unspecified"
+      "code": "Syphilis Diagnosis-A52.3",
+      "display": "A52.3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Nonvenereal syphilis",
-      "display": "Nonvenereal syphilis"
+      "code": "Syphilis Diagnosis-A65",
+      "display": "A65"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other and unspecified syphilis",
-      "display": "Other and unspecified syphilis"
+      "code": "Syphilis Diagnosis-A53",
+      "display": "A53"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other cardiovascular syphilis",
-      "display": "Other cardiovascular syphilis"
+      "code": "Syphilis Diagnosis-A52.09",
+      "display": "A52.09"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other cerebrospinal syphilis",
-      "display": "Other cerebrospinal syphilis"
+      "code": "Syphilis Diagnosis-A52.12",
+      "display": "A52.12"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other cerebrovascular syphilis",
-      "display": "Other cerebrovascular syphilis"
+      "code": "Syphilis Diagnosis-A52.05",
+      "display": "A52.05"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other early congenital syphilis, symptomatic",
-      "display": "Other early congenital syphilis, symptomatic"
+      "code": "Syphilis Diagnosis-A50.09",
+      "display": "A50.09"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other genitourinary symptomatic late syphilis",
-      "display": "Other genitourinary symptomatic late syphilis"
+      "code": "Syphilis Diagnosis-A52.76",
+      "display": "A52.76"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other late congenital neurosyphilis",
-      "display": "Other late congenital neurosyphilis"
+      "code": "Syphilis Diagnosis-A50.49",
+      "display": "A50.49"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other late congenital syphilis, symptomatic",
-      "display": "Other late congenital syphilis, symptomatic"
+      "code": "Syphilis Diagnosis-A50.5",
+      "display": "A50.5"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other late congenital syphilitic oculopathy",
-      "display": "Other late congenital syphilitic oculopathy"
+      "code": "Syphilis Diagnosis-A50.59",
+      "display": "A50.59"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other secondary syphilis",
-      "display": "Other secondary syphilis"
+      "code": "Syphilis Diagnosis-A50.39",
+      "display": "A50.39"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other secondary syphilis of skin",
-      "display": "Other secondary syphilis of skin"
+      "code": "Syphilis Diagnosis-A51.4",
+      "display": "A51.4"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other secondary syphilitic conditions",
-      "display": "Other secondary syphilitic conditions"
+      "code": "Syphilis Diagnosis-A51.39",
+      "display": "A51.39"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other symptomatic late syphilis",
-      "display": "Other symptomatic late syphilis"
+      "code": "Syphilis Diagnosis-A51.49",
+      "display": "A51.49"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other symptomatic neurosyphilis",
-      "display": "Other symptomatic neurosyphilis"
+      "code": "Syphilis Diagnosis-A52.7",
+      "display": "A52.7"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Other syphilitic heart involvement",
-      "display": "Other syphilitic heart involvement"
+      "code": "Syphilis Diagnosis-A52.79",
+      "display": "A52.79"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary anal syphilis",
-      "display": "Primary anal syphilis"
+      "code": "Syphilis Diagnosis-A52.19",
+      "display": "A52.19"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary genital syphilis",
-      "display": "Primary genital syphilis"
+      "code": "Syphilis Diagnosis-A52.06",
+      "display": "A52.06"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Primary syphilis of other sites",
-      "display": "Primary syphilis of other sites"
+      "code": "Syphilis Diagnosis-A51.1",
+      "display": "A51.1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilis of skin and mucous membranes",
-      "display": "Secondary syphilis of skin and mucous membranes"
+      "code": "Syphilis Diagnosis-A51.0",
+      "display": "A51.0"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic female pelvic disease",
-      "display": "Secondary syphilitic female pelvic disease"
+      "code": "Syphilis Diagnosis-A51.2",
+      "display": "A51.2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic hepatitis",
-      "display": "Secondary syphilitic hepatitis"
+      "code": "Syphilis Diagnosis-A51.3",
+      "display": "A51.3"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic meningitis",
-      "display": "Secondary syphilitic meningitis"
+      "code": "Syphilis Diagnosis-A51.42",
+      "display": "A51.42"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic nephritis",
-      "display": "Secondary syphilitic nephritis"
+      "code": "Syphilis Diagnosis-A51.45",
+      "display": "A51.45"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic oculopathy",
-      "display": "Secondary syphilitic oculopathy"
+      "code": "Syphilis Diagnosis-A51.41",
+      "display": "A51.41"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Secondary syphilitic osteopathy",
-      "display": "Secondary syphilitic osteopathy"
+      "code": "Syphilis Diagnosis-A51.44",
+      "display": "A51.44"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Symptomatic late syphilis of other respiratory organs",
-      "display": "Symptomatic late syphilis of other respiratory organs"
+      "code": "Syphilis Diagnosis-A51.43",
+      "display": "A51.43"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Symptomatic neurosyphilis",
-      "display": "Symptomatic neurosyphilis"
+      "code": "Syphilis Diagnosis-A51.46",
+      "display": "A51.46"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Symptomatic neurosyphilis, unspecified",
-      "display": "Symptomatic neurosyphilis, unspecified"
+      "code": "Syphilis Diagnosis-A52.73",
+      "display": "A52.73"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating childbirth",
-      "display": "Syphilis complicating childbirth"
+      "code": "Syphilis Diagnosis-A52.1",
+      "display": "A52.1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy",
-      "display": "Syphilis complicating pregnancy"
+      "code": "Syphilis Diagnosis-A52.10",
+      "display": "A52.10"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, childbirth and the puerperium",
-      "display": "Syphilis complicating pregnancy, childbirth and the puerperium"
+      "code": "Syphilis Diagnosis-O98.12",
+      "display": "O98.12"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, first trimester",
-      "display": "Syphilis complicating pregnancy, first trimester"
+      "code": "Syphilis Diagnosis-O98.11",
+      "display": "O98.11"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, second trimester",
-      "display": "Syphilis complicating pregnancy, second trimester"
+      "code": "Syphilis Diagnosis-O98.1",
+      "display": "O98.1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, third trimester",
-      "display": "Syphilis complicating pregnancy, third trimester"
+      "code": "Syphilis Diagnosis-O98.111",
+      "display": "O98.111"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating pregnancy, unspecified trimester",
-      "display": "Syphilis complicating pregnancy, unspecified trimester"
+      "code": "Syphilis Diagnosis-O98.112",
+      "display": "O98.112"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis complicating the puerperium",
-      "display": "Syphilis complicating the puerperium"
+      "code": "Syphilis Diagnosis-O98.113",
+      "display": "O98.113"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of bone and joint",
-      "display": "Syphilis of bone and joint"
+      "code": "Syphilis Diagnosis-O98.119",
+      "display": "O98.119"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of kidney and ureter",
-      "display": "Syphilis of kidney and ureter"
+      "code": "Syphilis Diagnosis-O98.13",
+      "display": "O98.13"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of liver and other viscera",
-      "display": "Syphilis of liver and other viscera"
+      "code": "Syphilis Diagnosis-A52.77",
+      "display": "A52.77"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of lung and bronchus",
-      "display": "Syphilis of lung and bronchus"
+      "code": "Syphilis Diagnosis-A52.75",
+      "display": "A52.75"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis of other musculoskeletal tissue",
-      "display": "Syphilis of other musculoskeletal tissue"
+      "code": "Syphilis Diagnosis-A52.74",
+      "display": "A52.74"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis, unspecified",
-      "display": "Syphilis, unspecified"
+      "code": "Syphilis Diagnosis-A52.72",
+      "display": "A52.72"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic alopecia",
-      "display": "Syphilitic alopecia"
+      "code": "Syphilis Diagnosis-A52.78",
+      "display": "A52.78"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic aneurysm of aorta",
-      "display": "Syphilitic aneurysm of aorta"
+      "code": "Syphilis Diagnosis-A53.9",
+      "display": "A53.9"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic aortitis",
-      "display": "Syphilitic aortitis"
+      "code": "Syphilis Diagnosis-A51.32",
+      "display": "A51.32"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic cerebral arteritis",
-      "display": "Syphilitic cerebral arteritis"
+      "code": "Syphilis Diagnosis-A52.01",
+      "display": "A52.01"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic endocarditis",
-      "display": "Syphilitic endocarditis"
+      "code": "Syphilis Diagnosis-A52.02",
+      "display": "A52.02"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic saddle nose",
-      "display": "Syphilitic saddle nose"
+      "code": "Syphilis Diagnosis-A52.04",
+      "display": "A52.04"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Tabes dorsalis",
-      "display": "Tabes dorsalis"
+      "code": "Syphilis Diagnosis-A52.03",
+      "display": "A52.03"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Acute syphilitic meningitis (disorder)",
-      "display": "Acute syphilitic meningitis (disorder)"
+      "code": "Syphilis Diagnosis-A50.57",
+      "display": "A50.57"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Anetoderma secondary to syphilis (disorder)",
-      "display": "Anetoderma secondary to syphilis (disorder)"
+      "code": "Syphilis Diagnosis-A52.11",
+      "display": "A52.11"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Charcot arthropathy due to syphilis (disorder)",
-      "display": "Charcot arthropathy due to syphilis (disorder)"
+      "code": "Syphilis Diagnosis-68863007",
+      "display": "68863007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Corona veneris (disorder)",
-      "display": "Corona veneris (disorder)"
+      "code": "Syphilis Diagnosis-402952006",
+      "display": "402952006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Dementia associated with neurosyphilis (disorder)",
-      "display": "Dementia associated with neurosyphilis (disorder)"
+      "code": "Syphilis Diagnosis-104471000119105",
+      "display": "104471000119105"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Hypoplasia of enamel due to congenital syphilis (disorder)",
-      "display": "Hypoplasia of enamel due to congenital syphilis (disorder)"
+      "code": "Syphilis Diagnosis-240561005",
+      "display": "240561005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Interstitial glossitis (disorder)",
-      "display": "Interstitial glossitis (disorder)"
+      "code": "Syphilis Diagnosis-698725008",
+      "display": "698725008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Iris papulosa (finding)",
-      "display": "Iris papulosa (finding)"
+      "code": "Syphilis Diagnosis-703134008",
+      "display": "703134008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Iris roseola (finding)",
-      "display": "Iris roseola (finding)"
+      "code": "Syphilis Diagnosis-449773001",
+      "display": "449773001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Iritis caused by Treponema pallidum (disorder)",
-      "display": "Iritis caused by Treponema pallidum (disorder)"
+      "code": "Syphilis Diagnosis-410469004",
+      "display": "410469004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Luetic glossitis (disorder)",
-      "display": "Luetic glossitis (disorder)"
+      "code": "Syphilis Diagnosis-410468007",
+      "display": "410468007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Moon's molar teeth (disorder)",
-      "display": "Moon's molar teeth (disorder)"
+      "code": "Syphilis Diagnosis-711617002",
+      "display": "711617002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Mucocutaneous early congenital syphilis (disorder)",
-      "display": "Mucocutaneous early congenital syphilis (disorder)"
+      "code": "Syphilis Diagnosis-449776009",
+      "display": "449776009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Nail dystrophy due to secondary syphilis (disorder)",
-      "display": "Nail dystrophy due to secondary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-109436001",
+      "display": "109436001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Paroxysmal cold hemoglobinuria associated with tertiary syphilis (disorder)",
-      "display": "Paroxysmal cold hemoglobinuria associated with tertiary syphilis (disorder)"
+      "code": "Syphilis Diagnosis-721583004",
+      "display": "721583004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Pericellular fibrosis of congenital syphilis (disorder)",
-      "display": "Pericellular fibrosis of congenital syphilis (disorder)"
+      "code": "Syphilis Diagnosis-402948006",
+      "display": "402948006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Post-infective arthropathy in syphilis (disorder)",
-      "display": "Post-infective arthropathy in syphilis (disorder)"
+      "code": "Syphilis Diagnosis-127058009",
+      "display": "127058009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Rupture of syphilitic cerebral aneurysm (disorder)",
-      "display": "Rupture of syphilitic cerebral aneurysm (disorder)"
+      "code": "Syphilis Diagnosis-235898000",
+      "display": "235898000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilis in mother complicating childbirth (disorder)",
-      "display": "Syphilis in mother complicating childbirth (disorder)"
+      "code": "Syphilis Diagnosis-201738001",
+      "display": "201738001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic choroiditis (disorder)",
-      "display": "Syphilitic choroiditis (disorder)"
+      "code": "Syphilis Diagnosis-186893003",
+      "display": "186893003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic meningitis (disorder)",
-      "display": "Syphilitic meningitis (disorder)"
+      "code": "Syphilis Diagnosis-10759921000119107",
+      "display": "10759921000119107"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic peritonitis (disorder)",
-      "display": "Syphilitic peritonitis (disorder)"
+      "code": "Syphilis Diagnosis-331151000119109",
+      "display": "331151000119109"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic saddle nose (disorder)",
-      "display": "Syphilitic saddle nose (disorder)"
+      "code": "Syphilis Diagnosis-301086002",
+      "display": "301086002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Syphilitic valvular endocarditis (disorder)",
-      "display": "Syphilitic valvular endocarditis (disorder)"
+      "code": "Syphilis Diagnosis-34964002",
+      "display": "34964002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Tabetic joint (disorder)",
-      "display": "Tabetic joint (disorder)"
+      "code": "Syphilis Diagnosis-77782006",
+      "display": "77782006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Syphilis Diagnosis-Urethral stricture due to syphilis (disorder)",
-      "display": "Urethral stricture due to syphilis (disorder)"
+      "code": "Syphilis Diagnosis-94851000119107",
+      "display": "94851000119107"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Diagnosis-239825002",
+      "display": "239825002"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Syphilis Diagnosis-29500006",
+      "display": "29500006"
     } ]
   }
 }

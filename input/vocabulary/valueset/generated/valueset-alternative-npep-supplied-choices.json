@@ -12,445 +12,445 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0093-5528",
+        "code": "PEP Dispensed Medications-0093-5528",
         "display": "0093-5528"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-42385-922",
+        "code": "PEP Dispensed Medications-42385-922",
         "display": "42385-922"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-51407-173",
+        "code": "PEP Dispensed Medications-51407-173",
         "display": "51407-173"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-69238-1138",
+        "code": "PEP Dispensed Medications-69238-1138",
         "display": "69238-1138"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0946",
+        "code": "PEP Dispensed Medications-70518-0946",
         "display": "70518-0946"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70710-1052",
+        "code": "PEP Dispensed Medications-70710-1052",
         "display": "70710-1052"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70771-1593",
+        "code": "PEP Dispensed Medications-70771-1593",
         "display": "70771-1593"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0904-6875",
+        "code": "PEP Dispensed Medications-0904-6875",
         "display": "0904-6875"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-16714-862",
+        "code": "PEP Dispensed Medications-16714-862",
         "display": "16714-862"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-60687-399",
+        "code": "PEP Dispensed Medications-60687-399",
         "display": "60687-399"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-65862-713",
+        "code": "PEP Dispensed Medications-65862-713",
         "display": "65862-713"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1365",
+        "code": "PEP Dispensed Medications-70518-1365",
         "display": "70518-1365"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-59762-0410",
+        "code": "PEP Dispensed Medications-59762-0410",
         "display": "59762-0410"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1236",
+        "code": "PEP Dispensed Medications-67296-1236",
         "display": "67296-1236"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-69097-446",
+        "code": "PEP Dispensed Medications-69097-446",
         "display": "69097-446"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-2832",
+        "code": "PEP Dispensed Medications-70518-2832",
         "display": "70518-2832"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0003-3622",
+        "code": "PEP Dispensed Medications-0003-3622",
         "display": "0003-3622"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1007",
+        "code": "PEP Dispensed Medications-50090-1007",
         "display": "50090-1007"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54569-5864",
+        "code": "PEP Dispensed Medications-54569-5864",
         "display": "54569-5864"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54868-5838",
+        "code": "PEP Dispensed Medications-54868-5838",
         "display": "54868-5838"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0469",
+        "code": "PEP Dispensed Medications-70518-0469",
         "display": "70518-0469"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1327",
+        "code": "PEP Dispensed Medications-50090-1327",
         "display": "50090-1327"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-52125-613",
+        "code": "PEP Dispensed Medications-52125-613",
         "display": "52125-613"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-59676-566",
+        "code": "PEP Dispensed Medications-59676-566",
         "display": "59676-566"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0566",
+        "code": "PEP Dispensed Medications-69189-0566",
         "display": "69189-0566"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1483",
+        "code": "PEP Dispensed Medications-70518-1483",
         "display": "70518-1483"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49702-246",
+        "code": "PEP Dispensed Medications-49702-246",
         "display": "49702-246"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49702-228",
+        "code": "PEP Dispensed Medications-49702-228",
         "display": "49702-228"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1355",
+        "code": "PEP Dispensed Medications-50090-1355",
         "display": "50090-1355"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53808-1130",
+        "code": "PEP Dispensed Medications-53808-1130",
         "display": "53808-1130"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-61786-771",
+        "code": "PEP Dispensed Medications-61786-771",
         "display": "61786-771"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1818",
+        "code": "PEP Dispensed Medications-67296-1818",
         "display": "67296-1818"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1487",
+        "code": "PEP Dispensed Medications-70518-1487",
         "display": "70518-1487"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-33342-003",
+        "code": "PEP Dispensed Medications-33342-003",
         "display": "33342-003"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-55700-411",
+        "code": "PEP Dispensed Medications-55700-411",
         "display": "55700-411"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-57297-284",
+        "code": "PEP Dispensed Medications-57297-284",
         "display": "57297-284"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-61919-061",
+        "code": "PEP Dispensed Medications-61919-061",
         "display": "61919-061"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-64380-707",
+        "code": "PEP Dispensed Medications-64380-707",
         "display": "64380-707"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68071-3311",
+        "code": "PEP Dispensed Medications-68071-3311",
         "display": "68071-3311"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68180-284",
+        "code": "PEP Dispensed Medications-68180-284",
         "display": "68180-284"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68788-6394",
+        "code": "PEP Dispensed Medications-68788-6394",
         "display": "68788-6394"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-71335-0141",
+        "code": "PEP Dispensed Medications-71335-0141",
         "display": "71335-0141"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-11819-359",
+        "code": "PEP Dispensed Medications-11819-359",
         "display": "11819-359"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0093-5385",
+        "code": "PEP Dispensed Medications-0093-5385",
         "display": "0093-5385"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0378-5180",
+        "code": "PEP Dispensed Medications-0378-5180",
         "display": "0378-5180"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-21695-996",
+        "code": "PEP Dispensed Medications-21695-996",
         "display": "21695-996"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-31722-506",
+        "code": "PEP Dispensed Medications-31722-506",
         "display": "31722-506"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-31722-739",
+        "code": "PEP Dispensed Medications-31722-739",
         "display": "31722-739"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-42291-363",
+        "code": "PEP Dispensed Medications-42291-363",
         "display": "42291-363"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-43063-346",
+        "code": "PEP Dispensed Medications-43063-346",
         "display": "43063-346"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-43063-900",
+        "code": "PEP Dispensed Medications-43063-900",
         "display": "43063-900"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1419",
+        "code": "PEP Dispensed Medications-50090-1419",
         "display": "50090-1419"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-2018",
+        "code": "PEP Dispensed Medications-50090-2018",
         "display": "50090-2018"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-3920",
+        "code": "PEP Dispensed Medications-50090-3920",
         "display": "50090-3920"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50268-456",
+        "code": "PEP Dispensed Medications-50268-456",
         "display": "50268-456"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50436-0597",
+        "code": "PEP Dispensed Medications-50436-0597",
         "display": "50436-0597"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54741-102",
+        "code": "PEP Dispensed Medications-54741-102",
         "display": "54741-102"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-55700-096",
+        "code": "PEP Dispensed Medications-55700-096",
         "display": "55700-096"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-60760-385",
+        "code": "PEP Dispensed Medications-60760-385",
         "display": "60760-385"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-63629-4872",
+        "code": "PEP Dispensed Medications-63629-4872",
         "display": "63629-4872"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-65862-036",
+        "code": "PEP Dispensed Medications-65862-036",
         "display": "65862-036"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-65862-597",
+        "code": "PEP Dispensed Medications-65862-597",
         "display": "65862-597"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68071-4450",
+        "code": "PEP Dispensed Medications-68071-4450",
         "display": "68071-4450"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68084-416",
+        "code": "PEP Dispensed Medications-68084-416",
         "display": "68084-416"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68788-7298",
+        "code": "PEP Dispensed Medications-68788-7298",
         "display": "68788-7298"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-69097-315",
+        "code": "PEP Dispensed Medications-69097-315",
         "display": "69097-315"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-0697",
+        "code": "PEP Dispensed Medications-70518-0697",
         "display": "70518-0697"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-71335-0639",
+        "code": "PEP Dispensed Medications-71335-0639",
         "display": "71335-0639"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-72865-144",
+        "code": "PEP Dispensed Medications-72865-144",
         "display": "72865-144"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-76282-115",
+        "code": "PEP Dispensed Medications-76282-115",
         "display": "76282-115"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-76519-1005",
+        "code": "PEP Dispensed Medications-76519-1005",
         "display": "76519-1005"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0173-0595",
+        "code": "PEP Dispensed Medications-0173-0595",
         "display": "0173-0595"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-16590-061",
+        "code": "PEP Dispensed Medications-16590-061",
         "display": "16590-061"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-21695-846",
+        "code": "PEP Dispensed Medications-21695-846",
         "display": "21695-846"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49349-683",
+        "code": "PEP Dispensed Medications-49349-683",
         "display": "49349-683"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49702-202",
+        "code": "PEP Dispensed Medications-49702-202",
         "display": "49702-202"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-0610",
+        "code": "PEP Dispensed Medications-50090-0610",
         "display": "50090-0610"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-52959-546",
+        "code": "PEP Dispensed Medications-52959-546",
         "display": "52959-546"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0895",
+        "code": "PEP Dispensed Medications-53808-0895",
         "display": "53808-0895"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54569-4524",
+        "code": "PEP Dispensed Medications-54569-4524",
         "display": "54569-4524"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-55289-389",
+        "code": "PEP Dispensed Medications-55289-389",
         "display": "55289-389"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-63379-025",
+        "code": "PEP Dispensed Medications-63379-025",
         "display": "63379-025"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-61919-706",
+        "code": "PEP Dispensed Medications-61919-706",
         "display": "61919-706"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1235",
+        "code": "PEP Dispensed Medications-67296-1235",
         "display": "67296-1235"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0006-0227",
+        "code": "PEP Dispensed Medications-0006-0227",
         "display": "0006-0227"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49349-430",
+        "code": "PEP Dispensed Medications-49349-430",
         "display": "49349-430"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1085",
+        "code": "PEP Dispensed Medications-50090-1085",
         "display": "50090-1085"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0650",
+        "code": "PEP Dispensed Medications-53808-0650",
         "display": "53808-0650"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54569-6034",
+        "code": "PEP Dispensed Medications-54569-6034",
         "display": "54569-6034"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54868-0117",
+        "code": "PEP Dispensed Medications-54868-0117",
         "display": "54868-0117"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-61786-843",
+        "code": "PEP Dispensed Medications-61786-843",
         "display": "61786-843"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-66336-214",
+        "code": "PEP Dispensed Medications-66336-214",
         "display": "66336-214"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68071-2113",
+        "code": "PEP Dispensed Medications-68071-2113",
         "display": "68071-2113"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0227",
+        "code": "PEP Dispensed Medications-69189-0227",
         "display": "69189-0227"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1621",
+        "code": "PEP Dispensed Medications-70518-1621",
         "display": "70518-1621"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-76519-1130",
+        "code": "PEP Dispensed Medications-76519-1130",
         "display": "76519-1130"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0074-6633",
+        "code": "PEP Dispensed Medications-0074-6633",
         "display": "0074-6633"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0074-3399",
+        "code": "PEP Dispensed Medications-0074-3399",
         "display": "0074-3399"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-31722-597",
+        "code": "PEP Dispensed Medications-31722-597",
         "display": "31722-597"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-65162-061",
+        "code": "PEP Dispensed Medications-65162-061",
         "display": "65162-061"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1519",
+        "code": "PEP Dispensed Medications-70518-1519",
         "display": "70518-1519"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0054-0407",
+        "code": "PEP Dispensed Medications-0054-0407",
         "display": "0054-0407"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-60687-364",
+        "code": "PEP Dispensed Medications-60687-364",
         "display": "60687-364"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-60687-420",
+        "code": "PEP Dispensed Medications-60687-420",
         "display": "60687-420"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-65862-687",
+        "code": "PEP Dispensed Medications-65862-687",
         "display": "65862-687"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-67296-1234",
+        "code": "PEP Dispensed Medications-67296-1234",
         "display": "67296-1234"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68382-696",
+        "code": "PEP Dispensed Medications-68382-696",
         "display": "68382-696"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1086",
+        "code": "PEP Dispensed Medications-70518-1086",
         "display": "70518-1086"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-2007",
+        "code": "PEP Dispensed Medications-70518-2007",
         "display": "70518-2007"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0074-3333",
+        "code": "PEP Dispensed Medications-0074-3333",
         "display": "0074-3333"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-50090-1162",
+        "code": "PEP Dispensed Medications-50090-1162",
         "display": "50090-1162"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53808-1119",
+        "code": "PEP Dispensed Medications-53808-1119",
         "display": "53808-1119"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54569-6170",
+        "code": "PEP Dispensed Medications-54569-6170",
         "display": "54569-6170"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-61786-386",
+        "code": "PEP Dispensed Medications-61786-386",
         "display": "61786-386"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-69189-3335",
+        "code": "PEP Dispensed Medications-69189-3335",
         "display": "69189-3335"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-42799-403",
+        "code": "PEP Dispensed Medications-42799-403",
         "display": "42799-403"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-52343-044",
+        "code": "PEP Dispensed Medications-52343-044",
         "display": "52343-044"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53104-0100",
+        "code": "PEP Dispensed Medications-53104-0100",
         "display": "53104-0100"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-64376-128",
+        "code": "PEP Dispensed Medications-64376-128",
         "display": "64376-128"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-65862-107",
+        "code": "PEP Dispensed Medications-65862-107",
         "display": "65862-107"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68084-461",
+        "code": "PEP Dispensed Medications-68084-461",
         "display": "68084-461"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0173-0108",
+        "code": "PEP Dispensed Medications-0173-0108",
         "display": "0173-0108"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49702-211",
+        "code": "PEP Dispensed Medications-49702-211",
         "display": "49702-211"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54868-1974",
+        "code": "PEP Dispensed Medications-54868-1974",
         "display": "54868-1974"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0054-0052",
+        "code": "PEP Dispensed Medications-0054-0052",
         "display": "0054-0052"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-31722-509",
+        "code": "PEP Dispensed Medications-31722-509",
         "display": "31722-509"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49349-838",
+        "code": "PEP Dispensed Medications-49349-838",
         "display": "49349-838"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-61786-984",
+        "code": "PEP Dispensed Medications-61786-984",
         "display": "61786-984"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-69189-0509",
+        "code": "PEP Dispensed Medications-69189-0509",
         "display": "69189-0509"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-70518-1656",
+        "code": "PEP Dispensed Medications-70518-1656",
         "display": "70518-1656"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0378-6106",
+        "code": "PEP Dispensed Medications-0378-6106",
         "display": "0378-6106"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-0527-1905",
+        "code": "PEP Dispensed Medications-0527-1905",
         "display": "0527-1905"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-21695-369",
+        "code": "PEP Dispensed Medications-21695-369",
         "display": "21695-369"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-48792-7809",
+        "code": "PEP Dispensed Medications-48792-7809",
         "display": "48792-7809"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49349-867",
+        "code": "PEP Dispensed Medications-49349-867",
         "display": "49349-867"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-52343-045",
+        "code": "PEP Dispensed Medications-52343-045",
         "display": "52343-045"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53104-0101",
+        "code": "PEP Dispensed Medications-53104-0101",
         "display": "53104-0101"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0812",
+        "code": "PEP Dispensed Medications-53808-0812",
         "display": "53808-0812"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-53808-0878",
+        "code": "PEP Dispensed Medications-53808-0878",
         "display": "53808-0878"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-54569-6171",
+        "code": "PEP Dispensed Medications-54569-6171",
         "display": "54569-6171"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-57237-241",
+        "code": "PEP Dispensed Medications-57237-241",
         "display": "57237-241"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-61786-305",
+        "code": "PEP Dispensed Medications-61786-305",
         "display": "61786-305"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-63629-4144",
+        "code": "PEP Dispensed Medications-63629-4144",
         "display": "63629-4144"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-65862-024",
+        "code": "PEP Dispensed Medications-65862-024",
         "display": "65862-024"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-68084-462",
+        "code": "PEP Dispensed Medications-68084-462",
         "display": "68084-462"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-76365-0300",
+        "code": "PEP Dispensed Medications-76365-0300",
         "display": "76365-0300"
       }, {
-        "code": "Post Exposure Prophylaxis Dispensed Medications-49702-214",
+        "code": "PEP Dispensed Medications-49702-214",
         "display": "49702-214"
       } ]
     } ]

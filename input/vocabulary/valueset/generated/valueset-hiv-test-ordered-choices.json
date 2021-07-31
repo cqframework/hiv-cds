@@ -12,11 +12,11 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "HIV Test Ordered-Human immunodeficiency virus test offered (finding)",
-        "display": "Human immunodeficiency virus test offered (finding)"
+        "code": "HIV Test Ordered-312484002",
+        "display": "312484002"
       }, {
-        "code": "HIV Test Ordered-Human immunodeficiency virus antigen test (procedure)",
-        "display": "Human immunodeficiency virus antigen test (procedure)"
+        "code": "HIV Test Ordered-31676001",
+        "display": "31676001"
       } ]
     } ]
   }

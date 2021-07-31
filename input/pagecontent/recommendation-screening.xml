@@ -1,0 +1,130 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+  <!-- Title / Description -->
+  <details open="true">
+    <summary><h3 class="func-desc">Functional Description</h3></summary>  
+      <a name="func-desc"> </a>
+        <p>
+          <strong>An implementation of the CDC HIV Screening Recommendation utilizing FHIR and CDS-Hooks Integration to establish Clinical Decision Support Workflows for HIV Screening.</strong>
+        </p>
+  </details>
+
+  <!-- Content -->
+  <details open="true">
+    <summary><h3 class="content">Content</h3></summary>
+      <a name="content"> </a>
+        <p>The following artifacts formalize the description of the logic and behavior defined by this recommendation.</p>
+
+        {% include recommendation-screening-content.xml %}
+
+        <a name="common"> </a>
+        <h4>Common Libraries</h4>
+          {% include common-start.html %}
+          {% include common-libraries.html %}
+          {% include common-screening.html %}
+          {% include common-end.html %}
+  </details>
+    
+    <!-- Example Data/Requests -->
+    <details open="true">
+      <summary><h3 class="exampledatarequests">Example Data / Requests</h3></summary>
+        <a name="exampledatarequests"> </a>
+          <table class="grid">
+            <thead>
+            <tr>
+                <th>Description</th><th>Bundle</th><th>CDS Hooks Request</th><th>Expected Response</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td class="col-7" style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 10vw; text-align:center">Patient that is Recommended for HIV Screening.</td>
+                  <td><a href="Bundle-Screening-bundle.json">Test Bundle</a></td>
+                  <td>
+                    <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                      {% highlight json %}{% include assets/files/Screening/request-InclusionPatient.json %}{% endhighlight %}
+                    </div>
+                  </td>
+                  <td>
+                    <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                      {% highlight json %}{% include assets/files/Screening/response-InclusionPatient.json %}{% endhighlight %}
+                    </div>
+                  </td>
+              </tr>
+
+            <tr>
+              <td class="col-7" style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 10vw; text-align:center">Patient that is Excluded from HIV Screening.</td>
+              <td><a href="Bundle-Screening-bundle.json">Test Bundle</a></td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/request-ExclusionPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/response-ExclusionPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="col-7" style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 10vw; text-align:center">Patient that is at High Risk due to STDs.</td>
+              <td><a href="Bundle-Screening-bundle.json">Test Bundle</a></td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/request-HighRiskSTDPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/response-HighRiskSTDPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="col-7" style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 10vw; text-align:center">Patient that is at High Risk due to Injection Drug Use.</td>
+              <td><a href="Bundle-Screening-bundle.json">Test Bundle</a></td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/request-HighRiskIDUPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/response-HighRiskIDUPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="col-7" style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 10vw; text-align:center">Patient that is Pregnant in the Third Trimester while also being High Risk.</td>
+              <td><a href="Bundle-Screening-bundle.json">Test Bundle</a></td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/request-HighRiskPregnantPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/response-HighRiskPregnantPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="col-7" style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 10vw; text-align:center">Patient that is a Sexually Active MSM.</td>
+              <td><a href="Bundle-Screening-bundle.json">Test Bundle</a></td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/request-MSMPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+              <td>
+                <div style="overflow-x: auto; overflow-y: auto; height: 40vh; width: 50vw;">
+                  {% highlight json %}{% include assets/files/Screening/response-MSMPatient.json %}{% endhighlight %}
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+    </details>
+</div>

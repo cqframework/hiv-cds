@@ -78,6 +78,15 @@
       <description value="A Bundle containing Sample Recommendation (Hello HIV World) knowledge artifacts"/>
       <exampleBoolean value="true"/>
     </resource>
+    <resource>
+      <reference>
+          <reference value="Bundle/Screening-bundle"/>
+          <display value="CDC HIV Screening Recommendation Artifact Package"/>
+      </reference>
+      <name value="HIVScreeningBundle"/>
+      <description value="A Bundle containing CDC HIV Screening Recommendation knowledge artifacts"/>
+      <exampleBoolean value="true"/>
+    </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
@@ -106,6 +115,11 @@
       <page>
         <nameUrl value="recommendation-sample.html"/>
         <title value="Sample Recommendation"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="recommendation-screening.html"/>
+        <title value="HIV Screening Recommendation"/>
         <generation value="html"/>
       </page>
       <page>
@@ -148,6 +162,10 @@
     <parameter>
       <code value="path-resource"/>
       <value value="bundles/plandefinition/HelloHIVWorld"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="bundles/plandefinition/Screening"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

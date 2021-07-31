@@ -19,7 +19,7 @@
   "title": "NACHC.F2 Pregnancy",
   "status": "active",
   "experimental": false,
-  "description": "TODO: description goes here",
+  "description": "NACHC - Pregnancy Questionnaire Assessment",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -43,30 +43,36 @@
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de38",
+    "text": "Third Trimester Encounters",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/third-trimester-encounters-choices"
+  }, {
+    "linkId": "3",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de42",
     "text": "Pregnancy Supervision",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-supervision-choices"
   }, {
-    "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de104",
+    "linkId": "4",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de108",
     "text": "Maternal Care",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/maternal-care-choices"
   }, {
-    "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de668",
+    "linkId": "5",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de672",
     "text": "Pregnancy Procedures",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-procedures-choices"
   }, {
-    "linkId": "5",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de900",
+    "linkId": "6",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de904",
     "text": "Pregnancy Observations",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-observations-choices"
   }, {
-    "linkId": "6",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de1128",
+    "linkId": "7",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.f2.de1131",
     "text": "Pregnancy Conditions",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-conditions-choices"

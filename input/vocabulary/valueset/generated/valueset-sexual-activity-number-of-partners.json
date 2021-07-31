@@ -3,10 +3,10 @@
   "id": "sexual-activity-number-of-partners",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-number-of-partners",
   "name": "sexual-activity-number-of-partners",
-  "title": "Sexual Activity -  Number of Partners",
+  "title": "Sexual Activity - Number of Partners",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Sexual Activity -  Number of Partners element",
+  "description": "Codes representing possible values for the Sexual Activity - Number of Partners element",
   "immutable": true,
   "compose": {
     "include": [ {

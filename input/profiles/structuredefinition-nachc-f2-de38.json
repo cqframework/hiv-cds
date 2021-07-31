@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f2-de38",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de38",
-  "name": "Pregnancy Supervision",
-  "title": "Pregnancy Supervision",
+  "name": "Third Trimester Encounters",
+  "title": "Third Trimester Encounters",
   "status": "draft",
   "experimental": false,
-  "description": "Procedures in the usage of the Supervision of Pregnancy",
+  "description": "Third Trimester Encounters in the usage of Pregnancy",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -27,29 +27,29 @@
   } ],
   "kind": "resource",
   "abstract": false,
-  "type": "Procedure",
-  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure",
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter",
   "derivation": "constraint",
   "differential": {
     "element": [ {
-      "id": "Procedure",
-      "path": "Procedure",
+      "id": "Encounter",
+      "path": "Encounter",
       "mustSupport": false
     }, {
-      "id": "Procedure.code",
-      "path": "Procedure.code",
-      "short": "Pregnancy Supervision",
-      "comment": "Pregnancy Supervision mapping",
+      "id": "Encounter.type",
+      "path": "Encounter.type",
+      "short": "Third Trimester Encounters",
+      "comment": "Third Trimester Pregnancy Encounter mapping",
       "min": 1,
       "max": "*",
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Pregnancy Supervision Choices"
+          "valueString": "Third Trimester Encounters Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-supervision-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/third-trimester-encounters-choices"
       },
       "mapping": [ {
         "identity": "HIV",

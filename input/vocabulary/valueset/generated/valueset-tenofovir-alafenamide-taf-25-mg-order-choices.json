@@ -12,17 +12,17 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG",
-        "display": "tenofovir alafenamide 25 MG"
+        "code": "Prep Medication Prescriptions-1741729",
+        "display": "1741729"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG Oral Tablet",
-        "display": "tenofovir alafenamide 25 MG Oral Tablet"
+        "code": "Prep Medication Prescriptions-1858261",
+        "display": "1858261"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG [Vemlidy]",
-        "display": "tenofovir alafenamide 25 MG [Vemlidy]"
+        "code": "Prep Medication Prescriptions-1858263",
+        "display": "1858263"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]",
-        "display": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]"
+        "code": "Prep Medication Prescriptions-1858267",
+        "display": "1858267"
       } ]
     } ]
   }

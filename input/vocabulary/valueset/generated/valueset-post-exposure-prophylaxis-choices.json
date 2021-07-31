@@ -12,14 +12,14 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Post Exposure Prophylaxis-Post-exposure prophylaxis",
-        "display": "Post-exposure prophylaxis"
+        "code": "Post Exposure Prophylaxis-409516001",
+        "display": "409516001"
       }, {
-        "code": "Post Exposure Prophylaxis-Administration of prophylactic agent after sexual exposure (procedure)",
-        "display": "Administration of prophylactic agent after sexual exposure (procedure)"
+        "code": "Post Exposure Prophylaxis-736459001",
+        "display": "736459001"
       }, {
-        "code": "Post Exposure Prophylaxis-Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)",
-        "display": "Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)"
+        "code": "Post Exposure Prophylaxis-473382005",
+        "display": "473382005"
       } ]
     } ]
   }

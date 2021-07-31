@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de24",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de24",
-  "name": "Sexual Activity - Exchanged for Sex",
-  "title": "Sexual Activity - Exchanged for Sex",
+  "name": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
+  "title": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
   "status": "draft",
   "experimental": false,
-  "description": "Have you ever exchanged sex for drugs or money?",
+  "description": "If Male: In the past 3 months have you had receptive anal sex?",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,17 +38,17 @@
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
-      "short": "Sexual Activity - Exchanged for Sex",
+      "short": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
       "min": 1,
       "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Sexual Activity - Exchanged for Sex"
+          "valueString": "Sexual Activity - Male - Kind of Sex - Receptive Anal"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-exchanged-for-sex"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-male-kind-of-sex-receptive-anal"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -57,7 +57,7 @@
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
-      "short": "Sexual Activity - Exchanged for Sex",
+      "short": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
       "min": 0,
       "max": "1",
       "type": [ {

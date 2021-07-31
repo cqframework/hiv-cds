@@ -19,7 +19,7 @@
   "title": "NACHC.E2 Chlamydia test",
   "status": "active",
   "experimental": false,
-  "description": "TODO: description goes here",
+  "description": "NACHC - Chlamydia Test Questionnaire Assessment",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",

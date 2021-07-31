@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-secondary-sites-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-secondary-sites-choices",
+  "name": "gonorrhea-secondary-sites-choices",
+  "title": "Gonorrhea Secondary Sites Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Secondary Sites Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gonorrhea Diagnosis-10754031000119100",
+        "display": "10754031000119100"
+      }, {
+        "code": "Gonorrhea Diagnosis-1086991000119100",
+        "display": "1086991000119100"
+      }, {
+        "code": "Gonorrhea Diagnosis-1087001000119110",
+        "display": "1087001000119110"
+      }, {
+        "code": "Gonorrhea Diagnosis-1087011000119110",
+        "display": "1087011000119110"
+      }, {
+        "code": "Gonorrhea Diagnosis-1087061000119110",
+        "display": "1087061000119110"
+      }, {
+        "code": "Gonorrhea Diagnosis-1092501000119100",
+        "display": "1092501000119100"
+      }, {
+        "code": "Gonorrhea Diagnosis-1092601000119100",
+        "display": "1092601000119100"
+      }, {
+        "code": "Gonorrhea Diagnosis-194910001",
+        "display": "194910001"
+      }, {
+        "code": "Gonorrhea Diagnosis-240580007",
+        "display": "240580007"
+      }, {
+        "code": "Gonorrhea Diagnosis-240584003",
+        "display": "240584003"
+      }, {
+        "code": "Gonorrhea Diagnosis-342381000119109",
+        "display": "342381000119109"
+      }, {
+        "code": "Gonorrhea Diagnosis-733131001",
+        "display": "733131001"
+      }, {
+        "code": "Gonorrhea Diagnosis-735516004",
+        "display": "735516004"
+      }, {
+        "code": "Gonorrhea Diagnosis-90428001",
+        "display": "90428001"
+      } ]
+    } ]
+  }
+}

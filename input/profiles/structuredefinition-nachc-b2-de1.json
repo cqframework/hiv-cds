@@ -78,26 +78,6 @@
         "identity": "HIV",
         "map": "NACHC.B2.DE1"
       } ]
-    }, {
-      "id": "Procedure.code",
-      "path": "Procedure.code",
-      "short": "Hepatitis C Procedures",
-      "comment": "HCV test Procedure mapping??Sourced: https://confluence.nachc.org/pages/viewpage.action?pageId=14485048",
-      "min": 1,
-      "max": "*",
-      "mustSupport": true,
-      "binding": {
-        "extension": [ {
-          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Hepatitis C Procedures Choices"
-        } ],
-        "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-procedures-choices"
-      },
-      "mapping": [ {
-        "identity": "HIV",
-        "map": "NACHC.B2.DE1"
-      } ]
     } ]
   }
 }

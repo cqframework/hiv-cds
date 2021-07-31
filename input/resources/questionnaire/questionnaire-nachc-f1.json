@@ -19,7 +19,7 @@
   "title": "NACHC.F1 Injection Drug Use",
   "status": "active",
   "experimental": false,
-  "description": "TODO: description goes here",
+  "description": "NACHC - IDU Questionnaire Assessment",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",

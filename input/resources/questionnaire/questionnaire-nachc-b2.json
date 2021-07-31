@@ -19,7 +19,7 @@
   "title": "NACHC.B2 HCV test",
   "status": "active",
   "experimental": false,
-  "description": "TODO: description goes here",
+  "description": "NACHC - HCV Test Questionnaire Assessment",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -42,7 +42,7 @@
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-test-choices-grouper"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.b2.de1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.b2.de112",
     "text": "Hepatitis C Procedures",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-procedures-choices"

@@ -77,82 +77,92 @@
   }, {
     "linkId": "9",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de9",
-    "text": "Previous experience with PREP",
+    "text": "Seeking STD Treatment",
     "type": "boolean"
   }, {
     "linkId": "10",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de10",
-    "text": "Sexual Activity - Past Year",
+    "text": "Previous experience with PREP",
     "type": "boolean"
   }, {
     "linkId": "11",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de11",
-    "text": "Sexual Activity -  History",
+    "text": "Sexual Activity - Past Year",
     "type": "boolean"
   }, {
     "linkId": "12",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de12",
-    "text": "Sexual Activity - Men",
+    "text": "Sexual Activity - History",
     "type": "boolean"
   }, {
     "linkId": "13",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de13",
-    "text": "Sexual Activity -  Women",
+    "text": "Sexual Activity - Men",
     "type": "boolean"
   }, {
     "linkId": "14",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de14",
-    "text": "Sexual Activity -  Number of Partners",
+    "text": "Sexual Activity - Women",
     "type": "boolean"
   }, {
     "linkId": "15",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de15",
-    "text": "Sexual Activity - New Partner Past 3 Months",
+    "text": "Sexual Activity - Number of Partners",
     "type": "boolean"
   }, {
     "linkId": "16",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de16",
-    "text": "Sexual Activity -  Partners History",
+    "text": "Sexual Activity - New Partner Past 3 Months",
     "type": "boolean"
   }, {
     "linkId": "17",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de17",
-    "text": "Sexual Activity -  Partners Number of Partners",
+    "text": "Sexual Activity - Partners History",
     "type": "boolean"
   }, {
     "linkId": "18",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de18",
-    "text": "Sexual Activity -  Coercion",
+    "text": "Sexual Activity - Partners Number of Partners",
     "type": "boolean"
   }, {
     "linkId": "19",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de19",
-    "text": "Sexual Activity - Kind of Sex - Anal",
+    "text": "Sexual Activity - Partners HIV History",
     "type": "boolean"
   }, {
     "linkId": "20",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de20",
-    "text": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
+    "text": "Sexual Activity - Drug or Alcohol Use",
     "type": "boolean"
   }, {
     "linkId": "21",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de21",
-    "text": "Sexual Activity - Male - Kind of Sex - Insertive Anal",
+    "text": "Sexual Activity - Exchanged for Sex",
     "type": "boolean"
   }, {
     "linkId": "22",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de22",
-    "text": "Sexual Activity - Kind of Sex - Vaginal",
+    "text": "Sexual Activity - Coercion",
     "type": "boolean"
   }, {
     "linkId": "23",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de23",
-    "text": "Sexual Activity - Drug or Alcohol Use",
+    "text": "Sexual Activity - Kind of Sex - Anal",
     "type": "boolean"
   }, {
     "linkId": "24",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de24",
-    "text": "Sexual Activity - Exchanged for Sex",
+    "text": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
+    "type": "boolean"
+  }, {
+    "linkId": "25",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de25",
+    "text": "Sexual Activity - Male - Kind of Sex - Insertive Anal",
+    "type": "boolean"
+  }, {
+    "linkId": "26",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc.h1.de26",
+    "text": "Sexual Activity - Kind of Sex - Vaginal",
     "type": "boolean"
   } ]
 }

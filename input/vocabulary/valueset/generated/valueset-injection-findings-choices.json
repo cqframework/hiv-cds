@@ -12,11 +12,11 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Injection Findings-Injects drugs intramuscularly (finding)",
-        "display": "Injects drugs intramuscularly (finding)"
+        "code": "Injection Findings-228387001",
+        "display": "228387001"
       }, {
-        "code": "Injection Findings-Groin injector (finding)",
-        "display": "Groin injector (finding)"
+        "code": "Injection Findings-228389003",
+        "display": "228389003"
       } ]
     } ]
   }

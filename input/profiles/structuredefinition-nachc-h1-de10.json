@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de10",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de10",
-  "name": "Sexual Activity - Past Year",
-  "title": "Sexual Activity - Past Year",
+  "name": "Previous experience with PREP",
+  "title": "Previous experience with PREP",
   "status": "draft",
   "experimental": false,
-  "description": "Have you been sexually active in the past year?",
+  "description": "Whether the patient has previously been given PREP?",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,17 +38,17 @@
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
-      "short": "Sexual Activity - Past Year",
+      "short": "Previous experience with PREP",
       "min": 1,
       "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Sexual Activity - Past Year"
+          "valueString": "Pre Exposure Prophylaxis Medication Prescriptions"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-past-year"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pre-exposure-prophylaxis-medication-prescriptions"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -57,7 +57,7 @@
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
-      "short": "Sexual Activity - Past Year",
+      "short": "Previous experience with PREP",
       "min": 0,
       "max": "1",
       "type": [ {

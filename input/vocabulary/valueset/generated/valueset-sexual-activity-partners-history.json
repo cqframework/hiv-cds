@@ -3,10 +3,10 @@
   "id": "sexual-activity-partners-history",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-partners-history",
   "name": "sexual-activity-partners-history",
-  "title": "Sexual Activity -  Partners History",
+  "title": "Sexual Activity - Partners History",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Sexual Activity -  Partners History element",
+  "description": "Codes representing possible values for the Sexual Activity - Partners History element",
   "immutable": true,
   "compose": {
     "include": [ {

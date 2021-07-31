@@ -12,113 +12,113 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pregnancy Encounters-Encounter for suspected problem with amniotic cavity and membrane ruled out",
-        "display": "Encounter for suspected problem with amniotic cavity and membrane ruled out"
+        "code": "Pregnancy Encounters-Z03.71",
+        "display": "Z03.71"
       }, {
-        "code": "Pregnancy Encounters-Encounter for suspected placental problem ruled out",
-        "display": "Encounter for suspected placental problem ruled out"
+        "code": "Pregnancy Encounters-Z03.72",
+        "display": "Z03.72"
       }, {
-        "code": "Pregnancy Encounters-Encounter for suspected fetal anomaly ruled out",
-        "display": "Encounter for suspected fetal anomaly ruled out"
+        "code": "Pregnancy Encounters-Z03.73",
+        "display": "Z03.73"
       }, {
-        "code": "Pregnancy Encounters-Encounter for suspected problem with fetal growth ruled out",
-        "display": "Encounter for suspected problem with fetal growth ruled out"
+        "code": "Pregnancy Encounters-Z03.74",
+        "display": "Z03.74"
       }, {
-        "code": "Pregnancy Encounters-Encounter for suspected cervical shortening ruled out",
-        "display": "Encounter for suspected cervical shortening ruled out"
+        "code": "Pregnancy Encounters-Z03.75",
+        "display": "Z03.75"
       }, {
-        "code": "Pregnancy Encounters-Encounter for other suspected maternal and fetal conditions ruled out",
-        "display": "Encounter for other suspected maternal and fetal conditions ruled out"
+        "code": "Pregnancy Encounters-Z03.79",
+        "display": "Z03.79"
       }, {
-        "code": "Pregnancy Encounters-Encounter for elective termination of pregnancy",
-        "display": "Encounter for elective termination of pregnancy"
+        "code": "Pregnancy Encounters-Z33.2",
+        "display": "Z33.2"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal first pregnancy, unspecified trimester",
-        "display": "Encounter for supervision of normal first pregnancy, unspecified trimester"
+        "code": "Pregnancy Encounters-Z34.00",
+        "display": "Z34.00"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal first pregnancy, first trimester",
-        "display": "Encounter for supervision of normal first pregnancy, first trimester"
+        "code": "Pregnancy Encounters-Z34.01",
+        "display": "Z34.01"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal first pregnancy, second trimester",
-        "display": "Encounter for supervision of normal first pregnancy, second trimester"
+        "code": "Pregnancy Encounters-Z34.02",
+        "display": "Z34.02"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal first pregnancy, third trimester",
-        "display": "Encounter for supervision of normal first pregnancy, third trimester"
+        "code": "Pregnancy Encounters-Z34.03",
+        "display": "Z34.03"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of other normal pregnancy, unspecified trimester",
-        "display": "Encounter for supervision of other normal pregnancy, unspecified trimester"
+        "code": "Pregnancy Encounters-Z34.80",
+        "display": "Z34.80"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of other normal pregnancy, first trimester",
-        "display": "Encounter for supervision of other normal pregnancy, first trimester"
+        "code": "Pregnancy Encounters-Z34.81",
+        "display": "Z34.81"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of other normal pregnancy, second trimester",
-        "display": "Encounter for supervision of other normal pregnancy, second trimester"
+        "code": "Pregnancy Encounters-Z34.82",
+        "display": "Z34.82"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of other normal pregnancy, third trimester",
-        "display": "Encounter for supervision of other normal pregnancy, third trimester"
+        "code": "Pregnancy Encounters-Z34.83",
+        "display": "Z34.83"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal pregnancy, unspecified, unspecified trimester",
-        "display": "Encounter for supervision of normal pregnancy, unspecified, unspecified trimester"
+        "code": "Pregnancy Encounters-Z34.90",
+        "display": "Z34.90"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal pregnancy, unspecified, first trimester",
-        "display": "Encounter for supervision of normal pregnancy, unspecified, first trimester"
+        "code": "Pregnancy Encounters-Z34.91",
+        "display": "Z34.91"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal pregnancy, unspecified, second trimester",
-        "display": "Encounter for supervision of normal pregnancy, unspecified, second trimester"
+        "code": "Pregnancy Encounters-Z34.92",
+        "display": "Z34.92"
       }, {
-        "code": "Pregnancy Encounters-Encounter for supervision of normal pregnancy, unspecified, third trimester",
-        "display": "Encounter for supervision of normal pregnancy, unspecified, third trimester"
+        "code": "Pregnancy Encounters-Z34.93",
+        "display": "Z34.93"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening of mother",
-        "display": "Encounter for antenatal screening of mother"
+        "code": "Pregnancy Encounters-Z36",
+        "display": "Z36"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for chromosomal anomalies",
-        "display": "Encounter for antenatal screening for chromosomal anomalies"
+        "code": "Pregnancy Encounters-Z36.0",
+        "display": "Z36.0"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for raised alphafetoprotein level",
-        "display": "Encounter for antenatal screening for raised alphafetoprotein level"
+        "code": "Pregnancy Encounters-Z36.1",
+        "display": "Z36.1"
       }, {
-        "code": "Pregnancy Encounters-Encounter for other antenatal screening follow-up",
-        "display": "Encounter for other antenatal screening follow-up"
+        "code": "Pregnancy Encounters-Z36.2",
+        "display": "Z36.2"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for malformations",
-        "display": "Encounter for antenatal screening for malformations"
+        "code": "Pregnancy Encounters-Z36.3",
+        "display": "Z36.3"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for fetal growth retardation",
-        "display": "Encounter for antenatal screening for fetal growth retardation"
+        "code": "Pregnancy Encounters-Z36.4",
+        "display": "Z36.4"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for isoimmunization",
-        "display": "Encounter for antenatal screening for isoimmunization"
+        "code": "Pregnancy Encounters-Z36.5",
+        "display": "Z36.5"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for hydrops fetalis",
-        "display": "Encounter for antenatal screening for hydrops fetalis"
+        "code": "Pregnancy Encounters-Z36.81",
+        "display": "Z36.81"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for nuchal translucency",
-        "display": "Encounter for antenatal screening for nuchal translucency"
+        "code": "Pregnancy Encounters-Z36.82",
+        "display": "Z36.82"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for fetal lung maturity",
-        "display": "Encounter for antenatal screening for fetal lung maturity"
+        "code": "Pregnancy Encounters-Z36.84",
+        "display": "Z36.84"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for Streptococcus B",
-        "display": "Encounter for antenatal screening for Streptococcus B"
+        "code": "Pregnancy Encounters-Z36.85",
+        "display": "Z36.85"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for cervical length",
-        "display": "Encounter for antenatal screening for cervical length"
+        "code": "Pregnancy Encounters-Z36.86",
+        "display": "Z36.86"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for uncertain dates",
-        "display": "Encounter for antenatal screening for uncertain dates"
+        "code": "Pregnancy Encounters-Z36.87",
+        "display": "Z36.87"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for fetal macrosomia",
-        "display": "Encounter for antenatal screening for fetal macrosomia"
+        "code": "Pregnancy Encounters-Z36.88",
+        "display": "Z36.88"
       }, {
-        "code": "Pregnancy Encounters-Encounter for other specified antenatal screening",
-        "display": "Encounter for other specified antenatal screening"
+        "code": "Pregnancy Encounters-Z36.89",
+        "display": "Z36.89"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening for other genetic defects",
-        "display": "Encounter for antenatal screening for other genetic defects"
+        "code": "Pregnancy Encounters-Z36.8A",
+        "display": "Z36.8A"
       }, {
-        "code": "Pregnancy Encounters-Encounter for antenatal screening, unspecified",
-        "display": "Encounter for antenatal screening, unspecified"
+        "code": "Pregnancy Encounters-Z36.9",
+        "display": "Z36.9"
       } ]
     } ]
   }

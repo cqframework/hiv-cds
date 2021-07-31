@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-tests-for-neisseria-species-by-culture-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-for-neisseria-species-by-culture-choices",
+  "name": "gonorrhea-tests-for-neisseria-species-by-culture-choices",
+  "title": "Gonorrhea Tests for Neisseria species by Culture Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Tests for Neisseria species by Culture Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gonorrhea Test-43383-9",
+        "display": "43383-9"
+      }, {
+        "code": "Gonorrhea Test-43384-7",
+        "display": "43384-7"
+      }, {
+        "code": "Gonorrhea Test-43385-4",
+        "display": "43385-4"
+      }, {
+        "code": "Gonorrhea Test-43386-2",
+        "display": "43386-2"
+      }, {
+        "code": "Gonorrhea Test-43387-0",
+        "display": "43387-0"
+      }, {
+        "code": "Gonorrhea Test-80369-2",
+        "display": "80369-2"
+      } ]
+    } ]
+  }
+}

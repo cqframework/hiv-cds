@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pep-dispensed-medications",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pep-dispensed-medications",
+  "name": "pep-dispensed-medications",
+  "title": "PEP Dispensed Medications",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the PEP Dispensed Medications element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "PEP Dispensed Medications",
+        "display": "PEP Dispensed Medications"
+      } ]
+    } ]
+  }
+}

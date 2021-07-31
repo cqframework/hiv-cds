@@ -15,12 +15,9 @@ codesystem "Diagnosis Role": 'http://terminology.hl7.org/CodeSystem/diagnosis-ro
 codesystem "RequestIntent": 'http://terminology.hl7.org/CodeSystem/request-intent'
 codesystem "MedicationRequestCategory": 'http://terminology.hl7.org/CodeSystem/medicationrequest-category'
 codesystem "ConditionClinicalStatusCodes": 'http://terminology.hl7.org/CodeSystem/condition-clinical'
-codesystem "ConditionVerificationStatusCodes": 'http://terminology.hl7.org/CodeSystem/condition-verification'
+codesystem "ConditionVerificationStatusCodes": 'http://terminology.hl7.org/ValueSet/condition-ver-status'
 codesystem "AllergyIntoleranceClinicalStatusCodes": 'http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical'
 codesystem "AllergyIntoleranceVerificationStatusCodes": 'http://terminology.hl7.org/CodeSystem/allergyintolerance-verification'
-
-valueset "Active Condition": 'http://fhir.org/guides/cqf/cqf-common/ValueSet/active-condition'
-valueset "Inactive Condition": 'http://fhir.org/guides/cqf/cqf-common/ValueSet/inactive-condition'
 
 code "Birthdate": '21112-8' from "LOINC" display 'Birth date'
 code "Dead": '419099009' from "SNOMEDCT" display 'Dead'
@@ -104,7 +101,11 @@ define function ToInterval(choice Choice<FHIR.dateTime, FHIR.Period, FHIR.Timing
 a run-time exception if used with a Condition instance that has a String as the abatement value.
 */
 define function ToAbatementInterval(condition Condition):
-	if condition.abatement is FHIR.dateTime then
+  if condition.onset is not null and condition.abatement is null and (condition.clinicalStatus ~ "active"
+    or condition.clinicalStatus ~ "recurrence"
+    or condition.clinicalStatus ~ "relapse") then
+    Interval[Now(), Now()]
+  else if condition.abatement is FHIR.dateTime then
 	  Interval[FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime), FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime)]
 	else if condition.abatement is FHIR.Period then
 	  FHIRHelpers.ToInterval(condition.abatement as FHIR.Period)

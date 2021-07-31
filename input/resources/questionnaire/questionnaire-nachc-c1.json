@@ -19,7 +19,7 @@
   "title": "NACHC.C1 Syphilis",
   "status": "active",
   "experimental": false,
-  "description": "TODO: description goes here",
+  "description": "NACHC - Syphilis Questionnaire Assessment",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",

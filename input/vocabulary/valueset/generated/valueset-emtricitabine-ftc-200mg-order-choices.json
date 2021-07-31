@@ -12,20 +12,20 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Capsule",
-        "display": "emtricitabine 200 MG Oral Capsule"
+        "code": "Prep Medication Prescriptions-403875",
+        "display": "403875"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Capsule [Emtriva]",
-        "display": "emtricitabine 200 MG Oral Capsule [Emtriva]"
+        "code": "Prep Medication Prescriptions-404587",
+        "display": "404587"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG",
-        "display": "emtricitabine 200 MG"
+        "code": "Prep Medication Prescriptions-406016",
+        "display": "406016"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG [Emtriva]",
-        "display": "emtricitabine 200 MG [Emtriva]"
+        "code": "Prep Medication Prescriptions-576513",
+        "display": "576513"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG Oral Tablet",
-        "display": "emtricitabine 200 MG Oral Tablet"
+        "code": "Prep Medication Prescriptions-639883",
+        "display": "639883"
       } ]
     } ]
   }

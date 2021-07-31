@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "third-trimester-encounters-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/third-trimester-encounters-choices",
+  "name": "third-trimester-encounters-choices",
+  "title": "Third Trimester Encounters Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Third Trimester Encounters Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Third Trimester Encounters-Z34.03",
+        "display": "Z34.03"
+      }, {
+        "code": "Third Trimester Encounters-Z34.83",
+        "display": "Z34.83"
+      }, {
+        "code": "Third Trimester Encounters-Z34.93",
+        "display": "Z34.93"
+      } ]
+    } ]
+  }
+}

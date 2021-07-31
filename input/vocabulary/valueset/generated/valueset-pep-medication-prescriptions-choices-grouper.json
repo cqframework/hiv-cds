@@ -1,0 +1,479 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pep-medication-prescriptions-choices-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pep-medication-prescriptions-choices-grouper",
+  "name": "PEP Medication Prescriptions Choices Grouper",
+  "title": "PEP Medication Prescriptions Choices Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-07-31T04:35:49-06:00",
+  "description": "Group Valueset with codes representing possible values for the PEP Medication Prescriptions Choices Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/preferred-npep-order-choices" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/alternative-npep-order-choices" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2021-07-31T04:35:49-06:00",
+    "contains": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1359268",
+      "display": "1359268"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1359270",
+      "display": "1359270"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1359269",
+      "display": "1359269"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1359271",
+      "display": "1359271"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1433869",
+      "display": "1433869"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-2122522",
+      "display": "2122522"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-2122519",
+      "display": "2122519"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-2122526",
+      "display": "2122526"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1433875",
+      "display": "1433875"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1433873",
+      "display": "1433873"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1433879",
+      "display": "1433879"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-317359",
+      "display": "317359"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-573284",
+      "display": "573284"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-205290",
+      "display": "205290"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-213390",
+      "display": "213390"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1088481",
+      "display": "1088481"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-315853",
+      "display": "315853"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-573286",
+      "display": "573286"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-205292",
+      "display": "205292"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-213392",
+      "display": "213392"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-350652",
+      "display": "350652"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-643068",
+      "display": "643068"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-643066",
+      "display": "643066"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-643070",
+      "display": "643070"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-575878",
+      "display": "575878"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-349477",
+      "display": "349477"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-352143",
+      "display": "352143"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-639887",
+      "display": "639887"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-476556",
+      "display": "476556"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-639888",
+      "display": "639888"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-139896",
+      "display": "139896"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1736574",
+      "display": "1736574"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1736577",
+      "display": "1736577"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-401981",
+      "display": "401981"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-404460",
+      "display": "404460"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-402414",
+      "display": "402414"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-576416",
+      "display": "576416"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1161890",
+      "display": "1161890"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-402415",
+      "display": "402415"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-406055",
+      "display": "406055"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1736575",
+      "display": "1736575"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1736578",
+      "display": "1736578"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-402364",
+      "display": "402364"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-576110",
+      "display": "576110"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-402109",
+      "display": "402109"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-402110",
+      "display": "402110"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-728221",
+      "display": "728221"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-729199",
+      "display": "729199"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-728223",
+      "display": "728223"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-729201",
+      "display": "729201"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-728224",
+      "display": "728224"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-729202",
+      "display": "729202"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-728225",
+      "display": "728225"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-729203",
+      "display": "729203"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-744840",
+      "display": "744840"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-744844",
+      "display": "744844"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-744842",
+      "display": "744842"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-744846",
+      "display": "744846"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1924312",
+      "display": "1924312"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1924314",
+      "display": "1924314"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1924313",
+      "display": "1924313"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1924315",
+      "display": "1924315"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-317488",
+      "display": "317488"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-565134",
+      "display": "565134"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-317150",
+      "display": "317150"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-152970",
+      "display": "152970"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1926066",
+      "display": "1926066"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-1926069",
+      "display": "1926069"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-900575",
+      "display": "900575"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-900577",
+      "display": "900577"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-859862",
+      "display": "859862"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-859864",
+      "display": "859864"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-859863",
+      "display": "859863"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-859865",
+      "display": "859865"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-328624",
+      "display": "328624"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-565117",
+      "display": "565117"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-313107",
+      "display": "313107"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-152941",
+      "display": "152941"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-328625",
+      "display": "328625"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-565118",
+      "display": "565118"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-313108",
+      "display": "313108"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-152942",
+      "display": "152942"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-328627",
+      "display": "328627"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-565119",
+      "display": "565119"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-313109",
+      "display": "313109"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-152943",
+      "display": "152943"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-330498",
+      "display": "330498"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-565120",
+      "display": "565120"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-313110",
+      "display": "313110"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-152944",
+      "display": "152944"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-393334",
+      "display": "393334"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-575802",
+      "display": "575802"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-349251",
+      "display": "349251"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-352050",
+      "display": "352050"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-664740",
+      "display": "664740"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-664742",
+      "display": "664742"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-664741",
+      "display": "664741"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-664743",
+      "display": "664743"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-368309",
+      "display": "368309"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-573017",
+      "display": "573017"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-200082",
+      "display": "200082"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-213088",
+      "display": "213088"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-350655",
+      "display": "350655"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-575950",
+      "display": "575950"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-349491",
+      "display": "349491"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-352230",
+      "display": "352230"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-316915",
+      "display": "316915"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-566052",
+      "display": "566052"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-198352",
+      "display": "198352"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-201907",
+      "display": "201907"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-316916",
+      "display": "316916"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-565059",
+      "display": "565059"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-199663",
+      "display": "199663"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "PEP Medication Prescriptions-152772",
+      "display": "152772"
+    } ]
+  }
+}

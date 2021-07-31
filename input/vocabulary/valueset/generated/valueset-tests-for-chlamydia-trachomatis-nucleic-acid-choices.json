@@ -12,86 +12,86 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Blood by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Blood by NAA with probe detection"
+        "code": "Chlamydia Test-16599-3",
+        "display": "16599-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urine by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Urine by Probe"
+        "code": "Chlamydia Test-16601-7",
+        "display": "16601-7"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Conjunctival specimen by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Conjunctival specimen by NAA with probe detection"
+        "code": "Chlamydia Test-21187-0",
+        "display": "21187-0"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Conjunctival specimen by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Conjunctival specimen by Probe"
+        "code": "Chlamydia Test-21188-8",
+        "display": "21188-8"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Cervical mucus by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Cervical mucus by NAA with probe detection"
+        "code": "Chlamydia Test-21189-6",
+        "display": "21189-6"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Urethra by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by Probe"
+        "code": "Chlamydia Test-21192-0",
+        "display": "21192-0"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Blood by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Blood by Probe"
+        "code": "Chlamydia Test-38469-3",
+        "display": "38469-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe",
-        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
+        "code": "Chlamydia Test-45067-6",
+        "display": "45067-6"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe",
-        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe"
+        "code": "Chlamydia Test-45070-0",
+        "display": "45070-0"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe",
-        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe"
+        "code": "Chlamydia Test-45072-6",
+        "display": "45072-6"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe",
-        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe"
+        "code": "Chlamydia Test-45073-4",
+        "display": "45073-4"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe",
-        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe"
+        "code": "Chlamydia Test-45074-2",
+        "display": "45074-2"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Cervix by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by Probe"
+        "code": "Chlamydia Test-45078-3",
+        "display": "45078-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by Probe"
+        "code": "Chlamydia Test-45080-9",
+        "display": "45080-9"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Nasopharynx by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by Probe"
+        "code": "Chlamydia Test-45085-8",
+        "display": "45085-8"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Nasopharynx by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Nasopharynx by NAA with probe detection"
+        "code": "Chlamydia Test-45086-6",
+        "display": "45086-6"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Anal by Probe",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Anal by Probe"
+        "code": "Chlamydia Test-45089-0",
+        "display": "45089-0"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Anal by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Anal by NAA with probe detection"
+        "code": "Chlamydia Test-45090-8",
+        "display": "45090-8"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Semen by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Semen by NAA with probe detection"
+        "code": "Chlamydia Test-51578-3",
+        "display": "51578-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Anal by NAA with probe detection",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Anal by NAA with probe detection"
+        "code": "Chlamydia Test-57287-5",
+        "display": "57287-5"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Nasopharynx by NAA with probe detection",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by NAA with probe detection"
+        "code": "Chlamydia Test-57288-3",
+        "display": "57288-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Rectum by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Rectum by NAA with probe detection"
+        "code": "Chlamydia Test-80363-5",
+        "display": "80363-5"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Rectum by NAA with probe detection",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Rectum by NAA with probe detection"
+        "code": "Chlamydia Test-80364-3",
+        "display": "80364-3"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection",
-        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
+        "code": "Chlamydia Test-80365-0",
+        "display": "80365-0"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis rRNA [Presence] in Throat by NAA with probe detection",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Throat by NAA with probe detection"
+        "code": "Chlamydia Test-82306-2",
+        "display": "82306-2"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Tissue by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Tissue by NAA with probe detection"
+        "code": "Chlamydia Test-87949-4",
+        "display": "87949-4"
       }, {
-        "code": "Chlamydia Test-Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection",
-        "display": "Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection"
+        "code": "Chlamydia Test-88221-7",
+        "display": "88221-7"
       } ]
     } ]
   }

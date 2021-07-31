@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prep-medication-prescriptions",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/prep-medication-prescriptions",
+  "name": "prep-medication-prescriptions",
+  "title": "Prep Medication Prescriptions",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Prep Medication Prescriptions element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Prep Medication Prescriptions",
+        "display": "Prep Medication Prescriptions"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "Observation",
+  "id": "MSMPatient-observation-screening-1",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a2-de1"
+    ]
+  },
+  "status": "final",
+  "category": {
+    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version": "4.0.1",
+    "code": "laboratory",
+    "display": "Laboratory"
+  },
+  "code": {
+      "coding": [
+        {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "HIV Test",
+          "display": "HIV Test"
+        }
+      ]
+  },
+  "subject": {
+    "reference": "Patient/MSMPatient"
+  },
+  "effectiveDateTime": "2020-06-08T10:20:00-07:00",
+  "valueCodeableConcept": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "HIV Test-25835-0",
+          "display": "25835-0"
+        }
+      ]
+    }
+  ]
+}

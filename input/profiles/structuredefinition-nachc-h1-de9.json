@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de9",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de9",
-  "name": "Previous experience with PREP",
-  "title": "Previous experience with PREP",
+  "name": "Seeking STD Treatment",
+  "title": "Seeking STD Treatment",
   "status": "draft",
   "experimental": false,
-  "description": "Whether the patient has previously been given PREP?",
+  "description": "Whether the patient is currently seeking evaluation and treatment of an STD?",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,17 +38,17 @@
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
-      "short": "Previous experience with PREP",
+      "short": "Seeking STD Treatment",
       "min": 1,
       "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Pre Exposure Prophylaxis Medication Prescriptions"
+          "valueString": "Seeking STD Treatment"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pre-exposure-prophylaxis-medication-prescriptions"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/seeking-std-treatment"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -57,7 +57,7 @@
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
-      "short": "Previous experience with PREP",
+      "short": "Seeking STD Treatment",
       "min": 0,
       "max": "1",
       "type": [ {

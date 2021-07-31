@@ -12,716 +12,698 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pregnancy Procedures-Incision and drainage of vaginal hematoma",
-        "display": "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
+        "code": "Pregnancy Procedures-57022",
+        "display": "57022"
       }, {
-        "code": "obstetrical/postpartum",
-        "display": "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
+        "code": "Pregnancy Procedures-58600",
+        "display": "58600"
       }, {
-        "code": "Pregnancy Procedures-Ligation or transection of fallopian tube(s), abdominal or vaginal approach, unilateral or bilateral",
-        "display": "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, unilateral or bilateral"
+        "code": "Pregnancy Procedures-58605",
+        "display": "58605"
       }, {
-        "code": "Pregnancy Procedures-Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)",
-        "display": "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)"
+        "code": "Pregnancy Procedures-58970",
+        "display": "58970"
       }, {
-        "code": "Pregnancy Procedures-Follicle puncture for oocyte retrieval, any method",
-        "display": "Follicle puncture for oocyte retrieval, any method"
+        "code": "Pregnancy Procedures-58974",
+        "display": "58974"
       }, {
-        "code": "Pregnancy Procedures-Embryo transfer, intrauterine",
-        "display": "Embryo transfer, intrauterine"
+        "code": "Pregnancy Procedures-58976",
+        "display": "58976"
       }, {
-        "code": "Pregnancy Procedures-Gamete, zygote, or embryo intrafallopian transfer, any method",
-        "display": "Gamete, zygote, or embryo intrafallopian transfer, any method"
+        "code": "Pregnancy Procedures-59000",
+        "display": "59000"
       }, {
-        "code": "Pregnancy Procedures-Amniocentesis",
-        "display": "Amniocentesis; diagnostic"
+        "code": "Pregnancy Procedures-59001",
+        "display": "59001"
       }, {
-        "code": "diagnostic",
-        "display": "Amniocentesis; diagnostic"
+        "code": "Pregnancy Procedures-59012",
+        "display": "59012"
       }, {
-        "code": "therapeutic amniotic fluid reduction (includes ultrasound guidance)",
-        "display": "Amniocentesis; therapeutic amniotic fluid reduction (includes ultrasound guidance)"
+        "code": "Pregnancy Procedures-59015",
+        "display": "59015"
       }, {
-        "code": "Pregnancy Procedures-Cordocentesis (intrauterine), any method",
-        "display": "Cordocentesis (intrauterine), any method"
+        "code": "Pregnancy Procedures-59020",
+        "display": "59020"
       }, {
-        "code": "Pregnancy Procedures-Chorionic villus sampling, any method",
-        "display": "Chorionic villus sampling, any method"
+        "code": "Pregnancy Procedures-59025",
+        "display": "59025"
       }, {
-        "code": "Pregnancy Procedures-Fetal contraction stress test",
-        "display": "Fetal contraction stress test"
+        "code": "Pregnancy Procedures-59030",
+        "display": "59030"
       }, {
-        "code": "Pregnancy Procedures-Fetal non-stress test",
-        "display": "Fetal non-stress test"
+        "code": "Pregnancy Procedures-59050",
+        "display": "59050"
       }, {
-        "code": "Pregnancy Procedures-Fetal scalp blood sampling",
-        "display": "Fetal scalp blood sampling"
+        "code": "Pregnancy Procedures-59051",
+        "display": "59051"
       }, {
-        "code": "Pregnancy Procedures-Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report",
-        "display": "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; supervision and interpretation"
+        "code": "Pregnancy Procedures-59070",
+        "display": "59070"
       }, {
-        "code": "supervision and interpretation",
-        "display": "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; supervision and interpretation"
+        "code": "Pregnancy Procedures-59072",
+        "display": "59072"
       }, {
-        "code": "interpretation only",
-        "display": "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; interpretation only"
+        "code": "Pregnancy Procedures-59074",
+        "display": "59074"
       }, {
-        "code": "Pregnancy Procedures-Transabdominal amnioinfusion, including ultrasound guidance",
-        "display": "Transabdominal amnioinfusion, including ultrasound guidance"
+        "code": "Pregnancy Procedures-59076",
+        "display": "59076"
       }, {
-        "code": "Pregnancy Procedures-Fetal umbilical cord occlusion, including ultrasound guidance",
-        "display": "Fetal umbilical cord occlusion, including ultrasound guidance"
+        "code": "Pregnancy Procedures-59100",
+        "display": "59100"
       }, {
-        "code": "Pregnancy Procedures-Fetal fluid drainage (eg, vesicocentesis, thoracocentesis, paracentesis), including ultrasound guidance",
-        "display": "Fetal fluid drainage (eg, vesicocentesis, thoracocentesis, paracentesis), including ultrasound guidance"
+        "code": "Pregnancy Procedures-59120",
+        "display": "59120"
       }, {
-        "code": "Pregnancy Procedures-Fetal shunt placement, including ultrasound guidance",
-        "display": "Fetal shunt placement, including ultrasound guidance"
+        "code": "Pregnancy Procedures-59121",
+        "display": "59121"
       }, {
-        "code": "Pregnancy Procedures-Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)",
-        "display": "Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)"
+        "code": "Pregnancy Procedures-59130",
+        "display": "59130"
       }, {
-        "code": "Pregnancy Procedures-Surgical treatment of ectopic pregnancy",
-        "display": "Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach"
+        "code": "Pregnancy Procedures-59135",
+        "display": "59135"
       }, {
-        "code": "tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach",
-        "display": "Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach"
+        "code": "Pregnancy Procedures-59136",
+        "display": "59136"
       }, {
-        "code": "tubal or ovarian, without salpingectomy and/or oophorectomy",
-        "display": "Surgical treatment of ectopic pregnancy; tubal or ovarian, without salpingectomy and/or oophorectomy"
+        "code": "Pregnancy Procedures-59140",
+        "display": "59140"
       }, {
-        "code": "abdominal pregnancy",
-        "display": "Surgical treatment of ectopic pregnancy; abdominal pregnancy"
+        "code": "Pregnancy Procedures-59150",
+        "display": "59150"
       }, {
-        "code": "interstitial, uterine pregnancy requiring total hysterectomy",
-        "display": "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy requiring total hysterectomy"
+        "code": "Pregnancy Procedures-59151",
+        "display": "59151"
       }, {
-        "code": "interstitial, uterine pregnancy with partial resection of uterus",
-        "display": "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy with partial resection of uterus"
+        "code": "Pregnancy Procedures-59160",
+        "display": "59160"
       }, {
-        "code": "cervical, with evacuation",
-        "display": "Surgical treatment of ectopic pregnancy; cervical, with evacuation"
+        "code": "Pregnancy Procedures-59200",
+        "display": "59200"
       }, {
-        "code": "Pregnancy Procedures-Laparoscopic treatment of ectopic pregnancy",
-        "display": "Laparoscopic treatment of ectopic pregnancy; without salpingectomy and/or oophorectomy"
+        "code": "Pregnancy Procedures-59300",
+        "display": "59300"
       }, {
-        "code": "without salpingectomy and/or oophorectomy",
-        "display": "Laparoscopic treatment of ectopic pregnancy; without salpingectomy and/or oophorectomy"
+        "code": "Pregnancy Procedures-59320",
+        "display": "59320"
       }, {
-        "code": "with salpingectomy and/or oophorectomy",
-        "display": "Laparoscopic treatment of ectopic pregnancy; with salpingectomy and/or oophorectomy"
+        "code": "Pregnancy Procedures-59325",
+        "display": "59325"
       }, {
-        "code": "Pregnancy Procedures-Curettage, postpartum",
-        "display": "Curettage, postpartum"
+        "code": "Pregnancy Procedures-59350",
+        "display": "59350"
       }, {
-        "code": "Pregnancy Procedures-Insertion of cervical dilator (eg, laminaria, prostaglandin) (separate procedure)",
-        "display": "Insertion of cervical dilator (eg, laminaria, prostaglandin) (separate procedure)"
+        "code": "Pregnancy Procedures-59412",
+        "display": "59412"
       }, {
-        "code": "Pregnancy Procedures-Episiotomy or vaginal repair, by other than attending",
-        "display": "Episiotomy or vaginal repair, by other than attending"
+        "code": "Pregnancy Procedures-59414",
+        "display": "59414"
       }, {
-        "code": "Pregnancy Procedures-Cerclage of cervix, during pregnancy",
-        "display": "Cerclage of cervix, during pregnancy; vaginal"
+        "code": "Pregnancy Procedures-59430",
+        "display": "59430"
       }, {
-        "code": "vaginal",
-        "display": "Cerclage of cervix, during pregnancy; vaginal"
+        "code": "Pregnancy Procedures-59525",
+        "display": "59525"
       }, {
-        "code": "abdominal",
-        "display": "Cerclage of cervix, during pregnancy; abdominal"
+        "code": "Pregnancy Procedures-59812",
+        "display": "59812"
       }, {
-        "code": "Pregnancy Procedures-Hysterorrhaphy of ruptured uterus",
-        "display": "Hysterorrhaphy of ruptured uterus"
+        "code": "Pregnancy Procedures-59820",
+        "display": "59820"
       }, {
-        "code": "Pregnancy Procedures-External cephalic version, with or without tocolysis",
-        "display": "External cephalic version, with or without tocolysis"
+        "code": "Pregnancy Procedures-59821",
+        "display": "59821"
       }, {
-        "code": "Pregnancy Procedures-Delivery of placenta (separate procedure)",
-        "display": "Delivery of placenta (separate procedure)"
+        "code": "Pregnancy Procedures-59830",
+        "display": "59830"
       }, {
-        "code": "Pregnancy Procedures-Postpartum care only (separate procedure)",
-        "display": "Postpartum care only (separate procedure)"
+        "code": "Pregnancy Procedures-59840",
+        "display": "59840"
       }, {
-        "code": "Pregnancy Procedures-Subtotal or total hysterectomy after cesarean delivery (List separately in addition to code for primary procedure)",
-        "display": "Subtotal or total hysterectomy after cesarean delivery (List separately in addition to code for primary procedure)"
+        "code": "Pregnancy Procedures-59841",
+        "display": "59841"
       }, {
-        "code": "Pregnancy Procedures-Treatment of incomplete abortion, any trimester, completed surgically",
-        "display": "Treatment of incomplete abortion, any trimester, completed surgically"
+        "code": "Pregnancy Procedures-59850",
+        "display": "59850"
       }, {
-        "code": "Pregnancy Procedures-Treatment of missed abortion, completed surgically",
-        "display": "Treatment of missed abortion, completed surgically; first trimester"
+        "code": "Pregnancy Procedures-59851",
+        "display": "59851"
       }, {
-        "code": "first trimester",
-        "display": "Treatment of missed abortion, completed surgically; first trimester"
+        "code": "Pregnancy Procedures-59852",
+        "display": "59852"
       }, {
-        "code": "second trimester",
-        "display": "Treatment of missed abortion, completed surgically; second trimester"
+        "code": "Pregnancy Procedures-59855",
+        "display": "59855"
       }, {
-        "code": "Pregnancy Procedures-Treatment of septic abortion, completed surgically",
-        "display": "Treatment of septic abortion, completed surgically"
+        "code": "Pregnancy Procedures-59856",
+        "display": "59856"
       }, {
-        "code": "Pregnancy Procedures-Induced abortion, by dilation and curettage",
-        "display": "Induced abortion, by dilation and curettage"
+        "code": "Pregnancy Procedures-59857",
+        "display": "59857"
       }, {
-        "code": "Pregnancy Procedures-Induced abortion, by dilation and evacuation",
-        "display": "Induced abortion, by dilation and evacuation"
+        "code": "Pregnancy Procedures-59866",
+        "display": "59866"
       }, {
-        "code": "Pregnancy Procedures-Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines",
-        "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines"
+        "code": "Pregnancy Procedures-59870",
+        "display": "59870"
       }, {
-        "code": "with dilation and curettage and/or evacuation",
-        "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"
+        "code": "Pregnancy Procedures-59871",
+        "display": "59871"
       }, {
-        "code": "with hysterotomy (failed intra-amniotic injection)",
-        "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)"
+        "code": "Pregnancy Procedures-59897",
+        "display": "59897"
       }, {
-        "code": "Pregnancy Procedures-Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines",
-        "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines"
+        "code": "Pregnancy Procedures-59898",
+        "display": "59898"
       }, {
-        "code": "with hysterotomy (failed medical evacuation)",
-        "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)"
+        "code": "Pregnancy Procedures-59899",
+        "display": "59899"
       }, {
-        "code": "Pregnancy Procedures-Multifetal pregnancy reduction(s) (MPR)",
-        "display": "Multifetal pregnancy reduction(s) (MPR)"
+        "code": "Pregnancy Procedures-6708002",
+        "display": "6708002"
       }, {
-        "code": "Pregnancy Procedures-Uterine evacuation and curettage for hydatidiform mole",
-        "display": "Uterine evacuation and curettage for hydatidiform mole"
+        "code": "Pregnancy Procedures-9221009",
+        "display": "9221009"
       }, {
-        "code": "Pregnancy Procedures-Removal of cerclage suture under anesthesia (other than local)",
-        "display": "Removal of cerclage suture under anesthesia (other than local)"
+        "code": "Pregnancy Procedures-9724000",
+        "display": "9724000"
       }, {
-        "code": "Pregnancy Procedures-Unlisted fetal invasive procedure, including ultrasound guidance, when performed",
-        "display": "Unlisted fetal invasive procedure, including ultrasound guidance, when performed"
+        "code": "Pregnancy Procedures-10455003",
+        "display": "10455003"
       }, {
-        "code": "Pregnancy Procedures-Unlisted laparoscopy procedure, maternity care and delivery",
-        "display": "Unlisted laparoscopy procedure, maternity care and delivery"
+        "code": "Pregnancy Procedures-10763001",
+        "display": "10763001"
       }, {
-        "code": "Pregnancy Procedures-Unlisted procedure, maternity care and delivery",
-        "display": "Unlisted procedure, maternity care and delivery"
+        "code": "Pregnancy Procedures-15220000",
+        "display": "15220000"
       }, {
-        "code": "Pregnancy Procedures-Intrauterine cordocentesis (procedure)",
-        "display": "Intrauterine cordocentesis (procedure)"
+        "code": "Pregnancy Procedures-17744000",
+        "display": "17744000"
       }, {
-        "code": "Pregnancy Procedures-Surgical treatment of septic abortion (procedure)",
-        "display": "Surgical treatment of septic abortion (procedure)"
+        "code": "Pregnancy Procedures-18302006",
+        "display": "18302006"
       }, {
-        "code": "Pregnancy Procedures-Repair of current obstetric laceration of uterus (procedure)",
-        "display": "Repair of current obstetric laceration of uterus (procedure)"
+        "code": "Pregnancy Procedures-18489003",
+        "display": "18489003"
       }, {
-        "code": "Pregnancy Procedures-Removal of ectopic cervical pregnancy by evacuation (procedure)",
-        "display": "Removal of ectopic cervical pregnancy by evacuation (procedure)"
+        "code": "Pregnancy Procedures-24068006",
+        "display": "24068006"
       }, {
-        "code": "Pregnancy Procedures-Therapeutic abortion by insertion of laminaria (procedure)",
-        "display": "Therapeutic abortion by insertion of laminaria (procedure)"
+        "code": "Pregnancy Procedures-26578004",
+        "display": "26578004"
       }, {
-        "code": "Pregnancy Procedures-Laboratory test (procedure)",
-        "display": "Laboratory test (procedure)"
+        "code": "Pregnancy Procedures-28107008",
+        "display": "28107008"
       }, {
-        "code": "Pregnancy Procedures-Subtotal hysterectomy after cesarean delivery (procedure)",
-        "display": "Subtotal hysterectomy after cesarean delivery (procedure)"
+        "code": "Pregnancy Procedures-28379004",
+        "display": "28379004"
       }, {
-        "code": "Pregnancy Procedures-Therapeutic abortion by hysterotomy (procedure)",
-        "display": "Therapeutic abortion by hysterotomy (procedure)"
+        "code": "Pregnancy Procedures-36708009",
+        "display": "36708009"
       }, {
-        "code": "Pregnancy Procedures-Surgical treatment of missed abortion of first trimester (procedure)",
-        "display": "Surgical treatment of missed abortion of first trimester (procedure)"
+        "code": "Pregnancy Procedures-40704000",
+        "display": "40704000"
       }, {
-        "code": "Pregnancy Procedures-Hysterectomy for removal of hydatidiform mole (procedure)",
-        "display": "Hysterectomy for removal of hydatidiform mole (procedure)"
+        "code": "Pregnancy Procedures-41058005",
+        "display": "41058005"
       }, {
-        "code": "Pregnancy Procedures-Hysterotomy with removal of hydatidiform mole (procedure)",
-        "display": "Hysterotomy with removal of hydatidiform mole (procedure)"
+        "code": "Pregnancy Procedures-41059002",
+        "display": "41059002"
       }, {
-        "code": "Pregnancy Procedures-Wright's obstetrical version (procedure)",
-        "display": "Wright's obstetrical version (procedure)"
+        "code": "Pregnancy Procedures-41780001",
+        "display": "41780001"
       }, {
-        "code": "Pregnancy Procedures-Dilation and curettage of uterus after abortion (procedure)",
-        "display": "Dilation and curettage of uterus after abortion (procedure)"
+        "code": "Pregnancy Procedures-43096003",
+        "display": "43096003"
       }, {
-        "code": "Pregnancy Procedures-External fetal monitor surveillance (regime/therapy)",
-        "display": "External fetal monitor surveillance (regime/therapy)"
+        "code": "Pregnancy Procedures-45460008",
+        "display": "45460008"
       }, {
-        "code": "Pregnancy Procedures-Wright's obstetrical version with extraction (procedure)",
-        "display": "Wright's obstetrical version with extraction (procedure)"
+        "code": "Pregnancy Procedures-46681009",
+        "display": "46681009"
       }, {
-        "code": "Pregnancy Procedures-Salpingectomy for tubal ectopic pregnancy by abdominal approach (procedure)",
-        "display": "Salpingectomy for tubal ectopic pregnancy by abdominal approach (procedure)"
+        "code": "Pregnancy Procedures-52660002",
+        "display": "52660002"
       }, {
-        "code": "Pregnancy Procedures-Cesarean hysterectomy (procedure)",
-        "display": "Cesarean hysterectomy (procedure)"
+        "code": "Pregnancy Procedures-56620000",
+        "display": "56620000"
       }, {
-        "code": "Pregnancy Procedures-External fetal monitor removal (regime/therapy)",
-        "display": "External fetal monitor removal (regime/therapy)"
+        "code": "Pregnancy Procedures-61893009",
+        "display": "61893009"
       }, {
-        "code": "Pregnancy Procedures-Insertion of laminaria into vagina (procedure)",
-        "display": "Insertion of laminaria into vagina (procedure)"
+        "code": "Pregnancy Procedures-62688006",
+        "display": "62688006"
       }, {
-        "code": "Pregnancy Procedures-Intrauterine transfusion (procedure)",
-        "display": "Intrauterine transfusion (procedure)"
+        "code": "Pregnancy Procedures-63407004",
+        "display": "63407004"
       }, {
-        "code": "Pregnancy Procedures-Cerclage of cervix during pregnancy by abdominal approach (procedure)",
-        "display": "Cerclage of cervix during pregnancy by abdominal approach (procedure)"
+        "code": "Pregnancy Procedures-63596003",
+        "display": "63596003"
       }, {
-        "code": "Pregnancy Procedures-Induced abortion following intra-amniotic injection with hysterotomy (procedure)",
-        "display": "Induced abortion following intra-amniotic injection with hysterotomy (procedure)"
+        "code": "Pregnancy Procedures-65378009",
+        "display": "65378009"
       }, {
-        "code": "Pregnancy Procedures-Delivery of placenta following delivery of infant outside of hospital (procedure)",
-        "display": "Delivery of placenta following delivery of infant outside of hospital (procedure)"
+        "code": "Pregnancy Procedures-69621003",
+        "display": "69621003"
       }, {
-        "code": "Pregnancy Procedures-Laparoscopic treatment of ectopic pregnancy with oophorectomy (procedure)",
-        "display": "Laparoscopic treatment of ectopic pregnancy with oophorectomy (procedure)"
+        "code": "Pregnancy Procedures-73341009",
+        "display": "73341009"
       }, {
-        "code": "Pregnancy Procedures-Surgical treatment of spontaneous abortion of any trimester (procedure)",
-        "display": "Surgical treatment of spontaneous abortion of any trimester (procedure)"
+        "code": "Pregnancy Procedures-75456002",
+        "display": "75456002"
       }, {
-        "code": "Pregnancy Procedures-Episioproctotomy (procedure)",
-        "display": "Episioproctotomy (procedure)"
+        "code": "Pregnancy Procedures-81130000",
+        "display": "81130000"
       }, {
-        "code": "Pregnancy Procedures-Laparoscopic treatment of ectopic pregnancy with salpingectomy (procedure)",
-        "display": "Laparoscopic treatment of ectopic pregnancy with salpingectomy (procedure)"
+        "code": "Pregnancy Procedures-81855008",
+        "display": "81855008"
       }, {
-        "code": "Pregnancy Procedures-Delayed repair of episiotomy (procedure)",
-        "display": "Delayed repair of episiotomy (procedure)"
+        "code": "Pregnancy Procedures-82688001",
+        "display": "82688001"
       }, {
-        "code": "Pregnancy Procedures-Surgical treatment of missed abortion of third trimester (procedure)",
-        "display": "Surgical treatment of missed abortion of third trimester (procedure)"
+        "code": "Pregnancy Procedures-84275009",
+        "display": "84275009"
       }, {
-        "code": "Pregnancy Procedures-Removal of ectopic fetus from ovary without oophorectomy (procedure)",
-        "display": "Removal of ectopic fetus from ovary without oophorectomy (procedure)"
+        "code": "Pregnancy Procedures-85179000",
+        "display": "85179000"
       }, {
-        "code": "Pregnancy Procedures-Embryo transfer (procedure)",
-        "display": "Embryo transfer (procedure)"
+        "code": "Pregnancy Procedures-85548006",
+        "display": "85548006"
       }, {
-        "code": "Pregnancy Procedures-Removal of intraligamentous ectopic pregnancy (procedure)",
-        "display": "Removal of intraligamentous ectopic pregnancy (procedure)"
+        "code": "Pregnancy Procedures-87431004",
+        "display": "87431004"
       }, {
-        "code": "Pregnancy Procedures-Internal fetal monitoring during labor (regime/therapy)",
-        "display": "Internal fetal monitoring during labor (regime/therapy)"
+        "code": "Pregnancy Procedures-87663001",
+        "display": "87663001"
       }, {
-        "code": "Pregnancy Procedures-Removal of ectopic fetus (procedure)",
-        "display": "Removal of ectopic fetus (procedure)"
+        "code": "Pregnancy Procedures-88144003",
+        "display": "88144003"
       }, {
-        "code": "Pregnancy Procedures-Obstetrical hysterotomy (procedure)",
-        "display": "Obstetrical hysterotomy (procedure)"
+        "code": "Pregnancy Procedures-88362001",
+        "display": "88362001"
       }, {
-        "code": "Pregnancy Procedures-Insertion of laminaria into cervix (procedure)",
-        "display": "Insertion of laminaria into cervix (procedure)"
+        "code": "Pregnancy Procedures-90442009",
+        "display": "90442009"
       }, {
-        "code": "Pregnancy Procedures-Episiotomy (procedure)",
-        "display": "Episiotomy (procedure)"
+        "code": "Pregnancy Procedures-176833006",
+        "display": "176833006"
       }, {
-        "code": "Pregnancy Procedures-Dilation of cervical canal (procedure)",
-        "display": "Dilation of cervical canal (procedure)"
+        "code": "Pregnancy Procedures-176850008",
+        "display": "176850008"
       }, {
-        "code": "Pregnancy Procedures-External fetal monitor surveillance during multiple pregnancy (regime/therapy)",
-        "display": "External fetal monitor surveillance during multiple pregnancy (regime/therapy)"
+        "code": "Pregnancy Procedures-176852000",
+        "display": "176852000"
       }, {
-        "code": "Pregnancy Procedures-Removal of ectopic interstitial uterine pregnancy requiring total hysterectomy (procedure)",
-        "display": "Removal of ectopic interstitial uterine pregnancy requiring total hysterectomy (procedure)"
+        "code": "Pregnancy Procedures-176854004",
+        "display": "176854004"
       }, {
-        "code": "Pregnancy Procedures-Removal of ectopic fetus from fallopian tube without salpingectomy (procedure)",
-        "display": "Removal of ectopic fetus from fallopian tube without salpingectomy (procedure)"
+        "code": "Pregnancy Procedures-176928008",
+        "display": "176928008"
       }, {
-        "code": "Pregnancy Procedures-Cerclage of cervix during pregnancy by vaginal approach (procedure)",
-        "display": "Cerclage of cervix during pregnancy by vaginal approach (procedure)"
+        "code": "Pregnancy Procedures-176929000",
+        "display": "176929000"
       }, {
-        "code": "Pregnancy Procedures-Dilation of cervix uteri and curettage of uterus for removal of missed abortion (procedure)",
-        "display": "Dilation of cervix uteri and curettage of uterus for removal of missed abortion (procedure)"
+        "code": "Pregnancy Procedures-176996001",
+        "display": "176996001"
       }, {
-        "code": "Pregnancy Procedures-Intra-amniotic prostaglandin instillation (procedure)",
-        "display": "Intra-amniotic prostaglandin instillation (procedure)"
+        "code": "Pregnancy Procedures-177037000",
+        "display": "177037000"
       }, {
-        "code": "Pregnancy Procedures-Extra-amniotic prostaglandin instillation (procedure)",
-        "display": "Extra-amniotic prostaglandin instillation (procedure)"
+        "code": "Pregnancy Procedures-177038005",
+        "display": "177038005"
       }, {
-        "code": "Pregnancy Procedures-Insertion of prostaglandin abortifacient suppository (procedure)",
-        "display": "Insertion of prostaglandin abortifacient suppository (procedure)"
+        "code": "Pregnancy Procedures-177039002",
+        "display": "177039002"
       }, {
-        "code": "Pregnancy Procedures-Excision of ectopic ovarian pregnancy (procedure)",
-        "display": "Excision of ectopic ovarian pregnancy (procedure)"
+        "code": "Pregnancy Procedures-177042008",
+        "display": "177042008"
       }, {
-        "code": "Pregnancy Procedures-Excision of ruptured ectopic tubal pregnancy (procedure)",
-        "display": "Excision of ruptured ectopic tubal pregnancy (procedure)"
+        "code": "Pregnancy Procedures-177091002",
+        "display": "177091002"
       }, {
-        "code": "Pregnancy Procedures-Endoscopic intrafallopian transfer of gamete (procedure)",
-        "display": "Endoscopic intrafallopian transfer of gamete (procedure)"
+        "code": "Pregnancy Procedures-177100008",
+        "display": "177100008"
       }, {
-        "code": "Pregnancy Procedures-Oocyte recovery (procedure)",
-        "display": "Oocyte recovery (procedure)"
+        "code": "Pregnancy Procedures-177101007",
+        "display": "177101007"
       }, {
-        "code": "Pregnancy Procedures-Endoscopic transurethral ultrasound directed oocyte recovery (procedure)",
-        "display": "Endoscopic transurethral ultrasound directed oocyte recovery (procedure)"
+        "code": "Pregnancy Procedures-177102000",
+        "display": "177102000"
       }, {
-        "code": "Pregnancy Procedures-Endoscopic transvesical oocyte recovery (procedure)",
-        "display": "Endoscopic transvesical oocyte recovery (procedure)"
+        "code": "Pregnancy Procedures-177106002",
+        "display": "177106002"
       }, {
-        "code": "Pregnancy Procedures-Transvaginal oocyte recovery (procedure)",
-        "display": "Transvaginal oocyte recovery (procedure)"
+        "code": "Pregnancy Procedures-177107006",
+        "display": "177107006"
       }, {
-        "code": "Pregnancy Procedures-Fetoscopic sampling of fetal blood (procedure)",
-        "display": "Fetoscopic sampling of fetal blood (procedure)"
+        "code": "Pregnancy Procedures-177112007",
+        "display": "177112007"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous fetal procedure (procedure)",
-        "display": "Percutaneous fetal procedure (procedure)"
+        "code": "Pregnancy Procedures-177122001",
+        "display": "177122001"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous insertion of vesicoamniotic shunt (procedure)",
-        "display": "Percutaneous insertion of vesicoamniotic shunt (procedure)"
+        "code": "Pregnancy Procedures-177136006",
+        "display": "177136006"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous insertion of pleuroamniotic shunt (procedure)",
-        "display": "Percutaneous insertion of pleuroamniotic shunt (procedure)"
+        "code": "Pregnancy Procedures-177212000",
+        "display": "177212000"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous biopsy of fetus (procedure)",
-        "display": "Percutaneous biopsy of fetus (procedure)"
+        "code": "Pregnancy Procedures-177222006",
+        "display": "177222006"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous sampling of chorionic villus (procedure)",
-        "display": "Percutaneous sampling of chorionic villus (procedure)"
+        "code": "Pregnancy Procedures-215192006",
+        "display": "215192006"
       }, {
-        "code": "Pregnancy Procedures-Therapeutic drainage of amniotic fluid (procedure)",
-        "display": "Therapeutic drainage of amniotic fluid (procedure)"
+        "code": "Pregnancy Procedures-216209009",
+        "display": "216209009"
       }, {
-        "code": "Pregnancy Procedures-External version of breech (procedure)",
-        "display": "External version of breech (procedure)"
+        "code": "Pregnancy Procedures-233560009",
+        "display": "233560009"
       }, {
-        "code": "Pregnancy Procedures-Prostaglandin induction of labor (procedure)",
-        "display": "Prostaglandin induction of labor (procedure)"
+        "code": "Pregnancy Procedures-233561008",
+        "display": "233561008"
       }, {
-        "code": "Pregnancy Procedures-Normal delivery of placenta (procedure)",
-        "display": "Normal delivery of placenta (procedure)"
+        "code": "Pregnancy Procedures-236894009",
+        "display": "236894009"
       }, {
-        "code": "Pregnancy Procedures-Repair of episiotomy (procedure)",
-        "display": "Repair of episiotomy (procedure)"
+        "code": "Pregnancy Procedures-236912008",
+        "display": "236912008"
       }, {
-        "code": "Pregnancy Procedures-Uterine evacuation and curettage of hydatidiform mole (procedure)",
-        "display": "Uterine evacuation and curettage of hydatidiform mole (procedure)"
+        "code": "Pregnancy Procedures-236913003",
+        "display": "236913003"
       }, {
-        "code": "Pregnancy Procedures-Removal of hydatidiform mole (procedure)",
-        "display": "Removal of hydatidiform mole (procedure)"
+        "code": "Pregnancy Procedures-236914009",
+        "display": "236914009"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous intraperitoneal fetal blood transfusion (procedure)",
-        "display": "Percutaneous intraperitoneal fetal blood transfusion (procedure)"
+        "code": "Pregnancy Procedures-236915005",
+        "display": "236915005"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous intravascular fetal blood transfusion (procedure)",
-        "display": "Percutaneous intravascular fetal blood transfusion (procedure)"
+        "code": "Pregnancy Procedures-236952005",
+        "display": "236952005"
       }, {
-        "code": "Pregnancy Procedures-Frozen embryo transfer (procedure)",
-        "display": "Frozen embryo transfer (procedure)"
+        "code": "Pregnancy Procedures-236953000",
+        "display": "236953000"
       }, {
-        "code": "Pregnancy Procedures-Gamete intrafallopian transfer (procedure)",
-        "display": "Gamete intrafallopian transfer (procedure)"
+        "code": "Pregnancy Procedures-236954006",
+        "display": "236954006"
       }, {
-        "code": "Pregnancy Procedures-Fallopian replacement of egg with delayed insemination (procedure)",
-        "display": "Fallopian replacement of egg with delayed insemination (procedure)"
+        "code": "Pregnancy Procedures-236955007",
+        "display": "236955007"
       }, {
-        "code": "Pregnancy Procedures-Zygote intrafallopian transfer (procedure)",
-        "display": "Zygote intrafallopian transfer (procedure)"
+        "code": "Pregnancy Procedures-236956008",
+        "display": "236956008"
       }, {
-        "code": "Pregnancy Procedures-Tubal embryo transfer (procedure)",
-        "display": "Tubal embryo transfer (procedure)"
+        "code": "Pregnancy Procedures-236966000",
+        "display": "236966000"
       }, {
-        "code": "Pregnancy Procedures-Therapeutic drainage of amniotic fluid by single aspiration (procedure)",
-        "display": "Therapeutic drainage of amniotic fluid by single aspiration (procedure)"
+        "code": "Pregnancy Procedures-236987005",
+        "display": "236987005"
       }, {
-        "code": "Pregnancy Procedures-Therapeutic drainage of amniotic fluid by indwelling catheter (procedure)",
-        "display": "Therapeutic drainage of amniotic fluid by indwelling catheter (procedure)"
+        "code": "Pregnancy Procedures-236988000",
+        "display": "236988000"
       }, {
-        "code": "Pregnancy Procedures-Diagnostic amniocentesis with fluid replacement (procedure)",
-        "display": "Diagnostic amniocentesis with fluid replacement (procedure)"
+        "code": "Pregnancy Procedures-236992007",
+        "display": "236992007"
       }, {
-        "code": "Pregnancy Procedures-Hyperalimentation of fetus through amniotic cavity (procedure)",
-        "display": "Hyperalimentation of fetus through amniotic cavity (procedure)"
+        "code": "Pregnancy Procedures-236993002",
+        "display": "236993002"
       }, {
-        "code": "Pregnancy Procedures-Amnioinfusion (procedure)",
-        "display": "Amnioinfusion (procedure)"
+        "code": "Pregnancy Procedures-236994008",
+        "display": "236994008"
       }, {
-        "code": "Pregnancy Procedures-Cervical ripening with Prostaglandin E2 (procedure)",
-        "display": "Cervical ripening with Prostaglandin E2 (procedure)"
+        "code": "Pregnancy Procedures-237017007",
+        "display": "237017007"
       }, {
-        "code": "Pregnancy Procedures-Emergency cesarean hysterectomy (procedure)",
-        "display": "Emergency cesarean hysterectomy (procedure)"
+        "code": "Pregnancy Procedures-237025009",
+        "display": "237025009"
       }, {
-        "code": "Pregnancy Procedures-Elective cesarean hysterectomy (procedure)",
-        "display": "Elective cesarean hysterectomy (procedure)"
+        "code": "Pregnancy Procedures-240278000",
+        "display": "240278000"
       }, {
-        "code": "Pregnancy Procedures-Right mediolateral episiotomy (procedure)",
-        "display": "Right mediolateral episiotomy (procedure)"
+        "code": "Pregnancy Procedures-240284002",
+        "display": "240284002"
       }, {
-        "code": "Pregnancy Procedures-Vacuum dilatation of cervix (procedure)",
-        "display": "Vacuum dilatation of cervix (procedure)"
+        "code": "Pregnancy Procedures-240285001",
+        "display": "240285001"
       }, {
-        "code": "Pregnancy Procedures-Placental delivery procedure (procedure)",
-        "display": "Placental delivery procedure (procedure)"
+        "code": "Pregnancy Procedures-240286000",
+        "display": "240286000"
       }, {
-        "code": "Pregnancy Procedures-Intramyometrial injection of prostaglandin (procedure)",
-        "display": "Intramyometrial injection of prostaglandin (procedure)"
+        "code": "Pregnancy Procedures-240288004",
+        "display": "240288004"
       }, {
-        "code": "Pregnancy Procedures-Repair of right mediolateral episiotomy (procedure)",
-        "display": "Repair of right mediolateral episiotomy (procedure)"
+        "code": "Pregnancy Procedures-240289007",
+        "display": "240289007"
       }, {
-        "code": "Pregnancy Procedures-External cephalic version (procedure)",
-        "display": "External cephalic version (procedure)"
+        "code": "Pregnancy Procedures-240290003",
+        "display": "240290003"
       }, {
-        "code": "Pregnancy Procedures-Multifetal pregnancy reduction (procedure)",
-        "display": "Multifetal pregnancy reduction (procedure)"
+        "code": "Pregnancy Procedures-240291004",
+        "display": "240291004"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous insertion of fetal shunt (procedure)",
-        "display": "Percutaneous insertion of fetal shunt (procedure)"
+        "code": "Pregnancy Procedures-240292006",
+        "display": "240292006"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous insertion of ventriculoamniotic shunt (procedure)",
-        "display": "Percutaneous insertion of ventriculoamniotic shunt (procedure)"
+        "code": "Pregnancy Procedures-243773009",
+        "display": "243773009"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous insertion of peritoneal-amniotic shunt (procedure)",
-        "display": "Percutaneous insertion of peritoneal-amniotic shunt (procedure)"
+        "code": "Pregnancy Procedures-243774003",
+        "display": "243774003"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous aspiration of fetal lesion (procedure)",
-        "display": "Percutaneous aspiration of fetal lesion (procedure)"
+        "code": "Pregnancy Procedures-259863001",
+        "display": "259863001"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous aspiration of fetal ascites (procedure)",
-        "display": "Percutaneous aspiration of fetal ascites (procedure)"
+        "code": "Pregnancy Procedures-265082003",
+        "display": "265082003"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous aspiration of fetal pleural effusion (procedure)",
-        "display": "Percutaneous aspiration of fetal pleural effusion (procedure)"
+        "code": "Pregnancy Procedures-265635006",
+        "display": "265635006"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous aspiration of fetal pericardial effusion (procedure)",
-        "display": "Percutaneous aspiration of fetal pericardial effusion (procedure)"
+        "code": "Pregnancy Procedures-265642006",
+        "display": "265642006"
       }, {
-        "code": "Pregnancy Procedures-Fetal blood sampling (procedure)",
-        "display": "Fetal blood sampling (procedure)"
+        "code": "Pregnancy Procedures-274973002",
+        "display": "274973002"
       }, {
-        "code": "Pregnancy Procedures-Transvaginal fetal blood sampling (procedure)",
-        "display": "Transvaginal fetal blood sampling (procedure)"
+        "code": "Pregnancy Procedures-275222009",
+        "display": "275222009"
       }, {
-        "code": "Pregnancy Procedures-Removal of Shirodkar suture from cervix (procedure)",
-        "display": "Removal of Shirodkar suture from cervix (procedure)"
+        "code": "Pregnancy Procedures-275223004",
+        "display": "275223004"
       }, {
-        "code": "Pregnancy Procedures-Laparoscopic oocyte recovery (procedure)",
-        "display": "Laparoscopic oocyte recovery (procedure)"
+        "code": "Pregnancy Procedures-281568006",
+        "display": "281568006"
       }, {
-        "code": "Pregnancy Procedures-Diagnostic amniocentesis (procedure)",
-        "display": "Diagnostic amniocentesis (procedure)"
+        "code": "Pregnancy Procedures-281570002",
+        "display": "281570002"
       }, {
-        "code": "Pregnancy Procedures-Obstetric monitoring (regime/therapy)",
-        "display": "Obstetric monitoring (regime/therapy)"
+        "code": "Pregnancy Procedures-285409006",
+        "display": "285409006"
       }, {
-        "code": "Pregnancy Procedures-Dilation of cervix uteri and curettage for termination of pregnancy (procedure)",
-        "display": "Dilation of cervix uteri and curettage for termination of pregnancy (procedure)"
+        "code": "Pregnancy Procedures-285416007",
+        "display": "285416007"
       }, {
-        "code": "Pregnancy Procedures-Transcervical sampling of chorionic villus (procedure)",
-        "display": "Transcervical sampling of chorionic villus (procedure)"
+        "code": "Pregnancy Procedures-285417003",
+        "display": "285417003"
       }, {
-        "code": "Pregnancy Procedures-Transabdominal chorionic villus biopsy (procedure)",
-        "display": "Transabdominal chorionic villus biopsy (procedure)"
+        "code": "Pregnancy Procedures-285434006",
+        "display": "285434006"
       }, {
-        "code": "Pregnancy Procedures-Fetal heart monitoring (regime/therapy)",
-        "display": "Fetal heart monitoring (regime/therapy)"
+        "code": "Pregnancy Procedures-287954004",
+        "display": "287954004"
       }, {
-        "code": "Pregnancy Procedures-Fetal heart monitoring in labor (regime/therapy)",
-        "display": "Fetal heart monitoring in labor (regime/therapy)"
+        "code": "Pregnancy Procedures-288045002",
+        "display": "288045002"
       }, {
-        "code": "Pregnancy Procedures-Medical termination of pregnancy (procedure)",
-        "display": "Medical termination of pregnancy (procedure)"
+        "code": "Pregnancy Procedures-288194000",
+        "display": "288194000"
       }, {
-        "code": "Pregnancy Procedures-Resuture of episiotomy (procedure)",
-        "display": "Resuture of episiotomy (procedure)"
+        "code": "Pregnancy Procedures-302375005",
+        "display": "302375005"
       }, {
-        "code": "Pregnancy Procedures-Resuture of episiotomy dehiscence (procedure)",
-        "display": "Resuture of episiotomy dehiscence (procedure)"
+        "code": "Pregnancy Procedures-302384005",
+        "display": "302384005"
       }, {
-        "code": "Pregnancy Procedures-Insertion of abortifacient suppository (procedure)",
-        "display": "Insertion of abortifacient suppository (procedure)"
+        "code": "Pregnancy Procedures-303720006",
+        "display": "303720006"
       }, {
-        "code": "Pregnancy Procedures-Intrauterine exchange transfusion (procedure)",
-        "display": "Intrauterine exchange transfusion (procedure)"
+        "code": "Pregnancy Procedures-309877008",
+        "display": "309877008"
       }, {
-        "code": "Pregnancy Procedures-Injection of amnion for termination of pregnancy (procedure)",
-        "display": "Injection of amnion for termination of pregnancy (procedure)"
+        "code": "Pregnancy Procedures-315308008",
+        "display": "315308008"
       }, {
-        "code": "Pregnancy Procedures-Routine episiotomy and repair (procedure)",
-        "display": "Routine episiotomy and repair (procedure)"
+        "code": "Pregnancy Procedures-386276009",
+        "display": "386276009"
       }, {
-        "code": "Pregnancy Procedures-Operative termination of pregnancy (procedure)",
-        "display": "Operative termination of pregnancy (procedure)"
+        "code": "Pregnancy Procedures-386277000",
+        "display": "386277000"
       }, {
-        "code": "Pregnancy Procedures-Controlled cord traction of placenta (procedure)",
-        "display": "Controlled cord traction of placenta (procedure)"
+        "code": "Pregnancy Procedures-386639001",
+        "display": "386639001"
       }, {
-        "code": "Pregnancy Procedures-Sampling of chorionic villus (procedure)",
-        "display": "Sampling of chorionic villus (procedure)"
+        "code": "Pregnancy Procedures-386641000",
+        "display": "386641000"
       }, {
-        "code": "Pregnancy Procedures-Intrapartum cardiotochogram monitoring (regime/therapy)",
-        "display": "Intrapartum cardiotochogram monitoring (regime/therapy)"
+        "code": "Pregnancy Procedures-387615001",
+        "display": "387615001"
       }, {
-        "code": "Pregnancy Procedures-Dilatation of cervix for delivery (procedure)",
-        "display": "Dilatation of cervix for delivery (procedure)"
+        "code": "Pregnancy Procedures-387616000",
+        "display": "387616000"
       }, {
-        "code": "Pregnancy Procedures-Electronic fetal monitoring: antepartum (regime/therapy)",
-        "display": "Electronic fetal monitoring: antepartum (regime/therapy)"
+        "code": "Pregnancy Procedures-387673001",
+        "display": "387673001"
       }, {
-        "code": "Pregnancy Procedures-Electronic fetal monitoring: intrapartum (regime/therapy)",
-        "display": "Electronic fetal monitoring: intrapartum (regime/therapy)"
+        "code": "Pregnancy Procedures-387678005",
+        "display": "387678005"
       }, {
-        "code": "Pregnancy Procedures-Termination of pregnancy (procedure)",
-        "display": "Termination of pregnancy (procedure)"
+        "code": "Pregnancy Procedures-387709005",
+        "display": "387709005"
       }, {
-        "code": "Pregnancy Procedures-Therapeutic abortion procedure (procedure)",
-        "display": "Therapeutic abortion procedure (procedure)"
+        "code": "Pregnancy Procedures-387710000",
+        "display": "387710000"
       }, {
-        "code": "Pregnancy Procedures-Removal of ectopic pregnancy from fallopian tube (procedure)",
-        "display": "Removal of ectopic pregnancy from fallopian tube (procedure)"
+        "code": "Pregnancy Procedures-391896006",
+        "display": "391896006"
       }, {
-        "code": "Pregnancy Procedures-Fimbrial extraction of tubal pregnancy (procedure)",
-        "display": "Fimbrial extraction of tubal pregnancy (procedure)"
+        "code": "Pregnancy Procedures-391897002",
+        "display": "391897002"
       }, {
-        "code": "Pregnancy Procedures-Nonstress test (regime/therapy)",
-        "display": "Nonstress test (regime/therapy)"
+        "code": "Pregnancy Procedures-391998006",
+        "display": "391998006"
       }, {
-        "code": "Pregnancy Procedures-External obstetrical version (procedure)",
-        "display": "External obstetrical version (procedure)"
+        "code": "Pregnancy Procedures-392000009",
+        "display": "392000009"
       }, {
-        "code": "Pregnancy Procedures-Removal of ectopic fetus from abdominal cavity (procedure)",
-        "display": "Removal of ectopic fetus from abdominal cavity (procedure)"
+        "code": "Pregnancy Procedures-398221005",
+        "display": "398221005"
       }, {
-        "code": "Pregnancy Procedures-Removal of extrauterine ectopic fetus (procedure)",
-        "display": "Removal of extrauterine ectopic fetus (procedure)"
+        "code": "Pregnancy Procedures-405262001",
+        "display": "405262001"
       }, {
-        "code": "Pregnancy Procedures-Therapeutic abortion by aspiration curettage (procedure)",
-        "display": "Therapeutic abortion by aspiration curettage (procedure)"
+        "code": "Pregnancy Procedures-408804006",
+        "display": "408804006"
       }, {
-        "code": "Pregnancy Procedures-Aspiration curettage of uterus for termination of pregnancy (procedure)",
-        "display": "Aspiration curettage of uterus for termination of pregnancy (procedure)"
+        "code": "Pregnancy Procedures-408805007",
+        "display": "408805007"
       }, {
-        "code": "Pregnancy Procedures-Dilation and curettage of uterus after delivery (procedure)",
-        "display": "Dilation and curettage of uterus after delivery (procedure)"
+        "code": "Pregnancy Procedures-408806008",
+        "display": "408806008"
       }, {
-        "code": "Pregnancy Procedures-Hysterotomy for retained placenta (procedure)",
-        "display": "Hysterotomy for retained placenta (procedure)"
+        "code": "Pregnancy Procedures-408807004",
+        "display": "408807004"
       }, {
-        "code": "Pregnancy Procedures-Fetal pH monitoring (regime/therapy)",
-        "display": "Fetal pH monitoring (regime/therapy)"
+        "code": "Pregnancy Procedures-408808009",
+        "display": "408808009"
       }, {
-        "code": "Pregnancy Procedures-Point of care testing (procedure)",
-        "display": "Point of care testing (procedure)"
+        "code": "Pregnancy Procedures-408819007",
+        "display": "408819007"
       }, {
-        "code": "Pregnancy Procedures-Continuous fetal heart monitoring during labor (regime/therapy)",
-        "display": "Continuous fetal heart monitoring during labor (regime/therapy)"
+        "code": "Pregnancy Procedures-408840008",
+        "display": "408840008"
       }, {
-        "code": "Pregnancy Procedures-Intermittent fetal heart monitoring during labor (regime/therapy)",
-        "display": "Intermittent fetal heart monitoring during labor (regime/therapy)"
+        "code": "Pregnancy Procedures-408845003",
+        "display": "408845003"
       }, {
-        "code": "Pregnancy Procedures-Fetal heart monitoring using hand held doppler (regime/therapy)",
-        "display": "Fetal heart monitoring using hand held doppler (regime/therapy)"
+        "code": "Pregnancy Procedures-425707001",
+        "display": "425707001"
       }, {
-        "code": "Pregnancy Procedures-Fetal heart monitoring using fetal scalp electrode (regime/therapy)",
-        "display": "Fetal heart monitoring using fetal scalp electrode (regime/therapy)"
+        "code": "Pregnancy Procedures-425939004",
+        "display": "425939004"
       }, {
-        "code": "Pregnancy Procedures-Fetal heart monitoring using ultrasound transducer (regime/therapy)",
-        "display": "Fetal heart monitoring using ultrasound transducer (regime/therapy)"
+        "code": "Pregnancy Procedures-426287008",
+        "display": "426287008"
       }, {
-        "code": "Pregnancy Procedures-Delivery of placenta by maternal effort (procedure)",
-        "display": "Delivery of placenta by maternal effort (procedure)"
+        "code": "Pregnancy Procedures-426737000",
+        "display": "426737000"
       }, {
-        "code": "Pregnancy Procedures-Extra-amniotic termination of pregnancy (procedure)",
-        "display": "Extra-amniotic termination of pregnancy (procedure)"
+        "code": "Pregnancy Procedures-427230007",
+        "display": "427230007"
       }, {
-        "code": "Pregnancy Procedures-Fetal heart monitoring with Pinard stethoscope (regime/therapy)",
-        "display": "Fetal heart monitoring with Pinard stethoscope (regime/therapy)"
+        "code": "Pregnancy Procedures-427320001",
+        "display": "427320001"
       }, {
-        "code": "Pregnancy Procedures-Serial drainage of amniotic fluid (procedure)",
-        "display": "Serial drainage of amniotic fluid (procedure)"
+        "code": "Pregnancy Procedures-429613009",
+        "display": "429613009"
       }, {
-        "code": "Pregnancy Procedures-Endoscopic serial drainage of amniotic fluid (procedure)",
-        "display": "Endoscopic serial drainage of amniotic fluid (procedure)"
+        "code": "Pregnancy Procedures-429737004",
+        "display": "429737004"
       }, {
-        "code": "Pregnancy Procedures-Amniocentesis for possible neural tube defect (procedure)",
-        "display": "Amniocentesis for possible neural tube defect (procedure)"
+        "code": "Pregnancy Procedures-433153009",
+        "display": "433153009"
       }, {
-        "code": "Pregnancy Procedures-Endoscopic serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)",
-        "display": "Endoscopic serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)"
+        "code": "Pregnancy Procedures-440148001",
+        "display": "440148001"
       }, {
-        "code": "Pregnancy Procedures-Amniocentesis for possible chromosomal abnormality (procedure)",
-        "display": "Amniocentesis for possible chromosomal abnormality (procedure)"
+        "code": "Pregnancy Procedures-443005005",
+        "display": "443005005"
       }, {
-        "code": "Pregnancy Procedures-Serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)",
-        "display": "Serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)"
+        "code": "Pregnancy Procedures-445865006",
+        "display": "445865006"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous insertion of tracheal plug for congenital diaphragmatic hernia of fetus (procedure)",
-        "display": "Percutaneous insertion of tracheal plug for congenital diaphragmatic hernia of fetus (procedure)"
+        "code": "Pregnancy Procedures-445912000",
+        "display": "445912000"
       }, {
-        "code": "Pregnancy Procedures-Percutaneous laser ablation of lesion of fetus (procedure)",
-        "display": "Percutaneous laser ablation of lesion of fetus (procedure)"
+        "code": "Pregnancy Procedures-446135006",
+        "display": "446135006"
       }, {
-        "code": "Pregnancy Procedures-Chorionic villus sampling using obstetric ultrasound guidance (procedure)",
-        "display": "Chorionic villus sampling using obstetric ultrasound guidance (procedure)"
+        "code": "Pregnancy Procedures-446341008",
+        "display": "446341008"
       }, {
-        "code": "Pregnancy Procedures-Partial excision of uterus for removal of interstitial ectopic pregnancy (procedure)",
-        "display": "Partial excision of uterus for removal of interstitial ectopic pregnancy (procedure)"
+        "code": "Pregnancy Procedures-446934006",
+        "display": "446934006"
       }, {
-        "code": "Pregnancy Procedures-Diagnostic amniocentesis using ultrasound guidance (procedure)",
-        "display": "Diagnostic amniocentesis using ultrasound guidance (procedure)"
+        "code": "Pregnancy Procedures-447214008",
+        "display": "447214008"
       }, {
-        "code": "Pregnancy Procedures-Sampling of fetal blood using ultrasound guidance (procedure)",
-        "display": "Sampling of fetal blood using ultrasound guidance (procedure)"
+        "code": "Pregnancy Procedures-447771005",
+        "display": "447771005"
       }, {
-        "code": "Pregnancy Procedures-Excision of fallopian tube and surgical removal of ectopic pregnancy (procedure)",
-        "display": "Excision of fallopian tube and surgical removal of ectopic pregnancy (procedure)"
+        "code": "Pregnancy Procedures-447972007",
+        "display": "447972007"
       }, {
-        "code": "Pregnancy Procedures-Amnioinfusion using ultrasound guidance (procedure)",
-        "display": "Amnioinfusion using ultrasound guidance (procedure)"
+        "code": "Pregnancy Procedures-448543003",
+        "display": "448543003"
       }, {
-        "code": "Pregnancy Procedures-Sampling of fetal blood and biopsy of fetus (procedure)",
-        "display": "Sampling of fetal blood and biopsy of fetus (procedure)"
+        "code": "Pregnancy Procedures-450483001",
+        "display": "450483001"
       }, {
-        "code": "Pregnancy Procedures-Retrieval of oocyte by transabdominal approach (procedure)",
-        "display": "Retrieval of oocyte by transabdominal approach (procedure)"
+        "code": "Pregnancy Procedures-450484007",
+        "display": "450484007"
       }, {
-        "code": "Pregnancy Procedures-Ligation of umbilical cord of fetus (procedure)",
-        "display": "Ligation of umbilical cord of fetus (procedure)"
+        "code": "Pregnancy Procedures-450563004",
+        "display": "450563004"
       }, {
-        "code": "Pregnancy Procedures-Abdominal hysterectomy and excision of periuterine tissue (procedure)",
-        "display": "Abdominal hysterectomy and excision of periuterine tissue (procedure)"
+        "code": "Pregnancy Procedures-700041001",
+        "display": "700041001"
       }, {
-        "code": "Pregnancy Procedures-Medical termination of pregnancy using prostaglandin (procedure)",
-        "display": "Medical termination of pregnancy using prostaglandin (procedure)"
+        "code": "Pregnancy Procedures-713117007",
+        "display": "713117007"
       }, {
-        "code": "Pregnancy Procedures-Transmyometrial transfer of embryo to uterus (procedure)",
-        "display": "Transmyometrial transfer of embryo to uterus (procedure)"
+        "code": "Pregnancy Procedures-713120004",
+        "display": "713120004"
       }, {
-        "code": "Pregnancy Procedures-Cesarean section through inverted T shaped incision of uterus (procedure)",
-        "display": "Cesarean section through inverted T shaped incision of uterus (procedure)"
+        "code": "Pregnancy Procedures-714812005",
+        "display": "714812005"
       }, {
-        "code": "Pregnancy Procedures-Cesarean section through J shaped incision of uterus (procedure)",
-        "display": "Cesarean section through J shaped incision of uterus (procedure)"
+        "code": "Pregnancy Procedures-716100006",
+        "display": "716100006"
       }, {
-        "code": "Pregnancy Procedures-Laparoscopic excision of ectopic ovarian pregnancy (procedure)",
-        "display": "Laparoscopic excision of ectopic ovarian pregnancy (procedure)"
+        "code": "Pregnancy Procedures-725927001",
+        "display": "725927001"
       }, {
-        "code": "Pregnancy Procedures-Induced termination of pregnancy under unsafe conditions (procedure)",
-        "display": "Induced termination of pregnancy under unsafe conditions (procedure)"
+        "code": "Pregnancy Procedures-726556001",
+        "display": "726556001"
       }, {
-        "code": "Pregnancy Procedures-Monitoring fetal development (regime/therapy)",
-        "display": "Monitoring fetal development (regime/therapy)"
+        "code": "Pregnancy Procedures-732970000",
+        "display": "732970000"
       }, {
-        "code": "Pregnancy Procedures-Counting fetal movement (regime/therapy)",
-        "display": "Counting fetal movement (regime/therapy)"
+        "code": "Pregnancy Procedures-737099004",
+        "display": "737099004"
       }, {
-        "code": "Pregnancy Procedures-Induced termination of pregnancy (procedure)",
-        "display": "Induced termination of pregnancy (procedure)"
-      }, {
-        "code": "Pregnancy Procedures-Doppler ultrasonography of vascular structure of fetal head (procedure)",
-        "display": "Doppler ultrasonography of vascular structure of fetal head (procedure)"
-      }, {
-        "code": "Pregnancy Procedures-Pronuclear transfer mitochondrial replacement therapy (procedure)",
-        "display": "Pronuclear transfer mitochondrial replacement therapy (procedure)"
-      }, {
-        "code": "Pregnancy Procedures-Maternal spindle transfer mitochondrial replacement therapy (procedure)",
-        "display": "Maternal spindle transfer mitochondrial replacement therapy (procedure)"
-      }, {
-        "code": "Pregnancy Procedures-Controlled ovarian stimulation (procedure)",
-        "display": "Controlled ovarian stimulation (procedure)"
-      }, {
-        "code": "Pregnancy Procedures-Abdominal hysterectomy with sacrocolpopexy using mesh (procedure)",
-        "display": "Abdominal hysterectomy with sacrocolpopexy using mesh (procedure)"
-      }, {
-        "code": "Pregnancy Procedures-Doppler ultrasound velocimetry of umbilical artery of fetus (procedure)",
-        "display": "Doppler ultrasound velocimetry of umbilical artery of fetus (procedure)"
+        "code": "Pregnancy Procedures-480571000119102",
+        "display": "480571000119102"
       } ]
     } ]
   }

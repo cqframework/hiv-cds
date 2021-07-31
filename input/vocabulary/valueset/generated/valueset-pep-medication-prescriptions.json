@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pep-medication-prescriptions",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pep-medication-prescriptions",
+  "name": "pep-medication-prescriptions",
+  "title": "PEP Medication Prescriptions",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the PEP Medication Prescriptions element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "PEP Medication Prescriptions",
+        "display": "PEP Medication Prescriptions"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nachc-b2-de112",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-b2-de112",
+  "name": "Hepatitis C Procedures",
+  "title": "Hepatitis C Procedures",
+  "status": "draft",
+  "experimental": false,
+  "description": "Concepts Associated with HCV Procedures",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.B2",
+        "display": "HCV test"
+      } ]
+    }
+  } ],
+  "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "HIV"
+  } ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "Procedure",
+      "path": "Procedure",
+      "mustSupport": false
+    }, {
+      "id": "Procedure.code",
+      "path": "Procedure.code",
+      "short": "Hepatitis C Procedures",
+      "comment": "HCV test Procedure mapping??Sourced: https://confluence.nachc.org/pages/viewpage.action?pageId=14485048",
+      "min": 1,
+      "max": "*",
+      "mustSupport": true,
+      "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Hepatitis C Procedures Choices"
+        } ],
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-procedures-choices"
+      },
+      "mapping": [ {
+        "identity": "HIV",
+        "map": "NACHC.B2.DE112"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "resourceType": "ValueSet",
+  "id": "syphilis-tests-for-treponemal-or-non-antibody-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-tests-for-treponemal-or-non-antibody-choices",
+  "name": "syphilis-tests-for-treponemal-or-non-antibody-choices",
+  "title": "Syphilis (Tests for Treponemal or Non Antibody) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Tests for Treponemal or Non Antibody) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Syphilis Test-22459-2",
+        "display": "22459-2"
+      }, {
+        "code": "Syphilis Test-1238206",
+        "display": "1238206"
+      }, {
+        "code": "Syphilis Test-43813-5",
+        "display": "43813-5"
+      }, {
+        "code": "Syphilis Test-51783-9",
+        "display": "51783-9"
+      }, {
+        "code": "Syphilis Test-22461-8",
+        "display": "22461-8"
+      }, {
+        "code": "Syphilis Test-20507-0",
+        "display": "20507-0"
+      }, {
+        "code": "Syphilis Test-1239118",
+        "display": "1239118"
+      }, {
+        "code": "Syphilis Test-22464-2",
+        "display": "22464-2"
+      }, {
+        "code": "Syphilis Test-14904-7",
+        "display": "14904-7"
+      }, {
+        "code": "Syphilis Test-46203-6",
+        "display": "46203-6"
+      }, {
+        "code": "Syphilis Test-87925-4",
+        "display": "87925-4"
+      }, {
+        "code": "Syphilis Test-31146-4",
+        "display": "31146-4"
+      }, {
+        "code": "Syphilis Test-11084-1",
+        "display": "11084-1"
+      }, {
+        "code": "Syphilis Test-31147-2",
+        "display": "31147-2"
+      }, {
+        "code": "Syphilis Test-50690-7",
+        "display": "50690-7"
+      }, {
+        "code": "Syphilis Test-47476-7",
+        "display": "47476-7"
+      }, {
+        "code": "Syphilis Test-47235-7",
+        "display": "47235-7"
+      }, {
+        "code": "Syphilis Test-22460-0",
+        "display": "22460-0"
+      }, {
+        "code": "Syphilis Test-1237900",
+        "display": "1237900"
+      }, {
+        "code": "Syphilis Test-22462-6",
+        "display": "22462-6"
+      }, {
+        "code": "Syphilis Test-20508-8",
+        "display": "20508-8"
+      }, {
+        "code": "Syphilis Test-5291-0",
+        "display": "5291-0"
+      }, {
+        "code": "Syphilis Test-73752-8",
+        "display": "73752-8"
+      }, {
+        "code": "Syphilis Test-22586-2",
+        "display": "22586-2"
+      }, {
+        "code": "Syphilis Test-50689-9",
+        "display": "50689-9"
+      }, {
+        "code": "Syphilis Test-2895157",
+        "display": "2895157"
+      }, {
+        "code": "Syphilis Test-22587-0",
+        "display": "22587-0"
+      }, {
+        "code": "Syphilis Test-24312-1",
+        "display": "24312-1"
+      }, {
+        "code": "Syphilis Test-2243108",
+        "display": "2243108"
+      }, {
+        "code": "Syphilis Test-17723-8",
+        "display": "17723-8"
+      }, {
+        "code": "Syphilis Test-24110-9",
+        "display": "24110-9"
+      }, {
+        "code": "Syphilis Test-57032-5",
+        "display": "57032-5"
+      }, {
+        "code": "Syphilis Test-1275885",
+        "display": "1275885"
+      }, {
+        "code": "Syphilis Test-51475-2",
+        "display": "51475-2"
+      }, {
+        "code": "Syphilis Test-50695-6",
+        "display": "50695-6"
+      }, {
+        "code": "Syphilis Test-22590-4",
+        "display": "22590-4"
+      }, {
+        "code": "Syphilis Test-26009-1",
+        "display": "26009-1"
+      }, {
+        "code": "Syphilis Test-34382-2",
+        "display": "34382-2"
+      }, {
+        "code": "Syphilis Test-1276191",
+        "display": "1276191"
+      }, {
+        "code": "Syphilis Test-71793-4",
+        "display": "71793-4"
+      }, {
+        "code": "Syphilis Test-22585-4",
+        "display": "22585-4"
+      }, {
+        "code": "Syphilis Test-13288-6",
+        "display": "13288-6"
+      }, {
+        "code": "Syphilis Test-47511-1",
+        "display": "47511-1"
+      }, {
+        "code": "Syphilis Test-39015-3",
+        "display": "39015-3"
+      }, {
+        "code": "Syphilis Test-51474-5",
+        "display": "51474-5"
+      }, {
+        "code": "Syphilis Test-49800-6",
+        "display": "49800-6"
+      }, {
+        "code": "Syphilis Test-11597-2",
+        "display": "11597-2"
+      }, {
+        "code": "Syphilis Test-1275581",
+        "display": "1275581"
+      }, {
+        "code": "Syphilis Test-63464-2",
+        "display": "63464-2"
+      }, {
+        "code": "Syphilis Test-17724-6",
+        "display": "17724-6"
+      }, {
+        "code": "Syphilis Test-17725-3",
+        "display": "17725-3"
+      }, {
+        "code": "Syphilis Test-41122-3",
+        "display": "41122-3"
+      }, {
+        "code": "Syphilis Test-58031-6",
+        "display": "58031-6"
+      }, {
+        "code": "Syphilis Test-58751-9",
+        "display": "58751-9"
+      }, {
+        "code": "Syphilis Test-1702518",
+        "display": "1702518"
+      }, {
+        "code": "Syphilis Test-47238-1",
+        "display": "47238-1"
+      }, {
+        "code": "Syphilis Test-40679-3",
+        "display": "40679-3"
+      }, {
+        "code": "Syphilis Test-17726-1",
+        "display": "17726-1"
+      }, {
+        "code": "Syphilis Test-47512-9",
+        "display": "47512-9"
+      }, {
+        "code": "Syphilis Test-47051-8",
+        "display": "47051-8"
+      }, {
+        "code": "Syphilis Test-22592-0",
+        "display": "22592-0"
+      }, {
+        "code": "Syphilis Test-51838-1",
+        "display": "51838-1"
+      }, {
+        "code": "Syphilis Test-17727-9",
+        "display": "17727-9"
+      }, {
+        "code": "Syphilis Test-34147-9",
+        "display": "34147-9"
+      }, {
+        "code": "Syphilis Test-47236-5",
+        "display": "47236-5"
+      }, {
+        "code": "Syphilis Test-69946-2",
+        "display": "69946-2"
+      }, {
+        "code": "Syphilis Test-1702822",
+        "display": "1702822"
+      }, {
+        "code": "Syphilis Test-47237-3",
+        "display": "47237-3"
+      }, {
+        "code": "Syphilis Test-40680-1",
+        "display": "40680-1"
+      }, {
+        "code": "Syphilis Test-17729-5",
+        "display": "17729-5"
+      }, {
+        "code": "Syphilis Test-47514-5",
+        "display": "47514-5"
+      }, {
+        "code": "Syphilis Test-47063-3",
+        "display": "47063-3"
+      }, {
+        "code": "Syphilis Test-22594-6",
+        "display": "22594-6"
+      }, {
+        "code": "Syphilis Test-51839-9",
+        "display": "51839-9"
+      }, {
+        "code": "Syphilis Test-17728-7",
+        "display": "17728-7"
+      }, {
+        "code": "Syphilis Test-26658-5",
+        "display": "26658-5"
+      } ]
+    } ]
+  }
+}

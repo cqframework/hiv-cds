@@ -3,10 +3,10 @@
   "id": "sexual-activity-history",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-history",
   "name": "sexual-activity-history",
-  "title": "Sexual Activity -  History",
+  "title": "Sexual Activity - History",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Sexual Activity -  History element",
+  "description": "Codes representing possible values for the Sexual Activity - History element",
   "immutable": true,
   "compose": {
     "include": [ {

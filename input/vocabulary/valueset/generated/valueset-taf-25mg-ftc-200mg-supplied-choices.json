@@ -12,10 +12,10 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-61958-2002",
+        "code": "Prep Dispensed Medications-61958-2002",
         "display": "61958-2002"
       }, {
-        "code": "Pre Exposure Prophylaxis Dispensed Medications-70518-0230",
+        "code": "Prep Dispensed Medications-70518-0230",
         "display": "70518-0230"
       } ]
     } ]

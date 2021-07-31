@@ -12,29 +12,29 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide",
-        "display": "emtricitabine / tenofovir alafenamide"
+        "code": "Prep Medication Prescriptions-1727491",
+        "display": "1727491"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Oral Product",
-        "display": "emtricitabine / tenofovir alafenamide Oral Product"
+        "code": "Prep Medication Prescriptions-1747688",
+        "display": "1747688"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Pill",
-        "display": "emtricitabine / tenofovir alafenamide Pill"
+        "code": "Prep Medication Prescriptions-1747689",
+        "display": "1747689"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Oral Tablet",
-        "display": "emtricitabine / tenofovir alafenamide Oral Tablet"
+        "code": "Prep Medication Prescriptions-1747690",
+        "display": "1747690"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
-        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet"
+        "code": "Prep Medication Prescriptions-1747691",
+        "display": "1747691"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]",
-        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]"
+        "code": "Prep Medication Prescriptions-1747693",
+        "display": "1747693"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]",
-        "display": "emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]"
+        "code": "Prep Medication Prescriptions-1747694",
+        "display": "1747694"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]",
-        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]"
+        "code": "Prep Medication Prescriptions-1747697",
+        "display": "1747697"
       } ]
     } ]
   }

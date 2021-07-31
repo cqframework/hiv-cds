@@ -1,0 +1,302 @@
+Running tests.
+Data path: D:\src\code\cqframework\hiv-cds\input\tests\PlanDefinition\Screening
+Terminology path: D:\src\code\cqframework\hiv-cds\input\vocabulary\valueset
+Test HighRiskSTDPatient
+Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
+Patient=org.hl7.fhir.r4.model.Patient@1548dc37
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=John Jones
+Patient Encounter=org.hl7.fhir.r4.model.Encounter@4ef12d7e
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=true
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=null
+Meets Exclusion Criteria=false
+In Population=true
+Patient is Male=true
+Sexually Active MSM Patient=false
+Patient has Received Pre Exposure Prophylaxis=false
+HIV Screening Test=[]
+Previous HIV Screening Test=null
+Over 3 Months has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is a Sexually Active MSM without HIV=false
+Patient is at High Risk Due to Multiple Sex Partners since last screening=false
+Patient is a Sexually Active MSM with Multiple Sex Partners=false
+Over a Year has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Annually=false
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=true
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=true
+Patient is at High Risk Due to Injection Drug Use=false
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=true
+Patient is in Third Trimester of Pregnancy=false
+Patient is High Risk in Third Trimester of Pregnancy=false
+Patient has had an HIV Screening=false
+Recommendation=HIV Screening Recommended now due to patient interest.
+Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
+Indicator Status=info
+Exclusion Reason=
+Amount of Days Since Previous HIV Screening=null
+Patient is Female=false
+Patient is Pregnant=false
+elapsed: 28.1 seconds
+
+Test HighRiskIDUPatient
+Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
+Patient=org.hl7.fhir.r4.model.Patient@4602fa2f
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=Ashley Madelyn
+Patient Encounter=org.hl7.fhir.r4.model.Encounter@78b3f926
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=false
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=null
+Meets Exclusion Criteria=false
+In Population=true
+Patient is Male=false
+Sexually Active MSM Patient=false
+Patient has Received Pre Exposure Prophylaxis=false
+HIV Screening Test=[]
+Previous HIV Screening Test=null
+Over 3 Months has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is a Sexually Active MSM without HIV=false
+Patient is at High Risk Due to Multiple Sex Partners since last screening=false
+Patient is a Sexually Active MSM with Multiple Sex Partners=false
+Over a Year has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Annually=false
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to Injection Drug Use=true
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=true
+Patient is in Third Trimester of Pregnancy=false
+Patient is High Risk in Third Trimester of Pregnancy=false
+Patient has had an HIV Screening=false
+Recommendation=HIV Screening Recommended once due to patient never having been tested.
+Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Indicator Status=warning
+Exclusion Reason=
+Amount of Days Since Previous HIV Screening=null
+Patient is Female=true
+Patient is Pregnant=false
+elapsed: 28.252 seconds
+
+Test ExclusionPatient
+Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
+Patient=org.hl7.fhir.r4.model.Patient@6a4bd9e4
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=Sally Merryweather
+Patient Encounter=org.hl7.fhir.r4.model.Encounter@1ec690bd
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=false
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=org.hl7.fhir.r4.model.Condition@5feceb2f
+Meets Exclusion Criteria=true
+In Population=false
+Patient is Male=false
+Sexually Active MSM Patient=false
+Patient has Received Pre Exposure Prophylaxis=false
+HIV Screening Test=[]
+Previous HIV Screening Test=null
+Over 3 Months has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is a Sexually Active MSM without HIV=false
+Patient is at High Risk Due to Multiple Sex Partners since last screening=false
+Patient is a Sexually Active MSM with Multiple Sex Partners=false
+Over a Year has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Annually=false
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to Injection Drug Use=false
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=false
+Patient is in Third Trimester of Pregnancy=false
+Patient is High Risk in Third Trimester of Pregnancy=false
+Patient has had an HIV Screening=false
+Recommendation=HIV Screening Recommended once due to patient never having been tested.
+Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Indicator Status=warning
+Exclusion Reason=Patient was excluded from HIV Screening due to the patient already having been diagnosed with HIV.
+Amount of Days Since Previous HIV Screening=null
+Patient is Female=true
+Patient is Pregnant=false
+elapsed: 28.547 seconds
+
+Test HighRiskPregnantPatient
+Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
+Patient=org.hl7.fhir.r4.model.Patient@14c8dfb9
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=Beatrix Coraline
+Patient Encounter=org.hl7.fhir.r4.model.Encounter@5135b8a3
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=false
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=null
+Meets Exclusion Criteria=false
+In Population=true
+Patient is Male=false
+Sexually Active MSM Patient=false
+Patient has Received Pre Exposure Prophylaxis=false
+HIV Screening Test=[org.hl7.fhir.r4.model.Observation@53e6b541]
+Previous HIV Screening Test=Tuple {
+	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@53e6b541
+	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@5135b8a3
+}
+Over 3 Months has Past Since Previous HIV Screening=true
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is a Sexually Active MSM without HIV=false
+Patient is at High Risk Due to Multiple Sex Partners since last screening=true
+Patient is a Sexually Active MSM with Multiple Sex Partners=false
+Over a Year has Past Since Previous HIV Screening=false
+Patient is a Sexually Active MSM who should be Screened Annually=false
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to Injection Drug Use=false
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=true
+Patient is in Third Trimester of Pregnancy=true
+Patient is High Risk in Third Trimester of Pregnancy=true
+Patient has had an HIV Screening=true
+Recommendation=HIV Screening Recommended due to patient being at high risk of HIV during third trimester of pregnancy.
+Rationale=A second HIV test during the third trimester for women in settings with elevated HIV incidence (>17 cases per 100,000 person-years) is cost-effective and might result in substantial reductions in mother-to-child HIV transmission.
+Indicator Status=warning
+Exclusion Reason=
+Amount of Days Since Previous HIV Screening=172
+Patient is Female=true
+Patient is Pregnant=true
+elapsed: 28.765 seconds
+
+Test InclusionPatient
+Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
+Patient=org.hl7.fhir.r4.model.Patient@4ef12d7e
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=Peter Chalmers
+Patient Encounter=org.hl7.fhir.r4.model.Encounter@734d870f
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=false
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=null
+Meets Exclusion Criteria=false
+In Population=true
+Patient is Male=true
+Sexually Active MSM Patient=false
+Patient has Received Pre Exposure Prophylaxis=false
+HIV Screening Test=[]
+Previous HIV Screening Test=null
+Over 3 Months has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is a Sexually Active MSM without HIV=false
+Patient is at High Risk Due to Multiple Sex Partners since last screening=false
+Patient is a Sexually Active MSM with Multiple Sex Partners=false
+Over a Year has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Annually=false
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to Injection Drug Use=false
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=false
+Patient is in Third Trimester of Pregnancy=false
+Patient is High Risk in Third Trimester of Pregnancy=false
+Patient has had an HIV Screening=false
+Recommendation=HIV Screening Recommended once due to patient never having been tested.
+Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Indicator Status=warning
+Exclusion Reason=
+Amount of Days Since Previous HIV Screening=null
+Patient is Female=false
+Patient is Pregnant=false
+elapsed: 28.822 seconds
+
+Test MSMPatient
+Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
+Patient=org.hl7.fhir.r4.model.Patient@3426d8e2
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=Joe Kotic
+Patient Encounter=org.hl7.fhir.r4.model.Encounter@65595be7
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=false
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=null
+Meets Exclusion Criteria=false
+In Population=true
+Patient is Male=true
+Sexually Active MSM Patient=true
+Patient has Received Pre Exposure Prophylaxis=false
+HIV Screening Test=[org.hl7.fhir.r4.model.Observation@5146ae5e]
+Previous HIV Screening Test=Tuple {
+	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@5146ae5e
+	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@65595be7
+}
+Over 3 Months has Past Since Previous HIV Screening=true
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is a Sexually Active MSM without HIV=true
+Patient is at High Risk Due to Multiple Sex Partners since last screening=true
+Patient is a Sexually Active MSM with Multiple Sex Partners=true
+Over a Year has Past Since Previous HIV Screening=true
+Patient is a Sexually Active MSM who should be Screened Annually=true
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to Injection Drug Use=false
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=true
+Patient is in Third Trimester of Pregnancy=false
+Patient is High Risk in Third Trimester of Pregnancy=false
+Patient has had an HIV Screening=true
+Recommendation=Annual HIV Screening Recommended due to patient being a sexually active MSM without HIV and has had multiple sex partners.
+Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
+Indicator Status=warning
+Exclusion Reason=
+Amount of Days Since Previous HIV Screening=418
+Patient is Female=false
+Patient is Pregnant=false
+elapsed: 28.879 seconds

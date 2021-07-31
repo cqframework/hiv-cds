@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sexual-activity-partners-hiv-history",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-partners-hiv-history",
+  "name": "sexual-activity-partners-hiv-history",
+  "title": "Sexual Activity - Partners HIV History",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity - Partners HIV History element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Whether the patient’s partner has HIV",
+        "display": "Whether the patient’s partner has HIV"
+      } ]
+    } ]
+  }
+}

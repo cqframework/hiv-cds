@@ -12,74 +12,74 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C Diagnosis-Chronic viral hepatitis (disorder)",
-        "display": "Chronic viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-10295004",
+        "display": "10295004"
       }, {
-        "code": "Hepatitis C Diagnosis-Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)",
-        "display": "Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)"
+        "code": "Hepatitis C Diagnosis-1092801000119100",
+        "display": "1092801000119100"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic aggressive type B viral hepatitis (disorder)",
-        "display": "Chronic aggressive type B viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-1116000",
+        "display": "1116000"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic autoimmune hepatitis (disorder)",
-        "display": "Chronic autoimmune hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-16098491000119109",
+        "display": "16098491000119109"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic active hepatitis (disorder)",
-        "display": "Chronic active hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-197284004",
+        "display": "197284004"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic viral hepatitis B with hepatitis D (disorder)",
-        "display": "Chronic viral hepatitis B with hepatitis D (disorder)"
+        "code": "Hepatitis C Diagnosis-235869004",
+        "display": "235869004"
       }, {
-        "code": "Hepatitis C Diagnosis-Drug-induced chronic hepatitis (disorder)",
-        "display": "Drug-induced chronic hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-235889003",
+        "display": "235889003"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic alcoholic hepatitis (disorder)",
-        "display": "Chronic alcoholic hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-307757001",
+        "display": "307757001"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic persistent type B viral hepatitis (disorder)",
-        "display": "Chronic persistent type B viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-38662009",
+        "display": "38662009"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic persistent hepatitis (disorder)",
-        "display": "Chronic persistent hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-41889008",
+        "display": "41889008"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic hepatitis E (disorder)",
-        "display": "Chronic hepatitis E (disorder)"
+        "code": "Hepatitis C Diagnosis-450880008",
+        "display": "450880008"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic active type B viral hepatitis (disorder)",
-        "display": "Chronic active type B viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-50167007",
+        "display": "50167007"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic lobular hepatitis (disorder)",
-        "display": "Chronic lobular hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-57339008",
+        "display": "57339008"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic persistent viral hepatitis (disorder)",
-        "display": "Chronic persistent viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-60037002",
+        "display": "60037002"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic type B viral hepatitis (disorder)",
-        "display": "Chronic type B viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-61977001",
+        "display": "61977001"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic active viral hepatitis (disorder)",
-        "display": "Chronic active viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-66870002",
+        "display": "66870002"
       }, {
-        "code": "Hepatitis C Diagnosis-Occult chronic type B viral hepatitis (disorder)",
-        "display": "Occult chronic type B viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-713966008",
+        "display": "713966008"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic hepatitis (disorder)",
-        "display": "Chronic hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-76783007",
+        "display": "76783007"
       }, {
-        "code": "Hepatitis C Diagnosis-Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)",
-        "display": "Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)"
+        "code": "Hepatitis C Diagnosis-774204006",
+        "display": "774204006"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)",
-        "display": "Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)"
+        "code": "Hepatitis C Diagnosis-838377003",
+        "display": "838377003"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)",
-        "display": "Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)"
+        "code": "Hepatitis C Diagnosis-838380002",
+        "display": "838380002"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic aggressive viral hepatitis (disorder)",
-        "display": "Chronic aggressive viral hepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-89789003",
+        "display": "89789003"
       }, {
-        "code": "Hepatitis C Diagnosis-Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)",
-        "display": "Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)"
+        "code": "Hepatitis C Diagnosis-9843006",
+        "display": "9843006"
       } ]
     } ]
   }

@@ -12,17 +12,17 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet",
-        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet"
+        "code": "Prep Medication Prescriptions-349251",
+        "display": "349251"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
-        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
+        "code": "Prep Medication Prescriptions-352050",
+        "display": "352050"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG",
-        "display": "tenofovir disoproxil fumarate 300 MG"
+        "code": "Prep Medication Prescriptions-393334",
+        "display": "393334"
       }, {
-        "code": "Pre Exposure Prophylaxis Medication Prescriptions-tenofovir disoproxil fumarate 300 MG [Viread]",
-        "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
+        "code": "Prep Medication Prescriptions-575802",
+        "display": "575802"
       } ]
     } ]
   }

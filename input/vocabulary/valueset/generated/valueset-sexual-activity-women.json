@@ -3,10 +3,10 @@
   "id": "sexual-activity-women",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-women",
   "name": "sexual-activity-women",
-  "title": "Sexual Activity -  Women",
+  "title": "Sexual Activity - Women",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Sexual Activity -  Women element",
+  "description": "Codes representing possible values for the Sexual Activity - Women element",
   "immutable": true,
   "compose": {
     "include": [ {

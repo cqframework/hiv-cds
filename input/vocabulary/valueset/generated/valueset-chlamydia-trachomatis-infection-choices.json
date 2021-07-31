@@ -1,0 +1,107 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chlamydia-trachomatis-infection-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-trachomatis-infection-choices",
+  "name": "chlamydia-trachomatis-infection-choices",
+  "title": "Chlamydia trachomatis Infection Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia trachomatis Infection Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Chlamydia Diagnosis-186729003",
+        "display": "186729003"
+      }, {
+        "code": "Chlamydia Diagnosis-186731007",
+        "display": "186731007"
+      }, {
+        "code": "Chlamydia Diagnosis-186946009",
+        "display": "186946009"
+      }, {
+        "code": "Chlamydia Diagnosis-188463006",
+        "display": "188463006"
+      }, {
+        "code": "Chlamydia Diagnosis-189312004",
+        "display": "189312004"
+      }, {
+        "code": "Chlamydia Diagnosis-197172005",
+        "display": "197172005"
+      }, {
+        "code": "Chlamydia Diagnosis-206289001",
+        "display": "206289001"
+      }, {
+        "code": "Chlamydia Diagnosis-232403001",
+        "display": "232403001"
+      }, {
+        "code": "Chlamydia Diagnosis-233610007",
+        "display": "233610007"
+      }, {
+        "code": "Chlamydia Diagnosis-234099003",
+        "display": "234099003"
+      }, {
+        "code": "Chlamydia Diagnosis-236672003",
+        "display": "236672003"
+      }, {
+        "code": "Chlamydia Diagnosis-236683007",
+        "display": "236683007"
+      }, {
+        "code": "Chlamydia Diagnosis-236749007",
+        "display": "236749007"
+      }, {
+        "code": "Chlamydia Diagnosis-236767000",
+        "display": "236767000"
+      }, {
+        "code": "Chlamydia Diagnosis-236773004",
+        "display": "236773004"
+      }, {
+        "code": "Chlamydia Diagnosis-237039009",
+        "display": "237039009"
+      }, {
+        "code": "Chlamydia Diagnosis-237043008",
+        "display": "237043008"
+      }, {
+        "code": "Chlamydia Diagnosis-237084006",
+        "display": "237084006"
+      }, {
+        "code": "Chlamydia Diagnosis-237097008",
+        "display": "237097008"
+      }, {
+        "code": "Chlamydia Diagnosis-237106009",
+        "display": "237106009"
+      }, {
+        "code": "Chlamydia Diagnosis-238372002",
+        "display": "238372002"
+      }, {
+        "code": "Chlamydia Diagnosis-240589008",
+        "display": "240589008"
+      }, {
+        "code": "Chlamydia Diagnosis-240590004",
+        "display": "240590004"
+      }, {
+        "code": "Chlamydia Diagnosis-240602008",
+        "display": "240602008"
+      }, {
+        "code": "Chlamydia Diagnosis-240603003",
+        "display": "240603003"
+      }, {
+        "code": "Chlamydia Diagnosis-240604009",
+        "display": "240604009"
+      }, {
+        "code": "Chlamydia Diagnosis-272262003",
+        "display": "272262003"
+      }, {
+        "code": "Chlamydia Diagnosis-276681001",
+        "display": "276681001"
+      }, {
+        "code": "Chlamydia Diagnosis-367504009",
+        "display": "367504009"
+      }, {
+        "code": "Chlamydia Diagnosis-406566006",
+        "display": "406566006"
+      } ]
+    } ]
+  }
+}

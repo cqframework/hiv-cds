@@ -51,6 +51,9 @@
       <a href="recommendation-sample.html"> Hello HIV World </a> - An Example Sample Recommendation to express end-to-end functionality.
     </li>
     <li>
+      <a href="recommendation-screening.html"> HIV Screening </a> - An Implementation of the CDC HIV Screening Recommendation Clinical Decision Support Workflow via CDS-Hooks Integration.
+    </li>
+    <li>
       <a href="downloads.html"> Downloads </a> - Allows downloading a copy of this implementation guide and other useful information
     </li>
   </ul>

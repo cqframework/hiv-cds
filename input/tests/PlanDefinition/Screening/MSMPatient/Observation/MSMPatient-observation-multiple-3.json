@@ -1,0 +1,33 @@
+{
+  "resourceType": "Observation",
+  "id": "MSMPatient-observation-multiple-3",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de18"
+    ]
+  },
+  "status": "preliminary",
+  "category": {
+    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version": "4.0.1",
+    "code": "survey",
+    "display": "Survey"
+  },
+  "code": {
+      "coding": [
+        {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "Whether the patient’s partner has had more than 1 partner since previous HIV Test",
+          "display": "Whether the patient’s partner has had more than 1 partner since previous HIV Test"
+        }
+      ]
+  },
+  "subject": {
+    "reference": "Patient/MSMPatient"
+  },
+  "encounter": {
+    "reference": "Encounter/MSMPatient-encounter-1"
+  },
+  "effectiveDateTime": "2021-07-31T10:30:00-07:00",
+  "valueBoolean": true
+}

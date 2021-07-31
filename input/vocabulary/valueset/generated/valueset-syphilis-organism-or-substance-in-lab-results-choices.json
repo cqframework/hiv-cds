@@ -12,23 +12,23 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Syphilis Diagnosis-Antigen of Treponema pallidum (substance)",
-        "display": "Antigen of Treponema pallidum (substance)"
+        "code": "Syphilis Diagnosis-707439008",
+        "display": "707439008"
       }, {
-        "code": "Syphilis Diagnosis-Deoxyribonucleic acid of Treponema pallidum (substance)",
-        "display": "Deoxyribonucleic acid of Treponema pallidum (substance)"
+        "code": "Syphilis Diagnosis-708462008",
+        "display": "708462008"
       }, {
-        "code": "Syphilis Diagnosis-Treponema pallidum (organism)",
-        "display": "Treponema pallidum (organism)"
+        "code": "Syphilis Diagnosis-72904005",
+        "display": "72904005"
       }, {
-        "code": "Syphilis Diagnosis-Treponema pallidum ss. endemicum (organism)",
-        "display": "Treponema pallidum ss. endemicum (organism)"
+        "code": "Syphilis Diagnosis-44106000",
+        "display": "44106000"
       }, {
-        "code": "Syphilis Diagnosis-Treponema pallidum ss. pallidum (organism)",
-        "display": "Treponema pallidum ss. pallidum (organism)"
+        "code": "Syphilis Diagnosis-43454006",
+        "display": "43454006"
       }, {
-        "code": "Syphilis Diagnosis-Treponema pallidum ss. pertenue (organism)",
-        "display": "Treponema pallidum ss. pertenue (organism)"
+        "code": "Syphilis Diagnosis-6246005",
+        "display": "6246005"
       } ]
     } ]
   }

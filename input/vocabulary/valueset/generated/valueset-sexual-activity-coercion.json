@@ -3,10 +3,10 @@
   "id": "sexual-activity-coercion",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-coercion",
   "name": "sexual-activity-coercion",
-  "title": "Sexual Activity -  Coercion",
+  "title": "Sexual Activity - Coercion",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Sexual Activity -  Coercion element",
+  "description": "Codes representing possible values for the Sexual Activity - Coercion element",
   "immutable": true,
   "compose": {
     "include": [ {

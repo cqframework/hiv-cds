@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de11",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de11",
-  "name": "Sexual Activity -  History",
-  "title": "Sexual Activity -  History",
+  "name": "Sexual Activity - Past Year",
+  "title": "Sexual Activity - Past Year",
   "status": "draft",
   "experimental": false,
-  "description": "Have you ever been sexually active?",
+  "description": "Have you been sexually active in the past year?",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -38,17 +38,17 @@
     }, {
       "id": "Observation.code",
       "path": "Observation.code",
-      "short": "Sexual Activity -  History",
+      "short": "Sexual Activity - Past Year",
       "min": 1,
       "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Sexual Activity -  History"
+          "valueString": "Sexual Activity - Past Year"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-history"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-past-year"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -57,7 +57,7 @@
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
-      "short": "Sexual Activity -  History",
+      "short": "Sexual Activity - Past Year",
       "min": 0,
       "max": "1",
       "type": [ {

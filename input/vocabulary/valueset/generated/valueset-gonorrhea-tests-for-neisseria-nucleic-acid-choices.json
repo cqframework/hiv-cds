@@ -1,0 +1,143 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gonorrhea-tests-for-neisseria-nucleic-acid-choices",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-tests-for-neisseria-nucleic-acid-choices",
+  "name": "gonorrhea-tests-for-neisseria-nucleic-acid-choices",
+  "title": "Gonorrhea Tests for Neisseria Nucleic Acid Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Tests for Neisseria Nucleic Acid Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gonorrhea Test-21414-8",
+        "display": "21414-8"
+      }, {
+        "code": "Gonorrhea Test-21415-5",
+        "display": "21415-5"
+      }, {
+        "code": "Gonorrhea Test-21416-3",
+        "display": "21416-3"
+      }, {
+        "code": "Gonorrhea Test-24111-7",
+        "display": "24111-7"
+      }, {
+        "code": "Gonorrhea Test-32198-4",
+        "display": "32198-4"
+      }, {
+        "code": "Gonorrhea Test-32199-2",
+        "display": "32199-2"
+      }, {
+        "code": "Gonorrhea Test-32705-6",
+        "display": "32705-6"
+      }, {
+        "code": "Gonorrhea Test-33904-4",
+        "display": "33904-4"
+      }, {
+        "code": "Gonorrhea Test-35735-0",
+        "display": "35735-0"
+      }, {
+        "code": "Gonorrhea Test-36902-5",
+        "display": "36902-5"
+      }, {
+        "code": "Gonorrhea Test-36903-3",
+        "display": "36903-3"
+      }, {
+        "code": "Gonorrhea Test-43305-2",
+        "display": "43305-2"
+      }, {
+        "code": "Gonorrhea Test-43403-5",
+        "display": "43403-5"
+      }, {
+        "code": "Gonorrhea Test-43405-0",
+        "display": "43405-0"
+      }, {
+        "code": "Gonorrhea Test-43406-8",
+        "display": "43406-8"
+      }, {
+        "code": "Gonorrhea Test-44806-8",
+        "display": "44806-8"
+      }, {
+        "code": "Gonorrhea Test-44807-6",
+        "display": "44807-6"
+      }, {
+        "code": "Gonorrhea Test-45068-4",
+        "display": "45068-4"
+      }, {
+        "code": "Gonorrhea Test-45069-2",
+        "display": "45069-2"
+      }, {
+        "code": "Gonorrhea Test-45070-0",
+        "display": "45070-0"
+      }, {
+        "code": "Gonorrhea Test-45072-6",
+        "display": "45072-6"
+      }, {
+        "code": "Gonorrhea Test-45073-4",
+        "display": "45073-4"
+      }, {
+        "code": "Gonorrhea Test-45074-2",
+        "display": "45074-2"
+      }, {
+        "code": "Gonorrhea Test-45075-9",
+        "display": "45075-9"
+      }, {
+        "code": "Gonorrhea Test-45076-7",
+        "display": "45076-7"
+      }, {
+        "code": "Gonorrhea Test-47387-6",
+        "display": "47387-6"
+      }, {
+        "code": "Gonorrhea Test-1142632",
+        "display": "1142632"
+      }, {
+        "code": "Gonorrhea Test-50388-8",
+        "display": "50388-8"
+      }, {
+        "code": "Gonorrhea Test-53879-3",
+        "display": "53879-3"
+      }, {
+        "code": "Gonorrhea Test-53927-0",
+        "display": "53927-0"
+      }, {
+        "code": "Gonorrhea Test-57180-2",
+        "display": "57180-2"
+      }, {
+        "code": "Gonorrhea Test-57289-1",
+        "display": "57289-1"
+      }, {
+        "code": "Gonorrhea Test-57458-2",
+        "display": "57458-2"
+      }, {
+        "code": "Gonorrhea Test-60255-7",
+        "display": "60255-7"
+      }, {
+        "code": "Gonorrhea Test-60256-5",
+        "display": "60256-5"
+      }, {
+        "code": "Gonorrhea Test-80360-1",
+        "display": "80360-1"
+      }, {
+        "code": "Gonorrhea Test-80361-9",
+        "display": "80361-9"
+      }, {
+        "code": "Gonorrhea Test-80362-7",
+        "display": "80362-7"
+      }, {
+        "code": "Gonorrhea Test-80365-0",
+        "display": "80365-0"
+      }, {
+        "code": "Gonorrhea Test-80366-8",
+        "display": "80366-8"
+      }, {
+        "code": "Gonorrhea Test-88224-1",
+        "display": "88224-1"
+      }, {
+        "code": "Gonorrhea Test-88225-8",
+        "display": "88225-8"
+      } ]
+    } ]
+  }
+}

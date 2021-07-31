@@ -12,29 +12,32 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C Test-Anti-Nuclear Antibodies (ANA), IgG by ELISA",
-        "display": "Anti-Nuclear Antibodies (ANA), IgG by ELISA"
+        "code": "Hepatitis C Test-86038",
+        "display": "86038"
       }, {
-        "code": "Hepatitis C Test-Hepatitis C antibody",
-        "display": "Hepatitis C antibody"
+        "code": "Hepatitis C Test-86803",
+        "display": "86803"
       }, {
-        "code": "Hepatitis C Test-Hepatitis C antibody, confirmatory test",
-        "display": "Hepatitis C antibody, confirmatory test"
+        "code": "Hepatitis C Test-86804",
+        "display": "86804"
       }, {
-        "code": "Hepatitis C Test-Hepatitis C, direct probe technique",
-        "display": "Hepatitis C, direct probe technique"
+        "code": "Hepatitis C Test-87520",
+        "display": "87520"
       }, {
-        "code": "Hepatitis C Test-Hepatitis C, amplified probe technique",
-        "display": "Hepatitis C, amplified probe technique"
+        "code": "Hepatitis C Test-87521",
+        "display": "87521"
       }, {
-        "code": "Hepatitis C Test-Hepatitis C, quantification",
-        "display": "Hepatitis C, quantification"
+        "code": "Hepatitis C Test-87522",
+        "display": "87522"
       }, {
-        "code": "Hepatitis C Test-Hepatitis C virus (HCV) genotype test",
-        "display": "Hepatitis C virus (HCV) genotype test"
+        "code": "Hepatitis C Test-87902",
+        "display": "87902"
       }, {
-        "code": "Hepatitis C Test-Hepatitis C antibody screening, for an individual at high risk and other covered indication(s) (This HCPCS code is used for patients covered by Medicare and other payers following Medicare guidelines)",
-        "display": "Hepatitis C antibody screening, for an individual at high risk and other covered indication(s) (This HCPCS code is used for patients covered by Medicare and other payers following Medicare guidelines)"
+        "code": "Hepatitis C Test-1014274",
+        "display": "1014274"
+      }, {
+        "code": "Hepatitis C Test-G0472",
+        "display": "G0472"
       } ]
     } ]
   }

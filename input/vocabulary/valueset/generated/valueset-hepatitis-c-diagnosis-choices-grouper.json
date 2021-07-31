@@ -6,7 +6,7 @@
   "title": "Hepatitis C Diagnosis Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-21T19:38:01-06:00",
+  "date": "2021-07-31T04:35:49-06:00",
   "description": "Group Valueset with codes representing possible values for the Hepatitis C Diagnosis Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -21,335 +21,335 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-07-21T19:38:01-06:00",
+    "timestamp": "2021-07-31T04:35:49-06:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Acute hepatitis C",
-      "display": "Acute hepatitis C"
+      "code": "Hepatitis C Diagnosis-B17.1",
+      "display": "B17.1"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Acute hepatitis C without hepatic coma",
-      "display": "Acute hepatitis C without hepatic coma"
+      "code": "Hepatitis C Diagnosis-B17.10",
+      "display": "B17.10"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Acute hepatitis C with hepatic coma",
-      "display": "Acute hepatitis C with hepatic coma"
+      "code": "Hepatitis C Diagnosis-B17.11",
+      "display": "B17.11"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic viral hepatitis C",
-      "display": "Chronic viral hepatitis C"
+      "code": "Hepatitis C Diagnosis-B18.2",
+      "display": "B18.2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Unspecified viral hepatitis C",
-      "display": "Unspecified viral hepatitis C"
+      "code": "Hepatitis C Diagnosis-B19.2",
+      "display": "B19.2"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Unspecified viral hepatitis C without hepatic coma",
-      "display": "Unspecified viral hepatitis C without hepatic coma"
+      "code": "Hepatitis C Diagnosis-B19.20",
+      "display": "B19.20"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Unspecified viral hepatitis C with hepatic coma",
-      "display": "Unspecified viral hepatitis C with hepatic coma"
+      "code": "Hepatitis C Diagnosis-B19.21",
+      "display": "B19.21"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Glomerulonephritis due to hepatitis C (disorder)",
-      "display": "Glomerulonephritis due to hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-120241000119100",
+      "display": "120241000119100"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatic coma due to acute hepatitis C (disorder)",
-      "display": "Hepatic coma due to acute hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-125921000119106",
+      "display": "125921000119106"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Cryoglobulinemia due to chronic hepatitis C (disorder)",
-      "display": "Cryoglobulinemia due to chronic hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-128971000119101",
+      "display": "128971000119101"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatic coma due to chronic hepatitis C (disorder)",
-      "display": "Hepatic coma due to chronic hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-146371000119104",
+      "display": "146371000119104"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatic coma due to viral hepatitis C (disorder)",
-      "display": "Hepatic coma due to viral hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-186628001",
+      "display": "186628001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Acute hepatitis C (disorder)",
-      "display": "Acute hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-235866006",
+      "display": "235866006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Congenital hepatitis C infection (disorder)",
-      "display": "Congenital hepatitis C infection (disorder)"
+      "code": "Hepatitis C Diagnosis-278929008",
+      "display": "278929008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C with stage 3 fibrosis (disorder)",
-      "display": "Chronic hepatitis C with stage 3 fibrosis (disorder)"
+      "code": "Hepatitis C Diagnosis-347891000119103",
+      "display": "347891000119103"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis B and hepatitis C (disorder)",
-      "display": "Hepatitis B and hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-442374005",
+      "display": "442374005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Viral hepatitis type C (disorder)",
-      "display": "Viral hepatitis type C (disorder)"
+      "code": "Hepatitis C Diagnosis-50711007",
+      "display": "50711007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Reactivation of hepatitis C viral hepatitis (disorder)",
-      "display": "Reactivation of hepatitis C viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-702969000",
+      "display": "702969000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C with stage 2 fibrosis (disorder)",
-      "display": "Chronic hepatitis C with stage 2 fibrosis (disorder)"
+      "code": "Hepatitis C Diagnosis-703866000",
+      "display": "703866000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic active hepatitis C (disorder)",
-      "display": "Chronic active hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-708198006",
+      "display": "708198006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)",
-      "display": "Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)"
+      "code": "Hepatitis C Diagnosis-767809001",
+      "display": "767809001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)",
-      "display": "Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)"
+      "code": "Hepatitis C Diagnosis-767810006",
+      "display": "767810006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)",
-      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)"
+      "code": "Hepatitis C Diagnosis-768006009",
+      "display": "768006009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)",
-      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)"
+      "code": "Hepatitis C Diagnosis-768125005",
+      "display": "768125005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)",
-      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)"
+      "code": "Hepatitis C Diagnosis-768126006",
+      "display": "768126006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)",
-      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)"
+      "code": "Hepatitis C Diagnosis-768127002",
+      "display": "768127002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)",
-      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)"
+      "code": "Hepatitis C Diagnosis-768288001",
+      "display": "768288001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)",
-      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)"
+      "code": "Hepatitis C Diagnosis-768289009",
+      "display": "768289009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Cirrhosis of liver due to chronic hepatitis C (disorder)",
-      "display": "Cirrhosis of liver due to chronic hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-831000119103",
+      "display": "831000119103"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C (disorder)",
-      "display": "Chronic hepatitis C (disorder)"
+      "code": "Hepatitis C Diagnosis-128302006",
+      "display": "128302006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic viral hepatitis C with hepatic coma (disorder)",
-      "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
+      "code": "Hepatitis C Diagnosis-435101000124104",
+      "display": "435101000124104"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Antigen of Hepacivirus C (substance)",
-      "display": "Antigen of Hepacivirus C (substance)"
+      "code": "Hepatitis C Diagnosis-121022006",
+      "display": "121022006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Ribosomal ribonucleic acid of Hepatitis C virus (substance)",
-      "display": "Ribosomal ribonucleic acid of Hepatitis C virus (substance)"
+      "code": "Hepatitis C Diagnosis-121185009",
+      "display": "121185009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Ribonucleic acid of Hepatitis C virus (substance)",
-      "display": "Ribonucleic acid of Hepatitis C virus (substance)"
+      "code": "Hepatitis C Diagnosis-121204002",
+      "display": "121204002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 1a (organism)",
-      "display": "Hepatitis C virus subtype 1a (organism)"
+      "code": "Hepatitis C Diagnosis-603413005",
+      "display": "603413005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 1b (organism)",
-      "display": "Hepatitis C virus subtype 1b (organism)"
+      "code": "Hepatitis C Diagnosis-603414004",
+      "display": "603414004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 2a (organism)",
-      "display": "Hepatitis C virus subtype 2a (organism)"
+      "code": "Hepatitis C Diagnosis-603415003",
+      "display": "603415003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 2b (organism)",
-      "display": "Hepatitis C virus subtype 2b (organism)"
+      "code": "Hepatitis C Diagnosis-603416002",
+      "display": "603416002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 3a (organism)",
-      "display": "Hepatitis C virus subtype 3a (organism)"
+      "code": "Hepatitis C Diagnosis-603417006",
+      "display": "603417006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 3b (organism)",
-      "display": "Hepatitis C virus subtype 3b (organism)"
+      "code": "Hepatitis C Diagnosis-603418001",
+      "display": "603418001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 5a (organism)",
-      "display": "Hepatitis C virus subtype 5a (organism)"
+      "code": "Hepatitis C Diagnosis-603419009",
+      "display": "603419009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 6a (organism)",
-      "display": "Hepatitis C virus subtype 6a (organism)"
+      "code": "Hepatitis C Diagnosis-603420003",
+      "display": "603420003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4a (organism)",
-      "display": "Hepatitis C virus subtype 4a (organism)"
+      "code": "Hepatitis C Diagnosis-603421004",
+      "display": "603421004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 1 (organism)",
-      "display": "Hepatitis C virus genotype 1 (organism)"
+      "code": "Hepatitis C Diagnosis-603422006",
+      "display": "603422006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 2 (organism)",
-      "display": "Hepatitis C virus genotype 2 (organism)"
+      "code": "Hepatitis C Diagnosis-603423001",
+      "display": "603423001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 3 (organism)",
-      "display": "Hepatitis C virus genotype 3 (organism)"
+      "code": "Hepatitis C Diagnosis-603424007",
+      "display": "603424007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 4 (organism)",
-      "display": "Hepatitis C virus genotype 4 (organism)"
+      "code": "Hepatitis C Diagnosis-603425008",
+      "display": "603425008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 5 (organism)",
-      "display": "Hepatitis C virus genotype 5 (organism)"
+      "code": "Hepatitis C Diagnosis-603426009",
+      "display": "603426009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 6 (organism)",
-      "display": "Hepatitis C virus genotype 6 (organism)"
+      "code": "Hepatitis C Diagnosis-603427000",
+      "display": "603427000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 1c (organism)",
-      "display": "Hepatitis C virus subtype 1c (organism)"
+      "code": "Hepatitis C Diagnosis-603428005",
+      "display": "603428005"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 2c (organism)",
-      "display": "Hepatitis C virus subtype 2c (organism)"
+      "code": "Hepatitis C Diagnosis-603429002",
+      "display": "603429002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4b (organism)",
-      "display": "Hepatitis C virus subtype 4b (organism)"
+      "code": "Hepatitis C Diagnosis-603430007",
+      "display": "603430007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4c (organism)",
-      "display": "Hepatitis C virus subtype 4c (organism)"
+      "code": "Hepatitis C Diagnosis-603431006",
+      "display": "603431006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4d (organism)",
-      "display": "Hepatitis C virus subtype 4d (organism)"
+      "code": "Hepatitis C Diagnosis-603432004",
+      "display": "603432004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus subtype 4e (organism)",
-      "display": "Hepatitis C virus subtype 4e (organism)"
+      "code": "Hepatitis C Diagnosis-603433009",
+      "display": "603433009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus (organism)",
-      "display": "Hepatitis C virus (organism)"
+      "code": "Hepatitis C Diagnosis-62944002",
+      "display": "62944002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Antigen of Hepatitis C virus core (substance)",
-      "display": "Antigen of Hepatitis C virus core (substance)"
+      "code": "Hepatitis C Diagnosis-726592002",
+      "display": "726592002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 4h (organism)",
-      "display": "Hepatitis C virus genotype 4h (organism)"
+      "code": "Hepatitis C Diagnosis-781245007",
+      "display": "781245007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatitis C virus genotype 3c (organism)",
-      "display": "Hepatitis C virus genotype 3c (organism)"
+      "code": "Hepatitis C Diagnosis-781276001",
+      "display": "781276001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic viral hepatitis (disorder)",
-      "display": "Chronic viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-10295004",
+      "display": "10295004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)",
-      "display": "Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)"
+      "code": "Hepatitis C Diagnosis-1092801000119100",
+      "display": "1092801000119100"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic aggressive type B viral hepatitis (disorder)",
-      "display": "Chronic aggressive type B viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-1116000",
+      "display": "1116000"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic autoimmune hepatitis (disorder)",
-      "display": "Chronic autoimmune hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-16098491000119109",
+      "display": "16098491000119109"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic active hepatitis (disorder)",
-      "display": "Chronic active hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-197284004",
+      "display": "197284004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic viral hepatitis B with hepatitis D (disorder)",
-      "display": "Chronic viral hepatitis B with hepatitis D (disorder)"
+      "code": "Hepatitis C Diagnosis-235869004",
+      "display": "235869004"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Drug-induced chronic hepatitis (disorder)",
-      "display": "Drug-induced chronic hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-235889003",
+      "display": "235889003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic alcoholic hepatitis (disorder)",
-      "display": "Chronic alcoholic hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-307757001",
+      "display": "307757001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic persistent type B viral hepatitis (disorder)",
-      "display": "Chronic persistent type B viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-38662009",
+      "display": "38662009"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic persistent hepatitis (disorder)",
-      "display": "Chronic persistent hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-41889008",
+      "display": "41889008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis E (disorder)",
-      "display": "Chronic hepatitis E (disorder)"
+      "code": "Hepatitis C Diagnosis-450880008",
+      "display": "450880008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic active type B viral hepatitis (disorder)",
-      "display": "Chronic active type B viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-50167007",
+      "display": "50167007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic lobular hepatitis (disorder)",
-      "display": "Chronic lobular hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-57339008",
+      "display": "57339008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic persistent viral hepatitis (disorder)",
-      "display": "Chronic persistent viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-60037002",
+      "display": "60037002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic type B viral hepatitis (disorder)",
-      "display": "Chronic type B viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-61977001",
+      "display": "61977001"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic active viral hepatitis (disorder)",
-      "display": "Chronic active viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-66870002",
+      "display": "66870002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Occult chronic type B viral hepatitis (disorder)",
-      "display": "Occult chronic type B viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-713966008",
+      "display": "713966008"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis (disorder)",
-      "display": "Chronic hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-76783007",
+      "display": "76783007"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)",
-      "display": "Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)"
+      "code": "Hepatitis C Diagnosis-774204006",
+      "display": "774204006"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)",
-      "display": "Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)"
+      "code": "Hepatitis C Diagnosis-838377003",
+      "display": "838377003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)",
-      "display": "Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)"
+      "code": "Hepatitis C Diagnosis-838380002",
+      "display": "838380002"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic aggressive viral hepatitis (disorder)",
-      "display": "Chronic aggressive viral hepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-89789003",
+      "display": "89789003"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Hepatitis C Diagnosis-Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)",
-      "display": "Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)"
+      "code": "Hepatitis C Diagnosis-9843006",
+      "display": "9843006"
     } ]
   }
 }

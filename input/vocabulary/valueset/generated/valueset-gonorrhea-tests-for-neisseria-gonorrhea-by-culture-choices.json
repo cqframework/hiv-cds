@@ -12,47 +12,47 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Anal by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Anal by Organism specific culture"
+        "code": "Gonorrhea Test-14127-5",
+        "display": "14127-5"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Conjunctival specimen by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Conjunctival specimen by Organism specific culture"
+        "code": "Gonorrhea Test-30099-6",
+        "display": "30099-6"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture"
+        "code": "Gonorrhea Test-688-2",
+        "display": "688-2"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Endometrium by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Endometrium by Organism specific culture"
+        "code": "Gonorrhea Test-690-8",
+        "display": "690-8"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Genital specimen by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Genital specimen by Organism specific culture"
+        "code": "Gonorrhea Test-691-6",
+        "display": "691-6"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Genital lochia by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Genital lochia by Organism specific culture"
+        "code": "Gonorrhea Test-692-4",
+        "display": "692-4"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Vaginal fluid by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Vaginal fluid by Organism specific culture"
+        "code": "Gonorrhea Test-693-2",
+        "display": "693-2"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Semen by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Semen by Organism specific culture"
+        "code": "Gonorrhea Test-694-0",
+        "display": "694-0"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Synovial fluid by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Synovial fluid by Organism specific culture"
+        "code": "Gonorrhea Test-695-7",
+        "display": "695-7"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Throat by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Throat by Organism specific culture"
+        "code": "Gonorrhea Test-696-5",
+        "display": "696-5"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Urethra by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Urethra by Organism specific culture"
+        "code": "Gonorrhea Test-697-3",
+        "display": "697-3"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Unspecified specimen by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Unspecified specimen by Organism specific culture"
+        "code": "Gonorrhea Test-698-1",
+        "display": "698-1"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Rectum by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Rectum by Organism specific culture"
+        "code": "Gonorrhea Test-80368-4",
+        "display": "80368-4"
       }, {
-        "code": "Gonorrhea Test-Neisseria gonorrhoeae [Presence] in Aspirate by Organism specific culture",
-        "display": "Neisseria gonorrhoeae [Presence] in Aspirate by Organism specific culture"
+        "code": "Gonorrhea Test-91781-5",
+        "display": "91781-5"
       } ]
     } ]
   }

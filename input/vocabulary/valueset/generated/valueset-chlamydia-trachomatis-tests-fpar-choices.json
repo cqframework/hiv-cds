@@ -12,8 +12,8 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chlamydia Test-Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection",
-        "display": "Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection"
+        "code": "Chlamydia Test-35729-3",
+        "display": "35729-3"
       } ]
     } ]
   }
