@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a0-de63",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de63",
+  "name": "DrugAbuse",
+  "title": "Drug Abuse",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Drug Abuse element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Drug Abuse",
+        "display": "Drug Abuse"
+      } ]
+    } ]
+  }
+}

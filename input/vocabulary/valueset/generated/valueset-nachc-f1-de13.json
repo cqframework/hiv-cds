@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-f1-de13",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13",
+  "name": "InjectionFindingsChoices",
+  "title": "Injection Findings Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Injection Findings Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.F1.DE13",
+        "display": "228387001"
+      }, {
+        "code": "NACHC.F1.DE14",
+        "display": "228389003"
+      } ]
+    } ]
+  }
+}

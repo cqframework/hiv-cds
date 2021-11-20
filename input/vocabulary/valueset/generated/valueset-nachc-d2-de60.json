@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-d2-de60",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de60",
+  "name": "GonorrheaTestsforNeisseriaspeciesbyCultureChoices",
+  "title": "Gonorrhea Tests for Neisseria species by Culture Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Tests for Neisseria species by Culture Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.D2.DE60",
+        "display": "43383-9"
+      }, {
+        "code": "NACHC.D2.DE61",
+        "display": "43384-7"
+      }, {
+        "code": "NACHC.D2.DE62",
+        "display": "43385-4"
+      }, {
+        "code": "NACHC.D2.DE63",
+        "display": "43386-2"
+      }, {
+        "code": "NACHC.D2.DE64",
+        "display": "43387-0"
+      }, {
+        "code": "NACHC.D2.DE65",
+        "display": "80369-2"
+      } ]
+    } ]
+  }
+}

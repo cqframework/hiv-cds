@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-d2-de2",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de2",
+  "name": "GonorrheaTestsforNeisseriagonorrheabyCultureChoices",
+  "title": "Gonorrhea Tests for Neisseria gonorrhea by Culture Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Tests for Neisseria gonorrhea by Culture Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.D2.DE2",
+        "display": "14127-5"
+      }, {
+        "code": "NACHC.D2.DE3",
+        "display": "30099-6"
+      }, {
+        "code": "NACHC.D2.DE4",
+        "display": "688-2"
+      }, {
+        "code": "NACHC.D2.DE5",
+        "display": "690-8"
+      }, {
+        "code": "NACHC.D2.DE6",
+        "display": "691-6"
+      }, {
+        "code": "NACHC.D2.DE7",
+        "display": "692-4"
+      }, {
+        "code": "NACHC.D2.DE8",
+        "display": "693-2"
+      }, {
+        "code": "NACHC.D2.DE9",
+        "display": "694-0"
+      }, {
+        "code": "NACHC.D2.DE10",
+        "display": "695-7"
+      }, {
+        "code": "NACHC.D2.DE11",
+        "display": "696-5"
+      }, {
+        "code": "NACHC.D2.DE12",
+        "display": "697-3"
+      }, {
+        "code": "NACHC.D2.DE13",
+        "display": "698-1"
+      }, {
+        "code": "NACHC.D2.DE14",
+        "display": "80368-4"
+      }, {
+        "code": "NACHC.D2.DE15",
+        "display": "91781-5"
+      } ]
+    } ]
+  }
+}

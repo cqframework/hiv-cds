@@ -150,7 +150,7 @@
       "extension": [ {
         "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem",
         "valueReference": {
-          "reference": "cqf-tooling"
+          "reference": "Device/cqf-tooling"
         }
       } ],
       "url": "http://fhir.org/guides/nachc/hiv-cds/Library/HelloHIVWorld",
@@ -258,8 +258,7 @@
       } ],
       "dataRequirement": [ {
         "type": "Patient",
-        "profile": [ "http://hl7.org/fhir/StructureDefinition/Patient" ],
-        "mustSupport": [ "given", "family" ]
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/Patient" ]
       }, {
         "type": "Condition",
         "profile": [ "http://hl7.org/fhir/StructureDefinition/Condition" ],
@@ -268,6 +267,22 @@
           "path": "code",
           "valueSet": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1056.52"
         } ]
+      }, {
+        "type": "Condition",
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/Condition" ],
+        "mustSupport": [ "code" ],
+        "codeFilter": [ {
+          "path": "code",
+          "valueSet": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1056.52"
+        } ]
+      }, {
+        "type": "Patient",
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/Patient" ],
+        "mustSupport": [ "given" ]
+      }, {
+        "type": "Patient",
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/Patient" ],
+        "mustSupport": [ "family" ]
       } ],
       "content": [ {
         "contentType": "text/cql",
@@ -402,7 +417,7 @@
       "extension": [ {
         "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem",
         "valueReference": {
-          "reference": "cqf-tooling"
+          "reference": "Device/cqf-tooling"
         }
       } ],
       "url": "http://hl7.org/fhir/Library/FHIRHelpers",
@@ -439,7 +454,7 @@
     },
     "request": {
       "method": "PUT",
-      "url": "Library/FHIRHelpers/_history/7"
+      "url": "Library/FHIRHelpers"
     }
   } ]
 }

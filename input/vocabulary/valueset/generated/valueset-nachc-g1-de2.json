@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g1-de2",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de2",
+  "name": "PostExposureProphylaxisChoices",
+  "title": "Post Exposure Prophylaxis Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Post Exposure Prophylaxis Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.G1.DE2",
+        "display": "409516001"
+      }, {
+        "code": "NACHC.G1.DE3",
+        "display": "736459001"
+      }, {
+        "code": "NACHC.G1.DE4",
+        "display": "473382005"
+      } ]
+    } ]
+  }
+}

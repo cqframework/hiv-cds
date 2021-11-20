@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-d1-de167",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de167",
+  "name": "GonorrheaOrganismorSubstanceinLabResultsChoices",
+  "title": "Gonorrhea Organism or Substance in Lab Results Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Organism or Substance in Lab Results Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.D1.DE167",
+        "display": "120977006"
+      }, {
+        "code": "NACHC.D1.DE168",
+        "display": "121172006"
+      }, {
+        "code": "NACHC.D1.DE169",
+        "display": "277501003"
+      }, {
+        "code": "NACHC.D1.DE170",
+        "display": "277502005"
+      }, {
+        "code": "NACHC.D1.DE171",
+        "display": "277503000"
+      }, {
+        "code": "NACHC.D1.DE172",
+        "display": "277504006"
+      }, {
+        "code": "NACHC.D1.DE173",
+        "display": "409805000"
+      }, {
+        "code": "NACHC.D1.DE174",
+        "display": "414809001"
+      }, {
+        "code": "NACHC.D1.DE175",
+        "display": "68704007"
+      }, {
+        "code": "NACHC.D1.DE176",
+        "display": "703483000"
+      }, {
+        "code": "NACHC.D1.DE177",
+        "display": "83410001"
+      }, {
+        "code": "NACHC.D1.DE178",
+        "display": "414811005"
+      }, {
+        "code": "NACHC.D1.DE179",
+        "display": "59083001"
+      }, {
+        "code": "NACHC.D1.DE180",
+        "display": "715869002"
+      }, {
+        "code": "NACHC.D1.DE181",
+        "display": "715872009"
+      } ]
+    } ]
+  }
+}

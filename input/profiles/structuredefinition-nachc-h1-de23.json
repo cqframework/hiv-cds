@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de23",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de23",
-  "name": "Sexual Activity - Kind of Sex - Anal",
+  "name": "SexualActivityKindofSexAnal",
   "title": "Sexual Activity - Kind of Sex - Anal",
   "status": "draft",
   "experimental": false,
@@ -48,7 +48,7 @@
           "valueString": "Sexual Activity - Kind of Sex - Anal"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-kind-of-sex-anal"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de23"
       },
       "mapping": [ {
         "identity": "HIV",

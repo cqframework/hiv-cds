@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-a1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a1-de1",
-  "name": "HIV Diagnosis",
+  "name": "HIVDiagnosis",
   "title": "HIV Diagnosis",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "HIV Diagnosis",
       "comment": "HIV infection mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
@@ -49,7 +49,7 @@
           "valueString": "HIV infection as a condition Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-infection-as-a-condition-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a1-de2"
       },
       "mapping": [ {
         "identity": "HIV",

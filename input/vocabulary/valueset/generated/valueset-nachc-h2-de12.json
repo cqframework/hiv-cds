@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h2-de12",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de12",
+  "name": "DAST10Question6Choices",
+  "title": "DAST 10 Question 6 Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the DAST 10 Question 6 Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H2.DE12",
+        "display": "Does your spouse (or parents) ever complain about your involvement with drugs"
+      } ]
+    } ]
+  }
+}

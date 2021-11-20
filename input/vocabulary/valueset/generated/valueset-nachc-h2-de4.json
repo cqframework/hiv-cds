@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h2-de4",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de4",
+  "name": "DAST10Question2Choices",
+  "title": "DAST 10 Question 2 Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the DAST 10 Question 2 Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H2.DE4",
+        "display": "Do you use more than one drug at a time"
+      } ]
+    } ]
+  }
+}

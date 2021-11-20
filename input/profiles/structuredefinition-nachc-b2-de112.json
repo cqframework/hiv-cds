@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-b2-de112",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-b2-de112",
-  "name": "Hepatitis C Procedures",
+  "name": "HepatitisCProcedures",
   "title": "Hepatitis C Procedures",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Hepatitis C Procedures",
       "comment": "HCV test Procedure mapping??Sourced: https://confluence.nachc.org/pages/viewpage.action?pageId=14485048",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
@@ -49,7 +49,7 @@
           "valueString": "Hepatitis C Procedures Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-procedures-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113"
       },
       "mapping": [ {
         "identity": "HIV",

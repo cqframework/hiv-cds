@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-d2-de101",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de101",
+  "name": "GonorrheaTestsandChlamydiaGonorrheaCombinedTestsChoices",
+  "title": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.D2.DE101",
+        "display": "45067-6"
+      }, {
+        "code": "NACHC.D2.DE102",
+        "display": "1675429"
+      } ]
+    } ]
+  }
+}

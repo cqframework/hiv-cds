@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-g2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g2-de1",
-  "name": "Prep Medication Prescriptions",
+  "name": "PrepMedicationPrescriptions",
   "title": "Prep Medication Prescriptions",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Prep Medication Prescriptions",
       "comment": "PrEP Medication mapping??Sourced: https://confluence.nachc.org/download/attachments/17415026/2021-07-09%20HIV%20Pre-exposure%20prophylaxis%20%28PrEP%29%20%5BRxNorm%5D%20%5BNDC%5D.xlsx?version=1&modificationDate=1626704083728&api=v2Request",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "type": [ {
         "code": "CodeableConcept"
       } ],
@@ -52,7 +52,7 @@
           "valueString": "Prep Medication Prescriptions Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/prep-medication-prescriptions-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

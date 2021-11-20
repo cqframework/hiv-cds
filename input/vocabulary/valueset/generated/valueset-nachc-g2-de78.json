@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de78",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de78",
+  "name": "TenofovirAlafenamideTAF25mgSuppliedChoices",
+  "title": "Tenofovir Alafenamide (TAF) 25 mg Supplied Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Tenofovir Alafenamide (TAF) 25 mg Supplied Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.G2.DE78",
+        "display": "61958-2301"
+      } ]
+    } ]
+  }
+}

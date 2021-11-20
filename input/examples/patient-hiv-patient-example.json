@@ -1,0 +1,10 @@
+{
+  "resourceType": "Patient",
+  "id": "hiv-patient-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient" ]
+  },
+  "generalPractitioner": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "Condition",
+  "id": "nachc-f2-de1131-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de1131" ]
+  },
+  "clinicalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code": "active"
+    } ]
+  },
+  "verificationStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code": "confirmed"
+    } ]
+  },
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.F2.DE1132",
+      "display": "A34"
+    }, {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "code": "A34",
+      "display": "Obstetrical tetanus"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "asserter": {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  }
+}

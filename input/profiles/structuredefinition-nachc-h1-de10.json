@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de10",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de10",
-  "name": "Previous experience with PREP",
+  "name": "PreviousexperiencewithPREP",
   "title": "Previous experience with PREP",
   "status": "draft",
   "experimental": false,
@@ -45,10 +45,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Pre Exposure Prophylaxis Medication Prescriptions"
+          "valueString": "Previous experience with PREP"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pre-exposure-prophylaxis-medication-prescriptions"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de10"
       },
       "mapping": [ {
         "identity": "HIV",

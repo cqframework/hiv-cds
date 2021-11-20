@@ -1,0 +1,11 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de8",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de8",
+  "name": "PatienthasusedInjectionDrugs",
+  "title": "Patient has used Injection Drugs",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Patient has used Injection Drugs element",
+  "immutable": true
+}

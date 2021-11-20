@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-d1-de182",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de182",
+  "name": "GonorrheaSecondarySitesChoices",
+  "title": "Gonorrhea Secondary Sites Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gonorrhea Secondary Sites Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.D1.DE182",
+        "display": "10754031000119100"
+      }, {
+        "code": "NACHC.D1.DE183",
+        "display": "1086991000119100"
+      }, {
+        "code": "NACHC.D1.DE184",
+        "display": "1087001000119110"
+      }, {
+        "code": "NACHC.D1.DE185",
+        "display": "1087011000119110"
+      }, {
+        "code": "NACHC.D1.DE186",
+        "display": "1087061000119110"
+      }, {
+        "code": "NACHC.D1.DE187",
+        "display": "1092501000119100"
+      }, {
+        "code": "NACHC.D1.DE188",
+        "display": "1092601000119100"
+      }, {
+        "code": "NACHC.D1.DE189",
+        "display": "194910001"
+      }, {
+        "code": "NACHC.D1.DE190",
+        "display": "240580007"
+      }, {
+        "code": "NACHC.D1.DE191",
+        "display": "240584003"
+      }, {
+        "code": "NACHC.D1.DE192",
+        "display": "342381000119109"
+      }, {
+        "code": "NACHC.D1.DE193",
+        "display": "733131001"
+      }, {
+        "code": "NACHC.D1.DE194",
+        "display": "735516004"
+      }, {
+        "code": "NACHC.D1.DE195",
+        "display": "90428001"
+      } ]
+    } ]
+  }
+}

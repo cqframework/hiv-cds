@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "nachc-a0-de63-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de63" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.A0.DE64",
+      "display": "3254089"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ]
+}

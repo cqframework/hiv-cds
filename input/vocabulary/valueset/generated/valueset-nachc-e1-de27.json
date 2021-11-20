@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e1-de27",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de27",
+  "name": "ChlamydiaInfectionsandVenerealDiseasesChoices",
+  "title": "Chlamydia Infections and Venereal Diseases Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Infections and Venereal Diseases Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.E1.DE27",
+        "display": "420910002"
+      }, {
+        "code": "NACHC.E1.DE28",
+        "display": "426165006"
+      }, {
+        "code": "NACHC.E1.DE29",
+        "display": "426247003"
+      }, {
+        "code": "NACHC.E1.DE30",
+        "display": "428015005"
+      } ]
+    } ]
+  }
+}

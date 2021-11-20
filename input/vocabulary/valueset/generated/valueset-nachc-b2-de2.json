@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-b2-de2",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de2",
+  "name": "HepatitisCAgChoices",
+  "title": "Hepatitis C Ag Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C Ag Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.B2.DE2",
+        "display": "79189-7"
+      }, {
+        "code": "NACHC.B2.DE3",
+        "display": "54914-7"
+      } ]
+    } ]
+  }
+}

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de21",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de21",
-  "name": "Sexual Activity - Exchanged for Sex",
+  "name": "SexualActivityExchangedforSex",
   "title": "Sexual Activity - Exchanged for Sex",
   "status": "draft",
   "experimental": false,
@@ -48,7 +48,7 @@
           "valueString": "Sexual Activity - Exchanged for Sex"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-exchanged-for-sex"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de21"
       },
       "mapping": [ {
         "identity": "HIV",

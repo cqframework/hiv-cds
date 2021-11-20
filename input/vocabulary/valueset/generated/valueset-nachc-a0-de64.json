@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a0-de64",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de64",
+  "name": "DrugAbuseChoices",
+  "title": "Drug Abuse Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Drug Abuse Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.A0.DE64",
+        "display": "3254089"
+      }, {
+        "code": "NACHC.A0.DE65",
+        "display": "82667-7"
+      }, {
+        "code": "NACHC.A0.DE66",
+        "display": "82666-9"
+      } ]
+    } ]
+  }
+}

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de5",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de5",
-  "name": "Patient Diagnosed with Syphilis",
+  "name": "PatientDiagnosedwithSyphilis",
   "title": "Patient Diagnosed with Syphilis",
   "status": "draft",
   "experimental": false,
@@ -45,10 +45,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Syphilis Diagnosis"
+          "valueString": "Patient Diagnosed with Syphilis"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-diagnosis"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de5"
       },
       "mapping": [ {
         "identity": "HIV",

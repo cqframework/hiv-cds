@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a0-de1",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de1",
+  "name": "PatientEncounter",
+  "title": "Patient Encounter",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Patient Encounter element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Patient Encounter",
+        "display": "Patient Encounter"
+      } ]
+    } ]
+  }
+}

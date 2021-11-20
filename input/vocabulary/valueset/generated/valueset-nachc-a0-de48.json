@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a0-de48",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de48",
+  "name": "SexualOrientation",
+  "title": "Sexual Orientation",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Orientation element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Sexual Orientation",
+        "display": "Sexual Orientation"
+      } ]
+    } ]
+  }
+}

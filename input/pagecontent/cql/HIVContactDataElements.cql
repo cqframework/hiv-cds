@@ -6,10 +6,28 @@ include FHIRHelpers version '4.0.1'
 include FHIRCommon called FC
 
 include NACHCCommon called NC
-include HIVCommon called AC
+include HIVCommon called HC
 include HIVConcepts called Cx
 
-context Encounter
+context Patient
+
+/*
+  @dataElement: NACHC.A0.DE48 Sexual Orientation
+  @activity: NACHC.A0 Contact & Profile
+  @description: Concepts Associated with Sexual Orientation Elements
+*/
+define "Sexual Orientation":
+  [Patient] P
+    return HC.GetSexualOrientation(P)
+
+/*
+  @dataElement: NACHC.A0.DE55 Gender Identity
+  @activity: NACHC.A0 Contact & Profile
+  @description: Concepts Associated with Gender Identity Elements
+*/
+define "Gender Identity":
+  [Patient] P
+    return HC.GetGenderIdentity(P)
 
 /*
   @dataElement: NACHC.A0.DE1 Patient Encounter
@@ -18,6 +36,14 @@ context Encounter
 */
 define "Patient Encounter":
   [Encounter: Cx."Patient Encounter Choices"]
+
+/*
+  @dataElement: NACHC.A0.DE63 Drug Abuse
+  @activity: NACHC.A0 Contact & Profile
+  @description: Concepts Associated with Drug Abuse Elements
+*/
+define "Drug Abuse":
+  [Observation: Cx."Drug Abuse Choices"]
 
 /*
   @dataElement: NACHC.A1.DE1 HIV Diagnosis
@@ -232,7 +258,7 @@ define "Post Exposure Prophylaxis Dispensed Medications":
   @description: List of Medication Prescriptions for Non-Occupational Post Exposure Prophylaxis
 */
 define "Post Exposure Prophylaxis Medication Prescriptions":
-  [MedicationRequest: Cx."Prep Medication Prescriptions Choices Grouper"]
+  [MedicationRequest: Cx."PEP Medication Prescriptions Choices Grouper"]
 
 /*
   @dataElement: NACHC.G2.DE1 Pre Exposure Prophylaxis Medication Prescriptions
@@ -240,7 +266,7 @@ define "Post Exposure Prophylaxis Medication Prescriptions":
   @description: List of Medication Prescriptions for Non-Occupational Pre Exposure Prophylaxis
 */
 define "Pre Exposure Prophylaxis Medication Prescriptions":
-  [MedicationRequest: Cx."PEP Medication Prescriptions Choices Grouper"]
+  [MedicationRequest: Cx."Prep Medication Prescriptions Choices Grouper"]
 
 /*
   @dataElement: NACHC.G2.DE26 Pre Exposure Prophylaxis Dispensed Medications
@@ -482,4 +508,93 @@ define "Patient has used Injection Drugs":
 */
 define "Seeking STD Treatment":
   [Observation: Cx."Seeking STD Treatment"] Resource
+    where Resource.value = true
+/*
+  @dataElement: NACHC.H2.DE1 DAST 10 Question 1
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 1
+*/
+define "DAST 10 Question 1":
+  [Observation: Cx."DAST 10 Question 1"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE11 DAST 10 Question 6
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 6
+*/
+define "DAST 10 Question 6":
+  [Observation: Cx."DAST 10 Question 6"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE13 DAST 10 Question 7
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 7
+*/
+define "DAST 10 Question 7":
+  [Observation: Cx."DAST 10 Question 7"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE15 DAST 10 Question 8
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 8
+*/
+define "DAST 10 Question 8":
+  [Observation: Cx."DAST 10 Question 8"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE17 DAST 10 Question 9
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 9
+*/
+define "DAST 10 Question 9":
+  [Observation: Cx."DAST 10 Question 9"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE19 DAST 10 Question 10
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 10
+*/
+define "DAST 10 Question 10":
+  [Observation: Cx."DAST 10 Question 10"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE3 DAST 10 Question 2
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 2
+*/
+define "DAST 10 Question 2":
+  [Observation: Cx."DAST 10 Question 2"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE5 DAST 10 Question 3
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 3
+*/
+define "DAST 10 Question 3":
+  [Observation: Cx."DAST 10 Question 3"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE7 DAST 10 Question 4
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 4
+*/
+define "DAST 10 Question 4":
+  [Observation: Cx."DAST 10 Question 4"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE9 DAST 10 Question 5
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 5
+*/
+define "DAST 10 Question 5":
+  [Observation: Cx."DAST 10 Question 5"] Resource
     where Resource.value = true

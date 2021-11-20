@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "nachc-h1-de16-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de16" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.H1.DE16",
+      "display": "Sexual Activity - New Partner Past 3 Months"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ],
+  "valueBoolean": true
+}

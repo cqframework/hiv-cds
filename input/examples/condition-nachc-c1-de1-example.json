@@ -1,0 +1,39 @@
+{
+  "resourceType": "Condition",
+  "id": "nachc-c1-de1-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-c1-de1" ]
+  },
+  "clinicalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code": "active"
+    } ]
+  },
+  "verificationStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code": "confirmed"
+    } ]
+  },
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.C1.DE319",
+      "display": "29500006"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "29500006",
+      "display": "Urethral stricture due to syphilis (disorder)"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "asserter": {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  }
+}

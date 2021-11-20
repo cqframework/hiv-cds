@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-c2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-c2-de1",
-  "name": "Syphilis Test",
+  "name": "SyphilisTest",
   "title": "Syphilis Test",
   "status": "draft",
   "experimental": false,
@@ -49,7 +49,7 @@
           "valueString": "Syphilis Test"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-test"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de1"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -61,7 +61,7 @@
       "short": "Syphilis Test",
       "comment": "Syph test mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "type": [ {
         "code": "CodeableConcept"
       } ],
@@ -72,7 +72,7 @@
           "valueString": "Syphilis Test Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/syphilis-test-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de1-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

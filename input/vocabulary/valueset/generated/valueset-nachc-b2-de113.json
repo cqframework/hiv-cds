@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-b2-de113",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113",
+  "name": "HepatitisCProceduresChoices",
+  "title": "Hepatitis C Procedures Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C Procedures Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.B2.DE113",
+        "display": "3218F"
+      }, {
+        "code": "NACHC.B2.DE114",
+        "display": "3220F"
+      }, {
+        "code": "NACHC.B2.DE115",
+        "display": "3265F"
+      }, {
+        "code": "NACHC.B2.DE116",
+        "display": "3266F"
+      }, {
+        "code": "NACHC.B2.DE117",
+        "display": "3514F"
+      }, {
+        "code": "NACHC.B2.DE118",
+        "display": "4150F"
+      }, {
+        "code": "NACHC.B2.DE119",
+        "display": "36415"
+      }, {
+        "code": "NACHC.B2.DE120",
+        "display": "81596"
+      } ]
+    } ]
+  }
+}

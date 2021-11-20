@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de3",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de3",
-  "name": "Patient Currently Pregnant",
+  "name": "PatientCurrentlyPregnant",
   "title": "Patient Currently Pregnant",
   "status": "draft",
   "experimental": false,
@@ -45,10 +45,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Pregnancy Conditions"
+          "valueString": "Patient Currently Pregnant"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-conditions"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de3"
       },
       "mapping": [ {
         "identity": "HIV",

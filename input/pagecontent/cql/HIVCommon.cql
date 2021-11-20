@@ -47,107 +47,108 @@ define function Highest(observations List<Observation>):
       sort by (value as FHIR.Quantity)
   )
 
+
 /*
-@description: Returns any HIV extensions defined on the given resource with the specified id.
-@comment: NOTE: Extensions are not the preferred approach, but are used as a way to access
+NOTE: Extensions are not the preferred approach, but are used as a way to access
 content that is defined by extensions but not yet surfaced in the
 CQL model info.
 */
-define function Extensions(domainResource DomainResource, id String):
-  domainResource.extension E
-	  where E.url = ('http://fhir.org/guides/nachc/hiv-cds' + id)
-		return E
 
-/*
-@description: Returns the single HIV extension (if present) on the given resource with the specified id.
-@comment: This function uses singleton from to ensure that a run-time exception is thrown if there
-is more than one extension on the given resource with the specified id.
-*/
-define function Extension(domainResource DomainResource, id String):
-  singleton from "Extensions"(domainResource, id)
-
-/*
-@description: Returns any HIV extensions defined on the given element with the specified id.
-@comment: NOTE: Extensions are not the preferred approach, but are used as a way to access
-content that is defined by extensions but not yet surfaced in the CQL model info.
-*/
-define function Extensions(element Element, id String):
-  element.extension E
-	  where E.url = ('http://fhir.org/guides/nachc/hiv-cds' + id)
-		return E
-
-/*
-@description: Returns the single HIV extension (if present) on the given element with the specified id.
-@comment: This function uses singleton from to ensure that a run-time exception is thrown if there
-is more than one extension on the given resource with the specified url.
-*/
-define function Extension(element Element, id String):
-  singleton from Extensions(element, id)
-
-/*
-@description: Returns any HIV modifier extensions defined on the given resource with the specified id.
-@comment: NOTE: Extensions are not the preferred approach, but are used as a way to access
-content that is defined by extensions but not yet surfaced in the
-CQL model info.
-*/
-define function ModifierExtensions(domainResource DomainResource, id String):
+define function QICoreModifierExtensions(domainResource DomainResource, url String):
   domainResource.modifierExtension E
-	  where E.url = ('http://fhir.org/guides/nachc/hiv-cds' + id)
+    where E.url = ('http://hl7.org/fhir/us/qicore/StructureDefinition/' + url)
+    return E
+
+define function QICoreModifierExtension(domainResource DomainResource, url String):
+  singleton from QICoreModifierExtensions(domainResource, url)
+
+define function QICoreExtensions(domainResource DomainResource, url String):
+  domainResource.extension E
+    where E.url = ('http://hl7.org/fhir/us/qicore/StructureDefinition/' + url)
+    return E
+
+define function QICoreExtension(domainResource DomainResource, url String):
+  singleton from QICoreExtensions(domainResource, url)
+
+define function GetBaseModifierExtensions(domainResource DomainResource, url String):
+  domainResource.modifierExtension E
+	  where E.url = ('http://hl7.org/fhir/StructureDefinition/' + url)
 		return E
 
-/*
-@description: Returns the single HIV modifier extension (if present) on the given resource with the specified id.
-@comment: This function uses singleton from to ensure that a run-time exception is thrown if there
-is more than one extension on the given resource with the specified url.
-*/
-define function ModifierExtension(domainResource DomainResource, id String):
-  singleton from ModifierExtensions(domainResource, id)
+define function GetBaseModifierExtension(domainResource DomainResource, url String):
+  singleton from GetBaseModifierExtensions(domainResource, url)
 
-/*
-@description: Returns any HIV modifier extensions defined on the given element with the specified id.
-@comment: NOTE: Extensions are not the preferred approach, but are used as a way to access
-content that is defined by extensions but not yet surfaced in the CQL model info.
-*/
-define function ModifierExtensions(element BackboneElement, id String):
-  element.modifierExtension E
-	  where E.url = ('http://fhir.org/guides/nachc/hiv-cds' + id)
+define function GetBaseExtensions(domainResource DomainResource, url String):
+  domainResource.extension E
+	  where E.url = ('http://hl7.org/fhir/StructureDefinition/' + url)
 		return E
 
-/*
-@description: Returns the single HIV modifier extension (if present) on the given element with the specified id.
-@comment: This function uses singleton from to ensure that a run-time exception is thrown if there
-is more than one extension on the given resource with the specified url.
-*/
-define function ModifierExtension(element BackboneElement, id String):
-  singleton from ModifierExtensions(element, id)
+define function GetBaseExtension(domainResource DomainResource, url String):
+  singleton from GetBaseExtensions(domainResource, url)
+
+define function GetUSModifierExtensions(domainResource DomainResource, url String):
+  domainResource.modifierExtension E
+	  where E.url = ('http://hl7.org/fhir/us/core/StructureDefinition/' + url)
+		return E
+
+define function GetUSModifierExtension(domainResource DomainResource, url String):
+  singleton from GetUSModifierExtensions(domainResource, url)
+
+define function GetUSExtensions(domainResource DomainResource, url String):
+  domainResource.extension E
+	  where E.url = ('http://hl7.org/fhir/us/core/StructureDefinition/' + url)
+		return E
+
+define function GetUSExtension(domainResource DomainResource, url String):
+  singleton from GetUSExtensions(domainResource, url)
+
+define function GetExtensionValue(extension Extension):
+  extension.value.value
+
+define function GetHIVExtensions(domainResource DomainResource, url String):
+  domainResource.extension E
+	  where E.url = ('http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/' + url)
+		return E
+
+define function GetHIVExtension(domainResource DomainResource, url String):
+  singleton from GetHIVExtensions(domainResource, url)
+
 
 /* QI-CORE Extensions */
 define function GetResourceNotDone(notDone DomainResource):
-  ModifierExtension(notDone, 'qicore-notDone')
+  QICoreModifierExtension(notDone, 'qicore-notDone')
 
 define function GetResourceNotDoneReason(notDoneReason DomainResource):
-  Extension(notDoneReason, 'qicore-notDoneReason')
+  QICoreExtension(notDoneReason, 'qicore-notDoneReason')
 
 define function GetResourceDoNotPerformReason(doNotPerformReason DomainResource):
-  Extension(doNotPerformReason, 'qicore-doNotPerformReason')
+  QICoreExtension(doNotPerformReason, 'qicore-doNotPerformReason')
 
 define function GetResourceNotDoneRecorded(recorded DomainResource):
-  Extension(recorded, 'qicore-recorded')
+  QICoreExtension(recorded, 'qicore-recorded')
 
 define function GetResourceNotDoneRecorded(choice Choice<FHIR.Observation, FHIR.Procedure, FHIR.MedicationAdministration, FHIR.MedicationDispense, FHIR.Communication>):
   case
     when choice is FHIR.Observation then
-      Extension(choice as FHIR.Observation, 'qicore-recorded')
+      QICoreExtension(choice as FHIR.Observation, 'qicore-recorded')
     when choice is FHIR.Procedure then
-      Extension(choice as FHIR.Procedure, 'qicore-recorded')
+      QICoreExtension(choice as FHIR.Procedure, 'qicore-recorded')
     when choice is FHIR.MedicationAdministration then
-      Extension(choice as FHIR.MedicationAdministration, 'qicore-recorded')
+      QICoreExtension(choice as FHIR.MedicationAdministration, 'qicore-recorded')
     when choice is FHIR.MedicationDispense then
-      Extension(choice as FHIR.MedicationDispense, 'qicore-recorded')
+      QICoreExtension(choice as FHIR.MedicationDispense, 'qicore-recorded')
     when choice is FHIR.Communication then
-      Extension(choice as FHIR.Communication, 'qicore-recorded')
+      QICoreExtension(choice as FHIR.Communication, 'qicore-recorded')
     else null
   end
+
+
+define function GetSexualOrientation(resource DomainResource):
+  GetHIVExtension(resource, 'sexualorientation')
+
+define function GetGenderIdentity(resource DomainResource):
+  GetHIVExtension(resource, 'genderidentity')
+
 
 /* Common Resource Qualifications */
 define function QualifiedEncounters(value List<FHIR.Encounter>):

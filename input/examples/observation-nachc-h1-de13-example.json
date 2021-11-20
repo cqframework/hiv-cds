@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "nachc-h1-de13-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de13" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.H1.DE13",
+      "display": "Sexual Activity - Men"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ],
+  "valueBoolean": true
+}

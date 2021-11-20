@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de6",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de6",
-  "name": "Patient Diagnosed with Gonorrhea",
+  "name": "PatientDiagnosedwithGonorrhea",
   "title": "Patient Diagnosed with Gonorrhea",
   "status": "draft",
   "experimental": false,
@@ -45,10 +45,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Gonorrhea Diagnosis"
+          "valueString": "Patient Diagnosed with Gonorrhea"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/gonorrhea-diagnosis"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de6"
       },
       "mapping": [ {
         "identity": "HIV",

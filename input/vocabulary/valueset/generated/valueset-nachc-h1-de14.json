@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de14",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de14",
+  "name": "SexualActivityWomen",
+  "title": "Sexual Activity - Women",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity - Women element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE14",
+        "display": "Sexual Activity - Women"
+      } ]
+    } ]
+  }
+}

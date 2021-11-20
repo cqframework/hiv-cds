@@ -1,0 +1,62 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "NACHCA0",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCA0",
+  "name": "NACHCA0",
+  "title": "NACHC.A0 Contact & Profile",
+  "status": "active",
+  "experimental": false,
+  "description": "TODO: description goes here",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.A0",
+        "display": "Contact & Profile"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de1#Encounter.type",
+    "text": "Patient Encounter",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de2"
+  }, {
+    "linkId": "2",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient#Patient.sexualOrientation",
+    "text": "Sexual Orientation",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de48"
+  }, {
+    "linkId": "3",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient#Patient.genderIdentity",
+    "text": "Gender Identity",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de55"
+  }, {
+    "linkId": "4",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de63#Observation.code",
+    "text": "Drug Abuse",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de64"
+  } ]
+}

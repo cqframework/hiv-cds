@@ -1,0 +1,50 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "NACHCG2",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCG2",
+  "name": "NACHCG2",
+  "title": "NACHC.G2 Pre Exposure Prophylaxis",
+  "status": "active",
+  "experimental": false,
+  "description": "TODO: description goes here",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.G2",
+        "display": "Pre Exposure Prophylaxis"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g2-de1#MedicationRequest.medication[x]",
+    "text": "Prep Medication Prescriptions",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1-choices-grouper"
+  }, {
+    "linkId": "2",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g2-de26#MedicationDispense.medication[x]",
+    "text": "Prep Dispensed Medications",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de26-choices-grouper"
+  } ]
+}

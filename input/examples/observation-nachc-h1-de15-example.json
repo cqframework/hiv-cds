@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "nachc-h1-de15-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de15" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.H1.DE15",
+      "display": "Sexual Activity - Number of Partners"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ],
+  "valueBoolean": true
+}

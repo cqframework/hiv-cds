@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-f1-de200",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de200",
+  "name": "InjectionDrugUse",
+  "title": "Injection Drug Use",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Injection Drug Use element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Injection Drug Use",
+        "display": "Injection Drug Use"
+      } ]
+    } ]
+  }
+}

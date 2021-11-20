@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a0-de55",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de55",
+  "name": "GenderIdentity",
+  "title": "Gender Identity",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Gender Identity element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Gender Identity",
+        "display": "Gender Identity"
+      } ]
+    } ]
+  }
+}

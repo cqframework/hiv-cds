@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-c1-de185",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de185",
+  "name": "SyphilisOrganismorSubstanceinLabResultsChoices",
+  "title": "Syphilis (Organism or Substance in Lab Results) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Organism or Substance in Lab Results) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.C1.DE185",
+        "display": "707439008"
+      }, {
+        "code": "NACHC.C1.DE186",
+        "display": "708462008"
+      }, {
+        "code": "NACHC.C1.DE187",
+        "display": "72904005"
+      }, {
+        "code": "NACHC.C1.DE188",
+        "display": "44106000"
+      }, {
+        "code": "NACHC.C1.DE189",
+        "display": "43454006"
+      }, {
+        "code": "NACHC.C1.DE190",
+        "display": "6246005"
+      } ]
+    } ]
+  }
+}

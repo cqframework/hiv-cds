@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f2-de672",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de672",
-  "name": "Pregnancy Procedures",
+  "name": "PregnancyProcedures",
   "title": "Pregnancy Procedures",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Pregnancy Procedures",
       "comment": "Pregnancy Procedure mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
@@ -49,7 +49,7 @@
           "valueString": "Pregnancy Procedures Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-procedures-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de673"
       },
       "mapping": [ {
         "identity": "HIV",

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-f2-de904",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de904",
+  "name": "PregnancyObservations",
+  "title": "Pregnancy Observations",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Pregnancy Observations element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pregnancy Observations",
+        "display": "Pregnancy Observations"
+      } ]
+    } ]
+  }
+}

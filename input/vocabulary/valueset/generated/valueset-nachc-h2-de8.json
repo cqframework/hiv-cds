@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h2-de8",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de8",
+  "name": "DAST10Question4Choices",
+  "title": "DAST 10 Question 4 Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the DAST 10 Question 4 Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H2.DE8",
+        "display": "Have you had blackouts or flashbacks as a result of drug use"
+      } ]
+    } ]
+  }
+}

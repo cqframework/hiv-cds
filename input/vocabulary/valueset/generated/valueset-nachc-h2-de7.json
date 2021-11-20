@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h2-de7",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de7",
+  "name": "DAST10Question4",
+  "title": "DAST 10 Question 4",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the DAST 10 Question 4 element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "DAST 10 Question 4",
+        "display": "DAST 10 Question 4"
+      } ]
+    } ]
+  }
+}

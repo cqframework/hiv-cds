@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de22",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de22",
+  "name": "TenofovirDisoproxilFumarateTDF300mgOrderChoices",
+  "title": "Tenofovir Disoproxil Fumarate (TDF) 300mg Order Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Tenofovir Disoproxil Fumarate (TDF) 300mg Order Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.G2.DE22",
+        "display": "349251"
+      }, {
+        "code": "NACHC.G2.DE23",
+        "display": "352050"
+      }, {
+        "code": "NACHC.G2.DE24",
+        "display": "393334"
+      }, {
+        "code": "NACHC.G2.DE25",
+        "display": "575802"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de1-choices-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1-choices-grouper",
+  "name": "PrepMedicationPrescriptionsChoicesGrouper",
+  "title": "Prep Medication Prescriptions Choices Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-11-19T17:09:39-07:00",
+  "description": "Group Valueset with codes representing possible values for the Prep Medication Prescriptions Choices Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de2" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de7" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de15" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de18" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de22" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2021-11-19T17:09:39-07:00",
+    "contains": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE2",
+      "display": "403875"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE3",
+      "display": "404587"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE4",
+      "display": "406016"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE5",
+      "display": "576513"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE6",
+      "display": "639883"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE7",
+      "display": "1727491"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE8",
+      "display": "1747688"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE9",
+      "display": "1747689"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE10",
+      "display": "1747690"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE11",
+      "display": "1747691"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE12",
+      "display": "1747693"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE13",
+      "display": "1747694"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE14",
+      "display": "1747697"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE15",
+      "display": "476556"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE16",
+      "display": "639887"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE17",
+      "display": "639888"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE18",
+      "display": "1741729"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE19",
+      "display": "1858261"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE20",
+      "display": "1858263"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE21",
+      "display": "1858267"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE22",
+      "display": "349251"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE23",
+      "display": "352050"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE24",
+      "display": "393334"
+    }, {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE25",
+      "display": "575802"
+    } ]
+  }
+}

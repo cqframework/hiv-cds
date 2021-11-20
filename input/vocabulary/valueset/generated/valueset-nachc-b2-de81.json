@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-b2-de81",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de81",
+  "name": "HepatitisCvirusnucleicRNAtestChoices",
+  "title": "Hepatitis C virus nucleic (RNA) test Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C virus nucleic (RNA) test Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.B2.DE81",
+        "display": "75888-8"
+      }, {
+        "code": "NACHC.B2.DE82",
+        "display": "20416-4"
+      }, {
+        "code": "NACHC.B2.DE83",
+        "display": "20571-6"
+      }, {
+        "code": "NACHC.B2.DE84",
+        "display": "49380-9"
+      }, {
+        "code": "NACHC.B2.DE85",
+        "display": "47252-2"
+      }, {
+        "code": "NACHC.B2.DE86",
+        "display": "42003-4"
+      }, {
+        "code": "NACHC.B2.DE87",
+        "display": "49372-6"
+      }, {
+        "code": "NACHC.B2.DE88",
+        "display": "38180-6"
+      }, {
+        "code": "NACHC.B2.DE89",
+        "display": "42617-1"
+      }, {
+        "code": "NACHC.B2.DE90",
+        "display": "49605-9"
+      }, {
+        "code": "NACHC.B2.DE91",
+        "display": "1135996"
+      }, {
+        "code": "NACHC.B2.DE92",
+        "display": "11259-9"
+      }, {
+        "code": "NACHC.B2.DE93",
+        "display": "5012-0"
+      }, {
+        "code": "NACHC.B2.DE94",
+        "display": "48576-3"
+      }, {
+        "code": "NACHC.B2.DE95",
+        "display": "11011-4"
+      }, {
+        "code": "NACHC.B2.DE96",
+        "display": "49758-6"
+      }, {
+        "code": "NACHC.B2.DE97",
+        "display": "34704-7"
+      }, {
+        "code": "NACHC.B2.DE98",
+        "display": "34703-9"
+      }, {
+        "code": "NACHC.B2.DE99",
+        "display": "10676-5"
+      }, {
+        "code": "NACHC.B2.DE100",
+        "display": "29609-5"
+      }, {
+        "code": "NACHC.B2.DE101",
+        "display": "49376-7"
+      }, {
+        "code": "NACHC.B2.DE102",
+        "display": "50023-1"
+      } ]
+    } ]
+  }
+}

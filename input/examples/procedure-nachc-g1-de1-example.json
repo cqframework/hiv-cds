@@ -1,0 +1,33 @@
+{
+  "resourceType": "Procedure",
+  "id": "nachc-g1-de1-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g1-de1" ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G1.DE2",
+      "display": "409516001"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "409516001",
+      "display": "Post-exposure prophylaxis"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "actor": {
+      "reference": "PractitionerRole/hiv-practitionerrole-example"
+    }
+  } ],
+  "location": {
+    "reference": "Location/hiv-location-example"
+  }
+}

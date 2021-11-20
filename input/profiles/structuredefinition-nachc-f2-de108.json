@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f2-de108",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de108",
-  "name": "Maternal Care",
+  "name": "MaternalCare",
   "title": "Maternal Care",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Maternal Care",
       "comment": "Pregnancy Maternal Care mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
@@ -49,7 +49,7 @@
           "valueString": "Maternal Care Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/maternal-care-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de109"
       },
       "mapping": [ {
         "identity": "HIV",

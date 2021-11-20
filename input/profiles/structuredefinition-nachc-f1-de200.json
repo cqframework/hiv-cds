@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f1-de200",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de200",
-  "name": "Injection Drug Use",
+  "name": "InjectionDrugUse",
   "title": "Injection Drug Use",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Injection Drug Use",
       "comment": "Injection Drug Use Statments mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "type": [ {
         "code": "CodeableConcept"
       } ],
@@ -52,7 +52,7 @@
           "valueString": "Injection Drug Use Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-drug-use-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de201"
       },
       "mapping": [ {
         "identity": "HIV",

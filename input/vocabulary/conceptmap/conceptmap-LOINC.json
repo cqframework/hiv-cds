@@ -11,7 +11,23 @@
     "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
     "target": "http://loinc.org",
     "element": [ {
-      "code": "HIV Test-49965-7",
+      "code": "NACHC.A0.DE65",
+      "display": "82667-7",
+      "target": [ {
+        "code": "82667-7",
+        "display": "Total score [DAST-10]",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "NACHC.A0.DE66",
+      "display": "82666-9",
+      "target": [ {
+        "code": "82666-9",
+        "display": "Drug Abuse Screening Test-10 [DAST-10]",
+        "equivalence": "equivalent"
+      } ]
+    }, {
+      "code": "NACHC.A2.DE2",
       "display": "49965-7",
       "target": [ {
         "code": "49965-7",
@@ -19,7 +35,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-51866-2",
+      "code": "NACHC.A2.DE3",
       "display": "51866-2",
       "target": [ {
         "code": "51866-2",
@@ -27,7 +43,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-44607-0",
+      "code": "NACHC.A2.DE4",
       "display": "44607-0",
       "target": [ {
         "code": "44607-0",
@@ -35,7 +51,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-49483-1",
+      "code": "NACHC.A2.DE5",
       "display": "49483-1",
       "target": [ {
         "code": "49483-1",
@@ -43,7 +59,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-29327-4",
+      "code": "NACHC.A2.DE6",
       "display": "29327-4",
       "target": [ {
         "code": "29327-4",
@@ -51,7 +67,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-34591-8",
+      "code": "NACHC.A2.DE7",
       "display": "34591-8",
       "target": [ {
         "code": "34591-8",
@@ -59,7 +75,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-34592-6",
+      "code": "NACHC.A2.DE8",
       "display": "34592-6",
       "target": [ {
         "code": "34592-6",
@@ -67,7 +83,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41145-4",
+      "code": "NACHC.A2.DE9",
       "display": "41145-4",
       "target": [ {
         "code": "41145-4",
@@ -75,7 +91,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-33866-5",
+      "code": "NACHC.A2.DE10",
       "display": "33866-5",
       "target": [ {
         "code": "33866-5",
@@ -83,7 +99,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-16974-8",
+      "code": "NACHC.A2.DE11",
       "display": "16974-8",
       "target": [ {
         "code": "16974-8",
@@ -91,7 +107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-57974-8",
+      "code": "NACHC.A2.DE12",
       "display": "57974-8",
       "target": [ {
         "code": "57974-8",
@@ -99,7 +115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-42627-0",
+      "code": "NACHC.A2.DE13",
       "display": "42627-0",
       "target": [ {
         "code": "42627-0",
@@ -107,7 +123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41144-7",
+      "code": "NACHC.A2.DE14",
       "display": "41144-7",
       "target": [ {
         "code": "41144-7",
@@ -115,7 +131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35437-3",
+      "code": "NACHC.A2.DE15",
       "display": "35437-3",
       "target": [ {
         "code": "35437-3",
@@ -123,7 +139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35439-9",
+      "code": "NACHC.A2.DE16",
       "display": "35439-9",
       "target": [ {
         "code": "35439-9",
@@ -131,7 +147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2197878",
+      "code": "NACHC.A2.DE17",
       "display": "2197878",
       "target": [ {
         "code": "2197878",
@@ -139,7 +155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-14092-1",
+      "code": "NACHC.A2.DE18",
       "display": "14092-1",
       "target": [ {
         "code": "14092-1",
@@ -147,7 +163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21007-0",
+      "code": "NACHC.A2.DE19",
       "display": "21007-0",
       "target": [ {
         "code": "21007-0",
@@ -155,7 +171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-29893-5",
+      "code": "NACHC.A2.DE20",
       "display": "29893-5",
       "target": [ {
         "code": "29893-5",
@@ -163,7 +179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1213154",
+      "code": "NACHC.A2.DE21",
       "display": "1213154",
       "target": [ {
         "code": "1213154",
@@ -171,7 +187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-86233-4",
+      "code": "NACHC.A2.DE22",
       "display": "86233-4",
       "target": [ {
         "code": "86233-4",
@@ -179,7 +195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-85686-4",
+      "code": "NACHC.A2.DE23",
       "display": "85686-4",
       "target": [ {
         "code": "85686-4",
@@ -187,7 +203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-68961-2",
+      "code": "NACHC.A2.DE24",
       "display": "68961-2",
       "target": [ {
         "code": "68961-2",
@@ -195,7 +211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-53379-4",
+      "code": "NACHC.A2.DE25",
       "display": "53379-4",
       "target": [ {
         "code": "53379-4",
@@ -203,7 +219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-89374-3",
+      "code": "NACHC.A2.DE26",
       "display": "89374-3",
       "target": [ {
         "code": "89374-3",
@@ -211,7 +227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-49905-3",
+      "code": "NACHC.A2.DE27",
       "display": "49905-3",
       "target": [ {
         "code": "49905-3",
@@ -219,7 +235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-32571-2",
+      "code": "NACHC.A2.DE28",
       "display": "32571-2",
       "target": [ {
         "code": "32571-2",
@@ -227,7 +243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41143-9",
+      "code": "NACHC.A2.DE29",
       "display": "41143-9",
       "target": [ {
         "code": "41143-9",
@@ -235,7 +251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35438-1",
+      "code": "NACHC.A2.DE30",
       "display": "35438-1",
       "target": [ {
         "code": "35438-1",
@@ -243,7 +259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-22356-0",
+      "code": "NACHC.A2.DE31",
       "display": "22356-0",
       "target": [ {
         "code": "22356-0",
@@ -251,7 +267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43599-0",
+      "code": "NACHC.A2.DE32",
       "display": "43599-0",
       "target": [ {
         "code": "43599-0",
@@ -259,7 +275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1212851",
+      "code": "NACHC.A2.DE33",
       "display": "1212851",
       "target": [ {
         "code": "1212851",
@@ -267,7 +283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-13499-9",
+      "code": "NACHC.A2.DE34",
       "display": "13499-9",
       "target": [ {
         "code": "13499-9",
@@ -275,7 +291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-16977-1",
+      "code": "NACHC.A2.DE35",
       "display": "16977-1",
       "target": [ {
         "code": "16977-1",
@@ -283,7 +299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-24012-7",
+      "code": "NACHC.A2.DE36",
       "display": "24012-7",
       "target": [ {
         "code": "24012-7",
@@ -291,7 +307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-44531-2",
+      "code": "NACHC.A2.DE37",
       "display": "44531-2",
       "target": [ {
         "code": "44531-2",
@@ -299,7 +315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1213458",
+      "code": "NACHC.A2.DE38",
       "display": "1213458",
       "target": [ {
         "code": "1213458",
@@ -307,7 +323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-16976-3",
+      "code": "NACHC.A2.DE39",
       "display": "16976-3",
       "target": [ {
         "code": "16976-3",
@@ -315,7 +331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-69668-2",
+      "code": "NACHC.A2.DE40",
       "display": "69668-2",
       "target": [ {
         "code": "69668-2",
@@ -323,7 +339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-80203-3",
+      "code": "NACHC.A2.DE41",
       "display": "80203-3",
       "target": [ {
         "code": "80203-3",
@@ -331,7 +347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-42768-2",
+      "code": "NACHC.A2.DE42",
       "display": "42768-2",
       "target": [ {
         "code": "42768-2",
@@ -339,7 +355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-85037-0",
+      "code": "NACHC.A2.DE43",
       "display": "85037-0",
       "target": [ {
         "code": "85037-0",
@@ -347,7 +363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43185-8",
+      "code": "NACHC.A2.DE44",
       "display": "43185-8",
       "target": [ {
         "code": "43185-8",
@@ -355,7 +371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-89365-1",
+      "code": "NACHC.A2.DE45",
       "display": "89365-1",
       "target": [ {
         "code": "89365-1",
@@ -363,7 +379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-77685-6",
+      "code": "NACHC.A2.DE46",
       "display": "77685-6",
       "target": [ {
         "code": "77685-6",
@@ -371,7 +387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-86657-4",
+      "code": "NACHC.A2.DE47",
       "display": "86657-4",
       "target": [ {
         "code": "86657-4",
@@ -379,7 +395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-75622-1",
+      "code": "NACHC.A2.DE48",
       "display": "75622-1",
       "target": [ {
         "code": "75622-1",
@@ -387,7 +403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12893-4",
+      "code": "NACHC.A2.DE49",
       "display": "12893-4",
       "target": [ {
         "code": "12893-4",
@@ -395,7 +411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35441-5",
+      "code": "NACHC.A2.DE50",
       "display": "35441-5",
       "target": [ {
         "code": "35441-5",
@@ -403,7 +419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-44532-0",
+      "code": "NACHC.A2.DE51",
       "display": "44532-0",
       "target": [ {
         "code": "44532-0",
@@ -411,7 +427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-9661-0",
+      "code": "NACHC.A2.DE52",
       "display": "9661-0",
       "target": [ {
         "code": "9661-0",
@@ -419,7 +435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43013-2",
+      "code": "NACHC.A2.DE53",
       "display": "43013-2",
       "target": [ {
         "code": "43013-2",
@@ -427,7 +443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-14126-7",
+      "code": "NACHC.A2.DE54",
       "display": "14126-7",
       "target": [ {
         "code": "14126-7",
@@ -435,7 +451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-40439-2",
+      "code": "NACHC.A2.DE55",
       "display": "40439-2",
       "target": [ {
         "code": "40439-2",
@@ -443,7 +459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35440-7",
+      "code": "NACHC.A2.DE56",
       "display": "35440-7",
       "target": [ {
         "code": "35440-7",
@@ -451,7 +467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2834315",
+      "code": "NACHC.A2.DE57",
       "display": "2834315",
       "target": [ {
         "code": "2834315",
@@ -459,7 +475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12870-2",
+      "code": "NACHC.A2.DE58",
       "display": "12870-2",
       "target": [ {
         "code": "12870-2",
@@ -467,7 +483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35452-2",
+      "code": "NACHC.A2.DE59",
       "display": "35452-2",
       "target": [ {
         "code": "35452-2",
@@ -475,7 +491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35446-4",
+      "code": "NACHC.A2.DE60",
       "display": "35446-4",
       "target": [ {
         "code": "35446-4",
@@ -483,7 +499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43012-4",
+      "code": "NACHC.A2.DE61",
       "display": "43012-4",
       "target": [ {
         "code": "43012-4",
@@ -491,7 +507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2835227",
+      "code": "NACHC.A2.DE62",
       "display": "2835227",
       "target": [ {
         "code": "2835227",
@@ -499,7 +515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-40438-4",
+      "code": "NACHC.A2.DE63",
       "display": "40438-4",
       "target": [ {
         "code": "40438-4",
@@ -507,7 +523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-19110-6",
+      "code": "NACHC.A2.DE64",
       "display": "19110-6",
       "target": [ {
         "code": "19110-6",
@@ -515,7 +531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-31430-2",
+      "code": "NACHC.A2.DE65",
       "display": "31430-2",
       "target": [ {
         "code": "31430-2",
@@ -523,7 +539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-28004-0",
+      "code": "NACHC.A2.DE66",
       "display": "28004-0",
       "target": [ {
         "code": "28004-0",
@@ -531,7 +547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-16975-5",
+      "code": "NACHC.A2.DE67",
       "display": "16975-5",
       "target": [ {
         "code": "16975-5",
@@ -539,7 +555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-40732-0",
+      "code": "NACHC.A2.DE68",
       "display": "40732-0",
       "target": [ {
         "code": "40732-0",
@@ -547,7 +563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-28052-9",
+      "code": "NACHC.A2.DE69",
       "display": "28052-9",
       "target": [ {
         "code": "28052-9",
@@ -555,7 +571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12872-8",
+      "code": "NACHC.A2.DE70",
       "display": "12872-8",
       "target": [ {
         "code": "12872-8",
@@ -563,7 +579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-16132-3",
+      "code": "NACHC.A2.DE71",
       "display": "16132-3",
       "target": [ {
         "code": "16132-3",
@@ -571,7 +587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35449-8",
+      "code": "NACHC.A2.DE72",
       "display": "35449-8",
       "target": [ {
         "code": "35449-8",
@@ -579,7 +595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2835531",
+      "code": "NACHC.A2.DE73",
       "display": "2835531",
       "target": [ {
         "code": "2835531",
@@ -587,7 +603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-32842-7",
+      "code": "NACHC.A2.DE74",
       "display": "32842-7",
       "target": [ {
         "code": "32842-7",
@@ -595,7 +611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-32827-8",
+      "code": "NACHC.A2.DE75",
       "display": "32827-8",
       "target": [ {
         "code": "32827-8",
@@ -603,7 +619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35450-6",
+      "code": "NACHC.A2.DE76",
       "display": "35450-6",
       "target": [ {
         "code": "35450-6",
@@ -611,7 +627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12859-5",
+      "code": "NACHC.A2.DE77",
       "display": "12859-5",
       "target": [ {
         "code": "12859-5",
@@ -619,7 +635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12855-3",
+      "code": "NACHC.A2.DE78",
       "display": "12855-3",
       "target": [ {
         "code": "12855-3",
@@ -627,7 +643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35448-0",
+      "code": "NACHC.A2.DE79",
       "display": "35448-0",
       "target": [ {
         "code": "35448-0",
@@ -635,7 +651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43011-6",
+      "code": "NACHC.A2.DE80",
       "display": "43011-6",
       "target": [ {
         "code": "43011-6",
@@ -643,7 +659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2835836",
+      "code": "NACHC.A2.DE81",
       "display": "2835836",
       "target": [ {
         "code": "2835836",
@@ -651,7 +667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-40437-6",
+      "code": "NACHC.A2.DE82",
       "display": "40437-6",
       "target": [ {
         "code": "40437-6",
@@ -659,7 +675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21331-4",
+      "code": "NACHC.A2.DE83",
       "display": "21331-4",
       "target": [ {
         "code": "21331-4",
@@ -667,7 +683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-16978-9",
+      "code": "NACHC.A2.DE84",
       "display": "16978-9",
       "target": [ {
         "code": "16978-9",
@@ -675,7 +691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-42339-2",
+      "code": "NACHC.A2.DE85",
       "display": "42339-2",
       "target": [ {
         "code": "42339-2",
@@ -683,7 +699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-49718-0",
+      "code": "NACHC.A2.DE86",
       "display": "49718-0",
       "target": [ {
         "code": "49718-0",
@@ -691,7 +707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-9821-0",
+      "code": "NACHC.A2.DE87",
       "display": "9821-0",
       "target": [ {
         "code": "9821-0",
@@ -699,7 +715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-18396-2",
+      "code": "NACHC.A2.DE88",
       "display": "18396-2",
       "target": [ {
         "code": "18396-2",
@@ -707,7 +723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-33660-2",
+      "code": "NACHC.A2.DE89",
       "display": "33660-2",
       "target": [ {
         "code": "33660-2",
@@ -715,7 +731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-44872-0",
+      "code": "NACHC.A2.DE90",
       "display": "44872-0",
       "target": [ {
         "code": "44872-0",
@@ -723,7 +739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-16979-7",
+      "code": "NACHC.A2.DE91",
       "display": "16979-7",
       "target": [ {
         "code": "16979-7",
@@ -731,7 +747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2836111",
+      "code": "NACHC.A2.DE92",
       "display": "2836111",
       "target": [ {
         "code": "2836111",
@@ -739,7 +755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-53601-1",
+      "code": "NACHC.A2.DE93",
       "display": "53601-1",
       "target": [ {
         "code": "53601-1",
@@ -747,7 +763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12871-0",
+      "code": "NACHC.A2.DE94",
       "display": "12871-0",
       "target": [ {
         "code": "12871-0",
@@ -755,7 +771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12857-9",
+      "code": "NACHC.A2.DE95",
       "display": "12857-9",
       "target": [ {
         "code": "12857-9",
@@ -763,7 +779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35447-2",
+      "code": "NACHC.A2.DE96",
       "display": "35447-2",
       "target": [ {
         "code": "35447-2",
@@ -771,7 +787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2836719",
+      "code": "NACHC.A2.DE97",
       "display": "2836719",
       "target": [ {
         "code": "2836719",
@@ -779,7 +795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35564-4",
+      "code": "NACHC.A2.DE98",
       "display": "35564-4",
       "target": [ {
         "code": "35564-4",
@@ -787,7 +803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12858-7",
+      "code": "NACHC.A2.DE99",
       "display": "12858-7",
       "target": [ {
         "code": "12858-7",
@@ -795,7 +811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35565-1",
+      "code": "NACHC.A2.DE100",
       "display": "35565-1",
       "target": [ {
         "code": "35565-1",
@@ -803,7 +819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-31072-2",
+      "code": "NACHC.A2.DE101",
       "display": "31072-2",
       "target": [ {
         "code": "31072-2",
@@ -811,7 +827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21332-2",
+      "code": "NACHC.A2.DE102",
       "display": "21332-2",
       "target": [ {
         "code": "21332-2",
@@ -819,7 +835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35445-6",
+      "code": "NACHC.A2.DE103",
       "display": "35445-6",
       "target": [ {
         "code": "35445-6",
@@ -827,7 +843,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2837022",
+      "code": "NACHC.A2.DE104",
       "display": "2837022",
       "target": [ {
         "code": "2837022",
@@ -835,7 +851,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12876-9",
+      "code": "NACHC.A2.DE105",
       "display": "12876-9",
       "target": [ {
         "code": "12876-9",
@@ -843,7 +859,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35444-9",
+      "code": "NACHC.A2.DE106",
       "display": "35444-9",
       "target": [ {
         "code": "35444-9",
@@ -851,7 +867,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2837327",
+      "code": "NACHC.A2.DE107",
       "display": "2837327",
       "target": [ {
         "code": "2837327",
@@ -859,7 +875,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12895-9",
+      "code": "NACHC.A2.DE108",
       "display": "12895-9",
       "target": [ {
         "code": "12895-9",
@@ -867,7 +883,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12875-1",
+      "code": "NACHC.A2.DE109",
       "display": "12875-1",
       "target": [ {
         "code": "12875-1",
@@ -875,7 +891,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35443-1",
+      "code": "NACHC.A2.DE110",
       "display": "35443-1",
       "target": [ {
         "code": "35443-1",
@@ -883,7 +899,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12856-1",
+      "code": "NACHC.A2.DE111",
       "display": "12856-1",
       "target": [ {
         "code": "12856-1",
@@ -891,7 +907,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-33508-3",
+      "code": "NACHC.A2.DE112",
       "display": "33508-3",
       "target": [ {
         "code": "33508-3",
@@ -899,7 +915,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-35442-3",
+      "code": "NACHC.A2.DE113",
       "display": "35442-3",
       "target": [ {
         "code": "35442-3",
@@ -907,7 +923,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2837631",
+      "code": "NACHC.A2.DE114",
       "display": "2837631",
       "target": [ {
         "code": "2837631",
@@ -915,7 +931,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-12894-2",
+      "code": "NACHC.A2.DE115",
       "display": "12894-2",
       "target": [ {
         "code": "12894-2",
@@ -923,7 +939,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-32602-5",
+      "code": "NACHC.A2.DE116",
       "display": "32602-5",
       "target": [ {
         "code": "32602-5",
@@ -931,7 +947,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2198182",
+      "code": "NACHC.A2.DE117",
       "display": "2198182",
       "target": [ {
         "code": "2198182",
@@ -939,7 +955,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-44873-8",
+      "code": "NACHC.A2.DE118",
       "display": "44873-8",
       "target": [ {
         "code": "44873-8",
@@ -947,7 +963,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-44533-8",
+      "code": "NACHC.A2.DE119",
       "display": "44533-8",
       "target": [ {
         "code": "44533-8",
@@ -955,7 +971,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-31201-7",
+      "code": "NACHC.A2.DE120",
       "display": "31201-7",
       "target": [ {
         "code": "31201-7",
@@ -963,7 +979,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-80387-4",
+      "code": "NACHC.A2.DE121",
       "display": "80387-4",
       "target": [ {
         "code": "80387-4",
@@ -971,7 +987,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43010-8",
+      "code": "NACHC.A2.DE122",
       "display": "43010-8",
       "target": [ {
         "code": "43010-8",
@@ -979,7 +995,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-42600-7",
+      "code": "NACHC.A2.DE123",
       "display": "42600-7",
       "target": [ {
         "code": "42600-7",
@@ -987,7 +1003,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-49580-4",
+      "code": "NACHC.A2.DE124",
       "display": "49580-4",
       "target": [ {
         "code": "49580-4",
@@ -995,7 +1011,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-22357-8",
+      "code": "NACHC.A2.DE125",
       "display": "22357-8",
       "target": [ {
         "code": "22357-8",
@@ -1003,7 +1019,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1213762",
+      "code": "NACHC.A2.DE126",
       "display": "1213762",
       "target": [ {
         "code": "1213762",
@@ -1011,7 +1027,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-75666-8",
+      "code": "NACHC.A2.DE127",
       "display": "75666-8",
       "target": [ {
         "code": "75666-8",
@@ -1019,7 +1035,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-83101-6",
+      "code": "NACHC.A2.DE128",
       "display": "83101-6",
       "target": [ {
         "code": "83101-6",
@@ -1027,7 +1043,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-56888-1",
+      "code": "NACHC.A2.DE129",
       "display": "56888-1",
       "target": [ {
         "code": "56888-1",
@@ -1035,7 +1051,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-58900-2",
+      "code": "NACHC.A2.DE130",
       "display": "58900-2",
       "target": [ {
         "code": "58900-2",
@@ -1043,7 +1059,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-73906-0",
+      "code": "NACHC.A2.DE131",
       "display": "73906-0",
       "target": [ {
         "code": "73906-0",
@@ -1051,7 +1067,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-54086-4",
+      "code": "NACHC.A2.DE132",
       "display": "54086-4",
       "target": [ {
         "code": "54086-4",
@@ -1059,7 +1075,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43009-0",
+      "code": "NACHC.A2.DE133",
       "display": "43009-0",
       "target": [ {
         "code": "43009-0",
@@ -1067,7 +1083,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-40733-8",
+      "code": "NACHC.A2.DE134",
       "display": "40733-8",
       "target": [ {
         "code": "40733-8",
@@ -1075,7 +1091,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-73905-2",
+      "code": "NACHC.A2.DE135",
       "display": "73905-2",
       "target": [ {
         "code": "73905-2",
@@ -1083,7 +1099,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-43008-2",
+      "code": "NACHC.A2.DE136",
       "display": "43008-2",
       "target": [ {
         "code": "43008-2",
@@ -1091,7 +1107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41290-8",
+      "code": "NACHC.A2.DE137",
       "display": "41290-8",
       "target": [ {
         "code": "41290-8",
@@ -1099,7 +1115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-57975-5",
+      "code": "NACHC.A2.DE138",
       "display": "57975-5",
       "target": [ {
         "code": "57975-5",
@@ -1107,7 +1123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-48345-3",
+      "code": "NACHC.A2.DE139",
       "display": "48345-3",
       "target": [ {
         "code": "48345-3",
@@ -1115,7 +1131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-48346-1",
+      "code": "NACHC.A2.DE140",
       "display": "48346-1",
       "target": [ {
         "code": "48346-1",
@@ -1123,7 +1139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-47029-4",
+      "code": "NACHC.A2.DE141",
       "display": "47029-4",
       "target": [ {
         "code": "47029-4",
@@ -1131,7 +1147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2198486",
+      "code": "NACHC.A2.DE142",
       "display": "2198486",
       "target": [ {
         "code": "2198486",
@@ -1139,7 +1155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1214646",
+      "code": "NACHC.A2.DE143",
       "display": "1214646",
       "target": [ {
         "code": "1214646",
@@ -1147,7 +1163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-30361-0",
+      "code": "NACHC.A2.DE144",
       "display": "30361-0",
       "target": [ {
         "code": "30361-0",
@@ -1155,7 +1171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-81641-3",
+      "code": "NACHC.A2.DE145",
       "display": "81641-3",
       "target": [ {
         "code": "81641-3",
@@ -1163,7 +1179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-22358-6",
+      "code": "NACHC.A2.DE146",
       "display": "22358-6",
       "target": [ {
         "code": "22358-6",
@@ -1171,7 +1187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1214068",
+      "code": "NACHC.A2.DE147",
       "display": "1214068",
       "target": [ {
         "code": "1214068",
@@ -1179,7 +1195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-31073-0",
+      "code": "NACHC.A2.DE148",
       "display": "31073-0",
       "target": [ {
         "code": "31073-0",
@@ -1187,7 +1203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-51786-2",
+      "code": "NACHC.A2.DE149",
       "display": "51786-2",
       "target": [ {
         "code": "51786-2",
@@ -1195,7 +1211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21334-8",
+      "code": "NACHC.A2.DE150",
       "display": "21334-8",
       "target": [ {
         "code": "21334-8",
@@ -1203,7 +1219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21335-5",
+      "code": "NACHC.A2.DE151",
       "display": "21335-5",
       "target": [ {
         "code": "21335-5",
@@ -1211,7 +1227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-10901-7",
+      "code": "NACHC.A2.DE152",
       "display": "10901-7",
       "target": [ {
         "code": "10901-7",
@@ -1219,7 +1235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-57976-3",
+      "code": "NACHC.A2.DE153",
       "display": "57976-3",
       "target": [ {
         "code": "57976-3",
@@ -1227,7 +1243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21336-3",
+      "code": "NACHC.A2.DE154",
       "display": "21336-3",
       "target": [ {
         "code": "21336-3",
@@ -1235,7 +1251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21337-1",
+      "code": "NACHC.A2.DE155",
       "display": "21337-1",
       "target": [ {
         "code": "21337-1",
@@ -1243,7 +1259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-10902-5",
+      "code": "NACHC.A2.DE156",
       "display": "10902-5",
       "target": [ {
         "code": "10902-5",
@@ -1251,7 +1267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-11078-3",
+      "code": "NACHC.A2.DE157",
       "display": "11078-3",
       "target": [ {
         "code": "11078-3",
@@ -1259,7 +1275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-33807-9",
+      "code": "NACHC.A2.DE158",
       "display": "33807-9",
       "target": [ {
         "code": "33807-9",
@@ -1267,7 +1283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-33806-1",
+      "code": "NACHC.A2.DE159",
       "display": "33806-1",
       "target": [ {
         "code": "33806-1",
@@ -1275,7 +1291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-62456-9",
+      "code": "NACHC.A2.DE160",
       "display": "62456-9",
       "target": [ {
         "code": "62456-9",
@@ -1283,7 +1299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-57977-1",
+      "code": "NACHC.A2.DE161",
       "display": "57977-1",
       "target": [ {
         "code": "57977-1",
@@ -1291,7 +1307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-11079-1",
+      "code": "NACHC.A2.DE162",
       "display": "11079-1",
       "target": [ {
         "code": "11079-1",
@@ -1299,7 +1315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21338-9",
+      "code": "NACHC.A2.DE163",
       "display": "21338-9",
       "target": [ {
         "code": "21338-9",
@@ -1307,7 +1323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-45212-8",
+      "code": "NACHC.A2.DE164",
       "display": "45212-8",
       "target": [ {
         "code": "45212-8",
@@ -1315,7 +1331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-57978-9",
+      "code": "NACHC.A2.DE165",
       "display": "57978-9",
       "target": [ {
         "code": "57978-9",
@@ -1323,7 +1339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-13920-4",
+      "code": "NACHC.A2.DE166",
       "display": "13920-4",
       "target": [ {
         "code": "13920-4",
@@ -1331,7 +1347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-11080-9",
+      "code": "NACHC.A2.DE167",
       "display": "11080-9",
       "target": [ {
         "code": "11080-9",
@@ -1339,7 +1355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21339-7",
+      "code": "NACHC.A2.DE168",
       "display": "21339-7",
       "target": [ {
         "code": "21339-7",
@@ -1347,7 +1363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-11081-7",
+      "code": "NACHC.A2.DE169",
       "display": "11081-7",
       "target": [ {
         "code": "11081-7",
@@ -1355,7 +1371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21340-5",
+      "code": "NACHC.A2.DE170",
       "display": "21340-5",
       "target": [ {
         "code": "21340-5",
@@ -1363,7 +1379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-11082-5",
+      "code": "NACHC.A2.DE171",
       "display": "11082-5",
       "target": [ {
         "code": "11082-5",
@@ -1371,7 +1387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-30245-5",
+      "code": "NACHC.A2.DE173",
       "display": "30245-5",
       "target": [ {
         "code": "30245-5",
@@ -1379,7 +1395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-44871-2",
+      "code": "NACHC.A2.DE174",
       "display": "44871-2",
       "target": [ {
         "code": "44871-2",
@@ -1387,7 +1403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2899083",
+      "code": "NACHC.A2.DE175",
       "display": "2899083",
       "target": [ {
         "code": "2899083",
@@ -1395,7 +1411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-48023-6",
+      "code": "NACHC.A2.DE176",
       "display": "48023-6",
       "target": [ {
         "code": "48023-6",
@@ -1403,7 +1419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41498-7",
+      "code": "NACHC.A2.DE177",
       "display": "41498-7",
       "target": [ {
         "code": "41498-7",
@@ -1411,7 +1427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-70241-5",
+      "code": "NACHC.A2.DE178",
       "display": "70241-5",
       "target": [ {
         "code": "70241-5",
@@ -1419,7 +1435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-59419-2",
+      "code": "NACHC.A2.DE179",
       "display": "59419-2",
       "target": [ {
         "code": "59419-2",
@@ -1427,7 +1443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-20447-9",
+      "code": "NACHC.A2.DE180",
       "display": "20447-9",
       "target": [ {
         "code": "20447-9",
@@ -1435,7 +1451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21008-8",
+      "code": "NACHC.A2.DE181",
       "display": "21008-8",
       "target": [ {
         "code": "21008-8",
@@ -1443,7 +1459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-48551-6",
+      "code": "NACHC.A2.DE182",
       "display": "48551-6",
       "target": [ {
         "code": "48551-6",
@@ -1451,7 +1467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-48511-0",
+      "code": "NACHC.A2.DE183",
       "display": "48511-0",
       "target": [ {
         "code": "48511-0",
@@ -1459,7 +1475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41513-3",
+      "code": "NACHC.A2.DE184",
       "display": "41513-3",
       "target": [ {
         "code": "41513-3",
@@ -1467,7 +1483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41515-8",
+      "code": "NACHC.A2.DE185",
       "display": "41515-8",
       "target": [ {
         "code": "41515-8",
@@ -1475,7 +1491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-25836-8",
+      "code": "NACHC.A2.DE186",
       "display": "25836-8",
       "target": [ {
         "code": "25836-8",
@@ -1483,7 +1499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-21333-0",
+      "code": "NACHC.A2.DE187",
       "display": "21333-0",
       "target": [ {
         "code": "21333-0",
@@ -1491,7 +1507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-24013-5",
+      "code": "NACHC.A2.DE188",
       "display": "24013-5",
       "target": [ {
         "code": "24013-5",
@@ -1499,7 +1515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41497-9",
+      "code": "NACHC.A2.DE189",
       "display": "41497-9",
       "target": [ {
         "code": "41497-9",
@@ -1507,7 +1523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-29539-4",
+      "code": "NACHC.A2.DE190",
       "display": "29539-4",
       "target": [ {
         "code": "29539-4",
@@ -1515,7 +1531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-29541-0",
+      "code": "NACHC.A2.DE191",
       "display": "29541-0",
       "target": [ {
         "code": "29541-0",
@@ -1523,7 +1539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-51780-5",
+      "code": "NACHC.A2.DE192",
       "display": "51780-5",
       "target": [ {
         "code": "51780-5",
@@ -1531,7 +1547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-48510-2",
+      "code": "NACHC.A2.DE193",
       "display": "48510-2",
       "target": [ {
         "code": "48510-2",
@@ -1539,7 +1555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-48552-4",
+      "code": "NACHC.A2.DE194",
       "display": "48552-4",
       "target": [ {
         "code": "48552-4",
@@ -1547,7 +1563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41516-6",
+      "code": "NACHC.A2.DE195",
       "display": "41516-6",
       "target": [ {
         "code": "41516-6",
@@ -1555,7 +1571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-41514-1",
+      "code": "NACHC.A2.DE196",
       "display": "41514-1",
       "target": [ {
         "code": "41514-1",
@@ -1563,7 +1579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-49890-7",
+      "code": "NACHC.A2.DE197",
       "display": "49890-7",
       "target": [ {
         "code": "49890-7",
@@ -1571,7 +1587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1138706",
+      "code": "NACHC.A2.DE198",
       "display": "1138706",
       "target": [ {
         "code": "1138706",
@@ -1579,7 +1595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-42917-5",
+      "code": "NACHC.A2.DE199",
       "display": "42917-5",
       "target": [ {
         "code": "42917-5",
@@ -1587,7 +1603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-25835-0",
+      "code": "NACHC.A2.DE200",
       "display": "25835-0",
       "target": [ {
         "code": "25835-0",
@@ -1595,7 +1611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-47359-5",
+      "code": "NACHC.A2.DE201",
       "display": "47359-5",
       "target": [ {
         "code": "47359-5",
@@ -1603,7 +1619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-1139009",
+      "code": "NACHC.A2.DE202",
       "display": "1139009",
       "target": [ {
         "code": "1139009",
@@ -1611,7 +1627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-23876-6",
+      "code": "NACHC.A2.DE203",
       "display": "23876-6",
       "target": [ {
         "code": "23876-6",
@@ -1619,7 +1635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-62469-2",
+      "code": "NACHC.A2.DE204",
       "display": "62469-2",
       "target": [ {
         "code": "62469-2",
@@ -1627,7 +1643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-10351-5",
+      "code": "NACHC.A2.DE205",
       "display": "10351-5",
       "target": [ {
         "code": "10351-5",
@@ -1635,7 +1651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-50624-6",
+      "code": "NACHC.A2.DE206",
       "display": "50624-6",
       "target": [ {
         "code": "50624-6",
@@ -1643,7 +1659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-53825-6",
+      "code": "NACHC.A2.DE207",
       "display": "53825-6",
       "target": [ {
         "code": "53825-6",
@@ -1651,7 +1667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-38998-1",
+      "code": "NACHC.A2.DE208",
       "display": "38998-1",
       "target": [ {
         "code": "38998-1",
@@ -1659,7 +1675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-59052-1",
+      "code": "NACHC.A2.DE209",
       "display": "59052-1",
       "target": [ {
         "code": "59052-1",
@@ -1667,7 +1683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-25841-8",
+      "code": "NACHC.A2.DE210",
       "display": "25841-8",
       "target": [ {
         "code": "25841-8",
@@ -1675,7 +1691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-34699-9",
+      "code": "NACHC.A2.DE211",
       "display": "34699-9",
       "target": [ {
         "code": "34699-9",
@@ -1683,7 +1699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-25842-6",
+      "code": "NACHC.A2.DE212",
       "display": "25842-6",
       "target": [ {
         "code": "25842-6",
@@ -1691,7 +1707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-69353-1",
+      "code": "NACHC.A2.DE213",
       "display": "69353-1",
       "target": [ {
         "code": "69353-1",
@@ -1699,7 +1715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-69354-9",
+      "code": "NACHC.A2.DE214",
       "display": "69354-9",
       "target": [ {
         "code": "69354-9",
@@ -1707,7 +1723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test-2898779",
+      "code": "NACHC.A2.DE215",
       "display": "2898779",
       "target": [ {
         "code": "2898779",
@@ -1715,23 +1731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "HIV Test Ordered-312484002",
-      "display": "312484002",
-      "target": [ {
-        "code": "2898779",
-        "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification",
-        "equivalence": "equivalent"
-      } ]
-    }, {
-      "code": "HIV Test Ordered-31676001",
-      "display": "31676001",
-      "target": [ {
-        "code": "2898779",
-        "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification",
-        "equivalence": "equivalent"
-      } ]
-    }, {
-      "code": "Hepatitis C Test-79189-7",
+      "code": "NACHC.B2.DE2",
       "display": "79189-7",
       "target": [ {
         "code": "79189-7",
@@ -1739,7 +1739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-54914-7",
+      "code": "NACHC.B2.DE3",
       "display": "54914-7",
       "target": [ {
         "code": "54914-7",
@@ -1747,7 +1747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-51657-5",
+      "code": "NACHC.B2.DE5",
       "display": "51657-5",
       "target": [ {
         "code": "51657-5",
@@ -1755,7 +1755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-39008-8",
+      "code": "NACHC.B2.DE6",
       "display": "39008-8",
       "target": [ {
         "code": "39008-8",
@@ -1763,7 +1763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-42506-6",
+      "code": "NACHC.B2.DE7",
       "display": "42506-6",
       "target": [ {
         "code": "42506-6",
@@ -1771,7 +1771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-51656-7",
+      "code": "NACHC.B2.DE8",
       "display": "51656-7",
       "target": [ {
         "code": "51656-7",
@@ -1779,7 +1779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-81116-6",
+      "code": "NACHC.B2.DE9",
       "display": "81116-6",
       "target": [ {
         "code": "81116-6",
@@ -1787,7 +1787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-48574-8",
+      "code": "NACHC.B2.DE10",
       "display": "48574-8",
       "target": [ {
         "code": "48574-8",
@@ -1795,7 +1795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-32286-7",
+      "code": "NACHC.B2.DE11",
       "display": "32286-7",
       "target": [ {
         "code": "32286-7",
@@ -1803,7 +1803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49607-5",
+      "code": "NACHC.B2.DE12",
       "display": "49607-5",
       "target": [ {
         "code": "49607-5",
@@ -1811,7 +1811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-48575-5",
+      "code": "NACHC.B2.DE13",
       "display": "48575-5",
       "target": [ {
         "code": "48575-5",
@@ -1819,7 +1819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-82512-5",
+      "code": "NACHC.B2.DE14",
       "display": "82512-5",
       "target": [ {
         "code": "82512-5",
@@ -1827,7 +1827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-82380-7",
+      "code": "NACHC.B2.DE15",
       "display": "82380-7",
       "target": [ {
         "code": "82380-7",
@@ -1835,7 +1835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-82381-5",
+      "code": "NACHC.B2.DE16",
       "display": "82381-5",
       "target": [ {
         "code": "82381-5",
@@ -1843,7 +1843,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-82513-3",
+      "code": "NACHC.B2.DE17",
       "display": "82513-3",
       "target": [ {
         "code": "82513-3",
@@ -1851,7 +1851,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-82514-1",
+      "code": "NACHC.B2.DE18",
       "display": "82514-1",
       "target": [ {
         "code": "82514-1",
@@ -1859,7 +1859,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-92731-9",
+      "code": "NACHC.B2.DE19",
       "display": "92731-9",
       "target": [ {
         "code": "92731-9",
@@ -1867,7 +1867,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-89359-4",
+      "code": "NACHC.B2.DE20",
       "display": "89359-4",
       "target": [ {
         "code": "89359-4",
@@ -1875,7 +1875,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-73654-6",
+      "code": "NACHC.B2.DE21",
       "display": "73654-6",
       "target": [ {
         "code": "73654-6",
@@ -1883,7 +1883,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-73655-3",
+      "code": "NACHC.B2.DE22",
       "display": "73655-3",
       "target": [ {
         "code": "73655-3",
@@ -1891,7 +1891,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49370-0",
+      "code": "NACHC.B2.DE23",
       "display": "49370-0",
       "target": [ {
         "code": "49370-0",
@@ -1899,7 +1899,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49369-2",
+      "code": "NACHC.B2.DE24",
       "display": "49369-2",
       "target": [ {
         "code": "49369-2",
@@ -1907,7 +1907,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49371-8",
+      "code": "NACHC.B2.DE25",
       "display": "49371-8",
       "target": [ {
         "code": "49371-8",
@@ -1915,7 +1915,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49374-2",
+      "code": "NACHC.B2.DE26",
       "display": "49374-2",
       "target": [ {
         "code": "49374-2",
@@ -1923,7 +1923,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49373-4",
+      "code": "NACHC.B2.DE27",
       "display": "49373-4",
       "target": [ {
         "code": "49373-4",
@@ -1931,7 +1931,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49375-9",
+      "code": "NACHC.B2.DE28",
       "display": "49375-9",
       "target": [ {
         "code": "49375-9",
@@ -1939,7 +1939,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49604-2",
+      "code": "NACHC.B2.DE29",
       "display": "49604-2",
       "target": [ {
         "code": "49604-2",
@@ -1947,7 +1947,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49603-4",
+      "code": "NACHC.B2.DE30",
       "display": "49603-4",
       "target": [ {
         "code": "49603-4",
@@ -1955,7 +1955,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49608-3",
+      "code": "NACHC.B2.DE31",
       "display": "49608-3",
       "target": [ {
         "code": "49608-3",
@@ -1963,7 +1963,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-51655-9",
+      "code": "NACHC.B2.DE32",
       "display": "51655-9",
       "target": [ {
         "code": "51655-9",
@@ -1971,7 +1971,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-1136302",
+      "code": "NACHC.B2.DE33",
       "display": "1136302",
       "target": [ {
         "code": "1136302",
@@ -1979,7 +1979,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49378-3",
+      "code": "NACHC.B2.DE34",
       "display": "49378-3",
       "target": [ {
         "code": "49378-3",
@@ -1987,7 +1987,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49377-5",
+      "code": "NACHC.B2.DE35",
       "display": "49377-5",
       "target": [ {
         "code": "49377-5",
@@ -1995,7 +1995,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49379-1",
+      "code": "NACHC.B2.DE36",
       "display": "49379-1",
       "target": [ {
         "code": "49379-1",
@@ -2003,7 +2003,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-53825-6",
+      "code": "NACHC.B2.DE37",
       "display": "53825-6",
       "target": [ {
         "code": "53825-6",
@@ -2011,7 +2011,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-38998-1",
+      "code": "NACHC.B2.DE38",
       "display": "38998-1",
       "target": [ {
         "code": "38998-1",
@@ -2019,7 +2019,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-59052-1",
+      "code": "NACHC.B2.DE39",
       "display": "59052-1",
       "target": [ {
         "code": "59052-1",
@@ -2027,7 +2027,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-75887-0",
+      "code": "NACHC.B2.DE41",
       "display": "75887-0",
       "target": [ {
         "code": "75887-0",
@@ -2035,7 +2035,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-23870-9",
+      "code": "NACHC.B2.DE42",
       "display": "23870-9",
       "target": [ {
         "code": "23870-9",
@@ -2043,7 +2043,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-2815291",
+      "code": "NACHC.B2.DE43",
       "display": "2815291",
       "target": [ {
         "code": "2815291",
@@ -2051,7 +2051,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-2815900",
+      "code": "NACHC.B2.DE44",
       "display": "2815900",
       "target": [ {
         "code": "2815900",
@@ -2059,7 +2059,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-11076-7",
+      "code": "NACHC.B2.DE45",
       "display": "11076-7",
       "target": [ {
         "code": "11076-7",
@@ -2067,7 +2067,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-1205057",
+      "code": "NACHC.B2.DE46",
       "display": "1205057",
       "target": [ {
         "code": "1205057",
@@ -2075,7 +2075,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-24011-9",
+      "code": "NACHC.B2.DE47",
       "display": "24011-9",
       "target": [ {
         "code": "24011-9",
@@ -2083,7 +2083,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-56926-9",
+      "code": "NACHC.B2.DE48",
       "display": "56926-9",
       "target": [ {
         "code": "56926-9",
@@ -2091,7 +2091,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-51649-2",
+      "code": "NACHC.B2.DE49",
       "display": "51649-2",
       "target": [ {
         "code": "51649-2",
@@ -2099,7 +2099,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-56927-7",
+      "code": "NACHC.B2.DE50",
       "display": "56927-7",
       "target": [ {
         "code": "56927-7",
@@ -2107,7 +2107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-44813-4",
+      "code": "NACHC.B2.DE51",
       "display": "44813-4",
       "target": [ {
         "code": "44813-4",
@@ -2115,7 +2115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-2816203",
+      "code": "NACHC.B2.DE52",
       "display": "2816203",
       "target": [ {
         "code": "2816203",
@@ -2123,7 +2123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-56928-5",
+      "code": "NACHC.B2.DE53",
       "display": "56928-5",
       "target": [ {
         "code": "56928-5",
@@ -2131,7 +2131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-33462-3",
+      "code": "NACHC.B2.DE54",
       "display": "33462-3",
       "target": [ {
         "code": "33462-3",
@@ -2139,7 +2139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-34162-8",
+      "code": "NACHC.B2.DE55",
       "display": "34162-8",
       "target": [ {
         "code": "34162-8",
@@ -2147,7 +2147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-56929-3",
+      "code": "NACHC.B2.DE56",
       "display": "56929-3",
       "target": [ {
         "code": "56929-3",
@@ -2155,7 +2155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-56930-1",
+      "code": "NACHC.B2.DE57",
       "display": "56930-1",
       "target": [ {
         "code": "56930-1",
@@ -2163,7 +2163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-23871-7",
+      "code": "NACHC.B2.DE58",
       "display": "23871-7",
       "target": [ {
         "code": "23871-7",
@@ -2171,7 +2171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-11077-5",
+      "code": "NACHC.B2.DE59",
       "display": "11077-5",
       "target": [ {
         "code": "11077-5",
@@ -2179,7 +2179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-75886-2",
+      "code": "NACHC.B2.DE61",
       "display": "75886-2",
       "target": [ {
         "code": "75886-2",
@@ -2187,7 +2187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-22324-8",
+      "code": "NACHC.B2.DE62",
       "display": "22324-8",
       "target": [ {
         "code": "22324-8",
@@ -2195,7 +2195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-22325-5",
+      "code": "NACHC.B2.DE63",
       "display": "22325-5",
       "target": [ {
         "code": "22325-5",
@@ -2203,7 +2203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-22326-3",
+      "code": "NACHC.B2.DE64",
       "display": "22326-3",
       "target": [ {
         "code": "22326-3",
@@ -2211,7 +2211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-16128-1",
+      "code": "NACHC.B2.DE65",
       "display": "16128-1",
       "target": [ {
         "code": "16128-1",
@@ -2219,7 +2219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-13955-0",
+      "code": "NACHC.B2.DE66",
       "display": "13955-0",
       "target": [ {
         "code": "13955-0",
@@ -2227,7 +2227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-72376-7",
+      "code": "NACHC.B2.DE67",
       "display": "72376-7",
       "target": [ {
         "code": "72376-7",
@@ -2235,7 +2235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-22327-1",
+      "code": "NACHC.B2.DE68",
       "display": "22327-1",
       "target": [ {
         "code": "22327-1",
@@ -2243,7 +2243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-1204753",
+      "code": "NACHC.B2.DE69",
       "display": "1204753",
       "target": [ {
         "code": "1204753",
@@ -2251,7 +2251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-48159-8",
+      "code": "NACHC.B2.DE70",
       "display": "48159-8",
       "target": [ {
         "code": "48159-8",
@@ -2259,7 +2259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-44831-6",
+      "code": "NACHC.B2.DE71",
       "display": "44831-6",
       "target": [ {
         "code": "44831-6",
@@ -2267,7 +2267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-22329-7",
+      "code": "NACHC.B2.DE72",
       "display": "22329-7",
       "target": [ {
         "code": "22329-7",
@@ -2275,7 +2275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-16129-9",
+      "code": "NACHC.B2.DE73",
       "display": "16129-9",
       "target": [ {
         "code": "16129-9",
@@ -2283,7 +2283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-40726-2",
+      "code": "NACHC.B2.DE74",
       "display": "40726-2",
       "target": [ {
         "code": "40726-2",
@@ -2291,7 +2291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-16936-7",
+      "code": "NACHC.B2.DE75",
       "display": "16936-7",
       "target": [ {
         "code": "16936-7",
@@ -2299,7 +2299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-57006-9",
+      "code": "NACHC.B2.DE76",
       "display": "57006-9",
       "target": [ {
         "code": "57006-9",
@@ -2307,7 +2307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-53376-0",
+      "code": "NACHC.B2.DE77",
       "display": "53376-0",
       "target": [ {
         "code": "53376-0",
@@ -2315,7 +2315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-51824-1",
+      "code": "NACHC.B2.DE78",
       "display": "51824-1",
       "target": [ {
         "code": "51824-1",
@@ -2323,7 +2323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-22328-9",
+      "code": "NACHC.B2.DE79",
       "display": "22328-9",
       "target": [ {
         "code": "22328-9",
@@ -2331,7 +2331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-75888-8",
+      "code": "NACHC.B2.DE81",
       "display": "75888-8",
       "target": [ {
         "code": "75888-8",
@@ -2339,7 +2339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-20416-4",
+      "code": "NACHC.B2.DE82",
       "display": "20416-4",
       "target": [ {
         "code": "20416-4",
@@ -2347,7 +2347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-20571-6",
+      "code": "NACHC.B2.DE83",
       "display": "20571-6",
       "target": [ {
         "code": "20571-6",
@@ -2355,7 +2355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49380-9",
+      "code": "NACHC.B2.DE84",
       "display": "49380-9",
       "target": [ {
         "code": "49380-9",
@@ -2363,7 +2363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-47252-2",
+      "code": "NACHC.B2.DE85",
       "display": "47252-2",
       "target": [ {
         "code": "47252-2",
@@ -2371,7 +2371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-42003-4",
+      "code": "NACHC.B2.DE86",
       "display": "42003-4",
       "target": [ {
         "code": "42003-4",
@@ -2379,7 +2379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49372-6",
+      "code": "NACHC.B2.DE87",
       "display": "49372-6",
       "target": [ {
         "code": "49372-6",
@@ -2387,7 +2387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-38180-6",
+      "code": "NACHC.B2.DE88",
       "display": "38180-6",
       "target": [ {
         "code": "38180-6",
@@ -2395,7 +2395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-42617-1",
+      "code": "NACHC.B2.DE89",
       "display": "42617-1",
       "target": [ {
         "code": "42617-1",
@@ -2403,7 +2403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49605-9",
+      "code": "NACHC.B2.DE90",
       "display": "49605-9",
       "target": [ {
         "code": "49605-9",
@@ -2411,7 +2411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-1135996",
+      "code": "NACHC.B2.DE91",
       "display": "1135996",
       "target": [ {
         "code": "1135996",
@@ -2419,7 +2419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-11259-9",
+      "code": "NACHC.B2.DE92",
       "display": "11259-9",
       "target": [ {
         "code": "11259-9",
@@ -2427,7 +2427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-5012-0",
+      "code": "NACHC.B2.DE93",
       "display": "5012-0",
       "target": [ {
         "code": "5012-0",
@@ -2435,7 +2435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-48576-3",
+      "code": "NACHC.B2.DE94",
       "display": "48576-3",
       "target": [ {
         "code": "48576-3",
@@ -2443,7 +2443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-11011-4",
+      "code": "NACHC.B2.DE95",
       "display": "11011-4",
       "target": [ {
         "code": "11011-4",
@@ -2451,7 +2451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49758-6",
+      "code": "NACHC.B2.DE96",
       "display": "49758-6",
       "target": [ {
         "code": "49758-6",
@@ -2459,7 +2459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-34704-7",
+      "code": "NACHC.B2.DE97",
       "display": "34704-7",
       "target": [ {
         "code": "34704-7",
@@ -2467,7 +2467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-34703-9",
+      "code": "NACHC.B2.DE98",
       "display": "34703-9",
       "target": [ {
         "code": "34703-9",
@@ -2475,7 +2475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-10676-5",
+      "code": "NACHC.B2.DE99",
       "display": "10676-5",
       "target": [ {
         "code": "10676-5",
@@ -2483,7 +2483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-29609-5",
+      "code": "NACHC.B2.DE100",
       "display": "29609-5",
       "target": [ {
         "code": "29609-5",
@@ -2491,7 +2491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-49376-7",
+      "code": "NACHC.B2.DE101",
       "display": "49376-7",
       "target": [ {
         "code": "49376-7",
@@ -2499,7 +2499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-50023-1",
+      "code": "NACHC.B2.DE102",
       "display": "50023-1",
       "target": [ {
         "code": "50023-1",
@@ -2507,7 +2507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-53605-2",
+      "code": "NACHC.C2.DE2",
       "display": "53605-2",
       "target": [ {
         "code": "53605-2",
@@ -2515,7 +2515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-49799-0",
+      "code": "NACHC.C2.DE3",
       "display": "49799-0",
       "target": [ {
         "code": "49799-0",
@@ -2523,7 +2523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-91846-6",
+      "code": "NACHC.C2.DE4",
       "display": "91846-6",
       "target": [ {
         "code": "91846-6",
@@ -2531,7 +2531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-41163-7",
+      "code": "NACHC.C2.DE5",
       "display": "41163-7",
       "target": [ {
         "code": "41163-7",
@@ -2539,7 +2539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-76766-5",
+      "code": "NACHC.C2.DE6",
       "display": "76766-5",
       "target": [ {
         "code": "76766-5",
@@ -2547,7 +2547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22459-2",
+      "code": "NACHC.C2.DE8",
       "display": "22459-2",
       "target": [ {
         "code": "22459-2",
@@ -2555,7 +2555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1238206",
+      "code": "NACHC.C2.DE9",
       "display": "1238206",
       "target": [ {
         "code": "1238206",
@@ -2563,7 +2563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-43813-5",
+      "code": "NACHC.C2.DE10",
       "display": "43813-5",
       "target": [ {
         "code": "43813-5",
@@ -2571,7 +2571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-51783-9",
+      "code": "NACHC.C2.DE11",
       "display": "51783-9",
       "target": [ {
         "code": "51783-9",
@@ -2579,7 +2579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22461-8",
+      "code": "NACHC.C2.DE12",
       "display": "22461-8",
       "target": [ {
         "code": "22461-8",
@@ -2587,7 +2587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-20507-0",
+      "code": "NACHC.C2.DE13",
       "display": "20507-0",
       "target": [ {
         "code": "20507-0",
@@ -2595,7 +2595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1239118",
+      "code": "NACHC.C2.DE14",
       "display": "1239118",
       "target": [ {
         "code": "1239118",
@@ -2603,7 +2603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22464-2",
+      "code": "NACHC.C2.DE15",
       "display": "22464-2",
       "target": [ {
         "code": "22464-2",
@@ -2611,7 +2611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-14904-7",
+      "code": "NACHC.C2.DE16",
       "display": "14904-7",
       "target": [ {
         "code": "14904-7",
@@ -2619,7 +2619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-46203-6",
+      "code": "NACHC.C2.DE17",
       "display": "46203-6",
       "target": [ {
         "code": "46203-6",
@@ -2627,7 +2627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-87925-4",
+      "code": "NACHC.C2.DE18",
       "display": "87925-4",
       "target": [ {
         "code": "87925-4",
@@ -2635,7 +2635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-31146-4",
+      "code": "NACHC.C2.DE19",
       "display": "31146-4",
       "target": [ {
         "code": "31146-4",
@@ -2643,7 +2643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-11084-1",
+      "code": "NACHC.C2.DE20",
       "display": "11084-1",
       "target": [ {
         "code": "11084-1",
@@ -2651,7 +2651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-31147-2",
+      "code": "NACHC.C2.DE21",
       "display": "31147-2",
       "target": [ {
         "code": "31147-2",
@@ -2659,7 +2659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-50690-7",
+      "code": "NACHC.C2.DE22",
       "display": "50690-7",
       "target": [ {
         "code": "50690-7",
@@ -2667,7 +2667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47476-7",
+      "code": "NACHC.C2.DE23",
       "display": "47476-7",
       "target": [ {
         "code": "47476-7",
@@ -2675,7 +2675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47235-7",
+      "code": "NACHC.C2.DE24",
       "display": "47235-7",
       "target": [ {
         "code": "47235-7",
@@ -2683,7 +2683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22460-0",
+      "code": "NACHC.C2.DE25",
       "display": "22460-0",
       "target": [ {
         "code": "22460-0",
@@ -2691,7 +2691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1237900",
+      "code": "NACHC.C2.DE26",
       "display": "1237900",
       "target": [ {
         "code": "1237900",
@@ -2699,7 +2699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22462-6",
+      "code": "NACHC.C2.DE27",
       "display": "22462-6",
       "target": [ {
         "code": "22462-6",
@@ -2707,7 +2707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-20508-8",
+      "code": "NACHC.C2.DE28",
       "display": "20508-8",
       "target": [ {
         "code": "20508-8",
@@ -2715,7 +2715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-5291-0",
+      "code": "NACHC.C2.DE29",
       "display": "5291-0",
       "target": [ {
         "code": "5291-0",
@@ -2723,7 +2723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-73752-8",
+      "code": "NACHC.C2.DE30",
       "display": "73752-8",
       "target": [ {
         "code": "73752-8",
@@ -2731,7 +2731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22586-2",
+      "code": "NACHC.C2.DE31",
       "display": "22586-2",
       "target": [ {
         "code": "22586-2",
@@ -2739,7 +2739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-50689-9",
+      "code": "NACHC.C2.DE32",
       "display": "50689-9",
       "target": [ {
         "code": "50689-9",
@@ -2747,7 +2747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-2895157",
+      "code": "NACHC.C2.DE33",
       "display": "2895157",
       "target": [ {
         "code": "2895157",
@@ -2755,7 +2755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22587-0",
+      "code": "NACHC.C2.DE34",
       "display": "22587-0",
       "target": [ {
         "code": "22587-0",
@@ -2763,7 +2763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-24312-1",
+      "code": "NACHC.C2.DE35",
       "display": "24312-1",
       "target": [ {
         "code": "24312-1",
@@ -2771,7 +2771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-2243108",
+      "code": "NACHC.C2.DE36",
       "display": "2243108",
       "target": [ {
         "code": "2243108",
@@ -2779,7 +2779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-17723-8",
+      "code": "NACHC.C2.DE37",
       "display": "17723-8",
       "target": [ {
         "code": "17723-8",
@@ -2787,7 +2787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-24110-9",
+      "code": "NACHC.C2.DE38",
       "display": "24110-9",
       "target": [ {
         "code": "24110-9",
@@ -2795,7 +2795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-57032-5",
+      "code": "NACHC.C2.DE39",
       "display": "57032-5",
       "target": [ {
         "code": "57032-5",
@@ -2803,7 +2803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1275885",
+      "code": "NACHC.C2.DE40",
       "display": "1275885",
       "target": [ {
         "code": "1275885",
@@ -2811,7 +2811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-51475-2",
+      "code": "NACHC.C2.DE41",
       "display": "51475-2",
       "target": [ {
         "code": "51475-2",
@@ -2819,7 +2819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-50695-6",
+      "code": "NACHC.C2.DE42",
       "display": "50695-6",
       "target": [ {
         "code": "50695-6",
@@ -2827,7 +2827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22590-4",
+      "code": "NACHC.C2.DE43",
       "display": "22590-4",
       "target": [ {
         "code": "22590-4",
@@ -2835,7 +2835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-26009-1",
+      "code": "NACHC.C2.DE44",
       "display": "26009-1",
       "target": [ {
         "code": "26009-1",
@@ -2843,7 +2843,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-34382-2",
+      "code": "NACHC.C2.DE45",
       "display": "34382-2",
       "target": [ {
         "code": "34382-2",
@@ -2851,7 +2851,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1276191",
+      "code": "NACHC.C2.DE46",
       "display": "1276191",
       "target": [ {
         "code": "1276191",
@@ -2859,7 +2859,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-71793-4",
+      "code": "NACHC.C2.DE47",
       "display": "71793-4",
       "target": [ {
         "code": "71793-4",
@@ -2867,7 +2867,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22585-4",
+      "code": "NACHC.C2.DE48",
       "display": "22585-4",
       "target": [ {
         "code": "22585-4",
@@ -2875,7 +2875,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-13288-6",
+      "code": "NACHC.C2.DE49",
       "display": "13288-6",
       "target": [ {
         "code": "13288-6",
@@ -2883,7 +2883,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47511-1",
+      "code": "NACHC.C2.DE50",
       "display": "47511-1",
       "target": [ {
         "code": "47511-1",
@@ -2891,7 +2891,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-39015-3",
+      "code": "NACHC.C2.DE51",
       "display": "39015-3",
       "target": [ {
         "code": "39015-3",
@@ -2899,7 +2899,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-51474-5",
+      "code": "NACHC.C2.DE52",
       "display": "51474-5",
       "target": [ {
         "code": "51474-5",
@@ -2907,7 +2907,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-49800-6",
+      "code": "NACHC.C2.DE53",
       "display": "49800-6",
       "target": [ {
         "code": "49800-6",
@@ -2915,7 +2915,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-11597-2",
+      "code": "NACHC.C2.DE54",
       "display": "11597-2",
       "target": [ {
         "code": "11597-2",
@@ -2923,7 +2923,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1275581",
+      "code": "NACHC.C2.DE55",
       "display": "1275581",
       "target": [ {
         "code": "1275581",
@@ -2931,7 +2931,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-63464-2",
+      "code": "NACHC.C2.DE56",
       "display": "63464-2",
       "target": [ {
         "code": "63464-2",
@@ -2939,7 +2939,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-17724-6",
+      "code": "NACHC.C2.DE57",
       "display": "17724-6",
       "target": [ {
         "code": "17724-6",
@@ -2947,7 +2947,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-17725-3",
+      "code": "NACHC.C2.DE58",
       "display": "17725-3",
       "target": [ {
         "code": "17725-3",
@@ -2955,7 +2955,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-41122-3",
+      "code": "NACHC.C2.DE59",
       "display": "41122-3",
       "target": [ {
         "code": "41122-3",
@@ -2963,7 +2963,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-58031-6",
+      "code": "NACHC.C2.DE60",
       "display": "58031-6",
       "target": [ {
         "code": "58031-6",
@@ -2971,7 +2971,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-58751-9",
+      "code": "NACHC.C2.DE61",
       "display": "58751-9",
       "target": [ {
         "code": "58751-9",
@@ -2979,7 +2979,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1702518",
+      "code": "NACHC.C2.DE62",
       "display": "1702518",
       "target": [ {
         "code": "1702518",
@@ -2987,7 +2987,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47238-1",
+      "code": "NACHC.C2.DE63",
       "display": "47238-1",
       "target": [ {
         "code": "47238-1",
@@ -2995,7 +2995,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-40679-3",
+      "code": "NACHC.C2.DE64",
       "display": "40679-3",
       "target": [ {
         "code": "40679-3",
@@ -3003,7 +3003,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-17726-1",
+      "code": "NACHC.C2.DE65",
       "display": "17726-1",
       "target": [ {
         "code": "17726-1",
@@ -3011,7 +3011,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47512-9",
+      "code": "NACHC.C2.DE66",
       "display": "47512-9",
       "target": [ {
         "code": "47512-9",
@@ -3019,7 +3019,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47051-8",
+      "code": "NACHC.C2.DE67",
       "display": "47051-8",
       "target": [ {
         "code": "47051-8",
@@ -3027,7 +3027,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22592-0",
+      "code": "NACHC.C2.DE68",
       "display": "22592-0",
       "target": [ {
         "code": "22592-0",
@@ -3035,7 +3035,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-51838-1",
+      "code": "NACHC.C2.DE69",
       "display": "51838-1",
       "target": [ {
         "code": "51838-1",
@@ -3043,7 +3043,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-17727-9",
+      "code": "NACHC.C2.DE70",
       "display": "17727-9",
       "target": [ {
         "code": "17727-9",
@@ -3051,7 +3051,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-34147-9",
+      "code": "NACHC.C2.DE71",
       "display": "34147-9",
       "target": [ {
         "code": "34147-9",
@@ -3059,7 +3059,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47236-5",
+      "code": "NACHC.C2.DE72",
       "display": "47236-5",
       "target": [ {
         "code": "47236-5",
@@ -3067,7 +3067,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-69946-2",
+      "code": "NACHC.C2.DE73",
       "display": "69946-2",
       "target": [ {
         "code": "69946-2",
@@ -3075,7 +3075,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-1702822",
+      "code": "NACHC.C2.DE74",
       "display": "1702822",
       "target": [ {
         "code": "1702822",
@@ -3083,7 +3083,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47237-3",
+      "code": "NACHC.C2.DE75",
       "display": "47237-3",
       "target": [ {
         "code": "47237-3",
@@ -3091,7 +3091,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-40680-1",
+      "code": "NACHC.C2.DE76",
       "display": "40680-1",
       "target": [ {
         "code": "40680-1",
@@ -3099,7 +3099,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-17729-5",
+      "code": "NACHC.C2.DE77",
       "display": "17729-5",
       "target": [ {
         "code": "17729-5",
@@ -3107,7 +3107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47514-5",
+      "code": "NACHC.C2.DE78",
       "display": "47514-5",
       "target": [ {
         "code": "47514-5",
@@ -3115,7 +3115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-47063-3",
+      "code": "NACHC.C2.DE79",
       "display": "47063-3",
       "target": [ {
         "code": "47063-3",
@@ -3123,7 +3123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-22594-6",
+      "code": "NACHC.C2.DE80",
       "display": "22594-6",
       "target": [ {
         "code": "22594-6",
@@ -3131,7 +3131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-51839-9",
+      "code": "NACHC.C2.DE81",
       "display": "51839-9",
       "target": [ {
         "code": "51839-9",
@@ -3139,7 +3139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-17728-7",
+      "code": "NACHC.C2.DE82",
       "display": "17728-7",
       "target": [ {
         "code": "17728-7",
@@ -3147,7 +3147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Syphilis Test-26658-5",
+      "code": "NACHC.C2.DE83",
       "display": "26658-5",
       "target": [ {
         "code": "26658-5",
@@ -3155,7 +3155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-14127-5",
+      "code": "NACHC.D2.DE2",
       "display": "14127-5",
       "target": [ {
         "code": "14127-5",
@@ -3163,7 +3163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-30099-6",
+      "code": "NACHC.D2.DE3",
       "display": "30099-6",
       "target": [ {
         "code": "30099-6",
@@ -3171,7 +3171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-688-2",
+      "code": "NACHC.D2.DE4",
       "display": "688-2",
       "target": [ {
         "code": "688-2",
@@ -3179,7 +3179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-690-8",
+      "code": "NACHC.D2.DE5",
       "display": "690-8",
       "target": [ {
         "code": "690-8",
@@ -3187,7 +3187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-691-6",
+      "code": "NACHC.D2.DE6",
       "display": "691-6",
       "target": [ {
         "code": "691-6",
@@ -3195,7 +3195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-692-4",
+      "code": "NACHC.D2.DE7",
       "display": "692-4",
       "target": [ {
         "code": "692-4",
@@ -3203,7 +3203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-693-2",
+      "code": "NACHC.D2.DE8",
       "display": "693-2",
       "target": [ {
         "code": "693-2",
@@ -3211,7 +3211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-694-0",
+      "code": "NACHC.D2.DE9",
       "display": "694-0",
       "target": [ {
         "code": "694-0",
@@ -3219,7 +3219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-695-7",
+      "code": "NACHC.D2.DE10",
       "display": "695-7",
       "target": [ {
         "code": "695-7",
@@ -3227,7 +3227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-696-5",
+      "code": "NACHC.D2.DE11",
       "display": "696-5",
       "target": [ {
         "code": "696-5",
@@ -3235,7 +3235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-697-3",
+      "code": "NACHC.D2.DE12",
       "display": "697-3",
       "target": [ {
         "code": "697-3",
@@ -3243,7 +3243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-698-1",
+      "code": "NACHC.D2.DE13",
       "display": "698-1",
       "target": [ {
         "code": "698-1",
@@ -3251,7 +3251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-80368-4",
+      "code": "NACHC.D2.DE14",
       "display": "80368-4",
       "target": [ {
         "code": "80368-4",
@@ -3259,7 +3259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-91781-5",
+      "code": "NACHC.D2.DE15",
       "display": "91781-5",
       "target": [ {
         "code": "91781-5",
@@ -3267,7 +3267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-21414-8",
+      "code": "NACHC.D2.DE17",
       "display": "21414-8",
       "target": [ {
         "code": "21414-8",
@@ -3275,7 +3275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-21415-5",
+      "code": "NACHC.D2.DE18",
       "display": "21415-5",
       "target": [ {
         "code": "21415-5",
@@ -3283,7 +3283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-21416-3",
+      "code": "NACHC.D2.DE19",
       "display": "21416-3",
       "target": [ {
         "code": "21416-3",
@@ -3291,7 +3291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-24111-7",
+      "code": "NACHC.D2.DE20",
       "display": "24111-7",
       "target": [ {
         "code": "24111-7",
@@ -3299,7 +3299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-32198-4",
+      "code": "NACHC.D2.DE21",
       "display": "32198-4",
       "target": [ {
         "code": "32198-4",
@@ -3307,7 +3307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-32199-2",
+      "code": "NACHC.D2.DE22",
       "display": "32199-2",
       "target": [ {
         "code": "32199-2",
@@ -3315,7 +3315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-32705-6",
+      "code": "NACHC.D2.DE23",
       "display": "32705-6",
       "target": [ {
         "code": "32705-6",
@@ -3323,7 +3323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-33904-4",
+      "code": "NACHC.D2.DE24",
       "display": "33904-4",
       "target": [ {
         "code": "33904-4",
@@ -3331,7 +3331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-35735-0",
+      "code": "NACHC.D2.DE25",
       "display": "35735-0",
       "target": [ {
         "code": "35735-0",
@@ -3339,7 +3339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-36902-5",
+      "code": "NACHC.D2.DE26",
       "display": "36902-5",
       "target": [ {
         "code": "36902-5",
@@ -3347,7 +3347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-36903-3",
+      "code": "NACHC.D2.DE27",
       "display": "36903-3",
       "target": [ {
         "code": "36903-3",
@@ -3355,7 +3355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43305-2",
+      "code": "NACHC.D2.DE28",
       "display": "43305-2",
       "target": [ {
         "code": "43305-2",
@@ -3363,7 +3363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43403-5",
+      "code": "NACHC.D2.DE29",
       "display": "43403-5",
       "target": [ {
         "code": "43403-5",
@@ -3371,7 +3371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43405-0",
+      "code": "NACHC.D2.DE30",
       "display": "43405-0",
       "target": [ {
         "code": "43405-0",
@@ -3379,7 +3379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43406-8",
+      "code": "NACHC.D2.DE31",
       "display": "43406-8",
       "target": [ {
         "code": "43406-8",
@@ -3387,7 +3387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-44806-8",
+      "code": "NACHC.D2.DE32",
       "display": "44806-8",
       "target": [ {
         "code": "44806-8",
@@ -3395,7 +3395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-44807-6",
+      "code": "NACHC.D2.DE33",
       "display": "44807-6",
       "target": [ {
         "code": "44807-6",
@@ -3403,7 +3403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45068-4",
+      "code": "NACHC.D2.DE34",
       "display": "45068-4",
       "target": [ {
         "code": "45068-4",
@@ -3411,7 +3411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45069-2",
+      "code": "NACHC.D2.DE35",
       "display": "45069-2",
       "target": [ {
         "code": "45069-2",
@@ -3419,7 +3419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45070-0",
+      "code": "NACHC.D2.DE36",
       "display": "45070-0",
       "target": [ {
         "code": "45070-0",
@@ -3427,7 +3427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45072-6",
+      "code": "NACHC.D2.DE37",
       "display": "45072-6",
       "target": [ {
         "code": "45072-6",
@@ -3435,7 +3435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45073-4",
+      "code": "NACHC.D2.DE38",
       "display": "45073-4",
       "target": [ {
         "code": "45073-4",
@@ -3443,7 +3443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45074-2",
+      "code": "NACHC.D2.DE39",
       "display": "45074-2",
       "target": [ {
         "code": "45074-2",
@@ -3451,7 +3451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45075-9",
+      "code": "NACHC.D2.DE40",
       "display": "45075-9",
       "target": [ {
         "code": "45075-9",
@@ -3459,7 +3459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45076-7",
+      "code": "NACHC.D2.DE41",
       "display": "45076-7",
       "target": [ {
         "code": "45076-7",
@@ -3467,7 +3467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-47387-6",
+      "code": "NACHC.D2.DE42",
       "display": "47387-6",
       "target": [ {
         "code": "47387-6",
@@ -3475,7 +3475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-1142632",
+      "code": "NACHC.D2.DE43",
       "display": "1142632",
       "target": [ {
         "code": "1142632",
@@ -3483,7 +3483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-50388-8",
+      "code": "NACHC.D2.DE44",
       "display": "50388-8",
       "target": [ {
         "code": "50388-8",
@@ -3491,7 +3491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-53879-3",
+      "code": "NACHC.D2.DE45",
       "display": "53879-3",
       "target": [ {
         "code": "53879-3",
@@ -3499,7 +3499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-53927-0",
+      "code": "NACHC.D2.DE46",
       "display": "53927-0",
       "target": [ {
         "code": "53927-0",
@@ -3507,7 +3507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-57180-2",
+      "code": "NACHC.D2.DE47",
       "display": "57180-2",
       "target": [ {
         "code": "57180-2",
@@ -3515,7 +3515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-57289-1",
+      "code": "NACHC.D2.DE48",
       "display": "57289-1",
       "target": [ {
         "code": "57289-1",
@@ -3523,7 +3523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-57458-2",
+      "code": "NACHC.D2.DE49",
       "display": "57458-2",
       "target": [ {
         "code": "57458-2",
@@ -3531,7 +3531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-60255-7",
+      "code": "NACHC.D2.DE50",
       "display": "60255-7",
       "target": [ {
         "code": "60255-7",
@@ -3539,7 +3539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-60256-5",
+      "code": "NACHC.D2.DE51",
       "display": "60256-5",
       "target": [ {
         "code": "60256-5",
@@ -3547,7 +3547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-80360-1",
+      "code": "NACHC.D2.DE52",
       "display": "80360-1",
       "target": [ {
         "code": "80360-1",
@@ -3555,7 +3555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-80361-9",
+      "code": "NACHC.D2.DE53",
       "display": "80361-9",
       "target": [ {
         "code": "80361-9",
@@ -3563,7 +3563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-80362-7",
+      "code": "NACHC.D2.DE54",
       "display": "80362-7",
       "target": [ {
         "code": "80362-7",
@@ -3571,7 +3571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-80365-0",
+      "code": "NACHC.D2.DE55",
       "display": "80365-0",
       "target": [ {
         "code": "80365-0",
@@ -3579,7 +3579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-80366-8",
+      "code": "NACHC.D2.DE56",
       "display": "80366-8",
       "target": [ {
         "code": "80366-8",
@@ -3587,7 +3587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-88224-1",
+      "code": "NACHC.D2.DE57",
       "display": "88224-1",
       "target": [ {
         "code": "88224-1",
@@ -3595,7 +3595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-88225-8",
+      "code": "NACHC.D2.DE58",
       "display": "88225-8",
       "target": [ {
         "code": "88225-8",
@@ -3603,7 +3603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43383-9",
+      "code": "NACHC.D2.DE60",
       "display": "43383-9",
       "target": [ {
         "code": "43383-9",
@@ -3611,7 +3611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43384-7",
+      "code": "NACHC.D2.DE61",
       "display": "43384-7",
       "target": [ {
         "code": "43384-7",
@@ -3619,7 +3619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43385-4",
+      "code": "NACHC.D2.DE62",
       "display": "43385-4",
       "target": [ {
         "code": "43385-4",
@@ -3627,7 +3627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43386-2",
+      "code": "NACHC.D2.DE63",
       "display": "43386-2",
       "target": [ {
         "code": "43386-2",
@@ -3635,7 +3635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-43387-0",
+      "code": "NACHC.D2.DE64",
       "display": "43387-0",
       "target": [ {
         "code": "43387-0",
@@ -3643,7 +3643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-80369-2",
+      "code": "NACHC.D2.DE65",
       "display": "80369-2",
       "target": [ {
         "code": "80369-2",
@@ -3651,7 +3651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-22430-3",
+      "code": "NACHC.D2.DE67",
       "display": "22430-3",
       "target": [ {
         "code": "22430-3",
@@ -3659,7 +3659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-27021-5",
+      "code": "NACHC.D2.DE68",
       "display": "27021-5",
       "target": [ {
         "code": "27021-5",
@@ -3667,7 +3667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-29311-8",
+      "code": "NACHC.D2.DE69",
       "display": "29311-8",
       "target": [ {
         "code": "29311-8",
@@ -3675,7 +3675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-31525-9",
+      "code": "NACHC.D2.DE70",
       "display": "31525-9",
       "target": [ {
         "code": "31525-9",
@@ -3683,7 +3683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-31905-3",
+      "code": "NACHC.D2.DE71",
       "display": "31905-3",
       "target": [ {
         "code": "31905-3",
@@ -3691,7 +3691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-31906-1",
+      "code": "NACHC.D2.DE72",
       "display": "31906-1",
       "target": [ {
         "code": "31906-1",
@@ -3699,7 +3699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-32704-9",
+      "code": "NACHC.D2.DE73",
       "display": "32704-9",
       "target": [ {
         "code": "32704-9",
@@ -3707,7 +3707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-39557-4",
+      "code": "NACHC.D2.DE74",
       "display": "39557-4",
       "target": [ {
         "code": "39557-4",
@@ -3715,7 +3715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-42987-8",
+      "code": "NACHC.D2.DE75",
       "display": "42987-8",
       "target": [ {
         "code": "42987-8",
@@ -3723,7 +3723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-47362-9",
+      "code": "NACHC.D2.DE76",
       "display": "47362-9",
       "target": [ {
         "code": "47362-9",
@@ -3731,7 +3731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-50326-8",
+      "code": "NACHC.D2.DE77",
       "display": "50326-8",
       "target": [ {
         "code": "50326-8",
@@ -3739,7 +3739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-50412-6",
+      "code": "NACHC.D2.DE78",
       "display": "50412-6",
       "target": [ {
         "code": "50412-6",
@@ -3747,7 +3747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-1227642",
+      "code": "NACHC.D2.DE79",
       "display": "1227642",
       "target": [ {
         "code": "1227642",
@@ -3755,7 +3755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-53762-1",
+      "code": "NACHC.D2.DE80",
       "display": "53762-1",
       "target": [ {
         "code": "53762-1",
@@ -3763,7 +3763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-62865-1",
+      "code": "NACHC.D2.DE81",
       "display": "62865-1",
       "target": [ {
         "code": "62865-1",
@@ -3771,7 +3771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-64017-7",
+      "code": "NACHC.D2.DE82",
       "display": "64017-7",
       "target": [ {
         "code": "64017-7",
@@ -3779,7 +3779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-1675735",
+      "code": "NACHC.D2.DE83",
       "display": "1675735",
       "target": [ {
         "code": "1675735",
@@ -3787,7 +3787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-1676344",
+      "code": "NACHC.D2.DE84",
       "display": "1676344",
       "target": [ {
         "code": "1676344",
@@ -3795,7 +3795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-1676647",
+      "code": "NACHC.D2.DE85",
       "display": "1676647",
       "target": [ {
         "code": "1676647",
@@ -3803,7 +3803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-689-0",
+      "code": "NACHC.D2.DE86",
       "display": "689-0",
       "target": [ {
         "code": "689-0",
@@ -3811,7 +3811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-69865-4",
+      "code": "NACHC.D2.DE87",
       "display": "69865-4",
       "target": [ {
         "code": "69865-4",
@@ -3819,7 +3819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-70161-5",
+      "code": "NACHC.D2.DE88",
       "display": "70161-5",
       "target": [ {
         "code": "70161-5",
@@ -3827,7 +3827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-70162-3",
+      "code": "NACHC.D2.DE89",
       "display": "70162-3",
       "target": [ {
         "code": "70162-3",
@@ -3835,7 +3835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-70163-1",
+      "code": "NACHC.D2.DE90",
       "display": "70163-1",
       "target": [ {
         "code": "70163-1",
@@ -3843,7 +3843,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-70164-9",
+      "code": "NACHC.D2.DE91",
       "display": "70164-9",
       "target": [ {
         "code": "70164-9",
@@ -3851,7 +3851,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-72828-7",
+      "code": "NACHC.D2.DE92",
       "display": "72828-7",
       "target": [ {
         "code": "72828-7",
@@ -3859,7 +3859,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-77577-5",
+      "code": "NACHC.D2.DE93",
       "display": "77577-5",
       "target": [ {
         "code": "77577-5",
@@ -3867,7 +3867,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-86661-6",
+      "code": "NACHC.D2.DE94",
       "display": "86661-6",
       "target": [ {
         "code": "86661-6",
@@ -3875,7 +3875,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-90357-5",
+      "code": "NACHC.D2.DE95",
       "display": "90357-5",
       "target": [ {
         "code": "90357-5",
@@ -3883,7 +3883,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-90358-3",
+      "code": "NACHC.D2.DE96",
       "display": "90358-3",
       "target": [ {
         "code": "90358-3",
@@ -3891,7 +3891,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-92683-2",
+      "code": "NACHC.D2.DE97",
       "display": "92683-2",
       "target": [ {
         "code": "92683-2",
@@ -3899,7 +3899,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-92684-0",
+      "code": "NACHC.D2.DE98",
       "display": "92684-0",
       "target": [ {
         "code": "92684-0",
@@ -3907,7 +3907,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-2800863",
+      "code": "NACHC.D2.DE99",
       "display": "2800863",
       "target": [ {
         "code": "2800863",
@@ -3915,7 +3915,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-45067-6",
+      "code": "NACHC.D2.DE101",
       "display": "45067-6",
       "target": [ {
         "code": "45067-6",
@@ -3923,7 +3923,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Gonorrhea Test-1675429",
+      "code": "NACHC.D2.DE102",
       "display": "1675429",
       "target": [ {
         "code": "1675429",
@@ -3931,7 +3931,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14463-4",
+      "code": "NACHC.E2.DE2",
       "display": "14463-4",
       "target": [ {
         "code": "14463-4",
@@ -3939,7 +3939,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14464-2",
+      "code": "NACHC.E2.DE3",
       "display": "14464-2",
       "target": [ {
         "code": "14464-2",
@@ -3947,7 +3947,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14467-5",
+      "code": "NACHC.E2.DE4",
       "display": "14467-5",
       "target": [ {
         "code": "14467-5",
@@ -3955,7 +3955,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14474-1",
+      "code": "NACHC.E2.DE5",
       "display": "14474-1",
       "target": [ {
         "code": "14474-1",
@@ -3963,7 +3963,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14513-6",
+      "code": "NACHC.E2.DE6",
       "display": "14513-6",
       "target": [ {
         "code": "14513-6",
@@ -3971,7 +3971,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-16600-9",
+      "code": "NACHC.E2.DE7",
       "display": "16600-9",
       "target": [ {
         "code": "16600-9",
@@ -3979,7 +3979,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-21190-4",
+      "code": "NACHC.E2.DE8",
       "display": "21190-4",
       "target": [ {
         "code": "21190-4",
@@ -3987,7 +3987,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-21191-2",
+      "code": "NACHC.E2.DE9",
       "display": "21191-2",
       "target": [ {
         "code": "21191-2",
@@ -3995,7 +3995,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-21613-5",
+      "code": "NACHC.E2.DE10",
       "display": "21613-5",
       "target": [ {
         "code": "21613-5",
@@ -4003,7 +4003,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-23838-6",
+      "code": "NACHC.E2.DE11",
       "display": "23838-6",
       "target": [ {
         "code": "23838-6",
@@ -4011,7 +4011,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31775-0",
+      "code": "NACHC.E2.DE12",
       "display": "31775-0",
       "target": [ {
         "code": "31775-0",
@@ -4019,7 +4019,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31777-6",
+      "code": "NACHC.E2.DE13",
       "display": "31777-6",
       "target": [ {
         "code": "31777-6",
@@ -4027,7 +4027,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-36902-5",
+      "code": "NACHC.E2.DE14",
       "display": "36902-5",
       "target": [ {
         "code": "36902-5",
@@ -4035,7 +4035,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-36903-3",
+      "code": "NACHC.E2.DE15",
       "display": "36903-3",
       "target": [ {
         "code": "36903-3",
@@ -4043,15 +4043,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-42931-6",
-      "display": "42931-6",
-      "target": [ {
-        "code": "42931-6",
-        "display": "Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection",
-        "equivalence": "equivalent"
-      } ]
-    }, {
-      "code": "Chlamydia Test-43304-5",
+      "code": "NACHC.E2.DE16",
       "display": "43304-5",
       "target": [ {
         "code": "43304-5",
@@ -4059,7 +4051,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-43404-3",
+      "code": "NACHC.E2.DE17",
       "display": "43404-3",
       "target": [ {
         "code": "43404-3",
@@ -4067,7 +4059,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-43405-0",
+      "code": "NACHC.E2.DE18",
       "display": "43405-0",
       "target": [ {
         "code": "43405-0",
@@ -4075,7 +4067,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-43406-8",
+      "code": "NACHC.E2.DE19",
       "display": "43406-8",
       "target": [ {
         "code": "43406-8",
@@ -4083,7 +4075,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-44806-8",
+      "code": "NACHC.E2.DE20",
       "display": "44806-8",
       "target": [ {
         "code": "44806-8",
@@ -4091,7 +4083,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-44807-6",
+      "code": "NACHC.E2.DE21",
       "display": "44807-6",
       "target": [ {
         "code": "44807-6",
@@ -4099,7 +4091,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45068-4",
+      "code": "NACHC.E2.DE22",
       "display": "45068-4",
       "target": [ {
         "code": "45068-4",
@@ -4107,7 +4099,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45069-2",
+      "code": "NACHC.E2.DE23",
       "display": "45069-2",
       "target": [ {
         "code": "45069-2",
@@ -4115,7 +4107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45075-9",
+      "code": "NACHC.E2.DE24",
       "display": "45075-9",
       "target": [ {
         "code": "45075-9",
@@ -4123,7 +4115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45076-7",
+      "code": "NACHC.E2.DE25",
       "display": "45076-7",
       "target": [ {
         "code": "45076-7",
@@ -4131,7 +4123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45084-1",
+      "code": "NACHC.E2.DE26",
       "display": "45084-1",
       "target": [ {
         "code": "45084-1",
@@ -4139,7 +4131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45091-6",
+      "code": "NACHC.E2.DE27",
       "display": "45091-6",
       "target": [ {
         "code": "45091-6",
@@ -4147,7 +4139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45095-7",
+      "code": "NACHC.E2.DE28",
       "display": "45095-7",
       "target": [ {
         "code": "45095-7",
@@ -4155,7 +4147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45098-1",
+      "code": "NACHC.E2.DE29",
       "display": "45098-1",
       "target": [ {
         "code": "45098-1",
@@ -4163,7 +4155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45100-5",
+      "code": "NACHC.E2.DE30",
       "display": "45100-5",
       "target": [ {
         "code": "45100-5",
@@ -4171,7 +4163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-47211-8",
+      "code": "NACHC.E2.DE31",
       "display": "47211-8",
       "target": [ {
         "code": "47211-8",
@@ -4179,7 +4171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-47212-6",
+      "code": "NACHC.E2.DE32",
       "display": "47212-6",
       "target": [ {
         "code": "47212-6",
@@ -4187,7 +4179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-49096-1",
+      "code": "NACHC.E2.DE33",
       "display": "49096-1",
       "target": [ {
         "code": "49096-1",
@@ -4195,7 +4187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1129729",
+      "code": "NACHC.E2.DE34",
       "display": "1129729",
       "target": [ {
         "code": "1129729",
@@ -4203,7 +4195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-50387-0",
+      "code": "NACHC.E2.DE35",
       "display": "50387-0",
       "target": [ {
         "code": "50387-0",
@@ -4211,7 +4203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-53925-4",
+      "code": "NACHC.E2.DE36",
       "display": "53925-4",
       "target": [ {
         "code": "53925-4",
@@ -4219,7 +4211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-53926-2",
+      "code": "NACHC.E2.DE37",
       "display": "53926-2",
       "target": [ {
         "code": "53926-2",
@@ -4227,7 +4219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-557-9",
+      "code": "NACHC.E2.DE38",
       "display": "557-9",
       "target": [ {
         "code": "557-9",
@@ -4235,7 +4227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-560-3",
+      "code": "NACHC.E2.DE39",
       "display": "560-3",
       "target": [ {
         "code": "560-3",
@@ -4243,7 +4235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1625086",
+      "code": "NACHC.E2.DE40",
       "display": "1625086",
       "target": [ {
         "code": "1625086",
@@ -4251,7 +4243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1626912",
+      "code": "NACHC.E2.DE41",
       "display": "1626912",
       "target": [ {
         "code": "1626912",
@@ -4259,7 +4251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1627188",
+      "code": "NACHC.E2.DE42",
       "display": "1627188",
       "target": [ {
         "code": "1627188",
@@ -4267,7 +4259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-6356-0",
+      "code": "NACHC.E2.DE43",
       "display": "6356-0",
       "target": [ {
         "code": "6356-0",
@@ -4275,7 +4267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1628100",
+      "code": "NACHC.E2.DE44",
       "display": "1628100",
       "target": [ {
         "code": "1628100",
@@ -4283,7 +4275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-80360-1",
+      "code": "NACHC.E2.DE45",
       "display": "80360-1",
       "target": [ {
         "code": "80360-1",
@@ -4291,7 +4283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-80361-9",
+      "code": "NACHC.E2.DE46",
       "display": "80361-9",
       "target": [ {
         "code": "80361-9",
@@ -4299,7 +4291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-80362-7",
+      "code": "NACHC.E2.DE47",
       "display": "80362-7",
       "target": [ {
         "code": "80362-7",
@@ -4307,7 +4299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14466-7",
+      "code": "NACHC.E2.DE49",
       "display": "14466-7",
       "target": [ {
         "code": "14466-7",
@@ -4315,7 +4307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14512-8",
+      "code": "NACHC.E2.DE50",
       "display": "14512-8",
       "target": [ {
         "code": "14512-8",
@@ -4323,7 +4315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-16593-6",
+      "code": "NACHC.E2.DE51",
       "display": "16593-6",
       "target": [ {
         "code": "16593-6",
@@ -4331,7 +4323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-20755-5",
+      "code": "NACHC.E2.DE52",
       "display": "20755-5",
       "target": [ {
         "code": "20755-5",
@@ -4339,7 +4331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-20756-3",
+      "code": "NACHC.E2.DE53",
       "display": "20756-3",
       "target": [ {
         "code": "20756-3",
@@ -4347,7 +4339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-20757-1",
+      "code": "NACHC.E2.DE54",
       "display": "20757-1",
       "target": [ {
         "code": "20757-1",
@@ -4355,7 +4347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31764-4",
+      "code": "NACHC.E2.DE55",
       "display": "31764-4",
       "target": [ {
         "code": "31764-4",
@@ -4363,7 +4355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31765-1",
+      "code": "NACHC.E2.DE56",
       "display": "31765-1",
       "target": [ {
         "code": "31765-1",
@@ -4371,7 +4363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31766-9",
+      "code": "NACHC.E2.DE57",
       "display": "31766-9",
       "target": [ {
         "code": "31766-9",
@@ -4379,7 +4371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31767-7",
+      "code": "NACHC.E2.DE58",
       "display": "31767-7",
       "target": [ {
         "code": "31767-7",
@@ -4387,7 +4379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-32001-0",
+      "code": "NACHC.E2.DE59",
       "display": "32001-0",
       "target": [ {
         "code": "32001-0",
@@ -4395,7 +4387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-32004-4",
+      "code": "NACHC.E2.DE60",
       "display": "32004-4",
       "target": [ {
         "code": "32004-4",
@@ -4403,7 +4395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-32671-0",
+      "code": "NACHC.E2.DE61",
       "display": "32671-0",
       "target": [ {
         "code": "32671-0",
@@ -4411,7 +4403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-32774-2",
+      "code": "NACHC.E2.DE62",
       "display": "32774-2",
       "target": [ {
         "code": "32774-2",
@@ -4419,7 +4411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-34708-8",
+      "code": "NACHC.E2.DE63",
       "display": "34708-8",
       "target": [ {
         "code": "34708-8",
@@ -4427,7 +4419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35412-6",
+      "code": "NACHC.E2.DE64",
       "display": "35412-6",
       "target": [ {
         "code": "35412-6",
@@ -4435,7 +4427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35711-1",
+      "code": "NACHC.E2.DE65",
       "display": "35711-1",
       "target": [ {
         "code": "35711-1",
@@ -4443,7 +4435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35713-7",
+      "code": "NACHC.E2.DE66",
       "display": "35713-7",
       "target": [ {
         "code": "35713-7",
@@ -4451,7 +4443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35714-5",
+      "code": "NACHC.E2.DE67",
       "display": "35714-5",
       "target": [ {
         "code": "35714-5",
@@ -4459,7 +4451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35715-2",
+      "code": "NACHC.E2.DE68",
       "display": "35715-2",
       "target": [ {
         "code": "35715-2",
@@ -4467,7 +4459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35716-0",
+      "code": "NACHC.E2.DE69",
       "display": "35716-0",
       "target": [ {
         "code": "35716-0",
@@ -4475,7 +4467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35717-8",
+      "code": "NACHC.E2.DE70",
       "display": "35717-8",
       "target": [ {
         "code": "35717-8",
@@ -4483,7 +4475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35718-6",
+      "code": "NACHC.E2.DE71",
       "display": "35718-6",
       "target": [ {
         "code": "35718-6",
@@ -4491,7 +4483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35721-0",
+      "code": "NACHC.E2.DE72",
       "display": "35721-0",
       "target": [ {
         "code": "35721-0",
@@ -4499,7 +4491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35724-4",
+      "code": "NACHC.E2.DE73",
       "display": "35724-4",
       "target": [ {
         "code": "35724-4",
@@ -4507,7 +4499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35725-1",
+      "code": "NACHC.E2.DE74",
       "display": "35725-1",
       "target": [ {
         "code": "35725-1",
@@ -4515,7 +4507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35726-9",
+      "code": "NACHC.E2.DE75",
       "display": "35726-9",
       "target": [ {
         "code": "35726-9",
@@ -4523,7 +4515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35727-7",
+      "code": "NACHC.E2.DE76",
       "display": "35727-7",
       "target": [ {
         "code": "35727-7",
@@ -4531,7 +4523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35728-5",
+      "code": "NACHC.E2.DE77",
       "display": "35728-5",
       "target": [ {
         "code": "35728-5",
@@ -4539,7 +4531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35730-1",
+      "code": "NACHC.E2.DE78",
       "display": "35730-1",
       "target": [ {
         "code": "35730-1",
@@ -4547,7 +4539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35736-8",
+      "code": "NACHC.E2.DE79",
       "display": "35736-8",
       "target": [ {
         "code": "35736-8",
@@ -4555,7 +4547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-38467-7",
+      "code": "NACHC.E2.DE80",
       "display": "38467-7",
       "target": [ {
         "code": "38467-7",
@@ -4563,7 +4555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45071-8",
+      "code": "NACHC.E2.DE81",
       "display": "45071-8",
       "target": [ {
         "code": "45071-8",
@@ -4571,7 +4563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45097-3",
+      "code": "NACHC.E2.DE82",
       "display": "45097-3",
       "target": [ {
         "code": "45097-3",
@@ -4579,7 +4571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45099-9",
+      "code": "NACHC.E2.DE83",
       "display": "45099-9",
       "target": [ {
         "code": "45099-9",
@@ -4587,7 +4579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45101-3",
+      "code": "NACHC.E2.DE84",
       "display": "45101-3",
       "target": [ {
         "code": "45101-3",
@@ -4595,7 +4587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45103-9",
+      "code": "NACHC.E2.DE85",
       "display": "45103-9",
       "target": [ {
         "code": "45103-9",
@@ -4603,7 +4595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45104-7",
+      "code": "NACHC.E2.DE86",
       "display": "45104-7",
       "target": [ {
         "code": "45104-7",
@@ -4611,7 +4603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45105-4",
+      "code": "NACHC.E2.DE87",
       "display": "45105-4",
       "target": [ {
         "code": "45105-4",
@@ -4619,7 +4611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45106-2",
+      "code": "NACHC.E2.DE88",
       "display": "45106-2",
       "target": [ {
         "code": "45106-2",
@@ -4627,7 +4619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45107-0",
+      "code": "NACHC.E2.DE89",
       "display": "45107-0",
       "target": [ {
         "code": "45107-0",
@@ -4635,7 +4627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45108-8",
+      "code": "NACHC.E2.DE90",
       "display": "45108-8",
       "target": [ {
         "code": "45108-8",
@@ -4643,7 +4635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45109-6",
+      "code": "NACHC.E2.DE91",
       "display": "45109-6",
       "target": [ {
         "code": "45109-6",
@@ -4651,7 +4643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45112-0",
+      "code": "NACHC.E2.DE92",
       "display": "45112-0",
       "target": [ {
         "code": "45112-0",
@@ -4659,7 +4651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45113-8",
+      "code": "NACHC.E2.DE93",
       "display": "45113-8",
       "target": [ {
         "code": "45113-8",
@@ -4667,7 +4659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45114-6",
+      "code": "NACHC.E2.DE94",
       "display": "45114-6",
       "target": [ {
         "code": "45114-6",
@@ -4675,7 +4667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45115-3",
+      "code": "NACHC.E2.DE95",
       "display": "45115-3",
       "target": [ {
         "code": "45115-3",
@@ -4683,7 +4675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45130-2",
+      "code": "NACHC.E2.DE96",
       "display": "45130-2",
       "target": [ {
         "code": "45130-2",
@@ -4691,7 +4683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45131-0",
+      "code": "NACHC.E2.DE97",
       "display": "45131-0",
       "target": [ {
         "code": "45131-0",
@@ -4699,7 +4691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45132-8",
+      "code": "NACHC.E2.DE98",
       "display": "45132-8",
       "target": [ {
         "code": "45132-8",
@@ -4707,7 +4699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45133-6",
+      "code": "NACHC.E2.DE99",
       "display": "45133-6",
       "target": [ {
         "code": "45133-6",
@@ -4715,7 +4707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-47362-9",
+      "code": "NACHC.E2.DE100",
       "display": "47362-9",
       "target": [ {
         "code": "47362-9",
@@ -4723,7 +4715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-50311-0",
+      "code": "NACHC.E2.DE101",
       "display": "50311-0",
       "target": [ {
         "code": "50311-0",
@@ -4731,7 +4723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-50411-8",
+      "code": "NACHC.E2.DE102",
       "display": "50411-8",
       "target": [ {
         "code": "50411-8",
@@ -4739,7 +4731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-561-1",
+      "code": "NACHC.E2.DE103",
       "display": "561-1",
       "target": [ {
         "code": "561-1",
@@ -4747,7 +4739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-57817-9",
+      "code": "NACHC.E2.DE104",
       "display": "57817-9",
       "target": [ {
         "code": "57817-9",
@@ -4755,7 +4747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1623564",
+      "code": "NACHC.E2.DE105",
       "display": "1623564",
       "target": [ {
         "code": "1623564",
@@ -4763,7 +4755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1623870",
+      "code": "NACHC.E2.DE106",
       "display": "1623870",
       "target": [ {
         "code": "1623870",
@@ -4771,7 +4763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1624478",
+      "code": "NACHC.E2.DE107",
       "display": "1624478",
       "target": [ {
         "code": "1624478",
@@ -4779,7 +4771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-64017-7",
+      "code": "NACHC.E2.DE108",
       "display": "64017-7",
       "target": [ {
         "code": "64017-7",
@@ -4787,7 +4779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-70161-5",
+      "code": "NACHC.E2.DE109",
       "display": "70161-5",
       "target": [ {
         "code": "70161-5",
@@ -4795,7 +4787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-70162-3",
+      "code": "NACHC.E2.DE110",
       "display": "70162-3",
       "target": [ {
         "code": "70162-3",
@@ -4803,7 +4795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-70163-1",
+      "code": "NACHC.E2.DE111",
       "display": "70163-1",
       "target": [ {
         "code": "70163-1",
@@ -4811,7 +4803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-70164-9",
+      "code": "NACHC.E2.DE112",
       "display": "70164-9",
       "target": [ {
         "code": "70164-9",
@@ -4819,7 +4811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-72828-7",
+      "code": "NACHC.E2.DE113",
       "display": "72828-7",
       "target": [ {
         "code": "72828-7",
@@ -4827,7 +4819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-74241-1",
+      "code": "NACHC.E2.DE114",
       "display": "74241-1",
       "target": [ {
         "code": "74241-1",
@@ -4835,7 +4827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-77577-5",
+      "code": "NACHC.E2.DE115",
       "display": "77577-5",
       "target": [ {
         "code": "77577-5",
@@ -4843,7 +4835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-82957-2",
+      "code": "NACHC.E2.DE116",
       "display": "82957-2",
       "target": [ {
         "code": "82957-2",
@@ -4851,7 +4843,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-90357-5",
+      "code": "NACHC.E2.DE117",
       "display": "90357-5",
       "target": [ {
         "code": "90357-5",
@@ -4859,7 +4851,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-90358-3",
+      "code": "NACHC.E2.DE118",
       "display": "90358-3",
       "target": [ {
         "code": "90358-3",
@@ -4867,7 +4859,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-90763-4",
+      "code": "NACHC.E2.DE119",
       "display": "90763-4",
       "target": [ {
         "code": "90763-4",
@@ -4875,7 +4867,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-92683-2",
+      "code": "NACHC.E2.DE120",
       "display": "92683-2",
       "target": [ {
         "code": "92683-2",
@@ -4883,7 +4875,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-92684-0",
+      "code": "NACHC.E2.DE121",
       "display": "92684-0",
       "target": [ {
         "code": "92684-0",
@@ -4891,7 +4883,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-35729-3",
+      "code": "NACHC.E2.DE123",
       "display": "35729-3",
       "target": [ {
         "code": "35729-3",
@@ -4899,7 +4891,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14468-3",
+      "code": "NACHC.E2.DE125",
       "display": "14468-3",
       "target": [ {
         "code": "14468-3",
@@ -4907,7 +4899,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14469-1",
+      "code": "NACHC.E2.DE126",
       "display": "14469-1",
       "target": [ {
         "code": "14469-1",
@@ -4915,7 +4907,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14470-9",
+      "code": "NACHC.E2.DE127",
       "display": "14470-9",
       "target": [ {
         "code": "14470-9",
@@ -4923,7 +4915,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14471-7",
+      "code": "NACHC.E2.DE128",
       "display": "14471-7",
       "target": [ {
         "code": "14471-7",
@@ -4931,7 +4923,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14472-5",
+      "code": "NACHC.E2.DE129",
       "display": "14472-5",
       "target": [ {
         "code": "14472-5",
@@ -4939,7 +4931,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14507-8",
+      "code": "NACHC.E2.DE130",
       "display": "14507-8",
       "target": [ {
         "code": "14507-8",
@@ -4947,7 +4939,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14508-6",
+      "code": "NACHC.E2.DE131",
       "display": "14508-6",
       "target": [ {
         "code": "14508-6",
@@ -4955,7 +4947,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14509-4",
+      "code": "NACHC.E2.DE132",
       "display": "14509-4",
       "target": [ {
         "code": "14509-4",
@@ -4963,7 +4955,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14510-2",
+      "code": "NACHC.E2.DE133",
       "display": "14510-2",
       "target": [ {
         "code": "14510-2",
@@ -4971,7 +4963,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14511-0",
+      "code": "NACHC.E2.DE134",
       "display": "14511-0",
       "target": [ {
         "code": "14511-0",
@@ -4979,7 +4971,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31768-5",
+      "code": "NACHC.E2.DE135",
       "display": "31768-5",
       "target": [ {
         "code": "31768-5",
@@ -4987,7 +4979,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31769-3",
+      "code": "NACHC.E2.DE136",
       "display": "31769-3",
       "target": [ {
         "code": "31769-3",
@@ -4995,7 +4987,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31770-1",
+      "code": "NACHC.E2.DE137",
       "display": "31770-1",
       "target": [ {
         "code": "31770-1",
@@ -5003,7 +4995,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31771-9",
+      "code": "NACHC.E2.DE138",
       "display": "31771-9",
       "target": [ {
         "code": "31771-9",
@@ -5011,7 +5003,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31772-7",
+      "code": "NACHC.E2.DE139",
       "display": "31772-7",
       "target": [ {
         "code": "31772-7",
@@ -5019,7 +5011,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31774-3",
+      "code": "NACHC.E2.DE140",
       "display": "31774-3",
       "target": [ {
         "code": "31774-3",
@@ -5027,7 +5019,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-31776-8",
+      "code": "NACHC.E2.DE141",
       "display": "31776-8",
       "target": [ {
         "code": "31776-8",
@@ -5035,7 +5027,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-34709-6",
+      "code": "NACHC.E2.DE142",
       "display": "34709-6",
       "target": [ {
         "code": "34709-6",
@@ -5043,7 +5035,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-34710-4",
+      "code": "NACHC.E2.DE143",
       "display": "34710-4",
       "target": [ {
         "code": "34710-4",
@@ -5051,7 +5043,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45092-4",
+      "code": "NACHC.E2.DE144",
       "display": "45092-4",
       "target": [ {
         "code": "45092-4",
@@ -5059,7 +5051,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-47234-0",
+      "code": "NACHC.E2.DE145",
       "display": "47234-0",
       "target": [ {
         "code": "47234-0",
@@ -5067,7 +5059,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1625390",
+      "code": "NACHC.E2.DE146",
       "display": "1625390",
       "target": [ {
         "code": "1625390",
@@ -5075,7 +5067,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1625696",
+      "code": "NACHC.E2.DE147",
       "display": "1625696",
       "target": [ {
         "code": "1625696",
@@ -5083,7 +5075,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1626305",
+      "code": "NACHC.E2.DE148",
       "display": "1626305",
       "target": [ {
         "code": "1626305",
@@ -5091,7 +5083,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-1626608",
+      "code": "NACHC.E2.DE149",
       "display": "1626608",
       "target": [ {
         "code": "1626608",
@@ -5099,7 +5091,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-91860-7",
+      "code": "NACHC.E2.DE150",
       "display": "91860-7",
       "target": [ {
         "code": "91860-7",
@@ -5107,7 +5099,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-91861-5",
+      "code": "NACHC.E2.DE151",
       "display": "91861-5",
       "target": [ {
         "code": "91861-5",
@@ -5115,7 +5107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-91873-0",
+      "code": "NACHC.E2.DE152",
       "display": "91873-0",
       "target": [ {
         "code": "91873-0",
@@ -5123,7 +5115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14461-8",
+      "code": "NACHC.E2.DE154",
       "display": "14461-8",
       "target": [ {
         "code": "14461-8",
@@ -5131,7 +5123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14462-6",
+      "code": "NACHC.E2.DE155",
       "display": "14462-6",
       "target": [ {
         "code": "14462-6",
@@ -5139,7 +5131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-14465-9",
+      "code": "NACHC.E2.DE156",
       "display": "14465-9",
       "target": [ {
         "code": "14465-9",
@@ -5147,7 +5139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45093-2",
+      "code": "NACHC.E2.DE157",
       "display": "45093-2",
       "target": [ {
         "code": "45093-2",
@@ -5155,7 +5147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45094-0",
+      "code": "NACHC.E2.DE158",
       "display": "45094-0",
       "target": [ {
         "code": "45094-0",
@@ -5163,7 +5155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45096-5",
+      "code": "NACHC.E2.DE159",
       "display": "45096-5",
       "target": [ {
         "code": "45096-5",
@@ -5171,7 +5163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-80367-6",
+      "code": "NACHC.E2.DE160",
       "display": "80367-6",
       "target": [ {
         "code": "80367-6",
@@ -5179,7 +5171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-87950-2",
+      "code": "NACHC.E2.DE161",
       "display": "87950-2",
       "target": [ {
         "code": "87950-2",
@@ -5187,7 +5179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-89648-0",
+      "code": "NACHC.E2.DE162",
       "display": "89648-0",
       "target": [ {
         "code": "89648-0",
@@ -5195,7 +5187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-16599-3",
+      "code": "NACHC.E2.DE164",
       "display": "16599-3",
       "target": [ {
         "code": "16599-3",
@@ -5203,7 +5195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-16601-7",
+      "code": "NACHC.E2.DE165",
       "display": "16601-7",
       "target": [ {
         "code": "16601-7",
@@ -5211,7 +5203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-21187-0",
+      "code": "NACHC.E2.DE166",
       "display": "21187-0",
       "target": [ {
         "code": "21187-0",
@@ -5219,7 +5211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-21188-8",
+      "code": "NACHC.E2.DE167",
       "display": "21188-8",
       "target": [ {
         "code": "21188-8",
@@ -5227,7 +5219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-21189-6",
+      "code": "NACHC.E2.DE168",
       "display": "21189-6",
       "target": [ {
         "code": "21189-6",
@@ -5235,7 +5227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-21192-0",
+      "code": "NACHC.E2.DE169",
       "display": "21192-0",
       "target": [ {
         "code": "21192-0",
@@ -5243,7 +5235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-38469-3",
+      "code": "NACHC.E2.DE170",
       "display": "38469-3",
       "target": [ {
         "code": "38469-3",
@@ -5251,7 +5243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45067-6",
+      "code": "NACHC.E2.DE171",
       "display": "45067-6",
       "target": [ {
         "code": "45067-6",
@@ -5259,7 +5251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45070-0",
+      "code": "NACHC.E2.DE172",
       "display": "45070-0",
       "target": [ {
         "code": "45070-0",
@@ -5267,7 +5259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45072-6",
+      "code": "NACHC.E2.DE173",
       "display": "45072-6",
       "target": [ {
         "code": "45072-6",
@@ -5275,7 +5267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45073-4",
+      "code": "NACHC.E2.DE174",
       "display": "45073-4",
       "target": [ {
         "code": "45073-4",
@@ -5283,7 +5275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45074-2",
+      "code": "NACHC.E2.DE175",
       "display": "45074-2",
       "target": [ {
         "code": "45074-2",
@@ -5291,7 +5283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45078-3",
+      "code": "NACHC.E2.DE176",
       "display": "45078-3",
       "target": [ {
         "code": "45078-3",
@@ -5299,7 +5291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45080-9",
+      "code": "NACHC.E2.DE177",
       "display": "45080-9",
       "target": [ {
         "code": "45080-9",
@@ -5307,7 +5299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45085-8",
+      "code": "NACHC.E2.DE178",
       "display": "45085-8",
       "target": [ {
         "code": "45085-8",
@@ -5315,7 +5307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45086-6",
+      "code": "NACHC.E2.DE179",
       "display": "45086-6",
       "target": [ {
         "code": "45086-6",
@@ -5323,7 +5315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45089-0",
+      "code": "NACHC.E2.DE180",
       "display": "45089-0",
       "target": [ {
         "code": "45089-0",
@@ -5331,7 +5323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-45090-8",
+      "code": "NACHC.E2.DE181",
       "display": "45090-8",
       "target": [ {
         "code": "45090-8",
@@ -5339,7 +5331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-51578-3",
+      "code": "NACHC.E2.DE182",
       "display": "51578-3",
       "target": [ {
         "code": "51578-3",
@@ -5347,7 +5339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-57287-5",
+      "code": "NACHC.E2.DE183",
       "display": "57287-5",
       "target": [ {
         "code": "57287-5",
@@ -5355,7 +5347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-57288-3",
+      "code": "NACHC.E2.DE184",
       "display": "57288-3",
       "target": [ {
         "code": "57288-3",
@@ -5363,7 +5355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-80363-5",
+      "code": "NACHC.E2.DE185",
       "display": "80363-5",
       "target": [ {
         "code": "80363-5",
@@ -5371,7 +5363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-80364-3",
+      "code": "NACHC.E2.DE186",
       "display": "80364-3",
       "target": [ {
         "code": "80364-3",
@@ -5379,7 +5371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-80365-0",
+      "code": "NACHC.E2.DE187",
       "display": "80365-0",
       "target": [ {
         "code": "80365-0",
@@ -5387,7 +5379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-82306-2",
+      "code": "NACHC.E2.DE188",
       "display": "82306-2",
       "target": [ {
         "code": "82306-2",
@@ -5395,7 +5387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-87949-4",
+      "code": "NACHC.E2.DE189",
       "display": "87949-4",
       "target": [ {
         "code": "87949-4",
@@ -5403,7 +5395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Chlamydia Test-88221-7",
+      "code": "NACHC.E2.DE190",
       "display": "88221-7",
       "target": [ {
         "code": "88221-7",
@@ -5411,7 +5403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-15019-3",
+      "code": "NACHC.F2.DE905",
       "display": "15019-3",
       "target": [ {
         "code": "15019-3",
@@ -5419,7 +5411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-1832-5",
+      "code": "NACHC.F2.DE906",
       "display": "1832-5",
       "target": [ {
         "code": "1832-5",
@@ -5427,7 +5419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-1834-1",
+      "code": "NACHC.F2.DE907",
       "display": "1834-1",
       "target": [ {
         "code": "1834-1",
@@ -5435,7 +5427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-19080-1",
+      "code": "NACHC.F2.DE908",
       "display": "19080-1",
       "target": [ {
         "code": "19080-1",
@@ -5443,7 +5435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-19171-8",
+      "code": "NACHC.F2.DE909",
       "display": "19171-8",
       "target": [ {
         "code": "19171-8",
@@ -5451,7 +5443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-19176-7",
+      "code": "NACHC.F2.DE910",
       "display": "19176-7",
       "target": [ {
         "code": "19176-7",
@@ -5459,7 +5451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-19177-5",
+      "code": "NACHC.F2.DE911",
       "display": "19177-5",
       "target": [ {
         "code": "19177-5",
@@ -5467,7 +5459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-19180-9",
+      "code": "NACHC.F2.DE912",
       "display": "19180-9",
       "target": [ {
         "code": "19180-9",
@@ -5475,7 +5467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-20403-2",
+      "code": "NACHC.F2.DE913",
       "display": "20403-2",
       "target": [ {
         "code": "20403-2",
@@ -5483,7 +5475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-20404-0",
+      "code": "NACHC.F2.DE914",
       "display": "20404-0",
       "target": [ {
         "code": "20404-0",
@@ -5491,7 +5483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-20415-6",
+      "code": "NACHC.F2.DE915",
       "display": "20415-6",
       "target": [ {
         "code": "20415-6",
@@ -5499,7 +5491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-20994-0",
+      "code": "NACHC.F2.DE916",
       "display": "20994-0",
       "target": [ {
         "code": "20994-0",
@@ -5507,7 +5499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-75301",
+      "code": "NACHC.F2.DE917",
       "display": "75301",
       "target": [ {
         "code": "75301",
@@ -5515,7 +5507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-75607",
+      "code": "NACHC.F2.DE918",
       "display": "75607",
       "target": [ {
         "code": "75607",
@@ -5523,7 +5515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-76823",
+      "code": "NACHC.F2.DE919",
       "display": "76823",
       "target": [ {
         "code": "76823",
@@ -5531,7 +5523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-77127",
+      "code": "NACHC.F2.DE920",
       "display": "77127",
       "target": [ {
         "code": "77127",
@@ -5539,7 +5531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-77433",
+      "code": "NACHC.F2.DE921",
       "display": "77433",
       "target": [ {
         "code": "77433",
@@ -5547,7 +5539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-78042",
+      "code": "NACHC.F2.DE922",
       "display": "78042",
       "target": [ {
         "code": "78042",
@@ -5555,7 +5547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-78345",
+      "code": "NACHC.F2.DE923",
       "display": "78345",
       "target": [ {
         "code": "78345",
@@ -5563,7 +5555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-78619",
+      "code": "NACHC.F2.DE924",
       "display": "78619",
       "target": [ {
         "code": "78619",
@@ -5571,7 +5563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-79837",
+      "code": "NACHC.F2.DE925",
       "display": "79837",
       "target": [ {
         "code": "79837",
@@ -5579,7 +5571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-80141",
+      "code": "NACHC.F2.DE926",
       "display": "80141",
       "target": [ {
         "code": "80141",
@@ -5587,7 +5579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-21198-7",
+      "code": "NACHC.F2.DE927",
       "display": "21198-7",
       "target": [ {
         "code": "21198-7",
@@ -5595,7 +5587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-25372-4",
+      "code": "NACHC.F2.DE928",
       "display": "25372-4",
       "target": [ {
         "code": "25372-4",
@@ -5603,7 +5595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-25373-2",
+      "code": "NACHC.F2.DE929",
       "display": "25373-2",
       "target": [ {
         "code": "25373-2",
@@ -5611,7 +5603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-31993-9",
+      "code": "NACHC.F2.DE930",
       "display": "31993-9",
       "target": [ {
         "code": "31993-9",
@@ -5619,7 +5611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-33773-3",
+      "code": "NACHC.F2.DE931",
       "display": "33773-3",
       "target": [ {
         "code": "33773-3",
@@ -5627,7 +5619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-34493-7",
+      "code": "NACHC.F2.DE932",
       "display": "34493-7",
       "target": [ {
         "code": "34493-7",
@@ -5635,7 +5627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-34656-9",
+      "code": "NACHC.F2.DE933",
       "display": "34656-9",
       "target": [ {
         "code": "34656-9",
@@ -5643,7 +5635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-34670-0",
+      "code": "NACHC.F2.DE934",
       "display": "34670-0",
       "target": [ {
         "code": "34670-0",
@@ -5651,7 +5643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-34718-7",
+      "code": "NACHC.F2.DE935",
       "display": "34718-7",
       "target": [ {
         "code": "34718-7",
@@ -5659,7 +5651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-35457-1",
+      "code": "NACHC.F2.DE936",
       "display": "35457-1",
       "target": [ {
         "code": "35457-1",
@@ -5667,7 +5659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-41273-4",
+      "code": "NACHC.F2.DE937",
       "display": "41273-4",
       "target": [ {
         "code": "41273-4",
@@ -5675,7 +5667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-41274-2",
+      "code": "NACHC.F2.DE938",
       "display": "41274-2",
       "target": [ {
         "code": "41274-2",
@@ -5683,7 +5675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-42316-0",
+      "code": "NACHC.F2.DE939",
       "display": "42316-0",
       "target": [ {
         "code": "42316-0",
@@ -5691,7 +5683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-43798-8",
+      "code": "NACHC.F2.DE940",
       "display": "43798-8",
       "target": [ {
         "code": "43798-8",
@@ -5699,7 +5691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-45194-8",
+      "code": "NACHC.F2.DE941",
       "display": "45194-8",
       "target": [ {
         "code": "45194-8",
@@ -5707,7 +5699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-45273-0",
+      "code": "NACHC.F2.DE942",
       "display": "45273-0",
       "target": [ {
         "code": "45273-0",
@@ -5715,7 +5707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-45331-6",
+      "code": "NACHC.F2.DE943",
       "display": "45331-6",
       "target": [ {
         "code": "45331-6",
@@ -5723,7 +5715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-45332-4",
+      "code": "NACHC.F2.DE944",
       "display": "45332-4",
       "target": [ {
         "code": "45332-4",
@@ -5731,7 +5723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-46731-6",
+      "code": "NACHC.F2.DE945",
       "display": "46731-6",
       "target": [ {
         "code": "46731-6",
@@ -5739,7 +5731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-46989-0",
+      "code": "NACHC.F2.DE946",
       "display": "46989-0",
       "target": [ {
         "code": "46989-0",
@@ -5747,7 +5739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-48030-1",
+      "code": "NACHC.F2.DE947",
       "display": "48030-1",
       "target": [ {
         "code": "48030-1",
@@ -5755,7 +5747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-48039-2",
+      "code": "NACHC.F2.DE948",
       "display": "48039-2",
       "target": [ {
         "code": "48039-2",
@@ -5763,7 +5755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-48781-9",
+      "code": "NACHC.F2.DE949",
       "display": "48781-9",
       "target": [ {
         "code": "48781-9",
@@ -5771,7 +5763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-49246-2",
+      "code": "NACHC.F2.DE950",
       "display": "49246-2",
       "target": [ {
         "code": "49246-2",
@@ -5779,7 +5771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-49318-9",
+      "code": "NACHC.F2.DE951",
       "display": "49318-9",
       "target": [ {
         "code": "49318-9",
@@ -5787,7 +5779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-55869-2",
+      "code": "NACHC.F2.DE952",
       "display": "55869-2",
       "target": [ {
         "code": "55869-2",
@@ -5795,7 +5787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-55870-0",
+      "code": "NACHC.F2.DE953",
       "display": "55870-0",
       "target": [ {
         "code": "55870-0",
@@ -5803,7 +5795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-56497-1",
+      "code": "NACHC.F2.DE954",
       "display": "56497-1",
       "target": [ {
         "code": "56497-1",
@@ -5811,7 +5803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-64088-8",
+      "code": "NACHC.F2.DE955",
       "display": "64088-8",
       "target": [ {
         "code": "64088-8",
@@ -5819,7 +5811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-64094-6",
+      "code": "NACHC.F2.DE956",
       "display": "64094-6",
       "target": [ {
         "code": "64094-6",
@@ -5827,7 +5819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-80384-1",
+      "code": "NACHC.F2.DE957",
       "display": "80384-1",
       "target": [ {
         "code": "80384-1",
@@ -5835,7 +5827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-80385-8",
+      "code": "NACHC.F2.DE958",
       "display": "80385-8",
       "target": [ {
         "code": "80385-8",
@@ -5843,7 +5835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Observations-83086-9",
+      "code": "NACHC.F2.DE959",
       "display": "83086-9",
       "target": [ {
         "code": "83086-9",

@@ -1,0 +1,98 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "NACHCH2",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCH2",
+  "name": "NACHCH2",
+  "title": "NACHC.H2 DAST 10",
+  "status": "active",
+  "experimental": false,
+  "description": "TODO: description goes here",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.H2",
+        "display": "DAST 10"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de1#Observation.value[x]",
+    "text": "DAST 10 Question 1",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de2"
+  }, {
+    "linkId": "2",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de3#Observation.value[x]",
+    "text": "DAST 10 Question 2",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de4"
+  }, {
+    "linkId": "3",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de5#Observation.value[x]",
+    "text": "DAST 10 Question 3",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de6"
+  }, {
+    "linkId": "4",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de7#Observation.value[x]",
+    "text": "DAST 10 Question 4",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de8"
+  }, {
+    "linkId": "5",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de9#Observation.value[x]",
+    "text": "DAST 10 Question 5",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de10"
+  }, {
+    "linkId": "6",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de11#Observation.value[x]",
+    "text": "DAST 10 Question 6",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de12"
+  }, {
+    "linkId": "7",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de13#Observation.value[x]",
+    "text": "DAST 10 Question 7",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de14"
+  }, {
+    "linkId": "8",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de15#Observation.value[x]",
+    "text": "DAST 10 Question 8",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de16"
+  }, {
+    "linkId": "9",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de17#Observation.value[x]",
+    "text": "DAST 10 Question 9",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de18"
+  }, {
+    "linkId": "10",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de19#Observation.value[x]",
+    "text": "DAST 10 Question 10",
+    "type": "boolean",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de20"
+  } ]
+}

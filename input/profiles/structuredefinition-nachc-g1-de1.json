@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-g1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g1-de1",
-  "name": "Post Exposure Prophylaxis",
+  "name": "PostExposureProphylaxis",
   "title": "Post Exposure Prophylaxis",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Post Exposure Prophylaxis",
       "comment": "PEP mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
@@ -49,7 +49,7 @@
           "valueString": "Post Exposure Prophylaxis Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/post-exposure-prophylaxis-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de2"
       },
       "mapping": [ {
         "identity": "HIV",

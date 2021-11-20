@@ -11,1130 +11,1291 @@
     "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
     "target": "http://www.nlm.nih.gov/research/umls/rxnorm",
     "element": [ {
-      "code": "PEP Medication Prescriptions-1359268",
+      "code": "NACHC.G1.DE6",
       "display": "1359268",
       "target": [ {
         "code": "1359268",
+        "display": "darunavir 800 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1359270",
+      "code": "NACHC.G1.DE7",
       "display": "1359270",
       "target": [ {
         "code": "1359270",
+        "display": "darunavir 800 MG [Prezista]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1359269",
+      "code": "NACHC.G1.DE8",
       "display": "1359269",
       "target": [ {
         "code": "1359269",
+        "display": "darunavir 800 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1359271",
+      "code": "NACHC.G1.DE9",
       "display": "1359271",
       "target": [ {
         "code": "1359271",
+        "display": "darunavir 800 MG Oral Tablet [Prezista]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433869",
+      "code": "NACHC.G1.DE10",
       "display": "1433869",
       "target": [ {
         "code": "1433869",
+        "display": "dolutegravir 50 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-2122522",
+      "code": "NACHC.G1.DE11",
       "display": "2122522",
       "target": [ {
         "code": "2122522",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-2122519",
+      "code": "NACHC.G1.DE12",
       "display": "2122519",
       "target": [ {
         "code": "2122519",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-2122526",
+      "code": "NACHC.G1.DE13",
       "display": "2122526",
       "target": [ {
         "code": "2122526",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433875",
+      "code": "NACHC.G1.DE14",
       "display": "1433875",
       "target": [ {
         "code": "1433875",
+        "display": "dolutegravir 50 MG [Tivicay]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433873",
+      "code": "NACHC.G1.DE15",
       "display": "1433873",
       "target": [ {
         "code": "1433873",
+        "display": "dolutegravir 50 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433879",
+      "code": "NACHC.G1.DE16",
       "display": "1433879",
       "target": [ {
         "code": "1433879",
+        "display": "dolutegravir 50 MG Oral Tablet [Tivicay]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-317359",
+      "code": "NACHC.G1.DE17",
       "display": "317359",
       "target": [ {
         "code": "317359",
+        "display": "efavirenz 200 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-573284",
+      "code": "NACHC.G1.DE18",
       "display": "573284",
       "target": [ {
         "code": "573284",
+        "display": "efavirenz 200 MG [Sustiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-205290",
+      "code": "NACHC.G1.DE19",
       "display": "205290",
       "target": [ {
         "code": "205290",
+        "display": "efavirenz 200 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-213390",
+      "code": "NACHC.G1.DE20",
       "display": "213390",
       "target": [ {
         "code": "213390",
+        "display": "efavirenz 200 MG Oral Capsule [Sustiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1088481",
+      "code": "NACHC.G1.DE21",
       "display": "1088481",
       "target": [ {
         "code": "1088481",
+        "display": "efavirenz 200 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-315853",
+      "code": "NACHC.G1.DE22",
       "display": "315853",
       "target": [ {
         "code": "315853",
+        "display": "efavirenz 50 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-573286",
+      "code": "NACHC.G1.DE23",
       "display": "573286",
       "target": [ {
         "code": "573286",
+        "display": "efavirenz 50 MG [Sustiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-205292",
+      "code": "NACHC.G1.DE24",
       "display": "205292",
       "target": [ {
         "code": "205292",
+        "display": "efavirenz 50 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-213392",
+      "code": "NACHC.G1.DE25",
       "display": "213392",
       "target": [ {
         "code": "213392",
+        "display": "efavirenz 50 MG Oral Capsule [Sustiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-350652",
+      "code": "NACHC.G1.DE26",
       "display": "350652",
       "target": [ {
         "code": "350652",
+        "display": "efavirenz 600 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-643068",
+      "code": "NACHC.G1.DE27",
       "display": "643068",
       "target": [ {
         "code": "643068",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-643066",
+      "code": "NACHC.G1.DE28",
       "display": "643066",
       "target": [ {
         "code": "643066",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-643070",
+      "code": "NACHC.G1.DE29",
       "display": "643070",
       "target": [ {
         "code": "643070",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-575878",
+      "code": "NACHC.G1.DE30",
       "display": "575878",
       "target": [ {
         "code": "575878",
+        "display": "efavirenz 600 MG [Sustiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-349477",
+      "code": "NACHC.G1.DE31",
       "display": "349477",
       "target": [ {
         "code": "349477",
+        "display": "efavirenz 600 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-352143",
+      "code": "NACHC.G1.DE32",
       "display": "352143",
       "target": [ {
         "code": "352143",
+        "display": "efavirenz 600 MG Oral Tablet [Sustiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-639887",
+      "code": "NACHC.G1.DE33",
       "display": "639887",
       "target": [ {
         "code": "639887",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-476556",
+      "code": "NACHC.G1.DE34",
       "display": "476556",
       "target": [ {
         "code": "476556",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-639888",
+      "code": "NACHC.G1.DE35",
       "display": "639888",
       "target": [ {
         "code": "639888",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-139896",
+      "code": "NACHC.G1.DE36",
       "display": "139896",
       "target": [ {
         "code": "139896",
+        "display": "enfuvirtide",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1736574",
+      "code": "NACHC.G1.DE37",
       "display": "1736574",
       "target": [ {
         "code": "1736574",
+        "display": "enfuvirtide 90 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1736577",
+      "code": "NACHC.G1.DE38",
       "display": "1736577",
       "target": [ {
         "code": "1736577",
+        "display": "enfuvirtide 90 MG [Fuzeon]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-401981",
+      "code": "NACHC.G1.DE39",
       "display": "401981",
       "target": [ {
         "code": "401981",
+        "display": "enfuvirtide 90 MG Injection",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-404460",
+      "code": "NACHC.G1.DE40",
       "display": "404460",
       "target": [ {
         "code": "404460",
+        "display": "enfuvirtide 90 MG Injection [Fuzeon]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-402414",
+      "code": "NACHC.G1.DE41",
       "display": "402414",
       "target": [ {
         "code": "402414",
+        "display": "enfuvirtide 90 MG/ML",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-576416",
+      "code": "NACHC.G1.DE42",
       "display": "576416",
       "target": [ {
         "code": "576416",
+        "display": "enfuvirtide 90 MG/ML [Fuzeon]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1161890",
+      "code": "NACHC.G1.DE43",
       "display": "1161890",
       "target": [ {
         "code": "1161890",
+        "display": "enfuvirtide Injectable Product",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-402415",
+      "code": "NACHC.G1.DE44",
       "display": "402415",
       "target": [ {
         "code": "402415",
+        "display": "enfuvirtide Injectable Solution",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-406055",
+      "code": "NACHC.G1.DE45",
       "display": "406055",
       "target": [ {
         "code": "406055",
+        "display": "enfuvirtide Injectable Solution [Fuzeon]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1736575",
+      "code": "NACHC.G1.DE46",
       "display": "1736575",
       "target": [ {
         "code": "1736575",
+        "display": "enfuvirtide Injection",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1736578",
+      "code": "NACHC.G1.DE47",
       "display": "1736578",
       "target": [ {
         "code": "1736578",
+        "display": "enfuvirtide Injection [Fuzeon]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-402364",
+      "code": "NACHC.G1.DE48",
       "display": "402364",
       "target": [ {
         "code": "402364",
+        "display": "fosamprenavir 700 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-576110",
+      "code": "NACHC.G1.DE49",
       "display": "576110",
       "target": [ {
         "code": "576110",
+        "display": "fosamprenavir 700 MG [Lexiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-402109",
+      "code": "NACHC.G1.DE50",
       "display": "402109",
       "target": [ {
         "code": "402109",
+        "display": "fosamprenavir 700 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-402110",
+      "code": "NACHC.G1.DE51",
       "display": "402110",
       "target": [ {
         "code": "402110",
+        "display": "fosamprenavir 700 MG Oral Tablet [Lexiva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-728221",
+      "code": "NACHC.G1.DE52",
       "display": "728221",
       "target": [ {
         "code": "728221",
+        "display": "maraviroc 150 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-729199",
+      "code": "NACHC.G1.DE53",
       "display": "729199",
       "target": [ {
         "code": "729199",
+        "display": "maraviroc 150 MG [Selzentry]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-728223",
+      "code": "NACHC.G1.DE54",
       "display": "728223",
       "target": [ {
         "code": "728223",
+        "display": "maraviroc 150 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-729201",
+      "code": "NACHC.G1.DE55",
       "display": "729201",
       "target": [ {
         "code": "729201",
+        "display": "maraviroc 150 MG Oral Tablet [Selzentry]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-728224",
+      "code": "NACHC.G1.DE56",
       "display": "728224",
       "target": [ {
         "code": "728224",
+        "display": "maraviroc 300 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-729202",
+      "code": "NACHC.G1.DE57",
       "display": "729202",
       "target": [ {
         "code": "729202",
+        "display": "maraviroc 300 MG [Selzentry]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-728225",
+      "code": "NACHC.G1.DE58",
       "display": "728225",
       "target": [ {
         "code": "728225",
+        "display": "maraviroc 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-729203",
+      "code": "NACHC.G1.DE59",
       "display": "729203",
       "target": [ {
         "code": "729203",
+        "display": "maraviroc 300 MG Oral Tablet [Selzentry]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744840",
+      "code": "NACHC.G1.DE60",
       "display": "744840",
       "target": [ {
         "code": "744840",
+        "display": "raltegravir 400 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744844",
+      "code": "NACHC.G1.DE61",
       "display": "744844",
       "target": [ {
         "code": "744844",
+        "display": "raltegravir 400 MG [Isentress]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744842",
+      "code": "NACHC.G1.DE62",
       "display": "744842",
       "target": [ {
         "code": "744842",
+        "display": "raltegravir 400 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744846",
+      "code": "NACHC.G1.DE63",
       "display": "744846",
       "target": [ {
         "code": "744846",
+        "display": "raltegravir 400 MG Oral Tablet [Isentress]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1924312",
+      "code": "NACHC.G1.DE64",
       "display": "1924312",
       "target": [ {
         "code": "1924312",
+        "display": "raltegravir 600 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1924314",
+      "code": "NACHC.G1.DE65",
       "display": "1924314",
       "target": [ {
         "code": "1924314",
+        "display": "raltegravir 600 MG [Isentress]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1924313",
+      "code": "NACHC.G1.DE66",
       "display": "1924313",
       "target": [ {
         "code": "1924313",
+        "display": "raltegravir 600 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1924315",
+      "code": "NACHC.G1.DE67",
       "display": "1924315",
       "target": [ {
         "code": "1924315",
+        "display": "raltegravir 600 MG Oral Tablet [Isentress]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-317488",
+      "code": "NACHC.G1.DE68",
       "display": "317488",
       "target": [ {
         "code": "317488",
+        "display": "ritonavir 100 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-565134",
+      "code": "NACHC.G1.DE69",
       "display": "565134",
       "target": [ {
         "code": "565134",
+        "display": "ritonavir 100 MG [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-317150",
+      "code": "NACHC.G1.DE70",
       "display": "317150",
       "target": [ {
         "code": "317150",
+        "display": "ritonavir 100 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-152970",
+      "code": "NACHC.G1.DE71",
       "display": "152970",
       "target": [ {
         "code": "152970",
+        "display": "ritonavir 100 MG Oral Capsule [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1926066",
+      "code": "NACHC.G1.DE72",
       "display": "1926066",
       "target": [ {
         "code": "1926066",
+        "display": "ritonavir 100 MG Oral Powder",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1926069",
+      "code": "NACHC.G1.DE73",
       "display": "1926069",
       "target": [ {
         "code": "1926069",
+        "display": "ritonavir 100 MG Oral Powder [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-900575",
+      "code": "NACHC.G1.DE74",
       "display": "900575",
       "target": [ {
         "code": "900575",
+        "display": "ritonavir 100 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-900577",
+      "code": "NACHC.G1.DE75",
       "display": "900577",
       "target": [ {
         "code": "900577",
+        "display": "ritonavir 100 MG Oral Tablet [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-859862",
+      "code": "NACHC.G1.DE76",
       "display": "859862",
       "target": [ {
         "code": "859862",
+        "display": "saquinavir mesylate 500 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-859864",
+      "code": "NACHC.G1.DE77",
       "display": "859864",
       "target": [ {
         "code": "859864",
+        "display": "saquinavir mesylate 500 MG [Invirase]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-859863",
+      "code": "NACHC.G1.DE78",
       "display": "859863",
       "target": [ {
         "code": "859863",
+        "display": "saquinavir mesylate 500 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-859865",
+      "code": "NACHC.G1.DE79",
       "display": "859865",
       "target": [ {
         "code": "859865",
+        "display": "saquinavir mesylate 500 MG Oral Tablet [Invirase]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-328624",
+      "code": "NACHC.G1.DE80",
       "display": "328624",
       "target": [ {
         "code": "328624",
+        "display": "stavudine 15 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-565117",
+      "code": "NACHC.G1.DE81",
       "display": "565117",
       "target": [ {
         "code": "565117",
+        "display": "stavudine 15 MG [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-313107",
+      "code": "NACHC.G1.DE82",
       "display": "313107",
       "target": [ {
         "code": "313107",
+        "display": "stavudine 15 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-152941",
+      "code": "NACHC.G1.DE83",
       "display": "152941",
       "target": [ {
         "code": "152941",
+        "display": "stavudine 15 MG Oral Capsule [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-328625",
+      "code": "NACHC.G1.DE84",
       "display": "328625",
       "target": [ {
         "code": "328625",
+        "display": "stavudine 20 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-565118",
+      "code": "NACHC.G1.DE85",
       "display": "565118",
       "target": [ {
         "code": "565118",
+        "display": "stavudine 20 MG [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-313108",
+      "code": "NACHC.G1.DE86",
       "display": "313108",
       "target": [ {
         "code": "313108",
+        "display": "stavudine 20 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-152942",
+      "code": "NACHC.G1.DE87",
       "display": "152942",
       "target": [ {
         "code": "152942",
+        "display": "stavudine 20 MG Oral Capsule [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-328627",
+      "code": "NACHC.G1.DE88",
       "display": "328627",
       "target": [ {
         "code": "328627",
+        "display": "stavudine 30 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-565119",
+      "code": "NACHC.G1.DE89",
       "display": "565119",
       "target": [ {
         "code": "565119",
+        "display": "stavudine 30 MG [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-313109",
+      "code": "NACHC.G1.DE90",
       "display": "313109",
       "target": [ {
         "code": "313109",
+        "display": "stavudine 30 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-152943",
+      "code": "NACHC.G1.DE91",
       "display": "152943",
       "target": [ {
         "code": "152943",
+        "display": "stavudine 30 MG Oral Capsule [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-330498",
+      "code": "NACHC.G1.DE92",
       "display": "330498",
       "target": [ {
         "code": "330498",
+        "display": "stavudine 40 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-565120",
+      "code": "NACHC.G1.DE93",
       "display": "565120",
       "target": [ {
         "code": "565120",
+        "display": "stavudine 40 MG [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-313110",
+      "code": "NACHC.G1.DE94",
       "display": "313110",
       "target": [ {
         "code": "313110",
+        "display": "stavudine 40 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-152944",
+      "code": "NACHC.G1.DE95",
       "display": "152944",
       "target": [ {
         "code": "152944",
+        "display": "stavudine 40 MG Oral Capsule [Zerit]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-393334",
+      "code": "NACHC.G1.DE96",
       "display": "393334",
       "target": [ {
         "code": "393334",
+        "display": "tenofovir disoproxil fumarate 300 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-575802",
+      "code": "NACHC.G1.DE97",
       "display": "575802",
       "target": [ {
         "code": "575802",
+        "display": "tenofovir disoproxil fumarate 300 MG [Viread]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-349251",
+      "code": "NACHC.G1.DE98",
       "display": "349251",
       "target": [ {
         "code": "349251",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-352050",
+      "code": "NACHC.G1.DE99",
       "display": "352050",
       "target": [ {
         "code": "352050",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-664740",
+      "code": "NACHC.G1.DE100",
       "display": "664740",
       "target": [ {
         "code": "664740",
+        "display": "atazanavir 300 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-664742",
+      "code": "NACHC.G1.DE101",
       "display": "664742",
       "target": [ {
         "code": "664742",
+        "display": "atazanavir 300 MG [Reyataz]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-664741",
+      "code": "NACHC.G1.DE102",
       "display": "664741",
       "target": [ {
         "code": "664741",
+        "display": "atazanavir 300 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-664743",
+      "code": "NACHC.G1.DE103",
       "display": "664743",
       "target": [ {
         "code": "664743",
+        "display": "atazanavir 300 MG Oral Capsule [Reyataz]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1359268",
+      "code": "NACHC.G1.DE104",
       "display": "1359268",
       "target": [ {
         "code": "1359268",
+        "display": "darunavir 800 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1359270",
+      "code": "NACHC.G1.DE105",
       "display": "1359270",
       "target": [ {
         "code": "1359270",
+        "display": "darunavir 800 MG [Prezista]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1359269",
+      "code": "NACHC.G1.DE106",
       "display": "1359269",
       "target": [ {
         "code": "1359269",
+        "display": "darunavir 800 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1359271",
+      "code": "NACHC.G1.DE107",
       "display": "1359271",
       "target": [ {
         "code": "1359271",
+        "display": "darunavir 800 MG Oral Tablet [Prezista]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433869",
+      "code": "NACHC.G1.DE108",
       "display": "1433869",
       "target": [ {
         "code": "1433869",
+        "display": "dolutegravir 50 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-2122522",
+      "code": "NACHC.G1.DE109",
       "display": "2122522",
       "target": [ {
         "code": "2122522",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-2122519",
+      "code": "NACHC.G1.DE110",
       "display": "2122519",
       "target": [ {
         "code": "2122519",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-2122526",
+      "code": "NACHC.G1.DE111",
       "display": "2122526",
       "target": [ {
         "code": "2122526",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433875",
+      "code": "NACHC.G1.DE112",
       "display": "1433875",
       "target": [ {
         "code": "1433875",
+        "display": "dolutegravir 50 MG [Tivicay]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433873",
+      "code": "NACHC.G1.DE113",
       "display": "1433873",
       "target": [ {
         "code": "1433873",
+        "display": "dolutegravir 50 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1433879",
+      "code": "NACHC.G1.DE114",
       "display": "1433879",
       "target": [ {
         "code": "1433879",
+        "display": "dolutegravir 50 MG Oral Tablet [Tivicay]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-368309",
+      "code": "NACHC.G1.DE115",
       "display": "368309",
       "target": [ {
         "code": "368309",
+        "display": "lamivudine / zidovudine Oral Tablet [Combivir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-573017",
+      "code": "NACHC.G1.DE116",
       "display": "573017",
       "target": [ {
         "code": "573017",
+        "display": "lamivudine 150 MG / zidovudine 300 MG [Combivir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-200082",
+      "code": "NACHC.G1.DE117",
       "display": "200082",
       "target": [ {
         "code": "200082",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-213088",
+      "code": "NACHC.G1.DE118",
       "display": "213088",
       "target": [ {
         "code": "213088",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-350655",
+      "code": "NACHC.G1.DE119",
       "display": "350655",
       "target": [ {
         "code": "350655",
+        "display": "lamivudine 300 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-575950",
+      "code": "NACHC.G1.DE120",
       "display": "575950",
       "target": [ {
         "code": "575950",
+        "display": "lamivudine 300 MG [Epivir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-349491",
+      "code": "NACHC.G1.DE121",
       "display": "349491",
       "target": [ {
         "code": "349491",
+        "display": "lamivudine 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-352230",
+      "code": "NACHC.G1.DE122",
       "display": "352230",
       "target": [ {
         "code": "352230",
+        "display": "lamivudine 300 MG Oral Tablet [Epivir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744840",
+      "code": "NACHC.G1.DE123",
       "display": "744840",
       "target": [ {
         "code": "744840",
+        "display": "raltegravir 400 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744844",
+      "code": "NACHC.G1.DE124",
       "display": "744844",
       "target": [ {
         "code": "744844",
+        "display": "raltegravir 400 MG [Isentress]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744842",
+      "code": "NACHC.G1.DE125",
       "display": "744842",
       "target": [ {
         "code": "744842",
+        "display": "raltegravir 400 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-744846",
+      "code": "NACHC.G1.DE126",
       "display": "744846",
       "target": [ {
         "code": "744846",
+        "display": "raltegravir 400 MG Oral Tablet [Isentress]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-317488",
+      "code": "NACHC.G1.DE127",
       "display": "317488",
       "target": [ {
         "code": "317488",
+        "display": "ritonavir 100 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-565134",
+      "code": "NACHC.G1.DE128",
       "display": "565134",
       "target": [ {
         "code": "565134",
+        "display": "ritonavir 100 MG [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-317150",
+      "code": "NACHC.G1.DE129",
       "display": "317150",
       "target": [ {
         "code": "317150",
+        "display": "ritonavir 100 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-152970",
+      "code": "NACHC.G1.DE130",
       "display": "152970",
       "target": [ {
         "code": "152970",
+        "display": "ritonavir 100 MG Oral Capsule [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1926066",
+      "code": "NACHC.G1.DE131",
       "display": "1926066",
       "target": [ {
         "code": "1926066",
+        "display": "ritonavir 100 MG Oral Powder",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-1926069",
+      "code": "NACHC.G1.DE132",
       "display": "1926069",
       "target": [ {
         "code": "1926069",
+        "display": "ritonavir 100 MG Oral Powder [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-900575",
+      "code": "NACHC.G1.DE133",
       "display": "900575",
       "target": [ {
         "code": "900575",
+        "display": "ritonavir 100 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-900577",
+      "code": "NACHC.G1.DE134",
       "display": "900577",
       "target": [ {
         "code": "900577",
+        "display": "ritonavir 100 MG Oral Tablet [Norvir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-316915",
+      "code": "NACHC.G1.DE135",
       "display": "316915",
       "target": [ {
         "code": "316915",
+        "display": "zidovudine 100 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-566052",
+      "code": "NACHC.G1.DE136",
       "display": "566052",
       "target": [ {
         "code": "566052",
+        "display": "zidovudine 100 MG [Retrovir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-198352",
+      "code": "NACHC.G1.DE137",
       "display": "198352",
       "target": [ {
         "code": "198352",
+        "display": "zidovudine 100 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-201907",
+      "code": "NACHC.G1.DE138",
       "display": "201907",
       "target": [ {
         "code": "201907",
+        "display": "zidovudine 100 MG Oral Capsule [Retrovir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-316916",
+      "code": "NACHC.G1.DE139",
       "display": "316916",
       "target": [ {
         "code": "316916",
+        "display": "zidovudine 300 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-565059",
+      "code": "NACHC.G1.DE140",
       "display": "565059",
       "target": [ {
         "code": "565059",
+        "display": "zidovudine 300 MG [Retrovir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-199663",
+      "code": "NACHC.G1.DE141",
       "display": "199663",
       "target": [ {
         "code": "199663",
+        "display": "zidovudine 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "PEP Medication Prescriptions-152772",
+      "code": "NACHC.G1.DE142",
       "display": "152772",
       "target": [ {
         "code": "152772",
+        "display": "zidovudine 300 MG Oral Tablet [Retrovir]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-403875",
+      "code": "NACHC.G2.DE2",
       "display": "403875",
       "target": [ {
         "code": "403875",
+        "display": "emtricitabine 200 MG Oral Capsule",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-404587",
+      "code": "NACHC.G2.DE3",
       "display": "404587",
       "target": [ {
         "code": "404587",
+        "display": "emtricitabine 200 MG Oral Capsule [Emtriva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-406016",
+      "code": "NACHC.G2.DE4",
       "display": "406016",
       "target": [ {
         "code": "406016",
+        "display": "emtricitabine 200 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-576513",
+      "code": "NACHC.G2.DE5",
       "display": "576513",
       "target": [ {
         "code": "576513",
+        "display": "emtricitabine 200 MG [Emtriva]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-639883",
+      "code": "NACHC.G2.DE6",
       "display": "639883",
       "target": [ {
         "code": "639883",
+        "display": "emtricitabine 200 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1727491",
+      "code": "NACHC.G2.DE7",
       "display": "1727491",
       "target": [ {
         "code": "1727491",
+        "display": "emtricitabine / tenofovir alafenamide",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1747688",
+      "code": "NACHC.G2.DE8",
       "display": "1747688",
       "target": [ {
         "code": "1747688",
+        "display": "emtricitabine / tenofovir alafenamide Oral Product",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1747689",
+      "code": "NACHC.G2.DE9",
       "display": "1747689",
       "target": [ {
         "code": "1747689",
+        "display": "emtricitabine / tenofovir alafenamide Pill",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1747690",
+      "code": "NACHC.G2.DE10",
       "display": "1747690",
       "target": [ {
         "code": "1747690",
+        "display": "emtricitabine / tenofovir alafenamide Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1747691",
+      "code": "NACHC.G2.DE11",
       "display": "1747691",
       "target": [ {
         "code": "1747691",
+        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1747693",
+      "code": "NACHC.G2.DE12",
       "display": "1747693",
       "target": [ {
         "code": "1747693",
+        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1747694",
+      "code": "NACHC.G2.DE13",
       "display": "1747694",
       "target": [ {
         "code": "1747694",
+        "display": "emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1747697",
+      "code": "NACHC.G2.DE14",
       "display": "1747697",
       "target": [ {
         "code": "1747697",
+        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-476556",
+      "code": "NACHC.G2.DE15",
       "display": "476556",
       "target": [ {
         "code": "476556",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-639887",
+      "code": "NACHC.G2.DE16",
       "display": "639887",
       "target": [ {
         "code": "639887",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-639888",
+      "code": "NACHC.G2.DE17",
       "display": "639888",
       "target": [ {
         "code": "639888",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1741729",
+      "code": "NACHC.G2.DE18",
       "display": "1741729",
       "target": [ {
         "code": "1741729",
+        "display": "tenofovir alafenamide 25 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1858261",
+      "code": "NACHC.G2.DE19",
       "display": "1858261",
       "target": [ {
         "code": "1858261",
+        "display": "tenofovir alafenamide 25 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1858263",
+      "code": "NACHC.G2.DE20",
       "display": "1858263",
       "target": [ {
         "code": "1858263",
+        "display": "tenofovir alafenamide 25 MG [Vemlidy]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-1858267",
+      "code": "NACHC.G2.DE21",
       "display": "1858267",
       "target": [ {
         "code": "1858267",
+        "display": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-349251",
+      "code": "NACHC.G2.DE22",
       "display": "349251",
       "target": [ {
         "code": "349251",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-352050",
+      "code": "NACHC.G2.DE23",
       "display": "352050",
       "target": [ {
         "code": "352050",
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-393334",
+      "code": "NACHC.G2.DE24",
       "display": "393334",
       "target": [ {
         "code": "393334",
+        "display": "tenofovir disoproxil fumarate 300 MG",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Prep Medication Prescriptions-575802",
+      "code": "NACHC.G2.DE25",
       "display": "575802",
       "target": [ {
         "code": "575802",
+        "display": "tenofovir disoproxil fumarate 300 MG [Viread]",
         "equivalence": "equivalent"
       } ]
     } ]

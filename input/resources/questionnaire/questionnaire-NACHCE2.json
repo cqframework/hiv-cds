@@ -1,0 +1,44 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "NACHCE2",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCE2",
+  "name": "NACHCE2",
+  "title": "NACHC.E2 Chlamydia test",
+  "status": "active",
+  "experimental": false,
+  "description": "TODO: description goes here",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.E2",
+        "display": "Chlamydia test"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-e2-de1#Observation.value[x]",
+    "text": "Chlamydia Test",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1-choices-grouper"
+  } ]
+}

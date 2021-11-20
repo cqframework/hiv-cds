@@ -11,7 +11,7 @@
     "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
     "target": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
     "element": [ {
-      "code": "Hepatitis C Test-86038",
+      "code": "NACHC.B2.DE103",
       "display": "86038",
       "target": [ {
         "code": "86038",
@@ -19,7 +19,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-86803",
+      "code": "NACHC.B2.DE104",
       "display": "86803",
       "target": [ {
         "code": "86803",
@@ -27,7 +27,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-86804",
+      "code": "NACHC.B2.DE105",
       "display": "86804",
       "target": [ {
         "code": "86804",
@@ -35,7 +35,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87520",
+      "code": "NACHC.B2.DE106",
       "display": "87520",
       "target": [ {
         "code": "87520",
@@ -43,7 +43,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87521",
+      "code": "NACHC.B2.DE107",
       "display": "87521",
       "target": [ {
         "code": "87521",
@@ -51,7 +51,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87522",
+      "code": "NACHC.B2.DE108",
       "display": "87522",
       "target": [ {
         "code": "87522",
@@ -59,7 +59,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87902",
+      "code": "NACHC.B2.DE109",
       "display": "87902",
       "target": [ {
         "code": "87902",
@@ -67,7 +67,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-G0472",
+      "code": "NACHC.B2.DE111",
       "display": "G0472",
       "target": [ {
         "code": "G0472",
@@ -75,7 +75,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3218F",
+      "code": "NACHC.B2.DE113",
       "display": "3218F",
       "target": [ {
         "code": "3218F",
@@ -83,7 +83,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3220F",
+      "code": "NACHC.B2.DE114",
       "display": "3220F",
       "target": [ {
         "code": "3220F",
@@ -91,7 +91,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3265F",
+      "code": "NACHC.B2.DE115",
       "display": "3265F",
       "target": [ {
         "code": "3265F",
@@ -99,7 +99,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3266F",
+      "code": "NACHC.B2.DE116",
       "display": "3266F",
       "target": [ {
         "code": "3266F",
@@ -107,7 +107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3514F",
+      "code": "NACHC.B2.DE117",
       "display": "3514F",
       "target": [ {
         "code": "3514F",
@@ -115,7 +115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-4150F",
+      "code": "NACHC.B2.DE118",
       "display": "4150F",
       "target": [ {
         "code": "4150F",
@@ -123,7 +123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-36415",
+      "code": "NACHC.B2.DE119",
       "display": "36415",
       "target": [ {
         "code": "36415",
@@ -131,7 +131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-81596",
+      "code": "NACHC.B2.DE120",
       "display": "81596",
       "target": [ {
         "code": "81596",

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g1-de1",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de1",
+  "name": "PostExposureProphylaxis",
+  "title": "Post Exposure Prophylaxis",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Post Exposure Prophylaxis element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Post Exposure Prophylaxis",
+        "display": "Post Exposure Prophylaxis"
+      } ]
+    } ]
+  }
+}

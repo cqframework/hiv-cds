@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-f2-de1131",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1131",
+  "name": "PregnancyConditions",
+  "title": "Pregnancy Conditions",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Pregnancy Conditions element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pregnancy Conditions",
+        "display": "Pregnancy Conditions"
+      } ]
+    } ]
+  }
+}

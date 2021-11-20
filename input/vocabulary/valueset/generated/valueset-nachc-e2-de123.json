@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e2-de123",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de123",
+  "name": "ChlamydiaTrachomatisTestsFPARChoices",
+  "title": "Chlamydia Trachomatis Tests, FPAR Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Trachomatis Tests, FPAR Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.E2.DE123",
+        "display": "35729-3"
+      } ]
+    } ]
+  }
+}

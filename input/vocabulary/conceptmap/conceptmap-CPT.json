@@ -11,7 +11,7 @@
     "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
     "target": "http://www.ama-assn.org/go/cpt",
     "element": [ {
-      "code": "Patient Encounter-99202",
+      "code": "NACHC.A0.DE2",
       "display": "99202",
       "target": [ {
         "code": "99202",
@@ -19,7 +19,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99203",
+      "code": "NACHC.A0.DE3",
       "display": "99203",
       "target": [ {
         "code": "99203",
@@ -27,7 +27,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99204",
+      "code": "NACHC.A0.DE4",
       "display": "99204",
       "target": [ {
         "code": "99204",
@@ -35,7 +35,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99205",
+      "code": "NACHC.A0.DE5",
       "display": "99205",
       "target": [ {
         "code": "99205",
@@ -43,7 +43,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99212",
+      "code": "NACHC.A0.DE6",
       "display": "99212",
       "target": [ {
         "code": "99212",
@@ -51,7 +51,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99213",
+      "code": "NACHC.A0.DE7",
       "display": "99213",
       "target": [ {
         "code": "99213",
@@ -59,7 +59,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99214",
+      "code": "NACHC.A0.DE8",
       "display": "99214",
       "target": [ {
         "code": "99214",
@@ -67,7 +67,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99215",
+      "code": "NACHC.A0.DE9",
       "display": "99215",
       "target": [ {
         "code": "99215",
@@ -75,7 +75,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99218",
+      "code": "NACHC.A0.DE10",
       "display": "99218",
       "target": [ {
         "code": "99218",
@@ -83,7 +83,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99219",
+      "code": "NACHC.A0.DE11",
       "display": "99219",
       "target": [ {
         "code": "99219",
@@ -91,7 +91,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99220",
+      "code": "NACHC.A0.DE12",
       "display": "99220",
       "target": [ {
         "code": "99220",
@@ -99,7 +99,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99221",
+      "code": "NACHC.A0.DE13",
       "display": "99221",
       "target": [ {
         "code": "99221",
@@ -107,7 +107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99222",
+      "code": "NACHC.A0.DE14",
       "display": "99222",
       "target": [ {
         "code": "99222",
@@ -115,7 +115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99223",
+      "code": "NACHC.A0.DE15",
       "display": "99223",
       "target": [ {
         "code": "99223",
@@ -123,7 +123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99231",
+      "code": "NACHC.A0.DE16",
       "display": "99231",
       "target": [ {
         "code": "99231",
@@ -131,7 +131,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99232",
+      "code": "NACHC.A0.DE17",
       "display": "99232",
       "target": [ {
         "code": "99232",
@@ -139,7 +139,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99233",
+      "code": "NACHC.A0.DE18",
       "display": "99233",
       "target": [ {
         "code": "99233",
@@ -147,7 +147,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99234",
+      "code": "NACHC.A0.DE19",
       "display": "99234",
       "target": [ {
         "code": "99234",
@@ -155,7 +155,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99235",
+      "code": "NACHC.A0.DE20",
       "display": "99235",
       "target": [ {
         "code": "99235",
@@ -163,7 +163,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99236",
+      "code": "NACHC.A0.DE21",
       "display": "99236",
       "target": [ {
         "code": "99236",
@@ -171,7 +171,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99291",
+      "code": "NACHC.A0.DE22",
       "display": "99291",
       "target": [ {
         "code": "99291",
@@ -179,7 +179,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99304",
+      "code": "NACHC.A0.DE23",
       "display": "99304",
       "target": [ {
         "code": "99304",
@@ -187,7 +187,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99305",
+      "code": "NACHC.A0.DE24",
       "display": "99305",
       "target": [ {
         "code": "99305",
@@ -195,7 +195,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99306",
+      "code": "NACHC.A0.DE25",
       "display": "99306",
       "target": [ {
         "code": "99306",
@@ -203,7 +203,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99307",
+      "code": "NACHC.A0.DE26",
       "display": "99307",
       "target": [ {
         "code": "99307",
@@ -211,7 +211,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99308",
+      "code": "NACHC.A0.DE27",
       "display": "99308",
       "target": [ {
         "code": "99308",
@@ -219,7 +219,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99309",
+      "code": "NACHC.A0.DE28",
       "display": "99309",
       "target": [ {
         "code": "99309",
@@ -227,7 +227,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99310",
+      "code": "NACHC.A0.DE29",
       "display": "99310",
       "target": [ {
         "code": "99310",
@@ -235,7 +235,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99324",
+      "code": "NACHC.A0.DE30",
       "display": "99324",
       "target": [ {
         "code": "99324",
@@ -243,7 +243,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99325",
+      "code": "NACHC.A0.DE31",
       "display": "99325",
       "target": [ {
         "code": "99325",
@@ -251,7 +251,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99326",
+      "code": "NACHC.A0.DE32",
       "display": "99326",
       "target": [ {
         "code": "99326",
@@ -259,7 +259,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99327",
+      "code": "NACHC.A0.DE33",
       "display": "99327",
       "target": [ {
         "code": "99327",
@@ -267,7 +267,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99328",
+      "code": "NACHC.A0.DE34",
       "display": "99328",
       "target": [ {
         "code": "99328",
@@ -275,7 +275,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99334",
+      "code": "NACHC.A0.DE35",
       "display": "99334",
       "target": [ {
         "code": "99334",
@@ -283,7 +283,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99335",
+      "code": "NACHC.A0.DE36",
       "display": "99335",
       "target": [ {
         "code": "99335",
@@ -291,7 +291,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99336",
+      "code": "NACHC.A0.DE37",
       "display": "99336",
       "target": [ {
         "code": "99336",
@@ -299,7 +299,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99337",
+      "code": "NACHC.A0.DE38",
       "display": "99337",
       "target": [ {
         "code": "99337",
@@ -307,7 +307,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99341",
+      "code": "NACHC.A0.DE39",
       "display": "99341",
       "target": [ {
         "code": "99341",
@@ -315,7 +315,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99342",
+      "code": "NACHC.A0.DE40",
       "display": "99342",
       "target": [ {
         "code": "99342",
@@ -323,7 +323,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99343",
+      "code": "NACHC.A0.DE41",
       "display": "99343",
       "target": [ {
         "code": "99343",
@@ -331,7 +331,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99344",
+      "code": "NACHC.A0.DE42",
       "display": "99344",
       "target": [ {
         "code": "99344",
@@ -339,7 +339,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99345",
+      "code": "NACHC.A0.DE43",
       "display": "99345",
       "target": [ {
         "code": "99345",
@@ -347,7 +347,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99347",
+      "code": "NACHC.A0.DE44",
       "display": "99347",
       "target": [ {
         "code": "99347",
@@ -355,7 +355,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99348",
+      "code": "NACHC.A0.DE45",
       "display": "99348",
       "target": [ {
         "code": "99348",
@@ -363,7 +363,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99349",
+      "code": "NACHC.A0.DE46",
       "display": "99349",
       "target": [ {
         "code": "99349",
@@ -371,7 +371,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Patient Encounter-99350",
+      "code": "NACHC.A0.DE47",
       "display": "99350",
       "target": [ {
         "code": "99350",
@@ -379,7 +379,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-86038",
+      "code": "NACHC.B2.DE103",
       "display": "86038",
       "target": [ {
         "code": "86038",
@@ -387,7 +387,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-86803",
+      "code": "NACHC.B2.DE104",
       "display": "86803",
       "target": [ {
         "code": "86803",
@@ -395,7 +395,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-86804",
+      "code": "NACHC.B2.DE105",
       "display": "86804",
       "target": [ {
         "code": "86804",
@@ -403,7 +403,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87520",
+      "code": "NACHC.B2.DE106",
       "display": "87520",
       "target": [ {
         "code": "87520",
@@ -411,7 +411,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87521",
+      "code": "NACHC.B2.DE107",
       "display": "87521",
       "target": [ {
         "code": "87521",
@@ -419,7 +419,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87522",
+      "code": "NACHC.B2.DE108",
       "display": "87522",
       "target": [ {
         "code": "87522",
@@ -427,7 +427,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-87902",
+      "code": "NACHC.B2.DE109",
       "display": "87902",
       "target": [ {
         "code": "87902",
@@ -435,7 +435,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Test-1014274",
+      "code": "NACHC.B2.DE110",
       "display": "1014274",
       "target": [ {
         "code": "1014274",
@@ -443,7 +443,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3218F",
+      "code": "NACHC.B2.DE113",
       "display": "3218F",
       "target": [ {
         "code": "3218F",
@@ -451,7 +451,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3220F",
+      "code": "NACHC.B2.DE114",
       "display": "3220F",
       "target": [ {
         "code": "3220F",
@@ -459,7 +459,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3265F",
+      "code": "NACHC.B2.DE115",
       "display": "3265F",
       "target": [ {
         "code": "3265F",
@@ -467,7 +467,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3266F",
+      "code": "NACHC.B2.DE116",
       "display": "3266F",
       "target": [ {
         "code": "3266F",
@@ -475,7 +475,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-3514F",
+      "code": "NACHC.B2.DE117",
       "display": "3514F",
       "target": [ {
         "code": "3514F",
@@ -483,7 +483,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-4150F",
+      "code": "NACHC.B2.DE118",
       "display": "4150F",
       "target": [ {
         "code": "4150F",
@@ -491,7 +491,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-36415",
+      "code": "NACHC.B2.DE119",
       "display": "36415",
       "target": [ {
         "code": "36415",
@@ -499,7 +499,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Hepatitis C Procedures-81596",
+      "code": "NACHC.B2.DE120",
       "display": "81596",
       "target": [ {
         "code": "81596",
@@ -507,7 +507,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-57022",
+      "code": "NACHC.F2.DE673",
       "display": "57022",
       "target": [ {
         "code": "57022",
@@ -515,7 +515,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-58600",
+      "code": "NACHC.F2.DE674",
       "display": "58600",
       "target": [ {
         "code": "58600",
@@ -523,7 +523,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-58605",
+      "code": "NACHC.F2.DE675",
       "display": "58605",
       "target": [ {
         "code": "58605",
@@ -531,7 +531,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-58970",
+      "code": "NACHC.F2.DE676",
       "display": "58970",
       "target": [ {
         "code": "58970",
@@ -539,7 +539,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-58974",
+      "code": "NACHC.F2.DE677",
       "display": "58974",
       "target": [ {
         "code": "58974",
@@ -547,7 +547,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-58976",
+      "code": "NACHC.F2.DE678",
       "display": "58976",
       "target": [ {
         "code": "58976",
@@ -555,7 +555,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59000",
+      "code": "NACHC.F2.DE679",
       "display": "59000",
       "target": [ {
         "code": "59000",
@@ -563,7 +563,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59001",
+      "code": "NACHC.F2.DE680",
       "display": "59001",
       "target": [ {
         "code": "59001",
@@ -571,7 +571,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59012",
+      "code": "NACHC.F2.DE681",
       "display": "59012",
       "target": [ {
         "code": "59012",
@@ -579,7 +579,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59015",
+      "code": "NACHC.F2.DE682",
       "display": "59015",
       "target": [ {
         "code": "59015",
@@ -587,7 +587,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59020",
+      "code": "NACHC.F2.DE683",
       "display": "59020",
       "target": [ {
         "code": "59020",
@@ -595,7 +595,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59025",
+      "code": "NACHC.F2.DE684",
       "display": "59025",
       "target": [ {
         "code": "59025",
@@ -603,7 +603,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59030",
+      "code": "NACHC.F2.DE685",
       "display": "59030",
       "target": [ {
         "code": "59030",
@@ -611,7 +611,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59050",
+      "code": "NACHC.F2.DE686",
       "display": "59050",
       "target": [ {
         "code": "59050",
@@ -619,7 +619,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59051",
+      "code": "NACHC.F2.DE687",
       "display": "59051",
       "target": [ {
         "code": "59051",
@@ -627,7 +627,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59070",
+      "code": "NACHC.F2.DE688",
       "display": "59070",
       "target": [ {
         "code": "59070",
@@ -635,7 +635,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59072",
+      "code": "NACHC.F2.DE689",
       "display": "59072",
       "target": [ {
         "code": "59072",
@@ -643,7 +643,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59074",
+      "code": "NACHC.F2.DE690",
       "display": "59074",
       "target": [ {
         "code": "59074",
@@ -651,7 +651,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59076",
+      "code": "NACHC.F2.DE691",
       "display": "59076",
       "target": [ {
         "code": "59076",
@@ -659,7 +659,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59100",
+      "code": "NACHC.F2.DE692",
       "display": "59100",
       "target": [ {
         "code": "59100",
@@ -667,7 +667,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59120",
+      "code": "NACHC.F2.DE693",
       "display": "59120",
       "target": [ {
         "code": "59120",
@@ -675,7 +675,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59121",
+      "code": "NACHC.F2.DE694",
       "display": "59121",
       "target": [ {
         "code": "59121",
@@ -683,7 +683,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59130",
+      "code": "NACHC.F2.DE695",
       "display": "59130",
       "target": [ {
         "code": "59130",
@@ -691,7 +691,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59135",
+      "code": "NACHC.F2.DE696",
       "display": "59135",
       "target": [ {
         "code": "59135",
@@ -699,7 +699,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59136",
+      "code": "NACHC.F2.DE697",
       "display": "59136",
       "target": [ {
         "code": "59136",
@@ -707,7 +707,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59140",
+      "code": "NACHC.F2.DE698",
       "display": "59140",
       "target": [ {
         "code": "59140",
@@ -715,7 +715,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59150",
+      "code": "NACHC.F2.DE699",
       "display": "59150",
       "target": [ {
         "code": "59150",
@@ -723,7 +723,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59151",
+      "code": "NACHC.F2.DE700",
       "display": "59151",
       "target": [ {
         "code": "59151",
@@ -731,7 +731,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59160",
+      "code": "NACHC.F2.DE701",
       "display": "59160",
       "target": [ {
         "code": "59160",
@@ -739,7 +739,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59200",
+      "code": "NACHC.F2.DE702",
       "display": "59200",
       "target": [ {
         "code": "59200",
@@ -747,7 +747,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59300",
+      "code": "NACHC.F2.DE703",
       "display": "59300",
       "target": [ {
         "code": "59300",
@@ -755,7 +755,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59320",
+      "code": "NACHC.F2.DE704",
       "display": "59320",
       "target": [ {
         "code": "59320",
@@ -763,7 +763,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59325",
+      "code": "NACHC.F2.DE705",
       "display": "59325",
       "target": [ {
         "code": "59325",
@@ -771,7 +771,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59350",
+      "code": "NACHC.F2.DE706",
       "display": "59350",
       "target": [ {
         "code": "59350",
@@ -779,7 +779,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59412",
+      "code": "NACHC.F2.DE707",
       "display": "59412",
       "target": [ {
         "code": "59412",
@@ -787,7 +787,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59414",
+      "code": "NACHC.F2.DE708",
       "display": "59414",
       "target": [ {
         "code": "59414",
@@ -795,7 +795,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59430",
+      "code": "NACHC.F2.DE709",
       "display": "59430",
       "target": [ {
         "code": "59430",
@@ -803,7 +803,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59525",
+      "code": "NACHC.F2.DE710",
       "display": "59525",
       "target": [ {
         "code": "59525",
@@ -811,7 +811,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59812",
+      "code": "NACHC.F2.DE711",
       "display": "59812",
       "target": [ {
         "code": "59812",
@@ -819,7 +819,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59820",
+      "code": "NACHC.F2.DE712",
       "display": "59820",
       "target": [ {
         "code": "59820",
@@ -827,7 +827,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59821",
+      "code": "NACHC.F2.DE713",
       "display": "59821",
       "target": [ {
         "code": "59821",
@@ -835,7 +835,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59830",
+      "code": "NACHC.F2.DE714",
       "display": "59830",
       "target": [ {
         "code": "59830",
@@ -843,7 +843,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59840",
+      "code": "NACHC.F2.DE715",
       "display": "59840",
       "target": [ {
         "code": "59840",
@@ -851,7 +851,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59841",
+      "code": "NACHC.F2.DE716",
       "display": "59841",
       "target": [ {
         "code": "59841",
@@ -859,7 +859,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59850",
+      "code": "NACHC.F2.DE717",
       "display": "59850",
       "target": [ {
         "code": "59850",
@@ -867,7 +867,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59851",
+      "code": "NACHC.F2.DE718",
       "display": "59851",
       "target": [ {
         "code": "59851",
@@ -875,7 +875,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59852",
+      "code": "NACHC.F2.DE719",
       "display": "59852",
       "target": [ {
         "code": "59852",
@@ -883,7 +883,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59855",
+      "code": "NACHC.F2.DE720",
       "display": "59855",
       "target": [ {
         "code": "59855",
@@ -891,7 +891,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59856",
+      "code": "NACHC.F2.DE721",
       "display": "59856",
       "target": [ {
         "code": "59856",
@@ -899,7 +899,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59857",
+      "code": "NACHC.F2.DE722",
       "display": "59857",
       "target": [ {
         "code": "59857",
@@ -907,7 +907,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59866",
+      "code": "NACHC.F2.DE723",
       "display": "59866",
       "target": [ {
         "code": "59866",
@@ -915,7 +915,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59870",
+      "code": "NACHC.F2.DE724",
       "display": "59870",
       "target": [ {
         "code": "59870",
@@ -923,7 +923,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59871",
+      "code": "NACHC.F2.DE725",
       "display": "59871",
       "target": [ {
         "code": "59871",
@@ -931,7 +931,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59897",
+      "code": "NACHC.F2.DE726",
       "display": "59897",
       "target": [ {
         "code": "59897",
@@ -939,7 +939,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59898",
+      "code": "NACHC.F2.DE727",
       "display": "59898",
       "target": [ {
         "code": "59898",
@@ -947,7 +947,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "Pregnancy Procedures-59899",
+      "code": "NACHC.F2.DE728",
       "display": "59899",
       "target": [ {
         "code": "59899",

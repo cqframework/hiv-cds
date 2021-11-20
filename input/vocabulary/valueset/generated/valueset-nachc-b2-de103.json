@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-b2-de103",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de103",
+  "name": "HepatitisCTestChoices",
+  "title": "Hepatitis C Test Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C Test Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.B2.DE103",
+        "display": "86038"
+      }, {
+        "code": "NACHC.B2.DE104",
+        "display": "86803"
+      }, {
+        "code": "NACHC.B2.DE105",
+        "display": "86804"
+      }, {
+        "code": "NACHC.B2.DE106",
+        "display": "87520"
+      }, {
+        "code": "NACHC.B2.DE107",
+        "display": "87521"
+      }, {
+        "code": "NACHC.B2.DE108",
+        "display": "87522"
+      }, {
+        "code": "NACHC.B2.DE109",
+        "display": "87902"
+      }, {
+        "code": "NACHC.B2.DE110",
+        "display": "1014274"
+      }, {
+        "code": "NACHC.B2.DE111",
+        "display": "G0472"
+      } ]
+    } ]
+  }
+}

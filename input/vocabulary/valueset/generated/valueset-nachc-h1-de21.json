@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de21",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de21",
+  "name": "SexualActivityExchangedforSex",
+  "title": "Sexual Activity - Exchanged for Sex",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity - Exchanged for Sex element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE21",
+        "display": "Sexual Activity - Exchanged for Sex"
+      } ]
+    } ]
+  }
+}

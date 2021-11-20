@@ -1,0 +1,28 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "nachc-g2-de1-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g2-de1" ]
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.G2.DE25",
+      "display": "575802"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "575802",
+      "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "requester": {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  }
+}

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-g1-de143",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g1-de143",
-  "name": "PEP Dispensed Medications",
+  "name": "PEPDispensedMedications",
   "title": "PEP Dispensed Medications",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "PEP Dispensed Medications",
       "comment": "nPEP Medication mapping??Sourced: https://confluence.nachc.org/download/attachments/17415026/2021-07-09%20HIV%20Non-Occupational%20Post-exposure%20Prophylaxis%20%28nPEP%29%20%5BRxNorm%5D%20%5BNDC%5D.xlsx?version=1&modificationDate=1626704083536&api=v2Supplied",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "type": [ {
         "code": "CodeableConcept"
       } ],
@@ -52,7 +52,7 @@
           "valueString": "PEP Dispensed Medications Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pep-dispensed-medications-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de143-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

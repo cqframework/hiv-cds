@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-f2-de38",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de38",
+  "name": "ThirdTrimesterEncounters",
+  "title": "Third Trimester Encounters",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Third Trimester Encounters element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Third Trimester Encounters",
+        "display": "Third Trimester Encounters"
+      } ]
+    } ]
+  }
+}

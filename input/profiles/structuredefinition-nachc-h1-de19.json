@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de19",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de19",
-  "name": "Sexual Activity - Partners HIV History",
+  "name": "SexualActivityPartnersHIVHistory",
   "title": "Sexual Activity - Partners HIV History",
   "status": "draft",
   "experimental": false,
@@ -48,7 +48,7 @@
           "valueString": "Sexual Activity - Partners HIV History"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-partners-hiv-history"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de19"
       },
       "mapping": [ {
         "identity": "HIV",

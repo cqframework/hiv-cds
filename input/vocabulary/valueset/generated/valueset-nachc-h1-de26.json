@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de26",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de26",
+  "name": "SexualActivityKindofSexVaginal",
+  "title": "Sexual Activity - Kind of Sex - Vaginal",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity - Kind of Sex - Vaginal element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE26",
+        "display": "Sexual Activity - Kind of Sex - Vaginal"
+      } ]
+    } ]
+  }
+}

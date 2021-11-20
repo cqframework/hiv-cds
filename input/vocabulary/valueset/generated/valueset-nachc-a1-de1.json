@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a1-de1",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a1-de1",
+  "name": "HIVDiagnosis",
+  "title": "HIV Diagnosis",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HIV Diagnosis element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "HIV Diagnosis",
+        "display": "HIV Diagnosis"
+      } ]
+    } ]
+  }
+}

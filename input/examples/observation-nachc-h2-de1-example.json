@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "nachc-h2-de1-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de1" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "DAST 10 Question 1",
+      "display": "DAST 10 Question 1"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ],
+  "valueBoolean": true
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de17",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de17",
+  "name": "SexualActivityPartnersHistory",
+  "title": "Sexual Activity - Partners History",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity - Partners History element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE17",
+        "display": "Sexual Activity - Partners History"
+      } ]
+    } ]
+  }
+}

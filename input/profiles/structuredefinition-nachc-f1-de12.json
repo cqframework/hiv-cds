@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f1-de12",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de12",
-  "name": "Injection Findings",
+  "name": "InjectionFindings",
   "title": "Injection Findings",
   "status": "draft",
   "experimental": false,
@@ -49,7 +49,7 @@
           "valueString": "Injection Findings Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-findings-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13"
       },
       "mapping": [ {
         "identity": "HIV",

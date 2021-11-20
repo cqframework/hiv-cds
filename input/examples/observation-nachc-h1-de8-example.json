@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "nachc-h1-de8-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de8" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Valueset binding http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de8 resolved but contained no codes."
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ],
+  "valueBoolean": true
+}

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-b1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-b1-de1",
-  "name": "Hepatitis C Diagnosis",
+  "name": "HepatitisCDiagnosis",
   "title": "Hepatitis C Diagnosis",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Hepatitis C Diagnosis",
       "comment": "HCV infection mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
@@ -49,7 +49,7 @@
           "valueString": "Hepatitis C Diagnosis Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-diagnosis-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de1-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

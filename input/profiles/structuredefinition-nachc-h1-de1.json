@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de1",
-  "name": "Previous HIV Screening",
+  "name": "PreviousHIVScreening",
   "title": "Previous HIV Screening",
   "status": "draft",
   "experimental": false,
@@ -45,10 +45,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "HIV Test"
+          "valueString": "Previous HIV Screening"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hiv-test"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de1"
       },
       "mapping": [ {
         "identity": "HIV",

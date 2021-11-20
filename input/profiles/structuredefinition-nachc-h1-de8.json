@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de8",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de8",
-  "name": "Patient has used Injection Drugs",
+  "name": "PatienthasusedInjectionDrugs",
   "title": "Patient has used Injection Drugs",
   "status": "draft",
   "experimental": false,
@@ -45,10 +45,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Injection Drug Use Diagnosis"
+          "valueString": "Patient has used Injection Drugs"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/injection-drug-use-diagnosis"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de8"
       },
       "mapping": [ {
         "identity": "HIV",

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f2-de904",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de904",
-  "name": "Pregnancy Observations",
+  "name": "PregnancyObservations",
   "title": "Pregnancy Observations",
   "status": "draft",
   "experimental": false,
@@ -49,7 +49,7 @@
           "valueString": "Pregnancy Observations"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-observations"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de904"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -61,7 +61,7 @@
       "short": "Pregnancy Observations",
       "comment": "Pregnancy Observation mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "type": [ {
         "code": "CodeableConcept"
       } ],
@@ -72,7 +72,7 @@
           "valueString": "Pregnancy Observations Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-observations-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de905"
       },
       "mapping": [ {
         "identity": "HIV",

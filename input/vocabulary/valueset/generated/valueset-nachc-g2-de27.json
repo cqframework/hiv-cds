@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de27",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de27",
+  "name": "EmtricitabineFTC200mgSuppliedChoices",
+  "title": "Emtricitabine (FTC) 200mg Supplied Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Emtricitabine (FTC) 200mg Supplied Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.G2.DE27",
+        "display": "24236-297"
+      }, {
+        "code": "NACHC.G2.DE28",
+        "display": "46014-0601"
+      }, {
+        "code": "NACHC.G2.DE29",
+        "display": "53808-0801"
+      }, {
+        "code": "NACHC.G2.DE30",
+        "display": "54868-4853"
+      }, {
+        "code": "NACHC.G2.DE31",
+        "display": "61958-0601"
+      }, {
+        "code": "NACHC.G2.DE32",
+        "display": "69097-642"
+      }, {
+        "code": "NACHC.G2.DE33",
+        "display": "70518-1847"
+      }, {
+        "code": "NACHC.G2.DE34",
+        "display": "70518-2906"
+      } ]
+    } ]
+  }
+}

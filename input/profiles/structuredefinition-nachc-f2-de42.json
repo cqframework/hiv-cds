@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-f2-de42",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de42",
-  "name": "Pregnancy Supervision",
+  "name": "PregnancySupervision",
   "title": "Pregnancy Supervision",
   "status": "draft",
   "experimental": false,
@@ -41,7 +41,7 @@
       "short": "Pregnancy Supervision",
       "comment": "Pregnancy Supervision mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
@@ -49,7 +49,7 @@
           "valueString": "Pregnancy Supervision Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/pregnancy-supervision-choices"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de43"
       },
       "mapping": [ {
         "identity": "HIV",

@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-f1-de2",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de2",
+  "name": "DrugRehabilitationChoices",
+  "title": "Drug Rehabilitation Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Drug Rehabilitation Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.F1.DE2",
+        "display": "23915005"
+      }, {
+        "code": "NACHC.F1.DE3",
+        "display": "266707007"
+      }, {
+        "code": "NACHC.F1.DE4",
+        "display": "310653000"
+      }, {
+        "code": "NACHC.F1.DE5",
+        "display": "408941008"
+      }, {
+        "code": "NACHC.F1.DE6",
+        "display": "408942001"
+      }, {
+        "code": "NACHC.F1.DE7",
+        "display": "408943006"
+      }, {
+        "code": "NACHC.F1.DE8",
+        "display": "408944000"
+      }, {
+        "code": "NACHC.F1.DE9",
+        "display": "56876005"
+      }, {
+        "code": "NACHC.F1.DE10",
+        "display": "720174008"
+      }, {
+        "code": "NACHC.F1.DE11",
+        "display": "720177001"
+      } ]
+    } ]
+  }
+}

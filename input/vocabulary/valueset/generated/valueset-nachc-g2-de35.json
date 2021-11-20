@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de35",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de35",
+  "name": "TAF25mgFTC200mgSuppliedChoices",
+  "title": "TAF 25mg / FTC 200mg Supplied Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the TAF 25mg / FTC 200mg Supplied Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.G2.DE35",
+        "display": "61958-2002"
+      }, {
+        "code": "NACHC.G2.DE36",
+        "display": "70518-0230"
+      } ]
+    } ]
+  }
+}

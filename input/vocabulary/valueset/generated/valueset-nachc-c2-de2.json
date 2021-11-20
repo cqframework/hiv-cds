@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-c2-de2",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de2",
+  "name": "SyphilisTestsforTreponemapallidumNucleicAcidChoices",
+  "title": "Syphilis (Tests for Treponema pallidum Nucleic Acid) Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Tests for Treponema pallidum Nucleic Acid) Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.C2.DE2",
+        "display": "53605-2"
+      }, {
+        "code": "NACHC.C2.DE3",
+        "display": "49799-0"
+      }, {
+        "code": "NACHC.C2.DE4",
+        "display": "91846-6"
+      }, {
+        "code": "NACHC.C2.DE5",
+        "display": "41163-7"
+      }, {
+        "code": "NACHC.C2.DE6",
+        "display": "76766-5"
+      } ]
+    } ]
+  }
+}

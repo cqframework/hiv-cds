@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de24",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de24",
+  "name": "SexualActivityMaleKindofSexReceptiveAnal",
+  "title": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity - Male - Kind of Sex - Receptive Anal element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE24",
+        "display": "Sexual Activity - Male - Kind of Sex - Receptive Anal"
+      } ]
+    } ]
+  }
+}

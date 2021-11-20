@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de4",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de4",
-  "name": "Patient Diagnosed with HCV",
+  "name": "PatientDiagnosedwithHCV",
   "title": "Patient Diagnosed with HCV",
   "status": "draft",
   "experimental": false,
@@ -45,10 +45,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Hepatitis C Diagnosis"
+          "valueString": "Patient Diagnosed with HCV"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/hepatitis-c-diagnosis"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de4"
       },
       "mapping": [ {
         "identity": "HIV",

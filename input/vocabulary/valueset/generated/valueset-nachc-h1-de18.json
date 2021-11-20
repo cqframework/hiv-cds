@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de18",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de18",
+  "name": "SexualActivityPartnersNumberofPartners",
+  "title": "Sexual Activity - Partners Number of Partners",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Activity - Partners Number of Partners element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE18",
+        "display": "Sexual Activity - Partners Number of Partners"
+      } ]
+    } ]
+  }
+}

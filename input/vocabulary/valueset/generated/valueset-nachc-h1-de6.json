@@ -1,0 +1,11 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-h1-de6",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de6",
+  "name": "PatientDiagnosedwithGonorrhea",
+  "title": "Patient Diagnosed with Gonorrhea",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Patient Diagnosed with Gonorrhea element",
+  "immutable": true
+}

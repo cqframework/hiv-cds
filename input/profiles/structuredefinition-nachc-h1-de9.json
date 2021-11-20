@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de9",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de9",
-  "name": "Seeking STD Treatment",
+  "name": "SeekingSTDTreatment",
   "title": "Seeking STD Treatment",
   "status": "draft",
   "experimental": false,
@@ -48,7 +48,7 @@
           "valueString": "Seeking STD Treatment"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/seeking-std-treatment"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de9"
       },
       "mapping": [ {
         "identity": "HIV",

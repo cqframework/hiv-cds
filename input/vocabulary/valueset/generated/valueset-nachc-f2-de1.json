@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-f2-de1",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1",
+  "name": "PregnancyEncounters",
+  "title": "Pregnancy Encounters",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Pregnancy Encounters element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "Pregnancy Encounters",
+        "display": "Pregnancy Encounters"
+      } ]
+    } ]
+  }
+}

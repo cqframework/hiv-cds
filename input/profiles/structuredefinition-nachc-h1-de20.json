@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de20",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de20",
-  "name": "Sexual Activity - Drug or Alcohol Use",
+  "name": "SexualActivityDrugorAlcoholUse",
   "title": "Sexual Activity - Drug or Alcohol Use",
   "status": "draft",
   "experimental": false,
@@ -48,7 +48,7 @@
           "valueString": "Sexual Activity - Drug or Alcohol Use"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-drug-or-alcohol-use"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de20"
       },
       "mapping": [ {
         "identity": "HIV",

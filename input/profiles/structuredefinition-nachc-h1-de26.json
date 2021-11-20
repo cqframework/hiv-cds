@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-h1-de26",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de26",
-  "name": "Sexual Activity - Kind of Sex - Vaginal",
+  "name": "SexualActivityKindofSexVaginal",
   "title": "Sexual Activity - Kind of Sex - Vaginal",
   "status": "draft",
   "experimental": false,
@@ -48,7 +48,7 @@
           "valueString": "Sexual Activity - Kind of Sex - Vaginal"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/sexual-activity-kind-of-sex-vaginal"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de26"
       },
       "mapping": [ {
         "identity": "HIV",

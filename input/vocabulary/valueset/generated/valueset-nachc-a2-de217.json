@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a2-de217",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217",
+  "name": "HIVTestOrderedChoices",
+  "title": "HIV Test Ordered Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HIV Test Ordered Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.A2.DE217",
+        "display": "312484002"
+      }, {
+        "code": "NACHC.A2.DE218",
+        "display": "31676001"
+      } ]
+    } ]
+  }
+}

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nachc-e2-de1",
   "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-e2-de1",
-  "name": "Chlamydia Test",
+  "name": "ChlamydiaTest",
   "title": "Chlamydia Test",
   "status": "draft",
   "experimental": false,
@@ -49,7 +49,7 @@
           "valueString": "Chlamydia Test"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-test"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1"
       },
       "mapping": [ {
         "identity": "HIV",
@@ -61,7 +61,7 @@
       "short": "Chlamydia Test",
       "comment": "Chlamydia test mapping",
       "min": 1,
-      "max": "*",
+      "max": "1",
       "type": [ {
         "code": "CodeableConcept"
       } ],
@@ -72,7 +72,7 @@
           "valueString": "Chlamydia Test Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/chlamydia-test-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1-choices-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

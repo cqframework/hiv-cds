@@ -44,11 +44,51 @@ define "In Population":
   and not "Meets Exclusion Criteria"
 
 /* OPTIONS:
-    1. Recommend Screening Now
-    2. Recommend Screening Once
-    3. Recommend Screening Anually
-    4. Recommend Screening More Often (3 months based on specific risk factor -- sexually active MSM w/ prep)
+    1. Recommend Screening 3 months (High Risk - Implemented except DAST-10)
+    2. Recommend Screening Annually (Moderate Risk - SOGI & Risk Factors)
+    3. Recommend Screening Dont Order (Low/No Risk)
+    4. Recommend Screening Custom Periods (3 months based on specific risk factor -- sexually active MSM w/ prep)
+      // MSM / Pregnancy / CDC Recommendation (Already Implemented)
+
+    // Test.Date duration from "Patient Encounter" > (Risk.period)
+
+  High risk: Any of the factors we currently have
+
+  Moderate risk: we also should use SO/GI, to figure out if the person is a men who has sex with men or a transgender person who has sex with men, which would make this people “moderate” risk, when there is nothing else elevating them to high risk. Moderate risk is when the person should be tested annually.
+
+  No risk: Someone who is documented not sexually active.
+
+  Low risk: Everybody else
+
+  // - High Risk
+    // CDC FACTORS (Already Exist)
+    // Drug Abuse (DAST-10)
+
+  // - Medium Risk
+    // SOGI ELEMENTS
+
+  // - No Risk
+    // Documented not Sexually Active (Risk Factors Questionnaire DE 13 / 14)
+
+  // - Low Risk
+    // DEFAULT
+
+  // TEST ORDER:
+    Needs ActivityDefinition in the PlanDefinition.
+    Need to be able to specify what they are ordering in the configuration.
+    ServiceRequest using Data Element Ordered Codes
+
+
+  Snooze Options / Override:
+    Accept - Place order
+    Document Test - ACTION: Questionnaire to support documenting test
+    Snooze - 1 month
+    Snooze - 12 months
+    Patient Declined - ACTION: Document patient preference
+
 */
+
+
 define "Recommendation":
   if "Patient is a Sexually Active MSM who should be Screened Every 3 Months" then 'Three Month HIV Screening Recommended due to patient being a sexually active MSM who has been prescribed PrEP in the past.'
   else if "Patient is a Sexually Active MSM who should be Screened Annually" then 'Annual HIV Screening Recommended due to patient being a sexually active MSM without HIV and has had multiple sex partners.'
