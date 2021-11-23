@@ -13,73 +13,73 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.B1.DE61",
-        "display": "10295004"
+        "display": "Chronic viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE62",
-        "display": "1092801000119100"
+        "display": "Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)"
       }, {
         "code": "NACHC.B1.DE63",
-        "display": "1116000"
+        "display": "Chronic aggressive type B viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE64",
-        "display": "16098491000119109"
+        "display": "Chronic autoimmune hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE65",
-        "display": "197284004"
+        "display": "Chronic active hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE66",
-        "display": "235869004"
+        "display": "Chronic viral hepatitis B with hepatitis D (disorder)"
       }, {
         "code": "NACHC.B1.DE67",
-        "display": "235889003"
+        "display": "Drug-induced chronic hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE68",
-        "display": "307757001"
+        "display": "Chronic alcoholic hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE69",
-        "display": "38662009"
+        "display": "Chronic persistent type B viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE70",
-        "display": "41889008"
+        "display": "Chronic persistent hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE71",
-        "display": "450880008"
+        "display": "Chronic hepatitis E (disorder)"
       }, {
         "code": "NACHC.B1.DE72",
-        "display": "50167007"
+        "display": "Chronic active type B viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE73",
-        "display": "57339008"
+        "display": "Chronic lobular hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE74",
-        "display": "60037002"
+        "display": "Chronic persistent viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE75",
-        "display": "61977001"
+        "display": "Chronic type B viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE76",
-        "display": "66870002"
+        "display": "Chronic active viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE77",
-        "display": "713966008"
+        "display": "Occult chronic type B viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE78",
-        "display": "76783007"
+        "display": "Chronic hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE79",
-        "display": "774204006"
+        "display": "Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)"
       }, {
         "code": "NACHC.B1.DE80",
-        "display": "838377003"
+        "display": "Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.B1.DE81",
-        "display": "838380002"
+        "display": "Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)"
       }, {
         "code": "NACHC.B1.DE82",
-        "display": "89789003"
+        "display": "Chronic aggressive viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE83",
-        "display": "9843006"
+        "display": "Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)"
       } ]
     } ]
   }

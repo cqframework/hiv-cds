@@ -7,5 +7,14 @@
   "status": "draft",
   "experimental": false,
   "description": "Codes representing possible values for the Previous HIV Screening element",
-  "immutable": true
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE1",
+        "display": "Previous HIV Screening"
+      } ]
+    } ]
+  }
 }

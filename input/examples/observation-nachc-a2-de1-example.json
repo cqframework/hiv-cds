@@ -25,7 +25,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.A2.DE215",
-      "display": "2898779"
+      "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
     }, {
       "system": "http://loinc.org",
       "code": "2898779",

@@ -13,10 +13,10 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.B1.DE31",
-        "display": "128302006"
+        "display": "Chronic hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE32",
-        "display": "435101000124104"
+        "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
       } ]
     } ]
   }

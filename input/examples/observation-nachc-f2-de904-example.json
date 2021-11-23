@@ -25,7 +25,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.F2.DE905",
-      "display": "15019-3"
+      "display": "Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid"
     }, {
       "system": "http://loinc.org",
       "code": "15019-3",

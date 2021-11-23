@@ -25,7 +25,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE111",
-      "display": "G0472"
+      "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
     }, {
       "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
       "code": "G0472",

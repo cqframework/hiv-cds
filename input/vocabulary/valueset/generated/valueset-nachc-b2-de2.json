@@ -13,10 +13,10 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.B2.DE2",
-        "display": "79189-7"
+        "display": "Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay"
       }, {
         "code": "NACHC.B2.DE3",
-        "display": "54914-7"
+        "display": "Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay"
       } ]
     } ]
   }

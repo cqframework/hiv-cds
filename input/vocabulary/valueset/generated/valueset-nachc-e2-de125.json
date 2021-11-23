@@ -13,88 +13,88 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.E2.DE125",
-        "display": "14468-3"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE126",
-        "display": "14469-1"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE127",
-        "display": "14470-9"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE128",
-        "display": "14471-7"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE129",
-        "display": "14472-5"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE130",
-        "display": "14507-8"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE131",
-        "display": "14508-6"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE132",
-        "display": "14509-4"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE133",
-        "display": "14510-2"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE134",
-        "display": "14511-0"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE135",
-        "display": "31768-5"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE136",
-        "display": "31769-3"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE137",
-        "display": "31770-1"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE138",
-        "display": "31771-9"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE139",
-        "display": "31772-7"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE140",
-        "display": "31774-3"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE141",
-        "display": "31776-8"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE142",
-        "display": "34709-6"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE143",
-        "display": "34710-4"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE144",
-        "display": "45092-4"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE145",
-        "display": "47234-0"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE146",
-        "display": "1625390"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE147",
-        "display": "1625696"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE148",
-        "display": "1626305"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE149",
-        "display": "1626608"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE150",
-        "display": "91860-7"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE151",
-        "display": "91861-5"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       }, {
         "code": "NACHC.E2.DE152",
-        "display": "91873-0"
+        "display": "Tests for Chlamydia trachomatis Antigen"
       } ]
     } ]
   }

@@ -12,7 +12,7 @@
     "target": "http://www.ama-assn.org/go/cpt",
     "element": [ {
       "code": "NACHC.A0.DE2",
-      "display": "99202",
+      "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99202",
         "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter.",
@@ -20,7 +20,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE3",
-      "display": "99203",
+      "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 30-44 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99203",
         "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 30-44 minutes of total time is spent on the date of the encounter.",
@@ -28,7 +28,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE4",
-      "display": "99204",
+      "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 45-59 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99204",
         "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 45-59 minutes of total time is spent on the date of the encounter.",
@@ -36,7 +36,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE5",
-      "display": "99205",
+      "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 60-74 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99205",
         "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 60-74 minutes of total time is spent on the date of the encounter.",
@@ -44,7 +44,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE6",
-      "display": "99212",
+      "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 10-19 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99212",
         "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 10-19 minutes of total time is spent on the date of the encounter.",
@@ -52,7 +52,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE7",
-      "display": "99213",
+      "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99213",
         "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total time is spent on the date of the encounter.",
@@ -60,7 +60,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE8",
-      "display": "99214",
+      "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 30-39 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99214",
         "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 30-39 minutes of total time is spent on the date of the encounter.",
@@ -68,7 +68,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE9",
-      "display": "99215",
+      "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 40-54 minutes of total time is spent on the date of the encounter.",
       "target": [ {
         "code": "99215",
         "display": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 40-54 minutes of total time is spent on the date of the encounter.",
@@ -76,7 +76,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE10",
-      "display": "99218",
+      "display": "Initial observation care, per day, for the evaluation and management of a patient which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99218",
         "display": "Initial observation care, per day, for the evaluation and management of a patient which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -84,7 +84,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE11",
-      "display": "99219",
+      "display": "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99219",
         "display": "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -92,7 +92,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE12",
-      "display": "99220",
+      "display": "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99220",
         "display": "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -100,7 +100,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE13",
-      "display": "99221",
+      "display": "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99221",
         "display": "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -108,7 +108,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE14",
-      "display": "99222",
+      "display": "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99222",
         "display": "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -116,7 +116,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE15",
-      "display": "99223",
+      "display": "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99223",
         "display": "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -124,7 +124,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE16",
-      "display": "99231",
+      "display": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering or improving. Typically, 15 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99231",
         "display": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering or improving. Typically, 15 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -132,7 +132,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE17",
-      "display": "99232",
+      "display": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 25 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99232",
         "display": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 25 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -140,7 +140,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE18",
-      "display": "99233",
+      "display": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant complication or a significant new problem. Typically, 35 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99233",
         "display": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant complication or a significant new problem. Typically, 35 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -148,7 +148,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE19",
-      "display": "99234",
+      "display": "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of low severity. Typically, 40 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99234",
         "display": "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of low severity. Typically, 40 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -156,7 +156,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE20",
-      "display": "99235",
+      "display": "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99235",
         "display": "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -164,7 +164,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE21",
-      "display": "99236",
+      "display": "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of high severity. Typically, 55 minutes are spent at the bedside and on the patient's hospital floor or unit.",
       "target": [ {
         "code": "99236",
         "display": "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of high severity. Typically, 55 minutes are spent at the bedside and on the patient's hospital floor or unit.",
@@ -172,7 +172,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE22",
-      "display": "99291",
+      "display": "Critical care, evaluation and management of the critically ill or critically injured patient; first 30-74 minutes",
       "target": [ {
         "code": "99291",
         "display": "Critical care, evaluation and management of the critically ill or critically injured patient; first 30-74 minutes",
@@ -180,7 +180,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE23",
-      "display": "99304",
+      "display": "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit.",
       "target": [ {
         "code": "99304",
         "display": "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit.",
@@ -188,7 +188,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE24",
-      "display": "99305",
+      "display": "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit.",
       "target": [ {
         "code": "99305",
         "display": "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit.",
@@ -196,7 +196,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE25",
-      "display": "99306",
+      "display": "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 45 minutes are spent at the bedside and on the patient's facility floor or unit.",
       "target": [ {
         "code": "99306",
         "display": "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 45 minutes are spent at the bedside and on the patient's facility floor or unit.",
@@ -204,7 +204,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE26",
-      "display": "99307",
+      "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering, or improving. Typically, 10 minutes are spent at the bedside and on the patient's facility floor or unit.",
       "target": [ {
         "code": "99307",
         "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering, or improving. Typically, 10 minutes are spent at the bedside and on the patient's facility floor or unit.",
@@ -212,7 +212,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE27",
-      "display": "99308",
+      "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 15 minutes are spent at the bedside and on the patient's facility floor or unit.",
       "target": [ {
         "code": "99308",
         "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 15 minutes are spent at the bedside and on the patient's facility floor or unit.",
@@ -220,7 +220,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE28",
-      "display": "99309",
+      "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient has developed a significant complication or a significant new problem. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit.",
       "target": [ {
         "code": "99309",
         "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient has developed a significant complication or a significant new problem. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit.",
@@ -228,7 +228,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE29",
-      "display": "99310",
+      "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit.",
       "target": [ {
         "code": "99310",
         "display": "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit.",
@@ -236,7 +236,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE30",
-      "display": "99324",
+      "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99324",
         "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent with the patient and/or family or caregiver.",
@@ -244,7 +244,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE31",
-      "display": "99325",
+      "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99325",
         "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent with the patient and/or family or caregiver.",
@@ -252,7 +252,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE32",
-      "display": "99326",
+      "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99326",
         "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent with the patient and/or family or caregiver.",
@@ -260,7 +260,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE33",
-      "display": "99327",
+      "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99327",
         "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent with the patient and/or family or caregiver.",
@@ -268,7 +268,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE34",
-      "display": "99328",
+      "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99328",
         "display": "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent with the patient and/or family or caregiver.",
@@ -276,7 +276,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE35",
-      "display": "99334",
+      "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self-limited or minor. Typically, 15 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99334",
         "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self-limited or minor. Typically, 15 minutes are spent with the patient and/or family or caregiver.",
@@ -284,7 +284,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE36",
-      "display": "99335",
+      "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99335",
         "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent with the patient and/or family or caregiver.",
@@ -292,7 +292,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE37",
-      "display": "99336",
+      "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 40 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99336",
         "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 40 minutes are spent with the patient and/or family or caregiver.",
@@ -300,7 +300,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE38",
-      "display": "99337",
+      "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent with the patient and/or family or caregiver.",
       "target": [ {
         "code": "99337",
         "display": "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent with the patient and/or family or caregiver.",
@@ -308,7 +308,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE39",
-      "display": "99341",
+      "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99341",
         "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent face-to-face with the patient and/or family.",
@@ -316,7 +316,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE40",
-      "display": "99342",
+      "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99342",
         "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family.",
@@ -324,7 +324,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE41",
-      "display": "99343",
+      "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99343",
         "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family.",
@@ -332,7 +332,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE42",
-      "display": "99344",
+      "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99344",
         "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family.",
@@ -340,7 +340,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE43",
-      "display": "99345",
+      "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99345",
         "display": "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent face-to-face with the patient and/or family.",
@@ -348,7 +348,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE44",
-      "display": "99347",
+      "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 15 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99347",
         "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 15 minutes are spent face-to-face with the patient and/or family.",
@@ -356,7 +356,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE45",
-      "display": "99348",
+      "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99348",
         "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent face-to-face with the patient and/or family.",
@@ -364,7 +364,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE46",
-      "display": "99349",
+      "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99349",
         "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family.",
@@ -372,7 +372,7 @@
       } ]
     }, {
       "code": "NACHC.A0.DE47",
-      "display": "99350",
+      "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family.",
       "target": [ {
         "code": "99350",
         "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family.",
@@ -380,7 +380,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE103",
-      "display": "86038",
+      "display": "Antinuclear antibodies (ANA)",
       "target": [ {
         "code": "86038",
         "display": "Antinuclear antibodies (ANA)",
@@ -388,7 +388,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE104",
-      "display": "86803",
+      "display": "Hepatitis C antibody",
       "target": [ {
         "code": "86803",
         "display": "Hepatitis C antibody",
@@ -396,7 +396,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE105",
-      "display": "86804",
+      "display": "Hepatitis C antibody; confirmatory test (eg, immunoblot)",
       "target": [ {
         "code": "86804",
         "display": "Hepatitis C antibody; confirmatory test (eg, immunoblot)",
@@ -404,7 +404,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE106",
-      "display": "87520",
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique",
       "target": [ {
         "code": "87520",
         "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique",
@@ -412,7 +412,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE107",
-      "display": "87521",
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed",
       "target": [ {
         "code": "87521",
         "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed",
@@ -420,7 +420,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE108",
-      "display": "87522",
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed",
       "target": [ {
         "code": "87522",
         "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed",
@@ -428,7 +428,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE109",
-      "display": "87902",
+      "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus",
       "target": [ {
         "code": "87902",
         "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus",
@@ -436,7 +436,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE110",
-      "display": "1014274",
+      "display": "Hepatitis C antibody",
       "target": [ {
         "code": "1014274",
         "display": "Hepatitis C antibody",
@@ -444,7 +444,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE113",
-      "display": "3218F",
+      "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)",
       "target": [ {
         "code": "3218F",
         "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)",
@@ -452,7 +452,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE114",
-      "display": "3220F",
+      "display": "Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)",
       "target": [ {
         "code": "3220F",
         "display": "Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)",
@@ -460,7 +460,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE115",
-      "display": "3265F",
+      "display": "Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)",
       "target": [ {
         "code": "3265F",
         "display": "Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)",
@@ -468,7 +468,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE116",
-      "display": "3266F",
+      "display": "Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)",
       "target": [ {
         "code": "3266F",
         "display": "Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)",
@@ -476,7 +476,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE117",
-      "display": "3514F",
+      "display": "Hepatitis C screening documented as performed (HIV)",
       "target": [ {
         "code": "3514F",
         "display": "Hepatitis C screening documented as performed (HIV)",
@@ -484,7 +484,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE118",
-      "display": "4150F",
+      "display": "Patient receiving antiviral treatment for Hepatitis C (HEP-C)",
       "target": [ {
         "code": "4150F",
         "display": "Patient receiving antiviral treatment for Hepatitis C (HEP-C)",
@@ -492,7 +492,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE119",
-      "display": "36415",
+      "display": "Collection of venous blood by venipuncture",
       "target": [ {
         "code": "36415",
         "display": "Collection of venous blood by venipuncture",
@@ -500,7 +500,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE120",
-      "display": "81596",
+      "display": "Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver",
       "target": [ {
         "code": "81596",
         "display": "Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver",
@@ -508,7 +508,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE673",
-      "display": "57022",
+      "display": "Incision and drainage of vaginal hematoma; obstetrical/postpartum",
       "target": [ {
         "code": "57022",
         "display": "Incision and drainage of vaginal hematoma; obstetrical/postpartum",
@@ -516,7 +516,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE674",
-      "display": "58600",
+      "display": "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, unilateral or bilateral",
       "target": [ {
         "code": "58600",
         "display": "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, unilateral or bilateral",
@@ -524,7 +524,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE675",
-      "display": "58605",
+      "display": "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)",
       "target": [ {
         "code": "58605",
         "display": "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)",
@@ -532,7 +532,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE676",
-      "display": "58970",
+      "display": "Follicle puncture for oocyte retrieval, any method",
       "target": [ {
         "code": "58970",
         "display": "Follicle puncture for oocyte retrieval, any method",
@@ -540,7 +540,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE677",
-      "display": "58974",
+      "display": "Embryo transfer, intrauterine",
       "target": [ {
         "code": "58974",
         "display": "Embryo transfer, intrauterine",
@@ -548,7 +548,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE678",
-      "display": "58976",
+      "display": "Gamete, zygote, or embryo intrafallopian transfer, any method",
       "target": [ {
         "code": "58976",
         "display": "Gamete, zygote, or embryo intrafallopian transfer, any method",
@@ -556,7 +556,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE679",
-      "display": "59000",
+      "display": "Amniocentesis; diagnostic",
       "target": [ {
         "code": "59000",
         "display": "Amniocentesis; diagnostic",
@@ -564,7 +564,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE680",
-      "display": "59001",
+      "display": "Amniocentesis; therapeutic amniotic fluid reduction (includes ultrasound guidance)",
       "target": [ {
         "code": "59001",
         "display": "Amniocentesis; therapeutic amniotic fluid reduction (includes ultrasound guidance)",
@@ -572,7 +572,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE681",
-      "display": "59012",
+      "display": "Cordocentesis (intrauterine), any method",
       "target": [ {
         "code": "59012",
         "display": "Cordocentesis (intrauterine), any method",
@@ -580,7 +580,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE682",
-      "display": "59015",
+      "display": "Chorionic villus sampling, any method",
       "target": [ {
         "code": "59015",
         "display": "Chorionic villus sampling, any method",
@@ -588,7 +588,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE683",
-      "display": "59020",
+      "display": "Fetal contraction stress test",
       "target": [ {
         "code": "59020",
         "display": "Fetal contraction stress test",
@@ -596,7 +596,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE684",
-      "display": "59025",
+      "display": "Fetal non-stress test",
       "target": [ {
         "code": "59025",
         "display": "Fetal non-stress test",
@@ -604,7 +604,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE685",
-      "display": "59030",
+      "display": "Fetal scalp blood sampling",
       "target": [ {
         "code": "59030",
         "display": "Fetal scalp blood sampling",
@@ -612,7 +612,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE686",
-      "display": "59050",
+      "display": "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; supervision and interpretation",
       "target": [ {
         "code": "59050",
         "display": "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; supervision and interpretation",
@@ -620,7 +620,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE687",
-      "display": "59051",
+      "display": "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; interpretation only",
       "target": [ {
         "code": "59051",
         "display": "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; interpretation only",
@@ -628,7 +628,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE688",
-      "display": "59070",
+      "display": "Transabdominal amnioinfusion, including ultrasound guidance",
       "target": [ {
         "code": "59070",
         "display": "Transabdominal amnioinfusion, including ultrasound guidance",
@@ -636,7 +636,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE689",
-      "display": "59072",
+      "display": "Fetal umbilical cord occlusion, including ultrasound guidance",
       "target": [ {
         "code": "59072",
         "display": "Fetal umbilical cord occlusion, including ultrasound guidance",
@@ -644,7 +644,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE690",
-      "display": "59074",
+      "display": "Fetal fluid drainage (eg, vesicocentesis, thoracocentesis, paracentesis), including ultrasound guidance",
       "target": [ {
         "code": "59074",
         "display": "Fetal fluid drainage (eg, vesicocentesis, thoracocentesis, paracentesis), including ultrasound guidance",
@@ -652,7 +652,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE691",
-      "display": "59076",
+      "display": "Fetal shunt placement, including ultrasound guidance",
       "target": [ {
         "code": "59076",
         "display": "Fetal shunt placement, including ultrasound guidance",
@@ -660,7 +660,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE692",
-      "display": "59100",
+      "display": "Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)",
       "target": [ {
         "code": "59100",
         "display": "Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)",
@@ -668,7 +668,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE693",
-      "display": "59120",
+      "display": "Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach",
       "target": [ {
         "code": "59120",
         "display": "Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach",
@@ -676,7 +676,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE694",
-      "display": "59121",
+      "display": "Surgical treatment of ectopic pregnancy; tubal or ovarian, without salpingectomy and/or oophorectomy",
       "target": [ {
         "code": "59121",
         "display": "Surgical treatment of ectopic pregnancy; tubal or ovarian, without salpingectomy and/or oophorectomy",
@@ -684,7 +684,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE695",
-      "display": "59130",
+      "display": "Surgical treatment of ectopic pregnancy; abdominal pregnancy",
       "target": [ {
         "code": "59130",
         "display": "Surgical treatment of ectopic pregnancy; abdominal pregnancy",
@@ -692,7 +692,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE696",
-      "display": "59135",
+      "display": "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy requiring total hysterectomy",
       "target": [ {
         "code": "59135",
         "display": "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy requiring total hysterectomy",
@@ -700,7 +700,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE697",
-      "display": "59136",
+      "display": "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy with partial resection of uterus",
       "target": [ {
         "code": "59136",
         "display": "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy with partial resection of uterus",
@@ -708,7 +708,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE698",
-      "display": "59140",
+      "display": "Surgical treatment of ectopic pregnancy; cervical, with evacuation",
       "target": [ {
         "code": "59140",
         "display": "Surgical treatment of ectopic pregnancy; cervical, with evacuation",
@@ -716,7 +716,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE699",
-      "display": "59150",
+      "display": "Laparoscopic treatment of ectopic pregnancy; without salpingectomy and/or oophorectomy",
       "target": [ {
         "code": "59150",
         "display": "Laparoscopic treatment of ectopic pregnancy; without salpingectomy and/or oophorectomy",
@@ -724,7 +724,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE700",
-      "display": "59151",
+      "display": "Laparoscopic treatment of ectopic pregnancy; with salpingectomy and/or oophorectomy",
       "target": [ {
         "code": "59151",
         "display": "Laparoscopic treatment of ectopic pregnancy; with salpingectomy and/or oophorectomy",
@@ -732,7 +732,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE701",
-      "display": "59160",
+      "display": "Curettage, postpartum",
       "target": [ {
         "code": "59160",
         "display": "Curettage, postpartum",
@@ -740,7 +740,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE702",
-      "display": "59200",
+      "display": "Insertion of cervical dilator (eg, laminaria, prostaglandin) (separate procedure)",
       "target": [ {
         "code": "59200",
         "display": "Insertion of cervical dilator (eg, laminaria, prostaglandin) (separate procedure)",
@@ -748,7 +748,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE703",
-      "display": "59300",
+      "display": "Episiotomy or vaginal repair, by other than attending",
       "target": [ {
         "code": "59300",
         "display": "Episiotomy or vaginal repair, by other than attending",
@@ -756,7 +756,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE704",
-      "display": "59320",
+      "display": "Cerclage of cervix, during pregnancy; vaginal",
       "target": [ {
         "code": "59320",
         "display": "Cerclage of cervix, during pregnancy; vaginal",
@@ -764,7 +764,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE705",
-      "display": "59325",
+      "display": "Cerclage of cervix, during pregnancy; abdominal",
       "target": [ {
         "code": "59325",
         "display": "Cerclage of cervix, during pregnancy; abdominal",
@@ -772,7 +772,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE706",
-      "display": "59350",
+      "display": "Hysterorrhaphy of ruptured uterus",
       "target": [ {
         "code": "59350",
         "display": "Hysterorrhaphy of ruptured uterus",
@@ -780,7 +780,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE707",
-      "display": "59412",
+      "display": "External cephalic version, with or without tocolysis",
       "target": [ {
         "code": "59412",
         "display": "External cephalic version, with or without tocolysis",
@@ -788,7 +788,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE708",
-      "display": "59414",
+      "display": "Delivery of placenta (separate procedure)",
       "target": [ {
         "code": "59414",
         "display": "Delivery of placenta (separate procedure)",
@@ -796,7 +796,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE709",
-      "display": "59430",
+      "display": "Postpartum care only (separate procedure)",
       "target": [ {
         "code": "59430",
         "display": "Postpartum care only (separate procedure)",
@@ -804,7 +804,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE710",
-      "display": "59525",
+      "display": "Subtotal or total hysterectomy after cesarean delivery (List separately in addition to code for primary procedure)",
       "target": [ {
         "code": "59525",
         "display": "Subtotal or total hysterectomy after cesarean delivery (List separately in addition to code for primary procedure)",
@@ -812,7 +812,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE711",
-      "display": "59812",
+      "display": "Treatment of incomplete abortion, any trimester, completed surgically",
       "target": [ {
         "code": "59812",
         "display": "Treatment of incomplete abortion, any trimester, completed surgically",
@@ -820,7 +820,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE712",
-      "display": "59820",
+      "display": "Treatment of missed abortion, completed surgically; first trimester",
       "target": [ {
         "code": "59820",
         "display": "Treatment of missed abortion, completed surgically; first trimester",
@@ -828,7 +828,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE713",
-      "display": "59821",
+      "display": "Treatment of missed abortion, completed surgically; second trimester",
       "target": [ {
         "code": "59821",
         "display": "Treatment of missed abortion, completed surgically; second trimester",
@@ -836,7 +836,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE714",
-      "display": "59830",
+      "display": "Treatment of septic abortion, completed surgically",
       "target": [ {
         "code": "59830",
         "display": "Treatment of septic abortion, completed surgically",
@@ -844,7 +844,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE715",
-      "display": "59840",
+      "display": "Induced abortion, by dilation and curettage",
       "target": [ {
         "code": "59840",
         "display": "Induced abortion, by dilation and curettage",
@@ -852,7 +852,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE716",
-      "display": "59841",
+      "display": "Induced abortion, by dilation and evacuation",
       "target": [ {
         "code": "59841",
         "display": "Induced abortion, by dilation and evacuation",
@@ -860,7 +860,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE717",
-      "display": "59850",
+      "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines",
       "target": [ {
         "code": "59850",
         "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines",
@@ -868,7 +868,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE718",
-      "display": "59851",
+      "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation",
       "target": [ {
         "code": "59851",
         "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation",
@@ -876,7 +876,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE719",
-      "display": "59852",
+      "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)",
       "target": [ {
         "code": "59852",
         "display": "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)",
@@ -884,7 +884,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE720",
-      "display": "59855",
+      "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines",
       "target": [ {
         "code": "59855",
         "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines",
@@ -892,7 +892,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE721",
-      "display": "59856",
+      "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation",
       "target": [ {
         "code": "59856",
         "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation",
@@ -900,7 +900,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE722",
-      "display": "59857",
+      "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)",
       "target": [ {
         "code": "59857",
         "display": "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)",
@@ -908,7 +908,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE723",
-      "display": "59866",
+      "display": "Multifetal pregnancy reduction(s) (MPR)",
       "target": [ {
         "code": "59866",
         "display": "Multifetal pregnancy reduction(s) (MPR)",
@@ -916,7 +916,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE724",
-      "display": "59870",
+      "display": "Uterine evacuation and curettage for hydatidiform mole",
       "target": [ {
         "code": "59870",
         "display": "Uterine evacuation and curettage for hydatidiform mole",
@@ -924,7 +924,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE725",
-      "display": "59871",
+      "display": "Removal of cerclage suture under anesthesia (other than local)",
       "target": [ {
         "code": "59871",
         "display": "Removal of cerclage suture under anesthesia (other than local)",
@@ -932,7 +932,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE726",
-      "display": "59897",
+      "display": "Unlisted fetal invasive procedure, including ultrasound guidance, when performed",
       "target": [ {
         "code": "59897",
         "display": "Unlisted fetal invasive procedure, including ultrasound guidance, when performed",
@@ -940,7 +940,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE727",
-      "display": "59898",
+      "display": "Unlisted laparoscopy procedure, maternity care and delivery",
       "target": [ {
         "code": "59898",
         "display": "Unlisted laparoscopy procedure, maternity care and delivery",
@@ -948,7 +948,7 @@
       } ]
     }, {
       "code": "NACHC.F2.DE728",
-      "display": "59899",
+      "display": "Unlisted procedure, maternity care and delivery",
       "target": [ {
         "code": "59899",
         "display": "Unlisted procedure, maternity care and delivery",

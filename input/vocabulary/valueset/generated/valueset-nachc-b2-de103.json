@@ -13,31 +13,31 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.B2.DE103",
-        "display": "86038"
+        "display": "Antinuclear antibodies (ANA)"
       }, {
         "code": "NACHC.B2.DE104",
-        "display": "86803"
+        "display": "Hepatitis C antibody"
       }, {
         "code": "NACHC.B2.DE105",
-        "display": "86804"
+        "display": "Hepatitis C antibody; confirmatory test (eg, immunoblot)"
       }, {
         "code": "NACHC.B2.DE106",
-        "display": "87520"
+        "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique"
       }, {
         "code": "NACHC.B2.DE107",
-        "display": "87521"
+        "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed"
       }, {
         "code": "NACHC.B2.DE108",
-        "display": "87522"
+        "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed"
       }, {
         "code": "NACHC.B2.DE109",
-        "display": "87902"
+        "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus"
       }, {
         "code": "NACHC.B2.DE110",
-        "display": "1014274"
+        "display": "Hepatitis C antibody"
       }, {
         "code": "NACHC.B2.DE111",
-        "display": "G0472"
+        "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
       } ]
     } ]
   }

@@ -9,7 +9,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.F2.DE673",
-      "display": "57022"
+      "display": "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
     }, {
       "system": "http://www.ama-assn.org/go/cpt",
       "code": "57022",

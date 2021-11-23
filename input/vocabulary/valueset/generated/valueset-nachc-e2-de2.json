@@ -13,142 +13,142 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.E2.DE2",
-        "display": "14463-4"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE3",
-        "display": "14464-2"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE4",
-        "display": "14467-5"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE5",
-        "display": "14474-1"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE6",
-        "display": "14513-6"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE7",
-        "display": "16600-9"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE8",
-        "display": "21190-4"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE9",
-        "display": "21191-2"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE10",
-        "display": "21613-5"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE11",
-        "display": "23838-6"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE12",
-        "display": "31775-0"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE13",
-        "display": "31777-6"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE14",
-        "display": "36902-5"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE15",
-        "display": "36903-3"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE16",
-        "display": "43304-5"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE17",
-        "display": "43404-3"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE18",
-        "display": "43405-0"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE19",
-        "display": "43406-8"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE20",
-        "display": "44806-8"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE21",
-        "display": "44807-6"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE22",
-        "display": "45068-4"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE23",
-        "display": "45069-2"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE24",
-        "display": "45075-9"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE25",
-        "display": "45076-7"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE26",
-        "display": "45084-1"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE27",
-        "display": "45091-6"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE28",
-        "display": "45095-7"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE29",
-        "display": "45098-1"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE30",
-        "display": "45100-5"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE31",
-        "display": "47211-8"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE32",
-        "display": "47212-6"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE33",
-        "display": "49096-1"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE34",
-        "display": "1129729"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE35",
-        "display": "50387-0"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE36",
-        "display": "53925-4"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE37",
-        "display": "53926-2"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE38",
-        "display": "557-9"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE39",
-        "display": "560-3"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE40",
-        "display": "1625086"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE41",
-        "display": "1626912"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE42",
-        "display": "1627188"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE43",
-        "display": "6356-0"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE44",
-        "display": "1628100"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE45",
-        "display": "80360-1"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE46",
-        "display": "80361-9"
+        "display": "Chlamydia Screening"
       }, {
         "code": "NACHC.E2.DE47",
-        "display": "80362-7"
+        "display": "Chlamydia Screening"
       } ]
     } ]
   }

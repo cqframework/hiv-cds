@@ -9,7 +9,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE113",
-      "display": "3218F"
+      "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)"
     }, {
       "system": "http://www.ama-assn.org/go/cpt",
       "code": "3218F",

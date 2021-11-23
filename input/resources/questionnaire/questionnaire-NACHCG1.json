@@ -16,7 +16,7 @@
   } ],
   "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCG1",
   "name": "NACHCG1",
-  "title": "NACHC.G1 Post Exposure Prophylaxis",
+  "title": "NACHC.G1 Pep",
   "status": "active",
   "experimental": false,
   "description": "TODO: description goes here",
@@ -30,7 +30,7 @@
       "coding": [ {
         "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
         "code": "NACHC.G1",
-        "display": "Post Exposure Prophylaxis"
+        "display": "Pep"
       } ]
     }
   } ],

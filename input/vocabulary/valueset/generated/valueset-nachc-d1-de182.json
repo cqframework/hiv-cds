@@ -13,46 +13,46 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.D1.DE182",
-        "display": "10754031000119100"
+        "display": "Gonorrhea in mother complicating childbirth (disorder)"
       }, {
         "code": "NACHC.D1.DE183",
-        "display": "1086991000119100"
+        "display": "Gonococcal abscess of brain (disorder)"
       }, {
         "code": "NACHC.D1.DE184",
-        "display": "1087001000119110"
+        "display": "Infection of anus and rectum caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE185",
-        "display": "1087011000119110"
+        "display": "Infection of lower genitourinary tract co-occurrent with abscess of periurethral gland caused by Gonococcus (disorder)"
       }, {
         "code": "NACHC.D1.DE186",
-        "display": "1087061000119110"
+        "display": "Gonococcal pneumonia (disorder)"
       }, {
         "code": "NACHC.D1.DE187",
-        "display": "1092501000119100"
+        "display": "Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)"
       }, {
         "code": "NACHC.D1.DE188",
-        "display": "1092601000119100"
+        "display": "Severe sepsis with acute organ dysfunction caused by Gonococcus (disorder)"
       }, {
         "code": "NACHC.D1.DE189",
-        "display": "194910001"
+        "display": "Acute gonococcal pericarditis (disorder)"
       }, {
         "code": "NACHC.D1.DE190",
-        "display": "240580007"
+        "display": "Gonococcal penile fistula (disorder)"
       }, {
         "code": "NACHC.D1.DE191",
-        "display": "240584003"
+        "display": "Gonococcal cellulitis (disorder)"
       }, {
         "code": "NACHC.D1.DE192",
-        "display": "342381000119109"
+        "display": "Gonococcal iritis (disorder)"
       }, {
         "code": "NACHC.D1.DE193",
-        "display": "733131001"
+        "display": "Infection of musculoskeletal system caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE194",
-        "display": "735516004"
+        "display": "Infection of genitourinary system caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE195",
-        "display": "90428001"
+        "display": "Gonococcal pericarditis (disorder)"
       } ]
     } ]
   }

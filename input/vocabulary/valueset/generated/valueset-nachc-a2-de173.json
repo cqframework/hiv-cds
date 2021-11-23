@@ -13,133 +13,133 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.A2.DE173",
-        "display": "30245-5"
+        "display": "Deprecated HIV 1 DNA [Presence] in Serum or Plasma by Probe and target amplification method"
       }, {
         "code": "NACHC.A2.DE174",
-        "display": "44871-2"
+        "display": "HIV 1 proviral DNA [Presence] in Blood by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE175",
-        "display": "2899083"
+        "display": "HIV 1 proviral DNA [Presence] in Blood by Probe with amplification"
       }, {
         "code": "NACHC.A2.DE176",
-        "display": "48023-6"
+        "display": "HIV 1 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE177",
-        "display": "41498-7"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE178",
-        "display": "70241-5"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL"
       }, {
         "code": "NACHC.A2.DE179",
-        "display": "59419-2"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification"
       }, {
         "code": "NACHC.A2.DE180",
-        "display": "20447-9"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE181",
-        "display": "21008-8"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe"
       }, {
         "code": "NACHC.A2.DE182",
-        "display": "48551-6"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 400 copies/mL"
       }, {
         "code": "NACHC.A2.DE183",
-        "display": "48511-0"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL"
       }, {
         "code": "NACHC.A2.DE184",
-        "display": "41513-3"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 400 copies/mL"
       }, {
         "code": "NACHC.A2.DE185",
-        "display": "41515-8"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL"
       }, {
         "code": "NACHC.A2.DE186",
-        "display": "25836-8"
+        "display": "HIV 1 RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE187",
-        "display": "21333-0"
+        "display": "HIV 1 RNA [#/volume] in Serum"
       }, {
         "code": "NACHC.A2.DE188",
-        "display": "24013-5"
+        "display": "HIV 1 RNA [Interpretation] in Serum"
       }, {
         "code": "NACHC.A2.DE189",
-        "display": "41497-9"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE190",
-        "display": "29539-4"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification"
       }, {
         "code": "NACHC.A2.DE191",
-        "display": "29541-0"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE192",
-        "display": "51780-5"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL"
       }, {
         "code": "NACHC.A2.DE193",
-        "display": "48510-2"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL"
       }, {
         "code": "NACHC.A2.DE194",
-        "display": "48552-4"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL"
       }, {
         "code": "NACHC.A2.DE195",
-        "display": "41516-6"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL"
       }, {
         "code": "NACHC.A2.DE196",
-        "display": "41514-1"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL"
       }, {
         "code": "NACHC.A2.DE197",
-        "display": "49890-7"
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE198",
-        "display": "1138706"
+        "display": "HIV 1 RNA [Presence] in Blood by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE199",
-        "display": "42917-5"
+        "display": "HIV 1 RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE200",
-        "display": "25835-0"
+        "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE201",
-        "display": "47359-5"
+        "display": "HIV 1 RNA [Presence] in Serum or Plasma from Donor by Probe with amplification"
       }, {
         "code": "NACHC.A2.DE202",
-        "display": "1139009"
+        "display": "HIV 1 RNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE203",
-        "display": "23876-6"
+        "display": "HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification"
       }, {
         "code": "NACHC.A2.DE204",
-        "display": "62469-2"
+        "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE205",
-        "display": "10351-5"
+        "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification"
       }, {
         "code": "NACHC.A2.DE206",
-        "display": "50624-6"
+        "display": "HIV 1 RNA panel (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE207",
-        "display": "53825-6"
+        "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE208",
-        "display": "38998-1"
+        "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE209",
-        "display": "59052-1"
+        "display": "HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE210",
-        "display": "25841-8"
+        "display": "HIV 2 proviral DNA [Presence] in Blood by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE211",
-        "display": "34699-9"
+        "display": "HIV 2 proviral DNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE212",
-        "display": "25842-6"
+        "display": "HIV 2 proviral DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE213",
-        "display": "69353-1"
+        "display": "HIV 2 RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE214",
-        "display": "69354-9"
+        "display": "HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
         "code": "NACHC.A2.DE215",
-        "display": "2898779"
+        "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
       } ]
     } ]
   }

@@ -8,7 +8,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.F2.DE39",
-      "display": "Z34.03"
+      "display": "Encounter for supervision of normal first pregnancy, third trimester"
     }, {
       "system": "http://hl7.org/fhir/sid/icd-10",
       "code": "Z34.03",

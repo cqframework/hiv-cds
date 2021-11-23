@@ -13,7 +13,7 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.E2.DE123",
-        "display": "35729-3"
+        "display": "Chlamydia Trachomatis Tests, FPAR"
       } ]
     } ]
   }

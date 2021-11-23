@@ -1,12 +1,13 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+  "version" : "2021",
   "code" : "B20",
   "display" : "Human immunodeficiency virus [HIV] disease"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Human immunodeficiency virus [HIV] disease",
-  "severity" : null,
-  "error" : ""
+  "code" : "B20",
+  "system" : "http://hl7.org/fhir/sid/icd-10-cm"
 }
 -------------------------------------------------------------------------------------

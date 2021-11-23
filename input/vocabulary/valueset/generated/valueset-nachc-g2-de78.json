@@ -13,7 +13,7 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G2.DE78",
-        "display": "61958-2301"
+        "display": "TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (VEMLIDY)"
       } ]
     } ]
   }

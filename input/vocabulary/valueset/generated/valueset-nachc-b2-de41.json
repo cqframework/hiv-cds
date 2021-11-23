@@ -13,118 +13,118 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.B2.DE41",
-        "display": "75887-0"
+        "display": "HCV antibody RIBA tests - Meaningful Use set by Immunoblot"
       }, {
         "code": "NACHC.B2.DE42",
-        "display": "23870-9"
+        "display": "Hepatitis C virus 100+5-1-1 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE43",
-        "display": "2815291"
+        "display": "Hepatitis C virus 100-3 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE44",
-        "display": "2815900"
+        "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE45",
-        "display": "11076-7"
+        "display": "Hepatitis C virus 5-1-1 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE46",
-        "display": "1205057"
+        "display": "Hepatitis C virus Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE47",
-        "display": "24011-9"
+        "display": "Hepatitis C virus Ab band pattern [Interpretation] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE48",
-        "display": "56926-9"
+        "display": "Hepatitis C virus c1 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE49",
-        "display": "51649-2"
+        "display": "Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE50",
-        "display": "56927-7"
+        "display": "Hepatitis C virus c2 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE51",
-        "display": "44813-4"
+        "display": "Hepatitis C virus c22p Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE52",
-        "display": "2816203"
+        "display": "Hepatitis C virus c33c Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE53",
-        "display": "56928-5"
+        "display": "Hepatitis C virus E2 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE54",
-        "display": "33462-3"
+        "display": "Hepatitis C virus IgG Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE55",
-        "display": "34162-8"
+        "display": "Hepatitis C virus IgG band pattern [Interpretation] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE56",
-        "display": "56929-3"
+        "display": "Hepatitis C virus NS3 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE57",
-        "display": "56930-1"
+        "display": "Hepatitis C virus NS4 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE58",
-        "display": "23871-7"
+        "display": "Hepatitis C virus NS5 Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE59",
-        "display": "11077-5"
+        "display": "Hepatitis C virus superoxide dismutase Ab [Presence] in Serum by Immunoblot"
       }, {
         "code": "NACHC.B2.DE61",
-        "display": "75886-2"
+        "display": "HCV antibody screening - Meaningful Use set"
       }, {
         "code": "NACHC.B2.DE62",
-        "display": "22324-8"
+        "display": "Hepatitis C virus 100-3 Ab [Presence] in Serum"
       }, {
         "code": "NACHC.B2.DE63",
-        "display": "22325-5"
+        "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum"
       }, {
         "code": "NACHC.B2.DE64",
-        "display": "22326-3"
+        "display": "Hepatitis C virus 5-1-1 Ab [Presence] in Serum"
       }, {
         "code": "NACHC.B2.DE65",
-        "display": "16128-1"
+        "display": "Hepatitis C virus Ab [Presence] in Serum"
       }, {
         "code": "NACHC.B2.DE66",
-        "display": "13955-0"
+        "display": "Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
         "code": "NACHC.B2.DE67",
-        "display": "72376-7"
+        "display": "Hepatitis C virus Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
         "code": "NACHC.B2.DE68",
-        "display": "22327-1"
+        "display": "Hepatitis C virus Ab [Units/volume] in Serum"
       }, {
         "code": "NACHC.B2.DE69",
-        "display": "1204753"
+        "display": "Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay"
       }, {
         "code": "NACHC.B2.DE70",
-        "display": "48159-8"
+        "display": "Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay"
       }, {
         "code": "NACHC.B2.DE71",
-        "display": "44831-6"
+        "display": "Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum"
       }, {
         "code": "NACHC.B2.DE72",
-        "display": "22329-7"
+        "display": "Hepatitis C virus c33c Ab [Presence] in Serum"
       }, {
         "code": "NACHC.B2.DE73",
-        "display": "16129-9"
+        "display": "Hepatitis C virus IgG Ab [Presence] in Serum"
       }, {
         "code": "NACHC.B2.DE74",
-        "display": "40726-2"
+        "display": "Hepatitis C virus IgG Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
         "code": "NACHC.B2.DE75",
-        "display": "16936-7"
+        "display": "Hepatitis C virus IgG Ab [Units/volume] in Serum"
       }, {
         "code": "NACHC.B2.DE76",
-        "display": "57006-9"
+        "display": "Hepatitis C virus IgG Ab [Units/volume] in Serum by Immunoassay"
       }, {
         "code": "NACHC.B2.DE77",
-        "display": "53376-0"
+        "display": "Hepatitis C virus IgM Ab [Units/volume] in Serum"
       }, {
         "code": "NACHC.B2.DE78",
-        "display": "51824-1"
+        "display": "Hepatitis C virus IgM Ab [Units/volume] in Serum by Immunoassay"
       }, {
         "code": "NACHC.B2.DE79",
-        "display": "22328-9"
+        "display": "Hepatitis C virus superoxide dismutase Ab [Presence] in Serum"
       } ]
     } ]
   }

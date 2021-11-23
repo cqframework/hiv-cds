@@ -13,16 +13,16 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G2.DE18",
-        "display": "1741729"
+        "display": "tenofovir alafenamide 25 MG"
       }, {
         "code": "NACHC.G2.DE19",
-        "display": "1858261"
+        "display": "tenofovir alafenamide 25 MG Oral Tablet"
       }, {
         "code": "NACHC.G2.DE20",
-        "display": "1858263"
+        "display": "tenofovir alafenamide 25 MG [Vemlidy]"
       }, {
         "code": "NACHC.G2.DE21",
-        "display": "1858267"
+        "display": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]"
       } ]
     } ]
   }

@@ -13,499 +13,499 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.D1.DE2",
-        "display": "A50.01"
+        "display": "Early congenital syphilitic oculopathy"
       }, {
         "code": "NACHC.D1.DE3",
-        "display": "A50.02"
+        "display": "Early congenital syphilitic osteochondropathy"
       }, {
         "code": "NACHC.D1.DE4",
-        "display": "A50.03"
+        "display": "Early congenital syphilitic pharyngitis"
       }, {
         "code": "NACHC.D1.DE5",
-        "display": "A50.04"
+        "display": "Early congenital syphilitic pneumonia"
       }, {
         "code": "NACHC.D1.DE6",
-        "display": "A50.05"
+        "display": "Early congenital syphilitic rhinitis"
       }, {
         "code": "NACHC.D1.DE7",
-        "display": "A50.06"
+        "display": "Early cutaneous congenital syphilis"
       }, {
         "code": "NACHC.D1.DE8",
-        "display": "A50.07"
+        "display": "Early mucocutaneous congenital syphilis"
       }, {
         "code": "NACHC.D1.DE9",
-        "display": "A50.08"
+        "display": "Early visceral congenital syphilis"
       }, {
         "code": "NACHC.D1.DE10",
-        "display": "A50.30"
+        "display": "Late congenital syphilitic oculopathy, unspecified"
       }, {
         "code": "NACHC.D1.DE11",
-        "display": "A50.32"
+        "display": "Late congenital syphilitic chorioretinitis"
       }, {
         "code": "NACHC.D1.DE12",
-        "display": "A50.39"
+        "display": "Other late congenital syphilitic oculopathy"
       }, {
         "code": "NACHC.D1.DE13",
-        "display": "A50.43"
+        "display": "Late congenital syphilitic polyneuropathy"
       }, {
         "code": "NACHC.D1.DE14",
-        "display": "A50.44"
+        "display": "Late congenital syphilitic optic nerve atrophy"
       }, {
         "code": "NACHC.D1.DE15",
-        "display": "A50.51"
+        "display": "Clutton's joints"
       }, {
         "code": "NACHC.D1.DE16",
-        "display": "A50.53"
+        "display": "Hutchinson's triad"
       }, {
         "code": "NACHC.D1.DE17",
-        "display": "A50.54"
+        "display": "Late congenital cardiovascular syphilis"
       }, {
         "code": "NACHC.D1.DE18",
-        "display": "A50.55"
+        "display": "Late congenital syphilitic arthropathy"
       }, {
         "code": "NACHC.D1.DE19",
-        "display": "A50.56"
+        "display": "Late congenital syphilitic osteochondropathy"
       }, {
         "code": "NACHC.D1.DE20",
-        "display": "A54.00"
+        "display": "Gonococcal infection of lower genitourinary tract, unspecified"
       }, {
         "code": "NACHC.D1.DE21",
-        "display": "A54.01"
+        "display": "Gonococcal cystitis and urethritis, unspecified"
       }, {
         "code": "NACHC.D1.DE22",
-        "display": "A54.02"
+        "display": "Gonococcal vulvovaginitis, unspecified"
       }, {
         "code": "NACHC.D1.DE23",
-        "display": "A54.03"
+        "display": "Gonococcal cervicitis, unspecified"
       }, {
         "code": "NACHC.D1.DE24",
-        "display": "A54.09"
+        "display": "Other gonococcal infection of lower genitourinary tract"
       }, {
         "code": "NACHC.D1.DE25",
-        "display": "A54.1"
+        "display": "Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess"
       }, {
         "code": "NACHC.D1.DE26",
-        "display": "A54.21"
+        "display": "Gonococcal infection of kidney and ureter"
       }, {
         "code": "NACHC.D1.DE27",
-        "display": "A54.22"
+        "display": "Gonococcal prostatitis"
       }, {
         "code": "NACHC.D1.DE28",
-        "display": "A54.23"
+        "display": "Gonococcal infection of other male genital organs"
       }, {
         "code": "NACHC.D1.DE29",
-        "display": "A54.24"
+        "display": "Gonococcal female pelvic inflammatory disease"
       }, {
         "code": "NACHC.D1.DE30",
-        "display": "A54.29"
+        "display": "Other gonococcal genitourinary infections"
       }, {
         "code": "NACHC.D1.DE31",
-        "display": "A54.30"
+        "display": "Gonococcal infection of eye, unspecified"
       }, {
         "code": "NACHC.D1.DE32",
-        "display": "A54.31"
+        "display": "Gonococcal conjunctivitis"
       }, {
         "code": "NACHC.D1.DE33",
-        "display": "A54.32"
+        "display": "Gonococcal iridocyclitis"
       }, {
         "code": "NACHC.D1.DE34",
-        "display": "A54.33"
+        "display": "Gonococcal keratitis"
       }, {
         "code": "NACHC.D1.DE35",
-        "display": "A54.39"
+        "display": "Other gonococcal eye infection"
       }, {
         "code": "NACHC.D1.DE36",
-        "display": "A54.40"
+        "display": "Gonococcal infection of musculoskeletal system, unspecified"
       }, {
         "code": "NACHC.D1.DE37",
-        "display": "A54.41"
+        "display": "Gonococcal spondylopathy"
       }, {
         "code": "NACHC.D1.DE38",
-        "display": "A54.42"
+        "display": "Gonococcal arthritis"
       }, {
         "code": "NACHC.D1.DE39",
-        "display": "A54.43"
+        "display": "Gonococcal osteomyelitis"
       }, {
         "code": "NACHC.D1.DE40",
-        "display": "A54.49"
+        "display": "Gonococcal infection of other musculoskeletal tissue"
       }, {
         "code": "NACHC.D1.DE41",
-        "display": "A54.5"
+        "display": "Gonococcal pharyngitis"
       }, {
         "code": "NACHC.D1.DE42",
-        "display": "A54.6"
+        "display": "Gonococcal infection of anus and rectum"
       }, {
         "code": "NACHC.D1.DE43",
-        "display": "A54.81"
+        "display": "Gonococcal meningitis"
       }, {
         "code": "NACHC.D1.DE44",
-        "display": "A54.82"
+        "display": "Gonococcal brain abscess"
       }, {
         "code": "NACHC.D1.DE45",
-        "display": "A54.83"
+        "display": "Gonococcal heart infection"
       }, {
         "code": "NACHC.D1.DE46",
-        "display": "A54.84"
+        "display": "Gonococcal pneumonia"
       }, {
         "code": "NACHC.D1.DE47",
-        "display": "A54.85"
+        "display": "Gonococcal peritonitis"
       }, {
         "code": "NACHC.D1.DE48",
-        "display": "A54.86"
+        "display": "Gonococcal sepsis"
       }, {
         "code": "NACHC.D1.DE49",
-        "display": "A54.89"
+        "display": "Other gonococcal infections"
       }, {
         "code": "NACHC.D1.DE50",
-        "display": "A54.9"
+        "display": "Gonococcal infection, unspecified"
       }, {
         "code": "NACHC.D1.DE51",
-        "display": "A57"
+        "display": "Chancroid"
       }, {
         "code": "NACHC.D1.DE52",
-        "display": "A58"
+        "display": "Granuloma inguinale"
       }, {
         "code": "NACHC.D1.DE53",
-        "display": "A63.0"
+        "display": "Anogenital (venereal) warts"
       }, {
         "code": "NACHC.D1.DE54",
-        "display": "A63.8"
+        "display": "Other specified predominantly sexually transmitted diseases"
       }, {
         "code": "NACHC.D1.DE55",
-        "display": "A64"
+        "display": "Unspecified sexually transmitted disease"
       }, {
         "code": "NACHC.D1.DE56",
-        "display": "A69.0"
+        "display": "Necrotizing ulcerative stomatitis"
       }, {
         "code": "NACHC.D1.DE57",
-        "display": "A69.1"
+        "display": "Other Vincent's infections"
       }, {
         "code": "NACHC.D1.DE58",
-        "display": "A69.8"
+        "display": "Other specified spirochetal infections"
       }, {
         "code": "NACHC.D1.DE59",
-        "display": "A69.9"
+        "display": "Spirochetal infection, unspecified"
       }, {
         "code": "NACHC.D1.DE60",
-        "display": "1087021000119100"
+        "display": "Periurethral abscess caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE61",
-        "display": "1087041000119110"
+        "display": "Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE62",
-        "display": "1087051000119110"
+        "display": "Gonococcal osteomyelitis (disorder)"
       }, {
         "code": "NACHC.D1.DE63",
-        "display": "110041000119104"
+        "display": "Reactive arthritis co-occurrent and due to nonspecific urethritis (disorder)"
       }, {
         "code": "NACHC.D1.DE64",
-        "display": "111806005"
+        "display": "Acute gonococcal prostatitis (disorder)"
       }, {
         "code": "NACHC.D1.DE65",
-        "display": "111807001"
+        "display": "Gonococcal endophthalmia (disorder)"
       }, {
         "code": "NACHC.D1.DE66",
-        "display": "114881000119108"
+        "display": "Maternal gonorrhea during pregnancy (disorder)"
       }, {
         "code": "NACHC.D1.DE67",
-        "display": "11906007"
+        "display": "Chronic gonococcal vulvovaginitis (disorder)"
       }, {
         "code": "NACHC.D1.DE68",
-        "display": "12373006"
+        "display": "Chronic gonococcal bartholinitis (disorder)"
       }, {
         "code": "NACHC.D1.DE69",
-        "display": "151004"
+        "display": "Gonococcal meningitis (disorder)"
       }, {
         "code": "NACHC.D1.DE70",
-        "display": "15628003"
+        "display": "Gonorrhea (disorder)"
       }, {
         "code": "NACHC.D1.DE71",
-        "display": "16217981000119100"
+        "display": "Infection of upper genitourinary tract caused by Neisseria gonorrheae (disorder)"
       }, {
         "code": "NACHC.D1.DE72",
-        "display": "17305005"
+        "display": "Acute gonorrhea of genitourinary tract (disorder)"
       }, {
         "code": "NACHC.D1.DE73",
-        "display": "186915005"
+        "display": "Chronic gonorrhea lower genitourinary tract (disorder)"
       }, {
         "code": "NACHC.D1.DE74",
-        "display": "186931002"
+        "display": "Gonococcal anal infection (disorder)"
       }, {
         "code": "NACHC.D1.DE75",
-        "display": "186939000"
+        "display": "Gonococcal peritonitis (disorder)"
       }, {
         "code": "NACHC.D1.DE76",
-        "display": "186946009"
+        "display": "Lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.D1.DE77",
-        "display": "197848003"
+        "display": "Gonococcal cystitis (disorder)"
       }, {
         "code": "NACHC.D1.DE78",
-        "display": "197967000"
+        "display": "Gonococcal prostatitis (disorder)"
       }, {
         "code": "NACHC.D1.DE79",
-        "display": "198242009"
+        "display": "Female gonococcal pelvic inflammatory disease (disorder)"
       }, {
         "code": "NACHC.D1.DE80",
-        "display": "199161008"
+        "display": "Maternal gonorrhea during pregnancy, childbirth and the puerperium (disorder)"
       }, {
         "code": "NACHC.D1.DE81",
-        "display": "199163006"
+        "display": "Maternal gonorrhea during pregnancy - baby delivered (disorder)"
       }, {
         "code": "NACHC.D1.DE82",
-        "display": "199164000"
+        "display": "Maternal gonorrhea in the puerperium - baby delivered during current episode of care (disorder)"
       }, {
         "code": "NACHC.D1.DE83",
-        "display": "199165004"
+        "display": "Maternal gonorrhea during pregnancy - baby not yet delivered (disorder)"
       }, {
         "code": "NACHC.D1.DE84",
-        "display": "199166003"
+        "display": "Maternal gonorrhea in the puerperium - baby delivered during previous episode of care (disorder)"
       }, {
         "code": "NACHC.D1.DE85",
-        "display": "20943002"
+        "display": "Acute gonococcal cervicitis (disorder)"
       }, {
         "code": "NACHC.D1.DE86",
-        "display": "231858009"
+        "display": "Gonococcal conjunctivitis (disorder)"
       }, {
         "code": "NACHC.D1.DE87",
-        "display": "235861001"
+        "display": "Abscess gonococcal (disorder)"
       }, {
         "code": "NACHC.D1.DE88",
-        "display": "235863003"
+        "display": "Gonococcal hepatitis (disorder)"
       }, {
         "code": "NACHC.D1.DE89",
-        "display": "236682002"
+        "display": "Gonococcal urethritis (disorder)"
       }, {
         "code": "NACHC.D1.DE90",
-        "display": "236687008"
+        "display": "Gonococcal urethral abscess (disorder)"
       }, {
         "code": "NACHC.D1.DE91",
-        "display": "236766009"
+        "display": "Gonococcal epididymitis (disorder)"
       }, {
         "code": "NACHC.D1.DE92",
-        "display": "236772009"
+        "display": "Gonococcal epididymo-orchitis (disorder)"
       }, {
         "code": "NACHC.D1.DE93",
-        "display": "237038001"
+        "display": "Gonococcal salpingitis (disorder)"
       }, {
         "code": "NACHC.D1.DE94",
-        "display": "237042003"
+        "display": "Gonococcal perihepatitis (disorder)"
       }, {
         "code": "NACHC.D1.DE95",
-        "display": "237046000"
+        "display": "Gonococcal tubo-ovarian abscess (disorder)"
       }, {
         "code": "NACHC.D1.DE96",
-        "display": "237069002"
+        "display": "Gonococcal endometritis (disorder)"
       }, {
         "code": "NACHC.D1.DE97",
-        "display": "237083000"
+        "display": "Gonococcal cervicitis (disorder)"
       }, {
         "code": "NACHC.D1.DE98",
-        "display": "237095000"
+        "display": "Gonococcal vulvovaginitis (disorder)"
       }, {
         "code": "NACHC.D1.DE99",
-        "display": "237096004"
+        "display": "Neonatal gonococcal vulvovaginitis (disorder)"
       }, {
         "code": "NACHC.D1.DE100",
-        "display": "238419002"
+        "display": "Gonococcal lymphangitis of penis (disorder)"
       }, {
         "code": "NACHC.D1.DE101",
-        "display": "2390000"
+        "display": "Acute gonococcal vulvovaginitis (disorder)"
       }, {
         "code": "NACHC.D1.DE102",
-        "display": "23975003"
+        "display": "Chronic gonococcal seminal vesiculitis (disorder)"
       }, {
         "code": "NACHC.D1.DE103",
-        "display": "239785008"
+        "display": "Post-dysenteric reactive arthritis (disorder)"
       }, {
         "code": "NACHC.D1.DE104",
-        "display": "239808004"
+        "display": "Juvenile reactive arthritis triad (disorder)"
       }, {
         "code": "NACHC.D1.DE105",
-        "display": "240039005"
+        "display": "Gonococcal tenosynovitis (disorder)"
       }, {
         "code": "NACHC.D1.DE106",
-        "display": "240571007"
+        "display": "Neonatal gonococcal infection (disorder)"
       }, {
         "code": "NACHC.D1.DE107",
-        "display": "240572000"
+        "display": "Gonorrhea with local complication (disorder)"
       }, {
         "code": "NACHC.D1.DE108",
-        "display": "240573005"
+        "display": "Gonococcal Bartholin's gland abscess (disorder)"
       }, {
         "code": "NACHC.D1.DE109",
-        "display": "240574004"
+        "display": "Gonococcal Skenitis (disorder)"
       }, {
         "code": "NACHC.D1.DE110",
-        "display": "240575003"
+        "display": "Gonococcal Tysonitis (disorder)"
       }, {
         "code": "NACHC.D1.DE111",
-        "display": "240576002"
+        "display": "Gonococcal Cowperitis (disorder)"
       }, {
         "code": "NACHC.D1.DE112",
-        "display": "240577006"
+        "display": "Gonococcal Littritis (disorder)"
       }, {
         "code": "NACHC.D1.DE113",
-        "display": "240578001"
+        "display": "Gonococcal Littré gland abscess (disorder)"
       }, {
         "code": "NACHC.D1.DE114",
-        "display": "240579009"
+        "display": "Gonococcal paraurethral gland abscess (disorder)"
       }, {
         "code": "NACHC.D1.DE115",
-        "display": "240581006"
+        "display": "Gonococcal female pelvic infection (disorder)"
       }, {
         "code": "NACHC.D1.DE116",
-        "display": "240582004"
+        "display": "Gonococcal synovitis (disorder)"
       }, {
         "code": "NACHC.D1.DE117",
-        "display": "240583009"
+        "display": "Cutaneous gonorrhea (disorder)"
       }, {
         "code": "NACHC.D1.DE118",
-        "display": "240602008"
+        "display": "Early lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.D1.DE119",
-        "display": "240603003"
+        "display": "Late lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.D1.DE120",
-        "display": "240604009"
+        "display": "Latent lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.D1.DE121",
-        "display": "24868007"
+        "display": "Acute gonococcal cystitis (disorder)"
       }, {
         "code": "NACHC.D1.DE122",
-        "display": "272006008"
+        "display": "Gonococcal arthritis dermatitis syndrome (disorder)"
       }, {
         "code": "NACHC.D1.DE123",
-        "display": "272262003"
+        "display": "Esthiomene (disorder)"
       }, {
         "code": "NACHC.D1.DE124",
-        "display": "27681008"
+        "display": "Chronic gonorrhea (disorder)"
       }, {
         "code": "NACHC.D1.DE125",
-        "display": "28438004"
+        "display": "Gonococcal conjunctivitis neonatorum (disorder)"
       }, {
         "code": "NACHC.D1.DE126",
-        "display": "28572009"
+        "display": "Chronic gonorrhea of genitourinary tract (disorder)"
       }, {
         "code": "NACHC.D1.DE127",
-        "display": "29864006"
+        "display": "Acute gonococcal urethritis (disorder)"
       }, {
         "code": "NACHC.D1.DE128",
-        "display": "30168008"
+        "display": "Acute gonococcal epididymo-orchitis (disorder)"
       }, {
         "code": "NACHC.D1.DE129",
-        "display": "301990003"
+        "display": "Gonococcal seminal vesiculitis (disorder)"
       }, {
         "code": "NACHC.D1.DE130",
-        "display": "307423008"
+        "display": "Gonococcal pelvic peritonitis (disorder)"
       }, {
         "code": "NACHC.D1.DE131",
-        "display": "31999004"
+        "display": "Chronic gonococcal endometritis (disorder)"
       }, {
         "code": "NACHC.D1.DE132",
-        "display": "35526001"
+        "display": "Chronic gonococcal epididymo-orchitis (disorder)"
       }, {
         "code": "NACHC.D1.DE133",
-        "display": "35876006"
+        "display": "Gonococcal infection of eye (disorder)"
       }, {
         "code": "NACHC.D1.DE134",
-        "display": "40149008"
+        "display": "Gonococcal keratitis (disorder)"
       }, {
         "code": "NACHC.D1.DE135",
-        "display": "402956009"
+        "display": "Localized cutaneous gonococcal infection (disorder)"
       }, {
         "code": "NACHC.D1.DE136",
-        "display": "402957000"
+        "display": "Gonococcal bartholinitis (disorder)"
       }, {
         "code": "NACHC.D1.DE137",
-        "display": "402958005"
+        "display": "Pustular vasculitis caused by gonococcal bacteraemia (disorder)"
       }, {
         "code": "NACHC.D1.DE138",
-        "display": "406581000"
+        "display": "Gonococcal infection of the central nervous system (disorder)"
       }, {
         "code": "NACHC.D1.DE139",
-        "display": "42746002"
+        "display": "Gonorrhea of rectum (disorder)"
       }, {
         "code": "NACHC.D1.DE140",
-        "display": "44412000"
+        "display": "Chronic gonococcal urethritis (disorder)"
       }, {
         "code": "NACHC.D1.DE141",
-        "display": "444834005"
+        "display": "Abscess of urethral gland caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE142",
-        "display": "44743006"
+        "display": "Gonococcal infection of joint (disorder)"
       }, {
         "code": "NACHC.D1.DE143",
-        "display": "45377007"
+        "display": "Acute gonococcal salpingitis (disorder)"
       }, {
         "code": "NACHC.D1.DE144",
-        "display": "46699001"
+        "display": "Bursitis caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE145",
-        "display": "5085001"
+        "display": "Gonococcemia (disorder)"
       }, {
         "code": "NACHC.D1.DE146",
-        "display": "50970007"
+        "display": "Acute gonorrhea of upper genitourinary tract (disorder)"
       }, {
         "code": "NACHC.D1.DE147",
-        "display": "53529004"
+        "display": "Chronic gonococcal salpingitis (disorder)"
       }, {
         "code": "NACHC.D1.DE148",
-        "display": "53664003"
+        "display": "Gonococcal spondylitis (disorder)"
       }, {
         "code": "NACHC.D1.DE149",
-        "display": "54825009"
+        "display": "Acute gonorrhea of lower genitourinary tract (disorder)"
       }, {
         "code": "NACHC.D1.DE150",
-        "display": "60335002"
+        "display": "Gonococcal keratosis (disorder)"
       }, {
         "code": "NACHC.D1.DE151",
-        "display": "60893000"
+        "display": "Chronic gonococcal prostatitis (disorder)"
       }, {
         "code": "NACHC.D1.DE152",
-        "display": "61048000"
+        "display": "Gonococcal endocarditis (disorder)"
       }, {
         "code": "NACHC.D1.DE153",
-        "display": "65049003"
+        "display": "Acute gonococcal seminal vesiculitis (disorder)"
       }, {
         "code": "NACHC.D1.DE154",
-        "display": "65295003"
+        "display": "Acute gonococcal endometritis (disorder)"
       }, {
         "code": "NACHC.D1.DE155",
-        "display": "67224007"
+        "display": "Reactive arthritis triad (disorder)"
       }, {
         "code": "NACHC.D1.DE156",
-        "display": "713261005"
+        "display": "Gingival disease caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE157",
-        "display": "719755001"
+        "display": "Conjunctivitis of adulthood caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE158",
-        "display": "72225002"
+        "display": "Urethral stricture due to gonococcal infection (disorder)"
       }, {
         "code": "NACHC.D1.DE159",
-        "display": "74372003"
+        "display": "Gonorrhea of pharynx (disorder)"
       }, {
         "code": "NACHC.D1.DE160",
-        "display": "762257007"
+        "display": "Disseminated infection caused by Neisseria gonorrhoeae (disorder)"
       }, {
         "code": "NACHC.D1.DE161",
-        "display": "76802005"
+        "display": "Chronic gonococcal cervicitis (disorder)"
       }, {
         "code": "NACHC.D1.DE162",
-        "display": "80388004"
+        "display": "Chronic gonorrhea of upper genitourinary tract (disorder)"
       }, {
         "code": "NACHC.D1.DE163",
-        "display": "80604007"
+        "display": "Acute gonococcal bartholinitis (disorder)"
       }, {
         "code": "NACHC.D1.DE164",
-        "display": "88813005"
+        "display": "Chronic gonococcal cystitis (disorder)"
       }, {
         "code": "NACHC.D1.DE165",
-        "display": "9091006"
+        "display": "Gonococcal iridocyclitis (disorder)"
       }, {
         "code": "NACHC.D1.DE166",
-        "display": "9241004"
+        "display": "Gonococcal heart disease (disorder)"
       } ]
     } ]
   }

@@ -13,88 +13,88 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G2.DE79",
-        "display": "0093-7104"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE80",
-        "display": "0904-6821"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
         "code": "NACHC.G2.DE81",
-        "display": "16714-820"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE82",
-        "display": "24236-284"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE83",
-        "display": "31722-535"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE84",
-        "display": "33342-096"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
         "code": "NACHC.G2.DE85",
-        "display": "42291-800"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE86",
-        "display": "42385-901"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE87",
-        "display": "50090-0754"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE88",
-        "display": "50268-758"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
         "code": "NACHC.G2.DE89",
-        "display": "53808-0810"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE90",
-        "display": "53808-1128"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
         "code": "NACHC.G2.DE91",
-        "display": "54569-5334"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE92",
-        "display": "55154-4426"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE93",
-        "display": "60505-4666"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED"
       }, {
         "code": "NACHC.G2.DE94",
-        "display": "60687-366"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE95",
-        "display": "61958-0401"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE96",
-        "display": "64380-714"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
         "code": "NACHC.G2.DE97",
-        "display": "65862-421"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE98",
-        "display": "67184-0521"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED"
       }, {
         "code": "NACHC.G2.DE99",
-        "display": "69025-103"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE100",
-        "display": "69076-105"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED"
       }, {
         "code": "NACHC.G2.DE101",
-        "display": "69097-533"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
         "code": "NACHC.G2.DE102",
-        "display": "69189-0401"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE103",
-        "display": "70518-0546"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
       }, {
         "code": "NACHC.G2.DE104",
-        "display": "70518-0918"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
         "code": "NACHC.G2.DE105",
-        "display": "70518-1002"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
         "code": "NACHC.G2.DE106",
-        "display": "70518-2151"
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       } ]
     } ]
   }

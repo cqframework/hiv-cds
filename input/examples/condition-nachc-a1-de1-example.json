@@ -20,7 +20,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.A1.DE2",
-      "display": "713533000"
+      "display": "Acquired hemolytic anemia co-occurrent with human immunodeficiency virus infection (disorder)"
     }, {
       "system": "http://snomed.info/sct",
       "code": "713533000",

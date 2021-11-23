@@ -6,7 +6,7 @@
   "title": "Hepatitis C Test Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-19T17:09:39-07:00",
+  "date": "2021-11-22T11:11:33-08:00",
   "description": "Group Valueset with codes representing possible values for the Hepatitis C Test Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -23,431 +23,431 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-11-19T17:09:39-07:00",
+    "timestamp": "2021-11-22T11:11:33-08:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE2",
-      "display": "79189-7"
+      "display": "Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE3",
-      "display": "54914-7"
+      "display": "Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE5",
-      "display": "51657-5"
+      "display": "Hepatitis C virus Ab [Presence] in Body fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE6",
-      "display": "39008-8"
+      "display": "Hepatitis C virus Ab [Presence] in Body fluid by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE7",
-      "display": "42506-6"
+      "display": "Hepatitis C virus Ab [Presence] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE8",
-      "display": "51656-7"
+      "display": "Hepatitis C virus Ab Signal/Cutoff in Body fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE9",
-      "display": "81116-6"
+      "display": "Hepatitis C virus core Ab+Ag [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE10",
-      "display": "48574-8"
+      "display": "Hepatitis C virus genotype [Identifier] in Blood by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE11",
-      "display": "32286-7"
+      "display": "Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE12",
-      "display": "49607-5"
+      "display": "Hepatitis C virus genotype [Identifier] in Tissue by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE13",
-      "display": "48575-5"
+      "display": "Hepatitis C virus genotype [Identifier] in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE14",
-      "display": "82512-5"
+      "display": "Hepatitis C virus genotype 1 [Type] in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE15",
-      "display": "82380-7"
+      "display": "Hepatitis C virus genotype 1 NS5a gene mutations detected [Identifier]"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE16",
-      "display": "82381-5"
+      "display": "Hepatitis C virus genotype 1 NS5b gene mutations detected [Identifier]"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE17",
-      "display": "82513-3"
+      "display": "Hepatitis C virus genotype 3 [Presence] in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE18",
-      "display": "82514-1"
+      "display": "Hepatitis C virus genotype 3 NS5a gene mutations detected [Identifier]"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE19",
-      "display": "92731-9"
+      "display": "Hepatitis C virus genotype in Serum or Plasma by Sequencing"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE20",
-      "display": "89359-4"
+      "display": "Hepatitis C virus IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE21",
-      "display": "73654-6"
+      "display": "Hepatitis C virus NS3 gene mutations detected [Identifier] by Genotype method"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE22",
-      "display": "73655-3"
+      "display": "Hepatitis C virus NS5 gene mutations detected [Identifier] by Genotype method"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE23",
-      "display": "49370-0"
+      "display": "Hepatitis C virus RNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE24",
-      "display": "49369-2"
+      "display": "Hepatitis C virus RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE25",
-      "display": "49371-8"
+      "display": "Hepatitis C virus RNA [#/volume] (viral load) in Tissue by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE26",
-      "display": "49374-2"
+      "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Bone marrow by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE27",
-      "display": "49373-4"
+      "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE28",
-      "display": "49375-9"
+      "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Tissue by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE29",
-      "display": "49604-2"
+      "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Bone marrow by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE30",
-      "display": "49603-4"
+      "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE31",
-      "display": "49608-3"
+      "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Tissue by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE32",
-      "display": "51655-9"
+      "display": "Hepatitis C virus RNA [Presence] in Body fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE33",
-      "display": "1136302"
+      "display": "Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE34",
-      "display": "49378-3"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Bone marrow by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE35",
-      "display": "49377-5"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE36",
-      "display": "49379-1"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Tissue by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE37",
-      "display": "53825-6"
+      "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE38",
-      "display": "38998-1"
+      "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE39",
-      "display": "59052-1"
+      "display": "HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE41",
-      "display": "75887-0"
+      "display": "HCV antibody RIBA tests - Meaningful Use set by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE42",
-      "display": "23870-9"
+      "display": "Hepatitis C virus 100+5-1-1 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE43",
-      "display": "2815291"
+      "display": "Hepatitis C virus 100-3 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE44",
-      "display": "2815900"
+      "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE45",
-      "display": "11076-7"
+      "display": "Hepatitis C virus 5-1-1 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE46",
-      "display": "1205057"
+      "display": "Hepatitis C virus Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE47",
-      "display": "24011-9"
+      "display": "Hepatitis C virus Ab band pattern [Interpretation] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE48",
-      "display": "56926-9"
+      "display": "Hepatitis C virus c1 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE49",
-      "display": "51649-2"
+      "display": "Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE50",
-      "display": "56927-7"
+      "display": "Hepatitis C virus c2 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE51",
-      "display": "44813-4"
+      "display": "Hepatitis C virus c22p Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE52",
-      "display": "2816203"
+      "display": "Hepatitis C virus c33c Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE53",
-      "display": "56928-5"
+      "display": "Hepatitis C virus E2 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE54",
-      "display": "33462-3"
+      "display": "Hepatitis C virus IgG Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE55",
-      "display": "34162-8"
+      "display": "Hepatitis C virus IgG band pattern [Interpretation] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE56",
-      "display": "56929-3"
+      "display": "Hepatitis C virus NS3 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE57",
-      "display": "56930-1"
+      "display": "Hepatitis C virus NS4 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE58",
-      "display": "23871-7"
+      "display": "Hepatitis C virus NS5 Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE59",
-      "display": "11077-5"
+      "display": "Hepatitis C virus superoxide dismutase Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE61",
-      "display": "75886-2"
+      "display": "HCV antibody screening - Meaningful Use set"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE62",
-      "display": "22324-8"
+      "display": "Hepatitis C virus 100-3 Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE63",
-      "display": "22325-5"
+      "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE64",
-      "display": "22326-3"
+      "display": "Hepatitis C virus 5-1-1 Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE65",
-      "display": "16128-1"
+      "display": "Hepatitis C virus Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE66",
-      "display": "13955-0"
+      "display": "Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE67",
-      "display": "72376-7"
+      "display": "Hepatitis C virus Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE68",
-      "display": "22327-1"
+      "display": "Hepatitis C virus Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE69",
-      "display": "1204753"
+      "display": "Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE70",
-      "display": "48159-8"
+      "display": "Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE71",
-      "display": "44831-6"
+      "display": "Hepatitis C virus c100p+5-1-1 Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE72",
-      "display": "22329-7"
+      "display": "Hepatitis C virus c33c Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE73",
-      "display": "16129-9"
+      "display": "Hepatitis C virus IgG Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE74",
-      "display": "40726-2"
+      "display": "Hepatitis C virus IgG Ab [Presence] in Serum or Plasma by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE75",
-      "display": "16936-7"
+      "display": "Hepatitis C virus IgG Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE76",
-      "display": "57006-9"
+      "display": "Hepatitis C virus IgG Ab [Units/volume] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE77",
-      "display": "53376-0"
+      "display": "Hepatitis C virus IgM Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE78",
-      "display": "51824-1"
+      "display": "Hepatitis C virus IgM Ab [Units/volume] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE79",
-      "display": "22328-9"
+      "display": "Hepatitis C virus superoxide dismutase Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE81",
-      "display": "75888-8"
+      "display": "HCV RNA screening tests - Meaningful Use set"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE82",
-      "display": "20416-4"
+      "display": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE83",
-      "display": "20571-6"
+      "display": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE84",
-      "display": "49380-9"
+      "display": "Hepatitis C virus RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE85",
-      "display": "47252-2"
+      "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE86",
-      "display": "42003-4"
+      "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE87",
-      "display": "49372-6"
+      "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE88",
-      "display": "38180-6"
+      "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE89",
-      "display": "42617-1"
+      "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE90",
-      "display": "49605-9"
+      "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE91",
-      "display": "1135996"
+      "display": "Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE92",
-      "display": "11259-9"
+      "display": "Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE93",
-      "display": "5012-0"
+      "display": "Hepatitis C virus RNA [Presence] in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE94",
-      "display": "48576-3"
+      "display": "Hepatitis C virus RNA [Presence] in Unspecified specimen by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE95",
-      "display": "11011-4"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE96",
-      "display": "49758-6"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 5 iU/mL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE97",
-      "display": "34704-7"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 iU/mL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE98",
-      "display": "34703-9"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 500 IU/mL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE99",
-      "display": "10676-5"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE100",
-      "display": "29609-5"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE101",
-      "display": "49376-7"
+      "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE102",
-      "display": "50023-1"
+      "display": "Hepatitis C virus RNA panel (viral load) in Serum or Plasma by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE103",
-      "display": "86038"
+      "display": "Antinuclear antibodies (ANA)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE104",
-      "display": "86803"
+      "display": "Hepatitis C antibody"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE105",
-      "display": "86804"
+      "display": "Hepatitis C antibody; confirmatory test (eg, immunoblot)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE106",
-      "display": "87520"
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE107",
-      "display": "87521"
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE108",
-      "display": "87522"
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE109",
-      "display": "87902"
+      "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE110",
-      "display": "1014274"
+      "display": "Hepatitis C antibody"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE111",
-      "display": "G0472"
+      "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
     } ]
   }
 }

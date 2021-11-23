@@ -13,94 +13,94 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.E1.DE32",
-        "display": "186729003"
+        "display": "Chlamydial infection of lower genitourinary tract (disorder)"
       }, {
         "code": "NACHC.E1.DE33",
-        "display": "186731007"
+        "display": "Chlamydial infection of anus and rectum (disorder)"
       }, {
         "code": "NACHC.E1.DE34",
-        "display": "186946009"
+        "display": "Lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.E1.DE35",
-        "display": "188463006"
+        "display": "Chlamydial pelvic inflammatory disease (disorder)"
       }, {
         "code": "NACHC.E1.DE36",
-        "display": "189312004"
+        "display": "Pelvic inflammation with female sterility caused by Chlamydia trachomatis (disorder)"
       }, {
         "code": "NACHC.E1.DE37",
-        "display": "197172005"
+        "display": "Chlamydial peritonitis (disorder)"
       }, {
         "code": "NACHC.E1.DE38",
-        "display": "206289001"
+        "display": "Congenital chlamydial pneumonia (disorder)"
       }, {
         "code": "NACHC.E1.DE39",
-        "display": "232403001"
+        "display": "Chlamydial pharyngitis (disorder)"
       }, {
         "code": "NACHC.E1.DE40",
-        "display": "233610007"
+        "display": "Neonatal chlamydial pneumonia (disorder)"
       }, {
         "code": "NACHC.E1.DE41",
-        "display": "234099003"
+        "display": "Lymphedema due to lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.E1.DE42",
-        "display": "236672003"
+        "display": "Chlamydial prostatitis (disorder)"
       }, {
         "code": "NACHC.E1.DE43",
-        "display": "236683007"
+        "display": "Chlamydial urethritis (disorder)"
       }, {
         "code": "NACHC.E1.DE44",
-        "display": "236749007"
+        "display": "Chlamydial balanitis (disorder)"
       }, {
         "code": "NACHC.E1.DE45",
-        "display": "236767000"
+        "display": "Chlamydial epididymitis (disorder)"
       }, {
         "code": "NACHC.E1.DE46",
-        "display": "236773004"
+        "display": "Chlamydial epididymo-orchitis (disorder)"
       }, {
         "code": "NACHC.E1.DE47",
-        "display": "237039009"
+        "display": "Chlamydial salpingitis (disorder)"
       }, {
         "code": "NACHC.E1.DE48",
-        "display": "237043008"
+        "display": "Chlamydial perihepatitis (disorder)"
       }, {
         "code": "NACHC.E1.DE49",
-        "display": "237084006"
+        "display": "Chlamydial cervicitis (disorder)"
       }, {
         "code": "NACHC.E1.DE50",
-        "display": "237097008"
+        "display": "Chlamydial vulvovaginitis (disorder)"
       }, {
         "code": "NACHC.E1.DE51",
-        "display": "237106009"
+        "display": "Chlamydial bartholinitis (disorder)"
       }, {
         "code": "NACHC.E1.DE52",
-        "display": "238372002"
+        "display": "Chlamydial dermatological disorders (disorder)"
       }, {
         "code": "NACHC.E1.DE53",
-        "display": "240589008"
+        "display": "Chlamydia trachomatis infection (disorder)"
       }, {
         "code": "NACHC.E1.DE54",
-        "display": "240590004"
+        "display": "Neonatal chlamydial infection (disorder)"
       }, {
         "code": "NACHC.E1.DE55",
-        "display": "240602008"
+        "display": "Early lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.E1.DE56",
-        "display": "240603003"
+        "display": "Late lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.E1.DE57",
-        "display": "240604009"
+        "display": "Latent lymphogranuloma venereum (disorder)"
       }, {
         "code": "NACHC.E1.DE58",
-        "display": "272262003"
+        "display": "Esthiomene (disorder)"
       }, {
         "code": "NACHC.E1.DE59",
-        "display": "276681001"
+        "display": "Neonatal chlamydial dacryocystitis (disorder)"
       }, {
         "code": "NACHC.E1.DE60",
-        "display": "367504009"
+        "display": "Pelvic inflammatory disease with female sterility due to Chlamydia trachomatis (disorder)"
       }, {
         "code": "NACHC.E1.DE61",
-        "display": "406566006"
+        "display": "Chlamydial infection of the central nervous system (disorder)"
       } ]
     } ]
   }

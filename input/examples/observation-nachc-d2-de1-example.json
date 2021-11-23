@@ -25,7 +25,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE102",
-      "display": "1675429"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
     }, {
       "system": "http://loinc.org",
       "code": "1675429",

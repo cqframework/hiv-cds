@@ -13,88 +13,88 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.B1.DE33",
-        "display": "121022006"
+        "display": "Antigen of Hepacivirus C (substance)"
       }, {
         "code": "NACHC.B1.DE34",
-        "display": "121185009"
+        "display": "Ribosomal ribonucleic acid of Hepatitis C virus (substance)"
       }, {
         "code": "NACHC.B1.DE35",
-        "display": "121204002"
+        "display": "Ribonucleic acid of Hepatitis C virus (substance)"
       }, {
         "code": "NACHC.B1.DE36",
-        "display": "603413005"
+        "display": "Hepatitis C virus subtype 1a (organism)"
       }, {
         "code": "NACHC.B1.DE37",
-        "display": "603414004"
+        "display": "Hepatitis C virus subtype 1b (organism)"
       }, {
         "code": "NACHC.B1.DE38",
-        "display": "603415003"
+        "display": "Hepatitis C virus subtype 2a (organism)"
       }, {
         "code": "NACHC.B1.DE39",
-        "display": "603416002"
+        "display": "Hepatitis C virus subtype 2b (organism)"
       }, {
         "code": "NACHC.B1.DE40",
-        "display": "603417006"
+        "display": "Hepatitis C virus subtype 3a (organism)"
       }, {
         "code": "NACHC.B1.DE41",
-        "display": "603418001"
+        "display": "Hepatitis C virus subtype 3b (organism)"
       }, {
         "code": "NACHC.B1.DE42",
-        "display": "603419009"
+        "display": "Hepatitis C virus subtype 5a (organism)"
       }, {
         "code": "NACHC.B1.DE43",
-        "display": "603420003"
+        "display": "Hepatitis C virus subtype 6a (organism)"
       }, {
         "code": "NACHC.B1.DE44",
-        "display": "603421004"
+        "display": "Hepatitis C virus subtype 4a (organism)"
       }, {
         "code": "NACHC.B1.DE45",
-        "display": "603422006"
+        "display": "Hepatitis C virus genotype 1 (organism)"
       }, {
         "code": "NACHC.B1.DE46",
-        "display": "603423001"
+        "display": "Hepatitis C virus genotype 2 (organism)"
       }, {
         "code": "NACHC.B1.DE47",
-        "display": "603424007"
+        "display": "Hepatitis C virus genotype 3 (organism)"
       }, {
         "code": "NACHC.B1.DE48",
-        "display": "603425008"
+        "display": "Hepatitis C virus genotype 4 (organism)"
       }, {
         "code": "NACHC.B1.DE49",
-        "display": "603426009"
+        "display": "Hepatitis C virus genotype 5 (organism)"
       }, {
         "code": "NACHC.B1.DE50",
-        "display": "603427000"
+        "display": "Hepatitis C virus genotype 6 (organism)"
       }, {
         "code": "NACHC.B1.DE51",
-        "display": "603428005"
+        "display": "Hepatitis C virus subtype 1c (organism)"
       }, {
         "code": "NACHC.B1.DE52",
-        "display": "603429002"
+        "display": "Hepatitis C virus subtype 2c (organism)"
       }, {
         "code": "NACHC.B1.DE53",
-        "display": "603430007"
+        "display": "Hepatitis C virus subtype 4b (organism)"
       }, {
         "code": "NACHC.B1.DE54",
-        "display": "603431006"
+        "display": "Hepatitis C virus subtype 4c (organism)"
       }, {
         "code": "NACHC.B1.DE55",
-        "display": "603432004"
+        "display": "Hepatitis C virus subtype 4d (organism)"
       }, {
         "code": "NACHC.B1.DE56",
-        "display": "603433009"
+        "display": "Hepatitis C virus subtype 4e (organism)"
       }, {
         "code": "NACHC.B1.DE57",
-        "display": "62944002"
+        "display": "Hepatitis C virus (organism)"
       }, {
         "code": "NACHC.B1.DE58",
-        "display": "726592002"
+        "display": "Antigen of Hepatitis C virus core (substance)"
       }, {
         "code": "NACHC.B1.DE59",
-        "display": "781245007"
+        "display": "Hepatitis C virus genotype 4h (organism)"
       }, {
         "code": "NACHC.B1.DE60",
-        "display": "781276001"
+        "display": "Hepatitis C virus genotype 3c (organism)"
       } ]
     } ]
   }

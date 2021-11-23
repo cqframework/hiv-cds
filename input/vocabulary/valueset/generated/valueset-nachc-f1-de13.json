@@ -13,10 +13,10 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.F1.DE13",
-        "display": "228387001"
+        "display": "Injects drugs intramuscularly (finding)"
       }, {
         "code": "NACHC.F1.DE14",
-        "display": "228389003"
+        "display": "Groin injector (finding)"
       } ]
     } ]
   }

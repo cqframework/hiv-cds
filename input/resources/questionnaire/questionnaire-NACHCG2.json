@@ -16,7 +16,7 @@
   } ],
   "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCG2",
   "name": "NACHCG2",
-  "title": "NACHC.G2 Pre Exposure Prophylaxis",
+  "title": "NACHC.G2 Prep",
   "status": "active",
   "experimental": false,
   "description": "TODO: description goes here",
@@ -30,7 +30,7 @@
       "coding": [ {
         "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
         "code": "NACHC.G2",
-        "display": "Pre Exposure Prophylaxis"
+        "display": "Prep"
       } ]
     }
   } ],

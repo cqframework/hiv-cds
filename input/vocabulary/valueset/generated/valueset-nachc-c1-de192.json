@@ -13,388 +13,388 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.C1.DE192",
-        "display": "A52.2"
+        "display": "Asymptomatic neurosyphilis"
       }, {
         "code": "NACHC.C1.DE193",
-        "display": "A52.0"
+        "display": "Cardiovascular and cerebrovascular syphilis"
       }, {
         "code": "NACHC.C1.DE194",
-        "display": "A52.00"
+        "display": "Cardiovascular syphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE195",
-        "display": "A52.16"
+        "display": "Charcôt's arthropathy (tabetic)"
       }, {
         "code": "NACHC.C1.DE196",
-        "display": "A50.51"
+        "display": "Clutton's joints"
       }, {
         "code": "NACHC.C1.DE197",
-        "display": "A51.31"
+        "display": "Condyloma latum"
       }, {
         "code": "NACHC.C1.DE198",
-        "display": "A50"
+        "display": "Congenital syphilis"
       }, {
         "code": "NACHC.C1.DE199",
-        "display": "A50.9"
+        "display": "Congenital syphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE200",
-        "display": "A50.1"
+        "display": "Early congenital syphilis, latent"
       }, {
         "code": "NACHC.C1.DE201",
-        "display": "A50.0"
+        "display": "Early congenital syphilis, symptomatic"
       }, {
         "code": "NACHC.C1.DE202",
-        "display": "A50.2"
+        "display": "Early congenital syphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE203",
-        "display": "A50.01"
+        "display": "Early congenital syphilitic oculopathy"
       }, {
         "code": "NACHC.C1.DE204",
-        "display": "A50.02"
+        "display": "Early congenital syphilitic osteochondropathy"
       }, {
         "code": "NACHC.C1.DE205",
-        "display": "A50.03"
+        "display": "Early congenital syphilitic pharyngitis"
       }, {
         "code": "NACHC.C1.DE206",
-        "display": "A50.04"
+        "display": "Early congenital syphilitic pneumonia"
       }, {
         "code": "NACHC.C1.DE207",
-        "display": "A50.05"
+        "display": "Early congenital syphilitic rhinitis"
       }, {
         "code": "NACHC.C1.DE208",
-        "display": "A50.06"
+        "display": "Early cutaneous congenital syphilis"
       }, {
         "code": "NACHC.C1.DE209",
-        "display": "A50.07"
+        "display": "Early mucocutaneous congenital syphilis"
       }, {
         "code": "NACHC.C1.DE210",
-        "display": "A51"
+        "display": "Early syphilis"
       }, {
         "code": "NACHC.C1.DE211",
-        "display": "A51.5"
+        "display": "Early syphilis, latent"
       }, {
         "code": "NACHC.C1.DE212",
-        "display": "A51.9"
+        "display": "Early syphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE213",
-        "display": "A50.08"
+        "display": "Early visceral congenital syphilis"
       }, {
         "code": "NACHC.C1.DE214",
-        "display": "A52.17"
+        "display": "General paresis"
       }, {
         "code": "NACHC.C1.DE215",
-        "display": "A50.52"
+        "display": "Hutchinson's teeth"
       }, {
         "code": "NACHC.C1.DE216",
-        "display": "A50.53"
+        "display": "Hutchinson's triad"
       }, {
         "code": "NACHC.C1.DE217",
-        "display": "A50.45"
+        "display": "Juvenile general paresis"
       }, {
         "code": "NACHC.C1.DE218",
-        "display": "A50.54"
+        "display": "Late congenital cardiovascular syphilis"
       }, {
         "code": "NACHC.C1.DE219",
-        "display": "A50.4"
+        "display": "Late congenital neurosyphilis [juvenile neurosyphilis]"
       }, {
         "code": "NACHC.C1.DE220",
-        "display": "A50.40"
+        "display": "Late congenital neurosyphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE221",
-        "display": "A50.6"
+        "display": "Late congenital syphilis, latent"
       }, {
         "code": "NACHC.C1.DE222",
-        "display": "A50.7"
+        "display": "Late congenital syphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE223",
-        "display": "A50.55"
+        "display": "Late congenital syphilitic arthropathy"
       }, {
         "code": "NACHC.C1.DE224",
-        "display": "A50.32"
+        "display": "Late congenital syphilitic chorioretinitis"
       }, {
         "code": "NACHC.C1.DE225",
-        "display": "A50.42"
+        "display": "Late congenital syphilitic encephalitis"
       }, {
         "code": "NACHC.C1.DE226",
-        "display": "A50.31"
+        "display": "Late congenital syphilitic interstitial keratitis"
       }, {
         "code": "NACHC.C1.DE227",
-        "display": "A50.41"
+        "display": "Late congenital syphilitic meningitis"
       }, {
         "code": "NACHC.C1.DE228",
-        "display": "A50.3"
+        "display": "Late congenital syphilitic oculopathy"
       }, {
         "code": "NACHC.C1.DE229",
-        "display": "A50.30"
+        "display": "Late congenital syphilitic oculopathy, unspecified"
       }, {
         "code": "NACHC.C1.DE230",
-        "display": "A50.44"
+        "display": "Late congenital syphilitic optic nerve atrophy"
       }, {
         "code": "NACHC.C1.DE231",
-        "display": "A50.56"
+        "display": "Late congenital syphilitic osteochondropathy"
       }, {
         "code": "NACHC.C1.DE232",
-        "display": "A50.43"
+        "display": "Late congenital syphilitic polyneuropathy"
       }, {
         "code": "NACHC.C1.DE233",
-        "display": "A52"
+        "display": "Late syphilis"
       }, {
         "code": "NACHC.C1.DE234",
-        "display": "A52.8"
+        "display": "Late syphilis, latent"
       }, {
         "code": "NACHC.C1.DE235",
-        "display": "A52.9"
+        "display": "Late syphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE236",
-        "display": "A52.14"
+        "display": "Late syphilitic encephalitis"
       }, {
         "code": "NACHC.C1.DE237",
-        "display": "A52.13"
+        "display": "Late syphilitic meningitis"
       }, {
         "code": "NACHC.C1.DE238",
-        "display": "A52.15"
+        "display": "Late syphilitic neuropathy"
       }, {
         "code": "NACHC.C1.DE239",
-        "display": "A52.71"
+        "display": "Late syphilitic oculopathy"
       }, {
         "code": "NACHC.C1.DE240",
-        "display": "A53.0"
+        "display": "Latent syphilis, unspecified as early or late"
       }, {
         "code": "NACHC.C1.DE241",
-        "display": "A52.3"
+        "display": "Neurosyphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE242",
-        "display": "A65"
+        "display": "Nonvenereal syphilis"
       }, {
         "code": "NACHC.C1.DE243",
-        "display": "A53"
+        "display": "Other and unspecified syphilis"
       }, {
         "code": "NACHC.C1.DE244",
-        "display": "A52.09"
+        "display": "Other cardiovascular syphilis"
       }, {
         "code": "NACHC.C1.DE245",
-        "display": "A52.12"
+        "display": "Other cerebrospinal syphilis"
       }, {
         "code": "NACHC.C1.DE246",
-        "display": "A52.05"
+        "display": "Other cerebrovascular syphilis"
       }, {
         "code": "NACHC.C1.DE247",
-        "display": "A50.09"
+        "display": "Other early congenital syphilis, symptomatic"
       }, {
         "code": "NACHC.C1.DE248",
-        "display": "A52.76"
+        "display": "Other genitourinary symptomatic late syphilis"
       }, {
         "code": "NACHC.C1.DE249",
-        "display": "A50.49"
+        "display": "Other late congenital neurosyphilis"
       }, {
         "code": "NACHC.C1.DE250",
-        "display": "A50.5"
+        "display": "Other late congenital syphilis, symptomatic"
       }, {
         "code": "NACHC.C1.DE251",
-        "display": "A50.59"
+        "display": "Other late congenital syphilis, symptomatic"
       }, {
         "code": "NACHC.C1.DE252",
-        "display": "A50.39"
+        "display": "Other late congenital syphilitic oculopathy"
       }, {
         "code": "NACHC.C1.DE253",
-        "display": "A51.4"
+        "display": "Other secondary syphilis"
       }, {
         "code": "NACHC.C1.DE254",
-        "display": "A51.39"
+        "display": "Other secondary syphilis of skin"
       }, {
         "code": "NACHC.C1.DE255",
-        "display": "A51.49"
+        "display": "Other secondary syphilitic conditions"
       }, {
         "code": "NACHC.C1.DE256",
-        "display": "A52.7"
+        "display": "Other symptomatic late syphilis"
       }, {
         "code": "NACHC.C1.DE257",
-        "display": "A52.79"
+        "display": "Other symptomatic late syphilis"
       }, {
         "code": "NACHC.C1.DE258",
-        "display": "A52.19"
+        "display": "Other symptomatic neurosyphilis"
       }, {
         "code": "NACHC.C1.DE259",
-        "display": "A52.06"
+        "display": "Other syphilitic heart involvement"
       }, {
         "code": "NACHC.C1.DE260",
-        "display": "A51.1"
+        "display": "Primary anal syphilis"
       }, {
         "code": "NACHC.C1.DE261",
-        "display": "A51.0"
+        "display": "Primary genital syphilis"
       }, {
         "code": "NACHC.C1.DE262",
-        "display": "A51.2"
+        "display": "Primary syphilis of other sites"
       }, {
         "code": "NACHC.C1.DE263",
-        "display": "A51.3"
+        "display": "Secondary syphilis of skin and mucous membranes"
       }, {
         "code": "NACHC.C1.DE264",
-        "display": "A51.42"
+        "display": "Secondary syphilitic female pelvic disease"
       }, {
         "code": "NACHC.C1.DE265",
-        "display": "A51.45"
+        "display": "Secondary syphilitic hepatitis"
       }, {
         "code": "NACHC.C1.DE266",
-        "display": "A51.41"
+        "display": "Secondary syphilitic meningitis"
       }, {
         "code": "NACHC.C1.DE267",
-        "display": "A51.44"
+        "display": "Secondary syphilitic nephritis"
       }, {
         "code": "NACHC.C1.DE268",
-        "display": "A51.43"
+        "display": "Secondary syphilitic oculopathy"
       }, {
         "code": "NACHC.C1.DE269",
-        "display": "A51.46"
+        "display": "Secondary syphilitic osteopathy"
       }, {
         "code": "NACHC.C1.DE270",
-        "display": "A52.73"
+        "display": "Symptomatic late syphilis of other respiratory organs"
       }, {
         "code": "NACHC.C1.DE271",
-        "display": "A52.1"
+        "display": "Symptomatic neurosyphilis"
       }, {
         "code": "NACHC.C1.DE272",
-        "display": "A52.10"
+        "display": "Symptomatic neurosyphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE273",
-        "display": "O98.12"
+        "display": "Syphilis complicating childbirth"
       }, {
         "code": "NACHC.C1.DE274",
-        "display": "O98.11"
+        "display": "Syphilis complicating pregnancy"
       }, {
         "code": "NACHC.C1.DE275",
-        "display": "O98.1"
+        "display": "Syphilis complicating pregnancy, childbirth and the puerperium"
       }, {
         "code": "NACHC.C1.DE276",
-        "display": "O98.111"
+        "display": "Syphilis complicating pregnancy, first trimester"
       }, {
         "code": "NACHC.C1.DE277",
-        "display": "O98.112"
+        "display": "Syphilis complicating pregnancy, second trimester"
       }, {
         "code": "NACHC.C1.DE278",
-        "display": "O98.113"
+        "display": "Syphilis complicating pregnancy, third trimester"
       }, {
         "code": "NACHC.C1.DE279",
-        "display": "O98.119"
+        "display": "Syphilis complicating pregnancy, unspecified trimester"
       }, {
         "code": "NACHC.C1.DE280",
-        "display": "O98.13"
+        "display": "Syphilis complicating the puerperium"
       }, {
         "code": "NACHC.C1.DE281",
-        "display": "A52.77"
+        "display": "Syphilis of bone and joint"
       }, {
         "code": "NACHC.C1.DE282",
-        "display": "A52.75"
+        "display": "Syphilis of kidney and ureter"
       }, {
         "code": "NACHC.C1.DE283",
-        "display": "A52.74"
+        "display": "Syphilis of liver and other viscera"
       }, {
         "code": "NACHC.C1.DE284",
-        "display": "A52.72"
+        "display": "Syphilis of lung and bronchus"
       }, {
         "code": "NACHC.C1.DE285",
-        "display": "A52.78"
+        "display": "Syphilis of other musculoskeletal tissue"
       }, {
         "code": "NACHC.C1.DE286",
-        "display": "A53.9"
+        "display": "Syphilis, unspecified"
       }, {
         "code": "NACHC.C1.DE287",
-        "display": "A51.32"
+        "display": "Syphilitic alopecia"
       }, {
         "code": "NACHC.C1.DE288",
-        "display": "A52.01"
+        "display": "Syphilitic aneurysm of aorta"
       }, {
         "code": "NACHC.C1.DE289",
-        "display": "A52.02"
+        "display": "Syphilitic aortitis"
       }, {
         "code": "NACHC.C1.DE290",
-        "display": "A52.04"
+        "display": "Syphilitic cerebral arteritis"
       }, {
         "code": "NACHC.C1.DE291",
-        "display": "A52.03"
+        "display": "Syphilitic endocarditis"
       }, {
         "code": "NACHC.C1.DE292",
-        "display": "A50.57"
+        "display": "Syphilitic saddle nose"
       }, {
         "code": "NACHC.C1.DE293",
-        "display": "A52.11"
+        "display": "Tabes dorsalis"
       }, {
         "code": "NACHC.C1.DE294",
-        "display": "68863007"
+        "display": "Acute syphilitic meningitis (disorder)"
       }, {
         "code": "NACHC.C1.DE295",
-        "display": "402952006"
+        "display": "Anetoderma secondary to syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE296",
-        "display": "104471000119105"
+        "display": "Charcot arthropathy due to syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE297",
-        "display": "240561005"
+        "display": "Corona veneris (disorder)"
       }, {
         "code": "NACHC.C1.DE298",
-        "display": "698725008"
+        "display": "Dementia associated with neurosyphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE299",
-        "display": "703134008"
+        "display": "Hypoplasia of enamel due to congenital syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE300",
-        "display": "449773001"
+        "display": "Interstitial glossitis (disorder)"
       }, {
         "code": "NACHC.C1.DE301",
-        "display": "410469004"
+        "display": "Iris papulosa (finding)"
       }, {
         "code": "NACHC.C1.DE302",
-        "display": "410468007"
+        "display": "Iris roseola (finding)"
       }, {
         "code": "NACHC.C1.DE303",
-        "display": "711617002"
+        "display": "Iritis caused by Treponema pallidum (disorder)"
       }, {
         "code": "NACHC.C1.DE304",
-        "display": "449776009"
+        "display": "Luetic glossitis (disorder)"
       }, {
         "code": "NACHC.C1.DE305",
-        "display": "109436001"
+        "display": "Moon's molar teeth (disorder)"
       }, {
         "code": "NACHC.C1.DE306",
-        "display": "721583004"
+        "display": "Mucocutaneous early congenital syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE307",
-        "display": "402948006"
+        "display": "Nail dystrophy due to secondary syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE308",
-        "display": "127058009"
+        "display": "Paroxysmal cold hemoglobinuria associated with tertiary syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE309",
-        "display": "235898000"
+        "display": "Pericellular fibrosis of congenital syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE310",
-        "display": "201738001"
+        "display": "Post-infective arthropathy in syphilis (disorder)"
       }, {
         "code": "NACHC.C1.DE311",
-        "display": "186893003"
+        "display": "Rupture of syphilitic cerebral aneurysm (disorder)"
       }, {
         "code": "NACHC.C1.DE312",
-        "display": "10759921000119107"
+        "display": "Syphilis in mother complicating childbirth (disorder)"
       }, {
         "code": "NACHC.C1.DE313",
-        "display": "331151000119109"
+        "display": "Syphilitic choroiditis (disorder)"
       }, {
         "code": "NACHC.C1.DE314",
-        "display": "301086002"
+        "display": "Syphilitic meningitis (disorder)"
       }, {
         "code": "NACHC.C1.DE315",
-        "display": "34964002"
+        "display": "Syphilitic peritonitis (disorder)"
       }, {
         "code": "NACHC.C1.DE316",
-        "display": "77782006"
+        "display": "Syphilitic saddle nose (disorder)"
       }, {
         "code": "NACHC.C1.DE317",
-        "display": "94851000119107"
+        "display": "Syphilitic valvular endocarditis (disorder)"
       }, {
         "code": "NACHC.C1.DE318",
-        "display": "239825002"
+        "display": "Tabetic joint (disorder)"
       }, {
         "code": "NACHC.C1.DE319",
-        "display": "29500006"
+        "display": "Urethral stricture due to syphilis (disorder)"
       } ]
     } ]
   }

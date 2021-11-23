@@ -238,7 +238,7 @@ define "Pregnancy Observations":
 
 /*
   @dataElement: NACHC.G1.DE1 Post Exposure Prophylaxis
-  @activity: NACHC.G1 Post Exposure Prophylaxis
+  @activity: NACHC.G1 Pep
   @description: Concepts and Procedures Identifying Post Exposure Prophylaxis
 */
 define "Post Exposure Prophylaxis":
@@ -246,7 +246,7 @@ define "Post Exposure Prophylaxis":
 
 /*
   @dataElement: NACHC.G1.DE143 Post Exposure Prophylaxis Dispensed Medications
-  @activity: NACHC.G1 Post Exposure Prophylaxis
+  @activity: NACHC.G1 Pep
   @description: List of Medications Provisioned and Supplied for Non-Occupational Post Exposure Prophylaxis
 */
 define "Post Exposure Prophylaxis Dispensed Medications":
@@ -254,7 +254,7 @@ define "Post Exposure Prophylaxis Dispensed Medications":
 
 /*
   @dataElement: NACHC.G1.DE5 Post Exposure Prophylaxis Medication Prescriptions
-  @activity: NACHC.G1 Post Exposure Prophylaxis
+  @activity: NACHC.G1 Pep
   @description: List of Medication Prescriptions for Non-Occupational Post Exposure Prophylaxis
 */
 define "Post Exposure Prophylaxis Medication Prescriptions":
@@ -262,7 +262,7 @@ define "Post Exposure Prophylaxis Medication Prescriptions":
 
 /*
   @dataElement: NACHC.G2.DE1 Pre Exposure Prophylaxis Medication Prescriptions
-  @activity: NACHC.G2 Pre Exposure Prophylaxis
+  @activity: NACHC.G2 Prep
   @description: List of Medication Prescriptions for Non-Occupational Pre Exposure Prophylaxis
 */
 define "Pre Exposure Prophylaxis Medication Prescriptions":
@@ -270,7 +270,7 @@ define "Pre Exposure Prophylaxis Medication Prescriptions":
 
 /*
   @dataElement: NACHC.G2.DE26 Pre Exposure Prophylaxis Dispensed Medications
-  @activity: NACHC.G2 Pre Exposure Prophylaxis
+  @activity: NACHC.G2 Prep
   @description: List of Medications Provisioned and Supplied for Non-Occupational Pre Exposure Prophylaxis
 */
 define "Pre Exposure Prophylaxis Dispensed Medications":

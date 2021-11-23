@@ -13,355 +13,355 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.A1.DE2",
-        "display": "713533000"
+        "display": "Acquired hemolytic anemia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE3",
-        "display": "62479008"
+        "display": "Acquired immune deficiency syndrome (disorder)"
       }, {
         "code": "NACHC.A1.DE4",
-        "display": "236406007"
+        "display": "Acquired immune deficiency syndrome-related nephropathy (disorder)"
       }, {
         "code": "NACHC.A1.DE5",
-        "display": "420721002"
+        "display": "Acquired immunodeficiency syndrome-associated disorder (disorder)"
       }, {
         "code": "NACHC.A1.DE6",
-        "display": "713511002"
+        "display": "Acute endocarditis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE7",
-        "display": "111880001"
+        "display": "Acute human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE8",
-        "display": "713530002"
+        "display": "Agranulocytosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE9",
-        "display": "713349004"
+        "display": "Anemia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE10",
-        "display": "713508003"
+        "display": "Aplastic anemia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE11",
-        "display": "Z21"
+        "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
       }, {
         "code": "NACHC.A1.DE12",
-        "display": "90681000119107"
+        "display": "Asymptomatic human immunodeficiency virus A1 infection (disorder)"
       }, {
         "code": "NACHC.A1.DE13",
-        "display": "90691000119105"
+        "display": "Asymptomatic human immunodeficiency virus A2 infection (disorder)"
       }, {
         "code": "NACHC.A1.DE14",
-        "display": "91947003"
+        "display": "Asymptomatic human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE15",
-        "display": "91948008"
+        "display": "Asymptomatic human immunodeficiency virus infection in pregnancy (disorder)"
       }, {
         "code": "NACHC.A1.DE16",
-        "display": "713544008"
+        "display": "Bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE17",
-        "display": "713897006"
+        "display": "Burkitt lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE18",
-        "display": "713297001"
+        "display": "Candidiasis of esophagus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE19",
-        "display": "713497004"
+        "display": "Candidiasis of mouth co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE20",
-        "display": "713523008"
+        "display": "Cardiomyopathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE21",
-        "display": "713446007"
+        "display": "Chronic infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE22",
-        "display": "276665006"
+        "display": "Congenital acquired immune deficiency syndrome (disorder)"
       }, {
         "code": "NACHC.A1.DE23",
-        "display": "52079000"
+        "display": "Congenital human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE24",
-        "display": "713844000"
+        "display": "Dementia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE25",
-        "display": "713543002"
+        "display": "Demyelinating disease of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE26",
-        "display": "713718006"
+        "display": "Diffuse non-Hodgkin immunoblastic lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE27",
-        "display": "713571008"
+        "display": "Disorder of central nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE28",
-        "display": "713299003"
+        "display": "Disorder of eye proper co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE29",
-        "display": "713300006"
+        "display": "Disorder of gastrointestinal tract co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE30",
-        "display": "713504001"
+        "display": "Disorder of kidney co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE31",
-        "display": "713527009"
+        "display": "Disorder of peripheral nervous system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE32",
-        "display": "713484001"
+        "display": "Disorder of respiratory system co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE33",
-        "display": "713340000"
+        "display": "Disorder of skin co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE34",
-        "display": "713503007"
+        "display": "Disorder of spinal cord co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE35",
-        "display": "713967004"
+        "display": "Disseminated atypical infection caused by Mycobacterium co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE36",
-        "display": "713445006"
+        "display": "Disseminated infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE37",
-        "display": "713510001"
+        "display": "Enlargement of liver co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE38",
-        "display": "713316008"
+        "display": "Eruption of skin co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE39",
-        "display": "733835007"
+        "display": "Extrapulmonary tuberculosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE40",
-        "display": "713887002"
+        "display": "Focal segmental glomerulosclerosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE41",
-        "display": "713505000"
+        "display": "Gastrointestinal malabsorption syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE42",
-        "display": "414376003"
+        "display": "Hairy leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)"
       }, {
         "code": "NACHC.A1.DE43",
-        "display": "713298006"
+        "display": "Heart disease co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE44",
-        "display": "713444005"
+        "display": "Hemophagocytic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE45",
-        "display": "442134007"
+        "display": "Hepatitis B associated with Human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE46",
-        "display": "72621000119104"
+        "display": "Human immunodeficiency virus (HIV) II infection category B1 (disorder)"
       }, {
         "code": "NACHC.A1.DE47",
-        "display": "72631000119101"
+        "display": "Human immunodeficiency virus (HIV) II infection category B2 (disorder)"
       }, {
         "code": "NACHC.A1.DE48",
-        "display": "B20"
+        "display": "Human immunodeficiency virus [HIV] disease"
       }, {
         "code": "NACHC.A1.DE49",
-        "display": "O98.72"
+        "display": "Human immunodeficiency virus [HIV] disease complicating childbirth"
       }, {
         "code": "NACHC.A1.DE50",
-        "display": "O98.711"
+        "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, first trimester"
       }, {
         "code": "NACHC.A1.DE51",
-        "display": "O98.712"
+        "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, second trimester"
       }, {
         "code": "NACHC.A1.DE52",
-        "display": "O98.713"
+        "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, third trimester"
       }, {
         "code": "NACHC.A1.DE53",
-        "display": "O98.719"
+        "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy, unspecified trimester"
       }, {
         "code": "NACHC.A1.DE54",
-        "display": "O98.73"
+        "display": "Human immunodeficiency virus [HIV] disease complicating the puerperium"
       }, {
         "code": "NACHC.A1.DE55",
-        "display": "398329009"
+        "display": "Human immunodeficiency virus encephalitis (disorder)"
       }, {
         "code": "NACHC.A1.DE56",
-        "display": "397763006"
+        "display": "Human immunodeficiency virus encephalopathy (disorder)"
       }, {
         "code": "NACHC.A1.DE57",
-        "display": "235726002"
+        "display": "Human immunodeficiency virus enteropathy (disorder)"
       }, {
         "code": "NACHC.A1.DE58",
-        "display": "40780007"
+        "display": "Human immunodeficiency virus I infection (disorder)"
       }, {
         "code": "NACHC.A1.DE59",
-        "display": "79019005"
+        "display": "Human immunodeficiency virus II infection (disorder)"
       }, {
         "code": "NACHC.A1.DE60",
-        "display": "10755671000119100"
+        "display": "Human immunodeficiency virus in mother complicating childbirth (disorder)"
       }, {
         "code": "NACHC.A1.DE61",
-        "display": "86406008"
+        "display": "Human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE62",
-        "display": "186706006"
+        "display": "Human immunodeficiency virus infection constitutional disease (disorder)"
       }, {
         "code": "NACHC.A1.DE63",
-        "display": "87117006"
+        "display": "Human immunodeficiency virus infection with acute lymphadenitis (disorder)"
       }, {
         "code": "NACHC.A1.DE64",
-        "display": "315019000"
+        "display": "Human immunodeficiency virus infection with aseptic meningitis (disorder)"
       }, {
         "code": "NACHC.A1.DE65",
-        "display": "48794007"
+        "display": "Human immunodeficiency virus infection with infectious mononucleosis-like syndrome (disorder)"
       }, {
         "code": "NACHC.A1.DE66",
-        "display": "186707002"
+        "display": "Human immunodeficiency virus infection with neurological disease (disorder)"
       }, {
         "code": "NACHC.A1.DE67",
-        "display": "186708007"
+        "display": "Human immunodeficiency virus infection with secondary clinical infectious disease (disorder)"
       }, {
         "code": "NACHC.A1.DE68",
-        "display": "230180003"
+        "display": "Human immunodeficiency virus leukoencephalopathy (disorder)"
       }, {
         "code": "NACHC.A1.DE69",
-        "display": "240103002"
+        "display": "Human immunodeficiency virus myopathy (disorder)"
       }, {
         "code": "NACHC.A1.DE70",
-        "display": "B97.35"
+        "display": "Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere"
       }, {
         "code": "NACHC.A1.DE71",
-        "display": "235009000"
+        "display": "Human immunodeficiency virus-associated periodontitis (disorder)"
       }, {
         "code": "NACHC.A1.DE72",
-        "display": "281388009"
+        "display": "Human immunodeficiency virus-related sclerosing cholangitis (disorder)"
       }, {
         "code": "NACHC.A1.DE73",
-        "display": "714464009"
+        "display": "Immune reconstitution inflammatory syndrome caused by human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE74",
-        "display": "713732008"
+        "display": "Infection caused by Aspergillus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE75",
-        "display": "713729005"
+        "display": "Infection caused by Coccidia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE76",
-        "display": "713845004"
+        "display": "Infection caused by Cryptosporidium co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE77",
-        "display": "713722001"
+        "display": "Infection caused by Cytomegalovirus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE78",
-        "display": "713734009"
+        "display": "Infection caused by Dermatophyte co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE79",
-        "display": "713730000"
+        "display": "Infection caused by herpes simplex virus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE80",
-        "display": "713733003"
+        "display": "Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE81",
-        "display": "713881001"
+        "display": "Infection caused by Microsporidia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE82",
-        "display": "713545009"
+        "display": "Infection caused by Nocardia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE83",
-        "display": "713490002"
+        "display": "Infection caused by Pneumocystis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE84",
-        "display": "713342008"
+        "display": "Infection caused by Salmonella co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE85",
-        "display": "713339002"
+        "display": "Infection caused by Strongyloides co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE86",
-        "display": "713570009"
+        "display": "Infectious gastroenteritis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE87",
-        "display": "713532005"
+        "display": "Infective arthritis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE88",
-        "display": "733834006"
+        "display": "Invasive carcinoma of uterine cervix co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE89",
-        "display": "713546005"
+        "display": "Isosporiasis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE90",
-        "display": "414604009"
+        "display": "Leukoplakia of tongue associated with human immunodeficiency virus disease (disorder)"
       }, {
         "code": "NACHC.A1.DE91",
-        "display": "713507008"
+        "display": "Lymphadenopathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE92",
-        "display": "713572001"
+        "display": "Malignant neoplastic disease co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE93",
-        "display": "713964006"
+        "display": "Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE94",
-        "display": "713341001"
+        "display": "Myelitis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE95",
-        "display": "713318009"
+        "display": "Myocarditis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE96",
-        "display": "713695001"
+        "display": "Nephrotic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE97",
-        "display": "713278001"
+        "display": "Neuralgia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE98",
-        "display": "713506004"
+        "display": "Neuritis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE99",
-        "display": "230598008"
+        "display": "Neuropathy caused by human immunodeficiency virus (disorder)"
       }, {
         "code": "NACHC.A1.DE100",
-        "display": "442537007"
+        "display": "Non-Hodgkin lymphoma associated with Human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE101",
-        "display": "713880000"
+        "display": "Opportunistic mycosis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE102",
-        "display": "402901009"
+        "display": "Oral hairy leukoplakia associated with human immunodeficiency virus disease (disorder)"
       }, {
         "code": "NACHC.A1.DE103",
-        "display": "713491003"
+        "display": "Organic brain syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE104",
-        "display": "405631006"
+        "display": "Pediatric human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE105",
-        "display": "713489006"
+        "display": "Polyneuropathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE106",
-        "display": "713488003"
+        "display": "Presenile dementia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE107",
-        "display": "713325002"
+        "display": "Primary cerebral lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE108",
-        "display": "713487008"
+        "display": "Progressive multifocal leukoencephalopathy co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE109",
-        "display": "713731001"
+        "display": "Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE110",
-        "display": "713320007"
+        "display": "Radiculitis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE111",
-        "display": "713526000"
+        "display": "Recurrent bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE112",
-        "display": "714083007"
+        "display": "Recurrent salmonella sepsis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE113",
-        "display": "713696000"
+        "display": "Renal failure syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE114",
-        "display": "713483007"
+        "display": "Reticulosarcoma co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE115",
-        "display": "713275003"
+        "display": "Splenomegaly co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE116",
-        "display": "713260006"
+        "display": "Subacute adenoviral encephalitis co-occurrent with human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE117",
-        "display": "81000119104"
+        "display": "Symptomatic human immunodeficiency virus infection (disorder)"
       }, {
         "code": "NACHC.A1.DE118",
-        "display": "713531003"
+        "display": "Visual impairment co-occurrent with human immunodeficiency virus infection (disorder)"
       } ]
     } ]
   }

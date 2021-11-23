@@ -25,7 +25,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE83",
-      "display": "26658-5"
+      "display": "Treponema sp Ab [Presence] in Serum"
     }, {
       "system": "http://loinc.org",
       "code": "26658-5",

@@ -13,34 +13,34 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.F1.DE2",
-        "display": "23915005"
+        "display": "Combined alcohol and drug rehabilitation and detoxification (regime/therapy)"
       }, {
         "code": "NACHC.F1.DE3",
-        "display": "266707007"
+        "display": "Drug addiction therapy (regime/therapy)"
       }, {
         "code": "NACHC.F1.DE4",
-        "display": "310653000"
+        "display": "Drug addiction therapy using methadone (regime/therapy)"
       }, {
         "code": "NACHC.F1.DE5",
-        "display": "408941008"
+        "display": "Drug abuse prevention (procedure)"
       }, {
         "code": "NACHC.F1.DE6",
-        "display": "408942001"
+        "display": "Drug abuse prevention assessment (procedure)"
       }, {
         "code": "NACHC.F1.DE7",
-        "display": "408943006"
+        "display": "Drug abuse prevention education (procedure)"
       }, {
         "code": "NACHC.F1.DE8",
-        "display": "408944000"
+        "display": "Drug abuse prevention management (procedure)"
       }, {
         "code": "NACHC.F1.DE9",
-        "display": "56876005"
+        "display": "Drug rehabilitation and detoxification (regime/therapy)"
       }, {
         "code": "NACHC.F1.DE10",
-        "display": "720174008"
+        "display": "Drug harm reduction program (regime/therapy)"
       }, {
         "code": "NACHC.F1.DE11",
-        "display": "720177001"
+        "display": "Drug relapse prevention program (regime/therapy)"
       } ]
     } ]
   }

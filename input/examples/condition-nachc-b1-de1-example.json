@@ -20,7 +20,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE83",
-      "display": "9843006"
+      "display": "Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)"
     }, {
       "system": "http://snomed.info/sct",
       "code": "9843006",

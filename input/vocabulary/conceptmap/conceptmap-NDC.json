@@ -12,7 +12,7 @@
     "target": "http://hl7.org/fhir/sid/ndc",
     "element": [ {
       "code": "NACHC.G1.DE144",
-      "display": "50090-1327",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "50090-1327",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -20,7 +20,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE145",
-      "display": "52125-613",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "52125-613",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -28,7 +28,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE146",
-      "display": "59676-566",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "59676-566",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -36,7 +36,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE147",
-      "display": "69189-0566",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "69189-0566",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -44,7 +44,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE148",
-      "display": "70518-1483",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "70518-1483",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -52,7 +52,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE149",
-      "display": "49702-228",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "49702-228",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -60,7 +60,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE150",
-      "display": "50090-1355",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "50090-1355",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -68,7 +68,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE151",
-      "display": "53808-1130",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "53808-1130",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -76,7 +76,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE152",
-      "display": "61786-771",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "61786-771",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -84,7 +84,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE153",
-      "display": "67296-1818",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "67296-1818",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -92,7 +92,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE154",
-      "display": "70518-1487",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "70518-1487",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -100,7 +100,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE155",
-      "display": "0093-5234",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0093-5234",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -108,7 +108,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE156",
-      "display": "65862-497",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-497",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -116,7 +116,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE157",
-      "display": "69097-210",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69097-210",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -124,7 +124,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE158",
-      "display": "70518-2905",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-2905",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -132,7 +132,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE159",
-      "display": "76282-678",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "76282-678",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -140,7 +140,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE160",
-      "display": "15584-0101",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "15584-0101",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -148,7 +148,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE161",
-      "display": "35356-064",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "35356-064",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -156,7 +156,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE162",
-      "display": "50090-0980",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "50090-0980",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -164,7 +164,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE163",
-      "display": "53808-0208",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "53808-0208",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -172,7 +172,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE164",
-      "display": "54569-5805",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "54569-5805",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -180,7 +180,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE165",
-      "display": "54868-5643",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "54868-5643",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -188,7 +188,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE166",
-      "display": "69189-0118",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "69189-0118",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -196,7 +196,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE167",
-      "display": "70518-0341",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
       "target": [ {
         "code": "70518-0341",
         "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)",
@@ -204,7 +204,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE168",
-      "display": "42543-719",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "42543-719",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -212,7 +212,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE169",
-      "display": "51407-112",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "51407-112",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -220,7 +220,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE170",
-      "display": "64380-719",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "64380-719",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -228,7 +228,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE171",
-      "display": "0093-7607",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0093-7607",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -236,7 +236,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE172",
-      "display": "0093-7704",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0093-7704",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -244,7 +244,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE173",
-      "display": "0378-1930",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0378-1930",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -252,7 +252,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE174",
-      "display": "33342-106",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "33342-106",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -260,7 +260,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE175",
-      "display": "42291-439",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42291-439",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -268,7 +268,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE176",
-      "display": "42385-913",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42385-913",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -276,7 +276,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE177",
-      "display": "42385-953",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42385-953",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -284,7 +284,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE178",
-      "display": "60219-2095",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60219-2095",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -292,7 +292,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE179",
-      "display": "60505-4202",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60505-4202",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -300,7 +300,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE180",
-      "display": "65862-354",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-354",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -308,7 +308,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE181",
-      "display": "67296-1237",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1237",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -316,7 +316,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE182",
-      "display": "67296-1433",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1433",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -324,7 +324,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE183",
-      "display": "68180-287",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68180-287",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -332,7 +332,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE184",
-      "display": "69097-209",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69097-209",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -340,7 +340,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE185",
-      "display": "69238-1527",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69238-1527",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -348,7 +348,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE186",
-      "display": "69238-2095",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69238-2095",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -356,7 +356,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE187",
-      "display": "70518-3077",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-3077",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -364,7 +364,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE188",
-      "display": "70710-1367",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70710-1367",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -372,7 +372,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE189",
-      "display": "70771-1594",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70771-1594",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -380,7 +380,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE190",
-      "display": "76282-677",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "76282-677",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -388,7 +388,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE191",
-      "display": "35356-070",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "35356-070",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -396,7 +396,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE192",
-      "display": "50090-0870",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "50090-0870",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -404,7 +404,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE193",
-      "display": "52959-969",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "52959-969",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -412,7 +412,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE194",
-      "display": "53808-0805",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "53808-0805",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -420,7 +420,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE195",
-      "display": "54569-5588",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "54569-5588",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -428,7 +428,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE196",
-      "display": "54868-5141",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "54868-5141",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -436,7 +436,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE197",
-      "display": "55154-4425",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
       "target": [ {
         "code": "55154-4425",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
@@ -444,7 +444,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE198",
-      "display": "58118-0100",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "58118-0100",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -452,7 +452,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE199",
-      "display": "61786-596",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "61786-596",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -460,7 +460,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE200",
-      "display": "61919-669",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
       "target": [ {
         "code": "61919-669",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
@@ -468,7 +468,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE201",
-      "display": "61958-0701",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "61958-0701",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -476,7 +476,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE202",
-      "display": "63629-7581",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "63629-7581",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -484,7 +484,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE203",
-      "display": "68071-2112",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "68071-2112",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -492,7 +492,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE204",
-      "display": "69189-0701",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "69189-0701",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -500,7 +500,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE205",
-      "display": "70518-0097",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "70518-0097",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -508,7 +508,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE206",
-      "display": "0004-0380",
+      "display": "Enfuvirtide KIT (FUZEON)",
       "target": [ {
         "code": "0004-0380",
         "display": "Enfuvirtide KIT (FUZEON)",
@@ -516,7 +516,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE207",
-      "display": "0004-0381",
+      "display": "Enfuvirtide KIT (FUZEON)",
       "target": [ {
         "code": "0004-0381",
         "display": "Enfuvirtide KIT (FUZEON)",
@@ -524,7 +524,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE208",
-      "display": "63304-583",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, COATED",
       "target": [ {
         "code": "63304-583",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, COATED",
@@ -532,7 +532,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE209",
-      "display": "0378-3520",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0378-3520",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED",
@@ -540,7 +540,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE210",
-      "display": "49349-811",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
       "target": [ {
         "code": "49349-811",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
@@ -548,7 +548,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE211",
-      "display": "49702-207",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
       "target": [ {
         "code": "49702-207",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
@@ -556,7 +556,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE212",
-      "display": "53808-0281",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
       "target": [ {
         "code": "53808-0281",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
@@ -564,7 +564,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE213",
-      "display": "53808-1010",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
       "target": [ {
         "code": "53808-1010",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
@@ -572,7 +572,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE214",
-      "display": "63379-030",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
       "target": [ {
         "code": "63379-030",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
@@ -580,7 +580,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE215",
-      "display": "69189-0210",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
       "target": [ {
         "code": "69189-0210",
         "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)",
@@ -588,7 +588,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE216",
-      "display": "0069-0807",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "0069-0807",
         "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -596,7 +596,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE217",
-      "display": "49702-215",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "49702-215",
         "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -604,7 +604,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE218",
-      "display": "49702-223",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "49702-223",
         "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -612,7 +612,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE219",
-      "display": "52125-011",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "52125-011",
         "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -620,7 +620,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE220",
-      "display": "0069-0808",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "0069-0808",
         "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -628,7 +628,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE221",
-      "display": "49702-216",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "49702-216",
         "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -636,7 +636,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE222",
-      "display": "49702-224",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "49702-224",
         "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -644,7 +644,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE223",
-      "display": "50090-1486",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "50090-1486",
         "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -652,7 +652,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE224",
-      "display": "54569-6214",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "54569-6214",
         "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -660,7 +660,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE225",
-      "display": "54868-5809",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
       "target": [ {
         "code": "54868-5809",
         "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)",
@@ -668,7 +668,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE226",
-      "display": "49702-260",
+      "display": "maraviroc KIT (SELZENTRY)",
       "target": [ {
         "code": "49702-260",
         "display": "maraviroc KIT (SELZENTRY)",
@@ -676,7 +676,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE227",
-      "display": "61919-706",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "61919-706",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
@@ -684,7 +684,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE228",
-      "display": "67296-1235",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1235",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
@@ -692,7 +692,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE229",
-      "display": "0006-0227",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "0006-0227",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -700,7 +700,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE230",
-      "display": "49349-430",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "49349-430",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -708,7 +708,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE231",
-      "display": "50090-1085",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "50090-1085",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -716,7 +716,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE232",
-      "display": "53808-0650",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "53808-0650",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -724,7 +724,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE233",
-      "display": "54569-6034",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "54569-6034",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -732,7 +732,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE234",
-      "display": "54868-0117",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "54868-0117",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -740,7 +740,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE235",
-      "display": "61786-843",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "61786-843",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -748,7 +748,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE236",
-      "display": "66336-214",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "66336-214",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -756,7 +756,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE237",
-      "display": "68071-2113",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "68071-2113",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -764,7 +764,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE238",
-      "display": "69189-0227",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "69189-0227",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -772,7 +772,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE239",
-      "display": "70518-1621",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "70518-1621",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -780,7 +780,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE240",
-      "display": "76519-1130",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "76519-1130",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -788,7 +788,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE241",
-      "display": "0074-6633",
+      "display": "RITONAVIR 100mg/1 ORAL CAPSULE (Norvir)",
       "target": [ {
         "code": "0074-6633",
         "display": "RITONAVIR 100mg/1 ORAL CAPSULE (Norvir)",
@@ -796,7 +796,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE242",
-      "display": "0074-3399",
+      "display": "RITONAVIR 100mg/1 ORAL POWDER (Norvir)",
       "target": [ {
         "code": "0074-3399",
         "display": "RITONAVIR 100mg/1 ORAL POWDER (Norvir)",
@@ -804,7 +804,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE243",
-      "display": "31722-597",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET",
       "target": [ {
         "code": "31722-597",
         "display": "RITONAVIR 100mg/1 ORAL TABLET",
@@ -812,7 +812,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE244",
-      "display": "65162-061",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET",
       "target": [ {
         "code": "65162-061",
         "display": "RITONAVIR 100mg/1 ORAL TABLET",
@@ -820,7 +820,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE245",
-      "display": "70518-1519",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET",
       "target": [ {
         "code": "70518-1519",
         "display": "RITONAVIR 100mg/1 ORAL TABLET",
@@ -828,7 +828,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE246",
-      "display": "0054-0407",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0054-0407",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -836,7 +836,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE247",
-      "display": "60687-364",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60687-364",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -844,7 +844,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE248",
-      "display": "60687-420",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60687-420",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -852,7 +852,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE249",
-      "display": "65862-687",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-687",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -860,7 +860,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE250",
-      "display": "67296-1234",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1234",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -868,7 +868,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE251",
-      "display": "68382-696",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68382-696",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -876,7 +876,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE252",
-      "display": "70518-1086",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-1086",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -884,7 +884,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE253",
-      "display": "70518-2007",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-2007",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -892,7 +892,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE254",
-      "display": "0074-3333",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "0074-3333",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -900,7 +900,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE255",
-      "display": "50090-1162",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "50090-1162",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -908,7 +908,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE256",
-      "display": "53808-1119",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "53808-1119",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -916,7 +916,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE257",
-      "display": "54569-6170",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "54569-6170",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -924,7 +924,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE258",
-      "display": "61786-386",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "61786-386",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -932,7 +932,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE259",
-      "display": "69189-3335",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "69189-3335",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -940,7 +940,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE260",
-      "display": "0004-0245",
+      "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)",
       "target": [ {
         "code": "0004-0245",
         "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)",
@@ -948,7 +948,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE261",
-      "display": "49349-624",
+      "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)",
       "target": [ {
         "code": "49349-624",
         "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)",
@@ -956,7 +956,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE262",
-      "display": "0004-0244",
+      "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)",
       "target": [ {
         "code": "0004-0244",
         "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)",
@@ -964,7 +964,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE263",
-      "display": "53808-0674",
+      "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)",
       "target": [ {
         "code": "53808-0674",
         "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)",
@@ -972,7 +972,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE264",
-      "display": "0378-5040",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "0378-5040",
         "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
@@ -980,7 +980,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE265",
-      "display": "31722-515",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "31722-515",
         "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
@@ -988,7 +988,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE266",
-      "display": "57237-234",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "57237-234",
         "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
@@ -996,7 +996,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE267",
-      "display": "64980-354",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "64980-354",
         "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
@@ -1004,7 +1004,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE268",
-      "display": "65862-111",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "65862-111",
         "display": "STAVUDINE 15mg/1 ORAL CAPSULE",
@@ -1012,7 +1012,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE269",
-      "display": "0003-1964",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
       "target": [ {
         "code": "0003-1964",
         "display": "STAVUDINE 15mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
@@ -1020,7 +1020,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE270",
-      "display": "0378-5041",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "0378-5041",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
@@ -1028,7 +1028,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE271",
-      "display": "31722-516",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "31722-516",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
@@ -1036,7 +1036,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE272",
-      "display": "53808-0852",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "53808-0852",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
@@ -1044,7 +1044,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE273",
-      "display": "57237-235",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "57237-235",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
@@ -1052,7 +1052,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE274",
-      "display": "64980-355",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "64980-355",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
@@ -1060,7 +1060,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE275",
-      "display": "65862-112",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "65862-112",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE",
@@ -1068,7 +1068,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE276",
-      "display": "0003-1965",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
       "target": [ {
         "code": "0003-1965",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
@@ -1076,7 +1076,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE277",
-      "display": "53808-0656",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
       "target": [ {
         "code": "53808-0656",
         "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
@@ -1084,7 +1084,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE278",
-      "display": "0378-5042",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "0378-5042",
         "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
@@ -1092,7 +1092,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE279",
-      "display": "31722-517",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "31722-517",
         "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
@@ -1100,7 +1100,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE280",
-      "display": "57237-236",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "57237-236",
         "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
@@ -1108,7 +1108,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE281",
-      "display": "64980-356",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "64980-356",
         "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
@@ -1116,7 +1116,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE282",
-      "display": "65862-046",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "65862-046",
         "display": "STAVUDINE 30mg/1 ORAL CAPSULE",
@@ -1124,7 +1124,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE283",
-      "display": "0003-1966",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
       "target": [ {
         "code": "0003-1966",
         "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
@@ -1132,7 +1132,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE284",
-      "display": "53808-0657",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
       "target": [ {
         "code": "53808-0657",
         "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
@@ -1140,7 +1140,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE285",
-      "display": "0179-0028",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "0179-0028",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1148,7 +1148,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE286",
-      "display": "0378-5043",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "0378-5043",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1156,7 +1156,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE287",
-      "display": "31722-518",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "31722-518",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1164,7 +1164,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE288",
-      "display": "49349-066",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "49349-066",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1172,7 +1172,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE289",
-      "display": "53808-0594",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "53808-0594",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1180,7 +1180,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE290",
-      "display": "53808-0595",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "53808-0595",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1188,7 +1188,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE291",
-      "display": "57237-237",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "57237-237",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1196,7 +1196,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE292",
-      "display": "64980-357",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "64980-357",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1204,7 +1204,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE293",
-      "display": "65862-047",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "65862-047",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE",
@@ -1212,7 +1212,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE294",
-      "display": "0003-1967",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
       "target": [ {
         "code": "0003-1967",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
@@ -1220,7 +1220,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE295",
-      "display": "53808-0795",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
       "target": [ {
         "code": "53808-0795",
         "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)",
@@ -1228,7 +1228,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE296",
-      "display": "55154-0082",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)",
       "target": [ {
         "code": "55154-0082",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)",
@@ -1236,7 +1236,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE297",
-      "display": "72189-156",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "72189-156",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
@@ -1244,7 +1244,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE298",
-      "display": "72189-227",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "72189-227",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
@@ -1252,7 +1252,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE299",
-      "display": "0093-5528",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "0093-5528",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
@@ -1260,7 +1260,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE300",
-      "display": "42385-922",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "42385-922",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
@@ -1268,7 +1268,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE301",
-      "display": "51407-173",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "51407-173",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
@@ -1276,7 +1276,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE302",
-      "display": "69238-1138",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "69238-1138",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
@@ -1284,7 +1284,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE303",
-      "display": "70518-0946",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "70518-0946",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
@@ -1292,7 +1292,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE304",
-      "display": "70710-1052",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "70710-1052",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
@@ -1300,7 +1300,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE305",
-      "display": "70771-1593",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "70771-1593",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE",
@@ -1308,7 +1308,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE306",
-      "display": "0904-6875",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
       "target": [ {
         "code": "0904-6875",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
@@ -1316,7 +1316,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE307",
-      "display": "16714-862",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
       "target": [ {
         "code": "16714-862",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
@@ -1324,7 +1324,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE308",
-      "display": "60687-399",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
       "target": [ {
         "code": "60687-399",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
@@ -1332,7 +1332,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE309",
-      "display": "65862-713",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
       "target": [ {
         "code": "65862-713",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
@@ -1340,7 +1340,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE310",
-      "display": "70518-1365",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
       "target": [ {
         "code": "70518-1365",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)",
@@ -1348,7 +1348,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE311",
-      "display": "59762-0410",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
       "target": [ {
         "code": "59762-0410",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
@@ -1356,7 +1356,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE312",
-      "display": "67296-1236",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
       "target": [ {
         "code": "67296-1236",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
@@ -1364,7 +1364,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE313",
-      "display": "69097-446",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
       "target": [ {
         "code": "69097-446",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
@@ -1372,7 +1372,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE314",
-      "display": "70518-2832",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
       "target": [ {
         "code": "70518-2832",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED",
@@ -1380,7 +1380,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE315",
-      "display": "0003-3622",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
       "target": [ {
         "code": "0003-3622",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
@@ -1388,7 +1388,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE316",
-      "display": "50090-1007",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
       "target": [ {
         "code": "50090-1007",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
@@ -1396,7 +1396,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE317",
-      "display": "54569-5864",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
       "target": [ {
         "code": "54569-5864",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
@@ -1404,7 +1404,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE318",
-      "display": "54868-5838",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
       "target": [ {
         "code": "54868-5838",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
@@ -1412,7 +1412,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE319",
-      "display": "70518-0469",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
       "target": [ {
         "code": "70518-0469",
         "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)",
@@ -1420,7 +1420,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE320",
-      "display": "50090-1327",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "50090-1327",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -1428,7 +1428,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE321",
-      "display": "52125-613",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "52125-613",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -1436,7 +1436,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE322",
-      "display": "59676-566",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "59676-566",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -1444,7 +1444,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE323",
-      "display": "69189-0566",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "69189-0566",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -1452,7 +1452,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE324",
-      "display": "70518-1483",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
       "target": [ {
         "code": "70518-1483",
         "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)",
@@ -1460,7 +1460,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE325",
-      "display": "49702-246",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 LAMIVUDINE 300mg/1 ORAL TABLET, FILM COATED (Dovato)",
       "target": [ {
         "code": "49702-246",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 LAMIVUDINE 300mg/1 ORAL TABLET, FILM COATED (Dovato)",
@@ -1468,7 +1468,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE326",
-      "display": "49702-228",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "49702-228",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -1476,7 +1476,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE327",
-      "display": "50090-1355",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "50090-1355",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -1484,7 +1484,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE328",
-      "display": "53808-1130",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "53808-1130",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -1492,7 +1492,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE329",
-      "display": "61786-771",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "61786-771",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -1500,7 +1500,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE330",
-      "display": "67296-1818",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "67296-1818",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -1508,7 +1508,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE331",
-      "display": "70518-1487",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
       "target": [ {
         "code": "70518-1487",
         "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)",
@@ -1516,7 +1516,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE332",
-      "display": "33342-003",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "33342-003",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1524,7 +1524,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE333",
-      "display": "55700-411",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "55700-411",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1532,7 +1532,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE334",
-      "display": "57297-284",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "57297-284",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1540,7 +1540,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE335",
-      "display": "61919-061",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "61919-061",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1548,7 +1548,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE336",
-      "display": "64380-707",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "64380-707",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1556,7 +1556,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE337",
-      "display": "68071-3311",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "68071-3311",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1564,7 +1564,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE338",
-      "display": "68180-284",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "68180-284",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1572,7 +1572,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE339",
-      "display": "68788-6394",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "68788-6394",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1580,7 +1580,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE340",
-      "display": "71335-0141",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "71335-0141",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -1588,7 +1588,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE341",
-      "display": "11819-359",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, COATED (Combivir)",
       "target": [ {
         "code": "11819-359",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, COATED (Combivir)",
@@ -1596,7 +1596,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE342",
-      "display": "0093-5385",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0093-5385",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1604,7 +1604,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE343",
-      "display": "0378-5180",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0378-5180",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1612,7 +1612,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE344",
-      "display": "21695-996",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "21695-996",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1620,7 +1620,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE345",
-      "display": "31722-506",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "31722-506",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1628,7 +1628,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE346",
-      "display": "31722-739",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "31722-739",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1636,7 +1636,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE347",
-      "display": "42291-363",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42291-363",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1644,7 +1644,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE348",
-      "display": "43063-346",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "43063-346",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1652,7 +1652,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE349",
-      "display": "43063-900",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "43063-900",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1660,7 +1660,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE350",
-      "display": "50090-1419",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "50090-1419",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1668,7 +1668,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE351",
-      "display": "50090-2018",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "50090-2018",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1676,7 +1676,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE352",
-      "display": "50090-3920",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "50090-3920",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1684,7 +1684,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE353",
-      "display": "50268-456",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "50268-456",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1692,7 +1692,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE354",
-      "display": "50436-0597",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "50436-0597",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1700,7 +1700,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE355",
-      "display": "54741-102",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "54741-102",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1708,7 +1708,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE356",
-      "display": "55700-096",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "55700-096",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1716,7 +1716,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE357",
-      "display": "60760-385",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60760-385",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1724,7 +1724,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE358",
-      "display": "63629-4872",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "63629-4872",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1732,7 +1732,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE359",
-      "display": "65862-036",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-036",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1740,7 +1740,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE360",
-      "display": "65862-597",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-597",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1748,7 +1748,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE361",
-      "display": "68071-4450",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68071-4450",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1756,7 +1756,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE362",
-      "display": "68084-416",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68084-416",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1764,7 +1764,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE363",
-      "display": "68788-7298",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68788-7298",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1772,7 +1772,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE364",
-      "display": "69097-315",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69097-315",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1780,7 +1780,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE365",
-      "display": "70518-0697",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-0697",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1788,7 +1788,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE366",
-      "display": "71335-0639",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "71335-0639",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1796,7 +1796,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE367",
-      "display": "72865-144",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "72865-144",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1804,7 +1804,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE368",
-      "display": "76282-115",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "76282-115",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1812,7 +1812,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE369",
-      "display": "76519-1005",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "76519-1005",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -1820,7 +1820,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE370",
-      "display": "0173-0595",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "0173-0595",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1828,7 +1828,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE371",
-      "display": "16590-061",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (Combivir)",
       "target": [ {
         "code": "16590-061",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (Combivir)",
@@ -1836,7 +1836,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE372",
-      "display": "21695-846",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "21695-846",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1844,7 +1844,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE373",
-      "display": "49349-683",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "49349-683",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1852,7 +1852,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE374",
-      "display": "49702-202",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "49702-202",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1860,7 +1860,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE375",
-      "display": "50090-0610",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "50090-0610",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1868,7 +1868,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE376",
-      "display": "52959-546",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "52959-546",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1876,7 +1876,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE377",
-      "display": "53808-0895",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "53808-0895",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1884,7 +1884,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE378",
-      "display": "54569-4524",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "54569-4524",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1892,7 +1892,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE379",
-      "display": "55289-389",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "55289-389",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1900,7 +1900,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE380",
-      "display": "63379-025",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
       "target": [ {
         "code": "63379-025",
         "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)",
@@ -1908,7 +1908,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE381",
-      "display": "61919-706",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "61919-706",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
@@ -1916,7 +1916,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE382",
-      "display": "67296-1235",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1235",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED",
@@ -1924,7 +1924,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE383",
-      "display": "0006-0227",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "0006-0227",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1932,7 +1932,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE384",
-      "display": "49349-430",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "49349-430",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1940,7 +1940,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE385",
-      "display": "50090-1085",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "50090-1085",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1948,7 +1948,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE386",
-      "display": "53808-0650",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "53808-0650",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1956,7 +1956,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE387",
-      "display": "54569-6034",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "54569-6034",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1964,7 +1964,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE388",
-      "display": "54868-0117",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "54868-0117",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1972,7 +1972,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE389",
-      "display": "61786-843",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "61786-843",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1980,7 +1980,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE390",
-      "display": "66336-214",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "66336-214",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1988,7 +1988,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE391",
-      "display": "68071-2113",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "68071-2113",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -1996,7 +1996,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE392",
-      "display": "69189-0227",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "69189-0227",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -2004,7 +2004,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE393",
-      "display": "70518-1621",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "70518-1621",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -2012,7 +2012,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE394",
-      "display": "76519-1130",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
       "target": [ {
         "code": "76519-1130",
         "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)",
@@ -2020,7 +2020,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE395",
-      "display": "0074-6633",
+      "display": "RITONAVIR 100mg/1 ORAL CAPSULE (Norvir)",
       "target": [ {
         "code": "0074-6633",
         "display": "RITONAVIR 100mg/1 ORAL CAPSULE (Norvir)",
@@ -2028,7 +2028,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE396",
-      "display": "0074-3399",
+      "display": "RITONAVIR 100mg/1 ORAL POWDER (Norvir)",
       "target": [ {
         "code": "0074-3399",
         "display": "RITONAVIR 100mg/1 ORAL POWDER (Norvir)",
@@ -2036,7 +2036,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE397",
-      "display": "31722-597",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET",
       "target": [ {
         "code": "31722-597",
         "display": "RITONAVIR 100mg/1 ORAL TABLET",
@@ -2044,7 +2044,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE398",
-      "display": "65162-061",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET",
       "target": [ {
         "code": "65162-061",
         "display": "RITONAVIR 100mg/1 ORAL TABLET",
@@ -2052,7 +2052,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE399",
-      "display": "70518-1519",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET",
       "target": [ {
         "code": "70518-1519",
         "display": "RITONAVIR 100mg/1 ORAL TABLET",
@@ -2060,7 +2060,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE400",
-      "display": "0054-0407",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0054-0407",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2068,7 +2068,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE401",
-      "display": "60687-364",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60687-364",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2076,7 +2076,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE402",
-      "display": "60687-420",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60687-420",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2084,7 +2084,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE403",
-      "display": "65862-687",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-687",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2092,7 +2092,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE404",
-      "display": "67296-1234",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1234",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2100,7 +2100,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE405",
-      "display": "68382-696",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68382-696",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2108,7 +2108,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE406",
-      "display": "70518-1086",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-1086",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2116,7 +2116,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE407",
-      "display": "70518-2007",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-2007",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED",
@@ -2124,7 +2124,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE408",
-      "display": "0074-3333",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "0074-3333",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -2132,7 +2132,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE409",
-      "display": "50090-1162",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "50090-1162",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -2140,7 +2140,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE410",
-      "display": "53808-1119",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "53808-1119",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -2148,7 +2148,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE411",
-      "display": "54569-6170",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "54569-6170",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -2156,7 +2156,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE412",
-      "display": "61786-386",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "61786-386",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -2164,7 +2164,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE413",
-      "display": "69189-3335",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
       "target": [ {
         "code": "69189-3335",
         "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)",
@@ -2172,7 +2172,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE414",
-      "display": "42799-403",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "42799-403",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
@@ -2180,7 +2180,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE415",
-      "display": "52343-044",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "52343-044",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
@@ -2188,7 +2188,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE416",
-      "display": "53104-0100",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "53104-0100",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
@@ -2196,7 +2196,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE417",
-      "display": "64376-128",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "64376-128",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
@@ -2204,7 +2204,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE418",
-      "display": "65862-107",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "65862-107",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
@@ -2212,7 +2212,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE419",
-      "display": "68084-461",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "68084-461",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE",
@@ -2220,7 +2220,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE420",
-      "display": "0173-0108",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)",
       "target": [ {
         "code": "0173-0108",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)",
@@ -2228,7 +2228,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE421",
-      "display": "49702-211",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)",
       "target": [ {
         "code": "49702-211",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)",
@@ -2236,7 +2236,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE422",
-      "display": "54868-1974",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)",
       "target": [ {
         "code": "54868-1974",
         "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)",
@@ -2244,7 +2244,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE423",
-      "display": "0054-0052",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "0054-0052",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -2252,7 +2252,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE424",
-      "display": "31722-509",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "31722-509",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -2260,7 +2260,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE425",
-      "display": "49349-838",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "49349-838",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -2268,7 +2268,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE426",
-      "display": "61786-984",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "61786-984",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -2276,7 +2276,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE427",
-      "display": "69189-0509",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "69189-0509",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -2284,7 +2284,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE428",
-      "display": "70518-1656",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "70518-1656",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET",
@@ -2292,7 +2292,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE429",
-      "display": "0378-6106",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0378-6106",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2300,7 +2300,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE430",
-      "display": "0527-1905",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0527-1905",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2308,7 +2308,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE431",
-      "display": "21695-369",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "21695-369",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2316,7 +2316,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE432",
-      "display": "48792-7809",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "48792-7809",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2324,7 +2324,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE433",
-      "display": "49349-867",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "49349-867",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2332,7 +2332,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE434",
-      "display": "52343-045",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "52343-045",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2340,7 +2340,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE435",
-      "display": "53104-0101",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "53104-0101",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2348,7 +2348,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE436",
-      "display": "53808-0812",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "53808-0812",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2356,7 +2356,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE437",
-      "display": "53808-0878",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "53808-0878",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2364,7 +2364,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE438",
-      "display": "54569-6171",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "54569-6171",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2372,7 +2372,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE439",
-      "display": "57237-241",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "57237-241",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2380,7 +2380,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE440",
-      "display": "61786-305",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "61786-305",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2388,7 +2388,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE441",
-      "display": "63629-4144",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "63629-4144",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2396,7 +2396,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE442",
-      "display": "65862-024",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-024",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2404,7 +2404,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE443",
-      "display": "68084-462",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68084-462",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2412,7 +2412,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE444",
-      "display": "76365-0300",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "76365-0300",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2420,7 +2420,7 @@
       } ]
     }, {
       "code": "NACHC.G1.DE445",
-      "display": "49702-214",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (RETROVIR)",
       "target": [ {
         "code": "49702-214",
         "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (RETROVIR)",
@@ -2428,7 +2428,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE27",
-      "display": "24236-297",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
       "target": [ {
         "code": "24236-297",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
@@ -2436,7 +2436,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE28",
-      "display": "46014-0601",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
       "target": [ {
         "code": "46014-0601",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
@@ -2444,7 +2444,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE29",
-      "display": "53808-0801",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
       "target": [ {
         "code": "53808-0801",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
@@ -2452,7 +2452,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE30",
-      "display": "54868-4853",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
       "target": [ {
         "code": "54868-4853",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
@@ -2460,7 +2460,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE31",
-      "display": "61958-0601",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
       "target": [ {
         "code": "61958-0601",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
@@ -2468,7 +2468,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE32",
-      "display": "69097-642",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "69097-642",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE",
@@ -2476,7 +2476,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE33",
-      "display": "70518-1847",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
       "target": [ {
         "code": "70518-1847",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)",
@@ -2484,7 +2484,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE34",
-      "display": "70518-2906",
+      "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE",
       "target": [ {
         "code": "70518-2906",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE",
@@ -2492,7 +2492,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE35",
-      "display": "61958-2002",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)",
       "target": [ {
         "code": "61958-2002",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)",
@@ -2500,7 +2500,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE36",
-      "display": "70518-0230",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)",
       "target": [ {
         "code": "70518-0230",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)",
@@ -2508,7 +2508,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE37",
-      "display": "0093-7607",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0093-7607",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2516,7 +2516,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE38",
-      "display": "0093-7704",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0093-7704",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2524,7 +2524,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE39",
-      "display": "0378-1930",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0378-1930",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2532,7 +2532,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE40",
-      "display": "33342-106",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "33342-106",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2540,7 +2540,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE41",
-      "display": "35356-070",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "35356-070",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2548,7 +2548,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE42",
-      "display": "42291-439",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42291-439",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2556,7 +2556,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE43",
-      "display": "42385-913",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42385-913",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2564,7 +2564,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE44",
-      "display": "42385-953",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42385-953",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2572,7 +2572,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE45",
-      "display": "42543-719",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "42543-719",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2580,7 +2580,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE46",
-      "display": "50090-0870",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "50090-0870",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2588,7 +2588,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE47",
-      "display": "51407-112",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "51407-112",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2596,7 +2596,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE48",
-      "display": "52959-969",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "52959-969",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2604,7 +2604,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE49",
-      "display": "53808-0805",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "53808-0805",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2612,7 +2612,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE50",
-      "display": "54569-5588",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "54569-5588",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2620,7 +2620,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE51",
-      "display": "54868-5141",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "54868-5141",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2628,7 +2628,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE52",
-      "display": "55154-0082",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)",
       "target": [ {
         "code": "55154-0082",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)",
@@ -2636,7 +2636,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE53",
-      "display": "55154-4425",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
       "target": [ {
         "code": "55154-4425",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
@@ -2644,7 +2644,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE54",
-      "display": "58118-0100",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "58118-0100",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2652,7 +2652,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE55",
-      "display": "60219-2095",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60219-2095",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2660,7 +2660,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE56",
-      "display": "60505-4202",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60505-4202",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2668,7 +2668,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE57",
-      "display": "61786-596",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "61786-596",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2676,7 +2676,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE58",
-      "display": "61919-669",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
       "target": [ {
         "code": "61919-669",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)",
@@ -2684,7 +2684,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE59",
-      "display": "61958-0701",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "61958-0701",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2692,7 +2692,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE60",
-      "display": "63629-7581",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "63629-7581",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2700,7 +2700,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE61",
-      "display": "64380-719",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "64380-719",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2708,7 +2708,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE62",
-      "display": "65862-354",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-354",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2716,7 +2716,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE63",
-      "display": "67296-1237",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1237",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2724,7 +2724,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE64",
-      "display": "67296-1433",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "67296-1433",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2732,7 +2732,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE65",
-      "display": "68071-2112",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "68071-2112",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2740,7 +2740,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE66",
-      "display": "68180-287",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "68180-287",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2748,7 +2748,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE67",
-      "display": "69097-209",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69097-209",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2756,7 +2756,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE68",
-      "display": "69189-0701",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "69189-0701",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2764,7 +2764,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE69",
-      "display": "69238-1527",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69238-1527",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2772,7 +2772,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE70",
-      "display": "69238-2095",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69238-2095",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2780,7 +2780,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE71",
-      "display": "70518-0097",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
       "target": [ {
         "code": "70518-0097",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)",
@@ -2788,7 +2788,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE72",
-      "display": "70518-3077",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-3077",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2796,7 +2796,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE73",
-      "display": "70710-1367",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70710-1367",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2804,7 +2804,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE74",
-      "display": "70771-1594",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70771-1594",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2812,7 +2812,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE75",
-      "display": "72189-156",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "72189-156",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
@@ -2820,7 +2820,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE76",
-      "display": "72189-227",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "72189-227",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED",
@@ -2828,7 +2828,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE77",
-      "display": "76282-677",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "76282-677",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2836,7 +2836,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE78",
-      "display": "61958-2301",
+      "display": "TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (VEMLIDY)",
       "target": [ {
         "code": "61958-2301",
         "display": "TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (VEMLIDY)",
@@ -2844,7 +2844,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE79",
-      "display": "0093-7104",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "0093-7104",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2852,7 +2852,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE80",
-      "display": "0904-6821",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "0904-6821",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2860,7 +2860,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE81",
-      "display": "16714-820",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "16714-820",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2868,7 +2868,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE82",
-      "display": "24236-284",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "24236-284",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -2876,7 +2876,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE83",
-      "display": "31722-535",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "31722-535",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2884,7 +2884,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE84",
-      "display": "33342-096",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "33342-096",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2892,7 +2892,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE85",
-      "display": "42291-800",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42291-800",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2900,7 +2900,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE86",
-      "display": "42385-901",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "42385-901",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2908,7 +2908,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE87",
-      "display": "50090-0754",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "50090-0754",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -2916,7 +2916,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE88",
-      "display": "50268-758",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "50268-758",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2924,7 +2924,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE89",
-      "display": "53808-0810",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "53808-0810",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -2932,7 +2932,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE90",
-      "display": "53808-1128",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "53808-1128",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2940,7 +2940,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE91",
-      "display": "54569-5334",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "54569-5334",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -2948,7 +2948,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE92",
-      "display": "55154-4426",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "55154-4426",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -2956,7 +2956,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE93",
-      "display": "60505-4666",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED",
       "target": [ {
         "code": "60505-4666",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED",
@@ -2964,7 +2964,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE94",
-      "display": "60687-366",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "60687-366",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2972,7 +2972,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE95",
-      "display": "61958-0401",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "61958-0401",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -2980,7 +2980,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE96",
-      "display": "64380-714",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "64380-714",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -2988,7 +2988,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE97",
-      "display": "65862-421",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "65862-421",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -2996,7 +2996,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE98",
-      "display": "67184-0521",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED",
       "target": [ {
         "code": "67184-0521",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED",
@@ -3004,7 +3004,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE99",
-      "display": "69025-103",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "69025-103",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -3012,7 +3012,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE100",
-      "display": "69076-105",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED",
       "target": [ {
         "code": "69076-105",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED",
@@ -3020,7 +3020,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE101",
-      "display": "69097-533",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "69097-533",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -3028,7 +3028,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE102",
-      "display": "69189-0401",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "69189-0401",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -3036,7 +3036,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE103",
-      "display": "70518-0546",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
       "target": [ {
         "code": "70518-0546",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)",
@@ -3044,7 +3044,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE104",
-      "display": "70518-0918",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-0918",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
@@ -3052,7 +3052,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE105",
-      "display": "70518-1002",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
       "target": [ {
         "code": "70518-1002",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET",
@@ -3060,7 +3060,7 @@
       } ]
     }, {
       "code": "NACHC.G2.DE106",
-      "display": "70518-2151",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",
       "target": [ {
         "code": "70518-2151",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED",

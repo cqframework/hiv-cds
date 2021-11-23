@@ -13,31 +13,31 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.E2.DE154",
-        "display": "14461-8"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE155",
-        "display": "14462-6"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE156",
-        "display": "14465-9"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE157",
-        "display": "45093-2"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE158",
-        "display": "45094-0"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE159",
-        "display": "45096-5"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE160",
-        "display": "80367-6"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE161",
-        "display": "87950-2"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       }, {
         "code": "NACHC.E2.DE162",
-        "display": "89648-0"
+        "display": "Tests for Chlamydia trachomatis by Culture"
       } ]
     } ]
   }

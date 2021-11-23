@@ -13,22 +13,22 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.D2.DE60",
-        "display": "43383-9"
+        "display": "Neisseria sp identified in Throat by Organism specific culture"
       }, {
         "code": "NACHC.D2.DE61",
-        "display": "43384-7"
+        "display": "Neisseria sp identified in Urethra by Organism specific culture"
       }, {
         "code": "NACHC.D2.DE62",
-        "display": "43385-4"
+        "display": "Neisseria sp identified in Cervix by Organism specific culture"
       }, {
         "code": "NACHC.D2.DE63",
-        "display": "43386-2"
+        "display": "Neisseria sp identified in Anal by Organism specific culture"
       }, {
         "code": "NACHC.D2.DE64",
-        "display": "43387-0"
+        "display": "Neisseria sp identified in Unspecified specimen by Organism specific culture"
       }, {
         "code": "NACHC.D2.DE65",
-        "display": "80369-2"
+        "display": "Neisseria sp identified in Rectum by Organism specific culture"
       } ]
     } ]
   }

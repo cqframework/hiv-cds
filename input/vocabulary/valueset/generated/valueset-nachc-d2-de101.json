@@ -13,10 +13,10 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.D2.DE101",
-        "display": "45067-6"
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
       }, {
         "code": "NACHC.D2.DE102",
-        "display": "1675429"
+        "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
       } ]
     } ]
   }

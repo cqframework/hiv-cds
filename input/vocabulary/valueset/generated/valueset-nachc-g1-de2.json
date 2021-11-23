@@ -13,13 +13,13 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G1.DE2",
-        "display": "409516001"
+        "display": "Post-exposure prophylaxis"
       }, {
         "code": "NACHC.G1.DE3",
-        "display": "736459001"
+        "display": "Administration of prophylactic agent after sexual exposure (procedure)"
       }, {
         "code": "NACHC.G1.DE4",
-        "display": "473382005"
+        "display": "Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)"
       } ]
     } ]
   }

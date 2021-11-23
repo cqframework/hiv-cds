@@ -25,7 +25,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE190",
-      "display": "88221-7"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://loinc.org",
       "code": "88221-7",

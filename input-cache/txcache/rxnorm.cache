@@ -2,359 +2,358 @@
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1359268"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "darunavir 800 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "1359268",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1359270"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "darunavir 800 MG [Prezista]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1359270",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1359269"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "darunavir 800 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "1359269",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1359271"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "darunavir 800 MG Oral Tablet [Prezista]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1359271",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1433869"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "dolutegravir 50 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "1433869",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "2122522"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "dolutegravir 50 MG / lamiVUDine 300 MG [Dovato]",
-  "severity" : null,
-  "error" : ""
+  "code" : "2122522",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "2122519"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "dolutegravir 50 MG / lamiVUDine 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "2122519",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "2122526"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Dovato 50 MG / 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "2122526",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1433875"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "dolutegravir 50 MG [Tivicay]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1433875",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1433873"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "dolutegravir 50 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "1433873",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1433879"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "dolutegravir 50 MG Oral Tablet [Tivicay]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1433879",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "317359"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 200 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "317359",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "573284"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 200 MG [Sustiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "573284",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "205290"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 200 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "205290",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "213390"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 200 MG Oral Capsule [Sustiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "213390",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1088481"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 200 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "1088481",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "315853"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 50 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "315853",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "573286"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 50 MG [Sustiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "573286",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "205292"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 50 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "205292",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "213392"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 50 MG Oral Capsule [Sustiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "213392",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "350652"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 600 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "350652",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "643068"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]",
-  "severity" : null,
-  "error" : ""
+  "code" : "643068",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "643066"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "643066",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "643070"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]",
-  "severity" : null,
-  "error" : ""
+  "code" : "643070",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "575878"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 600 MG [Sustiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "575878",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "349477"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 600 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "349477",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "352143"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "efavirenz 600 MG Oral Tablet [Sustiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "352143",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "639887"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]",
-  "severity" : null,
-  "error" : ""
+  "code" : "639887",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "476556"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "476556",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "639888"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
-  "severity" : null,
-  "error" : ""
+  "code" : "639888",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "139896"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide",
-  "severity" : null,
-  "error" : ""
+  "code" : "139896",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1736574"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide 90 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "1736574",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1736577"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide 90 MG [Fuzeon]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1736577",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "401981"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide 90 MG Injection",
-  "severity" : null,
-  "error" : ""
+  "code" : "401981",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "404460"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide 90 MG Injection [Fuzeon]",
-  "severity" : null,
-  "error" : ""
+  "code" : "404460",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "402414"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "severity" : "error",
   "error" : "The code \"402414\" is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm; The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#402414) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
@@ -362,9 +361,8 @@ v: {
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "576416"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "severity" : "error",
   "error" : "The code \"576416\" is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm; The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#576416) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
@@ -372,19 +370,18 @@ v: {
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1161890"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide Injectable Product",
-  "severity" : null,
-  "error" : ""
+  "code" : "1161890",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "402415"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "severity" : "error",
   "error" : "The code \"402415\" is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm; The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#402415) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
@@ -392,9 +389,8 @@ v: {
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "406055"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "severity" : "error",
   "error" : "The code \"406055\" is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm; The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#406055) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
@@ -402,922 +398,922 @@ v: {
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1736575"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide Injection",
-  "severity" : null,
-  "error" : ""
+  "code" : "1736575",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1736578"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "enfuvirtide Injection [Fuzeon]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1736578",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "402364"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "fosamprenavir 700 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "402364",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "576110"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "fosamprenavir 700 MG [Lexiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "576110",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "402109"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "fosamprenavir 700 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "402109",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "402110"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "fosamprenavir 700 MG Oral Tablet [Lexiva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "402110",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "728221"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 150 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "728221",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "729199"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 150 MG [Selzentry]",
-  "severity" : null,
-  "error" : ""
+  "code" : "729199",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "728223"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 150 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "728223",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "729201"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 150 MG Oral Tablet [Selzentry]",
-  "severity" : null,
-  "error" : ""
+  "code" : "729201",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "728224"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 300 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "728224",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "729202"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 300 MG [Selzentry]",
-  "severity" : null,
-  "error" : ""
+  "code" : "729202",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "728225"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "728225",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "729203"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "maraviroc 300 MG Oral Tablet [Selzentry]",
-  "severity" : null,
-  "error" : ""
+  "code" : "729203",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "744840"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "raltegravir 400 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "744840",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "744844"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "raltegravir 400 MG [Isentress]",
-  "severity" : null,
-  "error" : ""
+  "code" : "744844",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "744842"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "raltegravir 400 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "744842",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "744846"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Isentress 400 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "744846",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1924312"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "raltegravir 600 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "1924312",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1924314"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "raltegravir 600 MG [Isentress]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1924314",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1924313"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "raltegravir 600 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "1924313",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1924315"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "raltegravir 600 MG Oral Tablet [Isentress]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1924315",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "317488"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "317488",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "565134"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG [Norvir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "565134",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "317150"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "317150",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152970"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG Oral Capsule [Norvir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152970",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1926066"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG Oral Powder",
-  "severity" : null,
-  "error" : ""
+  "code" : "1926066",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1926069"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG Oral Powder [Norvir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1926069",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "900575"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "900575",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "900577"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "ritonavir 100 MG Oral Tablet [Norvir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "900577",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "859862"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "saquinavir mesylate 500 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "859862",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "859864"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "saquinavir mesylate 500 MG [Invirase]",
-  "severity" : null,
-  "error" : ""
+  "code" : "859864",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "859863"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "saquinavir mesylate 500 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "859863",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "859865"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "saquinavir mesylate 500 MG Oral Tablet [Invirase]",
-  "severity" : null,
-  "error" : ""
+  "code" : "859865",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "328624"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 15 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "328624",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "565117"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 15 MG [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "565117",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "313107"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 15 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "313107",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152941"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 15 MG Oral Capsule [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152941",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "328625"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 20 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "328625",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "565118"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 20 MG [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "565118",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "313108"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 20 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "313108",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152942"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 20 MG Oral Capsule [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152942",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "328627"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 30 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "328627",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "565119"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 30 MG [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "565119",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "313109"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 30 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "313109",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152943"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 30 MG Oral Capsule [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152943",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "330498"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 40 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "330498",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "565120"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 40 MG [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "565120",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "313110"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 40 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "313110",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152944"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "stavudine 40 MG Oral Capsule [Zerit]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152944",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "393334"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir disoproxil fumarate 300 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "393334",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "575802"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir disoproxil fumarate 300 MG [Viread]",
-  "severity" : null,
-  "error" : ""
+  "code" : "575802",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "349251"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir disoproxil fumarate 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "349251",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "352050"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
-  "severity" : null,
-  "error" : ""
+  "code" : "352050",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "664740"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "atazanavir 300 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "664740",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "664742"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "atazanavir 300 MG [Reyataz]",
-  "severity" : null,
-  "error" : ""
+  "code" : "664742",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "664741"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "atazanavir 300 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "664741",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "664743"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "atazanavir 300 MG Oral Capsule [Reyataz]",
-  "severity" : null,
-  "error" : ""
+  "code" : "664743",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "368309"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine / zidovudine Oral Tablet [Combivir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "368309",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "573017"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine 150 MG / zidovudine 300 MG [Combivir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "573017",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "200082"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "200082",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "213088"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "213088",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "350655"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine 300 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "350655",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "575950"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine 300 MG [Epivir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "575950",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "349491"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "349491",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "352230"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "lamivudine 300 MG Oral Tablet [Epivir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "352230",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "316915"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 100 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "316915",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "566052"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 100 MG [Retrovir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "566052",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "198352"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 100 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "198352",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "201907"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 100 MG Oral Capsule [Retrovir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "201907",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "316916"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 300 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "316916",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "565059"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 300 MG [Retrovir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "565059",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "199663"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 300 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "199663",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152772"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 300 MG Oral Tablet [Retrovir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152772",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "403875"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG Oral Capsule",
-  "severity" : null,
-  "error" : ""
+  "code" : "403875",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "404587"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG Oral Capsule [Emtriva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "404587",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "406016"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "406016",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "576513"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG [Emtriva]",
-  "severity" : null,
-  "error" : ""
+  "code" : "576513",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "639883"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "639883",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1727491"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine / tenofovir alafenamide",
-  "severity" : null,
-  "error" : ""
+  "code" : "1727491",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1747688"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine / tenofovir alafenamide Oral Product",
-  "severity" : null,
-  "error" : ""
+  "code" : "1747688",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1747689"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine / tenofovir alafenamide Pill",
-  "severity" : null,
-  "error" : ""
+  "code" : "1747689",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1747690"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine / tenofovir alafenamide Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "1747690",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1747691"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "1747691",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1747693"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1747693",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1747694"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1747694",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1747697"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1747697",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1741729"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir alafenamide 25 MG",
-  "severity" : null,
-  "error" : ""
+  "code" : "1741729",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1858261"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir alafenamide 25 MG Oral Tablet",
-  "severity" : null,
-  "error" : ""
+  "code" : "1858261",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1858263"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir alafenamide 25 MG [Vemlidy]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1858263",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "1858267"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]",
-  "severity" : null,
-  "error" : ""
+  "code" : "1858267",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152772",
   "display" : "zidovudine 300 MG Oral Tablet [Retrovir]"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 300 MG Oral Tablet [Retrovir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152772",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -1338,715 +1334,715 @@ v: {
     "contains" : [{
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE6",
-      "display" : "1359268"
+      "display" : "darunavir 800 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE7",
-      "display" : "1359270"
+      "display" : "darunavir 800 MG [Prezista]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE8",
-      "display" : "1359269"
+      "display" : "darunavir 800 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE9",
-      "display" : "1359271"
+      "display" : "darunavir 800 MG Oral Tablet [Prezista]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE10",
-      "display" : "1433869"
+      "display" : "dolutegravir 50 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE11",
-      "display" : "2122522"
+      "display" : "dolutegravir 50 MG / lamivudine 300 MG [Dovato]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE12",
-      "display" : "2122519"
+      "display" : "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE13",
-      "display" : "2122526"
+      "display" : "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE14",
-      "display" : "1433875"
+      "display" : "dolutegravir 50 MG [Tivicay]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE15",
-      "display" : "1433873"
+      "display" : "dolutegravir 50 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE16",
-      "display" : "1433879"
+      "display" : "dolutegravir 50 MG Oral Tablet [Tivicay]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE17",
-      "display" : "317359"
+      "display" : "efavirenz 200 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE18",
-      "display" : "573284"
+      "display" : "efavirenz 200 MG [Sustiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE19",
-      "display" : "205290"
+      "display" : "efavirenz 200 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE20",
-      "display" : "213390"
+      "display" : "efavirenz 200 MG Oral Capsule [Sustiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE21",
-      "display" : "1088481"
+      "display" : "efavirenz 200 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE22",
-      "display" : "315853"
+      "display" : "efavirenz 50 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE23",
-      "display" : "573286"
+      "display" : "efavirenz 50 MG [Sustiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE24",
-      "display" : "205292"
+      "display" : "efavirenz 50 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE25",
-      "display" : "213392"
+      "display" : "efavirenz 50 MG Oral Capsule [Sustiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE26",
-      "display" : "350652"
+      "display" : "efavirenz 600 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE27",
-      "display" : "643068"
+      "display" : "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE28",
-      "display" : "643066"
+      "display" : "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE29",
-      "display" : "643070"
+      "display" : "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE30",
-      "display" : "575878"
+      "display" : "efavirenz 600 MG [Sustiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE31",
-      "display" : "349477"
+      "display" : "efavirenz 600 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE32",
-      "display" : "352143"
+      "display" : "efavirenz 600 MG Oral Tablet [Sustiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE33",
-      "display" : "639887"
+      "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE34",
-      "display" : "476556"
+      "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE35",
-      "display" : "639888"
+      "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE36",
-      "display" : "139896"
+      "display" : "enfuvirtide"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE37",
-      "display" : "1736574"
+      "display" : "enfuvirtide 90 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE38",
-      "display" : "1736577"
+      "display" : "enfuvirtide 90 MG [Fuzeon]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE39",
-      "display" : "401981"
+      "display" : "enfuvirtide 90 MG Injection"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE40",
-      "display" : "404460"
+      "display" : "enfuvirtide 90 MG Injection [Fuzeon]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE41",
-      "display" : "402414"
+      "display" : "enfuvirtide 90 MG/ML"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE42",
-      "display" : "576416"
+      "display" : "enfuvirtide 90 MG/ML [Fuzeon]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE43",
-      "display" : "1161890"
+      "display" : "enfuvirtide Injectable Product"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE44",
-      "display" : "402415"
+      "display" : "enfuvirtide Injectable Solution"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE45",
-      "display" : "406055"
+      "display" : "enfuvirtide Injectable Solution [Fuzeon]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE46",
-      "display" : "1736575"
+      "display" : "enfuvirtide Injection"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE47",
-      "display" : "1736578"
+      "display" : "enfuvirtide Injection [Fuzeon]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE48",
-      "display" : "402364"
+      "display" : "fosamprenavir 700 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE49",
-      "display" : "576110"
+      "display" : "fosamprenavir 700 MG [Lexiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE50",
-      "display" : "402109"
+      "display" : "fosamprenavir 700 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE51",
-      "display" : "402110"
+      "display" : "fosamprenavir 700 MG Oral Tablet [Lexiva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE52",
-      "display" : "728221"
+      "display" : "maraviroc 150 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE53",
-      "display" : "729199"
+      "display" : "maraviroc 150 MG [Selzentry]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE54",
-      "display" : "728223"
+      "display" : "maraviroc 150 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE55",
-      "display" : "729201"
+      "display" : "maraviroc 150 MG Oral Tablet [Selzentry]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE56",
-      "display" : "728224"
+      "display" : "maraviroc 300 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE57",
-      "display" : "729202"
+      "display" : "maraviroc 300 MG [Selzentry]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE58",
-      "display" : "728225"
+      "display" : "maraviroc 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE59",
-      "display" : "729203"
+      "display" : "maraviroc 300 MG Oral Tablet [Selzentry]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE60",
-      "display" : "744840"
+      "display" : "raltegravir 400 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE61",
-      "display" : "744844"
+      "display" : "raltegravir 400 MG [Isentress]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE62",
-      "display" : "744842"
+      "display" : "raltegravir 400 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE63",
-      "display" : "744846"
+      "display" : "raltegravir 400 MG Oral Tablet [Isentress]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE64",
-      "display" : "1924312"
+      "display" : "raltegravir 600 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE65",
-      "display" : "1924314"
+      "display" : "raltegravir 600 MG [Isentress]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE66",
-      "display" : "1924313"
+      "display" : "raltegravir 600 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE67",
-      "display" : "1924315"
+      "display" : "raltegravir 600 MG Oral Tablet [Isentress]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE68",
-      "display" : "317488"
+      "display" : "ritonavir 100 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE69",
-      "display" : "565134"
+      "display" : "ritonavir 100 MG [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE70",
-      "display" : "317150"
+      "display" : "ritonavir 100 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE71",
-      "display" : "152970"
+      "display" : "ritonavir 100 MG Oral Capsule [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE72",
-      "display" : "1926066"
+      "display" : "ritonavir 100 MG Oral Powder"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE73",
-      "display" : "1926069"
+      "display" : "ritonavir 100 MG Oral Powder [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE74",
-      "display" : "900575"
+      "display" : "ritonavir 100 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE75",
-      "display" : "900577"
+      "display" : "ritonavir 100 MG Oral Tablet [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE76",
-      "display" : "859862"
+      "display" : "saquinavir mesylate 500 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE77",
-      "display" : "859864"
+      "display" : "saquinavir mesylate 500 MG [Invirase]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE78",
-      "display" : "859863"
+      "display" : "saquinavir mesylate 500 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE79",
-      "display" : "859865"
+      "display" : "saquinavir mesylate 500 MG Oral Tablet [Invirase]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE80",
-      "display" : "328624"
+      "display" : "stavudine 15 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE81",
-      "display" : "565117"
+      "display" : "stavudine 15 MG [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE82",
-      "display" : "313107"
+      "display" : "stavudine 15 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE83",
-      "display" : "152941"
+      "display" : "stavudine 15 MG Oral Capsule [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE84",
-      "display" : "328625"
+      "display" : "stavudine 20 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE85",
-      "display" : "565118"
+      "display" : "stavudine 20 MG [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE86",
-      "display" : "313108"
+      "display" : "stavudine 20 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE87",
-      "display" : "152942"
+      "display" : "stavudine 20 MG Oral Capsule [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE88",
-      "display" : "328627"
+      "display" : "stavudine 30 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE89",
-      "display" : "565119"
+      "display" : "stavudine 30 MG [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE90",
-      "display" : "313109"
+      "display" : "stavudine 30 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE91",
-      "display" : "152943"
+      "display" : "stavudine 30 MG Oral Capsule [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE92",
-      "display" : "330498"
+      "display" : "stavudine 40 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE93",
-      "display" : "565120"
+      "display" : "stavudine 40 MG [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE94",
-      "display" : "313110"
+      "display" : "stavudine 40 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE95",
-      "display" : "152944"
+      "display" : "stavudine 40 MG Oral Capsule [Zerit]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE96",
-      "display" : "393334"
+      "display" : "tenofovir disoproxil fumarate 300 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE97",
-      "display" : "575802"
+      "display" : "tenofovir disoproxil fumarate 300 MG [Viread]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE98",
-      "display" : "349251"
+      "display" : "tenofovir disoproxil fumarate 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE99",
-      "display" : "352050"
+      "display" : "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE100",
-      "display" : "664740"
+      "display" : "atazanavir 300 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE101",
-      "display" : "664742"
+      "display" : "atazanavir 300 MG [Reyataz]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE102",
-      "display" : "664741"
+      "display" : "atazanavir 300 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE103",
-      "display" : "664743"
+      "display" : "atazanavir 300 MG Oral Capsule [Reyataz]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE104",
-      "display" : "1359268"
+      "display" : "darunavir 800 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE105",
-      "display" : "1359270"
+      "display" : "darunavir 800 MG [Prezista]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE106",
-      "display" : "1359269"
+      "display" : "darunavir 800 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE107",
-      "display" : "1359271"
+      "display" : "darunavir 800 MG Oral Tablet [Prezista]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE108",
-      "display" : "1433869"
+      "display" : "dolutegravir 50 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE109",
-      "display" : "2122522"
+      "display" : "dolutegravir 50 MG / lamivudine 300 MG [Dovato]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE110",
-      "display" : "2122519"
+      "display" : "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE111",
-      "display" : "2122526"
+      "display" : "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE112",
-      "display" : "1433875"
+      "display" : "dolutegravir 50 MG [Tivicay]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE113",
-      "display" : "1433873"
+      "display" : "dolutegravir 50 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE114",
-      "display" : "1433879"
+      "display" : "dolutegravir 50 MG Oral Tablet [Tivicay]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE115",
-      "display" : "368309"
+      "display" : "lamivudine / zidovudine Oral Tablet [Combivir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE116",
-      "display" : "573017"
+      "display" : "lamivudine 150 MG / zidovudine 300 MG [Combivir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE117",
-      "display" : "200082"
+      "display" : "lamivudine 150 MG / zidovudine 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE118",
-      "display" : "213088"
+      "display" : "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE119",
-      "display" : "350655"
+      "display" : "lamivudine 300 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE120",
-      "display" : "575950"
+      "display" : "lamivudine 300 MG [Epivir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE121",
-      "display" : "349491"
+      "display" : "lamivudine 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE122",
-      "display" : "352230"
+      "display" : "lamivudine 300 MG Oral Tablet [Epivir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE123",
-      "display" : "744840"
+      "display" : "raltegravir 400 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE124",
-      "display" : "744844"
+      "display" : "raltegravir 400 MG [Isentress]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE125",
-      "display" : "744842"
+      "display" : "raltegravir 400 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE126",
-      "display" : "744846"
+      "display" : "raltegravir 400 MG Oral Tablet [Isentress]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE127",
-      "display" : "317488"
+      "display" : "ritonavir 100 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE128",
-      "display" : "565134"
+      "display" : "ritonavir 100 MG [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE129",
-      "display" : "317150"
+      "display" : "ritonavir 100 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE130",
-      "display" : "152970"
+      "display" : "ritonavir 100 MG Oral Capsule [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE131",
-      "display" : "1926066"
+      "display" : "ritonavir 100 MG Oral Powder"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE132",
-      "display" : "1926069"
+      "display" : "ritonavir 100 MG Oral Powder [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE133",
-      "display" : "900575"
+      "display" : "ritonavir 100 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE134",
-      "display" : "900577"
+      "display" : "ritonavir 100 MG Oral Tablet [Norvir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE135",
-      "display" : "316915"
+      "display" : "zidovudine 100 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE136",
-      "display" : "566052"
+      "display" : "zidovudine 100 MG [Retrovir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE137",
-      "display" : "198352"
+      "display" : "zidovudine 100 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE138",
-      "display" : "201907"
+      "display" : "zidovudine 100 MG Oral Capsule [Retrovir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE139",
-      "display" : "316916"
+      "display" : "zidovudine 300 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE140",
-      "display" : "565059"
+      "display" : "zidovudine 300 MG [Retrovir]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE141",
-      "display" : "199663"
+      "display" : "zidovudine 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G1.DE142",
-      "display" : "152772"
+      "display" : "zidovudine 300 MG Oral Tablet [Retrovir]"
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 300 MG Oral Tablet [Retrovir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152772",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "152772"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "zidovudine 300 MG Oral Tablet [Retrovir]",
-  "severity" : null,
-  "error" : ""
+  "code" : "152772",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "575802",
   "display" : "tenofovir disoproxil fumarate 300 MG [Viread]"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir disoproxil fumarate 300 MG [Viread]",
-  "severity" : null,
-  "error" : ""
+  "code" : "575802",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -2076,138 +2072,138 @@ v: {
     "contains" : [{
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE2",
-      "display" : "403875"
+      "display" : "emtricitabine 200 MG Oral Capsule"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE3",
-      "display" : "404587"
+      "display" : "emtricitabine 200 MG Oral Capsule [Emtriva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE4",
-      "display" : "406016"
+      "display" : "emtricitabine 200 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE5",
-      "display" : "576513"
+      "display" : "emtricitabine 200 MG [Emtriva]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE6",
-      "display" : "639883"
+      "display" : "emtricitabine 200 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE7",
-      "display" : "1727491"
+      "display" : "emtricitabine / tenofovir alafenamide"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE8",
-      "display" : "1747688"
+      "display" : "emtricitabine / tenofovir alafenamide Oral Product"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE9",
-      "display" : "1747689"
+      "display" : "emtricitabine / tenofovir alafenamide Pill"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE10",
-      "display" : "1747690"
+      "display" : "emtricitabine / tenofovir alafenamide Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE11",
-      "display" : "1747691"
+      "display" : "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE12",
-      "display" : "1747693"
+      "display" : "emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE13",
-      "display" : "1747694"
+      "display" : "emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE14",
-      "display" : "1747697"
+      "display" : "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE15",
-      "display" : "476556"
+      "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE16",
-      "display" : "639887"
+      "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE17",
-      "display" : "639888"
+      "display" : "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE18",
-      "display" : "1741729"
+      "display" : "tenofovir alafenamide 25 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE19",
-      "display" : "1858261"
+      "display" : "tenofovir alafenamide 25 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE20",
-      "display" : "1858263"
+      "display" : "tenofovir alafenamide 25 MG [Vemlidy]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE21",
-      "display" : "1858267"
+      "display" : "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE22",
-      "display" : "349251"
+      "display" : "tenofovir disoproxil fumarate 300 MG Oral Tablet"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE23",
-      "display" : "352050"
+      "display" : "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE24",
-      "display" : "393334"
+      "display" : "tenofovir disoproxil fumarate 300 MG"
     },
     {
       "system" : "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code" : "NACHC.G2.DE25",
-      "display" : "575802"
+      "display" : "tenofovir disoproxil fumarate 300 MG [Viread]"
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir disoproxil fumarate 300 MG [Viread]",
-  "severity" : null,
-  "error" : ""
+  "code" : "575802",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "575802"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "tenofovir disoproxil fumarate 300 MG [Viread]",
-  "severity" : null,
-  "error" : ""
+  "code" : "575802",
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------

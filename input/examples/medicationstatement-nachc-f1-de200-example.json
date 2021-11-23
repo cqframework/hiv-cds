@@ -8,7 +8,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.F1.DE201",
-      "display": "F11.10"
+      "display": "Opioid abuse, uncomplicated"
     }, {
       "system": "http://hl7.org/fhir/sid/icd-10",
       "code": "F11.10",

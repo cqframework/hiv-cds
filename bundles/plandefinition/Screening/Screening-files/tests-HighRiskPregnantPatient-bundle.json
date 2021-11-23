@@ -4,6 +4,38 @@
   "type": "transaction",
   "entry": [ {
     "resource": {
+      "resourceType": "Encounter",
+      "id": "HighRiskPregnantPatient-encounter-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de38" ]
+      },
+      "status": "in-progress",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "AMB",
+        "display": "ambulatory"
+      },
+      "type": [ {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "Third Trimester Encounters-Z34.83",
+          "display": "Z34.83"
+        } ]
+      } ],
+      "subject": {
+        "reference": "Patient/HighRiskPregnantPatient"
+      },
+      "period": {
+        "start": "2021-07-30T10:00:00-07:00",
+        "end": "2021-07-30T11:20:00-07:00"
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Encounter/HighRiskPregnantPatient-encounter-1"
+    }
+  }, {
+    "resource": {
       "resourceType": "Condition",
       "id": "HighRiskPregnantPatient-condition-pregnant-1",
       "meta": {
@@ -51,35 +83,41 @@
     }
   }, {
     "resource": {
-      "resourceType": "Encounter",
-      "id": "HighRiskPregnantPatient-encounter-1",
+      "resourceType": "Patient",
+      "id": "HighRiskPregnantPatient",
       "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de38" ]
+        "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient" ]
       },
-      "status": "in-progress",
-      "class": {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "code": "AMB",
-        "display": "ambulatory"
-      },
-      "type": [ {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Third Trimester Encounters-Z34.83",
-          "display": "Z34.83"
-        } ]
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "system": "urn:oid:1.2.36.146.595.217.0.1",
+        "value": "12345",
+        "period": {
+          "start": "2001-05-06"
+        },
+        "assigner": {
+          "display": "Acme Healthcare"
+        }
       } ],
-      "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
-      },
-      "period": {
-        "start": "2021-07-30T10:00:00-07:00",
-        "end": "2021-07-30T11:20:00-07:00"
-      }
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "family": "Coraline",
+        "given": [ "Beatrix" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1989-01-12",
+      "deceasedBoolean": false
     },
     "request": {
       "method": "PUT",
-      "url": "Encounter/HighRiskPregnantPatient-encounter-1"
+      "url": "Patient/HighRiskPregnantPatient"
     }
   }, {
     "resource": {
@@ -139,44 +177,6 @@
     "request": {
       "method": "PUT",
       "url": "Observation/HighRiskPregnantPatient-observation-screening-1"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Patient",
-      "id": "HighRiskPregnantPatient",
-      "meta": {
-        "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient" ]
-      },
-      "identifier": [ {
-        "use": "usual",
-        "type": {
-          "coding": [ {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-            "code": "MR"
-          } ]
-        },
-        "system": "urn:oid:1.2.36.146.595.217.0.1",
-        "value": "12345",
-        "period": {
-          "start": "2001-05-06"
-        },
-        "assigner": {
-          "display": "Acme Healthcare"
-        }
-      } ],
-      "active": true,
-      "name": [ {
-        "use": "official",
-        "family": "Coraline",
-        "given": [ "Beatrix" ]
-      } ],
-      "gender": "female",
-      "birthDate": "1989-01-12",
-      "deceasedBoolean": false
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Patient/HighRiskPregnantPatient"
     }
   } ]
 }

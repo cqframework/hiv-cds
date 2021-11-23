@@ -13,10 +13,10 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G2.DE35",
-        "display": "61958-2002"
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)"
       }, {
         "code": "NACHC.G2.DE36",
-        "display": "70518-0230"
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)"
       } ]
     } ]
   }

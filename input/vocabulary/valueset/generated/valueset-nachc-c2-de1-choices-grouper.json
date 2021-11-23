@@ -6,7 +6,7 @@
   "title": "Syphilis Test Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-19T17:09:39-07:00",
+  "date": "2021-11-22T11:11:33-08:00",
   "description": "Group Valueset with codes representing possible values for the Syphilis Test Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -17,331 +17,331 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-11-19T17:09:39-07:00",
+    "timestamp": "2021-11-22T11:11:33-08:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE2",
-      "display": "53605-2"
+      "display": "Treponema pallidum DNA [Presence] in Blood by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE3",
-      "display": "49799-0"
+      "display": "Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE4",
-      "display": "91846-6"
+      "display": "Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE5",
-      "display": "41163-7"
+      "display": "Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE6",
-      "display": "76766-5"
+      "display": "Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE8",
-      "display": "22459-2"
+      "display": "Reagin Ab [Presence] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE9",
-      "display": "1238206"
+      "display": "Reagin Ab [Presence] in Cerebral spinal fluid by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE10",
-      "display": "43813-5"
+      "display": "Reagin Ab [Presence] in Cord blood"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE11",
-      "display": "51783-9"
+      "display": "Reagin Ab [Presence] in Cord blood by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE12",
-      "display": "22461-8"
+      "display": "Reagin Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE13",
-      "display": "20507-0"
+      "display": "Reagin Ab [Presence] in Serum by RPR"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE14",
-      "display": "1239118"
+      "display": "Reagin Ab [Presence] in Serum by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE15",
-      "display": "22464-2"
+      "display": "Reagin Ab [Presence] in Unspecified specimen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE16",
-      "display": "14904-7"
+      "display": "Reagin Ab [Presence] in Unspecified specimen by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE17",
-      "display": "46203-6"
+      "display": "Reagin Ab [Titer] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE18",
-      "display": "87925-4"
+      "display": "Reagin Ab [Titer] in Cerebral spinal fluid by RPR"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE19",
-      "display": "31146-4"
+      "display": "Reagin Ab [Titer] in Cerebral spinal fluid by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE20",
-      "display": "11084-1"
+      "display": "Reagin Ab [Titer] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE21",
-      "display": "31147-2"
+      "display": "Reagin Ab [Titer] in Serum by RPR"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE22",
-      "display": "50690-7"
+      "display": "Reagin Ab [Titer] in Serum by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE23",
-      "display": "47476-7"
+      "display": "Reagin Ab [Titer] in Unspecified specimen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE24",
-      "display": "47235-7"
+      "display": "Reagin Ab [Titer] in Unspecified specimen by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE25",
-      "display": "22460-0"
+      "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE26",
-      "display": "1237900"
+      "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE27",
-      "display": "22462-6"
+      "display": "Reagin Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE28",
-      "display": "20508-8"
+      "display": "Reagin Ab [Units/volume] in Serum by RPR"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE29",
-      "display": "5291-0"
+      "display": "Reagin Ab [Units/volume] in Serum by VDRL"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE30",
-      "display": "73752-8"
+      "display": "Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE31",
-      "display": "22586-2"
+      "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE32",
-      "display": "50689-9"
+      "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Hemagglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE33",
-      "display": "2895157"
+      "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE34",
-      "display": "22587-0"
+      "display": "Treponema pallidum Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE35",
-      "display": "24312-1"
+      "display": "Treponema pallidum Ab [Presence] in Serum by Agglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE36",
-      "display": "2243108"
+      "display": "Treponema pallidum Ab [Presence] in Serum by Hemagglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE37",
-      "display": "17723-8"
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immobilization"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE38",
-      "display": "24110-9"
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE39",
-      "display": "57032-5"
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE40",
-      "display": "1275885"
+      "display": "Treponema pallidum Ab [Presence] in Serum by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE41",
-      "display": "51475-2"
+      "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE42",
-      "display": "50695-6"
+      "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid by Hemagglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE43",
-      "display": "22590-4"
+      "display": "Treponema pallidum Ab [Titer] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE44",
-      "display": "26009-1"
+      "display": "Treponema pallidum Ab [Titer] in Serum by Hemagglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE45",
-      "display": "34382-2"
+      "display": "Treponema pallidum Ab [Titer] in Serum by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE46",
-      "display": "1276191"
+      "display": "Treponema pallidum Ab [Titer] in Serum by Latex agglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE47",
-      "display": "71793-4"
+      "display": "Treponema pallidum Ab [Titer] in Serum or Plasma by Agglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE48",
-      "display": "22585-4"
+      "display": "Treponema pallidum Ab [Units/volume] in Blood"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE49",
-      "display": "13288-6"
+      "display": "Treponema pallidum Ab [Units/volume] in Blood by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE50",
-      "display": "47511-1"
+      "display": "Treponema pallidum Ab [Units/volume] in Body fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE51",
-      "display": "39015-3"
+      "display": "Treponema pallidum Ab [Units/volume] in Body fluid by Hemagglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE52",
-      "display": "51474-5"
+      "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE53",
-      "display": "49800-6"
+      "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid by Hemagglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE54",
-      "display": "11597-2"
+      "display": "Treponema pallidum Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE55",
-      "display": "1275581"
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Immobilization"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE56",
-      "display": "63464-2"
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE57",
-      "display": "17724-6"
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE58",
-      "display": "17725-3"
+      "display": "Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE59",
-      "display": "41122-3"
+      "display": "Treponema pallidum Ab [Units/volume] in Unspecified specimen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE60",
-      "display": "58031-6"
+      "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE61",
-      "display": "58751-9"
+      "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE62",
-      "display": "1702518"
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE63",
-      "display": "47238-1"
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE64",
-      "display": "40679-3"
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE65",
-      "display": "17726-1"
+      "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE66",
-      "display": "47512-9"
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE67",
-      "display": "47051-8"
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE68",
-      "display": "22592-0"
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE69",
-      "display": "51838-1"
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE70",
-      "display": "17727-9"
+      "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE71",
-      "display": "34147-9"
+      "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE72",
-      "display": "47236-5"
+      "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE73",
-      "display": "69946-2"
+      "display": "Treponema pallidum IgM Ab [Presence] in Cerebral spinal fluid by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE74",
-      "display": "1702822"
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE75",
-      "display": "47237-3"
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE76",
-      "display": "40680-1"
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoblot"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE77",
-      "display": "17729-5"
+      "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE78",
-      "display": "47514-5"
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE79",
-      "display": "47063-3"
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE80",
-      "display": "22594-6"
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE81",
-      "display": "51839-9"
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunoassay"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE82",
-      "display": "17728-7"
+      "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.C2.DE83",
-      "display": "26658-5"
+      "display": "Treponema sp Ab [Presence] in Serum"
     } ]
   }
 }

@@ -13,19 +13,19 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G2.DE2",
-        "display": "403875"
+        "display": "emtricitabine 200 MG Oral Capsule"
       }, {
         "code": "NACHC.G2.DE3",
-        "display": "404587"
+        "display": "emtricitabine 200 MG Oral Capsule [Emtriva]"
       }, {
         "code": "NACHC.G2.DE4",
-        "display": "406016"
+        "display": "emtricitabine 200 MG"
       }, {
         "code": "NACHC.G2.DE5",
-        "display": "576513"
+        "display": "emtricitabine 200 MG [Emtriva]"
       }, {
         "code": "NACHC.G2.DE6",
-        "display": "639883"
+        "display": "emtricitabine 200 MG Oral Tablet"
       } ]
     } ]
   }

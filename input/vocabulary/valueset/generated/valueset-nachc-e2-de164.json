@@ -13,85 +13,85 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.E2.DE164",
-        "display": "16599-3"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE165",
-        "display": "16601-7"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE166",
-        "display": "21187-0"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE167",
-        "display": "21188-8"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE168",
-        "display": "21189-6"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE169",
-        "display": "21192-0"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE170",
-        "display": "38469-3"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE171",
-        "display": "45067-6"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE172",
-        "display": "45070-0"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE173",
-        "display": "45072-6"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE174",
-        "display": "45073-4"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE175",
-        "display": "45074-2"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE176",
-        "display": "45078-3"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE177",
-        "display": "45080-9"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE178",
-        "display": "45085-8"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE179",
-        "display": "45086-6"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE180",
-        "display": "45089-0"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE181",
-        "display": "45090-8"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE182",
-        "display": "51578-3"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE183",
-        "display": "57287-5"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE184",
-        "display": "57288-3"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE185",
-        "display": "80363-5"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE186",
-        "display": "80364-3"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE187",
-        "display": "80365-0"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE188",
-        "display": "82306-2"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE189",
-        "display": "87949-4"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       }, {
         "code": "NACHC.E2.DE190",
-        "display": "88221-7"
+        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
       } ]
     } ]
   }

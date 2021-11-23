@@ -7,5 +7,14 @@
   "status": "draft",
   "experimental": false,
   "description": "Codes representing possible values for the Patient Currently Pregnant element",
-  "immutable": true
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.H1.DE3",
+        "display": "Patient Currently Pregnant"
+      } ]
+    } ]
+  }
 }

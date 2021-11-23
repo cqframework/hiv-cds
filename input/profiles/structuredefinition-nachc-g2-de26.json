@@ -17,7 +17,7 @@
       "coding": [ {
         "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
         "code": "NACHC.G2",
-        "display": "Pre Exposure Prophylaxis"
+        "display": "Prep"
       } ]
     }
   } ],

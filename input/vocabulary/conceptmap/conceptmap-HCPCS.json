@@ -12,7 +12,7 @@
     "target": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
     "element": [ {
       "code": "NACHC.B2.DE103",
-      "display": "86038",
+      "display": "Antinuclear antibodies (ANA)",
       "target": [ {
         "code": "86038",
         "display": "Screening test for autoimmune disorder",
@@ -20,7 +20,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE104",
-      "display": "86803",
+      "display": "Hepatitis C antibody",
       "target": [ {
         "code": "86803",
         "display": "Hepatitis C antibody measurement",
@@ -28,7 +28,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE105",
-      "display": "86804",
+      "display": "Hepatitis C antibody; confirmatory test (eg, immunoblot)",
       "target": [ {
         "code": "86804",
         "display": "Confirmation test for Hepatitis C antibody",
@@ -36,7 +36,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE106",
-      "display": "87520",
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique",
       "target": [ {
         "code": "87520",
         "display": "Detection test for Hepatitis C virus",
@@ -44,7 +44,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE107",
-      "display": "87521",
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed",
       "target": [ {
         "code": "87521",
         "display": "Detection test for Hepatitis C virus",
@@ -52,7 +52,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE108",
-      "display": "87522",
+      "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed",
       "target": [ {
         "code": "87522",
         "display": "Detection test for Hepatitis C virus",
@@ -60,7 +60,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE109",
-      "display": "87902",
+      "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus",
       "target": [ {
         "code": "87902",
         "display": "Analysis test for Hepatitis C virus",
@@ -68,7 +68,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE111",
-      "display": "G0472",
+      "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)",
       "target": [ {
         "code": "G0472",
         "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)",
@@ -76,7 +76,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE113",
-      "display": "3218F",
+      "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)",
       "target": [ {
         "code": "3218F",
         "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)",
@@ -84,7 +84,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE114",
-      "display": "3220F",
+      "display": "Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)",
       "target": [ {
         "code": "3220F",
         "display": "Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)",
@@ -92,7 +92,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE115",
-      "display": "3265F",
+      "display": "Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)",
       "target": [ {
         "code": "3265F",
         "display": "Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)",
@@ -100,7 +100,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE116",
-      "display": "3266F",
+      "display": "Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)",
       "target": [ {
         "code": "3266F",
         "display": "Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)",
@@ -108,7 +108,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE117",
-      "display": "3514F",
+      "display": "Hepatitis C screening documented as performed (HIV)",
       "target": [ {
         "code": "3514F",
         "display": "Hepatitis C screening documented as performed (HIV)",
@@ -116,7 +116,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE118",
-      "display": "4150F",
+      "display": "Patient receiving antiviral treatment for Hepatitis C (HEP-C)",
       "target": [ {
         "code": "4150F",
         "display": "Patient receiving antiviral treatment for Hepatitis C (HEP-C)",
@@ -124,7 +124,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE119",
-      "display": "36415",
+      "display": "Collection of venous blood by venipuncture",
       "target": [ {
         "code": "36415",
         "display": "Insertion of needle into vein for collection of blood sample",
@@ -132,7 +132,7 @@
       } ]
     }, {
       "code": "NACHC.B2.DE120",
-      "display": "81596",
+      "display": "Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver",
       "target": [ {
         "code": "81596",
         "display": "Biochemical assays for evaluation of chronic Hepatitis C virus infection",

@@ -9,7 +9,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.F1.DE13",
-      "display": "228387001"
+      "display": "Injects drugs intramuscularly (finding)"
     }, {
       "system": "http://snomed.info/sct",
       "code": "228387001",

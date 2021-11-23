@@ -6,7 +6,7 @@
   "title": "Chlamydia Test Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-19T17:09:39-07:00",
+  "date": "2021-11-22T11:11:33-08:00",
   "description": "Group Valueset with codes representing possible values for the Chlamydia Test Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -25,743 +25,743 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-11-19T17:09:39-07:00",
+    "timestamp": "2021-11-22T11:11:33-08:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE2",
-      "display": "14463-4"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE3",
-      "display": "14464-2"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE4",
-      "display": "14467-5"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE5",
-      "display": "14474-1"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE6",
-      "display": "14513-6"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE7",
-      "display": "16600-9"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE8",
-      "display": "21190-4"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE9",
-      "display": "21191-2"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE10",
-      "display": "21613-5"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE11",
-      "display": "23838-6"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE12",
-      "display": "31775-0"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE13",
-      "display": "31777-6"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE14",
-      "display": "36902-5"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE15",
-      "display": "36903-3"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE16",
-      "display": "43304-5"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE17",
-      "display": "43404-3"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE18",
-      "display": "43405-0"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE19",
-      "display": "43406-8"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE20",
-      "display": "44806-8"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE21",
-      "display": "44807-6"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE22",
-      "display": "45068-4"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE23",
-      "display": "45069-2"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE24",
-      "display": "45075-9"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE25",
-      "display": "45076-7"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE26",
-      "display": "45084-1"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE27",
-      "display": "45091-6"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE28",
-      "display": "45095-7"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE29",
-      "display": "45098-1"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE30",
-      "display": "45100-5"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE31",
-      "display": "47211-8"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE32",
-      "display": "47212-6"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE33",
-      "display": "49096-1"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE34",
-      "display": "1129729"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE35",
-      "display": "50387-0"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE36",
-      "display": "53925-4"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE37",
-      "display": "53926-2"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE38",
-      "display": "557-9"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE39",
-      "display": "560-3"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE40",
-      "display": "1625086"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE41",
-      "display": "1626912"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE42",
-      "display": "1627188"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE43",
-      "display": "6356-0"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE44",
-      "display": "1628100"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE45",
-      "display": "80360-1"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE46",
-      "display": "80361-9"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE47",
-      "display": "80362-7"
+      "display": "Chlamydia Screening"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE49",
-      "display": "14466-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE50",
-      "display": "14512-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE51",
-      "display": "16593-6"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE52",
-      "display": "20755-5"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE53",
-      "display": "20756-3"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE54",
-      "display": "20757-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE55",
-      "display": "31764-4"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE56",
-      "display": "31765-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE57",
-      "display": "31766-9"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE58",
-      "display": "31767-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE59",
-      "display": "32001-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE60",
-      "display": "32004-4"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE61",
-      "display": "32671-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE62",
-      "display": "32774-2"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE63",
-      "display": "34708-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE64",
-      "display": "35412-6"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE65",
-      "display": "35711-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE66",
-      "display": "35713-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE67",
-      "display": "35714-5"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE68",
-      "display": "35715-2"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE69",
-      "display": "35716-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE70",
-      "display": "35717-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE71",
-      "display": "35718-6"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE72",
-      "display": "35721-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE73",
-      "display": "35724-4"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE74",
-      "display": "35725-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE75",
-      "display": "35726-9"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE76",
-      "display": "35727-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE77",
-      "display": "35728-5"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE78",
-      "display": "35730-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE79",
-      "display": "35736-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE80",
-      "display": "38467-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE81",
-      "display": "45071-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE82",
-      "display": "45097-3"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE83",
-      "display": "45099-9"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE84",
-      "display": "45101-3"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE85",
-      "display": "45103-9"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE86",
-      "display": "45104-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE87",
-      "display": "45105-4"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE88",
-      "display": "45106-2"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE89",
-      "display": "45107-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE90",
-      "display": "45108-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE91",
-      "display": "45109-6"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE92",
-      "display": "45112-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE93",
-      "display": "45113-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE94",
-      "display": "45114-6"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE95",
-      "display": "45115-3"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE96",
-      "display": "45130-2"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE97",
-      "display": "45131-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE98",
-      "display": "45132-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE99",
-      "display": "45133-6"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE100",
-      "display": "47362-9"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE101",
-      "display": "50311-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE102",
-      "display": "50411-8"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE103",
-      "display": "561-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE104",
-      "display": "57817-9"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE105",
-      "display": "1623564"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE106",
-      "display": "1623870"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE107",
-      "display": "1624478"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE108",
-      "display": "64017-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE109",
-      "display": "70161-5"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE110",
-      "display": "70162-3"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE111",
-      "display": "70163-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE112",
-      "display": "70164-9"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE113",
-      "display": "72828-7"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE114",
-      "display": "74241-1"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE115",
-      "display": "77577-5"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE116",
-      "display": "82957-2"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE117",
-      "display": "90357-5"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE118",
-      "display": "90358-3"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE119",
-      "display": "90763-4"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE120",
-      "display": "92683-2"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE121",
-      "display": "92684-0"
+      "display": "Chlamydia test"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE123",
-      "display": "35729-3"
+      "display": "Chlamydia Trachomatis Tests, FPAR"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE125",
-      "display": "14468-3"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE126",
-      "display": "14469-1"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE127",
-      "display": "14470-9"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE128",
-      "display": "14471-7"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE129",
-      "display": "14472-5"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE130",
-      "display": "14507-8"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE131",
-      "display": "14508-6"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE132",
-      "display": "14509-4"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE133",
-      "display": "14510-2"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE134",
-      "display": "14511-0"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE135",
-      "display": "31768-5"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE136",
-      "display": "31769-3"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE137",
-      "display": "31770-1"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE138",
-      "display": "31771-9"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE139",
-      "display": "31772-7"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE140",
-      "display": "31774-3"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE141",
-      "display": "31776-8"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE142",
-      "display": "34709-6"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE143",
-      "display": "34710-4"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE144",
-      "display": "45092-4"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE145",
-      "display": "47234-0"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE146",
-      "display": "1625390"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE147",
-      "display": "1625696"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE148",
-      "display": "1626305"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE149",
-      "display": "1626608"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE150",
-      "display": "91860-7"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE151",
-      "display": "91861-5"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE152",
-      "display": "91873-0"
+      "display": "Tests for Chlamydia trachomatis Antigen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE154",
-      "display": "14461-8"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE155",
-      "display": "14462-6"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE156",
-      "display": "14465-9"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE157",
-      "display": "45093-2"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE158",
-      "display": "45094-0"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE159",
-      "display": "45096-5"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE160",
-      "display": "80367-6"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE161",
-      "display": "87950-2"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE162",
-      "display": "89648-0"
+      "display": "Tests for Chlamydia trachomatis by Culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE164",
-      "display": "16599-3"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE165",
-      "display": "16601-7"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE166",
-      "display": "21187-0"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE167",
-      "display": "21188-8"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE168",
-      "display": "21189-6"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE169",
-      "display": "21192-0"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE170",
-      "display": "38469-3"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE171",
-      "display": "45067-6"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE172",
-      "display": "45070-0"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE173",
-      "display": "45072-6"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE174",
-      "display": "45073-4"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE175",
-      "display": "45074-2"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE176",
-      "display": "45078-3"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE177",
-      "display": "45080-9"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE178",
-      "display": "45085-8"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE179",
-      "display": "45086-6"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE180",
-      "display": "45089-0"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE181",
-      "display": "45090-8"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE182",
-      "display": "51578-3"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE183",
-      "display": "57287-5"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE184",
-      "display": "57288-3"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE185",
-      "display": "80363-5"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE186",
-      "display": "80364-3"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE187",
-      "display": "80365-0"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE188",
-      "display": "82306-2"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE189",
-      "display": "87949-4"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E2.DE190",
-      "display": "88221-7"
+      "display": "Tests for Chlamydia trachomatis Nucleic Acid"
     } ]
   }
 }

@@ -20,7 +20,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D1.DE195",
-      "display": "90428001"
+      "display": "Gonococcal pericarditis (disorder)"
     }, {
       "system": "http://snomed.info/sct",
       "code": "90428001",

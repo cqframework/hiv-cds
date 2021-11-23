@@ -13,49 +13,49 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.D1.DE167",
-        "display": "120977006"
+        "display": "Antigen of Neisseria gonorrhoeae (substance)"
       }, {
         "code": "NACHC.D1.DE168",
-        "display": "121172006"
+        "display": "Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)"
       }, {
         "code": "NACHC.D1.DE169",
-        "display": "277501003"
+        "display": "Penicillinase-producing Neisseria gonorrhoeae (organism)"
       }, {
         "code": "NACHC.D1.DE170",
-        "display": "277502005"
+        "display": "Tetracycline-resistant Neisseria gonorrhoeae (organism)"
       }, {
         "code": "NACHC.D1.DE171",
-        "display": "277503000"
+        "display": "Cephalosporin-resistant Neisseria gonorrhoeae (organism)"
       }, {
         "code": "NACHC.D1.DE172",
-        "display": "277504006"
+        "display": "Spectinomycin-resistant Neisseria gonorrhoeae (organism)"
       }, {
         "code": "NACHC.D1.DE173",
-        "display": "409805000"
+        "display": "Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)"
       }, {
         "code": "NACHC.D1.DE174",
-        "display": "414809001"
+        "display": "Neisseria gonorrhoeae, beta lactamase negative (organism)"
       }, {
         "code": "NACHC.D1.DE175",
-        "display": "68704007"
+        "display": "Neisseria gonorrhoeae (organism)"
       }, {
         "code": "NACHC.D1.DE176",
-        "display": "703483000"
+        "display": "Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)"
       }, {
         "code": "NACHC.D1.DE177",
-        "display": "83410001"
+        "display": "Gram-negative diplococcus (organism)"
       }, {
         "code": "NACHC.D1.DE178",
-        "display": "414811005"
+        "display": "Neisseria species not Neisseria gonococci (organism)"
       }, {
         "code": "NACHC.D1.DE179",
-        "display": "59083001"
+        "display": "Genus Neisseria (organism)"
       }, {
         "code": "NACHC.D1.DE180",
-        "display": "715869002"
+        "display": "Neisseria species, not Neisseria meningitidis (organism)"
       }, {
         "code": "NACHC.D1.DE181",
-        "display": "715872009"
+        "display": "Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)"
       } ]
     } ]
   }

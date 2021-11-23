@@ -13,91 +13,91 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.B1.DE2",
-        "display": "B17.1"
+        "display": "Acute hepatitis C"
       }, {
         "code": "NACHC.B1.DE3",
-        "display": "B17.10"
+        "display": "Acute hepatitis C without hepatic coma"
       }, {
         "code": "NACHC.B1.DE4",
-        "display": "B17.11"
+        "display": "Acute hepatitis C with hepatic coma"
       }, {
         "code": "NACHC.B1.DE5",
-        "display": "B18.2"
+        "display": "Chronic viral hepatitis C"
       }, {
         "code": "NACHC.B1.DE6",
-        "display": "B19.2"
+        "display": "Unspecified viral hepatitis C"
       }, {
         "code": "NACHC.B1.DE7",
-        "display": "B19.20"
+        "display": "Unspecified viral hepatitis C without hepatic coma"
       }, {
         "code": "NACHC.B1.DE8",
-        "display": "B19.21"
+        "display": "Unspecified viral hepatitis C with hepatic coma"
       }, {
         "code": "NACHC.B1.DE9",
-        "display": "120241000119100"
+        "display": "Glomerulonephritis due to hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE10",
-        "display": "125921000119106"
+        "display": "Hepatic coma due to acute hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE11",
-        "display": "128971000119101"
+        "display": "Cryoglobulinemia due to chronic hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE12",
-        "display": "146371000119104"
+        "display": "Hepatic coma due to chronic hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE13",
-        "display": "186628001"
+        "display": "Hepatic coma due to viral hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE14",
-        "display": "235866006"
+        "display": "Acute hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE15",
-        "display": "278929008"
+        "display": "Congenital hepatitis C infection (disorder)"
       }, {
         "code": "NACHC.B1.DE16",
-        "display": "347891000119103"
+        "display": "Chronic hepatitis C with stage 3 fibrosis (disorder)"
       }, {
         "code": "NACHC.B1.DE17",
-        "display": "442374005"
+        "display": "Hepatitis B and hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE18",
-        "display": "50711007"
+        "display": "Viral hepatitis type C (disorder)"
       }, {
         "code": "NACHC.B1.DE19",
-        "display": "702969000"
+        "display": "Reactivation of hepatitis C viral hepatitis (disorder)"
       }, {
         "code": "NACHC.B1.DE20",
-        "display": "703866000"
+        "display": "Chronic hepatitis C with stage 2 fibrosis (disorder)"
       }, {
         "code": "NACHC.B1.DE21",
-        "display": "708198006"
+        "display": "Chronic active hepatitis C (disorder)"
       }, {
         "code": "NACHC.B1.DE22",
-        "display": "767809001"
+        "display": "Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)"
       }, {
         "code": "NACHC.B1.DE23",
-        "display": "767810006"
+        "display": "Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)"
       }, {
         "code": "NACHC.B1.DE24",
-        "display": "768006009"
+        "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)"
       }, {
         "code": "NACHC.B1.DE25",
-        "display": "768125005"
+        "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)"
       }, {
         "code": "NACHC.B1.DE26",
-        "display": "768126006"
+        "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)"
       }, {
         "code": "NACHC.B1.DE27",
-        "display": "768127002"
+        "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)"
       }, {
         "code": "NACHC.B1.DE28",
-        "display": "768288001"
+        "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)"
       }, {
         "code": "NACHC.B1.DE29",
-        "display": "768289009"
+        "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)"
       }, {
         "code": "NACHC.B1.DE30",
-        "display": "831000119103"
+        "display": "Cirrhosis of liver due to chronic hepatitis C (disorder)"
       } ]
     } ]
   }

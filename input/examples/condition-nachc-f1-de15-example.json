@@ -20,7 +20,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.F1.DE16",
-      "display": "A40"
+      "display": "Streptococcal sepsis"
     }, {
       "system": "http://hl7.org/fhir/sid/icd-10",
       "code": "A40",

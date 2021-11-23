@@ -13,13 +13,13 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G2.DE15",
-        "display": "476556"
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
       }, {
         "code": "NACHC.G2.DE16",
-        "display": "639887"
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]"
       }, {
         "code": "NACHC.G2.DE17",
-        "display": "639888"
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
       } ]
     } ]
   }

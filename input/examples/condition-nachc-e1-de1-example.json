@@ -20,7 +20,7 @@
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E1.DE88",
-      "display": "179101003"
+      "display": "Urethritis caused by Chlamydia trachomatis (disorder)"
     }, {
       "system": "http://snomed.info/sct",
       "code": "179101003",

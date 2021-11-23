@@ -13,286 +13,286 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.G1.DE6",
-        "display": "1359268"
+        "display": "darunavir 800 MG"
       }, {
         "code": "NACHC.G1.DE7",
-        "display": "1359270"
+        "display": "darunavir 800 MG [Prezista]"
       }, {
         "code": "NACHC.G1.DE8",
-        "display": "1359269"
+        "display": "darunavir 800 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE9",
-        "display": "1359271"
+        "display": "darunavir 800 MG Oral Tablet [Prezista]"
       }, {
         "code": "NACHC.G1.DE10",
-        "display": "1433869"
+        "display": "dolutegravir 50 MG"
       }, {
         "code": "NACHC.G1.DE11",
-        "display": "2122522"
+        "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]"
       }, {
         "code": "NACHC.G1.DE12",
-        "display": "2122519"
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE13",
-        "display": "2122526"
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
       }, {
         "code": "NACHC.G1.DE14",
-        "display": "1433875"
+        "display": "dolutegravir 50 MG [Tivicay]"
       }, {
         "code": "NACHC.G1.DE15",
-        "display": "1433873"
+        "display": "dolutegravir 50 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE16",
-        "display": "1433879"
+        "display": "dolutegravir 50 MG Oral Tablet [Tivicay]"
       }, {
         "code": "NACHC.G1.DE17",
-        "display": "317359"
+        "display": "efavirenz 200 MG"
       }, {
         "code": "NACHC.G1.DE18",
-        "display": "573284"
+        "display": "efavirenz 200 MG [Sustiva]"
       }, {
         "code": "NACHC.G1.DE19",
-        "display": "205290"
+        "display": "efavirenz 200 MG Oral Capsule"
       }, {
         "code": "NACHC.G1.DE20",
-        "display": "213390"
+        "display": "efavirenz 200 MG Oral Capsule [Sustiva]"
       }, {
         "code": "NACHC.G1.DE21",
-        "display": "1088481"
+        "display": "efavirenz 200 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE22",
-        "display": "315853"
+        "display": "efavirenz 50 MG"
       }, {
         "code": "NACHC.G1.DE23",
-        "display": "573286"
+        "display": "efavirenz 50 MG [Sustiva]"
       }, {
         "code": "NACHC.G1.DE24",
-        "display": "205292"
+        "display": "efavirenz 50 MG Oral Capsule"
       }, {
         "code": "NACHC.G1.DE25",
-        "display": "213392"
+        "display": "efavirenz 50 MG Oral Capsule [Sustiva]"
       }, {
         "code": "NACHC.G1.DE26",
-        "display": "350652"
+        "display": "efavirenz 600 MG"
       }, {
         "code": "NACHC.G1.DE27",
-        "display": "643068"
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Atripla]"
       }, {
         "code": "NACHC.G1.DE28",
-        "display": "643066"
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE29",
-        "display": "643070"
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]"
       }, {
         "code": "NACHC.G1.DE30",
-        "display": "575878"
+        "display": "efavirenz 600 MG [Sustiva]"
       }, {
         "code": "NACHC.G1.DE31",
-        "display": "349477"
+        "display": "efavirenz 600 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE32",
-        "display": "352143"
+        "display": "efavirenz 600 MG Oral Tablet [Sustiva]"
       }, {
         "code": "NACHC.G1.DE33",
-        "display": "639887"
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]"
       }, {
         "code": "NACHC.G1.DE34",
-        "display": "476556"
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE35",
-        "display": "639888"
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
       }, {
         "code": "NACHC.G1.DE36",
-        "display": "139896"
+        "display": "enfuvirtide"
       }, {
         "code": "NACHC.G1.DE37",
-        "display": "1736574"
+        "display": "enfuvirtide 90 MG"
       }, {
         "code": "NACHC.G1.DE38",
-        "display": "1736577"
+        "display": "enfuvirtide 90 MG [Fuzeon]"
       }, {
         "code": "NACHC.G1.DE39",
-        "display": "401981"
+        "display": "enfuvirtide 90 MG Injection"
       }, {
         "code": "NACHC.G1.DE40",
-        "display": "404460"
+        "display": "enfuvirtide 90 MG Injection [Fuzeon]"
       }, {
         "code": "NACHC.G1.DE41",
-        "display": "402414"
+        "display": "enfuvirtide 90 MG/ML"
       }, {
         "code": "NACHC.G1.DE42",
-        "display": "576416"
+        "display": "enfuvirtide 90 MG/ML [Fuzeon]"
       }, {
         "code": "NACHC.G1.DE43",
-        "display": "1161890"
+        "display": "enfuvirtide Injectable Product"
       }, {
         "code": "NACHC.G1.DE44",
-        "display": "402415"
+        "display": "enfuvirtide Injectable Solution"
       }, {
         "code": "NACHC.G1.DE45",
-        "display": "406055"
+        "display": "enfuvirtide Injectable Solution [Fuzeon]"
       }, {
         "code": "NACHC.G1.DE46",
-        "display": "1736575"
+        "display": "enfuvirtide Injection"
       }, {
         "code": "NACHC.G1.DE47",
-        "display": "1736578"
+        "display": "enfuvirtide Injection [Fuzeon]"
       }, {
         "code": "NACHC.G1.DE48",
-        "display": "402364"
+        "display": "fosamprenavir 700 MG"
       }, {
         "code": "NACHC.G1.DE49",
-        "display": "576110"
+        "display": "fosamprenavir 700 MG [Lexiva]"
       }, {
         "code": "NACHC.G1.DE50",
-        "display": "402109"
+        "display": "fosamprenavir 700 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE51",
-        "display": "402110"
+        "display": "fosamprenavir 700 MG Oral Tablet [Lexiva]"
       }, {
         "code": "NACHC.G1.DE52",
-        "display": "728221"
+        "display": "maraviroc 150 MG"
       }, {
         "code": "NACHC.G1.DE53",
-        "display": "729199"
+        "display": "maraviroc 150 MG [Selzentry]"
       }, {
         "code": "NACHC.G1.DE54",
-        "display": "728223"
+        "display": "maraviroc 150 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE55",
-        "display": "729201"
+        "display": "maraviroc 150 MG Oral Tablet [Selzentry]"
       }, {
         "code": "NACHC.G1.DE56",
-        "display": "728224"
+        "display": "maraviroc 300 MG"
       }, {
         "code": "NACHC.G1.DE57",
-        "display": "729202"
+        "display": "maraviroc 300 MG [Selzentry]"
       }, {
         "code": "NACHC.G1.DE58",
-        "display": "728225"
+        "display": "maraviroc 300 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE59",
-        "display": "729203"
+        "display": "maraviroc 300 MG Oral Tablet [Selzentry]"
       }, {
         "code": "NACHC.G1.DE60",
-        "display": "744840"
+        "display": "raltegravir 400 MG"
       }, {
         "code": "NACHC.G1.DE61",
-        "display": "744844"
+        "display": "raltegravir 400 MG [Isentress]"
       }, {
         "code": "NACHC.G1.DE62",
-        "display": "744842"
+        "display": "raltegravir 400 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE63",
-        "display": "744846"
+        "display": "raltegravir 400 MG Oral Tablet [Isentress]"
       }, {
         "code": "NACHC.G1.DE64",
-        "display": "1924312"
+        "display": "raltegravir 600 MG"
       }, {
         "code": "NACHC.G1.DE65",
-        "display": "1924314"
+        "display": "raltegravir 600 MG [Isentress]"
       }, {
         "code": "NACHC.G1.DE66",
-        "display": "1924313"
+        "display": "raltegravir 600 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE67",
-        "display": "1924315"
+        "display": "raltegravir 600 MG Oral Tablet [Isentress]"
       }, {
         "code": "NACHC.G1.DE68",
-        "display": "317488"
+        "display": "ritonavir 100 MG"
       }, {
         "code": "NACHC.G1.DE69",
-        "display": "565134"
+        "display": "ritonavir 100 MG [Norvir]"
       }, {
         "code": "NACHC.G1.DE70",
-        "display": "317150"
+        "display": "ritonavir 100 MG Oral Capsule"
       }, {
         "code": "NACHC.G1.DE71",
-        "display": "152970"
+        "display": "ritonavir 100 MG Oral Capsule [Norvir]"
       }, {
         "code": "NACHC.G1.DE72",
-        "display": "1926066"
+        "display": "ritonavir 100 MG Oral Powder"
       }, {
         "code": "NACHC.G1.DE73",
-        "display": "1926069"
+        "display": "ritonavir 100 MG Oral Powder [Norvir]"
       }, {
         "code": "NACHC.G1.DE74",
-        "display": "900575"
+        "display": "ritonavir 100 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE75",
-        "display": "900577"
+        "display": "ritonavir 100 MG Oral Tablet [Norvir]"
       }, {
         "code": "NACHC.G1.DE76",
-        "display": "859862"
+        "display": "saquinavir mesylate 500 MG"
       }, {
         "code": "NACHC.G1.DE77",
-        "display": "859864"
+        "display": "saquinavir mesylate 500 MG [Invirase]"
       }, {
         "code": "NACHC.G1.DE78",
-        "display": "859863"
+        "display": "saquinavir mesylate 500 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE79",
-        "display": "859865"
+        "display": "saquinavir mesylate 500 MG Oral Tablet [Invirase]"
       }, {
         "code": "NACHC.G1.DE80",
-        "display": "328624"
+        "display": "stavudine 15 MG"
       }, {
         "code": "NACHC.G1.DE81",
-        "display": "565117"
+        "display": "stavudine 15 MG [Zerit]"
       }, {
         "code": "NACHC.G1.DE82",
-        "display": "313107"
+        "display": "stavudine 15 MG Oral Capsule"
       }, {
         "code": "NACHC.G1.DE83",
-        "display": "152941"
+        "display": "stavudine 15 MG Oral Capsule [Zerit]"
       }, {
         "code": "NACHC.G1.DE84",
-        "display": "328625"
+        "display": "stavudine 20 MG"
       }, {
         "code": "NACHC.G1.DE85",
-        "display": "565118"
+        "display": "stavudine 20 MG [Zerit]"
       }, {
         "code": "NACHC.G1.DE86",
-        "display": "313108"
+        "display": "stavudine 20 MG Oral Capsule"
       }, {
         "code": "NACHC.G1.DE87",
-        "display": "152942"
+        "display": "stavudine 20 MG Oral Capsule [Zerit]"
       }, {
         "code": "NACHC.G1.DE88",
-        "display": "328627"
+        "display": "stavudine 30 MG"
       }, {
         "code": "NACHC.G1.DE89",
-        "display": "565119"
+        "display": "stavudine 30 MG [Zerit]"
       }, {
         "code": "NACHC.G1.DE90",
-        "display": "313109"
+        "display": "stavudine 30 MG Oral Capsule"
       }, {
         "code": "NACHC.G1.DE91",
-        "display": "152943"
+        "display": "stavudine 30 MG Oral Capsule [Zerit]"
       }, {
         "code": "NACHC.G1.DE92",
-        "display": "330498"
+        "display": "stavudine 40 MG"
       }, {
         "code": "NACHC.G1.DE93",
-        "display": "565120"
+        "display": "stavudine 40 MG [Zerit]"
       }, {
         "code": "NACHC.G1.DE94",
-        "display": "313110"
+        "display": "stavudine 40 MG Oral Capsule"
       }, {
         "code": "NACHC.G1.DE95",
-        "display": "152944"
+        "display": "stavudine 40 MG Oral Capsule [Zerit]"
       }, {
         "code": "NACHC.G1.DE96",
-        "display": "393334"
+        "display": "tenofovir disoproxil fumarate 300 MG"
       }, {
         "code": "NACHC.G1.DE97",
-        "display": "575802"
+        "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
       }, {
         "code": "NACHC.G1.DE98",
-        "display": "349251"
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet"
       }, {
         "code": "NACHC.G1.DE99",
-        "display": "352050"
+        "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
       } ]
     } ]
   }

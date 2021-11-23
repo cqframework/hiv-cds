@@ -6,7 +6,7 @@
   "title": "Gonorrhea Test Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-19T17:09:39-07:00",
+  "date": "2021-11-22T11:11:33-08:00",
   "description": "Group Valueset with codes representing possible values for the Gonorrhea Test Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -23,395 +23,395 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-11-19T17:09:39-07:00",
+    "timestamp": "2021-11-22T11:11:33-08:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE2",
-      "display": "14127-5"
+      "display": "Neisseria gonorrhoeae [Presence] in Anal by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE3",
-      "display": "30099-6"
+      "display": "Neisseria gonorrhoeae [Presence] in Conjunctival specimen by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE4",
-      "display": "688-2"
+      "display": "Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE5",
-      "display": "690-8"
+      "display": "Neisseria gonorrhoeae [Presence] in Endometrium by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE6",
-      "display": "691-6"
+      "display": "Neisseria gonorrhoeae [Presence] in Genital specimen by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE7",
-      "display": "692-4"
+      "display": "Neisseria gonorrhoeae [Presence] in Genital lochia by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE8",
-      "display": "693-2"
+      "display": "Neisseria gonorrhoeae [Presence] in Vaginal fluid by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE9",
-      "display": "694-0"
+      "display": "Neisseria gonorrhoeae [Presence] in Semen by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE10",
-      "display": "695-7"
+      "display": "Neisseria gonorrhoeae [Presence] in Synovial fluid by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE11",
-      "display": "696-5"
+      "display": "Neisseria gonorrhoeae [Presence] in Throat by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE12",
-      "display": "697-3"
+      "display": "Neisseria gonorrhoeae [Presence] in Urethra by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE13",
-      "display": "698-1"
+      "display": "Neisseria gonorrhoeae [Presence] in Unspecified specimen by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE14",
-      "display": "80368-4"
+      "display": "Neisseria gonorrhoeae [Presence] in Rectum by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE15",
-      "display": "91781-5"
+      "display": "Neisseria gonorrhoeae [Presence] in Aspirate by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE17",
-      "display": "21414-8"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Cervical mucus by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE18",
-      "display": "21415-5"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE19",
-      "display": "21416-3"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE20",
-      "display": "24111-7"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE21",
-      "display": "32198-4"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE22",
-      "display": "32199-2"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE23",
-      "display": "32705-6"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Vaginal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE24",
-      "display": "33904-4"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Conjunctival specimen by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE25",
-      "display": "35735-0"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Conjunctival specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE26",
-      "display": "36902-5"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE27",
-      "display": "36903-3"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE28",
-      "display": "43305-2"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE29",
-      "display": "43403-5"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE30",
-      "display": "43405-0"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE31",
-      "display": "43406-8"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE32",
-      "display": "44806-8"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE33",
-      "display": "44807-6"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE34",
-      "display": "45068-4"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE35",
-      "display": "45069-2"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE36",
-      "display": "45070-0"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE37",
-      "display": "45072-6"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE38",
-      "display": "45073-4"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE39",
-      "display": "45074-2"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE40",
-      "display": "45075-9"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE41",
-      "display": "45076-7"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE42",
-      "display": "47387-6"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE43",
-      "display": "1142632"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE44",
-      "display": "50388-8"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE45",
-      "display": "53879-3"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE46",
-      "display": "53927-0"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Urethra by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE47",
-      "display": "57180-2"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Nasopharynx by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE48",
-      "display": "57289-1"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Nasopharynx by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE49",
-      "display": "57458-2"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Anal by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE50",
-      "display": "60255-7"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Throat by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE51",
-      "display": "60256-5"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE52",
-      "display": "80360-1"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE53",
-      "display": "80361-9"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE54",
-      "display": "80362-7"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE55",
-      "display": "80365-0"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE56",
-      "display": "80366-8"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE57",
-      "display": "88224-1"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Anorectal by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE58",
-      "display": "88225-8"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Throat by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE60",
-      "display": "43383-9"
+      "display": "Neisseria sp identified in Throat by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE61",
-      "display": "43384-7"
+      "display": "Neisseria sp identified in Urethra by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE62",
-      "display": "43385-4"
+      "display": "Neisseria sp identified in Cervix by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE63",
-      "display": "43386-2"
+      "display": "Neisseria sp identified in Anal by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE64",
-      "display": "43387-0"
+      "display": "Neisseria sp identified in Unspecified specimen by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE65",
-      "display": "80369-2"
+      "display": "Neisseria sp identified in Rectum by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE67",
-      "display": "22430-3"
+      "display": "Neisseria gonorrhoeae Ab [Titer] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE68",
-      "display": "27021-5"
+      "display": "Neisseria gonorrhoeae Ab [Titer] in Cerebral spinal fluid by Complement fixation"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE69",
-      "display": "29311-8"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Unspecified specimen by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE70",
-      "display": "31525-9"
+      "display": "Neisseria gonorrhoeae Ab [Units/volume] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE71",
-      "display": "31905-3"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE72",
-      "display": "31906-1"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Unspecified specimen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE73",
-      "display": "32704-9"
+      "display": "Neisseria gonorrhoeae Ab [Presence] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE74",
-      "display": "39557-4"
+      "display": "Deprecated Neisseria gonorrhoeae rRNA [Presence] in Cervix by DNA probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE75",
-      "display": "42987-8"
+      "display": "Neisseria gonorrhoeae Ab [Titer] in Cerebral spinal fluid"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE76",
-      "display": "47362-9"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE77",
-      "display": "50326-8"
+      "display": "Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE78",
-      "display": "50412-6"
+      "display": "Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE79",
-      "display": "1227642"
+      "display": "Neisseria gonorrhoeae Ab [Units/volume] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE80",
-      "display": "53762-1"
+      "display": "Neisseria gonorrhoeae IgG Ab [Titer] in Serum"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE81",
-      "display": "62865-1"
+      "display": "PhenX - assay for chlamydia - gonorrhea protocol 160101"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE82",
-      "display": "64017-7"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Unspecified specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE83",
-      "display": "1675735"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunofluorescence"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE84",
-      "display": "1676344"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Latex agglutination"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE85",
-      "display": "1676647"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Urethra"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE86",
-      "display": "689-0"
+      "display": "Deprecated Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE87",
-      "display": "69865-4"
+      "display": "Process variables for assays - gonorrhea-chlamydia PhenX"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE88",
-      "display": "70161-5"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urine by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE89",
-      "display": "70162-3"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urethra by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE90",
-      "display": "70163-1"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Cervix by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE91",
-      "display": "70164-9"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Vaginal fluid by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE92",
-      "display": "72828-7"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Unspecified specimen"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE93",
-      "display": "77577-5"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Urethra by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE94",
-      "display": "86661-6"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae tests - FPAR 2.0 set"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE95",
-      "display": "90357-5"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Nasopharynx by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE96",
-      "display": "90358-3"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Rectum by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE97",
-      "display": "92683-2"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Genital specimen by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE98",
-      "display": "92684-0"
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Urine by NAA with probe detection"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE99",
-      "display": "2800863"
+      "display": "Neisseria gonorrhoeae Ab [Titer] in Serum by Complement fixation"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE101",
-      "display": "45067-6"
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.D2.DE102",
-      "display": "1675429"
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
     } ]
   }
 }

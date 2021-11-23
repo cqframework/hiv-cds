@@ -13,22 +13,22 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.C1.DE185",
-        "display": "707439008"
+        "display": "Antigen of Treponema pallidum (substance)"
       }, {
         "code": "NACHC.C1.DE186",
-        "display": "708462008"
+        "display": "Deoxyribonucleic acid of Treponema pallidum (substance)"
       }, {
         "code": "NACHC.C1.DE187",
-        "display": "72904005"
+        "display": "Treponema pallidum (organism)"
       }, {
         "code": "NACHC.C1.DE188",
-        "display": "44106000"
+        "display": "Treponema pallidum ss. endemicum (organism)"
       }, {
         "code": "NACHC.C1.DE189",
-        "display": "43454006"
+        "display": "Treponema pallidum ss. pallidum (organism)"
       }, {
         "code": "NACHC.C1.DE190",
-        "display": "6246005"
+        "display": "Treponema pallidum ss. pertenue (organism)"
       } ]
     } ]
   }

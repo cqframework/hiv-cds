@@ -6,7 +6,7 @@
   "title": "Hepatitis C Diagnosis Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-19T17:09:38-07:00",
+  "date": "2021-11-22T11:11:33-08:00",
   "description": "Group Valueset with codes representing possible values for the Hepatitis C Diagnosis Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -21,335 +21,335 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-11-19T17:09:38-07:00",
+    "timestamp": "2021-11-22T11:11:33-08:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE2",
-      "display": "B17.1"
+      "display": "Acute hepatitis C"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE3",
-      "display": "B17.10"
+      "display": "Acute hepatitis C without hepatic coma"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE4",
-      "display": "B17.11"
+      "display": "Acute hepatitis C with hepatic coma"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE5",
-      "display": "B18.2"
+      "display": "Chronic viral hepatitis C"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE6",
-      "display": "B19.2"
+      "display": "Unspecified viral hepatitis C"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE7",
-      "display": "B19.20"
+      "display": "Unspecified viral hepatitis C without hepatic coma"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE8",
-      "display": "B19.21"
+      "display": "Unspecified viral hepatitis C with hepatic coma"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE9",
-      "display": "120241000119100"
+      "display": "Glomerulonephritis due to hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE10",
-      "display": "125921000119106"
+      "display": "Hepatic coma due to acute hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE11",
-      "display": "128971000119101"
+      "display": "Cryoglobulinemia due to chronic hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE12",
-      "display": "146371000119104"
+      "display": "Hepatic coma due to chronic hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE13",
-      "display": "186628001"
+      "display": "Hepatic coma due to viral hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE14",
-      "display": "235866006"
+      "display": "Acute hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE15",
-      "display": "278929008"
+      "display": "Congenital hepatitis C infection (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE16",
-      "display": "347891000119103"
+      "display": "Chronic hepatitis C with stage 3 fibrosis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE17",
-      "display": "442374005"
+      "display": "Hepatitis B and hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE18",
-      "display": "50711007"
+      "display": "Viral hepatitis type C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE19",
-      "display": "702969000"
+      "display": "Reactivation of hepatitis C viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE20",
-      "display": "703866000"
+      "display": "Chronic hepatitis C with stage 2 fibrosis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE21",
-      "display": "708198006"
+      "display": "Chronic active hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE22",
-      "display": "767809001"
+      "display": "Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE23",
-      "display": "767810006"
+      "display": "Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE24",
-      "display": "768006009"
+      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE25",
-      "display": "768125005"
+      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE26",
-      "display": "768126006"
+      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE27",
-      "display": "768127002"
+      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE28",
-      "display": "768288001"
+      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE29",
-      "display": "768289009"
+      "display": "Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE30",
-      "display": "831000119103"
+      "display": "Cirrhosis of liver due to chronic hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE31",
-      "display": "128302006"
+      "display": "Chronic hepatitis C (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE32",
-      "display": "435101000124104"
+      "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE33",
-      "display": "121022006"
+      "display": "Antigen of Hepacivirus C (substance)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE34",
-      "display": "121185009"
+      "display": "Ribosomal ribonucleic acid of Hepatitis C virus (substance)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE35",
-      "display": "121204002"
+      "display": "Ribonucleic acid of Hepatitis C virus (substance)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE36",
-      "display": "603413005"
+      "display": "Hepatitis C virus subtype 1a (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE37",
-      "display": "603414004"
+      "display": "Hepatitis C virus subtype 1b (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE38",
-      "display": "603415003"
+      "display": "Hepatitis C virus subtype 2a (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE39",
-      "display": "603416002"
+      "display": "Hepatitis C virus subtype 2b (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE40",
-      "display": "603417006"
+      "display": "Hepatitis C virus subtype 3a (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE41",
-      "display": "603418001"
+      "display": "Hepatitis C virus subtype 3b (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE42",
-      "display": "603419009"
+      "display": "Hepatitis C virus subtype 5a (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE43",
-      "display": "603420003"
+      "display": "Hepatitis C virus subtype 6a (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE44",
-      "display": "603421004"
+      "display": "Hepatitis C virus subtype 4a (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE45",
-      "display": "603422006"
+      "display": "Hepatitis C virus genotype 1 (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE46",
-      "display": "603423001"
+      "display": "Hepatitis C virus genotype 2 (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE47",
-      "display": "603424007"
+      "display": "Hepatitis C virus genotype 3 (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE48",
-      "display": "603425008"
+      "display": "Hepatitis C virus genotype 4 (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE49",
-      "display": "603426009"
+      "display": "Hepatitis C virus genotype 5 (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE50",
-      "display": "603427000"
+      "display": "Hepatitis C virus genotype 6 (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE51",
-      "display": "603428005"
+      "display": "Hepatitis C virus subtype 1c (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE52",
-      "display": "603429002"
+      "display": "Hepatitis C virus subtype 2c (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE53",
-      "display": "603430007"
+      "display": "Hepatitis C virus subtype 4b (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE54",
-      "display": "603431006"
+      "display": "Hepatitis C virus subtype 4c (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE55",
-      "display": "603432004"
+      "display": "Hepatitis C virus subtype 4d (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE56",
-      "display": "603433009"
+      "display": "Hepatitis C virus subtype 4e (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE57",
-      "display": "62944002"
+      "display": "Hepatitis C virus (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE58",
-      "display": "726592002"
+      "display": "Antigen of Hepatitis C virus core (substance)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE59",
-      "display": "781245007"
+      "display": "Hepatitis C virus genotype 4h (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE60",
-      "display": "781276001"
+      "display": "Hepatitis C virus genotype 3c (organism)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE61",
-      "display": "10295004"
+      "display": "Chronic viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE62",
-      "display": "1092801000119100"
+      "display": "Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE63",
-      "display": "1116000"
+      "display": "Chronic aggressive type B viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE64",
-      "display": "16098491000119109"
+      "display": "Chronic autoimmune hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE65",
-      "display": "197284004"
+      "display": "Chronic active hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE66",
-      "display": "235869004"
+      "display": "Chronic viral hepatitis B with hepatitis D (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE67",
-      "display": "235889003"
+      "display": "Drug-induced chronic hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE68",
-      "display": "307757001"
+      "display": "Chronic alcoholic hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE69",
-      "display": "38662009"
+      "display": "Chronic persistent type B viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE70",
-      "display": "41889008"
+      "display": "Chronic persistent hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE71",
-      "display": "450880008"
+      "display": "Chronic hepatitis E (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE72",
-      "display": "50167007"
+      "display": "Chronic active type B viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE73",
-      "display": "57339008"
+      "display": "Chronic lobular hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE74",
-      "display": "60037002"
+      "display": "Chronic persistent viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE75",
-      "display": "61977001"
+      "display": "Chronic type B viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE76",
-      "display": "66870002"
+      "display": "Chronic active viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE77",
-      "display": "713966008"
+      "display": "Occult chronic type B viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE78",
-      "display": "76783007"
+      "display": "Chronic hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE79",
-      "display": "774204006"
+      "display": "Growth retardation, mild developmental delay, chronic hepatitis syndrome (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE80",
-      "display": "838377003"
+      "display": "Chronic hepatitis C co-occurrent with human immunodeficiency virus infection (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE81",
-      "display": "838380002"
+      "display": "Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE82",
-      "display": "89789003"
+      "display": "Chronic aggressive viral hepatitis (disorder)"
     }, {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.B1.DE83",
-      "display": "9843006"
+      "display": "Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)"
     } ]
   }
 }

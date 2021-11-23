@@ -13,199 +13,199 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.F2.DE43",
-        "display": "O09.00"
+        "display": "Supervision of pregnancy with history of infertility, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE44",
-        "display": "O09.01"
+        "display": "Supervision of pregnancy with history of infertility, first trimester"
       }, {
         "code": "NACHC.F2.DE45",
-        "display": "O09.02"
+        "display": "Supervision of pregnancy with history of infertility, second trimester"
       }, {
         "code": "NACHC.F2.DE46",
-        "display": "O09.03"
+        "display": "Supervision of pregnancy with history of infertility, third trimester"
       }, {
         "code": "NACHC.F2.DE47",
-        "display": "O09.10"
+        "display": "Supervision of pregnancy with history of ectopic pregnancy, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE48",
-        "display": "O09.11"
+        "display": "Supervision of pregnancy with history of ectopic pregnancy, first trimester"
       }, {
         "code": "NACHC.F2.DE49",
-        "display": "O09.12"
+        "display": "Supervision of pregnancy with history of ectopic pregnancy, second trimester"
       }, {
         "code": "NACHC.F2.DE50",
-        "display": "O09.13"
+        "display": "Supervision of pregnancy with history of ectopic pregnancy, third trimester"
       }, {
         "code": "NACHC.F2.DE51",
-        "display": "O09.211"
+        "display": "Supervision of pregnancy with history of pre-term labor, first trimester"
       }, {
         "code": "NACHC.F2.DE52",
-        "display": "O09.212"
+        "display": "Supervision of pregnancy with history of pre-term labor, second trimester"
       }, {
         "code": "NACHC.F2.DE53",
-        "display": "O09.213"
+        "display": "Supervision of pregnancy with history of pre-term labor, third trimester"
       }, {
         "code": "NACHC.F2.DE54",
-        "display": "O09.219"
+        "display": "Supervision of pregnancy with history of pre-term labor, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE55",
-        "display": "O09.291"
+        "display": "Supervision of pregnancy with other poor reproductive or obstetric history, first trimester"
       }, {
         "code": "NACHC.F2.DE56",
-        "display": "O09.292"
+        "display": "Supervision of pregnancy with other poor reproductive or obstetric history, second trimester"
       }, {
         "code": "NACHC.F2.DE57",
-        "display": "O09.293"
+        "display": "Supervision of pregnancy with other poor reproductive or obstetric history, third trimester"
       }, {
         "code": "NACHC.F2.DE58",
-        "display": "O09.299"
+        "display": "Supervision of pregnancy with other poor reproductive or obstetric history, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE59",
-        "display": "O09.30"
+        "display": "Supervision of pregnancy with insufficient antenatal care, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE60",
-        "display": "O09.31"
+        "display": "Supervision of pregnancy with insufficient antenatal care, first trimester"
       }, {
         "code": "NACHC.F2.DE61",
-        "display": "O09.32"
+        "display": "Supervision of pregnancy with insufficient antenatal care, second trimester"
       }, {
         "code": "NACHC.F2.DE62",
-        "display": "O09.33"
+        "display": "Supervision of pregnancy with insufficient antenatal care, third trimester"
       }, {
         "code": "NACHC.F2.DE63",
-        "display": "O09.40"
+        "display": "Supervision of pregnancy with grand multiparity, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE64",
-        "display": "O09.41"
+        "display": "Supervision of pregnancy with grand multiparity, first trimester"
       }, {
         "code": "NACHC.F2.DE65",
-        "display": "O09.42"
+        "display": "Supervision of pregnancy with grand multiparity, second trimester"
       }, {
         "code": "NACHC.F2.DE66",
-        "display": "O09.43"
+        "display": "Supervision of pregnancy with grand multiparity, third trimester"
       }, {
         "code": "NACHC.F2.DE67",
-        "display": "O09.511"
+        "display": "Supervision of elderly primigravida, first trimester"
       }, {
         "code": "NACHC.F2.DE68",
-        "display": "O09.512"
+        "display": "Supervision of elderly primigravida, second trimester"
       }, {
         "code": "NACHC.F2.DE69",
-        "display": "O09.513"
+        "display": "Supervision of elderly primigravida, third trimester"
       }, {
         "code": "NACHC.F2.DE70",
-        "display": "O09.519"
+        "display": "Supervision of elderly primigravida, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE71",
-        "display": "O09.521"
+        "display": "Supervision of elderly multigravida, first trimester"
       }, {
         "code": "NACHC.F2.DE72",
-        "display": "O09.522"
+        "display": "Supervision of elderly multigravida, second trimester"
       }, {
         "code": "NACHC.F2.DE73",
-        "display": "O09.523"
+        "display": "Supervision of elderly multigravida, third trimester"
       }, {
         "code": "NACHC.F2.DE74",
-        "display": "O09.529"
+        "display": "Supervision of elderly multigravida, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE75",
-        "display": "O09.611"
+        "display": "Supervision of young primigravida, first trimester"
       }, {
         "code": "NACHC.F2.DE76",
-        "display": "O09.612"
+        "display": "Supervision of young primigravida, second trimester"
       }, {
         "code": "NACHC.F2.DE77",
-        "display": "O09.613"
+        "display": "Supervision of young primigravida, third trimester"
       }, {
         "code": "NACHC.F2.DE78",
-        "display": "O09.619"
+        "display": "Supervision of young primigravida, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE79",
-        "display": "O09.621"
+        "display": "Supervision of young multigravida, first trimester"
       }, {
         "code": "NACHC.F2.DE80",
-        "display": "O09.622"
+        "display": "Supervision of young multigravida, second trimester"
       }, {
         "code": "NACHC.F2.DE81",
-        "display": "O09.623"
+        "display": "Supervision of young multigravida, third trimester"
       }, {
         "code": "NACHC.F2.DE82",
-        "display": "O09.629"
+        "display": "Supervision of young multigravida, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE83",
-        "display": "O09.70"
+        "display": "Supervision of high risk pregnancy due to social problems, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE84",
-        "display": "O09.71"
+        "display": "Supervision of high risk pregnancy due to social problems, first trimester"
       }, {
         "code": "NACHC.F2.DE85",
-        "display": "O09.72"
+        "display": "Supervision of high risk pregnancy due to social problems, second trimester"
       }, {
         "code": "NACHC.F2.DE86",
-        "display": "O09.73"
+        "display": "Supervision of high risk pregnancy due to social problems, third trimester"
       }, {
         "code": "NACHC.F2.DE87",
-        "display": "O09.811"
+        "display": "Supervision of pregnancy resulting from assisted reproductive technology, first trimester"
       }, {
         "code": "NACHC.F2.DE88",
-        "display": "O09.812"
+        "display": "Supervision of pregnancy resulting from assisted reproductive technology, second trimester"
       }, {
         "code": "NACHC.F2.DE89",
-        "display": "O09.813"
+        "display": "Supervision of pregnancy resulting from assisted reproductive technology, third trimester"
       }, {
         "code": "NACHC.F2.DE90",
-        "display": "O09.819"
+        "display": "Supervision of pregnancy resulting from assisted reproductive technology, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE91",
-        "display": "O09.821"
+        "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, first trimester"
       }, {
         "code": "NACHC.F2.DE92",
-        "display": "O09.822"
+        "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, second trimester"
       }, {
         "code": "NACHC.F2.DE93",
-        "display": "O09.823"
+        "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, third trimester"
       }, {
         "code": "NACHC.F2.DE94",
-        "display": "O09.829"
+        "display": "Supervision of pregnancy with history of in utero procedure during previous pregnancy, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE95",
-        "display": "O09.891"
+        "display": "Supervision of other high risk pregnancies, first trimester"
       }, {
         "code": "NACHC.F2.DE96",
-        "display": "O09.892"
+        "display": "Supervision of other high risk pregnancies, second trimester"
       }, {
         "code": "NACHC.F2.DE97",
-        "display": "O09.893"
+        "display": "Supervision of other high risk pregnancies, third trimester"
       }, {
         "code": "NACHC.F2.DE98",
-        "display": "O09.899"
+        "display": "Supervision of other high risk pregnancies, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE99",
-        "display": "O09.90"
+        "display": "Supervision of high risk pregnancy, unspecified, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE100",
-        "display": "O09.91"
+        "display": "Supervision of high risk pregnancy, unspecified, first trimester"
       }, {
         "code": "NACHC.F2.DE101",
-        "display": "O09.92"
+        "display": "Supervision of high risk pregnancy, unspecified, second trimester"
       }, {
         "code": "NACHC.F2.DE102",
-        "display": "O09.93"
+        "display": "Supervision of high risk pregnancy, unspecified, third trimester"
       }, {
         "code": "NACHC.F2.DE103",
-        "display": "O09.A"
+        "display": "Supervision of pregnancy with history of molar pregnancy"
       }, {
         "code": "NACHC.F2.DE104",
-        "display": "O09.A0"
+        "display": "Supervision of pregnancy with history of molar pregnancy, unspecified trimester"
       }, {
         "code": "NACHC.F2.DE105",
-        "display": "O09.A1"
+        "display": "Supervision of pregnancy with history of molar pregnancy, first trimester"
       }, {
         "code": "NACHC.F2.DE106",
-        "display": "O09.A2"
+        "display": "Supervision of pregnancy with history of molar pregnancy, second trimester"
       }, {
         "code": "NACHC.F2.DE107",
-        "display": "O09.A3"
+        "display": "Supervision of pregnancy with history of molar pregnancy, third trimester"
       } ]
     } ]
   }

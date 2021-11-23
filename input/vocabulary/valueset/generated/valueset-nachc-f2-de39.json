@@ -13,13 +13,13 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.F2.DE39",
-        "display": "Z34.03"
+        "display": "Encounter for supervision of normal first pregnancy, third trimester"
       }, {
         "code": "NACHC.F2.DE40",
-        "display": "Z34.83"
+        "display": "Encounter for supervision of other normal pregnancy, third trimester"
       }, {
         "code": "NACHC.F2.DE41",
-        "display": "Z34.93"
+        "display": "Encounter for supervision of normal pregnancy, unspecified, third trimester"
       } ]
     } ]
   }
