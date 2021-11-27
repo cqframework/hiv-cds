@@ -454,6 +454,7 @@ define "DAST 10 Questions Score":
   Count(
     "All DAST 10 Questions" question
       where start of FC.ToInterval(question.effective) same day as "Latest DAST 10 Questions Date"
+      and Coalesce(Lower(question.value as string) in { 'yes' }, question.value as boolean = true)
   )
 
 define "Latest DAST 10 Screening Date":
@@ -465,27 +466,27 @@ define "Latest DAST 10 Screening Date":
   return date from start of FC.ToInterval(latestScreening.effective)
 
 define "Patient Has High Degree Of Problems Related to Drug Abuse":
-  ("DAST 10 Result Score" is not null and "DAST 10 Result Score" in "DAST 10 High Risk Score")
+  ("DAST 10 Result Score" in "DAST 10 High Risk Score")
   or
-  ("DAST 10 Questions Score" is not null and "DAST 10 Questions Score" in "DAST 10 High Risk Score")
+  ("DAST 10 Questions Score" in "DAST 10 High Risk Score")
 
 define "Patient Has Moderate Degree Of Problems Related to Drug Abuse":
-  ("DAST 10 Result Score" is not null and "DAST 10 Result Score" in "DAST 10 Moderate Risk Score")
+  ("DAST 10 Result Score" in "DAST 10 Moderate Risk Score")
   or
-  ("DAST 10 Questions Score" is not null and "DAST 10 Questions Score" in "DAST 10 Moderate Risk Score")
+  ("DAST 10 Questions Score" in "DAST 10 Moderate Risk Score")
 
 define "Patient Has Low Degree Of Problems Related to Drug Abuse":
-  ("DAST 10 Result Score" is not null and "DAST 10 Result Score" in "DAST 10 Low Risk Score")
+  ("DAST 10 Result Score" in "DAST 10 Low Risk Score")
   or
-  ("DAST 10 Questions Score" is not null and "DAST 10 Questions Score" in "DAST 10 Low Risk Score")
+  ("DAST 10 Questions Score" in "DAST 10 Low Risk Score")
 
 define "Patient Has No Problems Related to Drug Abuse":
-  ("DAST 10 Result Score" is not null and "DAST 10 Result Score" in "DAST 10 No Risk Score")
+  ("DAST 10 Result Score" in "DAST 10 No Risk Score")
   or
-  ("DAST 10 Result Score" is not null and "DAST 10 Questions Score" is null)
+  ("DAST 10 Questions Score" is null)
 
 define "Patient Not Screened For Drug Abuse Or Screening Expired":
-  ("Latest DAST 10 Screening Date" is null) 
+  ("Latest DAST 10 Screening Date" is null)
   or 
   (difference in years between "Latest DAST 10 Screening Date" and Today() >= 1)
 

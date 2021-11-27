@@ -43,7 +43,7 @@ define "Patient Encounter":
   @description: Concepts Associated with Drug Abuse Elements
 */
 define "Drug Abuse":
-  [Observation: Cx."Drug Abuse Choices"]
+  [Observation: Cx."DAST 10 Questionnaire Choices"]
 
 /*
   @dataElement: NACHC.A1.DE1 HIV Diagnosis
@@ -515,7 +515,7 @@ define "Seeking STD Treatment":
   @description: DAST 10 Question 1
 */
 define "DAST 10 Question 1":
-  [Observation: Cx."DAST 10 Question 1"] Resource
+  [Observation: Cx."DAST 10 Question 1 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -524,7 +524,7 @@ define "DAST 10 Question 1":
   @description: DAST 10 Question 6
 */
 define "DAST 10 Question 6":
-  [Observation: Cx."DAST 10 Question 6"] Resource
+  [Observation: Cx."DAST 10 Question 6 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -533,7 +533,7 @@ define "DAST 10 Question 6":
   @description: DAST 10 Question 7
 */
 define "DAST 10 Question 7":
-  [Observation: Cx."DAST 10 Question 7"] Resource
+  [Observation: Cx."DAST 10 Question 7 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -542,7 +542,7 @@ define "DAST 10 Question 7":
   @description: DAST 10 Question 8
 */
 define "DAST 10 Question 8":
-  [Observation: Cx."DAST 10 Question 8"] Resource
+  [Observation: Cx."DAST 10 Question 8 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -551,7 +551,7 @@ define "DAST 10 Question 8":
   @description: DAST 10 Question 9
 */
 define "DAST 10 Question 9":
-  [Observation: Cx."DAST 10 Question 9"] Resource
+  [Observation: Cx."DAST 10 Question 9 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -560,7 +560,7 @@ define "DAST 10 Question 9":
   @description: DAST 10 Question 10
 */
 define "DAST 10 Question 10":
-  [Observation: Cx."DAST 10 Question 10"] Resource
+  [Observation: Cx."DAST 10 Question 10 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -569,7 +569,7 @@ define "DAST 10 Question 10":
   @description: DAST 10 Question 2
 */
 define "DAST 10 Question 2":
-  [Observation: Cx."DAST 10 Question 2"] Resource
+  [Observation: Cx."DAST 10 Question 2 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -578,7 +578,7 @@ define "DAST 10 Question 2":
   @description: DAST 10 Question 3
 */
 define "DAST 10 Question 3":
-  [Observation: Cx."DAST 10 Question 3"] Resource
+  [Observation: Cx."DAST 10 Question 3 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -587,7 +587,7 @@ define "DAST 10 Question 3":
   @description: DAST 10 Question 4
 */
 define "DAST 10 Question 4":
-  [Observation: Cx."DAST 10 Question 4"] Resource
+  [Observation: Cx."DAST 10 Question 4 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -596,5 +596,5 @@ define "DAST 10 Question 4":
   @description: DAST 10 Question 5
 */
 define "DAST 10 Question 5":
-  [Observation: Cx."DAST 10 Question 5"] Resource
+  [Observation: Cx."DAST 10 Question 5 Choices"] Resource
     where Resource.value = true
