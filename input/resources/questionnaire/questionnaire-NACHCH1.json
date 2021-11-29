@@ -36,132 +36,132 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de1#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/previous-hiv-screening#Observation.value[x]",
     "text": "Previous HIV Screening",
     "type": "boolean"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de2#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/previous-hiv-diagnosis#Observation.value[x]",
     "text": "Previous HIV Diagnosis",
     "type": "boolean"
   }, {
     "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de3#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-currently-pregnant#Observation.value[x]",
     "text": "Patient Currently Pregnant",
     "type": "boolean"
   }, {
     "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de4#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-diagnosed-with-hcv#Observation.value[x]",
     "text": "Patient Diagnosed with HCV",
     "type": "boolean"
   }, {
     "linkId": "5",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de5#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-diagnosed-with-syphilis#Observation.value[x]",
     "text": "Patient Diagnosed with Syphilis",
     "type": "boolean"
   }, {
     "linkId": "6",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de6#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-diagnosed-with-gonorrhea#Observation.value[x]",
     "text": "Patient Diagnosed with Gonorrhea",
     "type": "boolean"
   }, {
     "linkId": "7",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de7#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-diagnosed-with-chlamydia#Observation.value[x]",
     "text": "Patient Diagnosed with Chlamydia",
     "type": "boolean"
   }, {
     "linkId": "8",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de8#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-has-used-injection-drugs#Observation.value[x]",
     "text": "Patient has used Injection Drugs",
     "type": "boolean"
   }, {
     "linkId": "9",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de9#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/seeking-std-treatment#Observation.value[x]",
     "text": "Seeking STD Treatment",
     "type": "boolean"
   }, {
     "linkId": "10",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de10#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/previous-experience-with-prep#Observation.value[x]",
     "text": "Previous experience with PREP",
     "type": "boolean"
   }, {
     "linkId": "11",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de11#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-past-year#Observation.value[x]",
     "text": "Sexual Activity - Past Year",
     "type": "boolean"
   }, {
     "linkId": "12",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de12#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-history#Observation.value[x]",
     "text": "Sexual Activity - History",
     "type": "boolean"
   }, {
     "linkId": "13",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de13#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-men#Observation.value[x]",
     "text": "Sexual Activity - Men",
     "type": "boolean"
   }, {
     "linkId": "14",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de14#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-women#Observation.value[x]",
     "text": "Sexual Activity - Women",
     "type": "boolean"
   }, {
     "linkId": "15",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de15#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-number-of-partners#Observation.value[x]",
     "text": "Sexual Activity - Number of Partners",
     "type": "boolean"
   }, {
     "linkId": "16",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de16#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-new-partner-past-3-months#Observation.value[x]",
     "text": "Sexual Activity - New Partner Past 3 Months",
     "type": "boolean"
   }, {
     "linkId": "17",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de17#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-history#Observation.value[x]",
     "text": "Sexual Activity - Partners History",
     "type": "boolean"
   }, {
     "linkId": "18",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de18#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-number-of-partners#Observation.value[x]",
     "text": "Sexual Activity - Partners Number of Partners",
     "type": "boolean"
   }, {
     "linkId": "19",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de19#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-hiv-history#Observation.value[x]",
     "text": "Sexual Activity - Partners HIV History",
     "type": "boolean"
   }, {
     "linkId": "20",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de20#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-drug-or-alcohol-use#Observation.value[x]",
     "text": "Sexual Activity - Drug or Alcohol Use",
     "type": "boolean"
   }, {
     "linkId": "21",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de21#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-exchanged-for-sex#Observation.value[x]",
     "text": "Sexual Activity - Exchanged for Sex",
     "type": "boolean"
   }, {
     "linkId": "22",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de22#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-coercion#Observation.value[x]",
     "text": "Sexual Activity - Coercion",
     "type": "boolean"
   }, {
     "linkId": "23",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de23#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-kind-of-sex-anal#Observation.value[x]",
     "text": "Sexual Activity - Kind of Sex - Anal",
     "type": "boolean"
   }, {
     "linkId": "24",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de24#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-male-kind-of-sex-receptive-anal#Observation.value[x]",
     "text": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
     "type": "boolean"
   }, {
     "linkId": "25",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de25#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-male-kind-of-sex-insertive-anal#Observation.value[x]",
     "text": "Sexual Activity - Male - Kind of Sex - Insertive Anal",
     "type": "boolean"
   }, {
     "linkId": "26",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de26#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-kind-of-sex-vaginal#Observation.value[x]",
     "text": "Sexual Activity - Kind of Sex - Vaginal",
     "type": "boolean"
   } ]

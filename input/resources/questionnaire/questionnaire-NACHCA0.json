@@ -36,7 +36,7 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de1#Encounter.type",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter#Encounter.type",
     "text": "Patient Encounter",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de2"
@@ -45,17 +45,17 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient#Patient.sexualOrientation",
     "text": "Sexual Orientation",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de48"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de49"
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient#Patient.genderIdentity",
     "text": "Gender Identity",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de55"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56"
   }, {
     "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de63#Observation.code",
-    "text": "Drug Abuse",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-questionnaire#Observation.code",
+    "text": "DAST 10 Questionnaire",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de64"
   } ]

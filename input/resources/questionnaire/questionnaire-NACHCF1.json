@@ -36,25 +36,25 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de1#Procedure.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/drug-rehabilitation#Procedure.code",
     "text": "Drug Rehabilitation",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de2"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de12#Observation.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-findings#Observation.code",
     "text": "Injection Findings",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13"
   }, {
     "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de15#Condition.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use-diagnosis#Condition.code",
     "text": "Injection Drug Use Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de16"
   }, {
     "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f1-de200#MedicationStatement.medication[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use#MedicationStatement.medication[x]",
     "text": "Injection Drug Use",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de201"

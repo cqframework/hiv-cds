@@ -36,61 +36,61 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de1#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-1#Observation.value[x]",
     "text": "DAST 10 Question 1",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de2"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de3#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-2#Observation.value[x]",
     "text": "DAST 10 Question 2",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de4"
   }, {
     "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de5#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-3#Observation.value[x]",
     "text": "DAST 10 Question 3",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de6"
   }, {
     "linkId": "4",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de7#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-4#Observation.value[x]",
     "text": "DAST 10 Question 4",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de8"
   }, {
     "linkId": "5",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de9#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-5#Observation.value[x]",
     "text": "DAST 10 Question 5",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de10"
   }, {
     "linkId": "6",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de11#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-6#Observation.value[x]",
     "text": "DAST 10 Question 6",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de12"
   }, {
     "linkId": "7",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de13#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-7#Observation.value[x]",
     "text": "DAST 10 Question 7",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de14"
   }, {
     "linkId": "8",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de15#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-8#Observation.value[x]",
     "text": "DAST 10 Question 8",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de16"
   }, {
     "linkId": "9",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de17#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-9#Observation.value[x]",
     "text": "DAST 10 Question 9",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de18"
   }, {
     "linkId": "10",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h2-de19#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-10#Observation.value[x]",
     "text": "DAST 10 Question 10",
     "type": "boolean",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de20"

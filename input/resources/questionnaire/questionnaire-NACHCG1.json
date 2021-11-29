@@ -36,19 +36,19 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g1-de1#Procedure.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/post-exposure-prophylaxis#Procedure.code",
     "text": "Post Exposure Prophylaxis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de2"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g1-de5#MedicationRequest.medication[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pep-medication-prescriptions#MedicationRequest.medication[x]",
     "text": "PEP Medication Prescriptions",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de5-choices-grouper"
   }, {
     "linkId": "3",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-g1-de143#MedicationDispense.medication[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pep-dispensed-medications#MedicationDispense.medication[x]",
     "text": "PEP Dispensed Medications",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de143-choices-grouper"

@@ -36,7 +36,7 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-c2-de1#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/syphilis-test#Observation.value[x]",
     "text": "Syphilis Test",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de1-choices-grouper"

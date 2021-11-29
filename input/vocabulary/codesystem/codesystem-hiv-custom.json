@@ -258,21 +258,21 @@
     "display": "Choose not to disclose",
     "definition": "Gender Identity - Choose not to disclose"
   }, {
-    "code": "Drug Abuse",
-    "display": "Drug Abuse",
-    "definition": "Drug Abuse"
+    "code": "DAST 10 Questionnaire",
+    "display": "DAST 10 Questionnaire",
+    "definition": "DAST 10 Questionnaire"
   }, {
     "code": "NACHC.A0.DE64",
     "display": "Substance Abuse Prescription Illicit Substance Over the Counter Product Screening Test Score",
-    "definition": "Drug Abuse - Substance Abuse Prescription Illicit Substance Over the Counter Product Screening Test Score"
+    "definition": "DAST 10 Questionnaire - Substance Abuse Prescription Illicit Substance Over the Counter Product Screening Test Score"
   }, {
     "code": "NACHC.A0.DE65",
     "display": "Total score [DAST-10]",
-    "definition": "Drug Abuse - Total score [DAST-10]"
+    "definition": "DAST 10 Questionnaire - Total score [DAST-10]"
   }, {
     "code": "NACHC.A0.DE66",
     "display": "Drug Abuse Screening Test-10 [DAST-10]",
-    "definition": "Drug Abuse - Drug Abuse Screening Test-10 [DAST-10]"
+    "definition": "DAST 10 Questionnaire - Drug Abuse Screening Test-10 [DAST-10]"
   }, {
     "code": "HIV Diagnosis",
     "display": "HIV Diagnosis",

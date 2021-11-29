@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a0-de49",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de49",
+  "name": "SexualOrientationChoices",
+  "title": "Sexual Orientation Choices",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Orientation Choices element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.A0.DE49",
+        "display": "Lesbian, gay or homosexual"
+      }, {
+        "code": "NACHC.A0.DE50",
+        "display": "Straight or heterosexual"
+      }, {
+        "code": "NACHC.A0.DE51",
+        "display": "Bisexual"
+      }, {
+        "code": "NACHC.A0.DE52",
+        "display": "Something else, please describe"
+      }, {
+        "code": "NACHC.A0.DE53",
+        "display": "Don't know"
+      }, {
+        "code": "NACHC.A0.DE54",
+        "display": "Choose not to disclose"
+      } ]
+    } ]
+  }
+}

@@ -36,7 +36,7 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-d2-de1#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/gonorrhea-test#Observation.value[x]",
     "text": "Gonorrhea Test",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de1-choices-grouper"

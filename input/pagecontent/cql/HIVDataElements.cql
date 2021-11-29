@@ -38,11 +38,11 @@ define "Patient Encounter":
   [Encounter: Cx."Patient Encounter Choices"]
 
 /*
-  @dataElement: NACHC.A0.DE63 Drug Abuse
+  @dataElement: NACHC.A0.DE63 DAST 10 Questionnaire
   @activity: NACHC.A0 Contact & Profile
-  @description: Concepts Associated with Drug Abuse Elements
+  @description: Concepts Associated with DAST-10 Questionnaire Elements
 */
-define "Drug Abuse":
+define "DAST 10 Questionnaire":
   [Observation: Cx."DAST 10 Questionnaire Choices"]
 
 /*

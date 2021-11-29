@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "gonorrhea-test-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/gonorrhea-test" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Gonorrhea Test",
+      "display": "Gonorrhea Test"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ],
+  "valueCodeableConcept": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.D2.DE102",
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1675429",
+      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
+    } ]
+  }
+}

@@ -36,7 +36,7 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-d1-de1#Condition.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/gonorrhea-diagnosis#Condition.code",
     "text": "Gonorrhea Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de1-choices-grouper"

@@ -36,13 +36,13 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a2-de1#Observation.value[x]",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test#Observation.value[x]",
     "text": "HIV Test",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1-choices-grouper"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a2-de216#ServiceRequest.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test-ordered#ServiceRequest.code",
     "text": "HIV Test Ordered",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217"

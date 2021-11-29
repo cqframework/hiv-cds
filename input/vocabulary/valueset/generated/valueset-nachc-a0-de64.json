@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "id": "nachc-a0-de64",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de64",
-  "name": "DrugAbuseChoices",
-  "title": "Drug Abuse Choices",
+  "name": "DAST10QuestionnaireChoices",
+  "title": "DAST 10 Questionnaire Choices",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Drug Abuse Choices element",
+  "description": "Codes representing possible values for the DAST 10 Questionnaire Choices element",
   "immutable": true,
   "compose": {
     "include": [ {

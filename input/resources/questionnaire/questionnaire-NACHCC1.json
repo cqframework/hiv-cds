@@ -36,7 +36,7 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-c1-de1#Condition.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/syphilis-diagnosis#Condition.code",
     "text": "Syphilis Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de1-choices-grouper"

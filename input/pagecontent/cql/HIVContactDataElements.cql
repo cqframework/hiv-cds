@@ -12,6 +12,14 @@ include HIVConcepts called Cx
 context Patient
 
 /*
+  @dataElement: NACHC.A0.DE63 DAST 10 Questionnaire
+  @activity: NACHC.A0 Contact & Profile
+  @description: Concepts Associated with DAST 10 Questionnaire Elements
+*/
+define "DAST 10 Questionnaire":
+  [Observation: Cx."DAST 10 Questionnaire Choices"]
+
+/*
   @dataElement: NACHC.A0.DE48 Sexual Orientation
   @activity: NACHC.A0 Contact & Profile
   @description: Concepts Associated with Sexual Orientation Elements
@@ -36,14 +44,6 @@ define "Gender Identity":
 */
 define "Patient Encounter":
   [Encounter: Cx."Patient Encounter Choices"]
-
-/*
-  @dataElement: NACHC.A0.DE63 Drug Abuse
-  @activity: NACHC.A0 Contact & Profile
-  @description: Concepts Associated with Drug Abuse Elements
-*/
-define "DAST 10 Questionnaire":
-  [Observation: Cx."DAST 10 Questionnaire Choices"]
 
 /*
   @dataElement: NACHC.A1.DE1 HIV Diagnosis
@@ -79,6 +79,14 @@ define "Hepatitis C Diagnosis":
   [Condition: Cx."Hepatitis C Diagnosis Choices Grouper"]
 
 /*
+  @dataElement: NACHC.B2.DE112 Hepatitis C Procedures
+  @activity: NACHC.B2 HCV test
+  @description: Concepts Associated with HCV Procedures
+*/
+define "Hepatitis C Procedures":
+  [Procedure: Cx."Hepatitis C Procedures Choices"]
+
+  /*
   @dataElement: NACHC.B2.DE1 Hepatitis C Test
   @activity: NACHC.B2 HCV test
   @description: Concepts Associated with HCV Testing
@@ -86,14 +94,6 @@ define "Hepatitis C Diagnosis":
 define "Hepatitis C Test":
   [Observation: Cx."Hepatitis C Test"] HepCTest
     where HepCTest.value as CodeableConcept in Cx."Hepatitis C Test Choices Grouper"
-
-/*
-  @dataElement: NACHC.B2.DE112 Hepatitis C Procedures
-  @activity: NACHC.B2 HCV test
-  @description: Concepts Associated with HCV Procedures
-*/
-define "Hepatitis C Procedures":
-  [Procedure: Cx."Hepatitis C Procedures Choices"]
 
 /*
   @dataElement: NACHC.C1.DE1 Syphilis Diagnosis
@@ -155,15 +155,14 @@ define "Drug Rehabilitation":
   [Procedure: Cx."Drug Rehabilitation Choices"]
 
 /*
-  @dataElement: NACHC.F1.DE12 Injection Findings
+  @dataElement: NACHC.F1.DE200 Injection Drug Use
   @activity: NACHC.F1 Injection Drug Use
-  @description: Concepts related to findings or observations related to Injection Drug Usage
+  @description: Concepts related to Injection Drug Use History
 */
-define "Injection Findings":
-  [Observation: Cx."Injection Findings"] IDUFindings
-    where IDUFindings.value as CodeableConcept in Cx."Injection Findings Choices"
+define "Injection Drug Use":
+  [MedicationStatement: Cx."Injection Drug Use Choices"]
 
-/*
+  /*
   @dataElement: NACHC.F1.DE15 Injection Drug Use Diagnosis
   @activity: NACHC.F1 Injection Drug Use
   @description: Concepts Associated with Injection Drug Use Diagnosis
@@ -172,21 +171,14 @@ define "Injection Drug Use Diagnosis":
   [Condition: Cx."Injection Drug Use Diagnosis Choices"]
 
 /*
-  @dataElement: NACHC.F1.DE200 Injection Drug Use
+  @dataElement: NACHC.F1.DE12 Injection Findings
   @activity: NACHC.F1 Injection Drug Use
-  @description: Concepts related to Injection Drug Use History
+  @description: Concepts related to findings or observations related to Injection Drug Usage
 */
-define "Injection Drug Use":
-  [MedicationStatement: Cx."Injection Drug Use Choices"]
-
-/*
-  @dataElement: NACHC.F2.DE1 Pregnancy Encounters
-  @activity: NACHC.F2 Pregnancy
-  @description: Encounters in the usage of Pregnancy
-*/
-define "Pregnancy Encounters":
-  [Encounter: Cx."Pregnancy Encounters Choices"]
-
+define "Injection Findings":
+  [Observation: Cx."Injection Findings"] IDUFindings
+    where IDUFindings.value as CodeableConcept in Cx."Injection Findings Choices"
+    
 /*
   @dataElement: NACHC.F2.DE108 Maternal Care
   @activity: NACHC.F2 Pregnancy
@@ -204,28 +196,12 @@ define "Pregnancy Conditions":
   [Condition: Cx."Pregnancy Conditions Choices"]
 
 /*
-  @dataElement: NACHC.F2.DE38 Third Trimester Encounters
+  @dataElement: NACHC.F2.DE1 Pregnancy Encounters
   @activity: NACHC.F2 Pregnancy
-  @description: Third Trimester Encounters in the usage of Pregnancy
+  @description: Encounters in the usage of Pregnancy
 */
-define "Third Trimester Encounters":
-  [Encounter: Cx."Third Trimester Encounters Choices"]
-
-/*
-  @dataElement: NACHC.F2.DE42 Pregnancy Supervision
-  @activity: NACHC.F2 Pregnancy
-  @description: Procedures in the usage of the Supervision of Pregnancy
-*/
-define "Pregnancy Supervision":
-  [Procedure: Cx."Pregnancy Supervision Choices"]
-
-/*
-  @dataElement: NACHC.F2.DE672 Pregnancy Procedures
-  @activity: NACHC.F2 Pregnancy
-  @description: Procedures identified for Pregnancy
-*/
-define "Pregnancy Procedures":
-  [Procedure: Cx."Pregnancy Procedures Choices"]
+define "Pregnancy Encounters":
+  [Encounter: Cx."Pregnancy Encounters Choices"]
 
 /*
   @dataElement: NACHC.F2.DE904 Pregnancy Observations
@@ -237,6 +213,46 @@ define "Pregnancy Observations":
     where PregnancyObservations.value as CodeableConcept in Cx."Pregnancy Observations Choices"
 
 /*
+  @dataElement: NACHC.F2.DE672 Pregnancy Procedures
+  @activity: NACHC.F2 Pregnancy
+  @description: Procedures identified for Pregnancy
+*/
+define "Pregnancy Procedures":
+  [Procedure: Cx."Pregnancy Procedures Choices"]
+
+/*
+  @dataElement: NACHC.F2.DE42 Pregnancy Supervision
+  @activity: NACHC.F2 Pregnancy
+  @description: Procedures in the usage of the Supervision of Pregnancy
+*/
+define "Pregnancy Supervision":
+  [Procedure: Cx."Pregnancy Supervision Choices"]
+
+/*
+  @dataElement: NACHC.F2.DE38 Third Trimester Encounters
+  @activity: NACHC.F2 Pregnancy
+  @description: Third Trimester Encounters in the usage of Pregnancy
+*/
+define "Third Trimester Encounters":
+  [Encounter: Cx."Third Trimester Encounters Choices"]
+
+/*
+  @dataElement: NACHC.G1.DE143 PEP Dispensed Medications
+  @activity: NACHC.G1 Pep
+  @description: List of Medications Provisioned and Supplied for Non-Occupational Post Exposure Prophylaxis
+*/
+define "PEP Dispensed Medications":
+  [MedicationDispense: Cx."PEP Dispensed Medications Choices Grouper"]
+
+/*
+  @dataElement: NACHC.G1.DE5 PEP Medication Prescriptions
+  @activity: NACHC.G1 Pep
+  @description: List of Medication Prescriptions for Non-Occupational Post Exposure Prophylaxis
+*/
+define "PEP Medication Prescriptions":
+  [MedicationRequest: Cx."PEP Medication Prescriptions Choices Grouper"]
+
+/*
   @dataElement: NACHC.G1.DE1 Post Exposure Prophylaxis
   @activity: NACHC.G1 Pep
   @description: Concepts and Procedures Identifying Post Exposure Prophylaxis
@@ -245,44 +261,73 @@ define "Post Exposure Prophylaxis":
   [Procedure: Cx."Post Exposure Prophylaxis Choices"]
 
 /*
-  @dataElement: NACHC.G1.DE143 Post Exposure Prophylaxis Dispensed Medications
-  @activity: NACHC.G1 Pep
-  @description: List of Medications Provisioned and Supplied for Non-Occupational Post Exposure Prophylaxis
-*/
-define "Post Exposure Prophylaxis Dispensed Medications":
-  [MedicationDispense: Cx."Prep Dispensed Medications Choices Grouper"]
-
-/*
-  @dataElement: NACHC.G1.DE5 Post Exposure Prophylaxis Medication Prescriptions
-  @activity: NACHC.G1 Pep
-  @description: List of Medication Prescriptions for Non-Occupational Post Exposure Prophylaxis
-*/
-define "Post Exposure Prophylaxis Medication Prescriptions":
-  [MedicationRequest: Cx."PEP Medication Prescriptions Choices Grouper"]
-
-/*
-  @dataElement: NACHC.G2.DE1 Pre Exposure Prophylaxis Medication Prescriptions
-  @activity: NACHC.G2 Prep
-  @description: List of Medication Prescriptions for Non-Occupational Pre Exposure Prophylaxis
-*/
-define "Pre Exposure Prophylaxis Medication Prescriptions":
-  [MedicationRequest: Cx."Prep Medication Prescriptions Choices Grouper"]
-
-/*
-  @dataElement: NACHC.G2.DE26 Pre Exposure Prophylaxis Dispensed Medications
+  @dataElement: NACHC.G2.DE26 Prep Dispensed Medications
   @activity: NACHC.G2 Prep
   @description: List of Medications Provisioned and Supplied for Non-Occupational Pre Exposure Prophylaxis
 */
-define "Pre Exposure Prophylaxis Dispensed Medications":
+define "Prep Dispensed Medications":
   [MedicationDispense: Cx."Prep Dispensed Medications Choices Grouper"]
 
 /*
-  @dataElement: NACHC.H1.DE1 Previous HIV Screening
-  @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient has previously been screened for HIV?
+  @dataElement: NACHC.G2.DE1 Prep Medication Prescriptions
+  @activity: NACHC.G2 Prep
+  @description: List of Medication Prescriptions for Non-Occupational Pre Exposure Prophylaxis
 */
-define "Previous HIV Screening":
-  [Observation: Cx."HIV Test"] Resource
+define "Prep Medication Prescriptions":
+  [MedicationRequest: Cx."Prep Medication Prescriptions Choices Grouper"]
+
+/*
+  @dataElement: NACHC.H1.DE3 Patient Currently Pregnant
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient is currently pregnant?
+*/
+define "Patient Currently Pregnant":
+  [Observation: Cx."Pregnancy Conditions"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H1.DE7 Patient Diagnosed with Chlamydia
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with Chlamydia?
+*/
+define "Patient Diagnosed with Chlamydia":
+  [Observation: Cx."Chlamydia Diagnosis"] Resource
+    where Resource.value = true
+
+ /*
+  @dataElement: NACHC.H1.DE6 Patient Diagnosed with Gonorrhea
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with Gonorrhea?
+*/
+define "Patient Diagnosed with Gonorrhea":
+  [Observation: Cx."Gonorrhea Diagnosis"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H1.DE4 Patient Diagnosed with HCV
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with HCV?
+*/
+define "Patient Diagnosed with HCV":
+  [Observation: Cx."Hepatitis C Diagnosis"] Resource
+    where Resource.value = true
+
+  /*
+  @dataElement: NACHC.H1.DE5 Patient Diagnosed with Syphilis
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been diagnosed with Syphilis?
+*/
+define "Patient Diagnosed with Syphilis":
+  [Observation: Cx."Syphilis Diagnosis"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H1.DE8 Patient has used Injection Drugs
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has been using Injection Drugs?
+*/
+define "Patient has used Injection Drugs":
+  [Observation: Cx."Injection Drug Use Diagnosis"] Resource
     where Resource.value = true
 
 /*
@@ -295,93 +340,39 @@ define "Previous experience with PREP":
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE11 Sexual Activity - Past Year
-  @activity: NACHC.H1 Risk Factors
-  @description: Have you been sexually active in the past year?
-*/
-define "Sexual Activity - Past Year":
-  [Observation: Cx."Sexual Activity - Past Year"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE12 Sexual Activity - History
-  @activity: NACHC.H1 Risk Factors
-  @description: Have you ever been sexually active?
-*/
-define "Sexual Activity - History":
-  [Observation: Cx."Sexual Activity - History"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE13 Sexual Activity - Men
-  @activity: NACHC.H1 Risk Factors
-  @description: Do you have sex with men?
-*/
-define "Sexual Activity - Men":
-  [Observation: Cx."Sexual Activity - Men"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE14 Sexual Activity - Women
-  @activity: NACHC.H1 Risk Factors
-  @description: Do you have sex with women?
-*/
-define "Sexual Activity - Women":
-  [Observation: Cx."Sexual Activity - Women"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE15 Sexual Activity - Number of Partners
-  @activity: NACHC.H1 Risk Factors
-  @description: Have you had more than 1 sexual partner since last being tested for HIV?
-*/
-define "Sexual Activity - Number of Partners":
-  [Observation: Cx."Sexual Activity - Number of Partners"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE16 Sexual Activity - New Partner Past 3 Months
-  @activity: NACHC.H1 Risk Factors
-  @description: In the past 3 months, have you had sex with someone you didn’t know or had just met?
-*/
-define "Sexual Activity - New Partner Past 3 Months":
-  [Observation: Cx."Sexual Activity - New Partner Past 3 Months"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE17 Sexual Activity - Partners History
-  @activity: NACHC.H1 Risk Factors
-  @description: Do you know whether your partner has other sexual partners?
-*/
-define "Sexual Activity - Partners History":
-  [Observation: Cx."Sexual Activity - Partners History"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE18 Sexual Activity - Partners Number of Partners
-  @activity: NACHC.H1 Risk Factors
-  @description: Do you know whether your partner has had more than 1 sexual partner since their last HIV test?
-*/
-define "Sexual Activity - Partners Number of Partners":
-  [Observation: Cx."Sexual Activity - Partners Number of Partners"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H1.DE19 Sexual Activity - Partners HIV History
-  @activity: NACHC.H1 Risk Factors
-  @description: Do you know whether your partner has HIV?
-*/
-define "Sexual Activity - Partners HIV History":
-  [Observation: Cx."Sexual Activity - Partners HIV History"] Resource
-    where Resource.value = true
-
-/*
   @dataElement: NACHC.H1.DE2 Previous HIV Diagnosis
   @activity: NACHC.H1 Risk Factors
   @description: Whether the patient has previously been diagnosed with HIV?
 */
 define "Previous HIV Diagnosis":
   [Observation: Cx."HIV Diagnosis"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H1.DE1 Previous HIV Screening
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient has previously been screened for HIV?
+*/
+define "Previous HIV Screening":
+  [Observation: Cx."HIV Test"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H1.DE9 Seeking STD Treatment
+  @activity: NACHC.H1 Risk Factors
+  @description: Whether the patient is currently seeking evaluation and treatment of an STD?
+*/
+define "Seeking STD Treatment":
+  [Observation: Cx."Seeking STD Treatment"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H1.DE22 Sexual Activity - Coercion
+  @activity: NACHC.H1 Risk Factors
+  @description: Have you ever been coerced or pressured to have sex?
+*/
+define "Sexual Activity - Coercion":
+  [Observation: Cx."Sexual Activity - Coercion"] Resource
     where Resource.value = true
 
 /*
@@ -403,12 +394,12 @@ define "Sexual Activity - Exchanged for Sex":
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE22 Sexual Activity - Coercion
+  @dataElement: NACHC.H1.DE12 Sexual Activity - History
   @activity: NACHC.H1 Risk Factors
-  @description: Have you ever been coerced or pressured to have sex?
+  @description: Have you ever been sexually active?
 */
-define "Sexual Activity - Coercion":
-  [Observation: Cx."Sexual Activity - Coercion"] Resource
+define "Sexual Activity - History":
+  [Observation: Cx."Sexual Activity - History"] Resource
     where Resource.value = true
 
 /*
@@ -421,12 +412,12 @@ define "Sexual Activity - Kind of Sex - Anal":
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE24 Sexual Activity - Male - Kind of Sex - Receptive Anal
+  @dataElement: NACHC.H1.DE26 Sexual Activity - Kind of Sex - Vaginal
   @activity: NACHC.H1 Risk Factors
-  @description: If Male: In the past 3 months have you had receptive anal sex?
+  @description: In the past 3 months have you had vaginal sex?
 */
-define "Sexual Activity - Male - Kind of Sex - Receptive Anal":
-  [Observation: Cx."Sexual Activity - Male - Kind of Sex - Receptive Anal"] Resource
+define "Sexual Activity - Kind of Sex - Vaginal":
+  [Observation: Cx."Sexual Activity - Kind of Sex - Vaginal"] Resource
     where Resource.value = true
 
 /*
@@ -439,76 +430,86 @@ define "Sexual Activity - Male - Kind of Sex - Insertive Anal":
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE26 Sexual Activity - Kind of Sex - Vaginal
+  @dataElement: NACHC.H1.DE24 Sexual Activity - Male - Kind of Sex - Receptive Anal
   @activity: NACHC.H1 Risk Factors
-  @description: In the past 3 months have you had vaginal sex?
+  @description: If Male: In the past 3 months have you had receptive anal sex?
 */
-define "Sexual Activity - Kind of Sex - Vaginal":
-  [Observation: Cx."Sexual Activity - Kind of Sex - Vaginal"] Resource
+define "Sexual Activity - Male - Kind of Sex - Receptive Anal":
+  [Observation: Cx."Sexual Activity - Male - Kind of Sex - Receptive Anal"] Resource
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE3 Patient Currently Pregnant
+  @dataElement: NACHC.H1.DE13 Sexual Activity - Men
   @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient is currently pregnant?
+  @description: Do you have sex with men?
 */
-define "Patient Currently Pregnant":
-  [Observation: Cx."Pregnancy Conditions"] Resource
+define "Sexual Activity - Men":
+  [Observation: Cx."Sexual Activity - Men"] Resource
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE4 Patient Diagnosed with HCV
+  @dataElement: NACHC.H1.DE16 Sexual Activity - New Partner Past 3 Months
   @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient has been diagnosed with HCV?
+  @description: In the past 3 months, have you had sex with someone you didn’t know or had just met?
 */
-define "Patient Diagnosed with HCV":
-  [Observation: Cx."Hepatitis C Diagnosis"] Resource
+define "Sexual Activity - New Partner Past 3 Months":
+  [Observation: Cx."Sexual Activity - New Partner Past 3 Months"] Resource
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE5 Patient Diagnosed with Syphilis
+  @dataElement: NACHC.H1.DE15 Sexual Activity - Number of Partners
   @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient has been diagnosed with Syphilis?
+  @description: Have you had more than 1 sexual partner since last being tested for HIV?
 */
-define "Patient Diagnosed with Syphilis":
-  [Observation: Cx."Syphilis Diagnosis"] Resource
+define "Sexual Activity - Number of Partners":
+  [Observation: Cx."Sexual Activity - Number of Partners"] Resource
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE6 Patient Diagnosed with Gonorrhea
+  @dataElement: NACHC.H1.DE17 Sexual Activity - Partners History
   @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient has been diagnosed with Gonorrhea?
+  @description: Do you know whether your partner has other sexual partners?
 */
-define "Patient Diagnosed with Gonorrhea":
-  [Observation: Cx."Gonorrhea Diagnosis"] Resource
+define "Sexual Activity - Partners History":
+  [Observation: Cx."Sexual Activity - Partners History"] Resource
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE7 Patient Diagnosed with Chlamydia
+  @dataElement: NACHC.H1.DE19 Sexual Activity - Partners HIV History
   @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient has been diagnosed with Chlamydia?
+  @description: Do you know whether your partner has HIV?
 */
-define "Patient Diagnosed with Chlamydia":
-  [Observation: Cx."Chlamydia Diagnosis"] Resource
+define "Sexual Activity - Partners HIV History":
+  [Observation: Cx."Sexual Activity - Partners HIV History"] Resource
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE8 Patient has used Injection Drugs
+  @dataElement: NACHC.H1.DE18 Sexual Activity - Partners Number of Partners
   @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient has been using Injection Drugs?
+  @description: Do you know whether your partner has had more than 1 sexual partner since their last HIV test?
 */
-define "Patient has used Injection Drugs":
-  [Observation: Cx."Injection Drug Use Diagnosis"] Resource
+define "Sexual Activity - Partners Number of Partners":
+  [Observation: Cx."Sexual Activity - Partners Number of Partners"] Resource
     where Resource.value = true
 
 /*
-  @dataElement: NACHC.H1.DE9 Seeking STD Treatment
+  @dataElement: NACHC.H1.DE11 Sexual Activity - Past Year
   @activity: NACHC.H1 Risk Factors
-  @description: Whether the patient is currently seeking evaluation and treatment of an STD?
+  @description: Have you been sexually active in the past year?
 */
-define "Seeking STD Treatment":
-  [Observation: Cx."Seeking STD Treatment"] Resource
+define "Sexual Activity - Past Year":
+  [Observation: Cx."Sexual Activity - Past Year"] Resource
     where Resource.value = true
+
+/*
+  @dataElement: NACHC.H1.DE14 Sexual Activity - Women
+  @activity: NACHC.H1 Risk Factors
+  @description: Do you have sex with women?
+*/
+define "Sexual Activity - Women":
+  [Observation: Cx."Sexual Activity - Women"] Resource
+    where Resource.value = true
+
 /*
   @dataElement: NACHC.H2.DE1 DAST 10 Question 1
   @activity: NACHC.H2 DAST 10
@@ -516,6 +517,53 @@ define "Seeking STD Treatment":
 */
 define "DAST 10 Question 1":
   [Observation: Cx."DAST 10 Question 1 Choices"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE19 DAST 10 Question 10
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 10
+*/
+define "DAST 10 Question 10":
+  [Observation: Cx."DAST 10 Question 10 Choices"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE3 DAST 10 Question 2
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 2
+*/
+
+define "DAST 10 Question 2":
+  [Observation: Cx."DAST 10 Question 2 Choices"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE5 DAST 10 Question 3
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 3
+*/
+
+define "DAST 10 Question 3":
+  [Observation: Cx."DAST 10 Question 3 Choices"] Resource
+    where Resource.value = true
+/*
+  @dataElement: NACHC.H2.DE7 DAST 10 Question 4
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 4
+*/
+
+define "DAST 10 Question 4":
+  [Observation: Cx."DAST 10 Question 4 Choices"] Resource
+    where Resource.value = true
+
+/*
+  @dataElement: NACHC.H2.DE9 DAST 10 Question 5
+  @activity: NACHC.H2 DAST 10
+  @description: DAST 10 Question 5
+*/
+define "DAST 10 Question 5":
+  [Observation: Cx."DAST 10 Question 5 Choices"] Resource
     where Resource.value = true
 
 /*
@@ -554,47 +602,3 @@ define "DAST 10 Question 9":
   [Observation: Cx."DAST 10 Question 9 Choices"] Resource
     where Resource.value = true
 
-/*
-  @dataElement: NACHC.H2.DE19 DAST 10 Question 10
-  @activity: NACHC.H2 DAST 10
-  @description: DAST 10 Question 10
-*/
-define "DAST 10 Question 10":
-  [Observation: Cx."DAST 10 Question 10 Choices"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H2.DE3 DAST 10 Question 2
-  @activity: NACHC.H2 DAST 10
-  @description: DAST 10 Question 2
-*/
-define "DAST 10 Question 2":
-  [Observation: Cx."DAST 10 Question 2 Choices"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H2.DE5 DAST 10 Question 3
-  @activity: NACHC.H2 DAST 10
-  @description: DAST 10 Question 3
-*/
-define "DAST 10 Question 3":
-  [Observation: Cx."DAST 10 Question 3 Choices"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H2.DE7 DAST 10 Question 4
-  @activity: NACHC.H2 DAST 10
-  @description: DAST 10 Question 4
-*/
-define "DAST 10 Question 4":
-  [Observation: Cx."DAST 10 Question 4 Choices"] Resource
-    where Resource.value = true
-
-/*
-  @dataElement: NACHC.H2.DE9 DAST 10 Question 5
-  @activity: NACHC.H2 DAST 10
-  @description: DAST 10 Question 5
-*/
-define "DAST 10 Question 5":
-  [Observation: Cx."DAST 10 Question 5 Choices"] Resource
-    where Resource.value = true

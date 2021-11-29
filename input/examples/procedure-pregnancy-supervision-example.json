@@ -1,0 +1,33 @@
+{
+  "resourceType": "Procedure",
+  "id": "pregnancy-supervision-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-supervision" ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.F2.DE43",
+      "display": "Supervision of pregnancy with history of infertility, unspecified trimester"
+    }, {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "code": "O09.00",
+      "display": "Supervision of pregnancy with history of infertility, unspecified trimester"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "actor": {
+      "reference": "PractitionerRole/hiv-practitionerrole-example"
+    }
+  } ],
+  "location": {
+    "reference": "Location/hiv-location-example"
+  }
+}

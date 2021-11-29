@@ -1,0 +1,63 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "injection-drug-use",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use",
+  "name": "InjectionDrugUse",
+  "title": "Injection Drug Use",
+  "status": "draft",
+  "experimental": false,
+  "description": "Injection Drug Use",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.F1",
+        "display": "Injection Drug Use"
+      } ]
+    }
+  } ],
+  "fhirVersion": "4.0.1",
+  "mapping": [ {
+    "identity": "HIV"
+  } ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationStatement",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "MedicationStatement",
+      "path": "MedicationStatement",
+      "mustSupport": false
+    }, {
+      "id": "MedicationStatement.medication[x]",
+      "path": "MedicationStatement.medication[x]",
+      "short": "Injection Drug Use",
+      "comment": "Injection Drug Use Statments mapping",
+      "min": 1,
+      "max": "1",
+      "type": [ {
+        "code": "CodeableConcept"
+      } ],
+      "mustSupport": true,
+      "binding": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString": "Injection Drug Use Choices"
+        } ],
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de201"
+      },
+      "mapping": [ {
+        "identity": "HIV",
+        "map": "NACHC.F1.DE200"
+      } ]
+    } ]
+  }
+}

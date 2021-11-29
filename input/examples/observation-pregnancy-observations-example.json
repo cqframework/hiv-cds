@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "pregnancy-observations-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-observations" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "Pregnancy Observations",
+      "display": "Pregnancy Observations"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ],
+  "valueCodeableConcept": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.F2.DE905",
+      "display": "Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "15019-3",
+      "display": "Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid"
+    } ]
+  }
+}

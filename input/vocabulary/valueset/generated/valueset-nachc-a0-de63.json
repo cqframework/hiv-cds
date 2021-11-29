@@ -2,18 +2,18 @@
   "resourceType": "ValueSet",
   "id": "nachc-a0-de63",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de63",
-  "name": "DrugAbuse",
-  "title": "Drug Abuse",
+  "name": "DAST10Questionnaire",
+  "title": "DAST 10 Questionnaire",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Drug Abuse element",
+  "description": "Codes representing possible values for the DAST 10 Questionnaire element",
   "immutable": true,
   "compose": {
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Drug Abuse",
-        "display": "Drug Abuse"
+        "code": "DAST 10 Questionnaire",
+        "display": "DAST 10 Questionnaire"
       } ]
     } ]
   }

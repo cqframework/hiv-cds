@@ -1,0 +1,28 @@
+{
+  "resourceType": "Observation",
+  "id": "injection-findings-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-findings" ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.F1.DE13",
+      "display": "Injects drugs intramuscularly (finding)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "228387001",
+      "display": "Injects drugs intramuscularly (finding)"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ]
+}

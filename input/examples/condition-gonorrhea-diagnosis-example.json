@@ -1,0 +1,39 @@
+{
+  "resourceType": "Condition",
+  "id": "gonorrhea-diagnosis-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/gonorrhea-diagnosis" ]
+  },
+  "clinicalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code": "active"
+    } ]
+  },
+  "verificationStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code": "confirmed"
+    } ]
+  },
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.D1.DE195",
+      "display": "Gonococcal pericarditis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "90428001",
+      "display": "Gonococcal pericarditis (disorder)"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "asserter": {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  }
+}

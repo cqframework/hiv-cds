@@ -36,7 +36,7 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-b1-de1#Condition.code",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hepatitis-c-diagnosis#Condition.code",
     "text": "Hepatitis C Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de1-choices-grouper"

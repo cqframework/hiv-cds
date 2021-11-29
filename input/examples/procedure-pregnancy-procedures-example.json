@@ -1,0 +1,33 @@
+{
+  "resourceType": "Procedure",
+  "id": "pregnancy-procedures-example",
+  "meta": {
+    "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-procedures" ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.F2.DE673",
+      "display": "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
+    }, {
+      "system": "http://www.ama-assn.org/go/cpt",
+      "code": "57022",
+      "display": "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/hiv-patient-example"
+  },
+  "encounter": {
+    "reference": "Encounter/hiv-encounter-example"
+  },
+  "performer": [ {
+    "actor": {
+      "reference": "PractitionerRole/hiv-practitionerrole-example"
+    }
+  } ],
+  "location": {
+    "reference": "Location/hiv-location-example"
+  }
+}
