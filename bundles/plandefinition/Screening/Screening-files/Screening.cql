@@ -415,3 +415,89 @@ define "Patient is a Sexually Active MSM who should be Screened Every 3 Months":
   "Sexually Active MSM Patient"
   and "Patient has Received Pre Exposure Prophylaxis"
   and "Over 3 Months has Past Since Previous HIV Screening"
+
+/* Drug Abuse Screning Test (DAST-10) Questionnaire */
+// Score acquired either by tallying codes for DAST-10 questions or by the value field of DAST-10 Questionnaire or result codes
+// High Risk: >= 6
+// Normal Risk: 3 - 5
+// Low Risk: 1 - 2
+// No Risk: 0
+
+define "DAST 10 Result Score":
+  (Last(
+    (HDE."DAST 10 Questionnaire" screening
+      where screening.value is not null) notNullScreening
+      sort by start of FC.ToInterval(effective))
+  ) latestScreening
+  return latestScreening.value as integer
+
+define "All DAST 10 Questions":
+  HDE."DAST 10 Question 1"
+  union HDE."DAST 10 Question 2"
+  union HDE."DAST 10 Question 3"
+  union HDE."DAST 10 Question 4"
+  union HDE."DAST 10 Question 5"
+  union HDE."DAST 10 Question 6"
+  union HDE."DAST 10 Question 7"
+  union HDE."DAST 10 Question 8"
+  union HDE."DAST 10 Question 9"
+  union HDE."DAST 10 Question 10"
+
+define "Latest DAST 10 Questions Date":
+  (Last(
+    ("All DAST 10 Questions") questions
+    sort by start of FC.ToInterval(effective))
+  ) latestQuestion
+  return date from start of FC.ToInterval(latestQuestion.effective)
+
+define "DAST 10 Questions Score":
+  Count(
+    "All DAST 10 Questions" question
+      where start of FC.ToInterval(question.effective) same day as "Latest DAST 10 Questions Date"
+      and Coalesce(Lower(question.value as string) in { 'yes' }, question.value as boolean = true)
+  )
+
+define "Latest DAST 10 Screening Date":
+  (Last(
+    (HDE."DAST 10 Questionnaire"
+    union "All DAST 10 Questions") results
+    sort by start of FC.ToInterval(effective))
+  ) latestScreening
+  return date from start of FC.ToInterval(latestScreening.effective)
+
+define "Patient Has High Degree Of Problems Related to Drug Abuse":
+  ("DAST 10 Result Score" in "DAST 10 High Risk Score")
+  or
+  ("DAST 10 Questions Score" in "DAST 10 High Risk Score")
+
+define "Patient Has Moderate Degree Of Problems Related to Drug Abuse":
+  ("DAST 10 Result Score" in "DAST 10 Moderate Risk Score")
+  or
+  ("DAST 10 Questions Score" in "DAST 10 Moderate Risk Score")
+
+define "Patient Has Low Degree Of Problems Related to Drug Abuse":
+  ("DAST 10 Result Score" in "DAST 10 Low Risk Score")
+  or
+  ("DAST 10 Questions Score" in "DAST 10 Low Risk Score")
+
+define "Patient Has No Problems Related to Drug Abuse":
+  ("DAST 10 Result Score" in "DAST 10 No Risk Score")
+  or
+  ("DAST 10 Questions Score" is null)
+
+define "Patient Not Screened For Drug Abuse Or Screening Expired":
+  ("Latest DAST 10 Screening Date" is null)
+  or 
+  (difference in years between "Latest DAST 10 Screening Date" and Today() >= 1)
+
+define "DAST 10 High Risk Score":
+  Interval[6,10]
+
+define "DAST 10 Moderate Risk Score":
+  Interval[3,5]
+
+define "DAST 10 Low Risk Score":
+  Interval[1,2]
+
+define "DAST 10 No Risk Score":
+  Interval[0,0]

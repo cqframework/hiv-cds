@@ -361,7 +361,7 @@
       "title": "Prep Medication Prescriptions Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Prep Medication Prescriptions Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -378,7 +378,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.G2.DE2",
@@ -1563,7 +1563,7 @@
       "title": "Chlamydia Diagnosis Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Chlamydia Diagnosis Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -1578,7 +1578,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.E1.DE2",
@@ -2734,7 +2734,7 @@
       "title": "Syphilis Diagnosis Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Syphilis Diagnosis Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -2747,7 +2747,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.C1.DE2",
@@ -4290,7 +4290,7 @@
       "title": "Gonorrhea Diagnosis Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Gonorrhea Diagnosis Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -4303,7 +4303,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.D1.DE2",
@@ -5799,7 +5799,7 @@
       "title": "Hepatitis C Diagnosis Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Hepatitis C Diagnosis Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -5814,7 +5814,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.B1.DE2",
@@ -9626,7 +9626,7 @@
       "title": "Prep Dispensed Medications Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Prep Dispensed Medications Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -9643,7 +9643,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.G2.DE27",
@@ -10011,7 +10011,7 @@
       "title": "Hepatitis C Test Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Hepatitis C Test Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -10028,7 +10028,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.B2.DE2",
@@ -21111,7 +21111,7 @@
       "title": "PEP Medication Prescriptions Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the PEP Medication Prescriptions Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -21122,7 +21122,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.G1.DE6",
@@ -22426,6 +22426,49 @@
   }, {
     "resource": {
       "resourceType": "ValueSet",
+      "id": "nachc-a0-de56",
+      "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56",
+      "name": "GenderIdentityChoices",
+      "title": "Gender Identity Choices",
+      "status": "draft",
+      "experimental": false,
+      "description": "Codes representing possible values for the Gender Identity Choices element",
+      "immutable": true,
+      "compose": {
+        "include": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "concept": [ {
+            "code": "NACHC.A0.DE56",
+            "display": "Male"
+          }, {
+            "code": "NACHC.A0.DE57",
+            "display": "Female"
+          }, {
+            "code": "NACHC.A0.DE58",
+            "display": "Female-to-Male (FTM)/Transgender Male/Trans Man"
+          }, {
+            "code": "NACHC.A0.DE59",
+            "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+          }, {
+            "code": "NACHC.A0.DE60",
+            "display": "Genderqueer, neither exclusively male nor female"
+          }, {
+            "code": "NACHC.A0.DE61",
+            "display": "Additional gender category or other, please specify"
+          }, {
+            "code": "NACHC.A0.DE62",
+            "display": "Choose not to disclose"
+          } ]
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "ValueSet/nachc-a0-de56"
+    }
+  }, {
+    "resource": {
+      "resourceType": "ValueSet",
       "id": "nachc-h2-de3",
       "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de3",
       "name": "DAST10Question2",
@@ -22585,7 +22628,7 @@
       "title": "HIV Test Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the HIV Test Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -22596,7 +22639,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.A2.DE2",
@@ -24126,7 +24169,7 @@
       "title": "Syphilis Test Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Syphilis Test Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -24137,7 +24180,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.C2.DE2",
@@ -24622,7 +24665,7 @@
       "title": "PEP Dispensed Medications Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the PEP Dispensed Medications Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -24633,7 +24676,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.G1.DE144",
@@ -26107,6 +26150,46 @@
   }, {
     "resource": {
       "resourceType": "ValueSet",
+      "id": "nachc-a0-de49",
+      "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de49",
+      "name": "SexualOrientationChoices",
+      "title": "Sexual Orientation Choices",
+      "status": "draft",
+      "experimental": false,
+      "description": "Codes representing possible values for the Sexual Orientation Choices element",
+      "immutable": true,
+      "compose": {
+        "include": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "concept": [ {
+            "code": "NACHC.A0.DE49",
+            "display": "Lesbian, gay or homosexual"
+          }, {
+            "code": "NACHC.A0.DE50",
+            "display": "Straight or heterosexual"
+          }, {
+            "code": "NACHC.A0.DE51",
+            "display": "Bisexual"
+          }, {
+            "code": "NACHC.A0.DE52",
+            "display": "Something else, please describe"
+          }, {
+            "code": "NACHC.A0.DE53",
+            "display": "Don't know"
+          }, {
+            "code": "NACHC.A0.DE54",
+            "display": "Choose not to disclose"
+          } ]
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "ValueSet/nachc-a0-de49"
+    }
+  }, {
+    "resource": {
+      "resourceType": "ValueSet",
       "id": "nachc-h1-de10",
       "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de10",
       "name": "PreviousexperiencewithPREP",
@@ -26398,7 +26481,7 @@
       "title": "Gonorrhea Test Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Gonorrhea Test Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -26415,7 +26498,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.D2.DE2",
@@ -27219,7 +27302,7 @@
       "title": "Chlamydia Test Choices Grouper",
       "status": "draft",
       "experimental": false,
-      "date": "2021-11-22T11:11:33-08:00",
+      "date": "2021-11-29T14:03:58-08:00",
       "description": "Group Valueset with codes representing possible values for the Chlamydia Test Choices Grouper element",
       "immutable": true,
       "compose": {
@@ -27238,7 +27321,7 @@
         } ]
       },
       "expansion": {
-        "timestamp": "2021-11-22T11:11:33-08:00",
+        "timestamp": "2021-11-29T14:03:58-08:00",
         "contains": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "code": "NACHC.E2.DE2",
@@ -29901,18 +29984,18 @@
       "resourceType": "ValueSet",
       "id": "nachc-a0-de63",
       "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de63",
-      "name": "DrugAbuse",
-      "title": "Drug Abuse",
+      "name": "DAST10Questionnaire",
+      "title": "DAST 10 Questionnaire",
       "status": "draft",
       "experimental": false,
-      "description": "Codes representing possible values for the Drug Abuse element",
+      "description": "Codes representing possible values for the DAST 10 Questionnaire element",
       "immutable": true,
       "compose": {
         "include": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
           "concept": [ {
-            "code": "Drug Abuse",
-            "display": "Drug Abuse"
+            "code": "DAST 10 Questionnaire",
+            "display": "DAST 10 Questionnaire"
           } ]
         } ]
       }
@@ -30102,11 +30185,11 @@
       "resourceType": "ValueSet",
       "id": "nachc-a0-de64",
       "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de64",
-      "name": "DrugAbuseChoices",
-      "title": "Drug Abuse Choices",
+      "name": "DAST10QuestionnaireChoices",
+      "title": "DAST 10 Questionnaire Choices",
       "status": "draft",
       "experimental": false,
-      "description": "Codes representing possible values for the Drug Abuse Choices element",
+      "description": "Codes representing possible values for the DAST 10 Questionnaire Choices element",
       "immutable": true,
       "compose": {
         "include": [ {
