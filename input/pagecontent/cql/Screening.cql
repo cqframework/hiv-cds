@@ -425,7 +425,7 @@ define "Patient is a Sexually Active MSM who should be Screened Every 3 Months":
 
 define "DAST 10 Result Score":
   (Last(
-    (HDE."Drug Abuse" screening
+    (HDE."DAST 10 Questionnaire" screening
       where screening.value is not null) notNullScreening
       sort by start of FC.ToInterval(effective))
   ) latestScreening
@@ -459,7 +459,7 @@ define "DAST 10 Questions Score":
 
 define "Latest DAST 10 Screening Date":
   (Last(
-    (HDE."Drug Abuse"
+    (HDE."DAST 10 Questionnaire"
     union "All DAST 10 Questions") results
     sort by start of FC.ToInterval(effective))
   ) latestScreening
