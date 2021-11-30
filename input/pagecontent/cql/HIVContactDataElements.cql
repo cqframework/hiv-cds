@@ -14,7 +14,7 @@ context Patient
 /*
   @dataElement: NACHC.A0.DE63 DAST 10 Questionnaire
   @activity: NACHC.A0 Contact & Profile
-  @description: Concepts Associated with DAST 10 Questionnaire Elements
+  @description: Concepts Associated with DAST-10 Questionnaire Elements
 */
 define "DAST 10 Questionnaire":
   [Observation: Cx."DAST 10 Questionnaire Choices"]
@@ -533,7 +533,6 @@ define "DAST 10 Question 10":
   @activity: NACHC.H2 DAST 10
   @description: DAST 10 Question 2
 */
-
 define "DAST 10 Question 2":
   [Observation: Cx."DAST 10 Question 2 Choices"] Resource
     where Resource.value = true
@@ -543,7 +542,6 @@ define "DAST 10 Question 2":
   @activity: NACHC.H2 DAST 10
   @description: DAST 10 Question 3
 */
-
 define "DAST 10 Question 3":
   [Observation: Cx."DAST 10 Question 3 Choices"] Resource
     where Resource.value = true
@@ -552,7 +550,6 @@ define "DAST 10 Question 3":
   @activity: NACHC.H2 DAST 10
   @description: DAST 10 Question 4
 */
-
 define "DAST 10 Question 4":
   [Observation: Cx."DAST 10 Question 4 Choices"] Resource
     where Resource.value = true
