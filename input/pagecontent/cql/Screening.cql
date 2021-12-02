@@ -96,6 +96,8 @@ define "Recommendation":
   else if "Patient is High Risk in Third Trimester of Pregnancy" then 'HIV Screening Recommended due to patient being at high risk of HIV during third trimester of pregnancy.'
   else if "Patient is Seeking Treatment for an STD" then 'HIV Screening Recommended now due to patient interest.'
   else if not "Patient has had an HIV Screening" then 'HIV Screening Recommended once due to patient never having been tested.'
+  else if "Patient Not Screened For Drug Abuse Or Screening Expired" then 'DAST-10 Screening Recommended due to expired (>= 1 year) or absent screening results'
+  else if "Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse" then 'Follow up DAST-10 Screening Recommended due to most recent screening indicating low to moderate risk of problems related to drug abuse.'
   else 'HIV Screening is not currently Recommended for this patient.'
 
 /* Rational based on Recommendation Option (References to CDC Recommendations) */
@@ -106,6 +108,8 @@ define "Rationale":
   else if "Patient is High Risk in Third Trimester of Pregnancy" then 'A second HIV test during the third trimester for women in settings with elevated HIV incidence (>17 cases per 100,000 person-years) is cost-effective and might result in substantial reductions in mother-to-child HIV transmission.'
   else if "Patient is Seeking Treatment for an STD" then 'All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.'
   else if not "Patient has had an HIV Screening" then 'CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.'
+  else if "Patient Not Screened For Drug Abuse Or Screening Expired" then 'CDC indicates that drug abuse is correlated with high risk sexual behaviors which puts individuals at greater risk of contracting HIV'
+  else if "Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse" then 'DAST-10 screening results with low to moderate indicators for drug abuse should continue to be monitored to treat and prevent drug abuse which can lead to high risk sexual behaviors and the contraction of HIV'
   else 'Patients should be informed orally or in writing that HIV testing will be performed unless they decline (opt-out screening). Oral or written information should include an explanation of HIV infection and the meanings of positive and negative test results, and the patient should be offered an opportunity to ask questions and to decline testing.
    With such notification, consent for HIV screening should be incorporated into the patients general informed consent for medical care on the same basis as are other screening or diagnostic tests; a separate consent form for HIV testing is not recommended.'
 
@@ -116,6 +120,8 @@ define "Indicator Status":
   else if "Patient is High Risk in Third Trimester of Pregnancy" then "Warning"
   else if "Patient is Seeking Treatment for an STD" then "Info"
   else if not "Patient has had an HIV Screening" then "Warning"
+  else if "Patient Not Screened For Drug Abuse Or Screening Expired" then "Warning"
+  else if "Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse" then "Warning"
   else "Info"
 
 define "Exclusion Reason":
@@ -203,6 +209,32 @@ define "Patient is Male":
 define "Patient is Female":
   if Patient.gender = 'female' then true else false
 
+define "Patient Gender Identity":
+  (singleton from HDE."Gender Identity") GenderIdentityExtension
+  return GenderIdentityExtension.value as CodeableConcept
+
+define "Patient Sexual Orientation":
+  (singleton from HDE."Sexual Orientation") SexualOrientationExtension
+  return SexualOrientationExtension.value as CodeableConcept
+
+define "Unknown Gender Identity":
+  HDE."Gender Identity" is null
+
+define "Unknown Sexual Orientation":
+  HDE."Sexual Orientation" is null
+
+define "Patient is Transgender":
+  (
+    "Patient Gender Identity" GenderIdentity
+    where (singleton from GenderIdentity.coding.display) in { 'Female-to-Male (FTM)/Transgender Male/Trans Man', 'Male-to-Female (MTF)/Transgender Female/Trans Woman' }
+  ) is not null
+
+define "Patient is Gay or Bisexual":
+  (
+    "Patient Sexual Orientation" SexualOrientation
+    where (singleton from SexualOrientation.coding.display) in { 'Lesbian, gay or homosexual', 'Bisexual' }
+  ) is not null
+
 define "Patient is Pregnant":
   exists(
     (HC.QualifiedConditions(HDE."Pregnancy Conditions")) Pregnancy
@@ -210,22 +242,27 @@ define "Patient is Pregnant":
         such that FC.ToPrevalenceInterval(Pregnancy) overlaps PatientEncounter.period
   )
 
-define "Sexually Active MSM Patient":
-  if "Patient is Male" then
-    (
-      exists(
-        (HC.QualifiedObservations(HDE."Sexual Activity - Men")) MSMObserved
-          with "Patient Encounter" PatientEncounter
-            such that FC.ToInterval(MSMObserved.effective) overlaps PatientEncounter.period
-      )
-    )
-  else false
+define "Patient is Not Sexually Active":
+  exists (
+    (HC.QualifiedObservations(HDE."Sexual Activity - Men")) SexualActivityMen
+      with (HC.QualifiedObservations(HDE."Sexual Activity - Men")) SexualActivityWomen
+        such that Coalesce(SexualActivityMen.value as string in { 'no' }, SexualActivityMen.value as boolean = false)
+        and Coalesce(SexualActivityWomen.value as string in { 'no' }, SexualActivityWomen.value as boolean = false)
+  )
 
 
 /* Determine Patient's Risk Level (High Risk, Normal Risk, None, etc) */
 // Predominantly based off elements built from the risk-factors questionnaire
-// RISKS: STIs, Injection Drug Use, Sex partner has HIV, Sex Exchanged for Drugs/Money, More than 1 Partner since previous screening (for themselves or their partners)
+// RISKS: STIs, Injection Drug Use, Sex partner has HIV, Sex Exchanged for Drugs/Money, More than 1 Partner since previous screening (for themselves or their partners), Drug abuse
 
+/* 1. Recommend Screening 3 months (High Risk - Implemented except DAST-10)
+    2. Recommend Screening Annually (Moderate Risk - SOGI & Risk Factors)
+    3. Recommend Screening Dont Order (Low/No Risk)
+    4. Recommend Screening Custom Periods (3 months based on specific risk factor -- sexually active MSM w/ prep)
+      // MSM / Pregnancy / CDC Recommendation (Already Implemented)
+*/
+
+/* HIGH RISK */
 // High Risk -- Other STIs
 define "Active Diagnosis of HCV During Patient Visit":
   (
@@ -315,6 +352,10 @@ define "Patient is at High Risk Due to Injection Drug Use":
       such that Coalesce(FC.ToInterval(InjectionDrugUse.performed), FC.ToInterval(InjectionDrugUse.effective), FC.ToPrevalenceInterval(InjectionDrugUse)) overlaps PatientEncounter.period
   ) is not null
 
+//High Risk -- Drug Abuse
+define "Patient is at High Risk Due to Drug Abuse":
+  "Patient Has High Degree Of Problems Related To Drug Abuse"
+
 // High Risk -- Partner with HIV
 define "Patient is at High Risk Due to Sexual Partner having HIV":
   exists(
@@ -351,9 +392,54 @@ define "Patient is at High Risk Due to Multiple Sex Partners since last screenin
 define "Patient is at High Risk for HIV":
   "Patient is at High Risk Due to a STD"
   or "Patient is at High Risk Due to Injection Drug Use"
+  or "Patient is at High Risk Due to Drug Abuse"
   or "Patient is at High Risk Due to Sexual Partner having HIV"
   or "Patient is at High Risk Due to exchanging sex for money and/or drugs"
   or "Patient is at High Risk Due to Multiple Sex Partners since last screening"
+
+
+/* MEDIUM RISK */
+//Sexually active MSM, Transgender patient sexually active with men, Gay and bisexual men unless documented not sexually active
+
+//Medium Risk -- Any sexually active MSM
+define "Sexually Active MSM Patient":
+  if "Patient is Male" then
+    (
+      exists(
+        (HC.QualifiedObservations(HDE."Sexual Activity - Men")) MSMObserved
+          with "Patient Encounter" PatientEncounter
+            such that FC.ToInterval(MSMObserved.effective) overlaps PatientEncounter.period
+      )
+    )
+  else false
+
+//Medium Risk -- Transgender patients sexually active with men
+define "Transgender Patient Sexually Active With Men":
+  if "Patient is Transgender" then
+    (
+      exists(
+        (HC.QualifiedObservations(HDE."Sexual Activity - Men")) MSMObserved
+          with "Patient Encounter" PatientEncounter
+            such that FC.ToInterval(MSMObserved.effective) overlaps PatientEncounter.period
+      )
+    )
+  else false
+
+//Medium Risk -- All gay or bisexual men unless documented not sexually active
+define "Male Gay or Bisexual Patient Not Documented Sexually Inactive":
+  "Patient is Male" and "Patient is Gay or Bisexual" and not "Patient is Not Sexually Active"
+
+define "Patient is at Medium Risk for HIV":
+  "Sexually Active MSM Patient"
+  or "Transgender Patient Sexually Active With Men"
+  or "Male Gay or Bisexual Patient Not Documented Sexually Inactive"
+
+
+/* LOW RISK / NO RISK */
+//Not sexually active
+
+define "Patient is at Low Risk for HIV":
+  "Patient is Not Sexually Active"
 
 
 /* Women & Men Workflow */
@@ -416,6 +502,7 @@ define "Patient is a Sexually Active MSM who should be Screened Every 3 Months":
   and "Patient has Received Pre Exposure Prophylaxis"
   and "Over 3 Months has Past Since Previous HIV Screening"
 
+
 /* Drug Abuse Screning Test (DAST-10) Questionnaire */
 // Score acquired either by tallying codes for DAST-10 questions or by the value field of DAST-10 Questionnaire or result codes
 // High Risk: >= 6
@@ -465,22 +552,27 @@ define "Latest DAST 10 Screening Date":
   ) latestScreening
   return date from start of FC.ToInterval(latestScreening.effective)
 
-define "Patient Has High Degree Of Problems Related to Drug Abuse":
+define "Patient Has High Degree Of Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 High Risk Score")
   or
   ("DAST 10 Questions Score" in "DAST 10 High Risk Score")
 
-define "Patient Has Moderate Degree Of Problems Related to Drug Abuse":
+define "Patient Has Moderate Degree Of Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 Moderate Risk Score")
   or
   ("DAST 10 Questions Score" in "DAST 10 Moderate Risk Score")
 
-define "Patient Has Low Degree Of Problems Related to Drug Abuse":
+define "Patient Has Low Degree Of Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 Low Risk Score")
   or
   ("DAST 10 Questions Score" in "DAST 10 Low Risk Score")
 
-define "Patient Has No Problems Related to Drug Abuse":
+define "Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse":
+  "Patient Has Low Degree Of Problems Related To Drug Abuse"
+  or
+  "Patient Has Moderate Degree Of Problems Related To Drug Abuse"
+
+define "Patient Has No Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 No Risk Score")
   or
   ("DAST 10 Questions Score" is null)
