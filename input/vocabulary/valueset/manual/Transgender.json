@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Transgender",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/Transgender",
+  "name": "Transgender",
+  "title": "Transgender",
+  "status": "active",
+  "experimental": false,
+  "description": "Codes representing possible values for Identifying Transgender Gender Identity.",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+        "version": "1.0.0",
+        "concept": [
+          {
+            "code": "NACHC.A0.DE58",
+            "display": "Female-to-Male (FTM)/Transgender Male/Trans Man"
+          },
+          {
+            "code": "NACHC.A0.DE59",
+            "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "407377005",
+            "display": "Female-to-Male (FTM)/Transgender Male/Trans Man"
+          },
+          {
+            "code": "407376001",
+            "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Syphilis Test",
+        "code": "NACHC.C2.DE1",
         "display": "Syphilis Test"
       } ]
     } ]

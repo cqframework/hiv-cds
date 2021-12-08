@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "GayOrBisexual",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/GayOrBisexual",
+  "name": "GayOrBisexual",
+  "title": "Gay Or Bisexual",
+  "status": "active",
+  "experimental": false,
+  "description": "Codes representing possible values for Identifying Gay or Bisexual Sexual Orientation.",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+        "version": "1.0.0",
+        "concept": [
+          {
+            "code": "NACHC.A0.DE49",
+            "display": "Lesbian, gay or homosexual"
+          },
+          {
+            "code": "NACHC.A0.DE51",
+            "display": "Bisexual"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "38628009",
+            "display": "Lesbian, gay or homosexual"
+          },
+          {
+            "code": "42035005",
+            "display": "Bisexual"
+          }
+        ]
+      }
+    ]
+  }
+}

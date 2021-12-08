@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Drug Rehabilitation",
+        "code": "NACHC.F1.DE1",
         "display": "Drug Rehabilitation"
       } ]
     } ]

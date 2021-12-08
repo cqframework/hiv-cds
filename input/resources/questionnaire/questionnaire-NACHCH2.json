@@ -19,7 +19,7 @@
   "title": "NACHC.H2 DAST 10",
   "status": "active",
   "experimental": false,
-  "description": "TODO: description goes here",
+  "description": "DAST 10 Questionnaire",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",

@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Prep Medication Prescriptions",
+        "code": "NACHC.G2.DE1",
         "display": "Prep Medication Prescriptions"
       } ]
     } ]

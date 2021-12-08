@@ -8,7 +8,7 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "DAST 10 Question 1",
+      "code": "NACHC.H2.DE1",
       "display": "DAST 10 Question 1"
     } ]
   },

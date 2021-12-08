@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "DAST 10 Question 8",
+        "code": "NACHC.H2.DE15",
         "display": "DAST 10 Question 8"
       } ]
     } ]

@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Chlamydia Diagnosis",
+        "code": "NACHC.E1.DE1",
         "display": "Chlamydia Diagnosis"
       } ]
     } ]

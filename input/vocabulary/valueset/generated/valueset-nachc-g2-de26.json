@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Prep Dispensed Medications",
+        "code": "NACHC.G2.DE26",
         "display": "Prep Dispensed Medications"
       } ]
     } ]

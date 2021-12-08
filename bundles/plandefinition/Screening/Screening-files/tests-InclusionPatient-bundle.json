@@ -7,7 +7,7 @@
       "resourceType": "Encounter",
       "id": "InclusionPatient-encounter-1",
       "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de1" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter" ]
       },
       "status": "in-progress",
       "class": {
@@ -18,8 +18,12 @@
       "type": [ {
         "coding": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Patient Encounter-99205",
-          "display": "99205"
+          "code": "NACHC.A0.DE2",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+        }, {
+          "system": "http://www.ama-assn.org/go/cpt",
+          "code": "99202",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
         } ]
       } ],
       "subject": {
@@ -39,8 +43,41 @@
       "resourceType": "Patient",
       "id": "InclusionPatient",
       "meta": {
-        "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient" ]
       },
+      "extension": [ {
+        "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexualorientation",
+        "extension": [ {
+          "url": "Sexual Orientation",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+              "code": "NACHC.A0.DE50",
+              "display": "Straight or heterosexual"
+            }, {
+              "system": "http://snomed.info/sct",
+              "code": "20430005",
+              "display": "Straight or heterosexual"
+            } ]
+          }
+        } ]
+      }, {
+        "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/genderidentity",
+        "extension": [ {
+          "url": "Gender Identity",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+              "code": "NACHC.A0.DE56",
+              "display": "Male"
+            }, {
+              "system": "http://snomed.info/sct",
+              "code": "446151000124109",
+              "display": "Male"
+            } ]
+          }
+        } ]
+      } ],
       "identifier": [ {
         "use": "usual",
         "type": {
@@ -146,6 +183,9 @@
         "period": {
           "start": "2012"
         }
+      } ],
+      "generalPractitioner": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
       } ],
       "managingOrganization": {
         "reference": "Organization/example"

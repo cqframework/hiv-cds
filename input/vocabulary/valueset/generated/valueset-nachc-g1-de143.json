@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "PEP Dispensed Medications",
+        "code": "NACHC.G1.DE143",
         "display": "PEP Dispensed Medications"
       } ]
     } ]

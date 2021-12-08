@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C Procedures",
+        "code": "NACHC.B2.DE112",
         "display": "Hepatitis C Procedures"
       } ]
     } ]

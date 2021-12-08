@@ -8,7 +8,7 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "Chlamydia Test",
+      "code": "NACHC.E2.DE1",
       "display": "Chlamydia Test"
     } ]
   },

@@ -4,42 +4,10 @@
   "type": "transaction",
   "entry": [ {
     "resource": {
-      "resourceType": "Encounter",
-      "id": "HighRiskPregnantPatient-encounter-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-f2-de38" ]
-      },
-      "status": "in-progress",
-      "class": {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "code": "AMB",
-        "display": "ambulatory"
-      },
-      "type": [ {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Third Trimester Encounters-Z34.83",
-          "display": "Z34.83"
-        } ]
-      } ],
-      "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
-      },
-      "period": {
-        "start": "2021-07-30T10:00:00-07:00",
-        "end": "2021-07-30T11:20:00-07:00"
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Encounter/HighRiskPregnantPatient-encounter-1"
-    }
-  }, {
-    "resource": {
       "resourceType": "Condition",
       "id": "HighRiskPregnantPatient-condition-pregnant-1",
       "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a1-de1" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-conditions" ]
       },
       "clinicalStatus": {
         "coding": [ {
@@ -51,7 +19,7 @@
       },
       "verificationStatus": {
         "coding": [ {
-          "system": "http://terminology.hl7.org/ValueSet/condition-ver-status",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
           "version": "0.5.0",
           "code": "confirmed",
           "display": "Confirmed"
@@ -68,8 +36,12 @@
       "code": {
         "coding": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Pregnancy Conditions-Z33.3",
-          "display": "Z33.3"
+          "code": "NACHC.F2.DE1132",
+          "display": "Obstetrical tetanus"
+        }, {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "A34",
+          "display": "Obstetrical tetanus"
         } ]
       },
       "subject": {
@@ -83,11 +55,143 @@
     }
   }, {
     "resource": {
+      "resourceType": "Encounter",
+      "id": "HighRiskPregnantPatient-encounter-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/third-trimester-encounters" ]
+      },
+      "status": "in-progress",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "AMB",
+        "display": "ambulatory"
+      },
+      "type": [ {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.F2.DE39",
+          "display": "Encounter for supervision of normal first pregnancy, third trimester"
+        }, {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "Z34.03",
+          "display": "Encounter for supervision of normal first pregnancy, third trimester"
+        } ]
+      } ],
+      "subject": {
+        "reference": "Patient/HighRiskPregnantPatient"
+      },
+      "period": {
+        "start": "2021-07-30T10:00:00-07:00",
+        "end": "2021-07-30T11:20:00-07:00"
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Encounter/HighRiskPregnantPatient-encounter-1"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "HighRiskPregnantPatient-observation-multiple-2",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-number-of-partners" ]
+      },
+      "status": "preliminary",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H1.DE15",
+          "display": "Sexual Activity - Number of Partners"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/HighRiskPregnantPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/HighRiskSTDPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-07-30T10:30:00-07:00",
+      "valueBoolean": true
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/HighRiskPregnantPatient-observation-multiple-2"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "HighRiskPregnantPatient-observation-screening-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE1",
+          "display": "HIV Test"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/HighRiskPregnantPatient"
+      },
+      "effectiveDateTime": "2021-02-08T10:20:00-07:00",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE215",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        }, {
+          "system": "http://loinc.org",
+          "code": "2898779",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/HighRiskPregnantPatient-observation-screening-1"
+    }
+  }, {
+    "resource": {
       "resourceType": "Patient",
       "id": "HighRiskPregnantPatient",
       "meta": {
-        "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient" ]
       },
+      "extension": [ {
+        "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexualorientation",
+        "extension": [ {
+          "url": "Sexual Orientation",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+              "code": "NACHC.A0.DE50",
+              "display": "Straight or heterosexual"
+            }, {
+              "system": "http://snomed.info/sct",
+              "code": "20430005",
+              "display": "Straight or heterosexual"
+            } ]
+          }
+        } ]
+      }, {
+        "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/genderidentity",
+        "extension": [ {
+          "url": "Gender Identity",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+              "code": "NACHC.A0.DE57",
+              "display": "Female"
+            }, {
+              "system": "http://snomed.info/sct",
+              "code": "446141000124107",
+              "display": "Female"
+            } ]
+          }
+        } ]
+      } ],
       "identifier": [ {
         "use": "usual",
         "type": {
@@ -113,70 +217,14 @@
       } ],
       "gender": "female",
       "birthDate": "1989-01-12",
-      "deceasedBoolean": false
+      "deceasedBoolean": false,
+      "generalPractitioner": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ]
     },
     "request": {
       "method": "PUT",
       "url": "Patient/HighRiskPregnantPatient"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "HighRiskPregnantPatient-observation-multiple-2",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de15" ]
-      },
-      "status": "preliminary",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Whether the patient has had more than 1 partner since previous HIV test",
-          "display": "Whether the patient has had more than 1 partner since previous HIV test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/HighRiskSTDPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-07-30T10:30:00-07:00",
-      "valueBoolean": true
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/HighRiskPregnantPatient-observation-multiple-2"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "HighRiskPregnantPatient-observation-screening-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a2-de1" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "HIV Test",
-          "display": "HIV Test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
-      },
-      "effectiveDateTime": "2021-02-08T10:20:00-07:00",
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "HIV Test-41145-4",
-          "display": "41145-4"
-        } ]
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/HighRiskPregnantPatient-observation-screening-1"
     }
   } ]
 }

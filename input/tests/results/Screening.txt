@@ -1,82 +1,133 @@
 Running tests.
-Data path: D:\src\code\cqframework\hiv-cds\input\tests\PlanDefinition\Screening
-Terminology path: D:\src\code\cqframework\hiv-cds\input\vocabulary\valueset
-Test HighRiskSTDPatient
-Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
-Patient=org.hl7.fhir.r4.model.Patient@1548dc37
+Data path: C:\src\code\cqframework\hiv-cds\input\tests\plandefinition\Screening
+Terminology path: C:\src\code\cqframework\hiv-cds\input\vocabulary\valueset
+Patient=Patient(id=ExclusionPatient)
 Info=info
 Warning=warning
 Critical=critical
 Errors=null
-Patient Name=John Jones
-Patient Encounter=org.hl7.fhir.r4.model.Encounter@4ef12d7e
+Patient Name=Sally Merryweather
+Patient Encounter=Encounter(id=ExclusionPatient-encounter-1)
 Patient is between 13 and 64 years old=true
-Patient is Seeking Treatment for an STD=true
+Patient is Seeking Treatment for an STD=false
 Meets Inclusion Criteria=true
-Active Diagnosis of HIV During Patient Visit=null
-Meets Exclusion Criteria=false
-In Population=true
-Patient is Male=true
-Sexually Active MSM Patient=false
-Patient has Received Pre Exposure Prophylaxis=false
+Active Diagnosis of HIV During Patient Visit=Condition(id=ExclusionPatient-condition-hiv-1)
+Meets Exclusion Criteria=true
+In Population=false
 HIV Screening Test=[]
+Patient has had an HIV Screening=false
+Never Tested Condition=false
+Never Tested Recommendation=HIV Screening Recommended due to patient never having been tested.
+Never Tested Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Never Tested Indicator=info
+Patient is Male=false
+Sexually Active MSM Patient=false
+Patient is a Sexually Active MSM without HIV=false
+Patient has Received Pre Exposure Prophylaxis=false
 Previous HIV Screening Test=null
 Over 3 Months has Past Since Previous HIV Screening=null
 Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
-Patient is a Sexually Active MSM without HIV=false
 Patient is at High Risk Due to Multiple Sex Partners since last screening=false
 Patient is a Sexually Active MSM with Multiple Sex Partners=false
 Over a Year has Past Since Previous HIV Screening=null
 Patient is a Sexually Active MSM who should be Screened Annually=false
+MSM Condition=false
+Amount of Days Since Previous HIV Screening=null
+MSM Recommendation=null
+MSM Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
+MSM Indicator=warning
 Patient is at First Prenatal Visit=false
-Active Diagnosis of HCV During Patient Visit=true
+Active Diagnosis of HCV During Patient Visit=false
 Active Diagnosis of Syphilis During Patient Visit=false
 Active Diagnosis of Gonorrhea During Patient Visit=false
 Active Diagnosis of Chlamydia During Patient Visit=false
-Patient is at High Risk Due to a STD=true
+Patient is at High Risk Due to a STD=false
 Patient is at High Risk Due to Injection Drug Use=false
+DAST 10 Result Score=null
+DAST 10 High Risk Score=Interval[6, 10]
+All DAST 10 Questions=[]
+Latest DAST 10 Questions Date=null
+DAST 10 Questions Score=0
+Patient Has High Degree Of Problems Related To Drug Abuse=null
+Patient is at High Risk Due to Drug Abuse=null
 Patient is at High Risk Due to Sexual Partner having HIV=false
 Patient is at High Risk Due to exchanging sex for money and/or drugs=false
-Patient is at High Risk for HIV=true
+Patient is at High Risk for HIV=null
 Patient is in Third Trimester of Pregnancy=false
 Patient is High Risk in Third Trimester of Pregnancy=false
-Patient has had an HIV Screening=false
-Recommendation=HIV Screening Recommended now due to patient interest.
-Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
-Indicator Status=info
-Exclusion Reason=
-Amount of Days Since Previous HIV Screening=null
-Patient is Female=false
+Pregnant Condition=false
+Pregnant Recommendation=null
+Pregnant Rationale=
+Pregnant Indicator=info
+Seeking STD Treatment Condition=false
+Seeking STD Treatment Recommendation=null
+Seeking STD Treatment Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
+Seeking STD Treatment Indicator=info
+Risk Level Condition=false
+Patient Gender Identity=[CodeableConcept]
+Patient is Transgender=false
+Transgender Patient Sexually Active With Men=false
+Patient Sexual Orientation=[CodeableConcept]
+Patient is Gay or Bisexual=true
+Patient is not Sexually Active=false
+Male, Gay, or Bisexual Patient Not Documented Sexually Inactive=false
+Patient is at Moderate Risk for HIV=false
+Patient is at No Risk for HIV=false
+Patient is at Low Risk for HIV=null
+Risk Level Recommendation=null
+Risk Level Rationale=In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.
+Risk Level Indicator Status=info
+Exclusion Reason=Patient was excluded from HIV Screening due to the patient already having been diagnosed with HIV.
+Patient is Female=true
 Patient is Pregnant=false
-elapsed: 28.1 seconds
+Latest DAST 10 Screening Date=null
+DAST 10 Moderate Risk Score=Interval[3, 5]
+Patient Has Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 Low Risk Score=Interval[1, 2]
+Patient Has Low Degree Of Problems Related To Drug Abuse=null
+Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 No Risk Score=Interval[0, 0]
+Patient Has No Problems Related To Drug Abuse=null
+Patient Not Screened For Drug Abuse Or Screening Expired=true
 
-Test HighRiskIDUPatient
-Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
-Patient=org.hl7.fhir.r4.model.Patient@4602fa2f
+Patient=Patient(id=HighRiskIDUPatient)
 Info=info
 Warning=warning
 Critical=critical
 Errors=null
 Patient Name=Ashley Madelyn
-Patient Encounter=org.hl7.fhir.r4.model.Encounter@78b3f926
+Patient Encounter=Encounter(id=HighRiskIDUPatient-encounter-1)
 Patient is between 13 and 64 years old=true
 Patient is Seeking Treatment for an STD=false
 Meets Inclusion Criteria=true
 Active Diagnosis of HIV During Patient Visit=null
 Meets Exclusion Criteria=false
 In Population=true
+HIV Screening Test=[Observation(id=HighRiskIDUPatient-observation-screening-1)]
+Patient has had an HIV Screening=true
+Never Tested Condition=false
+Never Tested Recommendation=HIV Screening Recommended due to patient never having been tested.
+Never Tested Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Never Tested Indicator=info
 Patient is Male=false
 Sexually Active MSM Patient=false
-Patient has Received Pre Exposure Prophylaxis=false
-HIV Screening Test=[]
-Previous HIV Screening Test=null
-Over 3 Months has Past Since Previous HIV Screening=null
-Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
 Patient is a Sexually Active MSM without HIV=false
+Patient has Received Pre Exposure Prophylaxis=false
+Previous HIV Screening Test=Tuple {
+	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@31af3b11
+	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@745a0f92
+}
+Over 3 Months has Past Since Previous HIV Screening=true
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
 Patient is at High Risk Due to Multiple Sex Partners since last screening=false
 Patient is a Sexually Active MSM with Multiple Sex Partners=false
-Over a Year has Past Since Previous HIV Screening=null
+Over a Year has Past Since Previous HIV Screening=false
 Patient is a Sexually Active MSM who should be Screened Annually=false
+MSM Condition=false
+Amount of Days Since Previous HIV Screening=121
+MSM Recommendation=HIV Screening Not Recommended at this time. It has been 121 days since last HIV Screening.
+MSM Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
+MSM Indicator=warning
 Patient is at First Prenatal Visit=false
 Active Diagnosis of HCV During Patient Visit=false
 Active Diagnosis of Syphilis During Patient Visit=false
@@ -84,100 +135,91 @@ Active Diagnosis of Gonorrhea During Patient Visit=false
 Active Diagnosis of Chlamydia During Patient Visit=false
 Patient is at High Risk Due to a STD=false
 Patient is at High Risk Due to Injection Drug Use=true
+DAST 10 Result Score=null
+DAST 10 High Risk Score=Interval[6, 10]
+All DAST 10 Questions=[]
+Latest DAST 10 Questions Date=null
+DAST 10 Questions Score=0
+Patient Has High Degree Of Problems Related To Drug Abuse=null
+Patient is at High Risk Due to Drug Abuse=null
 Patient is at High Risk Due to Sexual Partner having HIV=false
 Patient is at High Risk Due to exchanging sex for money and/or drugs=false
 Patient is at High Risk for HIV=true
 Patient is in Third Trimester of Pregnancy=false
 Patient is High Risk in Third Trimester of Pregnancy=false
-Patient has had an HIV Screening=false
-Recommendation=HIV Screening Recommended once due to patient never having been tested.
-Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
-Indicator Status=warning
+Pregnant Condition=false
+Pregnant Recommendation=HIV Screening Not Recommended at this time. It has been 121 days since last HIV Screening.
+Pregnant Rationale=
+Pregnant Indicator=info
+Seeking STD Treatment Condition=false
+Seeking STD Treatment Recommendation=HIV Screening Recommended now due to patient interest.
+Seeking STD Treatment Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
+Seeking STD Treatment Indicator=info
+Risk Level Condition=true
+Patient Gender Identity=[CodeableConcept]
+Patient is Transgender=false
+Transgender Patient Sexually Active With Men=false
+Patient Sexual Orientation=[CodeableConcept]
+Patient is Gay or Bisexual=true
+Patient is not Sexually Active=false
+Male, Gay, or Bisexual Patient Not Documented Sexually Inactive=false
+Patient is at Moderate Risk for HIV=false
+Patient is at No Risk for HIV=false
+Patient is at Low Risk for HIV=false
+Risk Level Recommendation=HIV Screening Recommended due to patient being at High Risk for HIV and over three months have passed since previous screening.
+Risk Level Rationale=Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.
+Risk Level Indicator Status=critical
 Exclusion Reason=
-Amount of Days Since Previous HIV Screening=null
 Patient is Female=true
 Patient is Pregnant=false
-elapsed: 28.252 seconds
+Latest DAST 10 Screening Date=null
+DAST 10 Moderate Risk Score=Interval[3, 5]
+Patient Has Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 Low Risk Score=Interval[1, 2]
+Patient Has Low Degree Of Problems Related To Drug Abuse=null
+Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 No Risk Score=Interval[0, 0]
+Patient Has No Problems Related To Drug Abuse=null
+Patient Not Screened For Drug Abuse Or Screening Expired=true
 
-Test ExclusionPatient
-Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
-Patient=org.hl7.fhir.r4.model.Patient@6a4bd9e4
-Info=info
-Warning=warning
-Critical=critical
-Errors=null
-Patient Name=Sally Merryweather
-Patient Encounter=org.hl7.fhir.r4.model.Encounter@1ec690bd
-Patient is between 13 and 64 years old=true
-Patient is Seeking Treatment for an STD=false
-Meets Inclusion Criteria=true
-Active Diagnosis of HIV During Patient Visit=org.hl7.fhir.r4.model.Condition@5feceb2f
-Meets Exclusion Criteria=true
-In Population=false
-Patient is Male=false
-Sexually Active MSM Patient=false
-Patient has Received Pre Exposure Prophylaxis=false
-HIV Screening Test=[]
-Previous HIV Screening Test=null
-Over 3 Months has Past Since Previous HIV Screening=null
-Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
-Patient is a Sexually Active MSM without HIV=false
-Patient is at High Risk Due to Multiple Sex Partners since last screening=false
-Patient is a Sexually Active MSM with Multiple Sex Partners=false
-Over a Year has Past Since Previous HIV Screening=null
-Patient is a Sexually Active MSM who should be Screened Annually=false
-Patient is at First Prenatal Visit=false
-Active Diagnosis of HCV During Patient Visit=false
-Active Diagnosis of Syphilis During Patient Visit=false
-Active Diagnosis of Gonorrhea During Patient Visit=false
-Active Diagnosis of Chlamydia During Patient Visit=false
-Patient is at High Risk Due to a STD=false
-Patient is at High Risk Due to Injection Drug Use=false
-Patient is at High Risk Due to Sexual Partner having HIV=false
-Patient is at High Risk Due to exchanging sex for money and/or drugs=false
-Patient is at High Risk for HIV=false
-Patient is in Third Trimester of Pregnancy=false
-Patient is High Risk in Third Trimester of Pregnancy=false
-Patient has had an HIV Screening=false
-Recommendation=HIV Screening Recommended once due to patient never having been tested.
-Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
-Indicator Status=warning
-Exclusion Reason=Patient was excluded from HIV Screening due to the patient already having been diagnosed with HIV.
-Amount of Days Since Previous HIV Screening=null
-Patient is Female=true
-Patient is Pregnant=false
-elapsed: 28.547 seconds
-
-Test HighRiskPregnantPatient
-Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
-Patient=org.hl7.fhir.r4.model.Patient@14c8dfb9
+Patient=Patient(id=HighRiskPregnantPatient)
 Info=info
 Warning=warning
 Critical=critical
 Errors=null
 Patient Name=Beatrix Coraline
-Patient Encounter=org.hl7.fhir.r4.model.Encounter@5135b8a3
+Patient Encounter=Encounter(id=HighRiskPregnantPatient-encounter-1)
 Patient is between 13 and 64 years old=true
 Patient is Seeking Treatment for an STD=false
 Meets Inclusion Criteria=true
 Active Diagnosis of HIV During Patient Visit=null
 Meets Exclusion Criteria=false
 In Population=true
+HIV Screening Test=[Observation(id=HighRiskPregnantPatient-observation-screening-1)]
+Patient has had an HIV Screening=true
+Never Tested Condition=false
+Never Tested Recommendation=HIV Screening Recommended due to patient never having been tested.
+Never Tested Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Never Tested Indicator=info
 Patient is Male=false
 Sexually Active MSM Patient=false
+Patient is a Sexually Active MSM without HIV=false
 Patient has Received Pre Exposure Prophylaxis=false
-HIV Screening Test=[org.hl7.fhir.r4.model.Observation@53e6b541]
 Previous HIV Screening Test=Tuple {
-	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@53e6b541
-	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@5135b8a3
+	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@3ac41a86
+	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@11080a77
 }
 Over 3 Months has Past Since Previous HIV Screening=true
 Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
-Patient is a Sexually Active MSM without HIV=false
 Patient is at High Risk Due to Multiple Sex Partners since last screening=true
 Patient is a Sexually Active MSM with Multiple Sex Partners=false
 Over a Year has Past Since Previous HIV Screening=false
 Patient is a Sexually Active MSM who should be Screened Annually=false
+MSM Condition=false
+Amount of Days Since Previous HIV Screening=172
+MSM Recommendation=HIV Screening Not Recommended at this time. It has been 172 days since last HIV Screening.
+MSM Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
+MSM Indicator=warning
 Patient is at First Prenatal Visit=false
 Active Diagnosis of HCV During Patient Visit=false
 Active Diagnosis of Syphilis During Patient Visit=false
@@ -185,118 +227,497 @@ Active Diagnosis of Gonorrhea During Patient Visit=false
 Active Diagnosis of Chlamydia During Patient Visit=false
 Patient is at High Risk Due to a STD=false
 Patient is at High Risk Due to Injection Drug Use=false
+DAST 10 Result Score=null
+DAST 10 High Risk Score=Interval[6, 10]
+All DAST 10 Questions=[]
+Latest DAST 10 Questions Date=null
+DAST 10 Questions Score=0
+Patient Has High Degree Of Problems Related To Drug Abuse=null
+Patient is at High Risk Due to Drug Abuse=null
 Patient is at High Risk Due to Sexual Partner having HIV=false
 Patient is at High Risk Due to exchanging sex for money and/or drugs=false
 Patient is at High Risk for HIV=true
 Patient is in Third Trimester of Pregnancy=true
 Patient is High Risk in Third Trimester of Pregnancy=true
-Patient has had an HIV Screening=true
-Recommendation=HIV Screening Recommended due to patient being at high risk of HIV during third trimester of pregnancy.
-Rationale=A second HIV test during the third trimester for women in settings with elevated HIV incidence (>17 cases per 100,000 person-years) is cost-effective and might result in substantial reductions in mother-to-child HIV transmission.
-Indicator Status=warning
+Pregnant Condition=true
+Pregnant Recommendation=HIV Screening Recommended due to patient being at high risk of HIV during third trimester of pregnancy.
+Pregnant Rationale=A second HIV test during the third trimester for women in settings with elevated HIV incidence (>17 cases per 100,000 person-years) is cost-effective and might result in substantial reductions in mother-to-child HIV transmission.
+Pregnant Indicator=critical
+Seeking STD Treatment Condition=false
+Seeking STD Treatment Recommendation=HIV Screening Recommended now due to patient interest.
+Seeking STD Treatment Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
+Seeking STD Treatment Indicator=info
+Risk Level Condition=false
+Patient Gender Identity=[CodeableConcept]
+Patient is Transgender=false
+Transgender Patient Sexually Active With Men=false
+Patient Sexual Orientation=[CodeableConcept]
+Patient is Gay or Bisexual=false
+Patient is not Sexually Active=false
+Male, Gay, or Bisexual Patient Not Documented Sexually Inactive=false
+Patient is at Moderate Risk for HIV=false
+Patient is at No Risk for HIV=false
+Patient is at Low Risk for HIV=false
+Risk Level Recommendation=HIV Screening Recommended due to patient being at High Risk for HIV and over three months have passed since previous screening.
+Risk Level Rationale=Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.
+Risk Level Indicator Status=critical
 Exclusion Reason=
-Amount of Days Since Previous HIV Screening=172
 Patient is Female=true
 Patient is Pregnant=true
-elapsed: 28.765 seconds
+Latest DAST 10 Screening Date=null
+DAST 10 Moderate Risk Score=Interval[3, 5]
+Patient Has Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 Low Risk Score=Interval[1, 2]
+Patient Has Low Degree Of Problems Related To Drug Abuse=null
+Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 No Risk Score=Interval[0, 0]
+Patient Has No Problems Related To Drug Abuse=null
+Patient Not Screened For Drug Abuse Or Screening Expired=true
 
-Test InclusionPatient
-Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
-Patient=org.hl7.fhir.r4.model.Patient@4ef12d7e
+Patient=Patient(id=HighRiskSTDPatient)
 Info=info
 Warning=warning
 Critical=critical
 Errors=null
-Patient Name=Peter Chalmers
-Patient Encounter=org.hl7.fhir.r4.model.Encounter@734d870f
+Patient Name=John Jones
+Patient Encounter=Encounter(id=HighRiskSTDPatient-encounter-1)
 Patient is between 13 and 64 years old=true
-Patient is Seeking Treatment for an STD=false
+Patient is Seeking Treatment for an STD=true
 Meets Inclusion Criteria=true
 Active Diagnosis of HIV During Patient Visit=null
 Meets Exclusion Criteria=false
 In Population=true
+HIV Screening Test=[Observation(id=HighRiskSTDPatient-observation-screening-1)]
+Patient has had an HIV Screening=true
+Never Tested Condition=false
+Never Tested Recommendation=HIV Screening Recommended due to patient never having been tested.
+Never Tested Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Never Tested Indicator=info
 Patient is Male=true
 Sexually Active MSM Patient=false
-Patient has Received Pre Exposure Prophylaxis=false
-HIV Screening Test=[]
-Previous HIV Screening Test=null
-Over 3 Months has Past Since Previous HIV Screening=null
-Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
 Patient is a Sexually Active MSM without HIV=false
-Patient is at High Risk Due to Multiple Sex Partners since last screening=false
-Patient is a Sexually Active MSM with Multiple Sex Partners=false
-Over a Year has Past Since Previous HIV Screening=null
-Patient is a Sexually Active MSM who should be Screened Annually=false
-Patient is at First Prenatal Visit=false
-Active Diagnosis of HCV During Patient Visit=false
-Active Diagnosis of Syphilis During Patient Visit=false
-Active Diagnosis of Gonorrhea During Patient Visit=false
-Active Diagnosis of Chlamydia During Patient Visit=false
-Patient is at High Risk Due to a STD=false
-Patient is at High Risk Due to Injection Drug Use=false
-Patient is at High Risk Due to Sexual Partner having HIV=false
-Patient is at High Risk Due to exchanging sex for money and/or drugs=false
-Patient is at High Risk for HIV=false
-Patient is in Third Trimester of Pregnancy=false
-Patient is High Risk in Third Trimester of Pregnancy=false
-Patient has had an HIV Screening=false
-Recommendation=HIV Screening Recommended once due to patient never having been tested.
-Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
-Indicator Status=warning
-Exclusion Reason=
-Amount of Days Since Previous HIV Screening=null
-Patient is Female=false
-Patient is Pregnant=false
-elapsed: 28.822 seconds
-
-Test MSMPatient
-Sat Jul 31 2021 04:46:26 GMT-0600 (Mountain Daylight Time)
-Patient=org.hl7.fhir.r4.model.Patient@3426d8e2
-Info=info
-Warning=warning
-Critical=critical
-Errors=null
-Patient Name=Joe Kotic
-Patient Encounter=org.hl7.fhir.r4.model.Encounter@65595be7
-Patient is between 13 and 64 years old=true
-Patient is Seeking Treatment for an STD=false
-Meets Inclusion Criteria=true
-Active Diagnosis of HIV During Patient Visit=null
-Meets Exclusion Criteria=false
-In Population=true
-Patient is Male=true
-Sexually Active MSM Patient=true
 Patient has Received Pre Exposure Prophylaxis=false
-HIV Screening Test=[org.hl7.fhir.r4.model.Observation@5146ae5e]
 Previous HIV Screening Test=Tuple {
-	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@5146ae5e
-	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@65595be7
+	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@2c4dac53
+	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@6b423f32
 }
 Over 3 Months has Past Since Previous HIV Screening=true
 Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
-Patient is a Sexually Active MSM without HIV=true
-Patient is at High Risk Due to Multiple Sex Partners since last screening=true
-Patient is a Sexually Active MSM with Multiple Sex Partners=true
-Over a Year has Past Since Previous HIV Screening=true
-Patient is a Sexually Active MSM who should be Screened Annually=true
+Patient is at High Risk Due to Multiple Sex Partners since last screening=false
+Patient is a Sexually Active MSM with Multiple Sex Partners=false
+Over a Year has Past Since Previous HIV Screening=false
+Patient is a Sexually Active MSM who should be Screened Annually=false
+MSM Condition=false
+Amount of Days Since Previous HIV Screening=122
+MSM Recommendation=HIV Screening Not Recommended at this time. It has been 122 days since last HIV Screening.
+MSM Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
+MSM Indicator=warning
 Patient is at First Prenatal Visit=false
-Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of HCV During Patient Visit=true
 Active Diagnosis of Syphilis During Patient Visit=false
 Active Diagnosis of Gonorrhea During Patient Visit=false
 Active Diagnosis of Chlamydia During Patient Visit=false
-Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to a STD=true
 Patient is at High Risk Due to Injection Drug Use=false
+DAST 10 Result Score=null
+DAST 10 High Risk Score=Interval[6, 10]
+All DAST 10 Questions=[]
+Latest DAST 10 Questions Date=null
+DAST 10 Questions Score=0
+Patient Has High Degree Of Problems Related To Drug Abuse=null
+Patient is at High Risk Due to Drug Abuse=null
 Patient is at High Risk Due to Sexual Partner having HIV=false
 Patient is at High Risk Due to exchanging sex for money and/or drugs=false
 Patient is at High Risk for HIV=true
 Patient is in Third Trimester of Pregnancy=false
 Patient is High Risk in Third Trimester of Pregnancy=false
-Patient has had an HIV Screening=true
-Recommendation=Annual HIV Screening Recommended due to patient being a sexually active MSM without HIV and has had multiple sex partners.
-Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
-Indicator Status=warning
+Pregnant Condition=false
+Pregnant Recommendation=HIV Screening Not Recommended at this time. It has been 122 days since last HIV Screening.
+Pregnant Rationale=
+Pregnant Indicator=info
+Seeking STD Treatment Condition=true
+Seeking STD Treatment Recommendation=HIV Screening Recommended now due to patient interest.
+Seeking STD Treatment Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
+Seeking STD Treatment Indicator=info
+Risk Level Condition=false
+Patient Gender Identity=[CodeableConcept]
+Patient is Transgender=false
+Transgender Patient Sexually Active With Men=false
+Patient Sexual Orientation=[CodeableConcept]
+Patient is Gay or Bisexual=false
+Patient is not Sexually Active=false
+Male, Gay, or Bisexual Patient Not Documented Sexually Inactive=false
+Patient is at Moderate Risk for HIV=false
+Patient is at No Risk for HIV=false
+Patient is at Low Risk for HIV=false
+Risk Level Recommendation=HIV Screening Recommended due to patient being at High Risk for HIV and over three months have passed since previous screening.
+Risk Level Rationale=Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.
+Risk Level Indicator Status=critical
 Exclusion Reason=
-Amount of Days Since Previous HIV Screening=418
 Patient is Female=false
 Patient is Pregnant=false
-elapsed: 28.879 seconds
+Latest DAST 10 Screening Date=null
+DAST 10 Moderate Risk Score=Interval[3, 5]
+Patient Has Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 Low Risk Score=Interval[1, 2]
+Patient Has Low Degree Of Problems Related To Drug Abuse=null
+Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 No Risk Score=Interval[0, 0]
+Patient Has No Problems Related To Drug Abuse=null
+Patient Not Screened For Drug Abuse Or Screening Expired=true
+
+Patient=Patient(id=InclusionPatient)
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=Peter Chalmers
+Patient Encounter=Encounter(id=InclusionPatient-encounter-1)
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=false
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=null
+Meets Exclusion Criteria=false
+In Population=true
+HIV Screening Test=[]
+Patient has had an HIV Screening=false
+Never Tested Condition=true
+Never Tested Recommendation=HIV Screening Recommended due to patient never having been tested.
+Never Tested Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Never Tested Indicator=info
+Patient is Male=true
+Sexually Active MSM Patient=false
+Patient is a Sexually Active MSM without HIV=false
+Patient has Received Pre Exposure Prophylaxis=false
+Previous HIV Screening Test=null
+Over 3 Months has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is at High Risk Due to Multiple Sex Partners since last screening=false
+Patient is a Sexually Active MSM with Multiple Sex Partners=false
+Over a Year has Past Since Previous HIV Screening=null
+Patient is a Sexually Active MSM who should be Screened Annually=false
+MSM Condition=false
+Amount of Days Since Previous HIV Screening=null
+MSM Recommendation=null
+MSM Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
+MSM Indicator=warning
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to Injection Drug Use=false
+DAST 10 Result Score=null
+DAST 10 High Risk Score=Interval[6, 10]
+All DAST 10 Questions=[]
+Latest DAST 10 Questions Date=null
+DAST 10 Questions Score=0
+Patient Has High Degree Of Problems Related To Drug Abuse=null
+Patient is at High Risk Due to Drug Abuse=null
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=null
+Patient is in Third Trimester of Pregnancy=false
+Patient is High Risk in Third Trimester of Pregnancy=false
+Pregnant Condition=false
+Pregnant Recommendation=null
+Pregnant Rationale=
+Pregnant Indicator=info
+Seeking STD Treatment Condition=false
+Seeking STD Treatment Recommendation=null
+Seeking STD Treatment Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
+Seeking STD Treatment Indicator=info
+Risk Level Condition=false
+Patient Gender Identity=[CodeableConcept]
+Patient is Transgender=false
+Transgender Patient Sexually Active With Men=false
+Patient Sexual Orientation=[CodeableConcept]
+Patient is Gay or Bisexual=false
+Patient is not Sexually Active=false
+Male, Gay, or Bisexual Patient Not Documented Sexually Inactive=false
+Patient is at Moderate Risk for HIV=false
+Patient is at No Risk for HIV=false
+Patient is at Low Risk for HIV=null
+Risk Level Recommendation=null
+Risk Level Rationale=In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.
+Risk Level Indicator Status=info
+Exclusion Reason=
+Patient is Female=false
+Patient is Pregnant=false
+Latest DAST 10 Screening Date=null
+DAST 10 Moderate Risk Score=Interval[3, 5]
+Patient Has Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 Low Risk Score=Interval[1, 2]
+Patient Has Low Degree Of Problems Related To Drug Abuse=null
+Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 No Risk Score=Interval[0, 0]
+Patient Has No Problems Related To Drug Abuse=null
+Patient Not Screened For Drug Abuse Or Screening Expired=true
+
+Patient=Patient(id=MSMPatient)
+Info=info
+Warning=warning
+Critical=critical
+Errors=null
+Patient Name=Joe Kotic
+Patient Encounter=Encounter(id=MSMPatient-encounter-1)
+Patient is between 13 and 64 years old=true
+Patient is Seeking Treatment for an STD=false
+Meets Inclusion Criteria=true
+Active Diagnosis of HIV During Patient Visit=null
+Meets Exclusion Criteria=false
+In Population=true
+HIV Screening Test=[Observation(id=MSMPatient-observation-screening-1)]
+Patient has had an HIV Screening=true
+Never Tested Condition=false
+Never Tested Recommendation=HIV Screening Recommended due to patient never having been tested.
+Never Tested Rationale=CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.
+Never Tested Indicator=info
+Patient is Male=true
+Sexually Active MSM Patient=true
+Patient is a Sexually Active MSM without HIV=true
+Patient has Received Pre Exposure Prophylaxis=false
+Previous HIV Screening Test=Tuple {
+	"MostRecentHIVTest": org.hl7.fhir.r4.model.Observation@161bfb2b
+	"PatientEncounter": org.hl7.fhir.r4.model.Encounter@2bfe76b0
+}
+Over 3 Months has Past Since Previous HIV Screening=true
+Patient is a Sexually Active MSM who should be Screened Every 3 Months=false
+Patient is at High Risk Due to Multiple Sex Partners since last screening=true
+Patient is a Sexually Active MSM with Multiple Sex Partners=true
+Over a Year has Past Since Previous HIV Screening=true
+Patient is a Sexually Active MSM who should be Screened Annually=true
+MSM Condition=true
+Amount of Days Since Previous HIV Screening=418
+MSM Recommendation=Annual HIV Screening Recommended due to patient being a sexually active MSM without HIV and has had multiple sex partners.
+MSM Rationale=Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.
+MSM Indicator=warning
+Patient is at First Prenatal Visit=false
+Active Diagnosis of HCV During Patient Visit=false
+Active Diagnosis of Syphilis During Patient Visit=false
+Active Diagnosis of Gonorrhea During Patient Visit=false
+Active Diagnosis of Chlamydia During Patient Visit=false
+Patient is at High Risk Due to a STD=false
+Patient is at High Risk Due to Injection Drug Use=false
+DAST 10 Result Score=null
+DAST 10 High Risk Score=Interval[6, 10]
+All DAST 10 Questions=[]
+Latest DAST 10 Questions Date=null
+DAST 10 Questions Score=0
+Patient Has High Degree Of Problems Related To Drug Abuse=null
+Patient is at High Risk Due to Drug Abuse=null
+Patient is at High Risk Due to Sexual Partner having HIV=false
+Patient is at High Risk Due to exchanging sex for money and/or drugs=false
+Patient is at High Risk for HIV=true
+Patient is in Third Trimester of Pregnancy=false
+Patient is High Risk in Third Trimester of Pregnancy=false
+Pregnant Condition=false
+Pregnant Recommendation=HIV Screening Not Recommended at this time. It has been 418 days since last HIV Screening.
+Pregnant Rationale=
+Pregnant Indicator=info
+Seeking STD Treatment Condition=false
+Seeking STD Treatment Recommendation=HIV Screening Recommended now due to patient interest.
+Seeking STD Treatment Rationale=All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.
+Seeking STD Treatment Indicator=info
+Risk Level Condition=false
+Patient Gender Identity=[CodeableConcept]
+Patient is Transgender=true
+Transgender Patient Sexually Active With Men=true
+Patient Sexual Orientation=[CodeableConcept]
+Patient is Gay or Bisexual=true
+Patient is not Sexually Active=false
+Male, Gay, or Bisexual Patient Not Documented Sexually Inactive=true
+Patient is at Moderate Risk for HIV=true
+Patient is at No Risk for HIV=false
+Patient is at Low Risk for HIV=false
+Risk Level Recommendation=HIV Screening Recommended due to patient being at High Risk for HIV and over three months have passed since previous screening.
+Risk Level Rationale=Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.
+Risk Level Indicator Status=critical
+Exclusion Reason=
+Patient is Female=false
+Patient is Pregnant=false
+Latest DAST 10 Screening Date=null
+DAST 10 Moderate Risk Score=Interval[3, 5]
+Patient Has Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 Low Risk Score=Interval[1, 2]
+Patient Has Low Degree Of Problems Related To Drug Abuse=null
+Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse=null
+DAST 10 No Risk Score=Interval[0, 0]
+Patient Has No Problems Related To Drug Abuse=null
+Patient Not Screened For Drug Abuse Or Screening Expired=true
+
+
+The following errors were encountered during evaluation:
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de48 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de49 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de55 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de63 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de64 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de173 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de216 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de31 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de33 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de61 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de103 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de112 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de41 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de5 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de81 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de185 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de192 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de8 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de167 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de182 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de101 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de17 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de60 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de67 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de27 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de32 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de63 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de123 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de125 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de154 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de164 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de49 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de12 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de15 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de16 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de200 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de201 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de108 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de109 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1131 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1132 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de38 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de39 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de42 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de43 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de672 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de673 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de904 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de905 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de100 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de143 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de144 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de299 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de5 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de6 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de15 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de18 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de22 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de26 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de27 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de35 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de37 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de7 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de78 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de79 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de10 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de11 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de12 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de13 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de14 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de15 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de16 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de17 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de18 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de19 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de20 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de21 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de22 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de23 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de24 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de25 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de26 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de3 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de4 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de5 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de6 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de7 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de8 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de9 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de1 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de10 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de11 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de12 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de13 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de14 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de15 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de16 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de17 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de18 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de19 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de2 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de20 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de3 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de4 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de5 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de6 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de7 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de8 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de9 is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/GayOrBisexual is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN org.opencds.cqf.cql.evaluator.engine.terminology.BundleTerminologyProvider - ValueSet http://fhir.org/guides/nachc/hiv-cds/ValueSet/Transgender is not expanded. Falling back to compose definition. This will potentially produce incorrect results.
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'system' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'version' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'code' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'display' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'system' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'version' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'code' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'display' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'system' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'version' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'code' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'display' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'system' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'version' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'code' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'display' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'system' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'version' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'code' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'display' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'system' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'version' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'code' found while parsing
+[pool-1-thread-1] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'display' found while parsing
+elapsed: 1.218 seconds

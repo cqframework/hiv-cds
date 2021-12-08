@@ -10,7 +10,7 @@
   "caseSensitive": true,
   "content": "complete",
   "concept": [ {
-    "code": "Patient Encounter",
+    "code": "NACHC.A0.DE1",
     "display": "Patient Encounter",
     "definition": "Patient Encounter"
   }, {
@@ -198,7 +198,7 @@
     "display": "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family.",
     "definition": "Patient Encounter - Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family."
   }, {
-    "code": "Sexual Orientation",
+    "code": "NACHC.A0.DE48",
     "display": "Sexual Orientation",
     "definition": "Sexual Orientation"
   }, {
@@ -226,7 +226,7 @@
     "display": "Choose not to disclose",
     "definition": "Sexual Orientation - Choose not to disclose"
   }, {
-    "code": "Gender Identity",
+    "code": "NACHC.A0.DE55",
     "display": "Gender Identity",
     "definition": "Gender Identity"
   }, {
@@ -258,7 +258,7 @@
     "display": "Choose not to disclose",
     "definition": "Gender Identity - Choose not to disclose"
   }, {
-    "code": "DAST 10 Questionnaire",
+    "code": "NACHC.A0.DE63",
     "display": "DAST 10 Questionnaire",
     "definition": "DAST 10 Questionnaire"
   }, {
@@ -274,7 +274,7 @@
     "display": "Drug Abuse Screening Test-10 [DAST-10]",
     "definition": "DAST 10 Questionnaire - Drug Abuse Screening Test-10 [DAST-10]"
   }, {
-    "code": "HIV Diagnosis",
+    "code": "NACHC.A1.DE1",
     "display": "HIV Diagnosis",
     "definition": "HIV Diagnosis"
   }, {
@@ -746,7 +746,7 @@
     "display": "Visual impairment co-occurrent with human immunodeficiency virus infection (disorder)",
     "definition": "HIV Diagnosis - Visual impairment co-occurrent with human immunodeficiency virus infection (disorder)"
   }, {
-    "code": "HIV Test",
+    "code": "NACHC.A2.DE1",
     "display": "HIV Test",
     "definition": "HIV Test"
   }, {
@@ -1602,7 +1602,7 @@
     "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification",
     "definition": "HIV Test - HIV proviral DNA [Presence] in Blood by Probe with amplification"
   }, {
-    "code": "HIV Test Ordered",
+    "code": "NACHC.A2.DE216",
     "display": "HIV Test Ordered",
     "definition": "HIV Test Ordered"
   }, {
@@ -1614,7 +1614,7 @@
     "display": "Human immunodeficiency virus antigen test (procedure)",
     "definition": "HIV Test Ordered - Human immunodeficiency virus antigen test (procedure)"
   }, {
-    "code": "Hepatitis C Diagnosis",
+    "code": "NACHC.B1.DE1",
     "display": "Hepatitis C Diagnosis",
     "definition": "Hepatitis C Diagnosis"
   }, {
@@ -1946,7 +1946,7 @@
     "display": "Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)",
     "definition": "Hepatitis C Diagnosis - Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)"
   }, {
-    "code": "Hepatitis C Test",
+    "code": "NACHC.B2.DE1",
     "display": "Hepatitis C Test",
     "definition": "Hepatitis C Test"
   }, {
@@ -2374,7 +2374,7 @@
     "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)",
     "definition": "Hepatitis C Test - Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
   }, {
-    "code": "Hepatitis C Procedures",
+    "code": "NACHC.B2.DE112",
     "display": "Hepatitis C Procedures",
     "definition": "Hepatitis C Procedures"
   }, {
@@ -2410,7 +2410,7 @@
     "display": "Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver",
     "definition": "Hepatitis C Procedures - Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver"
   }, {
-    "code": "Syphilis Diagnosis",
+    "code": "NACHC.C1.DE1",
     "display": "Syphilis Diagnosis",
     "definition": "Syphilis Diagnosis"
   }, {
@@ -3678,7 +3678,7 @@
     "display": "Urethral stricture due to syphilis (disorder)",
     "definition": "Syphilis Diagnosis - Urethral stricture due to syphilis (disorder)"
   }, {
-    "code": "Syphilis Test",
+    "code": "NACHC.C2.DE1",
     "display": "Syphilis Test",
     "definition": "Syphilis Test"
   }, {
@@ -4006,7 +4006,7 @@
     "display": "Treponema sp Ab [Presence] in Serum",
     "definition": "Syphilis Test - Treponema sp Ab [Presence] in Serum"
   }, {
-    "code": "Gonorrhea Diagnosis",
+    "code": "NACHC.D1.DE1",
     "display": "Gonorrhea Diagnosis",
     "definition": "Gonorrhea Diagnosis"
   }, {
@@ -4786,7 +4786,7 @@
     "display": "Gonococcal pericarditis (disorder)",
     "definition": "Gonorrhea Diagnosis - Gonococcal pericarditis (disorder)"
   }, {
-    "code": "Gonorrhea Test",
+    "code": "NACHC.D2.DE1",
     "display": "Gonorrhea Test",
     "definition": "Gonorrhea Test"
   }, {
@@ -5178,7 +5178,7 @@
     "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay",
     "definition": "Gonorrhea Test - Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
   }, {
-    "code": "Chlamydia Diagnosis",
+    "code": "NACHC.E1.DE1",
     "display": "Chlamydia Diagnosis",
     "definition": "Chlamydia Diagnosis"
   }, {
@@ -5518,7 +5518,7 @@
     "display": "Urethritis caused by Chlamydia trachomatis (disorder)",
     "definition": "Chlamydia Diagnosis - Urethritis caused by Chlamydia trachomatis (disorder)"
   }, {
-    "code": "Chlamydia Test",
+    "code": "NACHC.E2.DE1",
     "display": "Chlamydia Test",
     "definition": "Chlamydia Test"
   }, {
@@ -6262,7 +6262,7 @@
     "display": "Tests for Chlamydia trachomatis Nucleic Acid",
     "definition": "Chlamydia Test - Tests for Chlamydia trachomatis Nucleic Acid"
   }, {
-    "code": "Drug Rehabilitation",
+    "code": "NACHC.F1.DE1",
     "display": "Drug Rehabilitation",
     "definition": "Drug Rehabilitation"
   }, {
@@ -6306,7 +6306,7 @@
     "display": "Drug relapse prevention program (regime/therapy)",
     "definition": "Drug Rehabilitation - Drug relapse prevention program (regime/therapy)"
   }, {
-    "code": "Injection Findings",
+    "code": "NACHC.F1.DE12",
     "display": "Injection Findings",
     "definition": "Injection Findings"
   }, {
@@ -6318,7 +6318,7 @@
     "display": "Groin injector (finding)",
     "definition": "Injection Findings - Groin injector (finding)"
   }, {
-    "code": "Injection Drug Use Diagnosis",
+    "code": "NACHC.F1.DE15",
     "display": "Injection Drug Use Diagnosis",
     "definition": "Injection Drug Use Diagnosis"
   }, {
@@ -7058,7 +7058,7 @@
     "display": "Drug habituation (disorder)",
     "definition": "Injection Drug Use Diagnosis - Drug habituation (disorder)"
   }, {
-    "code": "Injection Drug Use",
+    "code": "NACHC.F1.DE200",
     "display": "Injection Drug Use",
     "definition": "Injection Drug Use"
   }, {
@@ -7986,7 +7986,7 @@
     "display": "Other psychoactive substance use, unspecified with unspecified psychoactive substance-induced disorder",
     "definition": "Injection Drug Use - Other psychoactive substance use, unspecified with unspecified psychoactive substance-induced disorder"
   }, {
-    "code": "Pregnancy Encounters",
+    "code": "NACHC.F2.DE1",
     "display": "Pregnancy Encounters",
     "definition": "Pregnancy Encounters"
   }, {
@@ -8134,7 +8134,7 @@
     "display": "Encounter for antenatal screening, unspecified",
     "definition": "Pregnancy Encounters - Encounter for antenatal screening, unspecified"
   }, {
-    "code": "Third Trimester Encounters",
+    "code": "NACHC.F2.DE38",
     "display": "Third Trimester Encounters",
     "definition": "Third Trimester Encounters"
   }, {
@@ -8150,7 +8150,7 @@
     "display": "Encounter for supervision of normal pregnancy, unspecified, third trimester",
     "definition": "Third Trimester Encounters - Encounter for supervision of normal pregnancy, unspecified, third trimester"
   }, {
-    "code": "Pregnancy Supervision",
+    "code": "NACHC.F2.DE42",
     "display": "Pregnancy Supervision",
     "definition": "Pregnancy Supervision"
   }, {
@@ -8414,7 +8414,7 @@
     "display": "Supervision of pregnancy with history of molar pregnancy, third trimester",
     "definition": "Pregnancy Supervision - Supervision of pregnancy with history of molar pregnancy, third trimester"
   }, {
-    "code": "Maternal Care",
+    "code": "NACHC.F2.DE108",
     "display": "Maternal Care",
     "definition": "Maternal Care"
   }, {
@@ -10670,7 +10670,7 @@
     "display": "Maternal care for fetal problem, unspecified, third trimester, other fetus",
     "definition": "Maternal Care - Maternal care for fetal problem, unspecified, third trimester, other fetus"
   }, {
-    "code": "Pregnancy Procedures",
+    "code": "NACHC.F2.DE672",
     "display": "Pregnancy Procedures",
     "definition": "Pregnancy Procedures"
   }, {
@@ -11598,7 +11598,7 @@
     "display": "Doppler ultrasound velocimetry of umbilical artery of fetus (procedure)",
     "definition": "Pregnancy Procedures - Doppler ultrasound velocimetry of umbilical artery of fetus (procedure)"
   }, {
-    "code": "Pregnancy Observations",
+    "code": "NACHC.F2.DE904",
     "display": "Pregnancy Observations",
     "definition": "Pregnancy Observations"
   }, {
@@ -12506,7 +12506,7 @@
     "display": "Sexual abuse complicating pregnancy (finding)",
     "definition": "Pregnancy Observations - Sexual abuse complicating pregnancy (finding)"
   }, {
-    "code": "Pregnancy Conditions",
+    "code": "NACHC.F2.DE1131",
     "display": "Pregnancy Conditions",
     "definition": "Pregnancy Conditions"
   }, {
@@ -26466,7 +26466,7 @@
     "display": "Pregnancy of right fallopian tube (disorder)",
     "definition": "Pregnancy Conditions - Pregnancy of right fallopian tube (disorder)"
   }, {
-    "code": "Post Exposure Prophylaxis",
+    "code": "NACHC.G1.DE1",
     "display": "Post Exposure Prophylaxis",
     "definition": "Post Exposure Prophylaxis"
   }, {
@@ -26482,7 +26482,7 @@
     "display": "Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)",
     "definition": "Post Exposure Prophylaxis - Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)"
   }, {
-    "code": "PEP Medication Prescriptions",
+    "code": "NACHC.G1.DE5",
     "display": "PEP Medication Prescriptions",
     "definition": "PEP Medication Prescriptions"
   }, {
@@ -27034,7 +27034,7 @@
     "display": "zidovudine 300 MG Oral Tablet [Retrovir]",
     "definition": "PEP Medication Prescriptions - zidovudine 300 MG Oral Tablet [Retrovir]"
   }, {
-    "code": "PEP Dispensed Medications",
+    "code": "NACHC.G1.DE143",
     "display": "PEP Dispensed Medications",
     "definition": "PEP Dispensed Medications"
   }, {
@@ -28246,7 +28246,7 @@
     "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (RETROVIR)",
     "definition": "PEP Dispensed Medications - ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (RETROVIR)"
   }, {
-    "code": "Prep Medication Prescriptions",
+    "code": "NACHC.G2.DE1",
     "display": "Prep Medication Prescriptions",
     "definition": "Prep Medication Prescriptions"
   }, {
@@ -28346,7 +28346,7 @@
     "display": "tenofovir disoproxil fumarate 300 MG [Viread]",
     "definition": "Prep Medication Prescriptions - tenofovir disoproxil fumarate 300 MG [Viread]"
   }, {
-    "code": "Prep Dispensed Medications",
+    "code": "NACHC.G2.DE26",
     "display": "Prep Dispensed Medications",
     "definition": "Prep Dispensed Medications"
   }, {
@@ -28774,7 +28774,7 @@
     "display": "Sexual Activity - Kind of Sex - Vaginal",
     "definition": "Sexual Activity - Kind of Sex - Vaginal"
   }, {
-    "code": "DAST 10 Question 1",
+    "code": "NACHC.H2.DE1",
     "display": "DAST 10 Question 1",
     "definition": "DAST 10 Question 1"
   }, {
@@ -28782,7 +28782,7 @@
     "display": "Have you used drugs other than those required for medical reasons",
     "definition": "DAST 10 Question 1 - Have you used drugs other than those required for medical reasons"
   }, {
-    "code": "DAST 10 Question 2",
+    "code": "NACHC.H2.DE3",
     "display": "DAST 10 Question 2",
     "definition": "DAST 10 Question 2"
   }, {
@@ -28790,7 +28790,7 @@
     "display": "Do you use more than one drug at a time",
     "definition": "DAST 10 Question 2 - Do you use more than one drug at a time"
   }, {
-    "code": "DAST 10 Question 3",
+    "code": "NACHC.H2.DE5",
     "display": "DAST 10 Question 3",
     "definition": "DAST 10 Question 3"
   }, {
@@ -28798,7 +28798,7 @@
     "display": "Are you always able to stop using drugs when you want to",
     "definition": "DAST 10 Question 3 - Are you always able to stop using drugs when you want to"
   }, {
-    "code": "DAST 10 Question 4",
+    "code": "NACHC.H2.DE7",
     "display": "DAST 10 Question 4",
     "definition": "DAST 10 Question 4"
   }, {
@@ -28806,7 +28806,7 @@
     "display": "Have you had blackouts or flashbacks as a result of drug use",
     "definition": "DAST 10 Question 4 - Have you had blackouts or flashbacks as a result of drug use"
   }, {
-    "code": "DAST 10 Question 5",
+    "code": "NACHC.H2.DE9",
     "display": "DAST 10 Question 5",
     "definition": "DAST 10 Question 5"
   }, {
@@ -28814,7 +28814,7 @@
     "display": "Do you ever feel bad or guilty about your drug use",
     "definition": "DAST 10 Question 5 - Do you ever feel bad or guilty about your drug use"
   }, {
-    "code": "DAST 10 Question 6",
+    "code": "NACHC.H2.DE11",
     "display": "DAST 10 Question 6",
     "definition": "DAST 10 Question 6"
   }, {
@@ -28822,7 +28822,7 @@
     "display": "Does your spouse (or parents) ever complain about your involvement with drugs",
     "definition": "DAST 10 Question 6 - Does your spouse (or parents) ever complain about your involvement with drugs"
   }, {
-    "code": "DAST 10 Question 7",
+    "code": "NACHC.H2.DE13",
     "display": "DAST 10 Question 7",
     "definition": "DAST 10 Question 7"
   }, {
@@ -28830,7 +28830,7 @@
     "display": "Have you neglected your family because of your use of drugs",
     "definition": "DAST 10 Question 7 - Have you neglected your family because of your use of drugs"
   }, {
-    "code": "DAST 10 Question 8",
+    "code": "NACHC.H2.DE15",
     "display": "DAST 10 Question 8",
     "definition": "DAST 10 Question 8"
   }, {
@@ -28838,7 +28838,7 @@
     "display": "Have you engaged in illegal activities in order to obtain drugs",
     "definition": "DAST 10 Question 8 - Have you engaged in illegal activities in order to obtain drugs"
   }, {
-    "code": "DAST 10 Question 9",
+    "code": "NACHC.H2.DE17",
     "display": "DAST 10 Question 9",
     "definition": "DAST 10 Question 9"
   }, {
@@ -28846,7 +28846,7 @@
     "display": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs",
     "definition": "DAST 10 Question 9 - Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs"
   }, {
-    "code": "DAST 10 Question 10",
+    "code": "NACHC.H2.DE19",
     "display": "DAST 10 Question 10",
     "definition": "DAST 10 Question 10"
   }, {

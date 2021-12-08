@@ -119,15 +119,171 @@
       ],
       "action": [
         {
-          "title": "Recommendation",
-          "description": "Determines type of recommendation regarding status of HIV Screening.",
+          "title": "Never Tested Recommendation",
+          "description": "Perform CDC Recommendation for Never Tested Treatment if conditions are met.",
+          "condition": [
+            {
+              "kind": "applicability",
+              "expression": {
+                "description": "Determine if Patient is in msm population.",
+                "language": "text/cql.identifier",
+                "expression": "Never Tested Condition"
+              }
+            }
+          ],
+          "dynamicValue": [
+            {
+              "path": "action.title",
+              "expression": {
+                "description": "Provides Recommendation for Never Tested screenings.",
+                "language": "text/cql.identifier",
+                "expression": "Never Tested Recommendation"
+              }
+            },
+            {
+              "path": "action.description",
+              "expression": {
+                "description": "Provides Rationale for Never Tested screenings.",
+                "language": "text/cql.identifier",
+                "expression": "Never Tested Rationale"
+              }
+            },
+            {
+              "path": "action.extension",
+              "expression": {
+                "language": "text/cql.identifier",
+                "expression": "Never Tested Indicator"
+              }
+            }
+          ]
+        },
+        {
+          "title": "MSM Recommendation",
+          "description": "Perform CDC Recommendation for MSM if conditions are met for either 3 month or annual testing.",
+          "condition": [
+            {
+              "kind": "applicability",
+              "expression": {
+                "description": "Determine if Patient is in msm population.",
+                "language": "text/cql.identifier",
+                "expression": "MSM Condition"
+              }
+            }
+          ],
+          "dynamicValue": [
+            {
+              "path": "action.title",
+              "expression": {
+                "description": "Provides Recommendation for screening.",
+                "language": "text/cql.identifier",
+                "expression": "MSM Recommendation"
+              }
+            },
+            {
+              "path": "action.description",
+              "expression": {
+                "description": "Provides Rationale for screening.",
+                "language": "text/cql.identifier",
+                "expression": "MSM Rationale"
+              }
+            },
+            {
+              "path": "action.extension",
+              "expression": {
+                "language": "text/cql.identifier",
+                "expression": "MSM Indicator"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Pregnancy Recommendation",
+          "description": "Perform CDC Recommendation for Pregnancy if conditions are met for first prenatal visit or third trimester high risk testing.",
+          "condition": [
+            {
+              "kind": "applicability",
+              "expression": {
+                "description": "Determine if Patient is in msm population.",
+                "language": "text/cql.identifier",
+                "expression": "Pregnant Condition"
+              }
+            }
+          ],
+          "dynamicValue": [
+            {
+              "path": "action.title",
+              "expression": {
+                "description": "Provides Recommendation for Pregnancy screenings.",
+                "language": "text/cql.identifier",
+                "expression": "Pregnant Recommendation"
+              }
+            },
+            {
+              "path": "action.description",
+              "expression": {
+                "description": "Provides Rationale for Pregnancy screenings.",
+                "language": "text/cql.identifier",
+                "expression": "Pregnant Rationale"
+              }
+            },
+            {
+              "path": "action.extension",
+              "expression": {
+                "language": "text/cql.identifier",
+                "expression": "Pregnant Indicator"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Seeking Treatment Recommendation",
+          "description": "Perform CDC Recommendation for Seeking STD Treatment if conditions are met.",
+          "condition": [
+            {
+              "kind": "applicability",
+              "expression": {
+                "description": "Determine if Patient is in msm population.",
+                "language": "text/cql.identifier",
+                "expression": "Seeking STD Treatment Condition"
+              }
+            }
+          ],
+          "dynamicValue": [
+            {
+              "path": "action.title",
+              "expression": {
+                "description": "Provides Recommendation for Seeking STD Treatment screenings.",
+                "language": "text/cql.identifier",
+                "expression": "Seeking STD Treatment Recommendation"
+              }
+            },
+            {
+              "path": "action.description",
+              "expression": {
+                "description": "Provides Rationale for Seeking STD Treatment screenings.",
+                "language": "text/cql.identifier",
+                "expression": "Seeking STD Treatment Rationale"
+              }
+            },
+            {
+              "path": "action.extension",
+              "expression": {
+                "language": "text/cql.identifier",
+                "expression": "Seeking STD Treatment Indicator"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Risk Level Recommendation",
+          "description": "Determines type of recommendation based on risk level regarding status of HIV Screening.",
           "condition": [
             {
               "kind": "applicability",
               "expression": {
                 "description": "Determine if Patient is in screening population.",
                 "language": "text/cql.identifier",
-                "expression": "In Population"
+                "expression": "Risk Level Condition"
               }
             }
           ],
@@ -137,7 +293,7 @@
               "expression": {
                 "description": "Determines what recommendation patient should be provided.",
                 "language": "text/cql.identifier",
-                "expression": "Recommendation"
+                "expression": "Risk Level Recommendation"
               }
             },
             {
@@ -145,14 +301,14 @@
               "expression": {
                 "description": "Rationale for recommendation type.",
                 "language": "text/cql.identifier",
-                "expression": "Rationale"
+                "expression": "Risk Level Rationale"
               }
             },
             {
               "path": "action.extension",
               "expression": {
                 "language": "text/cql.identifier",
-                "expression": "Indicator Status"
+                "expression": "Risk Level Indicator Status"
               }
             }
           ]

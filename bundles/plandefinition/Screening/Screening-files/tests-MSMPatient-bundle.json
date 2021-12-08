@@ -7,7 +7,7 @@
       "resourceType": "Encounter",
       "id": "MSMPatient-encounter-1",
       "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de1" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter" ]
       },
       "status": "in-progress",
       "class": {
@@ -18,8 +18,12 @@
       "type": [ {
         "coding": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Patient Encounter-99205",
-          "display": "99205"
+          "code": "NACHC.A0.DE2",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+        }, {
+          "system": "http://www.ama-assn.org/go/cpt",
+          "code": "99202",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
         } ]
       } ],
       "subject": {
@@ -36,11 +40,135 @@
     }
   }, {
     "resource": {
+      "resourceType": "Observation",
+      "id": "MSMPatient-observation-msm-2",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-men" ]
+      },
+      "status": "preliminary",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H1.DE13",
+          "display": "Sexual Activity - Men"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/MSMPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/MSMPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
+      "valueBoolean": true
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/MSMPatient-observation-msm-2"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "MSMPatient-observation-multiple-3",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-number-of-partners" ]
+      },
+      "status": "preliminary",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H1.DE18",
+          "display": "Sexual Activity - Partners Number of Partners"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/MSMPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/MSMPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
+      "valueBoolean": true
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/MSMPatient-observation-multiple-3"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "MSMPatient-observation-screening-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE1",
+          "display": "HIV Test"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/MSMPatient"
+      },
+      "effectiveDateTime": "2020-06-08T10:20:00-07:00",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE200",
+          "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+        }, {
+          "system": "http://loinc.org",
+          "code": "25835-0",
+          "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/MSMPatient-observation-screening-1"
+    }
+  }, {
+    "resource": {
       "resourceType": "Patient",
       "id": "MSMPatient",
       "meta": {
-        "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient" ]
       },
+      "extension": [ {
+        "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexualorientation",
+        "extension": [ {
+          "url": "Sexual Orientation",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+              "code": "NACHC.A0.DE51",
+              "display": "Bisexual"
+            }, {
+              "system": "http://snomed.info/sct",
+              "code": "42035005",
+              "display": "Bisexual"
+            } ]
+          }
+        } ]
+      }, {
+        "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/genderidentity",
+        "extension": [ {
+          "url": "Gender Identity",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+              "code": "NACHC.A0.DE59",
+              "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+            }, {
+              "system": "http://snomed.info/sct",
+              "code": "407376001",
+              "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+            } ]
+          }
+        } ]
+      } ],
       "identifier": [ {
         "use": "usual",
         "type": {
@@ -66,98 +194,14 @@
       } ],
       "gender": "male",
       "birthDate": "1972-06-09",
-      "deceasedBoolean": false
+      "deceasedBoolean": false,
+      "generalPractitioner": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ]
     },
     "request": {
       "method": "PUT",
       "url": "Patient/MSMPatient"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "MSMPatient-observation-msm-2",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de13" ]
-      },
-      "status": "preliminary",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Whether the patient has been sexually active with men",
-          "display": "Whether the patient has been sexually active with men"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/MSMPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/MSMPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
-      "valueBoolean": true
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/MSMPatient-observation-msm-2"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "MSMPatient-observation-screening-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a2-de1" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "HIV Test",
-          "display": "HIV Test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/MSMPatient"
-      },
-      "effectiveDateTime": "2020-06-08T10:20:00-07:00",
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "HIV Test-25835-0",
-          "display": "25835-0"
-        } ]
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/MSMPatient-observation-screening-1"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "MSMPatient-observation-multiple-3",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de18" ]
-      },
-      "status": "preliminary",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Whether the patient’s partner has had more than 1 partner since previous HIV Test",
-          "display": "Whether the patient’s partner has had more than 1 partner since previous HIV Test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/MSMPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/MSMPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
-      "valueBoolean": true
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/MSMPatient-observation-multiple-3"
     }
   } ]
 }

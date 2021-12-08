@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Hepatitis C Test",
+        "code": "NACHC.B2.DE1",
         "display": "Hepatitis C Test"
       } ]
     } ]

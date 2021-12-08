@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "HIV Diagnosis",
+        "code": "NACHC.A1.DE1",
         "display": "HIV Diagnosis"
       } ]
     } ]

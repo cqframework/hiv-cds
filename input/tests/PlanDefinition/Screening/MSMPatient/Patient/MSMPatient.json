@@ -3,9 +3,42 @@
   "id": "MSMPatient",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"
+      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient"
     ]
   },
+  "extension": [ {
+    "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexualorientation",
+    "extension": [ {
+      "url": "Sexual Orientation",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A0.DE51",
+          "display": "Bisexual"
+        }, {
+          "system": "http://snomed.info/sct",
+          "code": "42035005",
+          "display": "Bisexual"
+        } ]
+      }
+    } ]
+  }, {
+    "url": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/genderidentity",
+    "extension": [ {
+      "url": "Gender Identity",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A0.DE59",
+          "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+        }, {
+          "system": "http://snomed.info/sct",
+          "code": "407376001",
+          "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+        } ]
+      }
+    } ]
+  } ],
   "identifier": [
     {
       "use": "usual",
@@ -39,5 +72,8 @@
   ],
   "gender": "male",
   "birthDate": "1972-06-09",
-  "deceasedBoolean": false
+  "deceasedBoolean": false,
+  "generalPractitioner": [ {
+    "reference": "PractitionerRole/hiv-practitionerrole-example"
+  } ]
 }

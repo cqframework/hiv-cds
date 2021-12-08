@@ -44,24 +44,15 @@ define "In Population":
   and not "Meets Exclusion Criteria"
 
 /* OPTIONS:
-    1. Recommend Screening 3 months (High Risk - Implemented except DAST-10)
-    2. Recommend Screening Annually (Moderate Risk - SOGI & Risk Factors)
-    3. Recommend Screening Dont Order (Low/No Risk)
-    4. Recommend Screening Custom Periods (3 months based on specific risk factor -- sexually active MSM w/ prep)
-      // MSM / Pregnancy / CDC Recommendation (Already Implemented)
 
-    // Test.Date duration from "Patient Encounter" > (Risk.period)
-
-  High risk: Any of the factors we currently have
-
-  Moderate risk: we also should use SO/GI, to figure out if the person is a men who has sex with men or a transgender person who has sex with men, which would make this people “moderate” risk, when there is nothing else elevating them to high risk. Moderate risk is when the person should be tested annually.
-
-  No risk: Someone who is documented not sexually active.
-
-  Low risk: Everybody else
+    1. Recommend Screening 3 months (High Risk - CDC Risk Factors)
+    2. Recommend Screening Annually (Moderate Risk - SOGI Risk Factors)
+    3. No Recommendation Screening (No Risk) / Low Risk
+    4. Recommend Screening Custom Periods (3 months based on specific risk factor -- sexually active MSM w/ prep, etc)
+      // MSM / Pregnancy / CDC Recommendation
 
   // - High Risk
-    // CDC FACTORS (Already Exist)
+    // CDC RISK FACTORS
     // Drug Abuse (DAST-10)
 
   // - Medium Risk
@@ -79,6 +70,7 @@ define "In Population":
     ServiceRequest using Data Element Ordered Codes
 
 
+  // TODO:
   Snooze Options / Override:
     Accept - Place order
     Document Test - ACTION: Questionnaire to support documenting test
@@ -88,34 +80,131 @@ define "In Population":
 
 */
 
+/*
 
-define "Recommendation":
-  if "Patient is a Sexually Active MSM who should be Screened Every 3 Months" then 'Three Month HIV Screening Recommended due to patient being a sexually active MSM who has been prescribed PrEP in the past.'
-  else if "Patient is a Sexually Active MSM who should be Screened Annually" then 'Annual HIV Screening Recommended due to patient being a sexually active MSM without HIV and has had multiple sex partners.'
-  else if "Patient is at First Prenatal Visit" then 'HIV Screening Recommended now due to patient being at first prenatal visit.'
-  else if "Patient is High Risk in Third Trimester of Pregnancy" then 'HIV Screening Recommended due to patient being at high risk of HIV during third trimester of pregnancy.'
-  else if "Patient is Seeking Treatment for an STD" then 'HIV Screening Recommended now due to patient interest.'
-  else if not "Patient has had an HIV Screening" then 'HIV Screening Recommended once due to patient never having been tested.'
-  else 'HIV Screening is not currently Recommended for this patient.'
+ORDER:
+  1. Never TESTED
+  2. CDC Edge Cases (MSM & Pregnancy)
+  3.Risk Scoring
+    a. High Risk
+    b. Moderate Risk
+    c. Low Risk / No Risk
 
-/* Rational based on Recommendation Option (References to CDC Recommendations) */
-define "Rationale":
-  if "Patient is a Sexually Active MSM who should be Screened Every 3 Months" then 'For MSM who are prescribed preexposure prophylaxis, HIV testing every 3 months and immediate testing whenever signs and symptoms of acute HIV infection are reported is indicated.'
-  else if "Patient is a Sexually Active MSM who should be Screened Annually" then 'Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.'
-  else if "Patient is at First Prenatal Visit" then 'To promote informed and timely therapeutic decisions, health-care providers should test women for HIV as early as possible during each pregnancy. Women who decline the test early in prenatal care should be encouraged to be tested at a subsequent visit.'
-  else if "Patient is High Risk in Third Trimester of Pregnancy" then 'A second HIV test during the third trimester for women in settings with elevated HIV incidence (>17 cases per 100,000 person-years) is cost-effective and might result in substantial reductions in mother-to-child HIV transmission.'
-  else if "Patient is Seeking Treatment for an STD" then 'All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.'
-  else if not "Patient has had an HIV Screening" then 'CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.'
-  else 'Patients should be informed orally or in writing that HIV testing will be performed unless they decline (opt-out screening). Oral or written information should include an explanation of HIV infection and the meanings of positive and negative test results, and the patient should be offered an opportunity to ask questions and to decline testing.
-   With such notification, consent for HIV screening should be incorporated into the patients general informed consent for medical care on the same basis as are other screening or diagnostic tests; a separate consent form for HIV testing is not recommended.'
+*/
 
-define "Indicator Status":
+// NEVER TESTED
+define "Never Tested Condition":
+  "In Population"
+  and not "Patient has had an HIV Screening"
+
+define "Never Tested Recommendation":
+  'HIV Screening Recommended due to patient never having been tested.'
+
+define "Never Tested Rationale":
+  'CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.'
+
+define "Never Tested Indicator":
+  "Info"
+
+
+/* CDC EDGE CASES */
+// MSM
+define "MSM Condition":
+  "In Population"
+  and (
+    "Patient is a Sexually Active MSM who should be Screened Every 3 Months"
+    or "Patient is a Sexually Active MSM who should be Screened Annually"
+  )
+
+define "MSM Recommendation":
+  if "Patient is a Sexually Active MSM who should be Screened Every 3 Months" then
+    'Three Month HIV Screening Recommended due to patient being a sexually active MSM who has been prescribed PrEP in the past.'
+  else if "Patient is a Sexually Active MSM who should be Screened Annually" then
+    'Annual HIV Screening Recommended due to patient being a sexually active MSM without HIV and has had multiple sex partners.'
+  else ''
+
+define "MSM Rationale":
+  'Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.'
+
+define "MSM Indicator":
   if "Patient is a Sexually Active MSM who should be Screened Every 3 Months" then "Warning"
-  else if "Patient is a Sexually Active MSM who should be Screened Annually" then "Warning"
-  else if "Patient is at First Prenatal Visit" then "Info"
-  else if "Patient is High Risk in Third Trimester of Pregnancy" then "Warning"
-  else if "Patient is Seeking Treatment for an STD" then "Info"
-  else if not "Patient has had an HIV Screening" then "Warning"
+  else "Warning"
+
+
+// PREGNANCY
+define "Pregnant Condition":
+  "In Population"
+  and (
+    "Patient is at First Prenatal Visit"
+    or "Patient is High Risk in Third Trimester of Pregnancy"
+  )
+
+define "Pregnant Recommendation":
+  if "Patient is at First Prenatal Visit" then
+    'HIV Screening Recommended now due to patient being at first prenatal visit.'
+  else if "Patient is High Risk in Third Trimester of Pregnancy" then
+    'HIV Screening Recommended due to patient being at high risk of HIV during third trimester of pregnancy.'
+  else ''
+
+define "Pregnant Rationale":
+  if "Patient is at First Prenatal Visit" then
+    'To promote informed and timely therapeutic decisions, health-care providers should test women for HIV as early as possible during each pregnancy. Women who decline the test early in prenatal care should be encouraged to be tested at a subsequent visit.'
+  else if "Patient is High Risk in Third Trimester of Pregnancy" then
+    'A second HIV test during the third trimester for women in settings with elevated HIV incidence (>17 cases per 100,000 person-years) is cost-effective and might result in substantial reductions in mother-to-child HIV transmission.'
+  else ''
+
+define "Pregnant Indicator":
+  if "Patient is at First Prenatal Visit" then "Info"
+  else if "Patient is High Risk in Third Trimester of Pregnancy" then "Critical"
+  else "Info"
+
+
+// SEEKING TREATMENT
+define "Seeking STD Treatment Condition":
+  "In Population"
+  and "Patient is Seeking Treatment for an STD"
+
+  define "Seeking STD Treatment Recommendation":
+  'HIV Screening Recommended now due to patient interest.'
+
+  define "Seeking STD Treatment Rationale":
+  'All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.'
+
+define "Seeking STD Treatment Indicator":
+  "Info"
+
+
+/* RISK Level Actions */
+define "Risk Level Condition":
+  "In Population"
+  and not (
+    "Never Tested Condition"
+    and "MSM Condition"
+    and "Pregnant Condition"
+    and "Seeking STD Treatment Condition"
+  )
+
+define "Risk Level Recommendation":
+  if "Patient is at High Risk for HIV" and "Over 3 Months has Past Since Previous HIV Screening" then 'HIV Screening Recommended due to patient being at High Risk for HIV and over three months have passed since previous screening.'
+  else if "Patient is at High Risk for HIV" and not "Patient has had an HIV Screening" then 'HIV Screening Recommended due to patient being at High Risk for HIV and never before been tested.'
+  else if "Patient is at Moderate Risk for HIV" and "Over a Year has Past Since Previous HIV Screening" then 'HIV Screening Recommended due to patient being at Moderate Risk for HIV and over a Year has passed since previous screening.'
+  else if "Patient is at Moderate Risk for HIV" and not "Patient has had an HIV Screening" then 'HIV Screening Recommended due to patient being at Moderate Risk for HIV and never before been tested.'
+  else if "Patient is at No Risk for HIV" then 'HIV Screening Not Recommended due to patient being at No Risk for HIV.'
+  else 'HIV Screening Not Recommended due to patient being at Low Risk for HIV.'
+
+/* Risk Level Rational based on Recommendation Option (References to CDC Recommendations) */
+define "Risk Level Rationale":
+  if "Patient is at High Risk for HIV" and "Over 3 Months has Past Since Previous HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.'
+  else if "Patient is at High Risk for HIV" and not "Patient has had an HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.'
+  else if "Patient is at Moderate Risk for HIV" and "Over a Year has Past Since Previous HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at moderate risk for HIV at least annually. Persons likely to be at moderate risk include MSM, Transgender, Gay, and Bisexual Men who are sexually active and have sex with other men.'
+  else if "Patient is at Moderate Risk for HIV" and not "Patient has had an HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at moderate risk for HIV at least annually. Persons likely to be at moderate risk include MSM, Transgender, Gay, and Bisexual Men who are sexually active and have sex with other men.'
+  else if "Patient is at No Risk for HIV" then 'The Task Force made no recommendation for or against routinely screening asymptomatic adults and adolescents with no identifiable risk factors for HIV. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.'
+  else 'In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.'
+
+define "Risk Level Indicator Status":
+  if "Patient is at High Risk for HIV" then "Critical"
+  else if "Patient is at Moderate Risk for HIV" then "Warning"
+  else if "Patient is at No Risk for HIV" then "Info"
   else "Info"
 
 define "Exclusion Reason":
@@ -203,6 +292,44 @@ define "Patient is Male":
 define "Patient is Female":
   if Patient.gender = 'female' then true else false
 
+define "Patient Gender Identity":
+  (
+    (
+      flatten
+      (
+        (HDE."Gender Identity") GenderIdentity
+          return GenderIdentity.extension
+      )
+    ) E
+    where E.url = 'Gender Identity'
+  ) E
+    return E.value as CodeableConcept
+
+define "Patient Sexual Orientation":
+  (
+    (
+      flatten
+      (
+        (HDE."Sexual Orientation") SexualOrientation
+          return SexualOrientation.extension
+      )
+    ) E
+    where E.url = 'Sexual Orientation'
+  ) E
+    return E.value as CodeableConcept
+
+define "Patient is Transgender":
+  exists (
+    "Patient Gender Identity" GenderIdentity
+      where GenderIdentity in Cx."Transgender"
+  )
+
+define "Patient is Gay or Bisexual":
+  exists (
+      "Patient Sexual Orientation" SexualOrientation
+        where SexualOrientation in Cx."Gay Or Bisexual"
+  )
+
 define "Patient is Pregnant":
   exists(
     (HC.QualifiedConditions(HDE."Pregnancy Conditions")) Pregnancy
@@ -210,22 +337,19 @@ define "Patient is Pregnant":
         such that FC.ToPrevalenceInterval(Pregnancy) overlaps PatientEncounter.period
   )
 
-define "Sexually Active MSM Patient":
-  if "Patient is Male" then
-    (
-      exists(
-        (HC.QualifiedObservations(HDE."Sexual Activity - Men")) MSMObserved
-          with "Patient Encounter" PatientEncounter
-            such that FC.ToInterval(MSMObserved.effective) overlaps PatientEncounter.period
-      )
-    )
-  else false
 
-
-/* Determine Patient's Risk Level (High Risk, Normal Risk, None, etc) */
+/* Determine Patient's Risk Level (High Risk, Normal Risk, No Risk, Low Risk) */
 // Predominantly based off elements built from the risk-factors questionnaire
-// RISKS: STIs, Injection Drug Use, Sex partner has HIV, Sex Exchanged for Drugs/Money, More than 1 Partner since previous screening (for themselves or their partners)
+// RISKS: STIs, Injection Drug Use, Sex partner has HIV, Sex Exchanged for Drugs/Money, More than 1 Partner since previous screening (for themselves or their partners), Drug abuse
 
+/* 1. Recommend Screening 3 months (High Risk - CDC Risk Factors)
+    2. Recommend Screening Annually (Moderate Risk - SOGI Risk Factors)
+    3. No Recommendation Screening (No Risk) / Low Risk
+    4. Recommend Screening Custom Periods (3 months based on specific risk factor -- sexually active MSM w/ prep, etc)
+      // MSM / Pregnancy / CDC Recommendation
+*/
+
+/* HIGH RISK */
 // High Risk -- Other STIs
 define "Active Diagnosis of HCV During Patient Visit":
   (
@@ -315,6 +439,10 @@ define "Patient is at High Risk Due to Injection Drug Use":
       such that Coalesce(FC.ToInterval(InjectionDrugUse.performed), FC.ToInterval(InjectionDrugUse.effective), FC.ToPrevalenceInterval(InjectionDrugUse)) overlaps PatientEncounter.period
   ) is not null
 
+//High Risk -- Drug Abuse
+define "Patient is at High Risk Due to Drug Abuse":
+  "Patient Has High Degree Of Problems Related To Drug Abuse"
+
 // High Risk -- Partner with HIV
 define "Patient is at High Risk Due to Sexual Partner having HIV":
   exists(
@@ -351,9 +479,81 @@ define "Patient is at High Risk Due to Multiple Sex Partners since last screenin
 define "Patient is at High Risk for HIV":
   "Patient is at High Risk Due to a STD"
   or "Patient is at High Risk Due to Injection Drug Use"
+  or "Patient is at High Risk Due to Drug Abuse"
   or "Patient is at High Risk Due to Sexual Partner having HIV"
   or "Patient is at High Risk Due to exchanging sex for money and/or drugs"
   or "Patient is at High Risk Due to Multiple Sex Partners since last screening"
+
+
+/* MODERATE RISK */
+// Sexually active MSM, Transgender patient sexually active with men, Gay and bisexual men unless documented not sexually active
+
+// Moderate Risk -- Any sexually active MSM
+define "Sexually Active MSM Patient":
+  if "Patient is Male" then
+    (
+      exists(
+        (HC.QualifiedObservations(HDE."Sexual Activity - Men")) MSMObserved
+          with "Patient Encounter" PatientEncounter
+            such that FC.ToInterval(MSMObserved.effective) overlaps PatientEncounter.period
+      )
+    )
+  else false
+
+// Moderate Risk -- Transgender patients sexually active with men
+define "Transgender Patient Sexually Active With Men":
+  if "Patient is Transgender" then
+    (
+      exists(
+        (HC.QualifiedObservations(HDE."Sexual Activity - Men")) MSMObserved
+          with "Patient Encounter" PatientEncounter
+            such that FC.ToInterval(MSMObserved.effective) overlaps PatientEncounter.period
+      )
+    )
+  else false
+
+// Moderate Risk -- All gay or bisexual men unless documented not sexually active
+define "Male, Gay, or Bisexual Patient Not Documented Sexually Inactive":
+  "Patient is Male" and "Patient is Gay or Bisexual" and not "Patient is not Sexually Active"
+
+define "Patient is at Moderate Risk for HIV":
+  "Sexually Active MSM Patient"
+  or "Transgender Patient Sexually Active With Men"
+  or "Male, Gay, or Bisexual Patient Not Documented Sexually Inactive"
+
+
+/* No Risk */
+// Not Sexually Active
+define "Patient is not Sexually Active":
+  (
+    (
+      Last
+      (
+        (
+          HC.QualifiedObservations(HDE."Sexual Activity - Past Year")
+          union HC.QualifiedObservations(HDE."Sexual Activity - History")
+          union HC.QualifiedObservations(HDE."Sexual Activity - Men")
+          union HC.QualifiedObservations(HDE."Sexual Activity - Women")
+
+        ) SexualHistory
+            where Coalesce(Lower(SexualHistory.value as string) in { 'no' }, SexualHistory.value as boolean = false)
+              sort by Coalesce(effective, issued)
+      )
+    ) SexualHistory
+      with "Patient Encounter" Encounter
+        such that Coalesce(FC.ToInterval(SexualHistory.effective), FC.ToInterval(SexualHistory.issued)) during Encounter.period
+  ) is not null
+
+define "Patient is at No Risk for HIV":
+  "Patient is not Sexually Active"
+
+
+/* LOW RISK */
+// Not sexually active
+define "Patient is at Low Risk for HIV":
+  not "Patient is at High Risk for HIV"
+  and not "Patient is at Moderate Risk for HIV"
+  and not "Patient is at No Risk for HIV"
 
 
 /* Women & Men Workflow */
@@ -403,18 +603,18 @@ define "Patient is a Sexually Active MSM without HIV":
   and "Active Diagnosis of HIV During Patient Visit" is null
 
 define "Patient is a Sexually Active MSM with Multiple Sex Partners":
-  "Sexually Active MSM Patient"
+  "Patient is a Sexually Active MSM without HIV"
   and "Patient is at High Risk Due to Multiple Sex Partners since last screening"
 
 define "Patient is a Sexually Active MSM who should be Screened Annually":
-  "Patient is a Sexually Active MSM without HIV"
-  and "Patient is a Sexually Active MSM with Multiple Sex Partners"
+  "Patient is a Sexually Active MSM with Multiple Sex Partners"
   and "Over a Year has Past Since Previous HIV Screening"
 
 define "Patient is a Sexually Active MSM who should be Screened Every 3 Months":
-  "Sexually Active MSM Patient"
+  "Patient is a Sexually Active MSM without HIV"
   and "Patient has Received Pre Exposure Prophylaxis"
   and "Over 3 Months has Past Since Previous HIV Screening"
+
 
 /* Drug Abuse Screning Test (DAST-10) Questionnaire */
 // Score acquired either by tallying codes for DAST-10 questions or by the value field of DAST-10 Questionnaire or result codes
@@ -465,29 +665,35 @@ define "Latest DAST 10 Screening Date":
   ) latestScreening
   return date from start of FC.ToInterval(latestScreening.effective)
 
-define "Patient Has High Degree Of Problems Related to Drug Abuse":
+//"Patient is at High Risk Due to a STD"
+define "Patient Has High Degree Of Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 High Risk Score")
   or
   ("DAST 10 Questions Score" in "DAST 10 High Risk Score")
 
-define "Patient Has Moderate Degree Of Problems Related to Drug Abuse":
+define "Patient Has Moderate Degree Of Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 Moderate Risk Score")
   or
   ("DAST 10 Questions Score" in "DAST 10 Moderate Risk Score")
 
-define "Patient Has Low Degree Of Problems Related to Drug Abuse":
+define "Patient Has Low Degree Of Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 Low Risk Score")
   or
   ("DAST 10 Questions Score" in "DAST 10 Low Risk Score")
 
-define "Patient Has No Problems Related to Drug Abuse":
+define "Patient Has Low To Moderate Degree Of Problems Related To Drug Abuse":
+  "Patient Has Low Degree Of Problems Related To Drug Abuse"
+  or
+  "Patient Has Moderate Degree Of Problems Related To Drug Abuse"
+
+define "Patient Has No Problems Related To Drug Abuse":
   ("DAST 10 Result Score" in "DAST 10 No Risk Score")
   or
   ("DAST 10 Questions Score" is null)
 
 define "Patient Not Screened For Drug Abuse Or Screening Expired":
   ("Latest DAST 10 Screening Date" is null)
-  or 
+  or
   (difference in years between "Latest DAST 10 Screening Date" and Today() >= 1)
 
 define "DAST 10 High Risk Score":

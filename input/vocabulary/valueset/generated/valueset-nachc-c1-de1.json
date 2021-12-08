@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Syphilis Diagnosis",
+        "code": "NACHC.C1.DE1",
         "display": "Syphilis Diagnosis"
       } ]
     } ]

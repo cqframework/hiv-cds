@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Post Exposure Prophylaxis",
+        "code": "NACHC.G1.DE1",
         "display": "Post Exposure Prophylaxis"
       } ]
     } ]

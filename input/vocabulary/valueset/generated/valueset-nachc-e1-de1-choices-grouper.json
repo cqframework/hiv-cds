@@ -6,7 +6,7 @@
   "title": "Chlamydia Diagnosis Choices Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-29T14:03:58-08:00",
+  "date": "2021-12-03T00:52:56-07:00",
   "description": "Group Valueset with codes representing possible values for the Chlamydia Diagnosis Choices Grouper element",
   "immutable": true,
   "compose": {
@@ -21,7 +21,7 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2021-11-29T14:03:58-08:00",
+    "timestamp": "2021-12-03T00:52:56-07:00",
     "contains": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.E1.DE2",

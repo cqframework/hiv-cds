@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Gonorrhea Diagnosis",
+        "code": "NACHC.D1.DE1",
         "display": "Gonorrhea Diagnosis"
       } ]
     } ]

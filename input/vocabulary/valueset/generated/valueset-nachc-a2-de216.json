@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "HIV Test Ordered",
+        "code": "NACHC.A2.DE216",
         "display": "HIV Test Ordered"
       } ]
     } ]

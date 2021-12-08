@@ -3,24 +3,24 @@
   "id": "MSMPatient-observation-msm-2",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de13"
+      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-men"
     ]
   },
   "status": "preliminary",
-  "category": {
-    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-    "version": "4.0.1",
-    "code": "survey",
-    "display": "Survey"
-  },
+  "category": [
+    {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version": "4.0.1",
+      "code": "survey",
+      "display": "Survey"
+    }
+  ],
   "code": {
-      "coding": [
-        {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Whether the patient has been sexually active with men",
-          "display": "Whether the patient has been sexually active with men"
-        }
-      ]
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.H1.DE13",
+      "display": "Sexual Activity - Men"
+    } ]
   },
   "subject": {
     "reference": "Patient/MSMPatient"

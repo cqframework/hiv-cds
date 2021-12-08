@@ -3,24 +3,24 @@
   "id": "MSMPatient-observation-multiple-3",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-h1-de18"
+      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-number-of-partners"
     ]
   },
   "status": "preliminary",
-  "category": {
-    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-    "version": "4.0.1",
-    "code": "survey",
-    "display": "Survey"
-  },
+  "category": [
+    {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version": "4.0.1",
+      "code": "survey",
+      "display": "Survey"
+    }
+  ],
   "code": {
-      "coding": [
-        {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Whether the patient’s partner has had more than 1 partner since previous HIV Test",
-          "display": "Whether the patient’s partner has had more than 1 partner since previous HIV Test"
-        }
-      ]
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.H1.DE18",
+      "display": "Sexual Activity - Partners Number of Partners"
+    } ]
   },
   "subject": {
     "reference": "Patient/MSMPatient"

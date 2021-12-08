@@ -8,7 +8,7 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "HIV Test",
+      "code": "NACHC.A2.DE1",
       "display": "HIV Test"
     } ]
   },

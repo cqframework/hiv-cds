@@ -12,7 +12,7 @@
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
-        "code": "Pregnancy Supervision",
+        "code": "NACHC.F2.DE42",
         "display": "Pregnancy Supervision"
       } ]
     } ]

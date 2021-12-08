@@ -3,7 +3,7 @@
   "id": "HighRiskSTDPatient-encounter-1",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/nachc-a0-de1"
+      "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter"
     ]
   },
   "status": "in-progress",
@@ -12,17 +12,17 @@
     "code": "AMB",
     "display": "ambulatory"
   },
-  "type": [
-    {
-      "coding": [
-        {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "Patient Encounter-99205",
-          "display": "99205"
-        }
-      ]
-    }
-  ],
+  "type": [ {
+    "coding": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "code": "NACHC.A0.DE2",
+      "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+    }, {
+      "system": "http://www.ama-assn.org/go/cpt",
+      "code": "99202",
+      "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+    } ]
+  } ],
   "subject": {
     "reference": "Patient/HighRiskSTDPatient"
   },
