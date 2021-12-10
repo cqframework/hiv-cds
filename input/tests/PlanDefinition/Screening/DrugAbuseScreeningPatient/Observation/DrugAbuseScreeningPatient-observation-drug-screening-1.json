@@ -1,0 +1,31 @@
+{
+    "resourceType": "Observation",
+    "id": "DrugAbuseScreeningPatient-observation-drug-screening-1",
+    "meta": {
+        "profile": [
+            "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test"
+        ]
+    },
+    "status": "preliminary",
+    "category": [{
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "version": "4.0.1",
+        "code": "survey",
+        "display": "Survey"
+    }],
+    "code": {
+        "coding": [{
+            "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+            "code": "NACHC.A0.DE65",
+            "display": "Total score [DAST-10]"
+        }]
+    },
+    "valueInteger": 10,
+    "subject": {
+        "reference": "Patient/DrugAbuseScreeningPatient"
+    },
+    "encounter": {
+        "reference": "Encounter/DrugAbuseScreeningPatient-encounter-1"
+    },
+    "effectiveDateTime": "2021-03-08T10:20:00-07:00"
+}

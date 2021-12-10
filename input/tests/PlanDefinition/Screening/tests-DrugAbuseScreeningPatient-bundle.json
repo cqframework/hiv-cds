@@ -1,13 +1,13 @@
 {
   "resourceType": "Bundle",
-  "id": "tests-HighRiskPregnantPatient-bundle",
+  "id": "tests-DrugAbuseScreeningPatient-bundle",
   "type": "transaction",
   "entry": [ {
     "resource": {
       "resourceType": "Encounter",
-      "id": "HighRiskPregnantPatient-encounter-1",
+      "id": "DrugAbuseScreeningPatient-encounter-1",
       "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/third-trimester-encounters" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter" ]
       },
       "status": "in-progress",
       "class": {
@@ -18,81 +18,30 @@
       "type": [ {
         "coding": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.F2.DE39",
-          "display": "Encounter for supervision of normal first pregnancy, third trimester"
+          "code": "NACHC.A0.DE2",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
         }, {
-          "system": "http://hl7.org/fhir/sid/icd-10",
-          "code": "Z34.03",
-          "display": "Encounter for supervision of normal first pregnancy, third trimester"
+          "system": "http://www.ama-assn.org/go/cpt",
+          "code": "99202",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
         } ]
       } ],
       "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
+        "reference": "Patient/DrugAbuseScreeningPatient"
       },
       "period": {
-        "start": "2021-07-30T10:00:00-07:00",
-        "end": "2021-07-30T11:20:00-07:00"
+        "start": "2021-05-10T14:00:00-07:00",
+        "end": "2021-05-10T15:20:00-07:00"
       }
     },
     "request": {
       "method": "PUT",
-      "url": "Encounter/HighRiskPregnantPatient-encounter-1"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Condition",
-      "id": "HighRiskPregnantPatient-condition-pregnant-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-conditions" ]
-      },
-      "clinicalStatus": {
-        "coding": [ {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "version": "0.5.0",
-          "code": "active",
-          "display": "Active"
-        } ]
-      },
-      "verificationStatus": {
-        "coding": [ {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "version": "0.5.0",
-          "code": "confirmed",
-          "display": "Confirmed"
-        } ]
-      },
-      "category": [ {
-        "coding": [ {
-          "system": "http://terminology.hl7.org/ValueSet/condition-category",
-          "version": "0.5.0",
-          "code": "encounter-diagnosis",
-          "display": "Encounter Diagnosis"
-        } ]
-      } ],
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.F2.DE1132",
-          "display": "Obstetrical tetanus"
-        }, {
-          "system": "http://hl7.org/fhir/sid/icd-10",
-          "code": "A34",
-          "display": "Obstetrical tetanus"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
-      },
-      "onsetDateTime": "2021-01-10T12:00:00-07:00"
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Condition/HighRiskPregnantPatient-condition-pregnant-1"
+      "url": "Encounter/DrugAbuseScreeningPatient-encounter-1"
     }
   }, {
     "resource": {
       "resourceType": "Patient",
-      "id": "HighRiskPregnantPatient",
+      "id": "DrugAbuseScreeningPatient",
       "meta": {
         "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient" ]
       },
@@ -103,12 +52,12 @@
           "valueCodeableConcept": {
             "coding": [ {
               "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-              "code": "NACHC.A0.DE50",
-              "display": "Straight or heterosexual"
+              "code": "NACHC.A0.DE49",
+              "display": "Lesbian, gay or homosexual"
             }, {
               "system": "http://snomed.info/sct",
-              "code": "20430005",
-              "display": "Straight or heterosexual"
+              "code": "38628009",
+              "display": "Lesbian, gay or homosexual"
             } ]
           }
         } ]
@@ -149,11 +98,11 @@
       "active": true,
       "name": [ {
         "use": "official",
-        "family": "Coraline",
-        "given": [ "Beatrix" ]
+        "family": "Madelyn",
+        "given": [ "Ashley" ]
       } ],
       "gender": "female",
-      "birthDate": "1989-01-12",
+      "birthDate": "2002-02-02",
       "deceasedBoolean": false,
       "generalPractitioner": [ {
         "reference": "PractitionerRole/hiv-practitionerrole-example"
@@ -161,40 +110,40 @@
     },
     "request": {
       "method": "PUT",
-      "url": "Patient/HighRiskPregnantPatient"
+      "url": "Patient/DrugAbuseScreeningPatient"
     }
   }, {
     "resource": {
       "resourceType": "Observation",
-      "id": "HighRiskPregnantPatient-observation-multiple-2",
+      "id": "DrugAbuseScreeningPatient-observation-drug-screening-1",
       "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-number-of-partners" ]
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
       },
       "status": "preliminary",
       "code": {
         "coding": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.H1.DE15",
-          "display": "Sexual Activity - Number of Partners"
+          "code": "NACHC.A0.DE65",
+          "display": "Total score [DAST-10]"
         } ]
       },
       "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
+        "reference": "Patient/DrugAbuseScreeningPatient"
       },
       "encounter": {
-        "reference": "Encounter/HighRiskSTDPatient-encounter-1"
+        "reference": "Encounter/DrugAbuseScreeningPatient-encounter-1"
       },
-      "effectiveDateTime": "2021-07-30T10:30:00-07:00",
-      "valueBoolean": true
+      "effectiveDateTime": "2021-03-08T10:20:00-07:00",
+      "valueInteger": 10
     },
     "request": {
       "method": "PUT",
-      "url": "Observation/HighRiskPregnantPatient-observation-multiple-2"
+      "url": "Observation/DrugAbuseScreeningPatient-observation-drug-screening-1"
     }
   }, {
     "resource": {
       "resourceType": "Observation",
-      "id": "HighRiskPregnantPatient-observation-screening-1",
+      "id": "DrugAbuseScreeningPatient-observation-screening-1",
       "meta": {
         "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
       },
@@ -207,9 +156,15 @@
         } ]
       },
       "subject": {
-        "reference": "Patient/HighRiskPregnantPatient"
+        "reference": "Patient/DrugAbuseScreeningPatient"
       },
-      "effectiveDateTime": "2021-02-08T10:20:00-07:00",
+      "encounter": {
+        "reference": "Encounter/DrugAbuseScreeningPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-01-08T10:00:00-07:00",
+      "performer": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ],
       "valueCodeableConcept": {
         "coding": [ {
           "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
@@ -224,7 +179,7 @@
     },
     "request": {
       "method": "PUT",
-      "url": "Observation/HighRiskPregnantPatient-observation-screening-1"
+      "url": "Observation/DrugAbuseScreeningPatient-observation-screening-1"
     }
   } ]
 }

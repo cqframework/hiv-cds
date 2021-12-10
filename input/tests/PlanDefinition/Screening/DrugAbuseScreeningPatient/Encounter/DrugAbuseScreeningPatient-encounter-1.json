@@ -1,0 +1,33 @@
+{
+    "resourceType": "Encounter",
+    "id": "DrugAbuseScreeningPatient-encounter-1",
+    "meta": {
+        "profile": [
+            "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter"
+        ]
+    },
+    "status": "in-progress",
+    "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "AMB",
+        "display": "ambulatory"
+    },
+    "type": [{
+        "coding": [{
+            "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+            "code": "NACHC.A0.DE2",
+            "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+        }, {
+            "system": "http://www.ama-assn.org/go/cpt",
+            "code": "99202",
+            "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+        }]
+    }],
+    "subject": {
+        "reference": "Patient/DrugAbuseScreeningPatient"
+    },
+    "period": {
+        "start": "2021-05-10T14:00:00-07:00",
+        "end": "2021-05-10T15:20:00-07:00"
+    }
+}

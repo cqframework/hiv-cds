@@ -194,8 +194,8 @@ define "Risk Level Recommendation":
 
 /* Risk Level Rational based on Recommendation Option (References to CDC Recommendations) */
 define "Risk Level Rationale":
-  if "Patient is at High Risk for HIV" then 'Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.'
-  else if "Patient is at Moderate Risk for HIV" then 'Health-care providers should subsequently test all persons likely to be at moderate risk for HIV at least annually. Persons likely to be at moderate risk include MSM, Transgender, Gay, and Bisexual Men who are sexually active and have sex with other men.'
+  if "Patient is at High Risk for HIV" then 'Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include persons with problems related to drug abuse, injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.'
+  else if "Patient is at Moderate Risk for HIV" then 'Health-care providers should subsequently test all persons likely to be at moderate risk for HIV at least annually. Persons likely to be at moderate risk include MSM, Transgender Persons, and Gay or Bisexual Men who are sexually active and have sex with other men.'
   else if "Patient is at No Risk for HIV" then 'The Task Force made no recommendation for or against routinely screening asymptomatic adults and adolescents with no identifiable risk factors for HIV. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.'
   else 'In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.'
 
@@ -627,7 +627,7 @@ define "DAST 10 Result Score":
       where screening.value is not null) notNullScreening
       sort by start of FC.ToInterval(effective))
   ) latestScreening
-  return latestScreening.value as integer
+  return (latestScreening.value as integer).value
 
 define "All DAST 10 Questions":
   HDE."DAST 10 Question 1"

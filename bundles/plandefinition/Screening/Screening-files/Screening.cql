@@ -121,7 +121,7 @@ define "MSM Recommendation":
     'Three Month HIV Screening Recommended due to patient being a sexually active MSM who has been prescribed PrEP in the past.'
   else if "Patient is a Sexually Active MSM who should be Screened Annually" then
     'Annual HIV Screening Recommended due to patient being a sexually active MSM without HIV and has had multiple sex partners.'
-  else ''
+  else 'HIV Screening Not Recommended at this time. It has been ' + ToString("Amount of Days Since Previous HIV Screening") + ' days since last HIV Screening.'
 
 define "MSM Rationale":
   'Among young (aged 18--24 years) men who have sex with men (MSM) surveyed during 2004--2005 in five U.S. cities, 14% were infected with HIV; 79% of these HIV-infected MSM were unaware of their infection.'
@@ -140,11 +140,11 @@ define "Pregnant Condition":
   )
 
 define "Pregnant Recommendation":
-  if "Patient is at First Prenatal Visit" then
+  if "Patient is at First Prenatal Visit" and "Over 3 Months has Past Since Previous HIV Screening" then
     'HIV Screening Recommended now due to patient being at first prenatal visit.'
-  else if "Patient is High Risk in Third Trimester of Pregnancy" then
+  else if "Patient is High Risk in Third Trimester of Pregnancy" and "Over 3 Months has Past Since Previous HIV Screening" then
     'HIV Screening Recommended due to patient being at high risk of HIV during third trimester of pregnancy.'
-  else ''
+  else 'HIV Screening Not Recommended at this time. It has been ' + ToString("Amount of Days Since Previous HIV Screening") + ' days since last HIV Screening.'
 
 define "Pregnant Rationale":
   if "Patient is at First Prenatal Visit" then
@@ -164,10 +164,11 @@ define "Seeking STD Treatment Condition":
   "In Population"
   and "Patient is Seeking Treatment for an STD"
 
-  define "Seeking STD Treatment Recommendation":
-  'HIV Screening Recommended now due to patient interest.'
+define "Seeking STD Treatment Recommendation":
+  if "Over 3 Months has Past Since Previous HIV Screening" then 'HIV Screening Recommended now due to patient interest.'
+  else 'HIV Screening Not Recommended at this time. It has been ' + ToString("Amount of Days Since Previous HIV Screening") + ' days since last HIV Screening.'
 
-  define "Seeking STD Treatment Rationale":
+define "Seeking STD Treatment Rationale":
   'All patients seeking treatment for STDs, including all patients attending STD clinics, should be screened routinely for HIV during each visit for a new complaint, regardless of whether the patient is known or suspected to have specific behavior risks for HIV infection.'
 
 define "Seeking STD Treatment Indicator":
@@ -177,27 +178,24 @@ define "Seeking STD Treatment Indicator":
 /* RISK Level Actions */
 define "Risk Level Condition":
   "In Population"
-  and not (
-    "Never Tested Condition"
-    and "MSM Condition"
-    and "Pregnant Condition"
-    and "Seeking STD Treatment Condition"
+  and (
+    "Never Tested Condition" is false
+    and "MSM Condition" is false
+    and "Pregnant Condition" is false
+    and "Seeking STD Treatment Condition" is false
   )
 
 define "Risk Level Recommendation":
   if "Patient is at High Risk for HIV" and "Over 3 Months has Past Since Previous HIV Screening" then 'HIV Screening Recommended due to patient being at High Risk for HIV and over three months have passed since previous screening.'
-  else if "Patient is at High Risk for HIV" and not "Patient has had an HIV Screening" then 'HIV Screening Recommended due to patient being at High Risk for HIV and never before been tested.'
   else if "Patient is at Moderate Risk for HIV" and "Over a Year has Past Since Previous HIV Screening" then 'HIV Screening Recommended due to patient being at Moderate Risk for HIV and over a Year has passed since previous screening.'
-  else if "Patient is at Moderate Risk for HIV" and not "Patient has had an HIV Screening" then 'HIV Screening Recommended due to patient being at Moderate Risk for HIV and never before been tested.'
   else if "Patient is at No Risk for HIV" then 'HIV Screening Not Recommended due to patient being at No Risk for HIV.'
-  else 'HIV Screening Not Recommended due to patient being at Low Risk for HIV.'
+  else if "Patient is at Low Risk for HIV" then 'HIV Screening Not Recommended due to patient being at Low Risk for HIV.'
+  else 'HIV Screening Not Recommended at this time. It has been ' + ToString("Amount of Days Since Previous HIV Screening") + ' days since last HIV Screening.'
 
 /* Risk Level Rational based on Recommendation Option (References to CDC Recommendations) */
 define "Risk Level Rationale":
-  if "Patient is at High Risk for HIV" and "Over 3 Months has Past Since Previous HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.'
-  else if "Patient is at High Risk for HIV" and not "Patient has had an HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.'
-  else if "Patient is at Moderate Risk for HIV" and "Over a Year has Past Since Previous HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at moderate risk for HIV at least annually. Persons likely to be at moderate risk include MSM, Transgender, Gay, and Bisexual Men who are sexually active and have sex with other men.'
-  else if "Patient is at Moderate Risk for HIV" and not "Patient has had an HIV Screening" then 'Health-care providers should subsequently test all persons likely to be at moderate risk for HIV at least annually. Persons likely to be at moderate risk include MSM, Transgender, Gay, and Bisexual Men who are sexually active and have sex with other men.'
+  if "Patient is at High Risk for HIV" then 'Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include persons with problems related to drug abuse, injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.'
+  else if "Patient is at Moderate Risk for HIV" then 'Health-care providers should subsequently test all persons likely to be at moderate risk for HIV at least annually. Persons likely to be at moderate risk include MSM, Transgender Persons, and Gay or Bisexual Men who are sexually active and have sex with other men.'
   else if "Patient is at No Risk for HIV" then 'The Task Force made no recommendation for or against routinely screening asymptomatic adults and adolescents with no identifiable risk factors for HIV. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.'
   else 'In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.'
 
@@ -629,7 +627,7 @@ define "DAST 10 Result Score":
       where screening.value is not null) notNullScreening
       sort by start of FC.ToInterval(effective))
   ) latestScreening
-  return latestScreening.value as integer
+  return (latestScreening.value as integer).value
 
 define "All DAST 10 Questions":
   HDE."DAST 10 Question 1"

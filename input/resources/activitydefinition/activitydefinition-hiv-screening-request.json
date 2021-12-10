@@ -1,0 +1,51 @@
+{
+    "resourceType": "ActivityDefinition",
+    "id": "activitydefinition-hiv-screening-request",
+    "url": "http://fhir.org/guides/nachc/hiv-cds/ActivityDefinition/activitydefinition-hiv-screening-request",
+    "version": "1.0.0",
+    "name": "ActivityDefinition_HIV_Screening_ServiceRequest",
+    "title": "ActivityDefinition - ServiceRequest: HIV Screening",
+    "status": "draft",
+    "date": "2021-12-10",
+    "publisher": "National Association of Community Health Centers (NACHC)",
+    "description": "A ServiceRequest for HIV screening.",
+    "purpose": "Provides HIV screening suggestion as part of HIV testing clinical decision support.",
+    "usage": "Used to create an HIV screening ServiceRequest.",
+    "useContext": [{
+        "code": {
+            "system": "http://hl7.org/fhir/usage-context-type",
+            "code": "focus",
+            "display": "Clinical Focus"
+        },
+        "valueCodeableConcept": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "31676001",
+                "display": "Human immunodeficiency virus antigen test (procedure)"
+            }]
+        }
+    }],
+    "jurisdiction": [{
+        "coding": [{
+            "system": "urn:iso:std:iso:3166",
+            "code": "US",
+            "display": "United States of America"
+        }]
+    }],
+    "topic": [{
+        "coding": [{
+            "system": "http://hl7.org/fhir/definition-topic",
+            "code": "assessment",
+            "display": "Assessment"
+        }],
+        "text": "HIV testing"
+    }],
+    "library": "http://fhir.org/guides/nachc/hiv-cds/Library/Screening",
+    "kind": "ServiceRequest",
+    "code": {
+        "coding": [{
+            "system": "urn:com.epic.cdshooks.action.code.system.preference-list-item",
+            "code": "1"
+        }]
+    }
+}

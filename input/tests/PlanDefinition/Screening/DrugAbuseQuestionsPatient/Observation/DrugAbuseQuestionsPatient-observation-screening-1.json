@@ -1,0 +1,36 @@
+{
+    "resourceType": "Observation",
+    "id": "DrugAbuseQuestionsPatient-observation-screening-1",
+    "meta": {
+        "profile": ["http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test"]
+    },
+    "status": "final",
+    "code": {
+        "coding": [{
+            "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+            "code": "NACHC.A2.DE1",
+            "display": "HIV Test"
+        }]
+    },
+    "subject": {
+        "reference": "Patient/DrugAbuseQuestionsPatient"
+    },
+    "encounter": {
+        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+    },
+    "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+    "performer": [{
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+    }],
+    "valueCodeableConcept": {
+        "coding": [{
+            "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+            "code": "NACHC.A2.DE215",
+            "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        }, {
+            "system": "http://loinc.org",
+            "code": "2898779",
+            "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        }]
+    }
+}
