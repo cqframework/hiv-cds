@@ -43,9 +43,17 @@
     "library": "http://fhir.org/guides/nachc/hiv-cds/Library/Screening",
     "kind": "ServiceRequest",
     "code": {
-        "coding": [{
-            "system": "urn:com.epic.cdshooks.action.code.system.preference-list-item",
-            "code": "1"
-        }]
+        "coding": [
+            {
+                "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+                "code": "NACHC.A2.DE218",
+                "display": "Human immunodeficiency virus antigen test (procedure)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "31676001",
+                "display": "Human immunodeficiency virus antigen test (procedure)"
+            }
+        ]
     }
 }
