@@ -1,0 +1,19 @@
+{
+  "cards": [
+    {
+      "summary": "HIV Screening",
+      "indicator": "info",
+      "detail": "Sally Merryweather",
+      "source": {
+        "label": "Info for those with HIV",
+        "url": "https://www.cdc.gov/hiv/guidelines/testing.html"
+      }
+    },
+    {
+      "summary": "Exclusion from HIV Screening",
+      "indicator": "info",
+      "detail": "Patient was excluded from HIV Screening due to the patient already having been diagnosed with HIV.",
+      "source": {}
+    }
+  ]
+}

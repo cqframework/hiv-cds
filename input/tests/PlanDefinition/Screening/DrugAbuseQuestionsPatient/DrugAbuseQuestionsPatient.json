@@ -1,0 +1,54 @@
+{
+  "cards": [
+    {
+      "summary": "HIV Screening",
+      "indicator": "info",
+      "detail": "Ashley Madelyn",
+      "source": {
+        "label": "Info for those with HIV",
+        "url": "https://www.cdc.gov/hiv/guidelines/testing.html"
+      }
+    },
+    {
+      "summary": "HIV Screening Not Recommended at this time. It has been 63 days since last HIV Screening.",
+      "indicator": "info",
+      "detail": "In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.",
+      "source": {},
+      "selectionBehavior": "any",
+      "suggestions": [
+        {
+          "label": "Recommend HIV Screening Test.",
+          "actions": [
+            {
+              "type": "create",
+              "description": "In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.",
+              "resource": {
+                "resourceType": "ServiceRequest",
+                "status": "draft",
+                "intent": "proposal",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+                      "code": "NACHC.A2.DE218",
+                      "display": "Human immunodeficiency virus antigen test (procedure)"
+                    },
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "31676001",
+                      "display": "Human immunodeficiency virus antigen test (procedure)"
+                    }
+                  ]
+                },
+                "subject": {
+                  "reference": "Patient/DrugAbuseQuestionsPatient"
+                },
+                "asNeededBoolean": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

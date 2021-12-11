@@ -94,6 +94,7 @@
             }
         ],
         "action": [{
+                "prefix": "Recommend HIV Screening Test.",
                 "title": "Never Tested Recommendation",
                 "description": "Perform CDC Recommendation for Never Tested Treatment if conditions are met.",
                 "condition": [{
@@ -107,8 +108,8 @@
                 "type": {
                     "coding": [{
                         "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
-                        "code": "eca-rule",
-                        "display": "ECA Rule"
+                        "code": "create",
+                        "display": "Create"
                     }]
                 },
                 "selectionBehavior": "any",
@@ -135,6 +136,13 @@
                             "language": "text/cql.identifier",
                             "expression": "Never Tested Indicator"
                         }
+                    },
+                    {
+                        "path": "asNeededBoolean",
+                        "expression": {
+                            "language": "text/cql.identifier",
+                            "expression": "Never Tested Condition"
+                        }
                     }
                 ],
                 "action": [{
@@ -152,6 +160,7 @@
                 ]
             },
             {
+                "prefix": "Recommend HIV Screening Test.",
                 "title": "MSM Recommendation",
                 "description": "Perform CDC Recommendation for MSM if conditions are met for either 3 month or annual testing.",
                 "condition": [{
@@ -165,8 +174,8 @@
                 "type": {
                     "coding": [{
                         "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
-                        "code": "eca-rule",
-                        "display": "ECA Rule"
+                        "code": "create",
+                        "display": "Create"
                     }]
                 },
                 "selectionBehavior": "any",
@@ -193,6 +202,13 @@
                             "language": "text/cql.identifier",
                             "expression": "MSM Indicator"
                         }
+                    },
+                    {
+                        "path": "asNeededBoolean",
+                        "expression": {
+                            "language": "text/cql.identifier",
+                            "expression": "MSM Condition"
+                        }
                     }
                 ],
                 "action": [{
@@ -210,6 +226,7 @@
                 ]
             },
             {
+                "prefix": "Recommend HIV Screening Test.",
                 "title": "Pregnancy Recommendation",
                 "description": "Perform CDC Recommendation for Pregnancy if conditions are met for first prenatal visit or third trimester high risk testing.",
                 "condition": [{
@@ -223,8 +240,8 @@
                 "type": {
                     "coding": [{
                         "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
-                        "code": "eca-rule",
-                        "display": "ECA Rule"
+                        "code": "create",
+                        "display": "Create"
                     }]
                 },
                 "selectionBehavior": "any",
@@ -251,6 +268,13 @@
                             "language": "text/cql.identifier",
                             "expression": "Pregnant Indicator"
                         }
+                    },
+                    {
+                        "path": "asNeededBoolean",
+                        "expression": {
+                            "language": "text/cql.identifier",
+                            "expression": "Pregnant Condition"
+                        }
                     }
                 ],
                 "action": [{
@@ -268,6 +292,7 @@
                 ]
             },
             {
+                "prefix": "Recommend HIV Screening Test.",
                 "title": "Seeking Treatment Recommendation",
                 "description": "Perform CDC Recommendation for Seeking STD Treatment if conditions are met.",
                 "condition": [{
@@ -281,8 +306,8 @@
                 "type": {
                     "coding": [{
                         "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
-                        "code": "eca-rule",
-                        "display": "ECA Rule"
+                        "code": "create",
+                        "display": "Create"
                     }]
                 },
                 "selectionBehavior": "any",
@@ -309,6 +334,13 @@
                             "language": "text/cql.identifier",
                             "expression": "Seeking STD Treatment Indicator"
                         }
+                    },
+                    {
+                        "path": "asNeededBoolean",
+                        "expression": {
+                            "language": "text/cql.identifier",
+                            "expression": "Seeking STD Treatment Condition"
+                        }
                     }
                 ],
                 "action": [{
@@ -326,6 +358,7 @@
                 ]
             },
             {
+                "prefix": "Recommend HIV Screening Test.",
                 "title": "Risk Level Recommendation",
                 "description": "Determines type of recommendation based on risk level regarding status of HIV Screening.",
                 "condition": [{
@@ -336,6 +369,15 @@
                         "expression": "Risk Level Condition"
                     }
                 }],
+                "type": {
+                    "coding": [{
+                        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+                        "code": "create",
+                        "display": "Create"
+                    }]
+                },
+                "selectionBehavior": "any",
+                "definitionCanonical": "http://fhir.org/guides/nachc/hiv-cds/ActivityDefinition/activitydefinition-hiv-screening-request",
                 "dynamicValue": [{
                         "path": "action.title",
                         "expression": {
@@ -358,6 +400,27 @@
                             "language": "text/cql.identifier",
                             "expression": "Risk Level Indicator Status"
                         }
+                    },
+                    {
+                        "path": "asNeededBoolean",
+                        "expression": {
+                            "language": "text/cql.identifier",
+                            "expression": "Risk Level Condition"
+                        }
+                    }
+                ],
+                "action": [
+                    {
+                        "description": "Will perform HIV screening"
+                    },
+                    {
+                        "description": "Will not perform HIV screening at this time - Snooze 1 month."
+                    },
+                    {
+                        "description": "Will not perform HIV screening at this time - Snooze 12 months."
+                    },
+                    {
+                        "description": "Will not perform HIV screening at this time - patient declined."
                     }
                 ]
             },
