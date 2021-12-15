@@ -10,9 +10,9 @@
       }
     },
     {
-      "summary": "HIV Screening Recommended due to patient being at High Risk for HIV and over three months have passed since previous screening.",
-      "indicator": "critical",
-      "detail": "Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include persons with problems related to drug abuse, injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.",
+      "summary": "HIV Screening Not Recommended at this time. It has been 63 days since last HIV Screening.",
+      "indicator": "info",
+      "detail": "In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.",
       "source": {},
       "selectionBehavior": "any",
       "suggestions": [
@@ -21,7 +21,7 @@
           "actions": [
             {
               "type": "create",
-              "description": "Health-care providers should subsequently test all persons likely to be at high risk for HIV at least every 3 months. Persons likely to be at high risk include persons with problems related to drug abuse, injection-drug users and their sex partners, persons who exchange sex for money or drugs, sex partners of HIV-infected persons, and MSM or heterosexual persons who themselves or whose sex partners have had more than one sex partner since their most recent HIV test.",
+              "description": "In low prevalence settings, in which the majority of clients are at minimal risk, targeted HIV testing on the basis of risk screening was considered more feasible for identifying limited numbers of HIV-infected persons. The Task Force concluded that such screening would detect additional patients with HIV, but the overall number would be limited, and the potential benefits did not clearly outweigh the burden on primary care practices or the potential harms of a general HIV screening program.",
               "resource": {
                 "resourceType": "ServiceRequest",
                 "status": "draft",
@@ -41,7 +41,7 @@
                   ]
                 },
                 "subject": {
-                  "reference": "Patient/HighRiskIDUPatient"
+                  "reference": "Patient/DrugAbuseQuestionsPatient"
                 },
                 "asNeededBoolean": true
               }

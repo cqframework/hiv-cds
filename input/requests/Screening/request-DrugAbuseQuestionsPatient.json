@@ -4,7 +4,7 @@
     "hook": "patient-view",
     "context": {
         "userId": "Practitioner/example",
-        "patientId": "Patient/MSMPatient"
+        "patientId": "Patient/DrugAbuseQuestionsPatient"
     },
     "prefetch": {
         "item1": {
@@ -13,7 +13,7 @@
             },
             "resource": {
                 "resourceType": "Patient",
-                "id": "MSMPatient",
+                "id": "DrugAbuseQuestionsPatient",
                 "meta": {
                     "profile": [
                         "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-patient"
@@ -26,13 +26,13 @@
                             "valueCodeableConcept": {
                                 "coding": [{
                                         "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-                                        "code": "NACHC.A0.DE51",
-                                        "display": "Bisexual"
+                                        "code": "NACHC.A0.DE49",
+                                        "display": "Lesbian, gay or homosexual"
                                     },
                                     {
                                         "system": "http://snomed.info/sct",
-                                        "code": "42035005",
-                                        "display": "Bisexual"
+                                        "code": "38628009",
+                                        "display": "Lesbian, gay or homosexual"
                                     }
                                 ]
                             }
@@ -45,13 +45,13 @@
                             "valueCodeableConcept": {
                                 "coding": [{
                                         "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-                                        "code": "NACHC.A0.DE59",
-                                        "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+                                        "code": "NACHC.A0.DE57",
+                                        "display": "Female"
                                     },
                                     {
                                         "system": "http://snomed.info/sct",
-                                        "code": "407376001",
-                                        "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
+                                        "code": "446141000124107",
+                                        "display": "Female"
                                     }
                                 ]
                             }
@@ -78,13 +78,13 @@
                 "active": true,
                 "name": [{
                     "use": "official",
-                    "family": "Kotic",
+                    "family": "Madelyn",
                     "given": [
-                        "Joe"
+                        "Ashley"
                     ]
                 }],
-                "gender": "male",
-                "birthDate": "1972-06-09",
+                "gender": "female",
+                "birthDate": "2002-02-02",
                 "deceasedBoolean": false,
                 "generalPractitioner": [{
                     "reference": "PractitionerRole/hiv-practitionerrole-example"
@@ -97,7 +97,7 @@
             },
             "resource": {
                 "resourceType": "Encounter",
-                "id": "MSMPatient-encounter-1",
+                "id": "DrugAbuseQuestionsPatient-encounter-1",
                 "meta": {
                     "profile": [
                         "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter"
@@ -123,11 +123,11 @@
                     ]
                 }],
                 "subject": {
-                    "reference": "Patient/MSMPatient"
+                    "reference": "Patient/DrugAbuseQuestionsPatient"
                 },
                 "period": {
-                    "start": "2021-07-31T10:00:00-07:00",
-                    "end": "2021-07-31T11:20:00-07:00"
+                    "start": "2021-05-10T14:00:00-07:00",
+                    "end": "2021-05-10T15:20:00-07:00"
                 }
             }
         },
@@ -137,27 +137,30 @@
             },
             "resource": {
                 "resourceType": "Observation",
-                "id": "MSMPatient-observation-msm-2",
+                "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-3",
                 "meta": {
                     "profile": [
-                        "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-men"
+                        "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test"
                     ]
                 },
-                "status": "preliminary",
+                "status": "final",
                 "code": {
                     "coding": [{
                         "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-                        "code": "NACHC.H1.DE13",
-                        "display": "Sexual Activity - Men"
+                        "code": "NACHC.H2.DE6",
+                        "display": "Are you always able to stop using drugs when you want to"
                     }]
                 },
                 "subject": {
-                    "reference": "Patient/MSMPatient"
+                    "reference": "Patient/DrugAbuseQuestionsPatient"
                 },
                 "encounter": {
-                    "reference": "Encounter/MSMPatient-encounter-1"
+                    "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
                 },
-                "effectiveDateTime": "2021-07-31T10:30:00-07:00",
+                "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+                "performer": [{
+                    "reference": "PractitionerRole/hiv-practitionerrole-example"
+                }],
                 "valueBoolean": true
             }
         },
@@ -167,7 +170,73 @@
             },
             "resource": {
                 "resourceType": "Observation",
-                "id": "MSMPatient-observation-screening-1",
+                "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-2",
+                "meta": {
+                    "profile": [
+                        "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [{
+                        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+                        "code": "NACHC.H2.DE4",
+                        "display": "Do you use more than one drug at a time"
+                    }]
+                },
+                "subject": {
+                    "reference": "Patient/DrugAbuseQuestionsPatient"
+                },
+                "encounter": {
+                    "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+                },
+                "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+                "performer": [{
+                    "reference": "PractitionerRole/hiv-practitionerrole-example"
+                }],
+                "valueString": "Yes"
+            }
+        },
+        "item5": {
+            "response": {
+                "status": "200 OK"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-1",
+                "meta": {
+                    "profile": [
+                        "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [{
+                        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+                        "code": "NACHC.H2.DE2",
+                        "display": "Have you used drugs other than those required for medical reasons"
+                    }]
+                },
+                "subject": {
+                    "reference": "Patient/DrugAbuseQuestionsPatient"
+                },
+                "encounter": {
+                    "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+                },
+                "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+                "performer": [{
+                    "reference": "PractitionerRole/hiv-practitionerrole-example"
+                }],
+                "valueBoolean": true
+            }
+        },
+        "item6": {
+            "response": {
+                "status": "200 OK"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "DrugAbuseQuestionsPatient-observation-screening-1",
                 "meta": {
                     "profile": [
                         "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test"
@@ -182,52 +251,28 @@
                     }]
                 },
                 "subject": {
-                    "reference": "Patient/MSMPatient"
+                    "reference": "Patient/DrugAbuseQuestionsPatient"
                 },
-                "effectiveDateTime": "2020-06-08T10:20:00-07:00",
+                "encounter": {
+                    "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+                },
+                "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+                "performer": [{
+                    "reference": "PractitionerRole/hiv-practitionerrole-example"
+                }],
                 "valueCodeableConcept": {
                     "coding": [{
                             "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-                            "code": "NACHC.A2.DE200",
-                            "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+                            "code": "NACHC.A2.DE215",
+                            "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
                         },
                         {
                             "system": "http://loinc.org",
-                            "code": "25835-0",
-                            "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+                            "code": "2898779",
+                            "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
                         }
                     ]
                 }
-            }
-        },
-        "item5": {
-            "response": {
-                "status": "200 OK"
-            },
-            "resource": {
-                "resourceType": "Observation",
-                "id": "MSMPatient-observation-multiple-3",
-                "meta": {
-                    "profile": [
-                        "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-number-of-partners"
-                    ]
-                },
-                "status": "preliminary",
-                "code": {
-                    "coding": [{
-                        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-                        "code": "NACHC.H1.DE18",
-                        "display": "Sexual Activity - Partners Number of Partners"
-                    }]
-                },
-                "subject": {
-                    "reference": "Patient/MSMPatient"
-                },
-                "encounter": {
-                    "reference": "Encounter/MSMPatient-encounter-1"
-                },
-                "effectiveDateTime": "2021-07-31T10:30:00-07:00",
-                "valueBoolean": true
             }
         }
     }

@@ -1,19 +1,54 @@
 {
-    "cards": [
+  "cards": [
+    {
+      "summary": "HIV Screening",
+      "indicator": "info",
+      "detail": "Peter Chalmers",
+      "source": {
+        "label": "Info for those with HIV",
+        "url": "https://www.cdc.gov/hiv/guidelines/testing.html"
+      }
+    },
+    {
+      "summary": "HIV Screening Recommended due to patient never having been tested.",
+      "indicator": "info",
+      "detail": "CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.",
+      "source": {},
+      "selectionBehavior": "any",
+      "suggestions": [
         {
-            "summary": "HIV Screening",
-            "indicator": "info",
-            "detail": "Peter Chalmers",
-            "source": {
-                "label": "Info for those with HIV",
-                "url": "https://www.cdc.gov/hiv/guidelines/testing.html"
+          "label": "Recommend HIV Screening Test.",
+          "actions": [
+            {
+              "type": "create",
+              "description": "CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.",
+              "resource": {
+                "resourceType": "ServiceRequest",
+                "status": "draft",
+                "intent": "proposal",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+                      "code": "NACHC.A2.DE218",
+                      "display": "Human immunodeficiency virus antigen test (procedure)"
+                    },
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "31676001",
+                      "display": "Human immunodeficiency virus antigen test (procedure)"
+                    }
+                  ]
+                },
+                "subject": {
+                  "reference": "Patient/InclusionPatient"
+                },
+                "asNeededBoolean": true
+              }
             }
-        },
-        {
-            "summary": "HIV Screening Recommended once due to patient never having been tested.",
-            "indicator": "warning",
-            "detail": "CDC recommends that diagnostic HIV testing and opt-out HIV screening be a part of routine clinical care in all health-care settings while also preserving the patients option to decline HIV testing and ensuring a provider-patient relationship conducive to optimal clinical and preventive care.",
-            "source": {}
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

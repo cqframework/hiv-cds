@@ -41,7 +41,7 @@
                   ]
                 },
                 "subject": {
-                  "reference": "Patient/HighRiskIDUPatient"
+                  "reference": "Patient/DrugAbuseScreeningPatient"
                 },
                 "asNeededBoolean": true
               }
