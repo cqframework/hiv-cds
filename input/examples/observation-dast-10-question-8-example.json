@@ -8,8 +8,12 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE15",
+      "code": "NACHC.H2.DE8",
       "display": "DAST 10 Question 8"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254067",
+      "display": "Have you engaged in illegal activities in order to obtain drugs"
     } ]
   },
   "subject": {

@@ -8,8 +8,12 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE19",
+      "code": "NACHC.H2.DE10",
       "display": "DAST 10 Question 10"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254072",
+      "display": "Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding, etc.)"
     } ]
   },
   "subject": {

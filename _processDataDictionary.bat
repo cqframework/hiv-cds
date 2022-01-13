@@ -10,7 +10,7 @@ SET tooling=%input_cache_path%\%tooling_jar%
 SET upper_path=%%~dpx
 
 if EXIST "%tooling%" (
-	JAVA -jar "%tooling%" -ProcessAcceleratorKit -s="%scope%" -pts="%datadictionary_filename%" -dep="%datadictionary_sheetname%" -op=.
+	JAVA -jar "%tooling%" -ProcessAcceleratorKit -s="%scope%" -pts="%datadictionary_filename%" -dep="""%datadictionary_sheetname%""" -op=.
 ) ELSE (
 	ECHO "%tooling%"
 	if EXIST "%tooling%" (

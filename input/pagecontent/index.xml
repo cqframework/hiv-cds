@@ -29,13 +29,13 @@
   </ul>
 
   <img src="{{site.data.info.assets}}hiv-functional-diagram.png" style="max-width: 100%;" />
-  
+
   <a name="walkthrough"> </a>
   <p>
     The main sections of this IG are:
   </p>
   <ul>
-    <!-- 
+    <!--
     <li>
       <a href="background.html">Background</a> - provides business context for the implementation guide and information that implementers should be
       familiar with before reading the remainder of the IG.  There could be multiple pages for this.
@@ -57,4 +57,38 @@
       <a href="downloads.html"> Downloads </a> - Allows downloading a copy of this implementation guide and other useful information
     </li>
   </ul>
+
+  <a name="references"> </a>
+  <h3>References</h3>
+
+  <p><b>RxNorm</b>: This product uses publicly available data courtesy of the U.S. National Library of Medicine (NLM),
+    National Institutes of Health, Department of Health and Human Services; NLM is not responsible for
+    the product and does not endorse or recommend this or any other product.</p>
+
+  <p>Nelson SJ, Zeng K, Kilbourne J, Powell T, Moore R. Normalized names for clinical drugs: RxNorm at 6 years.<br/>
+  J Am Med Inform Assoc. 2011 Jul-Aug;18(4)441-8. doi: 10.1136/amiajnl-2011-000116.<br/>
+  Epub 2011 Apr 21. PubMed PMID: 21515544; PubMed Central PMCID: PMC3128404.<br/>
+  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3128404/">Full text</a></p>
+
+  <p><b>UCUM</b>: This product includes all or a portion of the UCUM table, UCUM codes, and UCUM definitions or is derived from it,
+    subject to a license from Regenstrief Institute, Inc. and The UCUM Organization. Your use of the UCUM table,
+    UCUM codes, UCUM definitions also is subject to this license, a copy of which is available at <a href="http://unitsofmeasure.org">http://unitsofmeasure.org</a>.<br/>
+    The current complete UCUM table, UCUM Specification are available for download at <a href="http://unitsofmeasure.org">http://unitsofmeasure.org</a>.<br/>
+    The UCUM table and UCUM codes are copyright © 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization.<br/>
+    All rights reserved.</p>
+
+  <p>THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED "AS IS." ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+  <p>Bransom BM, et al. Revised Recommendations for HIV Testing of Adults, Adolescents, and Pregnant Wemon in Health-Care Settings — United States, 2006. MMWR Recmm Rep 2006;55(No. RR-14):1–17. <a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5514a1.htm">https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5514a1.htm</a>.</p>
+
+  <p>DiNenno EA, Prejean J, Irwin K, et al. Recommendations for HIV Screening of Gay, Bisexual, and Other Men Who Have Sex with Men — United States, 2017. MMWR Morb Mortal Wkly Rep 2017;66:830–832. DOI: <a href="http://dx.doi.org/10.15585/mmwr.mm6631a3">http://dx.doi.org/10.15585/mmwr.mm6631a3</a>.</p>
+
+  <p>Skinner HA (1982). The Drug Abuse Screening Test. Addict Behav 7(4):363-371. Yudko E, Lozhkina O, Fouts A (2007). A comprehensive review of the psychometric properties of the Drug Abuse Screening Test. J Subst Abuse Treatment 32:189-198.</p>
+
+  <p>National Institute on Drug Abuse (NIDA). Drug Abuse Screening Test (DAST-10). <a href="https://cde.drugabuse.gov/instrument/e9053390-ee9c-9140-e040-bb89ad433d69">https://cde.drugabuse.gov/instrument/e9053390-ee9c-9140-e040-bb89ad433d69</a>. Accessed 2021-11-09.</p>
+
+  <p>Office of the National Coordinator for Health Information Technology (ONC), USCDI V2 Data Element: Sexual Orientation. <a href="https://www.healthit.gov/isa/uscdi-data/sexual-orientation">https://www.healthit.gov/isa/uscdi-data/sexual-orientation</a>. Accessed 2021-11-09.</p>
+
+  <p>Office of the National Coordinator for Health Information Technology (ONC), USCDI V2 Data Element: Gender Identity. <a href="https://www.healthit.gov/isa/uscdi-data/gender-identity">https://www.healthit.gov/isa/uscdi-data/gender-identity</a>. Accessed 2021-11-09.</p>
+
 </div>

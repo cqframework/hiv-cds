@@ -8,8 +8,12 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE9",
+      "code": "NACHC.H2.DE5",
       "display": "DAST 10 Question 5"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254063",
+      "display": "Do you ever feel bad or guilty about your drug use"
     } ]
   },
   "subject": {

@@ -8,8 +8,12 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE17",
+      "code": "NACHC.H2.DE9",
       "display": "DAST 10 Question 9"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254070",
+      "display": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs"
     } ]
   },
   "subject": {

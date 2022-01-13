@@ -8,8 +8,12 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE11",
+      "code": "NACHC.H2.DE6",
       "display": "DAST 10 Question 6"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254065",
+      "display": "Does your spouse (or parents) ever complain about your involvement with drugs"
     } ]
   },
   "subject": {

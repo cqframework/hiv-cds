@@ -2,18 +2,18 @@
   "resourceType": "ValueSet",
   "id": "nachc-h2-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de2",
-  "name": "DAST10Question1Choices",
-  "title": "DAST 10 Question 1 Choices",
+  "name": "DAST10Question2",
+  "title": "DAST 10 Question 2",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the DAST 10 Question 1 Choices element",
+  "description": "Codes representing possible values for the DAST 10 Question 2 element",
   "immutable": true,
   "compose": {
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.H2.DE2",
-        "display": "Have you used drugs other than those required for medical reasons"
+        "display": "DAST 10 Question 2"
       } ]
     } ]
   }

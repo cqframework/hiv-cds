@@ -108,6 +108,11 @@
         </page>
       </page>
       <page>
+        <nameUrl value="getting-started.html" />
+        <title value="Getting Started" />
+        <generation value="markdown"/>
+      </page>
+      <page>
         <nameUrl value="architecture.html"/>
         <title value="Architecture"/>
         <generation value="html"/>

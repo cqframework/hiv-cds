@@ -11,80 +11,80 @@
     "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
     "target": "https://cde.drugabuse.gov",
     "element": [ {
-      "code": "NACHC.H2.DE2",
-      "display": "Have you used drugs other than those required for medical reasons",
+      "code": "NACHC.H2.DE1",
+      "display": "DAST 10 Question 1",
       "target": [ {
         "code": "3254039",
         "display": "Have you used drugs other than those required for medical reasons",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE4",
-      "display": "Do you use more than one drug at a time",
+      "code": "NACHC.H2.DE2",
+      "display": "DAST 10 Question 2",
       "target": [ {
         "code": "3254057",
         "display": "Do you use more than one drug at a time",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE6",
-      "display": "Are you always able to stop using drugs when you want to",
+      "code": "NACHC.H2.DE3",
+      "display": "DAST 10 Question 3",
       "target": [ {
         "code": "3254058",
         "display": "Are you always able to stop using drugs when you want to",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE8",
-      "display": "Have you had blackouts or flashbacks as a result of drug use",
+      "code": "NACHC.H2.DE4",
+      "display": "DAST 10 Question 4",
       "target": [ {
         "code": "3254061",
         "display": "Have you had blackouts or flashbacks as a result of drug use",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE10",
-      "display": "Do you ever feel bad or guilty about your drug use",
+      "code": "NACHC.H2.DE5",
+      "display": "DAST 10 Question 5",
       "target": [ {
         "code": "3254063",
         "display": "Do you ever feel bad or guilty about your drug use",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE12",
-      "display": "Does your spouse (or parents) ever complain about your involvement with drugs",
+      "code": "NACHC.H2.DE6",
+      "display": "DAST 10 Question 6",
       "target": [ {
         "code": "3254065",
         "display": "Does your spouse (or parents) ever complain about your involvement with drugs",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE14",
-      "display": "Have you neglected your family because of your use of drugs",
+      "code": "NACHC.H2.DE7",
+      "display": "DAST 10 Question 7",
       "target": [ {
         "code": "3254066",
         "display": "Have you neglected your family because of your use of drugs",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE16",
-      "display": "Have you engaged in illegal activities in order to obtain drugs",
+      "code": "NACHC.H2.DE8",
+      "display": "DAST 10 Question 8",
       "target": [ {
         "code": "3254067",
         "display": "Have you engaged in illegal activities in order to obtain drugs",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE18",
-      "display": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs",
+      "code": "NACHC.H2.DE9",
+      "display": "DAST 10 Question 9",
       "target": [ {
         "code": "3254070",
         "display": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs",
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.H2.DE20",
-      "display": "Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding, etc.)",
+      "code": "NACHC.H2.DE10",
+      "display": "DAST 10 Question 10",
       "target": [ {
         "code": "3254072",
         "display": "Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding, etc.)",

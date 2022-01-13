@@ -8,8 +8,12 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE5",
+      "code": "NACHC.H2.DE3",
       "display": "DAST 10 Question 3"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254058",
+      "display": "Are you always able to stop using drugs when you want to"
     } ]
   },
   "subject": {

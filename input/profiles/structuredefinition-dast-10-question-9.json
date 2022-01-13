@@ -28,7 +28,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -48,33 +48,25 @@
           "valueString": "DAST 10 Question 9"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de17"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de9"
       },
       "mapping": [ {
         "identity": "HIV",
-        "map": "NACHC.H2.DE17"
+        "map": "NACHC.H2.DE9"
       } ]
     }, {
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
       "short": "DAST 10 Question 9",
-      "min": 0,
+      "min": 1,
       "max": "1",
       "type": [ {
         "code": "boolean"
       } ],
       "mustSupport": true,
-      "binding": {
-        "extension": [ {
-          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "DAST 10 Question 9 Choices"
-        } ],
-        "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de18"
-      },
       "mapping": [ {
         "identity": "HIV",
-        "map": "NACHC.H2.DE17"
+        "map": "NACHC.H2.DE9"
       } ]
     } ]
   }

@@ -2,18 +2,18 @@
   "resourceType": "ValueSet",
   "id": "nachc-h2-de5",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de5",
-  "name": "DAST10Question3",
-  "title": "DAST 10 Question 3",
+  "name": "DAST10Question5",
+  "title": "DAST 10 Question 5",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the DAST 10 Question 3 element",
+  "description": "Codes representing possible values for the DAST 10 Question 5 element",
   "immutable": true,
   "compose": {
     "include": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "concept": [ {
         "code": "NACHC.H2.DE5",
-        "display": "DAST 10 Question 3"
+        "display": "DAST 10 Question 5"
       } ]
     } ]
   }

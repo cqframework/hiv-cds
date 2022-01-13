@@ -175,13 +175,13 @@ Data elements for this activity can be collected using the [NACHCH2](Questionnai
 
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
-|NACHC.H2.DE1|DAST 10 Question 1|DAST 10 Question 1|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-1.html)|
-|NACHC.H2.DE19|DAST 10 Question 10|DAST 10 Question 10|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-10.html)|
-|NACHC.H2.DE3|DAST 10 Question 2|DAST 10 Question 2|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-2.html)|
-|NACHC.H2.DE5|DAST 10 Question 3|DAST 10 Question 3|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-3.html)|
-|NACHC.H2.DE7|DAST 10 Question 4|DAST 10 Question 4|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-4.html)|
-|NACHC.H2.DE9|DAST 10 Question 5|DAST 10 Question 5|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-5.html)|
-|NACHC.H2.DE11|DAST 10 Question 6|DAST 10 Question 6|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-6.html)|
-|NACHC.H2.DE13|DAST 10 Question 7|DAST 10 Question 7|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-7.html)|
-|NACHC.H2.DE15|DAST 10 Question 8|DAST 10 Question 8|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-8.html)|
-|NACHC.H2.DE17|DAST 10 Question 9|DAST 10 Question 9|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-9.html)|
+|NACHC.H2.DE1|DAST 10 Question 1|Have you used drugs other than those required for medical reasons?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-1.html)|
+|NACHC.H2.DE10|DAST 10 Question 10|Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding, etc.)?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-10.html)|
+|NACHC.H2.DE2|DAST 10 Question 2|Do you use more than one drug at a time?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-2.html)|
+|NACHC.H2.DE3|DAST 10 Question 3|Are you always able to stop using drugs when you want to?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-3.html)|
+|NACHC.H2.DE4|DAST 10 Question 4|Have you had blackouts or flashbacks as a result of drug use?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-4.html)|
+|NACHC.H2.DE5|DAST 10 Question 5|Do you ever feel bad or guilty about your drug use? |boolean|[Observation.value[x]](StructureDefinition-dast-10-question-5.html)|
+|NACHC.H2.DE6|DAST 10 Question 6|Does your spouse (or parents) ever complain about your involvement with drugs?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-6.html)|
+|NACHC.H2.DE7|DAST 10 Question 7|Have you neglected your family because of your use of drugs?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-7.html)|
+|NACHC.H2.DE8|DAST 10 Question 8|Have you engaged in illegal activities in order to obtain drugs?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-8.html)|
+|NACHC.H2.DE9|DAST 10 Question 9|Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-9.html)|

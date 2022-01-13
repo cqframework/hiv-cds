@@ -10,6 +10,10 @@
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
       "code": "NACHC.H2.DE1",
       "display": "DAST 10 Question 1"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254039",
+      "display": "Have you used drugs other than those required for medical reasons"
     } ]
   },
   "subject": {

@@ -8,8 +8,12 @@
   "code": {
     "coding": [ {
       "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE7",
+      "code": "NACHC.H2.DE4",
       "display": "DAST 10 Question 4"
+    }, {
+      "system": "https://cde.drugabuse.gov",
+      "code": "3254061",
+      "display": "Have you had blackouts or flashbacks as a result of drug use"
     } ]
   },
   "subject": {
