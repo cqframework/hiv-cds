@@ -2,59 +2,59 @@
   "resourceType": "ValueSet",
   "id": "nachc-d1-de167",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de167",
-  "name": "GonorrheaOrganismorSubstanceinLabResultsChoices",
-  "title": "Gonorrhea Organism or Substance in Lab Results Choices",
+  "name": "GonorrheaOrganismorSubstanceinLabResultsCodes",
+  "title": "Gonorrhea Organism or Substance in Lab Results Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Gonorrhea Organism or Substance in Lab Results Choices element",
+  "description": "Codes representing possible values for the Gonorrhea Organism or Substance in Lab Results element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.D1.DE167",
+        "code": "120977006",
         "display": "Antigen of Neisseria gonorrhoeae (substance)"
       }, {
-        "code": "NACHC.D1.DE168",
+        "code": "121172006",
         "display": "Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)"
       }, {
-        "code": "NACHC.D1.DE169",
+        "code": "277501003",
         "display": "Penicillinase-producing Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "NACHC.D1.DE170",
+        "code": "277502005",
         "display": "Tetracycline-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "NACHC.D1.DE171",
+        "code": "277503000",
         "display": "Cephalosporin-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "NACHC.D1.DE172",
+        "code": "277504006",
         "display": "Spectinomycin-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "NACHC.D1.DE173",
+        "code": "409805000",
         "display": "Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "NACHC.D1.DE174",
+        "code": "414809001",
         "display": "Neisseria gonorrhoeae, beta lactamase negative (organism)"
       }, {
-        "code": "NACHC.D1.DE175",
+        "code": "68704007",
         "display": "Neisseria gonorrhoeae (organism)"
       }, {
-        "code": "NACHC.D1.DE176",
+        "code": "703483000",
         "display": "Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)"
       }, {
-        "code": "NACHC.D1.DE177",
+        "code": "83410001",
         "display": "Gram-negative diplococcus (organism)"
       }, {
-        "code": "NACHC.D1.DE178",
+        "code": "414811005",
         "display": "Neisseria species not Neisseria gonococci (organism)"
       }, {
-        "code": "NACHC.D1.DE179",
+        "code": "59083001",
         "display": "Genus Neisseria (organism)"
       }, {
-        "code": "NACHC.D1.DE180",
+        "code": "715869002",
         "display": "Neisseria species, not Neisseria meningitidis (organism)"
       }, {
-        "code": "NACHC.D1.DE181",
+        "code": "715872009",
         "display": "Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)"
       } ]
     } ]

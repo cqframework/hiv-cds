@@ -42,14 +42,6 @@
       "min": 1,
       "max": "1",
       "mustSupport": true,
-      "binding": {
-        "extension": [ {
-          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Sexual Activity - Number of Partners"
-        } ],
-        "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h1-de15"
-      },
       "mapping": [ {
         "identity": "HIV",
         "map": "NACHC.H1.DE15"

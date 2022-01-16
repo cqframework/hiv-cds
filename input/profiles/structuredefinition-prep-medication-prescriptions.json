@@ -49,10 +49,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Prep Medication Prescriptions Choices Grouper"
+          "valueString": "Prep Medication Prescriptions Codes Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1-codes-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

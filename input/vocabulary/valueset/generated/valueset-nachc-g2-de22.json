@@ -2,26 +2,26 @@
   "resourceType": "ValueSet",
   "id": "nachc-g2-de22",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de22",
-  "name": "TenofovirDisoproxilFumarateTDF300mgOrderChoices",
-  "title": "Tenofovir Disoproxil Fumarate (TDF) 300mg Order Choices",
+  "name": "TenofovirDisoproxilFumarateTDF300mgOrderCodes",
+  "title": "Tenofovir Disoproxil Fumarate (TDF) 300mg Order Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Tenofovir Disoproxil Fumarate (TDF) 300mg Order Choices element",
+  "description": "Codes representing possible values for the Tenofovir Disoproxil Fumarate (TDF) 300mg Order element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "concept": [ {
-        "code": "NACHC.G2.DE22",
+        "code": "349251",
         "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet"
       }, {
-        "code": "NACHC.G2.DE23",
+        "code": "352050",
         "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
       }, {
-        "code": "NACHC.G2.DE24",
+        "code": "393334",
         "display": "tenofovir disoproxil fumarate 300 MG"
       }, {
-        "code": "NACHC.G2.DE25",
+        "code": "575802",
         "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
       } ]
     } ]

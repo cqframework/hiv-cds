@@ -2,143 +2,143 @@
   "resourceType": "ValueSet",
   "id": "nachc-g1-de100",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de100",
-  "name": "AlternativenPEPOrderChoices",
-  "title": "Alternative nPEP Order Choices",
+  "name": "AlternativenPEPOrderCodes",
+  "title": "Alternative nPEP Order Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Alternative nPEP Order Choices element",
+  "description": "Codes representing possible values for the Alternative nPEP Order element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "concept": [ {
-        "code": "NACHC.G1.DE100",
+        "code": "664740",
         "display": "atazanavir 300 MG"
       }, {
-        "code": "NACHC.G1.DE101",
+        "code": "664742",
         "display": "atazanavir 300 MG [Reyataz]"
       }, {
-        "code": "NACHC.G1.DE102",
+        "code": "664741",
         "display": "atazanavir 300 MG Oral Capsule"
       }, {
-        "code": "NACHC.G1.DE103",
+        "code": "664743",
         "display": "atazanavir 300 MG Oral Capsule [Reyataz]"
       }, {
-        "code": "NACHC.G1.DE104",
+        "code": "1359268",
         "display": "darunavir 800 MG"
       }, {
-        "code": "NACHC.G1.DE105",
+        "code": "1359270",
         "display": "darunavir 800 MG [Prezista]"
       }, {
-        "code": "NACHC.G1.DE106",
+        "code": "1359269",
         "display": "darunavir 800 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE107",
+        "code": "1359271",
         "display": "darunavir 800 MG Oral Tablet [Prezista]"
       }, {
-        "code": "NACHC.G1.DE108",
+        "code": "1433869",
         "display": "dolutegravir 50 MG"
       }, {
-        "code": "NACHC.G1.DE109",
+        "code": "2122522",
         "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]"
       }, {
-        "code": "NACHC.G1.DE110",
+        "code": "2122519",
         "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE111",
+        "code": "2122526",
         "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
       }, {
-        "code": "NACHC.G1.DE112",
+        "code": "1433875",
         "display": "dolutegravir 50 MG [Tivicay]"
       }, {
-        "code": "NACHC.G1.DE113",
+        "code": "1433873",
         "display": "dolutegravir 50 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE114",
+        "code": "1433879",
         "display": "dolutegravir 50 MG Oral Tablet [Tivicay]"
       }, {
-        "code": "NACHC.G1.DE115",
+        "code": "368309",
         "display": "lamivudine / zidovudine Oral Tablet [Combivir]"
       }, {
-        "code": "NACHC.G1.DE116",
+        "code": "573017",
         "display": "lamivudine 150 MG / zidovudine 300 MG [Combivir]"
       }, {
-        "code": "NACHC.G1.DE117",
+        "code": "200082",
         "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE118",
+        "code": "213088",
         "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]"
       }, {
-        "code": "NACHC.G1.DE119",
+        "code": "350655",
         "display": "lamivudine 300 MG"
       }, {
-        "code": "NACHC.G1.DE120",
+        "code": "575950",
         "display": "lamivudine 300 MG [Epivir]"
       }, {
-        "code": "NACHC.G1.DE121",
+        "code": "349491",
         "display": "lamivudine 300 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE122",
+        "code": "352230",
         "display": "lamivudine 300 MG Oral Tablet [Epivir]"
       }, {
-        "code": "NACHC.G1.DE123",
+        "code": "744840",
         "display": "raltegravir 400 MG"
       }, {
-        "code": "NACHC.G1.DE124",
+        "code": "744844",
         "display": "raltegravir 400 MG [Isentress]"
       }, {
-        "code": "NACHC.G1.DE125",
+        "code": "744842",
         "display": "raltegravir 400 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE126",
+        "code": "744846",
         "display": "raltegravir 400 MG Oral Tablet [Isentress]"
       }, {
-        "code": "NACHC.G1.DE127",
+        "code": "317488",
         "display": "ritonavir 100 MG"
       }, {
-        "code": "NACHC.G1.DE128",
+        "code": "565134",
         "display": "ritonavir 100 MG [Norvir]"
       }, {
-        "code": "NACHC.G1.DE129",
+        "code": "317150",
         "display": "ritonavir 100 MG Oral Capsule"
       }, {
-        "code": "NACHC.G1.DE130",
+        "code": "152970",
         "display": "ritonavir 100 MG Oral Capsule [Norvir]"
       }, {
-        "code": "NACHC.G1.DE131",
+        "code": "1926066",
         "display": "ritonavir 100 MG Oral Powder"
       }, {
-        "code": "NACHC.G1.DE132",
+        "code": "1926069",
         "display": "ritonavir 100 MG Oral Powder [Norvir]"
       }, {
-        "code": "NACHC.G1.DE133",
+        "code": "900575",
         "display": "ritonavir 100 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE134",
+        "code": "900577",
         "display": "ritonavir 100 MG Oral Tablet [Norvir]"
       }, {
-        "code": "NACHC.G1.DE135",
+        "code": "316915",
         "display": "zidovudine 100 MG"
       }, {
-        "code": "NACHC.G1.DE136",
+        "code": "566052",
         "display": "zidovudine 100 MG [Retrovir]"
       }, {
-        "code": "NACHC.G1.DE137",
+        "code": "198352",
         "display": "zidovudine 100 MG Oral Capsule"
       }, {
-        "code": "NACHC.G1.DE138",
+        "code": "201907",
         "display": "zidovudine 100 MG Oral Capsule [Retrovir]"
       }, {
-        "code": "NACHC.G1.DE139",
+        "code": "316916",
         "display": "zidovudine 300 MG"
       }, {
-        "code": "NACHC.G1.DE140",
+        "code": "565059",
         "display": "zidovudine 300 MG [Retrovir]"
       }, {
-        "code": "NACHC.G1.DE141",
+        "code": "199663",
         "display": "zidovudine 300 MG Oral Tablet"
       }, {
-        "code": "NACHC.G1.DE142",
+        "code": "152772",
         "display": "zidovudine 300 MG Oral Tablet [Retrovir]"
       } ]
     } ]

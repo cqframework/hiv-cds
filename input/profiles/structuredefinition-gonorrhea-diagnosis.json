@@ -46,10 +46,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Gonorrhea Diagnosis Choices Grouper"
+          "valueString": "Gonorrhea Diagnosis Codes Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de1-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de1-codes-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

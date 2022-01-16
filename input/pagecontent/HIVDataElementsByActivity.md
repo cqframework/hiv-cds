@@ -5,10 +5,9 @@ Data elements for this activity can be collected using the [NACHCA0](Questionnai
 
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
-|NACHC.A0.DE63|DAST 10 Questionnaire|Concepts Associated with DAST-10 Questionnaire Elements|CodeableConcept|[Observation.code](StructureDefinition-dast-10-questionnaire.html)|
-|NACHC.A0.DE48|Sexual Orientation|Concepts Associated with Sexual Orientation Elements|Code|[Patient.sexualOrientation](StructureDefinition-hiv-patient.html)|
-|NACHC.A0.DE55|Gender Identity|Concepts Associated with Gender Identity Elements|Code|[Patient.genderIdentity](StructureDefinition-hiv-patient.html)|
-|NACHC.A0.DE1|Patient Encounter|Concepts Associated with Patient Encounters|CodeableConcept|[Encounter.type](StructureDefinition-patient-encounter.html)|
+|NACHC.A0.DE55|Gender Identity|Concepts Associated with Gender Identity Elements|CodeableConcept|[Observation.code](StructureDefinition-gender-identity.html)|
+|NACHC.A0.DE1|Encounter Type|The type of patient encounter|CodeableConcept|[Encounter.type](StructureDefinition-hiv-encounter.html)|
+|NACHC.A0.DE48|Sexual Orientation|Concepts Associated with Sexual Orientation Elements|CodeableConcept|[Observation.code](StructureDefinition-sexual-orientation.html)|
 
 #### NACHC.A1 HIV
 
@@ -24,7 +23,7 @@ Data elements for this activity can be collected using the [NACHCA2](Questionnai
 
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
-|NACHC.A2.DE1|HIV Test|Concepts Associated with HIV Testing|CodeableConcept|[Observation.value[x]](StructureDefinition-hiv-test.html)|
+|NACHC.A2.DE1|HIV Test|Concepts Associated with HIV Testing|CodeableConcept|[Observation.code](StructureDefinition-hiv-test.html)|
 |NACHC.A2.DE216|HIV Test Ordered|Concepts Associated with Ordering an HIV Test|CodeableConcept|[ServiceRequest.code](StructureDefinition-hiv-test-ordered.html)|
 
 #### NACHC.B1 HCV
@@ -42,7 +41,7 @@ Data elements for this activity can be collected using the [NACHCB2](Questionnai
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
 |NACHC.B2.DE112|Hepatitis C Procedures|Concepts Associated with HCV Procedures|CodeableConcept|[Procedure.code](StructureDefinition-hepatitis-c-procedures.html)|
-|NACHC.B2.DE1|Hepatitis C Test|Concepts Associated with HCV Testing|CodeableConcept|[Observation.value[x]](StructureDefinition-hepatitis-c-test.html)|
+|NACHC.B2.DE1|Hepatitis C Test|Concepts Associated with HCV Testing|CodeableConcept|[Observation.code](StructureDefinition-hepatitis-c-test.html)|
 
 #### NACHC.C1 Syphilis
 
@@ -58,7 +57,7 @@ Data elements for this activity can be collected using the [NACHCC2](Questionnai
 
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
-|NACHC.C2.DE1|Syphilis Test|Concepts Associated with Syphilis Testing|CodeableConcept|[Observation.value[x]](StructureDefinition-syphilis-test.html)|
+|NACHC.C2.DE1|Syphilis Test|Concepts Associated with Syphilis Testing|CodeableConcept|[Observation.code](StructureDefinition-syphilis-test.html)|
 
 #### NACHC.D1 Gonorrhea
 
@@ -74,7 +73,7 @@ Data elements for this activity can be collected using the [NACHCD2](Questionnai
 
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
-|NACHC.D2.DE1|Gonorrhea Test|Concepts Associated with Gonorrhea Testing|CodeableConcept|[Observation.value[x]](StructureDefinition-gonorrhea-test.html)|
+|NACHC.D2.DE1|Gonorrhea Test|Concepts Associated with Gonorrhea Testing|CodeableConcept|[Observation.code](StructureDefinition-gonorrhea-test.html)|
 
 #### NACHC.E1 Chlamydia
 
@@ -90,7 +89,7 @@ Data elements for this activity can be collected using the [NACHCE2](Questionnai
 
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
-|NACHC.E2.DE1|Chlamydia Test|Concepts Associated with Chlamydia Testing|CodeableConcept|[Observation.value[x]](StructureDefinition-chlamydia-test.html)|
+|NACHC.E2.DE1|Chlamydia Test|Concepts Associated with Chlamydia Testing|CodeableConcept|[Observation.code](StructureDefinition-chlamydia-test.html)|
 
 #### NACHC.F1 Injection Drug Use
 
@@ -185,3 +184,4 @@ Data elements for this activity can be collected using the [NACHCH2](Questionnai
 |NACHC.H2.DE7|DAST 10 Question 7|Have you neglected your family because of your use of drugs?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-7.html)|
 |NACHC.H2.DE8|DAST 10 Question 8|Have you engaged in illegal activities in order to obtain drugs?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-8.html)|
 |NACHC.H2.DE9|DAST 10 Question 9|Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?|boolean|[Observation.value[x]](StructureDefinition-dast-10-question-9.html)|
+|NACHC.H2.DE11|DAST 10 Score|Substance Abuse Prescription Illicit Substance Over the Counter Product Screening Test Score|integer|[Observation.value[x]](StructureDefinition-dast-10-score.html)|

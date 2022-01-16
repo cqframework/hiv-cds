@@ -7,9 +7,9 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.A2.DE1",
-      "display": "HIV Test"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Could not resolve binding valueset null"
     } ]
   },
   "subject": {
@@ -23,10 +23,6 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.A2.DE215",
-      "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
-    }, {
       "system": "http://loinc.org",
       "code": "2898779",
       "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"

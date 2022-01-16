@@ -2,524 +2,524 @@
   "resourceType": "ValueSet",
   "id": "nachc-a2-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de2",
-  "name": "HIV1HIV2AbAgtestsChoices",
-  "title": "HIV-1 HIV 2 Ab Ag tests Choices",
+  "name": "HIV1HIV2AbAgtestsCodes",
+  "title": "HIV-1 HIV 2 Ab Ag tests Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the HIV-1 HIV 2 Ab Ag tests Choices element",
+  "description": "Codes representing possible values for the HIV-1 HIV 2 Ab Ag tests element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.A2.DE2",
+        "code": "49965-7",
         "display": "Deprecated HIV 1 Ab/HIV 2 Ab Ab [Ratio] in Serum by Immunoblot (IB)"
       }, {
-        "code": "NACHC.A2.DE3",
+        "code": "51866-2",
         "display": "Deprecated HIV 1 Ab+Ag [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE4",
+        "code": "44607-0",
         "display": "HIV 1 [Interpretation] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE5",
+        "code": "49483-1",
         "display": "HIV 1 [Interpretation] in Serum or Plasma by Immunoassay Narrative"
       }, {
-        "code": "NACHC.A2.DE6",
+        "code": "29327-4",
         "display": "HIV 1 Ab [Presence] in Body fluid"
       }, {
-        "code": "NACHC.A2.DE7",
+        "code": "34591-8",
         "display": "HIV 1 Ab [Presence] in Body fluid by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE8",
+        "code": "34592-6",
         "display": "HIV 1 Ab [Presence] in Body fluid by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE9",
+        "code": "41145-4",
         "display": "HIV 1 Ab [Presence] in Capillary blood"
       }, {
-        "code": "NACHC.A2.DE10",
+        "code": "33866-5",
         "display": "HIV 1 Ab [Presence] in Capillary blood by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE11",
+        "code": "16974-8",
         "display": "HIV 1 Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.A2.DE12",
+        "code": "57974-8",
         "display": "HIV 1 Ab [Presence] in Cerebral spinal fluid by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE13",
+        "code": "42627-0",
         "display": "HIV 1 Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "NACHC.A2.DE14",
+        "code": "41144-7",
         "display": "HIV 1 Ab [Presence] in Saliva (oral fluid)"
       }, {
-        "code": "NACHC.A2.DE15",
+        "code": "35437-3",
         "display": "HIV 1 Ab [Presence] in Saliva (oral fluid) by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE16",
+        "code": "35439-9",
         "display": "HIV 1 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE17",
+        "code": "2197878",
         "display": "HIV 1 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE18",
+        "code": "14092-1",
         "display": "HIV 1 Ab [Presence] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.A2.DE19",
+        "code": "21007-0",
         "display": "HIV 1 Ab [Presence] in Serum from Donor"
       }, {
-        "code": "NACHC.A2.DE20",
+        "code": "29893-5",
         "display": "HIV 1 Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE21",
+        "code": "1213154",
         "display": "HIV 1 Ab [Presence] in Serum or Plasma by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE22",
+        "code": "86233-4",
         "display": "HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE23",
+        "code": "85686-4",
         "display": "HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunofluorescence"
       }, {
-        "code": "NACHC.A2.DE24",
+        "code": "68961-2",
         "display": "HIV 1 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE25",
+        "code": "53379-4",
         "display": "HIV 1 Ab [Presence] in Unspecified specimen"
       }, {
-        "code": "NACHC.A2.DE26",
+        "code": "89374-3",
         "display": "HIV 1 Ab [Presence] in Unspecified specimen by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE27",
+        "code": "49905-3",
         "display": "HIV 1 Ab [Presence] in Unspecified specimen by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE28",
+        "code": "32571-2",
         "display": "HIV 1 Ab [Presence] in Urine by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE29",
+        "code": "41143-9",
         "display": "HIV 1 Ab [Units/volume] in Saliva (oral fluid)"
       }, {
-        "code": "NACHC.A2.DE30",
+        "code": "35438-1",
         "display": "HIV 1 Ab [Units/volume] in Saliva (oral fluid) by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE31",
+        "code": "22356-0",
         "display": "HIV 1 Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.A2.DE32",
+        "code": "43599-0",
         "display": "HIV 1 Ab [Units/volume] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.A2.DE33",
+        "code": "1212851",
         "display": "HIV 1 Ab [Units/volume] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE34",
+        "code": "13499-9",
         "display": "HIV 1 Ab band pattern [Interpretation] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE35",
+        "code": "16977-1",
         "display": "HIV 1 Ag [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.A2.DE36",
+        "code": "24012-7",
         "display": "HIV 1 Ag [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE37",
+        "code": "44531-2",
         "display": "HIV 1 Ag [Presence] in Serum from Donor"
       }, {
-        "code": "NACHC.A2.DE38",
+        "code": "1213458",
         "display": "HIV 1 Ag [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE39",
+        "code": "16976-3",
         "display": "HIV 1 Ag [Units/volume] in Serum"
       }, {
-        "code": "NACHC.A2.DE40",
+        "code": "69668-2",
         "display": "HIV 1 and 2 Ab [Identifier] in Serum or Plasma by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE41",
+        "code": "80203-3",
         "display": "HIV 1 and 2 Ab [Identifier] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE42",
+        "code": "42768-2",
         "display": "HIV 1 and 2 Ab [Interpretation] in Serum Narrative"
       }, {
-        "code": "NACHC.A2.DE43",
+        "code": "85037-0",
         "display": "HIV 1 and 2 Ab and HIV 1 p24 Ag panel - Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE44",
+        "code": "43185-8",
         "display": "HIV 1 and 2 Ab band pattern [Interpretation] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE45",
+        "code": "89365-1",
         "display": "HIV 1 and 2 Ab panel - Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE46",
+        "code": "77685-6",
         "display": "HIV 1 and 2 IgG Ab [Identifier] in Serum or Plasma by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE47",
+        "code": "86657-4",
         "display": "HIV 1 and 2 tests - FPAR 2.0 set"
       }, {
-        "code": "NACHC.A2.DE48",
+        "code": "75622-1",
         "display": "HIV 1 and 2 tests - Meaningful Use set"
       }, {
-        "code": "NACHC.A2.DE49",
+        "code": "12893-4",
         "display": "HIV 1 gp105 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE50",
+        "code": "35441-5",
         "display": "HIV 1 gp120 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE51",
+        "code": "44532-0",
         "display": "HIV 1 gp120 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE52",
+        "code": "9661-0",
         "display": "HIV 1 gp120 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE53",
+        "code": "43013-2",
         "display": "HIV 1 gp120+gp160 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE54",
+        "code": "14126-7",
         "display": "HIV 1 gp120+gp160 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE55",
+        "code": "40439-2",
         "display": "HIV 1 gp120+gp160 Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE56",
+        "code": "35440-7",
         "display": "HIV 1 gp160 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE57",
+        "code": "2834315",
         "display": "HIV 1 gp160 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE58",
+        "code": "12870-2",
         "display": "HIV 1 gp34 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE59",
+        "code": "35452-2",
         "display": "HIV 1 gp40 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE60",
+        "code": "35446-4",
         "display": "HIV 1 gp41 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE61",
+        "code": "43012-4",
         "display": "HIV 1 gp41 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE62",
+        "code": "2835227",
         "display": "HIV 1 gp41 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE63",
+        "code": "40438-4",
         "display": "HIV 1 gp41 Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE64",
+        "code": "19110-6",
         "display": "HIV 1 gp41+gp43 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE65",
+        "code": "31430-2",
         "display": "HIV 1 IgG Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.A2.DE66",
+        "code": "28004-0",
         "display": "HIV 1 IgG Ab [Presence] in Cerebral spinal fluid by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE67",
+        "code": "16975-5",
         "display": "HIV 1 IgG Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE68",
+        "code": "40732-0",
         "display": "HIV 1 IgG Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE69",
+        "code": "28052-9",
         "display": "HIV 1 IgG band pattern [Interpretation] in Cerebral spinal fluid by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE70",
+        "code": "12872-8",
         "display": "HIV 1 p15 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE71",
+        "code": "16132-3",
         "display": "HIV 1 p15+p18 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE72",
+        "code": "35449-8",
         "display": "HIV 1 p17 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE73",
+        "code": "2835531",
         "display": "HIV 1 p17 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE74",
+        "code": "32842-7",
         "display": "HIV 1 p17+p18 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE75",
+        "code": "32827-8",
         "display": "HIV 1 p17+p18 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE76",
+        "code": "35450-6",
         "display": "HIV 1 p18 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE77",
+        "code": "12859-5",
         "display": "HIV 1 p18 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE78",
+        "code": "12855-3",
         "display": "HIV 1 p23 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE79",
+        "code": "35448-0",
         "display": "HIV 1 p24 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE80",
+        "code": "43011-6",
         "display": "HIV 1 p24 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE81",
+        "code": "2835836",
         "display": "HIV 1 p24 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE82",
+        "code": "40437-6",
         "display": "HIV 1 p24 Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE83",
+        "code": "21331-4",
         "display": "HIV 1 p24 Ab [Titer] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE84",
+        "code": "16978-9",
         "display": "HIV 1 p24 Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.A2.DE85",
+        "code": "42339-2",
         "display": "HIV 1 p24 Ag [Mass/volume] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE86",
+        "code": "49718-0",
         "display": "HIV 1 p24 Ag [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.A2.DE87",
+        "code": "9821-0",
         "display": "HIV 1 p24 Ag [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE88",
+        "code": "18396-2",
         "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE89",
+        "code": "33660-2",
         "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma by Neutralization test"
       }, {
-        "code": "NACHC.A2.DE90",
+        "code": "44872-0",
         "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma from Donor by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE91",
+        "code": "16979-7",
         "display": "HIV 1 p24 Ag [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.A2.DE92",
+        "code": "2836111",
         "display": "HIV 1 p24 Ag [Units/volume] in Serum"
       }, {
-        "code": "NACHC.A2.DE93",
+        "code": "53601-1",
         "display": "HIV 1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE94",
+        "code": "12871-0",
         "display": "HIV 1 p26 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE95",
+        "code": "12857-9",
         "display": "HIV 1 p28 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE96",
+        "code": "35447-2",
         "display": "HIV 1 p31 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE97",
+        "code": "2836719",
         "display": "HIV 1 p31 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE98",
+        "code": "35564-4",
         "display": "HIV 1 p31+p32 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE99",
+        "code": "12858-7",
         "display": "HIV 1 p32 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE100",
+        "code": "35565-1",
         "display": "HIV 1 p40 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE101",
+        "code": "31072-2",
         "display": "HIV 1 p41 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE102",
+        "code": "21332-2",
         "display": "HIV 1 p41 Ab [Titer] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE103",
+        "code": "35445-6",
         "display": "HIV 1 p51 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE104",
+        "code": "2837022",
         "display": "HIV 1 p51 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE105",
+        "code": "12876-9",
         "display": "HIV 1 p53 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE106",
+        "code": "35444-9",
         "display": "HIV 1 p55 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE107",
+        "code": "2837327",
         "display": "HIV 1 p55 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE108",
+        "code": "12895-9",
         "display": "HIV 1 p58 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE109",
+        "code": "12875-1",
         "display": "HIV 1 p64 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE110",
+        "code": "35443-1",
         "display": "HIV 1 p65 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE111",
+        "code": "12856-1",
         "display": "HIV 1 p65 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE112",
+        "code": "33508-3",
         "display": "HIV 1 p65+p66 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE113",
+        "code": "35442-3",
         "display": "HIV 1 p66 Ab [Presence] in Saliva (oral fluid) by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE114",
+        "code": "2837631",
         "display": "HIV 1 p66 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE115",
+        "code": "12894-2",
         "display": "HIV 1 p68 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE116",
+        "code": "32602-5",
         "display": "HIV 1+2 Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.A2.DE117",
+        "code": "2198182",
         "display": "HIV 1+2 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE118",
+        "code": "44873-8",
         "display": "HIV 1+2 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE119",
+        "code": "44533-8",
         "display": "HIV 1+2 Ab [Presence] in Serum from Donor"
       }, {
-        "code": "NACHC.A2.DE120",
+        "code": "31201-7",
         "display": "HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE121",
+        "code": "80387-4",
         "display": "HIV 1+2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE122",
+        "code": "43010-8",
         "display": "HIV 1+2 Ab [Presence] in Unspecified specimen"
       }, {
-        "code": "NACHC.A2.DE123",
+        "code": "42600-7",
         "display": "HIV 1+2 Ab [Presence] in Unspecified specimen by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE124",
+        "code": "49580-4",
         "display": "HIV 1+2 Ab [Presence] in Unspecified specimen by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE125",
+        "code": "22357-8",
         "display": "HIV 1+2 Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.A2.DE126",
+        "code": "1213762",
         "display": "HIV 1+2 Ab [Units/volume] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE127",
+        "code": "75666-8",
         "display": "HIV 1+2 Ab and HIV1 p24 Ag [Identifier] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE128",
+        "code": "83101-6",
         "display": "HIV 1+2 Ab and HIV1 p24 Ag panel - Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE129",
+        "code": "56888-1",
         "display": "HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE130",
+        "code": "58900-2",
         "display": "HIV 1+2 Ab+HIV1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE131",
+        "code": "73906-0",
         "display": "HIV 1+2 IgG Ab [Presence] in Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE132",
+        "code": "54086-4",
         "display": "HIV 1+2 IgG Ab [Presence] in DBS"
       }, {
-        "code": "NACHC.A2.DE133",
+        "code": "43009-0",
         "display": "HIV 1+2 IgG Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE134",
+        "code": "40733-8",
         "display": "HIV 1+2 IgG Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE135",
+        "code": "73905-2",
         "display": "HIV 1+2 IgG Ab [Presence] in Serum or Plasma by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE136",
+        "code": "43008-2",
         "display": "HIV 1+2 IgM Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.A2.DE137",
+        "code": "41290-8",
         "display": "HIV 1+2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE138",
+        "code": "57975-5",
         "display": "HIV 1+O+2 Ab [Presence] in Body fluid"
       }, {
-        "code": "NACHC.A2.DE139",
+        "code": "48345-3",
         "display": "HIV 1+O+2 Ab [Presence] in Serum or Plasma"
       }, {
-        "code": "NACHC.A2.DE140",
+        "code": "48346-1",
         "display": "HIV 1+O+2 Ab [Units/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.A2.DE141",
+        "code": "47029-4",
         "display": "HIV 2 Ab [Presence] in Cerebral spinal fluid by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE142",
+        "code": "2198486",
         "display": "HIV 2 Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE143",
+        "code": "1214646",
         "display": "HIV 2 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE144",
+        "code": "30361-0",
         "display": "HIV 2 Ab [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE145",
+        "code": "81641-3",
         "display": "HIV 2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.A2.DE146",
+        "code": "22358-6",
         "display": "HIV 2 Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.A2.DE147",
+        "code": "1214068",
         "display": "HIV 2 Ab [Units/volume] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE148",
+        "code": "31073-0",
         "display": "HIV 2 Ab band pattern [Interpretation] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE149",
+        "code": "51786-2",
         "display": "HIV 2 Ab Signal/Cutoff in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.A2.DE150",
+        "code": "21334-8",
         "display": "HIV 2 gp105 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE151",
+        "code": "21335-5",
         "display": "HIV 2 gp120 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE152",
+        "code": "10901-7",
         "display": "HIV 2 gp125 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE153",
+        "code": "57976-3",
         "display": "HIV 2 gp140 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE154",
+        "code": "21336-3",
         "display": "HIV 2 gp15 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE155",
+        "code": "21337-1",
         "display": "HIV 2 gp34 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE156",
+        "code": "10902-5",
         "display": "HIV 2 gp36 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE157",
+        "code": "11078-3",
         "display": "HIV 2 gp80 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE158",
+        "code": "33807-9",
         "display": "HIV 2 IgG Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.A2.DE159",
+        "code": "33806-1",
         "display": "HIV 2 IgG Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE160",
+        "code": "62456-9",
         "display": "HIV 2 p15 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE161",
+        "code": "57977-1",
         "display": "HIV 2 p16 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE162",
+        "code": "11079-1",
         "display": "HIV 2 p26 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE163",
+        "code": "21338-9",
         "display": "HIV 2 p31 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE164",
+        "code": "45212-8",
         "display": "HIV 2 p31+p34 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE165",
+        "code": "57978-9",
         "display": "HIV 2 p34 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE166",
+        "code": "13920-4",
         "display": "HIV 2 p41 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE167",
+        "code": "11080-9",
         "display": "HIV 2 p53 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE168",
+        "code": "21339-7",
         "display": "HIV 2 p55 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE169",
+        "code": "11081-7",
         "display": "HIV 2 p56 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE170",
+        "code": "21340-5",
         "display": "HIV 2 p58 Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.A2.DE171",
+        "code": "11082-5",
         "display": "HIV 2 p68 Ab [Presence] in Serum by Immunoblot"
       } ]
     } ]

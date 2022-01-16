@@ -41,22 +41,7 @@
       "short": "DAST 10 Question 10",
       "min": 1,
       "max": "1",
-      "fixedCodeableConcept": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.H2.DE11",
-          "display": "DAST 10 Score"
-        } ]
-      },
       "mustSupport": true,
-      "binding": {
-        "extension": [ {
-          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "DAST 10 Question 10"
-        } ],
-        "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-h2-de10"
-      },
       "mapping": [ {
         "identity": "HIV",
         "map": "NACHC.H2.DE10"

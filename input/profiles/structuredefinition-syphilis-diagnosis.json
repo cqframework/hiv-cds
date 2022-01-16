@@ -46,10 +46,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Syphilis Diagnosis Choices Grouper"
+          "valueString": "Syphilis Diagnosis Codes Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de1-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de1-codes-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

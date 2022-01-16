@@ -2,20 +2,20 @@
   "resourceType": "ValueSet",
   "id": "nachc-b2-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de2",
-  "name": "HepatitisCAgChoices",
-  "title": "Hepatitis C Ag Choices",
+  "name": "HepatitisCAgCodes",
+  "title": "Hepatitis C Ag Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Hepatitis C Ag Choices element",
+  "description": "Codes representing possible values for the Hepatitis C Ag element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.B2.DE2",
+        "code": "79189-7",
         "display": "Hepatitis C virus core Ag [Presence] in Serum or Plasma by Immunoassay"
       }, {
-        "code": "NACHC.B2.DE3",
+        "code": "54914-7",
         "display": "Hepatitis C virus core Ag [Units/volume] in Serum by Immunoassay"
       } ]
     } ]

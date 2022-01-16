@@ -42,15 +42,14 @@
       "comment": "HCV test mapping??Secondary  Sourced: https://confluence.nachc.org/pages/viewpage.action?pageId=14485048",
       "min": 1,
       "max": "1",
-      "mustSupport": true,
-      "binding": {
-        "extension": [ {
-          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Hepatitis C Test"
-        } ],
-        "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1"
+      "patternCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.B2.DE1",
+          "display": "Hepatitis C Test"
+        } ]
       },
+      "mustSupport": true,
       "mapping": [ {
         "identity": "HIV",
         "map": "NACHC.B2.DE1"
@@ -62,17 +61,14 @@
       "comment": "HCV test mapping??Secondary  Sourced: https://confluence.nachc.org/pages/viewpage.action?pageId=14485048",
       "min": 1,
       "max": "1",
-      "type": [ {
-        "code": "CodeableConcept"
-      } ],
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Hepatitis C Test Choices Grouper"
+          "valueString": "Hepatitis C Test Codes Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1-codes-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

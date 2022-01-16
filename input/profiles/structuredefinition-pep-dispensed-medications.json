@@ -49,10 +49,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "PEP Dispensed Medications Choices Grouper"
+          "valueString": "PEP Dispensed Medications Codes Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de143-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de143-codes-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

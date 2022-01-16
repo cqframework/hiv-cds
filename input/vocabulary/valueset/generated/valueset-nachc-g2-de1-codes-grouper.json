@@ -1,0 +1,125 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de1-codes-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1-codes-grouper",
+  "name": "PrepMedicationPrescriptionsCodesGrouper",
+  "title": "Prep Medication Prescriptions Codes Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-01-16T15:50:39-07:00",
+  "description": "Group Valueset with codes representing possible values for the Prep Medication Prescriptions Codes Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de2" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de7" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de15" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de18" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de22" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2022-01-16T15:50:39-07:00",
+    "contains": [ {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "403875",
+      "display": "emtricitabine 200 MG Oral Capsule"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "404587",
+      "display": "emtricitabine 200 MG Oral Capsule [Emtriva]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "406016",
+      "display": "emtricitabine 200 MG"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "576513",
+      "display": "emtricitabine 200 MG [Emtriva]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "639883",
+      "display": "emtricitabine 200 MG Oral Tablet"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1727491",
+      "display": "emtricitabine / tenofovir alafenamide"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1747688",
+      "display": "emtricitabine / tenofovir alafenamide Oral Product"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1747689",
+      "display": "emtricitabine / tenofovir alafenamide Pill"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1747690",
+      "display": "emtricitabine / tenofovir alafenamide Oral Tablet"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1747691",
+      "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1747693",
+      "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1747694",
+      "display": "emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1747697",
+      "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "476556",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "639887",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "639888",
+      "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1741729",
+      "display": "tenofovir alafenamide 25 MG"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1858261",
+      "display": "tenofovir alafenamide 25 MG Oral Tablet"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1858263",
+      "display": "tenofovir alafenamide 25 MG [Vemlidy]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1858267",
+      "display": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "349251",
+      "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "352050",
+      "display": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "393334",
+      "display": "tenofovir disoproxil fumarate 300 MG"
+    }, {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "575802",
+      "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
+    } ]
+  }
+}

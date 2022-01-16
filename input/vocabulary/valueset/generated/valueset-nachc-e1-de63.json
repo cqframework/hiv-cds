@@ -2,92 +2,92 @@
   "resourceType": "ValueSet",
   "id": "nachc-e1-de63",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de63",
-  "name": "ChlamydiatrachomatisorganismChoices",
-  "title": "Chlamydia trachomatis organism Choices",
+  "name": "ChlamydiatrachomatisorganismCodes",
+  "title": "Chlamydia trachomatis organism Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Chlamydia trachomatis organism Choices element",
+  "description": "Codes representing possible values for the Chlamydia trachomatis organism element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.E1.DE63",
+        "code": "112121000119105",
         "display": "Venereal disease caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE64",
+        "code": "115289001",
         "display": "Chlamydia trachomatis, serotype A (organism)"
       }, {
-        "code": "NACHC.E1.DE65",
+        "code": "115290005",
         "display": "Chlamydia trachomatis, serotype B (organism)"
       }, {
-        "code": "NACHC.E1.DE66",
+        "code": "115291009",
         "display": "Chlamydia trachomatis, serotype Ba (organism)"
       }, {
-        "code": "NACHC.E1.DE67",
+        "code": "115292002",
         "display": "Chlamydia trachomatis, serotype C (organism)"
       }, {
-        "code": "NACHC.E1.DE68",
+        "code": "115293007",
         "display": "Chlamydia trachomatis, serotype D (organism)"
       }, {
-        "code": "NACHC.E1.DE69",
+        "code": "115294001",
         "display": "Chlamydia trachomatis, serotype E (organism)"
       }, {
-        "code": "NACHC.E1.DE70",
+        "code": "115295000",
         "display": "Chlamydia trachomatis, serotype F (organism)"
       }, {
-        "code": "NACHC.E1.DE71",
+        "code": "115296004",
         "display": "Chlamydia trachomatis, serotype I (organism)"
       }, {
-        "code": "NACHC.E1.DE72",
+        "code": "115297008",
         "display": "Chlamydia trachomatis, serotype J (organism)"
       }, {
-        "code": "NACHC.E1.DE73",
+        "code": "115298003",
         "display": "Chlamydia trachomatis, serotype K (organism)"
       }, {
-        "code": "NACHC.E1.DE74",
+        "code": "115299006",
         "display": "Chlamydia trachomatis, serotype L (organism)"
       }, {
-        "code": "NACHC.E1.DE75",
+        "code": "115300003",
         "display": "Chlamydia trachomatis, serotype L1 (organism)"
       }, {
-        "code": "NACHC.E1.DE76",
+        "code": "115301004",
         "display": "Chlamydia trachomatis, serotype L2 (organism)"
       }, {
-        "code": "NACHC.E1.DE77",
+        "code": "115318000",
         "display": "Chlamydia trachomatis, serotype L3 (organism)"
       }, {
-        "code": "NACHC.E1.DE78",
+        "code": "115319008",
         "display": "Chlamydia trachomatis, serotype G (organism)"
       }, {
-        "code": "NACHC.E1.DE79",
+        "code": "115328009",
         "display": "Chlamydia trachomatis, serotype H (organism)"
       }, {
-        "code": "NACHC.E1.DE80",
+        "code": "121002007",
         "display": "Antigen of Chlamydia trachomatis (substance)"
       }, {
-        "code": "NACHC.E1.DE81",
+        "code": "121015003",
         "display": "Antigen of Chlamydia trachomatis serotype F (substance)"
       }, {
-        "code": "NACHC.E1.DE82",
+        "code": "121016002",
         "display": "Antigen of Chlamydia trachomatis serotype G (substance)"
       }, {
-        "code": "NACHC.E1.DE83",
+        "code": "121017006",
         "display": "Antigen of Chlamydia trachomatis serotype K (substance)"
       }, {
-        "code": "NACHC.E1.DE84",
+        "code": "121106008",
         "display": "Ribosomal ribonucleic acid of Chlamydia trachomatis (substance)"
       }, {
-        "code": "NACHC.E1.DE85",
+        "code": "121181000",
         "display": "Deoxyribonucleic acid of Chlamydia trachomatis (substance)"
       }, {
-        "code": "NACHC.E1.DE86",
+        "code": "143511000119105",
         "display": "Perihepatitis caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE87",
+        "code": "1621000119101",
         "display": "Chlamydia trachomatis infection in pregnancy (disorder)"
       }, {
-        "code": "NACHC.E1.DE88",
+        "code": "179101003",
         "display": "Urethritis caused by Chlamydia trachomatis (disorder)"
       } ]
     } ]

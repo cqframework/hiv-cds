@@ -2,86 +2,89 @@
   "resourceType": "ValueSet",
   "id": "nachc-e1-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de2",
-  "name": "ChlamydiaChoices",
-  "title": "Chlamydia Choices",
+  "name": "ChlamydiaCodes",
+  "title": "Chlamydia Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Chlamydia Choices element",
+  "description": "Codes representing possible values for the Chlamydia element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/icd-10",
       "concept": [ {
-        "code": "NACHC.E1.DE2",
+        "code": "A55",
         "display": "Chlamydial lymphogranuloma (venereum)"
       }, {
-        "code": "NACHC.E1.DE3",
+        "code": "A56.00",
         "display": "Chlamydial infection of lower genitourinary tract, unspecified"
       }, {
-        "code": "NACHC.E1.DE4",
+        "code": "A56.01",
         "display": "Chlamydial cystitis and urethritis"
       }, {
-        "code": "NACHC.E1.DE5",
+        "code": "A56.09",
         "display": "Other chlamydial infection of lower genitourinary tract"
-      }, {
-        "code": "NACHC.E1.DE6",
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "105629000",
         "display": "Chlamydial infection (disorder)"
       }, {
-        "code": "NACHC.E1.DE7",
+        "code": "10750051000119100",
         "display": "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
       }, {
-        "code": "NACHC.E1.DE8",
+        "code": "1084821000119100",
         "display": "Cystitis caused by Chlamydia (disorder)"
       }, {
-        "code": "NACHC.E1.DE9",
+        "code": "442505006",
         "display": "Chlamydia trachomatis, serotype Ja (organism)"
       }, {
-        "code": "NACHC.E1.DE10",
+        "code": "446471004",
         "display": "Infection of epididymis caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE11",
+        "code": "446594000",
         "display": "Infection of pharynx caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE12",
+        "code": "446642005",
         "display": "Infection of anus caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE13",
+        "code": "446752000",
         "display": "Infection of peritoneum caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE14",
+        "code": "446902002",
         "display": "Infection of testis caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE15",
+        "code": "447353001",
         "display": "Infection of cervix caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE16",
+        "code": "447372001",
         "display": "Infection of rectum caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE17",
+        "code": "447386002",
         "display": "Infection of vulva caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE18",
+        "code": "447402003",
         "display": "Infection of vagina caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE19",
+        "code": "460618008",
         "display": "Endocarditis caused by Genus Chlamydia (disorder)"
       }, {
-        "code": "NACHC.E1.DE20",
+        "code": "59134003",
         "display": "Lymphogranuloma venereum antigen (substance)"
       }, {
-        "code": "NACHC.E1.DE21",
+        "code": "59484000",
         "display": "Chlamydial polyarthritis (disorder)"
       }, {
-        "code": "NACHC.E1.DE22",
+        "code": "63938009",
         "display": "Chlamydia trachomatis (organism)"
       }, {
-        "code": "NACHC.E1.DE23",
+        "code": "708219005",
         "display": "Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)"
       }, {
-        "code": "NACHC.E1.DE24",
+        "code": "722520001",
         "display": "Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)"
       }, {
-        "code": "NACHC.E1.DE25",
+        "code": "722552001",
         "display": "Sequela of infection caused by Chlamydia (disorder)"
       } ]
     } ]

@@ -46,7 +46,7 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Injection Drug Use Diagnosis Choices"
+          "valueString": "Injection Drug Use Diagnosis Codes"
         } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de16"

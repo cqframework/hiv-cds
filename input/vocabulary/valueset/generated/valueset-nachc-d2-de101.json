@@ -2,20 +2,20 @@
   "resourceType": "ValueSet",
   "id": "nachc-d2-de101",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de101",
-  "name": "GonorrheaTestsandChlamydiaGonorrheaCombinedTestsChoices",
-  "title": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Choices",
+  "name": "GonorrheaTestsandChlamydiaGonorrheaCombinedTestsCodes",
+  "title": "Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Choices element",
+  "description": "Codes representing possible values for the Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.D2.DE101",
+        "code": "45067-6",
         "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
       }, {
-        "code": "NACHC.D2.DE102",
+        "code": "1675429",
         "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
       } ]
     } ]

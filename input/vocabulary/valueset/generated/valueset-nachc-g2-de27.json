@@ -2,38 +2,38 @@
   "resourceType": "ValueSet",
   "id": "nachc-g2-de27",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de27",
-  "name": "EmtricitabineFTC200mgSuppliedChoices",
-  "title": "Emtricitabine (FTC) 200mg Supplied Choices",
+  "name": "EmtricitabineFTC200mgSuppliedCodes",
+  "title": "Emtricitabine (FTC) 200mg Supplied Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Emtricitabine (FTC) 200mg Supplied Choices element",
+  "description": "Codes representing possible values for the Emtricitabine (FTC) 200mg Supplied element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/ndc",
       "concept": [ {
-        "code": "NACHC.G2.DE27",
+        "code": "24236-297",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)"
       }, {
-        "code": "NACHC.G2.DE28",
+        "code": "46014-0601",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)"
       }, {
-        "code": "NACHC.G2.DE29",
+        "code": "53808-0801",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)"
       }, {
-        "code": "NACHC.G2.DE30",
+        "code": "54868-4853",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)"
       }, {
-        "code": "NACHC.G2.DE31",
+        "code": "61958-0601",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)"
       }, {
-        "code": "NACHC.G2.DE32",
+        "code": "69097-642",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE"
       }, {
-        "code": "NACHC.G2.DE33",
+        "code": "70518-1847",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE (Emtriva)"
       }, {
-        "code": "NACHC.G2.DE34",
+        "code": "70518-2906",
         "display": "EMTRICITABINE 200mg/1 ORAL CAPSULE"
       } ]
     } ]

@@ -7,9 +7,9 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H1.DE5",
-      "display": "Patient Diagnosed with Syphilis"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Could not resolve binding valueset null"
     } ]
   },
   "subject": {

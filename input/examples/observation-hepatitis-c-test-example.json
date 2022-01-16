@@ -7,9 +7,9 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.B2.DE1",
-      "display": "Hepatitis C Test"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Could not resolve binding valueset null"
     } ]
   },
   "subject": {
@@ -23,10 +23,6 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.B2.DE111",
-      "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
-    }, {
       "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
       "code": "G0472",
       "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"

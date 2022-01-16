@@ -6,10 +6,6 @@
   },
   "medicationCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.G2.DE106",
-      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
-    }, {
       "system": "http://hl7.org/fhir/sid/ndc",
       "code": "70518-2151",
       "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"

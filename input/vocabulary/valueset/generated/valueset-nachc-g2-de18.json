@@ -2,26 +2,26 @@
   "resourceType": "ValueSet",
   "id": "nachc-g2-de18",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de18",
-  "name": "TenofovirAlafenamideTAF25mgOrderChoices",
-  "title": "Tenofovir Alafenamide (TAF) 25 mg Order Choices",
+  "name": "TenofovirAlafenamideTAF25mgOrderCodes",
+  "title": "Tenofovir Alafenamide (TAF) 25 mg Order Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Tenofovir Alafenamide (TAF) 25 mg Order Choices element",
+  "description": "Codes representing possible values for the Tenofovir Alafenamide (TAF) 25 mg Order element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "concept": [ {
-        "code": "NACHC.G2.DE18",
+        "code": "1741729",
         "display": "tenofovir alafenamide 25 MG"
       }, {
-        "code": "NACHC.G2.DE19",
+        "code": "1858261",
         "display": "tenofovir alafenamide 25 MG Oral Tablet"
       }, {
-        "code": "NACHC.G2.DE20",
+        "code": "1858263",
         "display": "tenofovir alafenamide 25 MG [Vemlidy]"
       }, {
-        "code": "NACHC.G2.DE21",
+        "code": "1858267",
         "display": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]"
       } ]
     } ]

@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "id": "nachc-b2-de113",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113",
-  "name": "HepatitisCProceduresChoices",
-  "title": "Hepatitis C Procedures Choices",
+  "name": "HepatitisCProceduresCodes",
+  "title": "Hepatitis C Procedures Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Hepatitis C Procedures Choices element",
+  "description": "Codes representing possible values for the Hepatitis C Procedures element",
   "immutable": true,
   "compose": {
     "include": [ {

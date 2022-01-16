@@ -2,242 +2,242 @@
   "resourceType": "ValueSet",
   "id": "nachc-c2-de8",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de8",
-  "name": "SyphilisTestsforTreponemalorNonAntibodyChoices",
-  "title": "Syphilis (Tests for Treponemal or Non Antibody) Choices",
+  "name": "SyphilisTestsforTreponemalorNonAntibodyCodes",
+  "title": "Syphilis (Tests for Treponemal or Non Antibody) Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Syphilis (Tests for Treponemal or Non Antibody) Choices element",
+  "description": "Codes representing possible values for the Syphilis (Tests for Treponemal or Non Antibody) element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.C2.DE8",
+        "code": "22459-2",
         "display": "Reagin Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE9",
+        "code": "1238206",
         "display": "Reagin Ab [Presence] in Cerebral spinal fluid by VDRL"
       }, {
-        "code": "NACHC.C2.DE10",
+        "code": "43813-5",
         "display": "Reagin Ab [Presence] in Cord blood"
       }, {
-        "code": "NACHC.C2.DE11",
+        "code": "51783-9",
         "display": "Reagin Ab [Presence] in Cord blood by VDRL"
       }, {
-        "code": "NACHC.C2.DE12",
+        "code": "22461-8",
         "display": "Reagin Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.C2.DE13",
+        "code": "20507-0",
         "display": "Reagin Ab [Presence] in Serum by RPR"
       }, {
-        "code": "NACHC.C2.DE14",
+        "code": "1239118",
         "display": "Reagin Ab [Presence] in Serum by VDRL"
       }, {
-        "code": "NACHC.C2.DE15",
+        "code": "22464-2",
         "display": "Reagin Ab [Presence] in Unspecified specimen"
       }, {
-        "code": "NACHC.C2.DE16",
+        "code": "14904-7",
         "display": "Reagin Ab [Presence] in Unspecified specimen by VDRL"
       }, {
-        "code": "NACHC.C2.DE17",
+        "code": "46203-6",
         "display": "Reagin Ab [Titer] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE18",
+        "code": "87925-4",
         "display": "Reagin Ab [Titer] in Cerebral spinal fluid by RPR"
       }, {
-        "code": "NACHC.C2.DE19",
+        "code": "31146-4",
         "display": "Reagin Ab [Titer] in Cerebral spinal fluid by VDRL"
       }, {
-        "code": "NACHC.C2.DE20",
+        "code": "11084-1",
         "display": "Reagin Ab [Titer] in Serum"
       }, {
-        "code": "NACHC.C2.DE21",
+        "code": "31147-2",
         "display": "Reagin Ab [Titer] in Serum by RPR"
       }, {
-        "code": "NACHC.C2.DE22",
+        "code": "50690-7",
         "display": "Reagin Ab [Titer] in Serum by VDRL"
       }, {
-        "code": "NACHC.C2.DE23",
+        "code": "47476-7",
         "display": "Reagin Ab [Titer] in Unspecified specimen"
       }, {
-        "code": "NACHC.C2.DE24",
+        "code": "47235-7",
         "display": "Reagin Ab [Titer] in Unspecified specimen by VDRL"
       }, {
-        "code": "NACHC.C2.DE25",
+        "code": "22460-0",
         "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE26",
+        "code": "1237900",
         "display": "Reagin Ab [Units/volume] in Cerebral spinal fluid by VDRL"
       }, {
-        "code": "NACHC.C2.DE27",
+        "code": "22462-6",
         "display": "Reagin Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.C2.DE28",
+        "code": "20508-8",
         "display": "Reagin Ab [Units/volume] in Serum by RPR"
       }, {
-        "code": "NACHC.C2.DE29",
+        "code": "5291-0",
         "display": "Reagin Ab [Units/volume] in Serum by VDRL"
       }, {
-        "code": "NACHC.C2.DE30",
+        "code": "73752-8",
         "display": "Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma"
       }, {
-        "code": "NACHC.C2.DE31",
+        "code": "22586-2",
         "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE32",
+        "code": "50689-9",
         "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Hemagglutination"
       }, {
-        "code": "NACHC.C2.DE33",
+        "code": "2895157",
         "display": "Treponema pallidum Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE34",
+        "code": "22587-0",
         "display": "Treponema pallidum Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.C2.DE35",
+        "code": "24312-1",
         "display": "Treponema pallidum Ab [Presence] in Serum by Agglutination"
       }, {
-        "code": "NACHC.C2.DE36",
+        "code": "2243108",
         "display": "Treponema pallidum Ab [Presence] in Serum by Hemagglutination"
       }, {
-        "code": "NACHC.C2.DE37",
+        "code": "17723-8",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immobilization"
       }, {
-        "code": "NACHC.C2.DE38",
+        "code": "24110-9",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "NACHC.C2.DE39",
+        "code": "57032-5",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.C2.DE40",
+        "code": "1275885",
         "display": "Treponema pallidum Ab [Presence] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE41",
+        "code": "51475-2",
         "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE42",
+        "code": "50695-6",
         "display": "Treponema pallidum Ab [Titer] in Cerebral spinal fluid by Hemagglutination"
       }, {
-        "code": "NACHC.C2.DE43",
+        "code": "22590-4",
         "display": "Treponema pallidum Ab [Titer] in Serum"
       }, {
-        "code": "NACHC.C2.DE44",
+        "code": "26009-1",
         "display": "Treponema pallidum Ab [Titer] in Serum by Hemagglutination"
       }, {
-        "code": "NACHC.C2.DE45",
+        "code": "34382-2",
         "display": "Treponema pallidum Ab [Titer] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE46",
+        "code": "1276191",
         "display": "Treponema pallidum Ab [Titer] in Serum by Latex agglutination"
       }, {
-        "code": "NACHC.C2.DE47",
+        "code": "71793-4",
         "display": "Treponema pallidum Ab [Titer] in Serum or Plasma by Agglutination"
       }, {
-        "code": "NACHC.C2.DE48",
+        "code": "22585-4",
         "display": "Treponema pallidum Ab [Units/volume] in Blood"
       }, {
-        "code": "NACHC.C2.DE49",
+        "code": "13288-6",
         "display": "Treponema pallidum Ab [Units/volume] in Blood by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE50",
+        "code": "47511-1",
         "display": "Treponema pallidum Ab [Units/volume] in Body fluid"
       }, {
-        "code": "NACHC.C2.DE51",
+        "code": "39015-3",
         "display": "Treponema pallidum Ab [Units/volume] in Body fluid by Hemagglutination"
       }, {
-        "code": "NACHC.C2.DE52",
+        "code": "51474-5",
         "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE53",
+        "code": "49800-6",
         "display": "Treponema pallidum Ab [Units/volume] in Cerebral spinal fluid by Hemagglutination"
       }, {
-        "code": "NACHC.C2.DE54",
+        "code": "11597-2",
         "display": "Treponema pallidum Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.C2.DE55",
+        "code": "1275581",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Immobilization"
       }, {
-        "code": "NACHC.C2.DE56",
+        "code": "63464-2",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "NACHC.C2.DE57",
+        "code": "17724-6",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE58",
+        "code": "17725-3",
         "display": "Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination"
       }, {
-        "code": "NACHC.C2.DE59",
+        "code": "41122-3",
         "display": "Treponema pallidum Ab [Units/volume] in Unspecified specimen"
       }, {
-        "code": "NACHC.C2.DE60",
+        "code": "58031-6",
         "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE61",
+        "code": "58751-9",
         "display": "Treponema pallidum IgG Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE62",
+        "code": "1702518",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.C2.DE63",
+        "code": "47238-1",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "NACHC.C2.DE64",
+        "code": "40679-3",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.C2.DE65",
+        "code": "17726-1",
         "display": "Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE66",
+        "code": "47512-9",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE67",
+        "code": "47051-8",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE68",
+        "code": "22592-0",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.C2.DE69",
+        "code": "51838-1",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "NACHC.C2.DE70",
+        "code": "17727-9",
         "display": "Treponema pallidum IgG Ab [Units/volume] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE71",
+        "code": "34147-9",
         "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.C2.DE72",
+        "code": "47236-5",
         "display": "Treponema pallidum IgG+IgM Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "NACHC.C2.DE73",
+        "code": "69946-2",
         "display": "Treponema pallidum IgM Ab [Presence] in Cerebral spinal fluid by Immunoblot"
       }, {
-        "code": "NACHC.C2.DE74",
+        "code": "1702822",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum"
       }, {
-        "code": "NACHC.C2.DE75",
+        "code": "47237-3",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoassay"
       }, {
-        "code": "NACHC.C2.DE76",
+        "code": "40680-1",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunoblot"
       }, {
-        "code": "NACHC.C2.DE77",
+        "code": "17729-5",
         "display": "Treponema pallidum IgM Ab [Presence] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE78",
+        "code": "47514-5",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.C2.DE79",
+        "code": "47063-3",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE80",
+        "code": "22594-6",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Serum"
       }, {
-        "code": "NACHC.C2.DE81",
+        "code": "51839-9",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunoassay"
       }, {
-        "code": "NACHC.C2.DE82",
+        "code": "17728-7",
         "display": "Treponema pallidum IgM Ab [Units/volume] in Serum by Immunofluorescence"
       }, {
-        "code": "NACHC.C2.DE83",
+        "code": "26658-5",
         "display": "Treponema sp Ab [Presence] in Serum"
       } ]
     } ]

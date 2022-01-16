@@ -2,38 +2,38 @@
   "resourceType": "ValueSet",
   "id": "nachc-g2-de7",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de7",
-  "name": "TAF25mgFTC200mgOrderChoices",
-  "title": "TAF 25mg / FTC 200mg Order Choices",
+  "name": "TAF25mgFTC200mgOrderCodes",
+  "title": "TAF 25mg / FTC 200mg Order Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the TAF 25mg / FTC 200mg Order Choices element",
+  "description": "Codes representing possible values for the TAF 25mg / FTC 200mg Order element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "concept": [ {
-        "code": "NACHC.G2.DE7",
+        "code": "1727491",
         "display": "emtricitabine / tenofovir alafenamide"
       }, {
-        "code": "NACHC.G2.DE8",
+        "code": "1747688",
         "display": "emtricitabine / tenofovir alafenamide Oral Product"
       }, {
-        "code": "NACHC.G2.DE9",
+        "code": "1747689",
         "display": "emtricitabine / tenofovir alafenamide Pill"
       }, {
-        "code": "NACHC.G2.DE10",
+        "code": "1747690",
         "display": "emtricitabine / tenofovir alafenamide Oral Tablet"
       }, {
-        "code": "NACHC.G2.DE11",
+        "code": "1747691",
         "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet"
       }, {
-        "code": "NACHC.G2.DE12",
+        "code": "1747693",
         "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG [Descovy]"
       }, {
-        "code": "NACHC.G2.DE13",
+        "code": "1747694",
         "display": "emtricitabine / tenofovir alafenamide Oral Tablet [Descovy]"
       }, {
-        "code": "NACHC.G2.DE14",
+        "code": "1747697",
         "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]"
       } ]
     } ]

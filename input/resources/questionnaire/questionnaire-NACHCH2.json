@@ -86,7 +86,8 @@
     "type": "boolean"
   }, {
     "linkId": "11",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-score#Observation.value[x]",
     "text": "DAST 10 Score",
-    "type": "boolean"
+    "type": "integer"
   } ]
 }

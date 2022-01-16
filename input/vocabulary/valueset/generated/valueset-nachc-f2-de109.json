@@ -2,1703 +2,1703 @@
   "resourceType": "ValueSet",
   "id": "nachc-f2-de109",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de109",
-  "name": "MaternalCareChoices",
-  "title": "Maternal Care Choices",
+  "name": "MaternalCareCodes",
+  "title": "Maternal Care Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Maternal Care Choices element",
+  "description": "Codes representing possible values for the Maternal Care element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/icd-10",
       "concept": [ {
-        "code": "NACHC.F2.DE109",
+        "code": "O32.0XX0",
         "display": "Maternal care for unstable lie, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE110",
+        "code": "O32.0XX1",
         "display": "Maternal care for unstable lie, fetus 1"
       }, {
-        "code": "NACHC.F2.DE111",
+        "code": "O32.0XX2",
         "display": "Maternal care for unstable lie, fetus 2"
       }, {
-        "code": "NACHC.F2.DE112",
+        "code": "O32.0XX3",
         "display": "Maternal care for unstable lie, fetus 3"
       }, {
-        "code": "NACHC.F2.DE113",
+        "code": "O32.0XX4",
         "display": "Maternal care for unstable lie, fetus 4"
       }, {
-        "code": "NACHC.F2.DE114",
+        "code": "O32.0XX5",
         "display": "Maternal care for unstable lie, fetus 5"
       }, {
-        "code": "NACHC.F2.DE115",
+        "code": "O32.0XX9",
         "display": "Maternal care for unstable lie, other fetus"
       }, {
-        "code": "NACHC.F2.DE116",
+        "code": "O32.1XX0",
         "display": "Maternal care for breech presentation, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE117",
+        "code": "O32.1XX1",
         "display": "Maternal care for breech presentation, fetus 1"
       }, {
-        "code": "NACHC.F2.DE118",
+        "code": "O32.1XX2",
         "display": "Maternal care for breech presentation, fetus 2"
       }, {
-        "code": "NACHC.F2.DE119",
+        "code": "O32.1XX3",
         "display": "Maternal care for breech presentation, fetus 3"
       }, {
-        "code": "NACHC.F2.DE120",
+        "code": "O32.1XX4",
         "display": "Maternal care for breech presentation, fetus 4"
       }, {
-        "code": "NACHC.F2.DE121",
+        "code": "O32.1XX5",
         "display": "Maternal care for breech presentation, fetus 5"
       }, {
-        "code": "NACHC.F2.DE122",
+        "code": "O32.1XX9",
         "display": "Maternal care for breech presentation, other fetus"
       }, {
-        "code": "NACHC.F2.DE123",
+        "code": "O32.2XX0",
         "display": "Maternal care for transverse and oblique lie, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE124",
+        "code": "O32.2XX1",
         "display": "Maternal care for transverse and oblique lie, fetus 1"
       }, {
-        "code": "NACHC.F2.DE125",
+        "code": "O32.2XX2",
         "display": "Maternal care for transverse and oblique lie, fetus 2"
       }, {
-        "code": "NACHC.F2.DE126",
+        "code": "O32.2XX3",
         "display": "Maternal care for transverse and oblique lie, fetus 3"
       }, {
-        "code": "NACHC.F2.DE127",
+        "code": "O32.2XX4",
         "display": "Maternal care for transverse and oblique lie, fetus 4"
       }, {
-        "code": "NACHC.F2.DE128",
+        "code": "O32.2XX5",
         "display": "Maternal care for transverse and oblique lie, fetus 5"
       }, {
-        "code": "NACHC.F2.DE129",
+        "code": "O32.2XX9",
         "display": "Maternal care for transverse and oblique lie, other fetus"
       }, {
-        "code": "NACHC.F2.DE130",
+        "code": "O32.3XX0",
         "display": "Maternal care for face, brow and chin presentation, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE131",
+        "code": "O32.3XX1",
         "display": "Maternal care for face, brow and chin presentation, fetus 1"
       }, {
-        "code": "NACHC.F2.DE132",
+        "code": "O32.3XX2",
         "display": "Maternal care for face, brow and chin presentation, fetus 2"
       }, {
-        "code": "NACHC.F2.DE133",
+        "code": "O32.3XX3",
         "display": "Maternal care for face, brow and chin presentation, fetus 3"
       }, {
-        "code": "NACHC.F2.DE134",
+        "code": "O32.3XX4",
         "display": "Maternal care for face, brow and chin presentation, fetus 4"
       }, {
-        "code": "NACHC.F2.DE135",
+        "code": "O32.3XX5",
         "display": "Maternal care for face, brow and chin presentation, fetus 5"
       }, {
-        "code": "NACHC.F2.DE136",
+        "code": "O32.3XX9",
         "display": "Maternal care for face, brow and chin presentation, other fetus"
       }, {
-        "code": "NACHC.F2.DE137",
+        "code": "O32.4XX0",
         "display": "Maternal care for high head at term, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE138",
+        "code": "O32.4XX1",
         "display": "Maternal care for high head at term, fetus 1"
       }, {
-        "code": "NACHC.F2.DE139",
+        "code": "O32.4XX2",
         "display": "Maternal care for high head at term, fetus 2"
       }, {
-        "code": "NACHC.F2.DE140",
+        "code": "O32.4XX3",
         "display": "Maternal care for high head at term, fetus 3"
       }, {
-        "code": "NACHC.F2.DE141",
+        "code": "O32.4XX4",
         "display": "Maternal care for high head at term, fetus 4"
       }, {
-        "code": "NACHC.F2.DE142",
+        "code": "O32.4XX5",
         "display": "Maternal care for high head at term, fetus 5"
       }, {
-        "code": "NACHC.F2.DE143",
+        "code": "O32.4XX9",
         "display": "Maternal care for high head at term, other fetus"
       }, {
-        "code": "NACHC.F2.DE144",
+        "code": "O32.6XX0",
         "display": "Maternal care for compound presentation, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE145",
+        "code": "O32.6XX1",
         "display": "Maternal care for compound presentation, fetus 1"
       }, {
-        "code": "NACHC.F2.DE146",
+        "code": "O32.6XX2",
         "display": "Maternal care for compound presentation, fetus 2"
       }, {
-        "code": "NACHC.F2.DE147",
+        "code": "O32.6XX3",
         "display": "Maternal care for compound presentation, fetus 3"
       }, {
-        "code": "NACHC.F2.DE148",
+        "code": "O32.6XX4",
         "display": "Maternal care for compound presentation, fetus 4"
       }, {
-        "code": "NACHC.F2.DE149",
+        "code": "O32.6XX5",
         "display": "Maternal care for compound presentation, fetus 5"
       }, {
-        "code": "NACHC.F2.DE150",
+        "code": "O32.6XX9",
         "display": "Maternal care for compound presentation, other fetus"
       }, {
-        "code": "NACHC.F2.DE151",
+        "code": "O32.8XX0",
         "display": "Maternal care for other malpresentation of fetus, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE152",
+        "code": "O32.8XX1",
         "display": "Maternal care for other malpresentation of fetus, fetus 1"
       }, {
-        "code": "NACHC.F2.DE153",
+        "code": "O32.8XX2",
         "display": "Maternal care for other malpresentation of fetus, fetus 2"
       }, {
-        "code": "NACHC.F2.DE154",
+        "code": "O32.8XX3",
         "display": "Maternal care for other malpresentation of fetus, fetus 3"
       }, {
-        "code": "NACHC.F2.DE155",
+        "code": "O32.8XX4",
         "display": "Maternal care for other malpresentation of fetus, fetus 4"
       }, {
-        "code": "NACHC.F2.DE156",
+        "code": "O32.8XX5",
         "display": "Maternal care for other malpresentation of fetus, fetus 5"
       }, {
-        "code": "NACHC.F2.DE157",
+        "code": "O32.8XX9",
         "display": "Maternal care for other malpresentation of fetus, other fetus"
       }, {
-        "code": "NACHC.F2.DE158",
+        "code": "O32.9XX0",
         "display": "Maternal care for malpresentation of fetus, unspecified, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE159",
+        "code": "O32.9XX1",
         "display": "Maternal care for malpresentation of fetus, unspecified, fetus 1"
       }, {
-        "code": "NACHC.F2.DE160",
+        "code": "O32.9XX2",
         "display": "Maternal care for malpresentation of fetus, unspecified, fetus 2"
       }, {
-        "code": "NACHC.F2.DE161",
+        "code": "O32.9XX3",
         "display": "Maternal care for malpresentation of fetus, unspecified, fetus 3"
       }, {
-        "code": "NACHC.F2.DE162",
+        "code": "O32.9XX4",
         "display": "Maternal care for malpresentation of fetus, unspecified, fetus 4"
       }, {
-        "code": "NACHC.F2.DE163",
+        "code": "O32.9XX5",
         "display": "Maternal care for malpresentation of fetus, unspecified, fetus 5"
       }, {
-        "code": "NACHC.F2.DE164",
+        "code": "O32.9XX9",
         "display": "Maternal care for malpresentation of fetus, unspecified, other fetus"
       }, {
-        "code": "NACHC.F2.DE165",
+        "code": "O33.0",
         "display": "Maternal care for disproportion due to deformity of maternal pelvic bones"
       }, {
-        "code": "NACHC.F2.DE166",
+        "code": "O33.1",
         "display": "Maternal care for disproportion due to generally contracted pelvis"
       }, {
-        "code": "NACHC.F2.DE167",
+        "code": "O33.2",
         "display": "Maternal care for disproportion due to inlet contraction of pelvis"
       }, {
-        "code": "NACHC.F2.DE168",
+        "code": "O33.3XX0",
         "display": "Maternal care for disproportion due to outlet contraction of pelvis, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE169",
+        "code": "O33.3XX1",
         "display": "Maternal care for disproportion due to outlet contraction of pelvis, fetus 1"
       }, {
-        "code": "NACHC.F2.DE170",
+        "code": "O33.3XX2",
         "display": "Maternal care for disproportion due to outlet contraction of pelvis, fetus 2"
       }, {
-        "code": "NACHC.F2.DE171",
+        "code": "O33.3XX3",
         "display": "Maternal care for disproportion due to outlet contraction of pelvis, fetus 3"
       }, {
-        "code": "NACHC.F2.DE172",
+        "code": "O33.3XX4",
         "display": "Maternal care for disproportion due to outlet contraction of pelvis, fetus 4"
       }, {
-        "code": "NACHC.F2.DE173",
+        "code": "O33.3XX5",
         "display": "Maternal care for disproportion due to outlet contraction of pelvis, fetus 5"
       }, {
-        "code": "NACHC.F2.DE174",
+        "code": "O33.3XX9",
         "display": "Maternal care for disproportion due to outlet contraction of pelvis, other fetus"
       }, {
-        "code": "NACHC.F2.DE175",
+        "code": "O33.4XX0",
         "display": "Maternal care for disproportion of mixed maternal and fetal origin, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE176",
+        "code": "O33.4XX1",
         "display": "Maternal care for disproportion of mixed maternal and fetal origin, fetus 1"
       }, {
-        "code": "NACHC.F2.DE177",
+        "code": "O33.4XX2",
         "display": "Maternal care for disproportion of mixed maternal and fetal origin, fetus 2"
       }, {
-        "code": "NACHC.F2.DE178",
+        "code": "O33.4XX3",
         "display": "Maternal care for disproportion of mixed maternal and fetal origin, fetus 3"
       }, {
-        "code": "NACHC.F2.DE179",
+        "code": "O33.4XX4",
         "display": "Maternal care for disproportion of mixed maternal and fetal origin, fetus 4"
       }, {
-        "code": "NACHC.F2.DE180",
+        "code": "O33.4XX5",
         "display": "Maternal care for disproportion of mixed maternal and fetal origin, fetus 5"
       }, {
-        "code": "NACHC.F2.DE181",
+        "code": "O33.4XX9",
         "display": "Maternal care for disproportion of mixed maternal and fetal origin, other fetus"
       }, {
-        "code": "NACHC.F2.DE182",
+        "code": "O33.5XX0",
         "display": "Maternal care for disproportion due to unusually large fetus, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE183",
+        "code": "O33.5XX1",
         "display": "Maternal care for disproportion due to unusually large fetus, fetus 1"
       }, {
-        "code": "NACHC.F2.DE184",
+        "code": "O33.5XX2",
         "display": "Maternal care for disproportion due to unusually large fetus, fetus 2"
       }, {
-        "code": "NACHC.F2.DE185",
+        "code": "O33.5XX3",
         "display": "Maternal care for disproportion due to unusually large fetus, fetus 3"
       }, {
-        "code": "NACHC.F2.DE186",
+        "code": "O33.5XX4",
         "display": "Maternal care for disproportion due to unusually large fetus, fetus 4"
       }, {
-        "code": "NACHC.F2.DE187",
+        "code": "O33.5XX5",
         "display": "Maternal care for disproportion due to unusually large fetus, fetus 5"
       }, {
-        "code": "NACHC.F2.DE188",
+        "code": "O33.5XX9",
         "display": "Maternal care for disproportion due to unusually large fetus, other fetus"
       }, {
-        "code": "NACHC.F2.DE189",
+        "code": "O33.6XX0",
         "display": "Maternal care for disproportion due to hydrocephalic fetus, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE190",
+        "code": "O33.6XX1",
         "display": "Maternal care for disproportion due to hydrocephalic fetus, fetus 1"
       }, {
-        "code": "NACHC.F2.DE191",
+        "code": "O33.6XX2",
         "display": "Maternal care for disproportion due to hydrocephalic fetus, fetus 2"
       }, {
-        "code": "NACHC.F2.DE192",
+        "code": "O33.6XX3",
         "display": "Maternal care for disproportion due to hydrocephalic fetus, fetus 3"
       }, {
-        "code": "NACHC.F2.DE193",
+        "code": "O33.6XX4",
         "display": "Maternal care for disproportion due to hydrocephalic fetus, fetus 4"
       }, {
-        "code": "NACHC.F2.DE194",
+        "code": "O33.6XX5",
         "display": "Maternal care for disproportion due to hydrocephalic fetus, fetus 5"
       }, {
-        "code": "NACHC.F2.DE195",
+        "code": "O33.6XX9",
         "display": "Maternal care for disproportion due to hydrocephalic fetus, other fetus"
       }, {
-        "code": "NACHC.F2.DE196",
+        "code": "O33.7",
         "display": "Maternal care for disproportion due to other fetal deformities"
       }, {
-        "code": "NACHC.F2.DE197",
+        "code": "O33.7XX0",
         "display": "Maternal care for disproportion due to other fetal deformities, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE198",
+        "code": "O33.7XX1",
         "display": "Maternal care for disproportion due to other fetal deformities, fetus 1"
       }, {
-        "code": "NACHC.F2.DE199",
+        "code": "O33.7XX2",
         "display": "Maternal care for disproportion due to other fetal deformities, fetus 2"
       }, {
-        "code": "NACHC.F2.DE200",
+        "code": "O33.7XX3",
         "display": "Maternal care for disproportion due to other fetal deformities, fetus 3"
       }, {
-        "code": "NACHC.F2.DE201",
+        "code": "O33.7XX4",
         "display": "Maternal care for disproportion due to other fetal deformities, fetus 4"
       }, {
-        "code": "NACHC.F2.DE202",
+        "code": "O33.7XX5",
         "display": "Maternal care for disproportion due to other fetal deformities, fetus 5"
       }, {
-        "code": "NACHC.F2.DE203",
+        "code": "O33.7XX9",
         "display": "Maternal care for disproportion due to other fetal deformities, other fetus"
       }, {
-        "code": "NACHC.F2.DE204",
+        "code": "O33.8",
         "display": "Maternal care for disproportion of other origin"
       }, {
-        "code": "NACHC.F2.DE205",
+        "code": "O33.9",
         "display": "Maternal care for disproportion, unspecified"
       }, {
-        "code": "NACHC.F2.DE206",
+        "code": "O34.00",
         "display": "Maternal care for unspecified congenital malformation of uterus, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE207",
+        "code": "O34.01",
         "display": "Maternal care for unspecified congenital malformation of uterus, first trimester"
       }, {
-        "code": "NACHC.F2.DE208",
+        "code": "O34.02",
         "display": "Maternal care for unspecified congenital malformation of uterus, second trimester"
       }, {
-        "code": "NACHC.F2.DE209",
+        "code": "O34.03",
         "display": "Maternal care for unspecified congenital malformation of uterus, third trimester"
       }, {
-        "code": "NACHC.F2.DE210",
+        "code": "O34.10",
         "display": "Maternal care for benign tumor of corpus uteri, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE211",
+        "code": "O34.11",
         "display": "Maternal care for benign tumor of corpus uteri, first trimester"
       }, {
-        "code": "NACHC.F2.DE212",
+        "code": "O34.12",
         "display": "Maternal care for benign tumor of corpus uteri, second trimester"
       }, {
-        "code": "NACHC.F2.DE213",
+        "code": "O34.13",
         "display": "Maternal care for benign tumor of corpus uteri, third trimester"
       }, {
-        "code": "NACHC.F2.DE214",
+        "code": "O34.21",
         "display": "Maternal care for scar from previous cesarean delivery"
       }, {
-        "code": "NACHC.F2.DE215",
+        "code": "O34.211",
         "display": "Maternal care for low transverse scar from previous cesarean delivery"
       }, {
-        "code": "NACHC.F2.DE216",
+        "code": "O34.212",
         "display": "Maternal care for vertical scar from previous cesarean delivery"
       }, {
-        "code": "NACHC.F2.DE217",
+        "code": "O34.219",
         "display": "Maternal care for unspecified type scar from previous cesarean delivery"
       }, {
-        "code": "NACHC.F2.DE218",
+        "code": "O34.29",
         "display": "Maternal care due to uterine scar from other previous surgery"
       }, {
-        "code": "NACHC.F2.DE219",
+        "code": "O34.30",
         "display": "Maternal care for cervical incompetence, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE220",
+        "code": "O34.31",
         "display": "Maternal care for cervical incompetence, first trimester"
       }, {
-        "code": "NACHC.F2.DE221",
+        "code": "O34.32",
         "display": "Maternal care for cervical incompetence, second trimester"
       }, {
-        "code": "NACHC.F2.DE222",
+        "code": "O34.33",
         "display": "Maternal care for cervical incompetence, third trimester"
       }, {
-        "code": "NACHC.F2.DE223",
+        "code": "O34.40",
         "display": "Maternal care for other abnormalities of cervix, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE224",
+        "code": "O34.41",
         "display": "Maternal care for other abnormalities of cervix, first trimester"
       }, {
-        "code": "NACHC.F2.DE225",
+        "code": "O34.42",
         "display": "Maternal care for other abnormalities of cervix, second trimester"
       }, {
-        "code": "NACHC.F2.DE226",
+        "code": "O34.43",
         "display": "Maternal care for other abnormalities of cervix, third trimester"
       }, {
-        "code": "NACHC.F2.DE227",
+        "code": "O34.511",
         "display": "Maternal care for incarceration of gravid uterus, first trimester"
       }, {
-        "code": "NACHC.F2.DE228",
+        "code": "O34.512",
         "display": "Maternal care for incarceration of gravid uterus, second trimester"
       }, {
-        "code": "NACHC.F2.DE229",
+        "code": "O34.513",
         "display": "Maternal care for incarceration of gravid uterus, third trimester"
       }, {
-        "code": "NACHC.F2.DE230",
+        "code": "O34.519",
         "display": "Maternal care for incarceration of gravid uterus, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE231",
+        "code": "O34.521",
         "display": "Maternal care for prolapse of gravid uterus, first trimester"
       }, {
-        "code": "NACHC.F2.DE232",
+        "code": "O34.522",
         "display": "Maternal care for prolapse of gravid uterus, second trimester"
       }, {
-        "code": "NACHC.F2.DE233",
+        "code": "O34.523",
         "display": "Maternal care for prolapse of gravid uterus, third trimester"
       }, {
-        "code": "NACHC.F2.DE234",
+        "code": "O34.529",
         "display": "Maternal care for prolapse of gravid uterus, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE235",
+        "code": "O34.531",
         "display": "Maternal care for retroversion of gravid uterus, first trimester"
       }, {
-        "code": "NACHC.F2.DE236",
+        "code": "O34.532",
         "display": "Maternal care for retroversion of gravid uterus, second trimester"
       }, {
-        "code": "NACHC.F2.DE237",
+        "code": "O34.533",
         "display": "Maternal care for retroversion of gravid uterus, third trimester"
       }, {
-        "code": "NACHC.F2.DE238",
+        "code": "O34.539",
         "display": "Maternal care for retroversion of gravid uterus, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE239",
+        "code": "O34.591",
         "display": "Maternal care for other abnormalities of gravid uterus, first trimester"
       }, {
-        "code": "NACHC.F2.DE240",
+        "code": "O34.592",
         "display": "Maternal care for other abnormalities of gravid uterus, second trimester"
       }, {
-        "code": "NACHC.F2.DE241",
+        "code": "O34.593",
         "display": "Maternal care for other abnormalities of gravid uterus, third trimester"
       }, {
-        "code": "NACHC.F2.DE242",
+        "code": "O34.599",
         "display": "Maternal care for other abnormalities of gravid uterus, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE243",
+        "code": "O34.60",
         "display": "Maternal care for abnormality of vagina, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE244",
+        "code": "O34.61",
         "display": "Maternal care for abnormality of vagina, first trimester"
       }, {
-        "code": "NACHC.F2.DE245",
+        "code": "O34.62",
         "display": "Maternal care for abnormality of vagina, second trimester"
       }, {
-        "code": "NACHC.F2.DE246",
+        "code": "O34.63",
         "display": "Maternal care for abnormality of vagina, third trimester"
       }, {
-        "code": "NACHC.F2.DE247",
+        "code": "O34.70",
         "display": "Maternal care for abnormality of vulva and perineum, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE248",
+        "code": "O34.71",
         "display": "Maternal care for abnormality of vulva and perineum, first trimester"
       }, {
-        "code": "NACHC.F2.DE249",
+        "code": "O34.72",
         "display": "Maternal care for abnormality of vulva and perineum, second trimester"
       }, {
-        "code": "NACHC.F2.DE250",
+        "code": "O34.73",
         "display": "Maternal care for abnormality of vulva and perineum, third trimester"
       }, {
-        "code": "NACHC.F2.DE251",
+        "code": "O34.80",
         "display": "Maternal care for other abnormalities of pelvic organs, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE252",
+        "code": "O34.81",
         "display": "Maternal care for other abnormalities of pelvic organs, first trimester"
       }, {
-        "code": "NACHC.F2.DE253",
+        "code": "O34.82",
         "display": "Maternal care for other abnormalities of pelvic organs, second trimester"
       }, {
-        "code": "NACHC.F2.DE254",
+        "code": "O34.83",
         "display": "Maternal care for other abnormalities of pelvic organs, third trimester"
       }, {
-        "code": "NACHC.F2.DE255",
+        "code": "O34.90",
         "display": "Maternal care for abnormality of pelvic organ, unspecified, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE256",
+        "code": "O34.91",
         "display": "Maternal care for abnormality of pelvic organ, unspecified, first trimester"
       }, {
-        "code": "NACHC.F2.DE257",
+        "code": "O34.92",
         "display": "Maternal care for abnormality of pelvic organ, unspecified, second trimester"
       }, {
-        "code": "NACHC.F2.DE258",
+        "code": "O34.93",
         "display": "Maternal care for abnormality of pelvic organ, unspecified, third trimester"
       }, {
-        "code": "NACHC.F2.DE259",
+        "code": "O35.0XX0",
         "display": "Maternal care for (suspected) central nervous system malformation in fetus, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE260",
+        "code": "O35.0XX1",
         "display": "Maternal care for (suspected) central nervous system malformation in fetus, fetus 1"
       }, {
-        "code": "NACHC.F2.DE261",
+        "code": "O35.0XX2",
         "display": "Maternal care for (suspected) central nervous system malformation in fetus, fetus 2"
       }, {
-        "code": "NACHC.F2.DE262",
+        "code": "O35.0XX3",
         "display": "Maternal care for (suspected) central nervous system malformation in fetus, fetus 3"
       }, {
-        "code": "NACHC.F2.DE263",
+        "code": "O35.0XX4",
         "display": "Maternal care for (suspected) central nervous system malformation in fetus, fetus 4"
       }, {
-        "code": "NACHC.F2.DE264",
+        "code": "O35.0XX5",
         "display": "Maternal care for (suspected) central nervous system malformation in fetus, fetus 5"
       }, {
-        "code": "NACHC.F2.DE265",
+        "code": "O35.0XX9",
         "display": "Maternal care for (suspected) central nervous system malformation in fetus, other fetus"
       }, {
-        "code": "NACHC.F2.DE266",
+        "code": "O35.1XX0",
         "display": "Maternal care for (suspected) chromosomal abnormality in fetus, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE267",
+        "code": "O35.1XX1",
         "display": "Maternal care for (suspected) chromosomal abnormality in fetus, fetus 1"
       }, {
-        "code": "NACHC.F2.DE268",
+        "code": "O35.1XX2",
         "display": "Maternal care for (suspected) chromosomal abnormality in fetus, fetus 2"
       }, {
-        "code": "NACHC.F2.DE269",
+        "code": "O35.1XX3",
         "display": "Maternal care for (suspected) chromosomal abnormality in fetus, fetus 3"
       }, {
-        "code": "NACHC.F2.DE270",
+        "code": "O35.1XX4",
         "display": "Maternal care for (suspected) chromosomal abnormality in fetus, fetus 4"
       }, {
-        "code": "NACHC.F2.DE271",
+        "code": "O35.1XX5",
         "display": "Maternal care for (suspected) chromosomal abnormality in fetus, fetus 5"
       }, {
-        "code": "NACHC.F2.DE272",
+        "code": "O35.1XX9",
         "display": "Maternal care for (suspected) chromosomal abnormality in fetus, other fetus"
       }, {
-        "code": "NACHC.F2.DE273",
+        "code": "O35.2XX0",
         "display": "Maternal care for (suspected) hereditary disease in fetus, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE274",
+        "code": "O35.2XX1",
         "display": "Maternal care for (suspected) hereditary disease in fetus, fetus 1"
       }, {
-        "code": "NACHC.F2.DE275",
+        "code": "O35.2XX2",
         "display": "Maternal care for (suspected) hereditary disease in fetus, fetus 2"
       }, {
-        "code": "NACHC.F2.DE276",
+        "code": "O35.2XX3",
         "display": "Maternal care for (suspected) hereditary disease in fetus, fetus 3"
       }, {
-        "code": "NACHC.F2.DE277",
+        "code": "O35.2XX4",
         "display": "Maternal care for (suspected) hereditary disease in fetus, fetus 4"
       }, {
-        "code": "NACHC.F2.DE278",
+        "code": "O35.2XX5",
         "display": "Maternal care for (suspected) hereditary disease in fetus, fetus 5"
       }, {
-        "code": "NACHC.F2.DE279",
+        "code": "O35.2XX9",
         "display": "Maternal care for (suspected) hereditary disease in fetus, other fetus"
       }, {
-        "code": "NACHC.F2.DE280",
+        "code": "O35.3XX0",
         "display": "Maternal care for (suspected) damage to fetus from viral disease in mother, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE281",
+        "code": "O35.3XX1",
         "display": "Maternal care for (suspected) damage to fetus from viral disease in mother, fetus 1"
       }, {
-        "code": "NACHC.F2.DE282",
+        "code": "O35.3XX2",
         "display": "Maternal care for (suspected) damage to fetus from viral disease in mother, fetus 2"
       }, {
-        "code": "NACHC.F2.DE283",
+        "code": "O35.3XX3",
         "display": "Maternal care for (suspected) damage to fetus from viral disease in mother, fetus 3"
       }, {
-        "code": "NACHC.F2.DE284",
+        "code": "O35.3XX4",
         "display": "Maternal care for (suspected) damage to fetus from viral disease in mother, fetus 4"
       }, {
-        "code": "NACHC.F2.DE285",
+        "code": "O35.3XX5",
         "display": "Maternal care for (suspected) damage to fetus from viral disease in mother, fetus 5"
       }, {
-        "code": "NACHC.F2.DE286",
+        "code": "O35.3XX9",
         "display": "Maternal care for (suspected) damage to fetus from viral disease in mother, other fetus"
       }, {
-        "code": "NACHC.F2.DE287",
+        "code": "O35.4XX0",
         "display": "Maternal care for (suspected) damage to fetus from alcohol, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE288",
+        "code": "O35.4XX1",
         "display": "Maternal care for (suspected) damage to fetus from alcohol, fetus 1"
       }, {
-        "code": "NACHC.F2.DE289",
+        "code": "O35.4XX2",
         "display": "Maternal care for (suspected) damage to fetus from alcohol, fetus 2"
       }, {
-        "code": "NACHC.F2.DE290",
+        "code": "O35.4XX3",
         "display": "Maternal care for (suspected) damage to fetus from alcohol, fetus 3"
       }, {
-        "code": "NACHC.F2.DE291",
+        "code": "O35.4XX4",
         "display": "Maternal care for (suspected) damage to fetus from alcohol, fetus 4"
       }, {
-        "code": "NACHC.F2.DE292",
+        "code": "O35.4XX5",
         "display": "Maternal care for (suspected) damage to fetus from alcohol, fetus 5"
       }, {
-        "code": "NACHC.F2.DE293",
+        "code": "O35.4XX9",
         "display": "Maternal care for (suspected) damage to fetus from alcohol, other fetus"
       }, {
-        "code": "NACHC.F2.DE294",
+        "code": "O35.5XX0",
         "display": "Maternal care for (suspected) damage to fetus by drugs, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE295",
+        "code": "O35.5XX1",
         "display": "Maternal care for (suspected) damage to fetus by drugs, fetus 1"
       }, {
-        "code": "NACHC.F2.DE296",
+        "code": "O35.5XX2",
         "display": "Maternal care for (suspected) damage to fetus by drugs, fetus 2"
       }, {
-        "code": "NACHC.F2.DE297",
+        "code": "O35.5XX3",
         "display": "Maternal care for (suspected) damage to fetus by drugs, fetus 3"
       }, {
-        "code": "NACHC.F2.DE298",
+        "code": "O35.5XX4",
         "display": "Maternal care for (suspected) damage to fetus by drugs, fetus 4"
       }, {
-        "code": "NACHC.F2.DE299",
+        "code": "O35.5XX5",
         "display": "Maternal care for (suspected) damage to fetus by drugs, fetus 5"
       }, {
-        "code": "NACHC.F2.DE300",
+        "code": "O35.5XX9",
         "display": "Maternal care for (suspected) damage to fetus by drugs, other fetus"
       }, {
-        "code": "NACHC.F2.DE301",
+        "code": "O35.6XX0",
         "display": "Maternal care for (suspected) damage to fetus by radiation, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE302",
+        "code": "O35.6XX1",
         "display": "Maternal care for (suspected) damage to fetus by radiation, fetus 1"
       }, {
-        "code": "NACHC.F2.DE303",
+        "code": "O35.6XX2",
         "display": "Maternal care for (suspected) damage to fetus by radiation, fetus 2"
       }, {
-        "code": "NACHC.F2.DE304",
+        "code": "O35.6XX3",
         "display": "Maternal care for (suspected) damage to fetus by radiation, fetus 3"
       }, {
-        "code": "NACHC.F2.DE305",
+        "code": "O35.6XX4",
         "display": "Maternal care for (suspected) damage to fetus by radiation, fetus 4"
       }, {
-        "code": "NACHC.F2.DE306",
+        "code": "O35.6XX5",
         "display": "Maternal care for (suspected) damage to fetus by radiation, fetus 5"
       }, {
-        "code": "NACHC.F2.DE307",
+        "code": "O35.6XX9",
         "display": "Maternal care for (suspected) damage to fetus by radiation, other fetus"
       }, {
-        "code": "NACHC.F2.DE308",
+        "code": "O35.7XX0",
         "display": "Maternal care for (suspected) damage to fetus by other medical procedures, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE309",
+        "code": "O35.7XX1",
         "display": "Maternal care for (suspected) damage to fetus by other medical procedures, fetus 1"
       }, {
-        "code": "NACHC.F2.DE310",
+        "code": "O35.7XX2",
         "display": "Maternal care for (suspected) damage to fetus by other medical procedures, fetus 2"
       }, {
-        "code": "NACHC.F2.DE311",
+        "code": "O35.7XX3",
         "display": "Maternal care for (suspected) damage to fetus by other medical procedures, fetus 3"
       }, {
-        "code": "NACHC.F2.DE312",
+        "code": "O35.7XX4",
         "display": "Maternal care for (suspected) damage to fetus by other medical procedures, fetus 4"
       }, {
-        "code": "NACHC.F2.DE313",
+        "code": "O35.7XX5",
         "display": "Maternal care for (suspected) damage to fetus by other medical procedures, fetus 5"
       }, {
-        "code": "NACHC.F2.DE314",
+        "code": "O35.7XX9",
         "display": "Maternal care for (suspected) damage to fetus by other medical procedures, other fetus"
       }, {
-        "code": "NACHC.F2.DE315",
+        "code": "O35.8XX0",
         "display": "Maternal care for other (suspected) fetal abnormality and damage, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE316",
+        "code": "O35.8XX1",
         "display": "Maternal care for other (suspected) fetal abnormality and damage, fetus 1"
       }, {
-        "code": "NACHC.F2.DE317",
+        "code": "O35.8XX2",
         "display": "Maternal care for other (suspected) fetal abnormality and damage, fetus 2"
       }, {
-        "code": "NACHC.F2.DE318",
+        "code": "O35.8XX3",
         "display": "Maternal care for other (suspected) fetal abnormality and damage, fetus 3"
       }, {
-        "code": "NACHC.F2.DE319",
+        "code": "O35.8XX4",
         "display": "Maternal care for other (suspected) fetal abnormality and damage, fetus 4"
       }, {
-        "code": "NACHC.F2.DE320",
+        "code": "O35.8XX5",
         "display": "Maternal care for other (suspected) fetal abnormality and damage, fetus 5"
       }, {
-        "code": "NACHC.F2.DE321",
+        "code": "O35.8XX9",
         "display": "Maternal care for other (suspected) fetal abnormality and damage, other fetus"
       }, {
-        "code": "NACHC.F2.DE322",
+        "code": "O35.9XX0",
         "display": "Maternal care for (suspected) fetal abnormality and damage, unspecified, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE323",
+        "code": "O35.9XX1",
         "display": "Maternal care for (suspected) fetal abnormality and damage, unspecified, fetus 1"
       }, {
-        "code": "NACHC.F2.DE324",
+        "code": "O35.9XX2",
         "display": "Maternal care for (suspected) fetal abnormality and damage, unspecified, fetus 2"
       }, {
-        "code": "NACHC.F2.DE325",
+        "code": "O35.9XX3",
         "display": "Maternal care for (suspected) fetal abnormality and damage, unspecified, fetus 3"
       }, {
-        "code": "NACHC.F2.DE326",
+        "code": "O35.9XX4",
         "display": "Maternal care for (suspected) fetal abnormality and damage, unspecified, fetus 4"
       }, {
-        "code": "NACHC.F2.DE327",
+        "code": "O35.9XX5",
         "display": "Maternal care for (suspected) fetal abnormality and damage, unspecified, fetus 5"
       }, {
-        "code": "NACHC.F2.DE328",
+        "code": "O35.9XX9",
         "display": "Maternal care for (suspected) fetal abnormality and damage, unspecified, other fetus"
       }, {
-        "code": "NACHC.F2.DE329",
+        "code": "O36.0110",
         "display": "Maternal care for anti-D [Rh] antibodies, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE330",
+        "code": "O36.0111",
         "display": "Maternal care for anti-D [Rh] antibodies, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE331",
+        "code": "O36.0112",
         "display": "Maternal care for anti-D [Rh] antibodies, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE332",
+        "code": "O36.0113",
         "display": "Maternal care for anti-D [Rh] antibodies, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE333",
+        "code": "O36.0114",
         "display": "Maternal care for anti-D [Rh] antibodies, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE334",
+        "code": "O36.0115",
         "display": "Maternal care for anti-D [Rh] antibodies, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE335",
+        "code": "O36.0119",
         "display": "Maternal care for anti-D [Rh] antibodies, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE336",
+        "code": "O36.0120",
         "display": "Maternal care for anti-D [Rh] antibodies, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE337",
+        "code": "O36.0121",
         "display": "Maternal care for anti-D [Rh] antibodies, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE338",
+        "code": "O36.0122",
         "display": "Maternal care for anti-D [Rh] antibodies, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE339",
+        "code": "O36.0123",
         "display": "Maternal care for anti-D [Rh] antibodies, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE340",
+        "code": "O36.0124",
         "display": "Maternal care for anti-D [Rh] antibodies, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE341",
+        "code": "O36.0125",
         "display": "Maternal care for anti-D [Rh] antibodies, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE342",
+        "code": "O36.0129",
         "display": "Maternal care for anti-D [Rh] antibodies, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE343",
+        "code": "O36.0130",
         "display": "Maternal care for anti-D [Rh] antibodies, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE344",
+        "code": "O36.0131",
         "display": "Maternal care for anti-D [Rh] antibodies, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE345",
+        "code": "O36.0132",
         "display": "Maternal care for anti-D [Rh] antibodies, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE346",
+        "code": "O36.0133",
         "display": "Maternal care for anti-D [Rh] antibodies, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE347",
+        "code": "O36.0134",
         "display": "Maternal care for anti-D [Rh] antibodies, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE348",
+        "code": "O36.0135",
         "display": "Maternal care for anti-D [Rh] antibodies, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE349",
+        "code": "O36.0139",
         "display": "Maternal care for anti-D [Rh] antibodies, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE350",
+        "code": "O36.0190",
         "display": "Maternal care for anti-D [Rh] antibodies, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE351",
+        "code": "O36.0191",
         "display": "Maternal care for anti-D [Rh] antibodies, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE352",
+        "code": "O36.0192",
         "display": "Maternal care for anti-D [Rh] antibodies, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE353",
+        "code": "O36.0193",
         "display": "Maternal care for anti-D [Rh] antibodies, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE354",
+        "code": "O36.0194",
         "display": "Maternal care for anti-D [Rh] antibodies, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE355",
+        "code": "O36.0195",
         "display": "Maternal care for anti-D [Rh] antibodies, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE356",
+        "code": "O36.0199",
         "display": "Maternal care for anti-D [Rh] antibodies, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE357",
+        "code": "O36.0910",
         "display": "Maternal care for other rhesus isoimmunization, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE358",
+        "code": "O36.0911",
         "display": "Maternal care for other rhesus isoimmunization, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE359",
+        "code": "O36.0912",
         "display": "Maternal care for other rhesus isoimmunization, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE360",
+        "code": "O36.0913",
         "display": "Maternal care for other rhesus isoimmunization, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE361",
+        "code": "O36.0914",
         "display": "Maternal care for other rhesus isoimmunization, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE362",
+        "code": "O36.0915",
         "display": "Maternal care for other rhesus isoimmunization, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE363",
+        "code": "O36.0919",
         "display": "Maternal care for other rhesus isoimmunization, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE364",
+        "code": "O36.0920",
         "display": "Maternal care for other rhesus isoimmunization, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE365",
+        "code": "O36.0921",
         "display": "Maternal care for other rhesus isoimmunization, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE366",
+        "code": "O36.0922",
         "display": "Maternal care for other rhesus isoimmunization, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE367",
+        "code": "O36.0923",
         "display": "Maternal care for other rhesus isoimmunization, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE368",
+        "code": "O36.0924",
         "display": "Maternal care for other rhesus isoimmunization, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE369",
+        "code": "O36.0925",
         "display": "Maternal care for other rhesus isoimmunization, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE370",
+        "code": "O36.0929",
         "display": "Maternal care for other rhesus isoimmunization, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE371",
+        "code": "O36.0930",
         "display": "Maternal care for other rhesus isoimmunization, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE372",
+        "code": "O36.0931",
         "display": "Maternal care for other rhesus isoimmunization, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE373",
+        "code": "O36.0932",
         "display": "Maternal care for other rhesus isoimmunization, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE374",
+        "code": "O36.0933",
         "display": "Maternal care for other rhesus isoimmunization, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE375",
+        "code": "O36.0934",
         "display": "Maternal care for other rhesus isoimmunization, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE376",
+        "code": "O36.0935",
         "display": "Maternal care for other rhesus isoimmunization, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE377",
+        "code": "O36.0939",
         "display": "Maternal care for other rhesus isoimmunization, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE378",
+        "code": "O36.0990",
         "display": "Maternal care for other rhesus isoimmunization, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE379",
+        "code": "O36.0991",
         "display": "Maternal care for other rhesus isoimmunization, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE380",
+        "code": "O36.0992",
         "display": "Maternal care for other rhesus isoimmunization, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE381",
+        "code": "O36.0993",
         "display": "Maternal care for other rhesus isoimmunization, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE382",
+        "code": "O36.0994",
         "display": "Maternal care for other rhesus isoimmunization, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE383",
+        "code": "O36.0995",
         "display": "Maternal care for other rhesus isoimmunization, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE384",
+        "code": "O36.0999",
         "display": "Maternal care for other rhesus isoimmunization, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE385",
+        "code": "O36.1110",
         "display": "Maternal care for Anti-A sensitization, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE386",
+        "code": "O36.1111",
         "display": "Maternal care for Anti-A sensitization, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE387",
+        "code": "O36.1112",
         "display": "Maternal care for Anti-A sensitization, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE388",
+        "code": "O36.1113",
         "display": "Maternal care for Anti-A sensitization, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE389",
+        "code": "O36.1114",
         "display": "Maternal care for Anti-A sensitization, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE390",
+        "code": "O36.1115",
         "display": "Maternal care for Anti-A sensitization, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE391",
+        "code": "O36.1119",
         "display": "Maternal care for Anti-A sensitization, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE392",
+        "code": "O36.1120",
         "display": "Maternal care for Anti-A sensitization, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE393",
+        "code": "O36.1121",
         "display": "Maternal care for Anti-A sensitization, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE394",
+        "code": "O36.1122",
         "display": "Maternal care for Anti-A sensitization, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE395",
+        "code": "O36.1123",
         "display": "Maternal care for Anti-A sensitization, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE396",
+        "code": "O36.1124",
         "display": "Maternal care for Anti-A sensitization, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE397",
+        "code": "O36.1125",
         "display": "Maternal care for Anti-A sensitization, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE398",
+        "code": "O36.1129",
         "display": "Maternal care for Anti-A sensitization, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE399",
+        "code": "O36.1130",
         "display": "Maternal care for Anti-A sensitization, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE400",
+        "code": "O36.1131",
         "display": "Maternal care for Anti-A sensitization, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE401",
+        "code": "O36.1132",
         "display": "Maternal care for Anti-A sensitization, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE402",
+        "code": "O36.1133",
         "display": "Maternal care for Anti-A sensitization, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE403",
+        "code": "O36.1134",
         "display": "Maternal care for Anti-A sensitization, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE404",
+        "code": "O36.1135",
         "display": "Maternal care for Anti-A sensitization, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE405",
+        "code": "O36.1139",
         "display": "Maternal care for Anti-A sensitization, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE406",
+        "code": "O36.1190",
         "display": "Maternal care for Anti-A sensitization, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE407",
+        "code": "O36.1191",
         "display": "Maternal care for Anti-A sensitization, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE408",
+        "code": "O36.1192",
         "display": "Maternal care for Anti-A sensitization, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE409",
+        "code": "O36.1193",
         "display": "Maternal care for Anti-A sensitization, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE410",
+        "code": "O36.1194",
         "display": "Maternal care for Anti-A sensitization, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE411",
+        "code": "O36.1195",
         "display": "Maternal care for Anti-A sensitization, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE412",
+        "code": "O36.1199",
         "display": "Maternal care for Anti-A sensitization, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE413",
+        "code": "O36.1910",
         "display": "Maternal care for other isoimmunization, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE414",
+        "code": "O36.1911",
         "display": "Maternal care for other isoimmunization, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE415",
+        "code": "O36.1912",
         "display": "Maternal care for other isoimmunization, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE416",
+        "code": "O36.1913",
         "display": "Maternal care for other isoimmunization, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE417",
+        "code": "O36.1914",
         "display": "Maternal care for other isoimmunization, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE418",
+        "code": "O36.1915",
         "display": "Maternal care for other isoimmunization, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE419",
+        "code": "O36.1919",
         "display": "Maternal care for other isoimmunization, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE420",
+        "code": "O36.1920",
         "display": "Maternal care for other isoimmunization, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE421",
+        "code": "O36.1921",
         "display": "Maternal care for other isoimmunization, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE422",
+        "code": "O36.1922",
         "display": "Maternal care for other isoimmunization, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE423",
+        "code": "O36.1923",
         "display": "Maternal care for other isoimmunization, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE424",
+        "code": "O36.1924",
         "display": "Maternal care for other isoimmunization, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE425",
+        "code": "O36.1925",
         "display": "Maternal care for other isoimmunization, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE426",
+        "code": "O36.1929",
         "display": "Maternal care for other isoimmunization, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE427",
+        "code": "O36.1930",
         "display": "Maternal care for other isoimmunization, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE428",
+        "code": "O36.1931",
         "display": "Maternal care for other isoimmunization, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE429",
+        "code": "O36.1932",
         "display": "Maternal care for other isoimmunization, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE430",
+        "code": "O36.1933",
         "display": "Maternal care for other isoimmunization, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE431",
+        "code": "O36.1934",
         "display": "Maternal care for other isoimmunization, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE432",
+        "code": "O36.1935",
         "display": "Maternal care for other isoimmunization, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE433",
+        "code": "O36.1939",
         "display": "Maternal care for other isoimmunization, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE434",
+        "code": "O36.1990",
         "display": "Maternal care for other isoimmunization, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE435",
+        "code": "O36.1991",
         "display": "Maternal care for other isoimmunization, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE436",
+        "code": "O36.1992",
         "display": "Maternal care for other isoimmunization, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE437",
+        "code": "O36.1993",
         "display": "Maternal care for other isoimmunization, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE438",
+        "code": "O36.1994",
         "display": "Maternal care for other isoimmunization, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE439",
+        "code": "O36.1995",
         "display": "Maternal care for other isoimmunization, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE440",
+        "code": "O36.1999",
         "display": "Maternal care for other isoimmunization, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE441",
+        "code": "O36.20X0",
         "display": "Maternal care for hydrops fetalis, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE442",
+        "code": "O36.20X1",
         "display": "Maternal care for hydrops fetalis, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE443",
+        "code": "O36.20X2",
         "display": "Maternal care for hydrops fetalis, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE444",
+        "code": "O36.20X3",
         "display": "Maternal care for hydrops fetalis, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE445",
+        "code": "O36.20X4",
         "display": "Maternal care for hydrops fetalis, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE446",
+        "code": "O36.20X5",
         "display": "Maternal care for hydrops fetalis, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE447",
+        "code": "O36.20X9",
         "display": "Maternal care for hydrops fetalis, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE448",
+        "code": "O36.21X0",
         "display": "Maternal care for hydrops fetalis, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE449",
+        "code": "O36.21X1",
         "display": "Maternal care for hydrops fetalis, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE450",
+        "code": "O36.21X2",
         "display": "Maternal care for hydrops fetalis, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE451",
+        "code": "O36.21X3",
         "display": "Maternal care for hydrops fetalis, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE452",
+        "code": "O36.21X4",
         "display": "Maternal care for hydrops fetalis, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE453",
+        "code": "O36.21X5",
         "display": "Maternal care for hydrops fetalis, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE454",
+        "code": "O36.21X9",
         "display": "Maternal care for hydrops fetalis, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE455",
+        "code": "O36.22X0",
         "display": "Maternal care for hydrops fetalis, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE456",
+        "code": "O36.22X1",
         "display": "Maternal care for hydrops fetalis, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE457",
+        "code": "O36.22X2",
         "display": "Maternal care for hydrops fetalis, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE458",
+        "code": "O36.22X3",
         "display": "Maternal care for hydrops fetalis, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE459",
+        "code": "O36.22X4",
         "display": "Maternal care for hydrops fetalis, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE460",
+        "code": "O36.22X5",
         "display": "Maternal care for hydrops fetalis, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE461",
+        "code": "O36.22X9",
         "display": "Maternal care for hydrops fetalis, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE462",
+        "code": "O36.23X0",
         "display": "Maternal care for hydrops fetalis, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE463",
+        "code": "O36.23X1",
         "display": "Maternal care for hydrops fetalis, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE464",
+        "code": "O36.23X2",
         "display": "Maternal care for hydrops fetalis, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE465",
+        "code": "O36.23X3",
         "display": "Maternal care for hydrops fetalis, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE466",
+        "code": "O36.23X4",
         "display": "Maternal care for hydrops fetalis, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE467",
+        "code": "O36.23X5",
         "display": "Maternal care for hydrops fetalis, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE468",
+        "code": "O36.23X9",
         "display": "Maternal care for hydrops fetalis, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE469",
+        "code": "O36.4XX0",
         "display": "Maternal care for intrauterine death, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE470",
+        "code": "O36.4XX1",
         "display": "Maternal care for intrauterine death, fetus 1"
       }, {
-        "code": "NACHC.F2.DE471",
+        "code": "O36.4XX2",
         "display": "Maternal care for intrauterine death, fetus 2"
       }, {
-        "code": "NACHC.F2.DE472",
+        "code": "O36.4XX3",
         "display": "Maternal care for intrauterine death, fetus 3"
       }, {
-        "code": "NACHC.F2.DE473",
+        "code": "O36.4XX4",
         "display": "Maternal care for intrauterine death, fetus 4"
       }, {
-        "code": "NACHC.F2.DE474",
+        "code": "O36.4XX5",
         "display": "Maternal care for intrauterine death, fetus 5"
       }, {
-        "code": "NACHC.F2.DE475",
+        "code": "O36.4XX9",
         "display": "Maternal care for intrauterine death, other fetus"
       }, {
-        "code": "NACHC.F2.DE476",
+        "code": "O36.5110",
         "display": "Maternal care for known or suspected placental insufficiency, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE477",
+        "code": "O36.5111",
         "display": "Maternal care for known or suspected placental insufficiency, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE478",
+        "code": "O36.5112",
         "display": "Maternal care for known or suspected placental insufficiency, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE479",
+        "code": "O36.5113",
         "display": "Maternal care for known or suspected placental insufficiency, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE480",
+        "code": "O36.5114",
         "display": "Maternal care for known or suspected placental insufficiency, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE481",
+        "code": "O36.5115",
         "display": "Maternal care for known or suspected placental insufficiency, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE482",
+        "code": "O36.5119",
         "display": "Maternal care for known or suspected placental insufficiency, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE483",
+        "code": "O36.5120",
         "display": "Maternal care for known or suspected placental insufficiency, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE484",
+        "code": "O36.5121",
         "display": "Maternal care for known or suspected placental insufficiency, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE485",
+        "code": "O36.5122",
         "display": "Maternal care for known or suspected placental insufficiency, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE486",
+        "code": "O36.5123",
         "display": "Maternal care for known or suspected placental insufficiency, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE487",
+        "code": "O36.5124",
         "display": "Maternal care for known or suspected placental insufficiency, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE488",
+        "code": "O36.5125",
         "display": "Maternal care for known or suspected placental insufficiency, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE489",
+        "code": "O36.5129",
         "display": "Maternal care for known or suspected placental insufficiency, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE490",
+        "code": "O36.5130",
         "display": "Maternal care for known or suspected placental insufficiency, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE491",
+        "code": "O36.5131",
         "display": "Maternal care for known or suspected placental insufficiency, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE492",
+        "code": "O36.5132",
         "display": "Maternal care for known or suspected placental insufficiency, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE493",
+        "code": "O36.5133",
         "display": "Maternal care for known or suspected placental insufficiency, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE494",
+        "code": "O36.5134",
         "display": "Maternal care for known or suspected placental insufficiency, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE495",
+        "code": "O36.5135",
         "display": "Maternal care for known or suspected placental insufficiency, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE496",
+        "code": "O36.5139",
         "display": "Maternal care for known or suspected placental insufficiency, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE497",
+        "code": "O36.5190",
         "display": "Maternal care for known or suspected placental insufficiency, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE498",
+        "code": "O36.5191",
         "display": "Maternal care for known or suspected placental insufficiency, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE499",
+        "code": "O36.5192",
         "display": "Maternal care for known or suspected placental insufficiency, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE500",
+        "code": "O36.5193",
         "display": "Maternal care for known or suspected placental insufficiency, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE501",
+        "code": "O36.5194",
         "display": "Maternal care for known or suspected placental insufficiency, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE502",
+        "code": "O36.5195",
         "display": "Maternal care for known or suspected placental insufficiency, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE503",
+        "code": "O36.5199",
         "display": "Maternal care for known or suspected placental insufficiency, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE504",
+        "code": "O36.5910",
         "display": "Maternal care for other known or suspected poor fetal growth, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE505",
+        "code": "O36.5911",
         "display": "Maternal care for other known or suspected poor fetal growth, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE506",
+        "code": "O36.5912",
         "display": "Maternal care for other known or suspected poor fetal growth, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE507",
+        "code": "O36.5913",
         "display": "Maternal care for other known or suspected poor fetal growth, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE508",
+        "code": "O36.5914",
         "display": "Maternal care for other known or suspected poor fetal growth, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE509",
+        "code": "O36.5915",
         "display": "Maternal care for other known or suspected poor fetal growth, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE510",
+        "code": "O36.5919",
         "display": "Maternal care for other known or suspected poor fetal growth, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE511",
+        "code": "O36.5920",
         "display": "Maternal care for other known or suspected poor fetal growth, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE512",
+        "code": "O36.5921",
         "display": "Maternal care for other known or suspected poor fetal growth, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE513",
+        "code": "O36.5922",
         "display": "Maternal care for other known or suspected poor fetal growth, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE514",
+        "code": "O36.5923",
         "display": "Maternal care for other known or suspected poor fetal growth, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE515",
+        "code": "O36.5924",
         "display": "Maternal care for other known or suspected poor fetal growth, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE516",
+        "code": "O36.5925",
         "display": "Maternal care for other known or suspected poor fetal growth, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE517",
+        "code": "O36.5929",
         "display": "Maternal care for other known or suspected poor fetal growth, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE518",
+        "code": "O36.5930",
         "display": "Maternal care for other known or suspected poor fetal growth, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE519",
+        "code": "O36.5931",
         "display": "Maternal care for other known or suspected poor fetal growth, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE520",
+        "code": "O36.5932",
         "display": "Maternal care for other known or suspected poor fetal growth, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE521",
+        "code": "O36.5933",
         "display": "Maternal care for other known or suspected poor fetal growth, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE522",
+        "code": "O36.5934",
         "display": "Maternal care for other known or suspected poor fetal growth, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE523",
+        "code": "O36.5935",
         "display": "Maternal care for other known or suspected poor fetal growth, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE524",
+        "code": "O36.5939",
         "display": "Maternal care for other known or suspected poor fetal growth, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE525",
+        "code": "O36.5990",
         "display": "Maternal care for other known or suspected poor fetal growth, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE526",
+        "code": "O36.5991",
         "display": "Maternal care for other known or suspected poor fetal growth, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE527",
+        "code": "O36.5992",
         "display": "Maternal care for other known or suspected poor fetal growth, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE528",
+        "code": "O36.5993",
         "display": "Maternal care for other known or suspected poor fetal growth, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE529",
+        "code": "O36.5994",
         "display": "Maternal care for other known or suspected poor fetal growth, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE530",
+        "code": "O36.5995",
         "display": "Maternal care for other known or suspected poor fetal growth, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE531",
+        "code": "O36.5999",
         "display": "Maternal care for other known or suspected poor fetal growth, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE532",
+        "code": "O36.60X0",
         "display": "Maternal care for excessive fetal growth, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE533",
+        "code": "O36.60X1",
         "display": "Maternal care for excessive fetal growth, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE534",
+        "code": "O36.60X2",
         "display": "Maternal care for excessive fetal growth, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE535",
+        "code": "O36.60X3",
         "display": "Maternal care for excessive fetal growth, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE536",
+        "code": "O36.60X4",
         "display": "Maternal care for excessive fetal growth, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE537",
+        "code": "O36.60X5",
         "display": "Maternal care for excessive fetal growth, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE538",
+        "code": "O36.60X9",
         "display": "Maternal care for excessive fetal growth, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE539",
+        "code": "O36.61X0",
         "display": "Maternal care for excessive fetal growth, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE540",
+        "code": "O36.61X1",
         "display": "Maternal care for excessive fetal growth, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE541",
+        "code": "O36.61X2",
         "display": "Maternal care for excessive fetal growth, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE542",
+        "code": "O36.61X3",
         "display": "Maternal care for excessive fetal growth, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE543",
+        "code": "O36.61X4",
         "display": "Maternal care for excessive fetal growth, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE544",
+        "code": "O36.61X5",
         "display": "Maternal care for excessive fetal growth, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE545",
+        "code": "O36.61X9",
         "display": "Maternal care for excessive fetal growth, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE546",
+        "code": "O36.62X0",
         "display": "Maternal care for excessive fetal growth, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE547",
+        "code": "O36.62X1",
         "display": "Maternal care for excessive fetal growth, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE548",
+        "code": "O36.62X2",
         "display": "Maternal care for excessive fetal growth, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE549",
+        "code": "O36.62X3",
         "display": "Maternal care for excessive fetal growth, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE550",
+        "code": "O36.62X4",
         "display": "Maternal care for excessive fetal growth, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE551",
+        "code": "O36.62X5",
         "display": "Maternal care for excessive fetal growth, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE552",
+        "code": "O36.62X9",
         "display": "Maternal care for excessive fetal growth, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE553",
+        "code": "O36.63X0",
         "display": "Maternal care for excessive fetal growth, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE554",
+        "code": "O36.63X1",
         "display": "Maternal care for excessive fetal growth, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE555",
+        "code": "O36.63X2",
         "display": "Maternal care for excessive fetal growth, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE556",
+        "code": "O36.63X3",
         "display": "Maternal care for excessive fetal growth, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE557",
+        "code": "O36.63X4",
         "display": "Maternal care for excessive fetal growth, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE558",
+        "code": "O36.63X5",
         "display": "Maternal care for excessive fetal growth, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE559",
+        "code": "O36.63X9",
         "display": "Maternal care for excessive fetal growth, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE560",
+        "code": "O36.70X0",
         "display": "Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE561",
+        "code": "O36.70X1",
         "display": "Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE562",
+        "code": "O36.70X2",
         "display": "Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE563",
+        "code": "O36.70X3",
         "display": "Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE564",
+        "code": "O36.70X4",
         "display": "Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE565",
+        "code": "O36.70X5",
         "display": "Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE566",
+        "code": "O36.70X9",
         "display": "Maternal care for viable fetus in abdominal pregnancy, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE567",
+        "code": "O36.71X0",
         "display": "Maternal care for viable fetus in abdominal pregnancy, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE568",
+        "code": "O36.71X1",
         "display": "Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE569",
+        "code": "O36.71X2",
         "display": "Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE570",
+        "code": "O36.71X3",
         "display": "Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE571",
+        "code": "O36.71X4",
         "display": "Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE572",
+        "code": "O36.71X5",
         "display": "Maternal care for viable fetus in abdominal pregnancy, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE573",
+        "code": "O36.71X9",
         "display": "Maternal care for viable fetus in abdominal pregnancy, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE574",
+        "code": "O36.72X0",
         "display": "Maternal care for viable fetus in abdominal pregnancy, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE575",
+        "code": "O36.72X1",
         "display": "Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE576",
+        "code": "O36.72X2",
         "display": "Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE577",
+        "code": "O36.72X3",
         "display": "Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE578",
+        "code": "O36.72X4",
         "display": "Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE579",
+        "code": "O36.72X5",
         "display": "Maternal care for viable fetus in abdominal pregnancy, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE580",
+        "code": "O36.72X9",
         "display": "Maternal care for viable fetus in abdominal pregnancy, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE581",
+        "code": "O36.73X0",
         "display": "Maternal care for viable fetus in abdominal pregnancy, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE582",
+        "code": "O36.73X1",
         "display": "Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE583",
+        "code": "O36.73X2",
         "display": "Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE584",
+        "code": "O36.73X3",
         "display": "Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE585",
+        "code": "O36.73X4",
         "display": "Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE586",
+        "code": "O36.73X5",
         "display": "Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE587",
+        "code": "O36.73X9",
         "display": "Maternal care for viable fetus in abdominal pregnancy, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE588",
+        "code": "O36.8310",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE589",
+        "code": "O36.8311",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE590",
+        "code": "O36.8312",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE591",
+        "code": "O36.8313",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE592",
+        "code": "O36.8314",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE593",
+        "code": "O36.8315",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE594",
+        "code": "O36.8319",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE595",
+        "code": "O36.8320",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE596",
+        "code": "O36.8321",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE597",
+        "code": "O36.8322",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE598",
+        "code": "O36.8323",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE599",
+        "code": "O36.8324",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE600",
+        "code": "O36.8325",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE601",
+        "code": "O36.8329",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE602",
+        "code": "O36.8330",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE603",
+        "code": "O36.8331",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE604",
+        "code": "O36.8332",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE605",
+        "code": "O36.8333",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE606",
+        "code": "O36.8334",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE607",
+        "code": "O36.8335",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE608",
+        "code": "O36.8339",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE609",
+        "code": "O36.8390",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE610",
+        "code": "O36.8391",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE611",
+        "code": "O36.8392",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE612",
+        "code": "O36.8393",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE613",
+        "code": "O36.8394",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE614",
+        "code": "O36.8395",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE615",
+        "code": "O36.8399",
         "display": "Maternal care for abnormalities of the fetal heart rate or rhythm, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE616",
+        "code": "O36.8910",
         "display": "Maternal care for other specified fetal problems, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE617",
+        "code": "O36.8911",
         "display": "Maternal care for other specified fetal problems, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE618",
+        "code": "O36.8912",
         "display": "Maternal care for other specified fetal problems, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE619",
+        "code": "O36.8913",
         "display": "Maternal care for other specified fetal problems, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE620",
+        "code": "O36.8914",
         "display": "Maternal care for other specified fetal problems, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE621",
+        "code": "O36.8915",
         "display": "Maternal care for other specified fetal problems, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE622",
+        "code": "O36.8919",
         "display": "Maternal care for other specified fetal problems, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE623",
+        "code": "O36.8920",
         "display": "Maternal care for other specified fetal problems, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE624",
+        "code": "O36.8921",
         "display": "Maternal care for other specified fetal problems, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE625",
+        "code": "O36.8922",
         "display": "Maternal care for other specified fetal problems, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE626",
+        "code": "O36.8923",
         "display": "Maternal care for other specified fetal problems, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE627",
+        "code": "O36.8924",
         "display": "Maternal care for other specified fetal problems, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE628",
+        "code": "O36.8925",
         "display": "Maternal care for other specified fetal problems, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE629",
+        "code": "O36.8929",
         "display": "Maternal care for other specified fetal problems, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE630",
+        "code": "O36.8930",
         "display": "Maternal care for other specified fetal problems, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE631",
+        "code": "O36.8931",
         "display": "Maternal care for other specified fetal problems, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE632",
+        "code": "O36.8932",
         "display": "Maternal care for other specified fetal problems, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE633",
+        "code": "O36.8933",
         "display": "Maternal care for other specified fetal problems, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE634",
+        "code": "O36.8934",
         "display": "Maternal care for other specified fetal problems, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE635",
+        "code": "O36.8935",
         "display": "Maternal care for other specified fetal problems, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE636",
+        "code": "O36.8939",
         "display": "Maternal care for other specified fetal problems, third trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE637",
+        "code": "O36.8990",
         "display": "Maternal care for other specified fetal problems, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE638",
+        "code": "O36.8991",
         "display": "Maternal care for other specified fetal problems, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE639",
+        "code": "O36.8992",
         "display": "Maternal care for other specified fetal problems, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE640",
+        "code": "O36.8993",
         "display": "Maternal care for other specified fetal problems, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE641",
+        "code": "O36.8994",
         "display": "Maternal care for other specified fetal problems, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE642",
+        "code": "O36.8995",
         "display": "Maternal care for other specified fetal problems, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE643",
+        "code": "O36.8999",
         "display": "Maternal care for other specified fetal problems, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE644",
+        "code": "O36.90X0",
         "display": "Maternal care for fetal problem, unspecified, unspecified trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE645",
+        "code": "O36.90X1",
         "display": "Maternal care for fetal problem, unspecified, unspecified trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE646",
+        "code": "O36.90X2",
         "display": "Maternal care for fetal problem, unspecified, unspecified trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE647",
+        "code": "O36.90X3",
         "display": "Maternal care for fetal problem, unspecified, unspecified trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE648",
+        "code": "O36.90X4",
         "display": "Maternal care for fetal problem, unspecified, unspecified trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE649",
+        "code": "O36.90X5",
         "display": "Maternal care for fetal problem, unspecified, unspecified trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE650",
+        "code": "O36.90X9",
         "display": "Maternal care for fetal problem, unspecified, unspecified trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE651",
+        "code": "O36.91X0",
         "display": "Maternal care for fetal problem, unspecified, first trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE652",
+        "code": "O36.91X1",
         "display": "Maternal care for fetal problem, unspecified, first trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE653",
+        "code": "O36.91X2",
         "display": "Maternal care for fetal problem, unspecified, first trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE654",
+        "code": "O36.91X3",
         "display": "Maternal care for fetal problem, unspecified, first trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE655",
+        "code": "O36.91X4",
         "display": "Maternal care for fetal problem, unspecified, first trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE656",
+        "code": "O36.91X5",
         "display": "Maternal care for fetal problem, unspecified, first trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE657",
+        "code": "O36.91X9",
         "display": "Maternal care for fetal problem, unspecified, first trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE658",
+        "code": "O36.92X0",
         "display": "Maternal care for fetal problem, unspecified, second trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE659",
+        "code": "O36.92X1",
         "display": "Maternal care for fetal problem, unspecified, second trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE660",
+        "code": "O36.92X2",
         "display": "Maternal care for fetal problem, unspecified, second trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE661",
+        "code": "O36.92X3",
         "display": "Maternal care for fetal problem, unspecified, second trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE662",
+        "code": "O36.92X4",
         "display": "Maternal care for fetal problem, unspecified, second trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE663",
+        "code": "O36.92X5",
         "display": "Maternal care for fetal problem, unspecified, second trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE664",
+        "code": "O36.92X9",
         "display": "Maternal care for fetal problem, unspecified, second trimester, other fetus"
       }, {
-        "code": "NACHC.F2.DE665",
+        "code": "O36.93X0",
         "display": "Maternal care for fetal problem, unspecified, third trimester, not applicable or unspecified"
       }, {
-        "code": "NACHC.F2.DE666",
+        "code": "O36.93X1",
         "display": "Maternal care for fetal problem, unspecified, third trimester, fetus 1"
       }, {
-        "code": "NACHC.F2.DE667",
+        "code": "O36.93X2",
         "display": "Maternal care for fetal problem, unspecified, third trimester, fetus 2"
       }, {
-        "code": "NACHC.F2.DE668",
+        "code": "O36.93X3",
         "display": "Maternal care for fetal problem, unspecified, third trimester, fetus 3"
       }, {
-        "code": "NACHC.F2.DE669",
+        "code": "O36.93X4",
         "display": "Maternal care for fetal problem, unspecified, third trimester, fetus 4"
       }, {
-        "code": "NACHC.F2.DE670",
+        "code": "O36.93X5",
         "display": "Maternal care for fetal problem, unspecified, third trimester, fetus 5"
       }, {
-        "code": "NACHC.F2.DE671",
+        "code": "O36.93X9",
         "display": "Maternal care for fetal problem, unspecified, third trimester, other fetus"
       } ]
     } ]

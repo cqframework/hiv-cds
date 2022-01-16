@@ -7,9 +7,9 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H1.DE25",
-      "display": "Sexual Activity - Male - Kind of Sex - Insertive Anal"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Could not resolve binding valueset null"
     } ]
   },
   "subject": {

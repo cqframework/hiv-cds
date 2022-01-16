@@ -18,10 +18,6 @@
   },
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.C1.DE319",
-      "display": "Urethral stricture due to syphilis (disorder)"
-    }, {
       "system": "http://snomed.info/sct",
       "code": "29500006",
       "display": "Urethral stricture due to syphilis (disorder)"

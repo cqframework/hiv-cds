@@ -2,20 +2,20 @@
   "resourceType": "ValueSet",
   "id": "nachc-b1-de31",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de31",
-  "name": "ChronicInfectionofliverduetoHepatitisCvirusChoices",
-  "title": "Chronic Infection of liver due to Hepatitis C virus Choices",
+  "name": "ChronicInfectionofliverduetoHepatitisCvirusCodes",
+  "title": "Chronic Infection of liver due to Hepatitis C virus Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Chronic Infection of liver due to Hepatitis C virus Choices element",
+  "description": "Codes representing possible values for the Chronic Infection of liver due to Hepatitis C virus element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.B1.DE31",
+        "code": "128302006",
         "display": "Chronic hepatitis C (disorder)"
       }, {
-        "code": "NACHC.B1.DE32",
+        "code": "435101000124104",
         "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
       } ]
     } ]

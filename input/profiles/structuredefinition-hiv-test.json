@@ -42,15 +42,14 @@
       "comment": "HIV test mapping",
       "min": 1,
       "max": "1",
-      "mustSupport": true,
-      "binding": {
-        "extension": [ {
-          "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "HIV Test"
-        } ],
-        "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1"
+      "patternCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE1",
+          "display": "HIV Test"
+        } ]
       },
+      "mustSupport": true,
       "mapping": [ {
         "identity": "HIV",
         "map": "NACHC.A2.DE1"
@@ -62,17 +61,14 @@
       "comment": "HIV test mapping",
       "min": 1,
       "max": "1",
-      "type": [ {
-        "code": "CodeableConcept"
-      } ],
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "HIV Test Choices Grouper"
+          "valueString": "HIV Test Codes Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1-codes-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

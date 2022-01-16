@@ -2,29 +2,29 @@
   "resourceType": "ValueSet",
   "id": "nachc-g2-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de2",
-  "name": "EmtricitabineFTC200mgOrderChoices",
-  "title": "Emtricitabine (FTC) 200mg Order Choices",
+  "name": "EmtricitabineFTC200mgOrderCodes",
+  "title": "Emtricitabine (FTC) 200mg Order Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Emtricitabine (FTC) 200mg Order Choices element",
+  "description": "Codes representing possible values for the Emtricitabine (FTC) 200mg Order element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "concept": [ {
-        "code": "NACHC.G2.DE2",
+        "code": "403875",
         "display": "emtricitabine 200 MG Oral Capsule"
       }, {
-        "code": "NACHC.G2.DE3",
+        "code": "404587",
         "display": "emtricitabine 200 MG Oral Capsule [Emtriva]"
       }, {
-        "code": "NACHC.G2.DE4",
+        "code": "406016",
         "display": "emtricitabine 200 MG"
       }, {
-        "code": "NACHC.G2.DE5",
+        "code": "576513",
         "display": "emtricitabine 200 MG [Emtriva]"
       }, {
-        "code": "NACHC.G2.DE6",
+        "code": "639883",
         "display": "emtricitabine 200 MG Oral Tablet"
       } ]
     } ]

@@ -1,0 +1,80 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "NACHCF2",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCF2",
+  "name": "NACHCF2",
+  "title": "NACHC.F2 Pregnancy",
+  "status": "active",
+  "experimental": false,
+  "description": "TODO: description goes here",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.F2",
+        "display": "Pregnancy"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-encounters#Encounter.type",
+    "text": "Pregnancy Encounters",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de2"
+  }, {
+    "linkId": "2",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/third-trimester-encounters#Encounter.type",
+    "text": "Third Trimester Encounters",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de39"
+  }, {
+    "linkId": "3",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-supervision#Procedure.code",
+    "text": "Pregnancy Supervision",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de43"
+  }, {
+    "linkId": "4",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/maternal-care#Procedure.code",
+    "text": "Maternal Care",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de109"
+  }, {
+    "linkId": "5",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-procedures#Procedure.code",
+    "text": "Pregnancy Procedures",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de673"
+  }, {
+    "linkId": "6",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-observations#Observation.value[x]",
+    "text": "Pregnancy Observations",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de905"
+  }, {
+    "linkId": "7",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-conditions#Condition.code",
+    "text": "Pregnancy Conditions",
+    "type": "choice",
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1132"
+  } ]
+}

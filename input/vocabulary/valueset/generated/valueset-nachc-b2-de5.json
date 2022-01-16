@@ -2,119 +2,119 @@
   "resourceType": "ValueSet",
   "id": "nachc-b2-de5",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de5",
-  "name": "HepatitisCnucleicacidChoices",
-  "title": "Hepatitis C nucleic acid Choices",
+  "name": "HepatitisCnucleicacidCodes",
+  "title": "Hepatitis C nucleic acid Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Hepatitis C nucleic acid Choices element",
+  "description": "Codes representing possible values for the Hepatitis C nucleic acid element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.B2.DE5",
+        "code": "51657-5",
         "display": "Hepatitis C virus Ab [Presence] in Body fluid"
       }, {
-        "code": "NACHC.B2.DE6",
+        "code": "39008-8",
         "display": "Hepatitis C virus Ab [Presence] in Body fluid by Immunoblot"
       }, {
-        "code": "NACHC.B2.DE7",
+        "code": "42506-6",
         "display": "Hepatitis C virus Ab [Presence] in Cerebral spinal fluid"
       }, {
-        "code": "NACHC.B2.DE8",
+        "code": "51656-7",
         "display": "Hepatitis C virus Ab Signal/Cutoff in Body fluid"
       }, {
-        "code": "NACHC.B2.DE9",
+        "code": "81116-6",
         "display": "Hepatitis C virus core Ab+Ag [Presence] in Serum"
       }, {
-        "code": "NACHC.B2.DE10",
+        "code": "48574-8",
         "display": "Hepatitis C virus genotype [Identifier] in Blood by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE11",
+        "code": "32286-7",
         "display": "Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE12",
+        "code": "49607-5",
         "display": "Hepatitis C virus genotype [Identifier] in Tissue by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE13",
+        "code": "48575-5",
         "display": "Hepatitis C virus genotype [Identifier] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE14",
+        "code": "82512-5",
         "display": "Hepatitis C virus genotype 1 [Type] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE15",
+        "code": "82380-7",
         "display": "Hepatitis C virus genotype 1 NS5a gene mutations detected [Identifier]"
       }, {
-        "code": "NACHC.B2.DE16",
+        "code": "82381-5",
         "display": "Hepatitis C virus genotype 1 NS5b gene mutations detected [Identifier]"
       }, {
-        "code": "NACHC.B2.DE17",
+        "code": "82513-3",
         "display": "Hepatitis C virus genotype 3 [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE18",
+        "code": "82514-1",
         "display": "Hepatitis C virus genotype 3 NS5a gene mutations detected [Identifier]"
       }, {
-        "code": "NACHC.B2.DE19",
+        "code": "92731-9",
         "display": "Hepatitis C virus genotype in Serum or Plasma by Sequencing"
       }, {
-        "code": "NACHC.B2.DE20",
+        "code": "89359-4",
         "display": "Hepatitis C virus IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
       }, {
-        "code": "NACHC.B2.DE21",
+        "code": "73654-6",
         "display": "Hepatitis C virus NS3 gene mutations detected [Identifier] by Genotype method"
       }, {
-        "code": "NACHC.B2.DE22",
+        "code": "73655-3",
         "display": "Hepatitis C virus NS5 gene mutations detected [Identifier] by Genotype method"
       }, {
-        "code": "NACHC.B2.DE23",
+        "code": "49370-0",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE24",
+        "code": "49369-2",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE25",
+        "code": "49371-8",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE26",
+        "code": "49374-2",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE27",
+        "code": "49373-4",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE28",
+        "code": "49375-9",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE29",
+        "code": "49604-2",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE30",
+        "code": "49603-4",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE31",
+        "code": "49608-3",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE32",
+        "code": "51655-9",
         "display": "Hepatitis C virus RNA [Presence] in Body fluid by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE33",
+        "code": "1136302",
         "display": "Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE34",
+        "code": "49378-3",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Bone marrow by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE35",
+        "code": "49377-5",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE36",
+        "code": "49379-1",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Tissue by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE37",
+        "code": "53825-6",
         "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE38",
+        "code": "38998-1",
         "display": "HIV 1+Hepatitis C virus RNA [Presence] in Serum or Plasma from Blood product unit by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE39",
+        "code": "59052-1",
         "display": "HIV 1+Hepatitis C virus RNA+Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
       } ]
     } ]

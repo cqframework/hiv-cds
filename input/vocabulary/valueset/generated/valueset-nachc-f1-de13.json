@@ -2,20 +2,20 @@
   "resourceType": "ValueSet",
   "id": "nachc-f1-de13",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13",
-  "name": "InjectionFindingsChoices",
-  "title": "Injection Findings Choices",
+  "name": "InjectionFindingsCodes",
+  "title": "Injection Findings Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Injection Findings Choices element",
+  "description": "Codes representing possible values for the Injection Findings element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.F1.DE13",
+        "code": "228387001",
         "display": "Injects drugs intramuscularly (finding)"
       }, {
-        "code": "NACHC.F1.DE14",
+        "code": "228389003",
         "display": "Groin injector (finding)"
       } ]
     } ]

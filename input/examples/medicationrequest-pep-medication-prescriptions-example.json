@@ -7,10 +7,6 @@
   "status": "active",
   "medicationCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.G1.DE142",
-      "display": "zidovudine 300 MG Oral Tablet [Retrovir]"
-    }, {
       "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "code": "152772",
       "display": "zidovudine 300 MG Oral Tablet [Retrovir]"

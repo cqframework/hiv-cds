@@ -46,7 +46,7 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Post Exposure Prophylaxis Choices"
+          "valueString": "Post Exposure Prophylaxis Codes"
         } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de2"

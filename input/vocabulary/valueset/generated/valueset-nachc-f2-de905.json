@@ -2,692 +2,695 @@
   "resourceType": "ValueSet",
   "id": "nachc-f2-de905",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de905",
-  "name": "PregnancyObservationsChoices",
-  "title": "Pregnancy Observations Choices",
+  "name": "PregnancyObservationsCodes",
+  "title": "Pregnancy Observations Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Pregnancy Observations Choices element",
+  "description": "Codes representing possible values for the Pregnancy Observations element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.F2.DE905",
+        "code": "15019-3",
         "display": "Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid"
       }, {
-        "code": "NACHC.F2.DE906",
+        "code": "1832-5",
         "display": "Alpha-1-Fetoprotein [Mass/volume] in Amniotic fluid"
       }, {
-        "code": "NACHC.F2.DE907",
+        "code": "1834-1",
         "display": "Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE908",
+        "code": "19080-1",
         "display": "Choriogonadotropin [Units/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE909",
+        "code": "19171-8",
         "display": "Alpha-1-Fetoprotein [Units/volume] in Amniotic fluid"
       }, {
-        "code": "NACHC.F2.DE910",
+        "code": "19176-7",
         "display": "Alpha-1-Fetoprotein [Units/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE911",
+        "code": "19177-5",
         "display": "Alpha-1-Fetoprotein [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE912",
+        "code": "19180-9",
         "display": "Choriogonadotropin.beta subunit free [Units/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE913",
+        "code": "20403-2",
         "display": "Fibronectin.fetal [Mass/volume] in Vaginal fluid"
       }, {
-        "code": "NACHC.F2.DE914",
+        "code": "20404-0",
         "display": "Fibronectin.fetal [Presence] in Vaginal fluid"
       }, {
-        "code": "NACHC.F2.DE915",
+        "code": "20415-6",
         "display": "Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma by Immunoassay (EIA) 3rd IS"
       }, {
-        "code": "NACHC.F2.DE916",
+        "code": "20994-0",
         "display": "Choriogonadotropin [Interpretation] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE917",
+        "code": "75301",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Urine"
       }, {
-        "code": "NACHC.F2.DE918",
+        "code": "75607",
         "display": "Choriogonadotropin [Moles/volume] in Urine"
       }, {
-        "code": "NACHC.F2.DE919",
+        "code": "76823",
         "display": "Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE920",
+        "code": "77127",
         "display": "Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE921",
+        "code": "77433",
         "display": "Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Urine"
       }, {
-        "code": "NACHC.F2.DE922",
+        "code": "78042",
         "display": "Choriogonadotropin.beta subunit [Mass/time] in 24 hour Urine"
       }, {
-        "code": "NACHC.F2.DE923",
+        "code": "78345",
         "display": "Choriogonadotropin.beta subunit [Moles/volume] in Urine"
       }, {
-        "code": "NACHC.F2.DE924",
+        "code": "78619",
         "display": "Choriogonadotropin.beta subunit free [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE925",
+        "code": "79837",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE926",
+        "code": "80141",
         "display": "Choriogonadotropin [Moles/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE927",
+        "code": "21198-7",
         "display": "Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE928",
+        "code": "25372-4",
         "display": "Choriogonadotropin [Units/volume] in Urine"
       }, {
-        "code": "NACHC.F2.DE929",
+        "code": "25373-2",
         "display": "Choriogonadotropin.beta subunit free [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE930",
+        "code": "31993-9",
         "display": "Alpha-1-Fetoprotein [Presence] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE931",
+        "code": "33773-3",
         "display": "Karyotype [Identifier] in Amniotic fluid Nominal"
       }, {
-        "code": "NACHC.F2.DE932",
+        "code": "34493-7",
         "display": "PRF1 gene targeted mutation analysis in Amniotic fluid by Molecular genetics method"
       }, {
-        "code": "NACHC.F2.DE933",
+        "code": "34656-9",
         "display": "KEL gene targeted mutation analysis in Amniotic fluid or Chorionic villus sample by Molecular genetics method"
       }, {
-        "code": "NACHC.F2.DE934",
+        "code": "34670-0",
         "display": "Choriogonadotropin [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE935",
+        "code": "34718-7",
         "display": "CFTR gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "NACHC.F2.DE936",
+        "code": "35457-1",
         "display": "Maternal cell contamination [Identifier] in Amniotic fluid Nominal"
       }, {
-        "code": "NACHC.F2.DE937",
+        "code": "41273-4",
         "display": "Alpha-1-Fetoprotein interpretation in Amniotic fluid"
       }, {
-        "code": "NACHC.F2.DE938",
+        "code": "41274-2",
         "display": "Alpha-1-Fetoprotein interpretation in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE939",
+        "code": "42316-0",
         "display": "RHD gene allele [Genotype] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "NACHC.F2.DE940",
+        "code": "43798-8",
         "display": "Alpha-1-Fetoprotein [Presence] in Amniotic fluid"
       }, {
-        "code": "NACHC.F2.DE941",
+        "code": "45194-8",
         "display": "Choriogonadotropin.intact+Beta subunit [Units/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE942",
+        "code": "45273-0",
         "display": "Pregnancy associated plasma protein A multiple of the median [Percentile]"
       }, {
-        "code": "NACHC.F2.DE943",
+        "code": "45331-6",
         "display": "NF1 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "NACHC.F2.DE944",
+        "code": "45332-4",
         "display": "NF2 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "NACHC.F2.DE945",
+        "code": "46731-6",
         "display": "RHCE gene allele Cc [Genotype] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "NACHC.F2.DE946",
+        "code": "46989-0",
         "display": "CFTR gene targeted mutation analysis in Amniotic fluid by Molecular genetics method"
       }, {
-        "code": "NACHC.F2.DE947",
+        "code": "48030-1",
         "display": "RHCE gene allele Ee [Genotype] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "NACHC.F2.DE948",
+        "code": "48039-2",
         "display": "Fibronectin.fetal [Presence] in Unspecified specimen"
       }, {
-        "code": "NACHC.F2.DE949",
+        "code": "48781-9",
         "display": "CYP21A2 gene mutations found [Identifier] in Amniotic fluid by Molecular genetics method Nominal"
       }, {
-        "code": "NACHC.F2.DE950",
+        "code": "49246-2",
         "display": "Alpha-1-Fetoprotein interpretation in Serum or Plasma Narrative"
       }, {
-        "code": "NACHC.F2.DE951",
+        "code": "49318-9",
         "display": "Alpha-1-Fetoprotein interpretation in Amniotic fluid Narrative"
       }, {
-        "code": "NACHC.F2.DE952",
+        "code": "55869-2",
         "display": "Choriogonadotropin.beta subunit [Mass/volume] in Serum or Plasma"
       }, {
-        "code": "NACHC.F2.DE953",
+        "code": "55870-0",
         "display": "Choriogonadotropin [Units/volume] in Cord blood"
       }, {
-        "code": "NACHC.F2.DE954",
+        "code": "56497-1",
         "display": "Choriogonadotropin.beta subunit [Units] in 24 hour Urine"
       }, {
-        "code": "NACHC.F2.DE955",
+        "code": "64088-8",
         "display": "Karyotype [Identifier] in Chorionic villus sample Narrative"
       }, {
-        "code": "NACHC.F2.DE956",
+        "code": "64094-6",
         "display": "Karyotype [Identifier] in Amniotic fluid Narrative"
       }, {
-        "code": "NACHC.F2.DE957",
+        "code": "80384-1",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Urine by Rapid immunoassay"
       }, {
-        "code": "NACHC.F2.DE958",
+        "code": "80385-8",
         "display": "Choriogonadotropin (pregnancy test) [Presence] in Serum by Rapid immunoassay"
       }, {
-        "code": "NACHC.F2.DE959",
+        "code": "83086-9",
         "display": "Choriogonadotropin [Units/volume] in Serum or Plasma by Immunoassay"
-      }, {
-        "code": "NACHC.F2.DE960",
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "199004",
         "display": "Decreased lactation (finding)"
       }, {
-        "code": "NACHC.F2.DE961",
+        "code": "5852008",
         "display": "Acromion right anterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE962",
+        "code": "5973007",
         "display": "Right mentoposterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE963",
+        "code": "6096002",
         "display": "Breech presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE964",
+        "code": "6383007",
         "display": "Premature labor (finding)"
       }, {
-        "code": "NACHC.F2.DE965",
+        "code": "6509007",
         "display": "Electrolyte imbalance following molar AND/OR ectopic pregnancy (disorder)"
       }, {
-        "code": "NACHC.F2.DE966",
+        "code": "6594005",
         "display": "Cerebrovascular disorder in the puerperium (disorder)"
       }, {
-        "code": "NACHC.F2.DE967",
+        "code": "6636004",
         "display": "Congenital cardiovascular disorder in mother complicating pregnancy, childbirth AND/OR puerperium (disorder)"
       }, {
-        "code": "NACHC.F2.DE968",
+        "code": "6647006",
         "display": "Legal abortion with defibrination syndrome (disorder)"
       }, {
-        "code": "NACHC.F2.DE969",
+        "code": "6867004",
         "display": "Previous pregnancies more than 10 (finding)"
       }, {
-        "code": "NACHC.F2.DE970",
+        "code": "9279009",
         "display": "Extra-amniotic pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE971",
+        "code": "11082009",
         "display": "Abnormal pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE972",
+        "code": "11246006",
         "display": "Brow left anterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE973",
+        "code": "14080002",
         "display": "Illegitimate pregnancy, life event (finding)"
       }, {
-        "code": "NACHC.F2.DE974",
+        "code": "14418008",
         "display": "Precocious pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE975",
+        "code": "15692007",
         "display": "Right lateral brow position (finding)"
       }, {
-        "code": "NACHC.F2.DE976",
+        "code": "17618008",
         "display": "Previous pregnancies 9 (finding)"
       }, {
-        "code": "NACHC.F2.DE977",
+        "code": "18559007",
         "display": "Frank breech presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE978",
+        "code": "18656007",
         "display": "Grand multipara (finding)"
       }, {
-        "code": "NACHC.F2.DE979",
+        "code": "24536007",
         "display": "Right mentoanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE980",
+        "code": "26644000",
         "display": "Shoulder right posterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE981",
+        "code": "27921008",
         "display": "Shoulder left posterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE982",
+        "code": "29399001",
         "display": "Elderly primigravida (finding)"
       }, {
-        "code": "NACHC.F2.DE983",
+        "code": "32808002",
         "display": "Brow left posterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE984",
+        "code": "38049006",
         "display": "Incomplete breech presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE985",
+        "code": "39587000",
         "display": "Left mentolateral position (finding)"
       }, {
-        "code": "NACHC.F2.DE986",
+        "code": "41587001",
         "display": "Third trimester pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE987",
+        "code": "43957006",
         "display": "Left lateral brow position (finding)"
       }, {
-        "code": "NACHC.F2.DE988",
+        "code": "45079001",
         "display": "Acromion left anterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE989",
+        "code": "45307008",
         "display": "Extrachorial pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE990",
+        "code": "47200007",
         "display": "High risk pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE991",
+        "code": "48782003",
         "display": "Delivery normal (finding)"
       }, {
-        "code": "NACHC.F2.DE992",
+        "code": "48906005",
         "display": "Breech presentation, double footling (finding)"
       }, {
-        "code": "NACHC.F2.DE993",
+        "code": "49168004",
         "display": "Complete breech presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE994",
+        "code": "54486001",
         "display": "Left sacrolateral position (finding)"
       }, {
-        "code": "NACHC.F2.DE995",
+        "code": "57630001",
         "display": "First trimester pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE996",
+        "code": "58261003",
         "display": "Sacroposterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE997",
+        "code": "58532003",
         "display": "Unwanted pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE998",
+        "code": "58903006",
         "display": "Breech presentation, single footling (finding)"
       }, {
-        "code": "NACHC.F2.DE999",
+        "code": "59466002",
         "display": "Second trimester pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1000",
+        "code": "60001007",
         "display": "Not pregnant (finding)"
       }, {
-        "code": "NACHC.F2.DE1001",
+        "code": "60854009",
         "display": "Left mentoanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1002",
+        "code": "64433002",
         "display": "Left sacroanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1003",
+        "code": "65727000",
         "display": "Intrauterine pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1004",
+        "code": "69018001",
         "display": "Right mentolateral position (finding)"
       }, {
-        "code": "NACHC.F2.DE1005",
+        "code": "72892002",
         "display": "Normal pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1006",
+        "code": "77386006",
         "display": "Pregnant (finding)"
       }, {
-        "code": "NACHC.F2.DE1007",
+        "code": "79643007",
         "display": "Right sacroanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1008",
+        "code": "79888005",
         "display": "Sacroanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1009",
+        "code": "83074005",
         "display": "Unplanned pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1010",
+        "code": "87527008",
         "display": "Term pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1011",
+        "code": "88992002",
         "display": "Left mentoposterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1012",
+        "code": "89550007",
         "display": "Right sacrolateral position (finding)"
       }, {
-        "code": "NACHC.F2.DE1013",
+        "code": "102872000",
         "display": "Pregnancy on oral contraceptive (finding)"
       }, {
-        "code": "NACHC.F2.DE1014",
+        "code": "102875003",
         "display": "Surrogate pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1015",
+        "code": "102876002",
         "display": "Multigravida (finding)"
       }, {
-        "code": "NACHC.F2.DE1016",
+        "code": "102879009",
         "display": "Post-term delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1017",
+        "code": "112071002",
         "display": "Postmature pregnancy delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1018",
+        "code": "112073004",
         "display": "Right sacroposterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1019",
+        "code": "124736009",
         "display": "Compound presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE1020",
+        "code": "127363001",
         "display": "Number of pregnancies, currently pregnant (finding)"
       }, {
-        "code": "NACHC.F2.DE1021",
+        "code": "127364007",
         "display": "Primigravida (finding)"
       }, {
-        "code": "NACHC.F2.DE1022",
+        "code": "127365008",
         "display": "Gravida 2 (finding)"
       }, {
-        "code": "NACHC.F2.DE1023",
+        "code": "127366009",
         "display": "Gravida 3 (finding)"
       }, {
-        "code": "NACHC.F2.DE1024",
+        "code": "127367000",
         "display": "Gravida 4 (finding)"
       }, {
-        "code": "NACHC.F2.DE1025",
+        "code": "127368005",
         "display": "Gravida 5 (finding)"
       }, {
-        "code": "NACHC.F2.DE1026",
+        "code": "127369002",
         "display": "Gravida 6 (finding)"
       }, {
-        "code": "NACHC.F2.DE1027",
+        "code": "127370001",
         "display": "Gravida 7 (finding)"
       }, {
-        "code": "NACHC.F2.DE1028",
+        "code": "127371002",
         "display": "Gravida 8 (finding)"
       }, {
-        "code": "NACHC.F2.DE1029",
+        "code": "127372009",
         "display": "Gravida 9 (finding)"
       }, {
-        "code": "NACHC.F2.DE1030",
+        "code": "127373004",
         "display": "Gravida 10 (finding)"
       }, {
-        "code": "NACHC.F2.DE1031",
+        "code": "127374005",
         "display": "Gravida more than 10 (finding)"
       }, {
-        "code": "NACHC.F2.DE1032",
+        "code": "163540009",
         "display": "On examination - fetal movement diminished (finding)"
       }, {
-        "code": "NACHC.F2.DE1033",
+        "code": "169560008",
         "display": "Pregnant - urine test confirms (finding)"
       }, {
-        "code": "NACHC.F2.DE1034",
+        "code": "169561007",
         "display": "Pregnant - blood test confirms (finding)"
       }, {
-        "code": "NACHC.F2.DE1035",
+        "code": "169562000",
         "display": "Pregnant - vaginal examination confirms (finding)"
       }, {
-        "code": "NACHC.F2.DE1036",
+        "code": "169563005",
         "display": "Pregnant - on history (finding)"
       }, {
-        "code": "NACHC.F2.DE1037",
+        "code": "169564004",
         "display": "Pregnant - on abdominal palpation (finding)"
       }, {
-        "code": "NACHC.F2.DE1038",
+        "code": "169565003",
         "display": "Pregnant - planned (finding)"
       }, {
-        "code": "NACHC.F2.DE1039",
+        "code": "169566002",
         "display": "Pregnancy unplanned but wanted (finding)"
       }, {
-        "code": "NACHC.F2.DE1040",
+        "code": "169567006",
         "display": "Pregnancy unplanned and unwanted (finding)"
       }, {
-        "code": "NACHC.F2.DE1041",
+        "code": "169568001",
         "display": "Unplanned pregnancy unknown if child is wanted (finding)"
       }, {
-        "code": "NACHC.F2.DE1042",
+        "code": "169581008",
         "display": "Antenatal care: grand multiparity (finding)"
       }, {
-        "code": "NACHC.F2.DE1043",
+        "code": "169582001",
         "display": "Antenatal care: history of stillbirth (situation)"
       }, {
-        "code": "NACHC.F2.DE1044",
+        "code": "169593004",
         "display": "Antenatal care: poor antenatal attender (finding)"
       }, {
-        "code": "NACHC.F2.DE1045",
+        "code": "169827000",
         "display": "Single stillbirth (finding)"
       }, {
-        "code": "NACHC.F2.DE1046",
+        "code": "169961004",
         "display": "Normal birth (finding)"
       }, {
-        "code": "NACHC.F2.DE1047",
+        "code": "199047001",
         "display": "False labor (finding)"
       }, {
-        "code": "NACHC.F2.DE1048",
+        "code": "199049003",
         "display": "Threatened premature labor - not delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1049",
+        "code": "199050003",
         "display": "False labor at or after 37 completed weeks of gestation (finding)"
       }, {
-        "code": "NACHC.F2.DE1050",
+        "code": "199317008",
         "display": "Twin pregnancy - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1051",
+        "code": "199321001",
         "display": "Triplet pregnancy - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1052",
+        "code": "199325005",
         "display": "Quadruplet pregnancy - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1053",
+        "code": "199355003",
         "display": "Breech presentation with antenatal problem (finding)"
       }, {
-        "code": "NACHC.F2.DE1054",
+        "code": "199373000",
         "display": "High head at term (finding)"
       }, {
-        "code": "NACHC.F2.DE1055",
+        "code": "199375007",
         "display": "High head at term - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1056",
+        "code": "199376008",
         "display": "High head at term with antenatal problem (finding)"
       }, {
-        "code": "NACHC.F2.DE1057",
+        "code": "199714004",
         "display": "Grand multiparity - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1058",
+        "code": "199715003",
         "display": "Grand multiparity with antenatal problem (finding)"
       }, {
-        "code": "NACHC.F2.DE1059",
+        "code": "199718001",
         "display": "Elderly primigravida - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1060",
+        "code": "199719009",
         "display": "Elderly primigravida with antenatal problem (finding)"
       }, {
-        "code": "NACHC.F2.DE1061",
+        "code": "200130005",
         "display": "Forceps delivery - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1062",
+        "code": "200133007",
         "display": "Delivery by combination of forceps and vacuum extractor (finding)"
       }, {
-        "code": "NACHC.F2.DE1063",
+        "code": "200138003",
         "display": "Vacuum extractor delivery - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1064",
+        "code": "200142000",
         "display": "Breech extraction - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1065",
+        "code": "200146002",
         "display": "Cesarean delivery - delivered (finding)"
       }, {
-        "code": "NACHC.F2.DE1066",
+        "code": "200148001",
         "display": "Delivery by elective cesarean section (finding)"
       }, {
-        "code": "NACHC.F2.DE1067",
+        "code": "200149009",
         "display": "Delivery by emergency cesarean section (finding)"
       }, {
-        "code": "NACHC.F2.DE1068",
+        "code": "200150009",
         "display": "Delivery by cesarean hysterectomy (finding)"
       }, {
-        "code": "NACHC.F2.DE1069",
+        "code": "231958008",
         "display": "Abnormal fetal heart beat, not clear if noted before OR after onset of labor in liveborn infant (finding)"
       }, {
-        "code": "NACHC.F2.DE1070",
+        "code": "237233002",
         "display": "Concealed pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1071",
+        "code": "237238006",
         "display": "Pregnancy with uncertain dates (finding)"
       }, {
-        "code": "NACHC.F2.DE1072",
+        "code": "237239003",
         "display": "Low risk pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1073",
+        "code": "237240001",
         "display": "Teenage pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1074",
+        "code": "237241002",
         "display": "Viable pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1075",
+        "code": "237242009",
         "display": "Non-viable pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1076",
+        "code": "237244005",
         "display": "Single pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1077",
+        "code": "237313003",
         "display": "Vaginal delivery following previous cesarean section (finding)"
       }, {
-        "code": "NACHC.F2.DE1078",
+        "code": "248985009",
         "display": "Presentation of pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1079",
+        "code": "249084004",
         "display": "Mentoanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1080",
+        "code": "249085003",
         "display": "Direct mentoanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1081",
+        "code": "249086002",
         "display": "Mentoposterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1082",
+        "code": "249087006",
         "display": "Direct mentoposterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1083",
+        "code": "249088001",
         "display": "Mentolateral position (finding)"
       }, {
-        "code": "NACHC.F2.DE1084",
+        "code": "249094009",
         "display": "Anterior brow position (finding)"
       }, {
-        "code": "NACHC.F2.DE1085",
+        "code": "249095005",
         "display": "Posterior brow position (finding)"
       }, {
-        "code": "NACHC.F2.DE1086",
+        "code": "249096006",
         "display": "Lateral brow position (finding)"
       }, {
-        "code": "NACHC.F2.DE1087",
+        "code": "249102004",
         "display": "Direct sacroposterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1088",
+        "code": "249103009",
         "display": "Sacrolateral position (finding)"
       }, {
-        "code": "NACHC.F2.DE1089",
+        "code": "249106001",
         "display": "Anterior shoulder presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE1090",
+        "code": "249107005",
         "display": "Shoulder right anterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1091",
+        "code": "249108000",
         "display": "Shoulder left anterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1092",
+        "code": "249109008",
         "display": "Posterior shoulder presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE1093",
+        "code": "271373005",
         "display": "Deliveries by spontaneous breech delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1094",
+        "code": "274127000",
         "display": "Abnormal delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1095",
+        "code": "274128005",
         "display": "Brow delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1096",
+        "code": "274129002",
         "display": "Face delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1097",
+        "code": "276367008",
         "display": "Wanted pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1098",
+        "code": "276369006",
         "display": "Reduced fetal movement (finding)"
       }, {
-        "code": "NACHC.F2.DE1099",
+        "code": "281307002",
         "display": "Uncertain viability of pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1100",
+        "code": "282020008",
         "display": "Premature delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1101",
+        "code": "284075002",
         "display": "Spotting per vagina in pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1102",
+        "code": "288209009",
         "display": "Normal delivery - occipitoanterior (finding)"
       }, {
-        "code": "NACHC.F2.DE1103",
+        "code": "289240005",
         "display": "Long duration of labor (finding)"
       }, {
-        "code": "NACHC.F2.DE1104",
+        "code": "289254002",
         "display": "Expulsion of intrauterine contraceptive device during third stage of labor (finding)"
       }, {
-        "code": "NACHC.F2.DE1105",
+        "code": "289259007",
         "display": "Vaginal delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1106",
+        "code": "289365005",
         "display": "Finding of malposition of fetus (finding)"
       }, {
-        "code": "NACHC.F2.DE1107",
+        "code": "289366006",
         "display": "Malposition of fetus in face presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE1108",
+        "code": "289367002",
         "display": "Malposition of fetus in brow presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE1109",
+        "code": "289368007",
         "display": "Malposition of fetus in shoulder presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE1110",
+        "code": "289399008",
         "display": "Compound presentation palpable vaginally (finding)"
       }, {
-        "code": "NACHC.F2.DE1111",
+        "code": "302254004",
         "display": "Delivered by cesarean delivery following previous cesarean delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1112",
+        "code": "309469004",
         "display": "Spontaneous vertex delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1113",
+        "code": "314204000",
         "display": "Early stage of pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1114",
+        "code": "364748006",
         "display": "Finding of position of breech presentation (finding)"
       }, {
-        "code": "NACHC.F2.DE1115",
+        "code": "408812003",
         "display": "Direct sacroanterior position (finding)"
       }, {
-        "code": "NACHC.F2.DE1116",
+        "code": "430933008",
         "display": "Gravid uterus size for dates discrepancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1117",
+        "code": "443460007",
         "display": "Multigravida of advanced maternal age (finding)"
       }, {
-        "code": "NACHC.F2.DE1118",
+        "code": "444661007",
         "display": "High risk pregnancy due to history of preterm labor (finding)"
       }, {
-        "code": "NACHC.F2.DE1119",
+        "code": "698716002",
         "display": "Preterm spontaneous labor with preterm delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1120",
+        "code": "698717006",
         "display": "Preterm spontaneous labor with term delivery (finding)"
       }, {
-        "code": "NACHC.F2.DE1121",
+        "code": "134781000119106",
         "display": "High risk pregnancy due to recurrent miscarriage (finding)"
       }, {
-        "code": "NACHC.F2.DE1122",
+        "code": "451881000124101",
         "display": "Tobacco use in mother complicating puerperium (finding)"
       }, {
-        "code": "NACHC.F2.DE1123",
+        "code": "451891000124103",
         "display": "Tobacco use in mother complicating pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1124",
+        "code": "451901000124104",
         "display": "Tobacco smoking in mother complicating puerperium (finding)"
       }, {
-        "code": "NACHC.F2.DE1125",
+        "code": "451921000124109",
         "display": "Tobacco smoking in mother complicating pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1126",
+        "code": "456801000124104",
         "display": "Self-reported (qualifier value)"
       }, {
-        "code": "NACHC.F2.DE1127",
+        "code": "457811000124103",
         "display": "Normal pregnancy in primigravida (finding)"
       }, {
-        "code": "NACHC.F2.DE1128",
+        "code": "457821000124106",
         "display": "Normal pregnancy in multigravida (finding)"
       }, {
-        "code": "NACHC.F2.DE1129",
+        "code": "10760981000119100",
         "display": "Psychological abuse complicating pregnancy (finding)"
       }, {
-        "code": "NACHC.F2.DE1130",
+        "code": "10761061000119100",
         "display": "Sexual abuse complicating pregnancy (finding)"
       } ]
     } ]

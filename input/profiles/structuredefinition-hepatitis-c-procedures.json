@@ -46,7 +46,7 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Hepatitis C Procedures Choices"
+          "valueString": "Hepatitis C Procedures Codes"
         } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113"

@@ -46,7 +46,7 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Pregnancy Conditions Choices"
+          "valueString": "Pregnancy Conditions Codes"
         } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1132"

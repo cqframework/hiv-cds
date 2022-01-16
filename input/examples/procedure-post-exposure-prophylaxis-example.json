@@ -7,10 +7,6 @@
   "status": "completed",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.G1.DE2",
-      "display": "Post-exposure prophylaxis"
-    }, {
       "system": "http://snomed.info/sct",
       "code": "409516001",
       "display": "Post-exposure prophylaxis"

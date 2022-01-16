@@ -46,7 +46,7 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "HIV Test Ordered Choices"
+          "valueString": "HIV Test Ordered Codes"
         } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217"

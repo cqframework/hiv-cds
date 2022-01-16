@@ -2,80 +2,80 @@
   "resourceType": "ValueSet",
   "id": "nachc-b2-de81",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de81",
-  "name": "HepatitisCvirusnucleicRNAtestChoices",
-  "title": "Hepatitis C virus nucleic (RNA) test Choices",
+  "name": "HepatitisCvirusnucleicRNAtestCodes",
+  "title": "Hepatitis C virus nucleic (RNA) test Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Hepatitis C virus nucleic (RNA) test Choices element",
+  "description": "Codes representing possible values for the Hepatitis C virus nucleic (RNA) test element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.B2.DE81",
+        "code": "75888-8",
         "display": "HCV RNA screening tests - Meaningful Use set"
       }, {
-        "code": "NACHC.B2.DE82",
+        "code": "20416-4",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE83",
+        "code": "20571-6",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "NACHC.B2.DE84",
+        "code": "49380-9",
         "display": "Hepatitis C virus RNA [#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE85",
+        "code": "47252-2",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE86",
+        "code": "42003-4",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "NACHC.B2.DE87",
+        "code": "49372-6",
         "display": "Hepatitis C virus RNA [Log #/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE88",
+        "code": "38180-6",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE89",
+        "code": "42617-1",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "NACHC.B2.DE90",
+        "code": "49605-9",
         "display": "Hepatitis C virus RNA [log units/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE91",
+        "code": "1135996",
         "display": "Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE92",
+        "code": "11259-9",
         "display": "Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE93",
+        "code": "5012-0",
         "display": "Hepatitis C virus RNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE94",
+        "code": "48576-3",
         "display": "Hepatitis C virus RNA [Presence] in Unspecified specimen by Probe with signal amplification"
       }, {
-        "code": "NACHC.B2.DE95",
+        "code": "11011-4",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE96",
+        "code": "49758-6",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 5 iU/mL"
       }, {
-        "code": "NACHC.B2.DE97",
+        "code": "34704-7",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 iU/mL"
       }, {
-        "code": "NACHC.B2.DE98",
+        "code": "34703-9",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 500 IU/mL"
       }, {
-        "code": "NACHC.B2.DE99",
+        "code": "10676-5",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification"
       }, {
-        "code": "NACHC.B2.DE100",
+        "code": "29609-5",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with signal amplification"
       }, {
-        "code": "NACHC.B2.DE101",
+        "code": "49376-7",
         "display": "Hepatitis C virus RNA [Units/volume] (viral load) in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.B2.DE102",
+        "code": "50023-1",
         "display": "Hepatitis C virus RNA panel (viral load) in Serum or Plasma by NAA with probe detection"
       } ]
     } ]

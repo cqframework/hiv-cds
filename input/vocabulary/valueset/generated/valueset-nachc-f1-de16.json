@@ -2,566 +2,569 @@
   "resourceType": "ValueSet",
   "id": "nachc-f1-de16",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de16",
-  "name": "InjectionDrugUseDiagnosisChoices",
-  "title": "Injection Drug Use Diagnosis Choices",
+  "name": "InjectionDrugUseDiagnosisCodes",
+  "title": "Injection Drug Use Diagnosis Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Injection Drug Use Diagnosis Choices element",
+  "description": "Codes representing possible values for the Injection Drug Use Diagnosis element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/icd-10",
       "concept": [ {
-        "code": "NACHC.F1.DE16",
+        "code": "A40",
         "display": "Streptococcal sepsis"
       }, {
-        "code": "NACHC.F1.DE17",
+        "code": "A41",
         "display": "Other sepsis"
       }, {
-        "code": "NACHC.F1.DE18",
+        "code": "A480",
         "display": "Gas gangrene"
       }, {
-        "code": "NACHC.F1.DE19",
+        "code": "B37.6",
         "display": "Candidal endocarditis"
       }, {
-        "code": "NACHC.F1.DE20",
+        "code": "G06",
         "display": "Intracranial and intraspinal abscess and granuloma"
       }, {
-        "code": "NACHC.F1.DE21",
+        "code": "G09",
         "display": "Sequelae of inflammatory diseases of central nervous system"
       }, {
-        "code": "NACHC.F1.DE22",
+        "code": "I26.9",
         "display": "Pulmonary embolism without acute cor pulmonale"
       }, {
-        "code": "NACHC.F1.DE23",
+        "code": "I33",
         "display": "Acute and subacute endocarditis"
       }, {
-        "code": "NACHC.F1.DE24",
+        "code": "I34",
         "display": "Nonrheumatic mitral valve disorders"
       }, {
-        "code": "NACHC.F1.DE25",
+        "code": "I35",
         "display": "Nonrheumatic aortic valve disorders"
       }, {
-        "code": "NACHC.F1.DE26",
+        "code": "I36",
         "display": "Nonrheumatic tricuspid valve disorders"
       }, {
-        "code": "NACHC.F1.DE27",
+        "code": "I37",
         "display": "Nonrheumatic pulmonary valve disorders"
       }, {
-        "code": "NACHC.F1.DE28",
+        "code": "I38",
         "display": "Endocarditis, valve unspecified"
       }, {
-        "code": "NACHC.F1.DE29",
+        "code": "I39",
         "display": "Endocarditis and heart valve disorders in diseases classified elsewhere"
       }, {
-        "code": "NACHC.F1.DE30",
+        "code": "I40.0",
         "display": "Infective myocarditis"
       }, {
-        "code": "NACHC.F1.DE31",
+        "code": "I80",
         "display": "Phlebitis and thrombophlebitis"
       }, {
-        "code": "NACHC.F1.DE32",
+        "code": "K63.0",
         "display": "Abscess of intestine"
       }, {
-        "code": "NACHC.F1.DE33",
+        "code": "K65.0",
         "display": "Generalized (acute) peritonitis"
       }, {
-        "code": "NACHC.F1.DE34",
+        "code": "K75.0",
         "display": "Abscess of liver"
       }, {
-        "code": "NACHC.F1.DE35",
+        "code": "L02",
         "display": "Cutaneous abscess, furuncle and carbuncle"
       }, {
-        "code": "NACHC.F1.DE36",
+        "code": "L03",
         "display": "Cellulitis and acute lymphangitis"
       }, {
-        "code": "NACHC.F1.DE37",
+        "code": "L97",
         "display": "Non-pressure chronic ulcer of lower limb, not elsewhere classified"
       }, {
-        "code": "NACHC.F1.DE38",
+        "code": "L98.8",
         "display": "Other specified disorders of the skin and subcutaneous tissue"
       }, {
-        "code": "NACHC.F1.DE39",
+        "code": "M54.02",
         "display": "Panniculitis affecting regions of neck and back, cervical region"
       }, {
-        "code": "NACHC.F1.DE40",
+        "code": "M72.6",
         "display": "Necrotizing fasciitis"
       }, {
-        "code": "NACHC.F1.DE41",
+        "code": "M79.3",
         "display": "Panniculitis, unspecified"
       }, {
-        "code": "NACHC.F1.DE42",
+        "code": "M86",
         "display": "Osteomyelitis"
       }, {
-        "code": "NACHC.F1.DE43",
+        "code": "M89.9",
         "display": "Disorder of bone, unspecified"
       }, {
-        "code": "NACHC.F1.DE44",
+        "code": "N10",
         "display": "Acute tubulo-interstitial nephritis"
       }, {
-        "code": "NACHC.F1.DE45",
+        "code": "R65.1",
         "display": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin"
-      }, {
-        "code": "NACHC.F1.DE46",
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "228388006",
         "display": "IV - Intravenous drug user"
       }, {
-        "code": "NACHC.F1.DE47",
+        "code": "389299009",
         "display": "Intravenous drug user (finding)"
       }, {
-        "code": "NACHC.F1.DE48",
+        "code": "390034003",
         "display": "Intravenous drug user (finding)"
       }, {
-        "code": "NACHC.F1.DE49",
+        "code": "10327003",
         "display": "Cocaine-induced mood disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE50",
+        "code": "10755161000119100",
         "display": "Drug dependence in childbirth (disorder)"
       }, {
-        "code": "NACHC.F1.DE51",
+        "code": "1081000119105",
         "display": "Opioid dependence, on agonist therapy (disorder)"
       }, {
-        "code": "NACHC.F1.DE52",
+        "code": "110281001",
         "display": "Chronic drug abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE53",
+        "code": "11061003",
         "display": "Psychoactive substance use disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE54",
+        "code": "111479008",
         "display": "Organic mental disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE55",
+        "code": "125851000119106",
         "display": "Continuous sedative abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE56",
+        "code": "1383008",
         "display": "Hallucinogen mood disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE57",
+        "code": "145101000119102",
         "display": "Intravenous cocaine abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE58",
+        "code": "145841000119107",
         "display": "Episodic phencyclidine abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE59",
+        "code": "1461000119109",
         "display": "Drug dependence in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE60",
+        "code": "1471000119103",
         "display": "Drug abuse in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE61",
+        "code": "14784000",
         "display": "Opioid-induced organic mental disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE62",
+        "code": "15277004",
         "display": "Hallucinogen-induced anxiety disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE63",
+        "code": "153491000119103",
         "display": "Drug dependence, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE64",
+        "code": "153501000119105",
         "display": "Drug dependence, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE65",
+        "code": "16076691000119100",
         "display": "Episodic polysubstance dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE66",
+        "code": "171047005",
         "display": "Drugs of addiction education (procedure)"
       }, {
-        "code": "NACHC.F1.DE67",
+        "code": "191483003",
         "display": "Drug-induced psychosis (disorder)"
       }, {
-        "code": "NACHC.F1.DE68",
+        "code": "191484009",
         "display": "Drug-induced paranoia or hallucinatory states (disorder)"
       }, {
-        "code": "NACHC.F1.DE69",
+        "code": "191485005",
         "display": "Drug-induced paranoid state (disorder)"
       }, {
-        "code": "NACHC.F1.DE70",
+        "code": "191486006",
         "display": "Drug-induced hallucinosis (disorder)"
       }, {
-        "code": "NACHC.F1.DE71",
+        "code": "191492000",
         "display": "Drug-induced delirium (disorder)"
       }, {
-        "code": "NACHC.F1.DE72",
+        "code": "191493005",
         "display": "Drug-induced dementia (disorder)"
       }, {
-        "code": "NACHC.F1.DE73",
+        "code": "191494004",
         "display": "Drug-induced amnestic syndrome (disorder)"
       }, {
-        "code": "NACHC.F1.DE74",
+        "code": "191495003",
         "display": "Drug-induced depressive state (disorder)"
       }, {
-        "code": "NACHC.F1.DE75",
+        "code": "191496002",
         "display": "Drug-induced personality disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE76",
+        "code": "191805002",
         "display": "Episodic acute alcoholic intoxication in alcoholism (disorder)"
       }, {
-        "code": "NACHC.F1.DE77",
+        "code": "191812006",
         "display": "Episodic chronic alcoholism (disorder)"
       }, {
-        "code": "NACHC.F1.DE78",
+        "code": "191816009",
         "display": "Drug dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE79",
+        "code": "191819002",
         "display": "Continuous opioid dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE80",
+        "code": "191820008",
         "display": "Episodic opioid dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE81",
+        "code": "191821007",
         "display": "Opioid dependence in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE82",
+        "code": "191825003",
         "display": "Hypnotic or anxiolytic dependence, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE83",
+        "code": "191826002",
         "display": "Hypnotic or anxiolytic dependence, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE84",
+        "code": "191827006",
         "display": "Hypnotic or anxiolytic dependence in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE85",
+        "code": "191831000",
         "display": "Cocaine dependence, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE86",
+        "code": "191832007",
         "display": "Cocaine dependence, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE87",
+        "code": "191833002",
         "display": "Cocaine dependence in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE88",
+        "code": "191843004",
         "display": "Amphetamine or psychostimulant dependence, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE89",
+        "code": "191844005",
         "display": "Amphetamine or psychostimulant dependence, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE90",
+        "code": "191849000",
         "display": "Hallucinogen dependence, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE91",
+        "code": "191850000",
         "display": "Hallucinogen dependence, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE92",
+        "code": "191851001",
         "display": "Hallucinogen dependence in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE93",
+        "code": "191865004",
         "display": "Combined opioid with non-opioid drug dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE94",
+        "code": "191867007",
         "display": "Combined opioid with non-opioid drug dependence, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE95",
+        "code": "191868002",
         "display": "Combined opioid with non-opioid drug dependence, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE96",
+        "code": "191869005",
         "display": "Combined opioid with non-opioid drug dependence in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE97",
+        "code": "191871005",
         "display": "Combined drug dependence, excluding opioids (disorder)"
       }, {
-        "code": "NACHC.F1.DE98",
+        "code": "191873008",
         "display": "Combined drug dependence, excluding opioid, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE99",
+        "code": "191874002",
         "display": "Combined drug dependence, excluding opioid, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE100",
+        "code": "191875001",
         "display": "Combined drug dependence, excluding opioid, in remission (disorder)"
       }, {
-        "code": "NACHC.F1.DE101",
+        "code": "19445006",
         "display": "Opioid-induced psychotic disorder with hallucinations (disorder)"
       }, {
-        "code": "NACHC.F1.DE102",
+        "code": "199252002",
         "display": "Drug dependence during pregnancy - baby delivered (disorder)"
       }, {
-        "code": "NACHC.F1.DE103",
+        "code": "199253007",
         "display": "Drug dependence in the puerperium - baby delivered (disorder)"
       }, {
-        "code": "NACHC.F1.DE104",
+        "code": "199254001",
         "display": "Drug dependence during pregnancy - baby not yet delivered (disorder)"
       }, {
-        "code": "NACHC.F1.DE105",
+        "code": "199255000",
         "display": "Drug dependence in the puerperium - baby delivered during previous episode of care (disorder)"
       }, {
-        "code": "NACHC.F1.DE106",
+        "code": "20385005",
         "display": "Opioid-induced psychotic disorder with delusions (disorder)"
       }, {
-        "code": "NACHC.F1.DE107",
+        "code": "21647008",
         "display": "Amphetamine dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE108",
+        "code": "230334008",
         "display": "Drug-induced tic (disorder)"
       }, {
-        "code": "NACHC.F1.DE109",
+        "code": "230443000",
         "display": "Narcotic withdrawal epilepsy (disorder)"
       }, {
-        "code": "NACHC.F1.DE110",
+        "code": "231451006",
         "display": "Drug-induced intensive care psychosis (disorder)"
       }, {
-        "code": "NACHC.F1.DE111",
+        "code": "231461004",
         "display": "Hypnotic or anxiolytic abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE112",
+        "code": "231467000",
         "display": "Absinthe addiction (disorder)"
       }, {
-        "code": "NACHC.F1.DE113",
+        "code": "231468005",
         "display": "Lysergic acid diethylamide dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE114",
+        "code": "231469002",
         "display": "Mescaline dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE115",
+        "code": "231470001",
         "display": "Anxiolytic dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE116",
+        "code": "231477003",
         "display": "Heroin dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE117",
+        "code": "231478008",
         "display": "Methadone dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE118",
+        "code": "231479000",
         "display": "Morphine dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE119",
+        "code": "231480002",
         "display": "Opium dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE120",
+        "code": "231481003",
         "display": "Controlled drug dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE121",
+        "code": "231482005",
         "display": "Active drug dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE122",
+        "code": "237228001",
         "display": "Pregnancy and drug dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE123",
+        "code": "2403008",
         "display": "Psychoactive substance dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE124",
+        "code": "25508008",
         "display": "Pathological drug intoxication (disorder)"
       }, {
-        "code": "NACHC.F1.DE125",
+        "code": "26416006",
         "display": "Drug abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE126",
+        "code": "267206008",
         "display": "Drug dependence during pregnancy, childbirth and the puerperium (disorder)"
       }, {
-        "code": "NACHC.F1.DE127",
+        "code": "268640002",
         "display": "Hypnotic or anxiolytic dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE128",
+        "code": "27956007",
         "display": "Cocaine intoxication (disorder)"
       }, {
-        "code": "NACHC.F1.DE129",
+        "code": "288851000119106",
         "display": "Opioid-induced mood disorder due to opioid abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE130",
+        "code": "288861000119108",
         "display": "Opioid-induced mood disorder due to opioid dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE131",
+        "code": "29733004",
         "display": "Opioid-induced mood disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE132",
+        "code": "30310000",
         "display": "Nicotine-induced organic mental disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE133",
+        "code": "30491001",
         "display": "Cocaine delusional disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE134",
+        "code": "313915006",
         "display": "Hypnotic-induced organic mental disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE135",
+        "code": "31956009",
         "display": "Cocaine dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE136",
+        "code": "32009006",
         "display": "Hallucinogen hallucinosis (disorder)"
       }, {
-        "code": "NACHC.F1.DE137",
+        "code": "32358001",
         "display": "Amphetamine delusional disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE138",
+        "code": "33845003",
         "display": "Idiosyncratic drug effect (disorder)"
       }, {
-        "code": "NACHC.F1.DE139",
+        "code": "363101005",
         "display": "Drug withdrawal (disorder)"
       }, {
-        "code": "NACHC.F1.DE140",
+        "code": "38247002",
         "display": "Hallucinogen dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE141",
+        "code": "40571009",
         "display": "Hallucinogen intoxication delirium (disorder)"
       }, {
-        "code": "NACHC.F1.DE142",
+        "code": "416714005",
         "display": "Episodic flashbacks (disorder)"
       }, {
-        "code": "NACHC.F1.DE143",
+        "code": "417360004",
         "display": "Duplicative flashbacks (disorder)"
       }, {
-        "code": "NACHC.F1.DE144",
+        "code": "425533007",
         "display": "Episodic drug abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE145",
+        "code": "425885002",
         "display": "Continuous phencyclidine abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE146",
+        "code": "426001001",
         "display": "Fentanyl dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE147",
+        "code": "426590003",
         "display": "Drug abuse, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE148",
+        "code": "426873000",
         "display": "Methamphetamine dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE149",
+        "code": "427205009",
         "display": "Amphetamine abuse, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE150",
+        "code": "427229002",
         "display": "Episodic inhalant abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE151",
+        "code": "427975003",
         "display": "Drug-induced delusional disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE152",
+        "code": "428561000124100",
         "display": "Maternal substance abuse (situation)"
       }, {
-        "code": "NACHC.F1.DE153",
+        "code": "429001000124103",
         "display": "Catha edulis abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE154",
+        "code": "429299000",
         "display": "Combined drug dependence, continuous (disorder)"
       }, {
-        "code": "NACHC.F1.DE155",
+        "code": "429672007",
         "display": "Drug-induced mood disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE156",
+        "code": "429692000",
         "display": "Amphetamine abuse, episodic (disorder)"
       }, {
-        "code": "NACHC.F1.DE157",
+        "code": "441681009",
         "display": "Dependence on unknown drug (disorder)"
       }, {
-        "code": "NACHC.F1.DE158",
+        "code": "445273005",
         "display": "Polysubstance abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE159",
+        "code": "46975003",
         "display": "Cocaine-induced organic mental disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE160",
+        "code": "50320000",
         "display": "Hallucinogen intoxication (disorder)"
       }, {
-        "code": "NACHC.F1.DE161",
+        "code": "50933003",
         "display": "Hallucinogen delusional disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE162",
+        "code": "51339003",
         "display": "Polysubstance dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE163",
+        "code": "51493001",
         "display": "Cocaine-induced anxiety disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE164",
+        "code": "52866005",
         "display": "Opioid intoxication delirium (disorder)"
       }, {
-        "code": "NACHC.F1.DE165",
+        "code": "53050002",
         "display": "Hallucinogen-induced organic mental disorder (disorder)"
       }, {
-        "code": "NACHC.F1.DE166",
+        "code": "5602001",
         "display": "Opioid abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE167",
+        "code": "6348008",
         "display": "Cocaine-induced psychotic disorder with hallucinations (disorder)"
       }, {
-        "code": "NACHC.F1.DE168",
+        "code": "6525002",
         "display": "Dependent drug abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE169",
+        "code": "66214007",
         "display": "Substance abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE170",
+        "code": "699449003",
         "display": "Methamphetamine abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE171",
+        "code": "70328006",
         "display": "Cocaine delirium (disorder)"
       }, {
-        "code": "NACHC.F1.DE172",
+        "code": "71328000",
         "display": "Opioid-induced sexual dysfunction (disorder)"
       }, {
-        "code": "NACHC.F1.DE173",
+        "code": "713775002",
         "display": "Novel psychoactive substance misuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE174",
+        "code": "724653003",
         "display": "Opioid dependence with current use (disorder)"
       }, {
-        "code": "NACHC.F1.DE175",
+        "code": "724656006",
         "display": "Hypnotic dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE176",
+        "code": "724658007",
         "display": "Hypnotic dependence with current use (disorder)"
       }, {
-        "code": "NACHC.F1.DE177",
+        "code": "724660009",
         "display": "Hypnotic withdrawal (disorder)"
       }, {
-        "code": "NACHC.F1.DE178",
+        "code": "724663006",
         "display": "Hypnotic withdrawal without complication (disorder)"
       }, {
-        "code": "NACHC.F1.DE179",
+        "code": "724688003",
         "display": "Cocaine dependence with current use (disorder)"
       }, {
-        "code": "NACHC.F1.DE180",
+        "code": "724694006",
         "display": "Harmful pattern of use of caffeine (disorder)"
       }, {
-        "code": "NACHC.F1.DE181",
+        "code": "724695007",
         "display": "Hallucinogen dependence with current use (disorder)"
       }, {
-        "code": "NACHC.F1.DE182",
+        "code": "724697004",
         "display": "Harmful pattern of use of nicotine (disorder)"
       }, {
-        "code": "NACHC.F1.DE183",
+        "code": "724704009",
         "display": "Methylenedioxymethamphetamine dependence with current use (disorder)"
       }, {
-        "code": "NACHC.F1.DE184",
+        "code": "724712001",
         "display": "Harmful use of dissociative drug (disorder)"
       }, {
-        "code": "NACHC.F1.DE185",
+        "code": "724713006",
         "display": "Harmful use of ketamine (disorder)"
       }, {
-        "code": "NACHC.F1.DE186",
+        "code": "724724008",
         "display": "Psychoactive substance dependence with current use (disorder)"
       }, {
-        "code": "NACHC.F1.DE187",
+        "code": "724725009",
         "display": "Psychoactive substance withdrawal without complication (disorder)"
       }, {
-        "code": "NACHC.F1.DE188",
+        "code": "74851005",
         "display": "Hallucinogen abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE189",
+        "code": "75544000",
         "display": "Opioid dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE190",
+        "code": "78267003",
         "display": "Cocaine abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE191",
+        "code": "78358001",
         "display": "Amphetamine withdrawal (disorder)"
       }, {
-        "code": "NACHC.F1.DE192",
+        "code": "80868005",
         "display": "Cocaine withdrawal (disorder)"
       }, {
-        "code": "NACHC.F1.DE193",
+        "code": "84758004",
         "display": "Amphetamine abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE194",
+        "code": "87132004",
         "display": "Opioid withdrawal (disorder)"
       }, {
-        "code": "NACHC.F1.DE195",
+        "code": "8837000",
         "display": "Amphetamine delirium (disorder)"
       }, {
-        "code": "NACHC.F1.DE196",
+        "code": "90755006",
         "display": "Nicotine withdrawal (disorder)"
       }, {
-        "code": "NACHC.F1.DE197",
+        "code": "91388009",
         "display": "Psychoactive substance abuse (disorder)"
       }, {
-        "code": "NACHC.F1.DE198",
+        "code": "95918004",
         "display": "Therapeutic drug dependence (disorder)"
       }, {
-        "code": "NACHC.F1.DE199",
+        "code": "9769006",
         "display": "Drug habituation (disorder)"
       } ]
     } ]

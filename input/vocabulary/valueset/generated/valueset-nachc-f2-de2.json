@@ -2,122 +2,122 @@
   "resourceType": "ValueSet",
   "id": "nachc-f2-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de2",
-  "name": "PregnancyEncountersChoices",
-  "title": "Pregnancy Encounters Choices",
+  "name": "PregnancyEncountersCodes",
+  "title": "Pregnancy Encounters Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Pregnancy Encounters Choices element",
+  "description": "Codes representing possible values for the Pregnancy Encounters element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/icd-10",
       "concept": [ {
-        "code": "NACHC.F2.DE2",
+        "code": "Z03.71",
         "display": "Encounter for suspected problem with amniotic cavity and membrane ruled out"
       }, {
-        "code": "NACHC.F2.DE3",
+        "code": "Z03.72",
         "display": "Encounter for suspected placental problem ruled out"
       }, {
-        "code": "NACHC.F2.DE4",
+        "code": "Z03.73",
         "display": "Encounter for suspected fetal anomaly ruled out"
       }, {
-        "code": "NACHC.F2.DE5",
+        "code": "Z03.74",
         "display": "Encounter for suspected problem with fetal growth ruled out"
       }, {
-        "code": "NACHC.F2.DE6",
+        "code": "Z03.75",
         "display": "Encounter for suspected cervical shortening ruled out"
       }, {
-        "code": "NACHC.F2.DE7",
+        "code": "Z03.79",
         "display": "Encounter for other suspected maternal and fetal conditions ruled out"
       }, {
-        "code": "NACHC.F2.DE8",
+        "code": "Z33.2",
         "display": "Encounter for elective termination of pregnancy"
       }, {
-        "code": "NACHC.F2.DE9",
+        "code": "Z34.00",
         "display": "Encounter for supervision of normal first pregnancy, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE10",
+        "code": "Z34.01",
         "display": "Encounter for supervision of normal first pregnancy, first trimester"
       }, {
-        "code": "NACHC.F2.DE11",
+        "code": "Z34.02",
         "display": "Encounter for supervision of normal first pregnancy, second trimester"
       }, {
-        "code": "NACHC.F2.DE12",
+        "code": "Z34.03",
         "display": "Encounter for supervision of normal first pregnancy, third trimester"
       }, {
-        "code": "NACHC.F2.DE13",
+        "code": "Z34.80",
         "display": "Encounter for supervision of other normal pregnancy, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE14",
+        "code": "Z34.81",
         "display": "Encounter for supervision of other normal pregnancy, first trimester"
       }, {
-        "code": "NACHC.F2.DE15",
+        "code": "Z34.82",
         "display": "Encounter for supervision of other normal pregnancy, second trimester"
       }, {
-        "code": "NACHC.F2.DE16",
+        "code": "Z34.83",
         "display": "Encounter for supervision of other normal pregnancy, third trimester"
       }, {
-        "code": "NACHC.F2.DE17",
+        "code": "Z34.90",
         "display": "Encounter for supervision of normal pregnancy, unspecified, unspecified trimester"
       }, {
-        "code": "NACHC.F2.DE18",
+        "code": "Z34.91",
         "display": "Encounter for supervision of normal pregnancy, unspecified, first trimester"
       }, {
-        "code": "NACHC.F2.DE19",
+        "code": "Z34.92",
         "display": "Encounter for supervision of normal pregnancy, unspecified, second trimester"
       }, {
-        "code": "NACHC.F2.DE20",
+        "code": "Z34.93",
         "display": "Encounter for supervision of normal pregnancy, unspecified, third trimester"
       }, {
-        "code": "NACHC.F2.DE21",
+        "code": "Z36",
         "display": "Encounter for antenatal screening of mother"
       }, {
-        "code": "NACHC.F2.DE22",
+        "code": "Z36.0",
         "display": "Encounter for antenatal screening for chromosomal anomalies"
       }, {
-        "code": "NACHC.F2.DE23",
+        "code": "Z36.1",
         "display": "Encounter for antenatal screening for raised alphafetoprotein level"
       }, {
-        "code": "NACHC.F2.DE24",
+        "code": "Z36.2",
         "display": "Encounter for other antenatal screening follow-up"
       }, {
-        "code": "NACHC.F2.DE25",
+        "code": "Z36.3",
         "display": "Encounter for antenatal screening for malformations"
       }, {
-        "code": "NACHC.F2.DE26",
+        "code": "Z36.4",
         "display": "Encounter for antenatal screening for fetal growth retardation"
       }, {
-        "code": "NACHC.F2.DE27",
+        "code": "Z36.5",
         "display": "Encounter for antenatal screening for isoimmunization"
       }, {
-        "code": "NACHC.F2.DE28",
+        "code": "Z36.81",
         "display": "Encounter for antenatal screening for hydrops fetalis"
       }, {
-        "code": "NACHC.F2.DE29",
+        "code": "Z36.82",
         "display": "Encounter for antenatal screening for nuchal translucency"
       }, {
-        "code": "NACHC.F2.DE30",
+        "code": "Z36.84",
         "display": "Encounter for antenatal screening for fetal lung maturity"
       }, {
-        "code": "NACHC.F2.DE31",
+        "code": "Z36.85",
         "display": "Encounter for antenatal screening for Streptococcus B"
       }, {
-        "code": "NACHC.F2.DE32",
+        "code": "Z36.86",
         "display": "Encounter for antenatal screening for cervical length"
       }, {
-        "code": "NACHC.F2.DE33",
+        "code": "Z36.87",
         "display": "Encounter for antenatal screening for uncertain dates"
       }, {
-        "code": "NACHC.F2.DE34",
+        "code": "Z36.88",
         "display": "Encounter for antenatal screening for fetal macrosomia"
       }, {
-        "code": "NACHC.F2.DE35",
+        "code": "Z36.89",
         "display": "Encounter for other specified antenatal screening"
       }, {
-        "code": "NACHC.F2.DE36",
+        "code": "Z36.8A",
         "display": "Encounter for antenatal screening for other genetic defects"
       }, {
-        "code": "NACHC.F2.DE37",
+        "code": "Z36.9",
         "display": "Encounter for antenatal screening, unspecified"
       } ]
     } ]

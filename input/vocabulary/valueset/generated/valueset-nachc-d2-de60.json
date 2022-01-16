@@ -2,32 +2,32 @@
   "resourceType": "ValueSet",
   "id": "nachc-d2-de60",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de60",
-  "name": "GonorrheaTestsforNeisseriaspeciesbyCultureChoices",
-  "title": "Gonorrhea Tests for Neisseria species by Culture Choices",
+  "name": "GonorrheaTestsforNeisseriaspeciesbyCultureCodes",
+  "title": "Gonorrhea Tests for Neisseria species by Culture Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Gonorrhea Tests for Neisseria species by Culture Choices element",
+  "description": "Codes representing possible values for the Gonorrhea Tests for Neisseria species by Culture element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.D2.DE60",
+        "code": "43383-9",
         "display": "Neisseria sp identified in Throat by Organism specific culture"
       }, {
-        "code": "NACHC.D2.DE61",
+        "code": "43384-7",
         "display": "Neisseria sp identified in Urethra by Organism specific culture"
       }, {
-        "code": "NACHC.D2.DE62",
+        "code": "43385-4",
         "display": "Neisseria sp identified in Cervix by Organism specific culture"
       }, {
-        "code": "NACHC.D2.DE63",
+        "code": "43386-2",
         "display": "Neisseria sp identified in Anal by Organism specific culture"
       }, {
-        "code": "NACHC.D2.DE64",
+        "code": "43387-0",
         "display": "Neisseria sp identified in Unspecified specimen by Organism specific culture"
       }, {
-        "code": "NACHC.D2.DE65",
+        "code": "80369-2",
         "display": "Neisseria sp identified in Rectum by Organism specific culture"
       } ]
     } ]

@@ -2,32 +2,32 @@
   "resourceType": "ValueSet",
   "id": "nachc-c1-de185",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de185",
-  "name": "SyphilisOrganismorSubstanceinLabResultsChoices",
-  "title": "Syphilis (Organism or Substance in Lab Results) Choices",
+  "name": "SyphilisOrganismorSubstanceinLabResultsCodes",
+  "title": "Syphilis (Organism or Substance in Lab Results) Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Syphilis (Organism or Substance in Lab Results) Choices element",
+  "description": "Codes representing possible values for the Syphilis (Organism or Substance in Lab Results) element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.C1.DE185",
+        "code": "707439008",
         "display": "Antigen of Treponema pallidum (substance)"
       }, {
-        "code": "NACHC.C1.DE186",
+        "code": "708462008",
         "display": "Deoxyribonucleic acid of Treponema pallidum (substance)"
       }, {
-        "code": "NACHC.C1.DE187",
+        "code": "72904005",
         "display": "Treponema pallidum (organism)"
       }, {
-        "code": "NACHC.C1.DE188",
+        "code": "44106000",
         "display": "Treponema pallidum ss. endemicum (organism)"
       }, {
-        "code": "NACHC.C1.DE189",
+        "code": "43454006",
         "display": "Treponema pallidum ss. pallidum (organism)"
       }, {
-        "code": "NACHC.C1.DE190",
+        "code": "6246005",
         "display": "Treponema pallidum ss. pertenue (organism)"
       } ]
     } ]

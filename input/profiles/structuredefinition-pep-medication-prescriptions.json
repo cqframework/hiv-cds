@@ -49,10 +49,10 @@
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "PEP Medication Prescriptions Choices Grouper"
+          "valueString": "PEP Medication Prescriptions Codes Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de5-choices-grouper"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de5-codes-grouper"
       },
       "mapping": [ {
         "identity": "HIV",

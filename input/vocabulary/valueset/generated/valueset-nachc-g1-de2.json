@@ -2,23 +2,23 @@
   "resourceType": "ValueSet",
   "id": "nachc-g1-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de2",
-  "name": "PostExposureProphylaxisChoices",
-  "title": "Post Exposure Prophylaxis Choices",
+  "name": "PostExposureProphylaxisCodes",
+  "title": "Post Exposure Prophylaxis Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Post Exposure Prophylaxis Choices element",
+  "description": "Codes representing possible values for the Post Exposure Prophylaxis element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.G1.DE2",
+        "code": "409516001",
         "display": "Post-exposure prophylaxis"
       }, {
-        "code": "NACHC.G1.DE3",
+        "code": "736459001",
         "display": "Administration of prophylactic agent after sexual exposure (procedure)"
       }, {
-        "code": "NACHC.G1.DE4",
+        "code": "473382005",
         "display": "Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)"
       } ]
     } ]

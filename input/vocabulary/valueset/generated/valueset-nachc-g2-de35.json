@@ -2,20 +2,20 @@
   "resourceType": "ValueSet",
   "id": "nachc-g2-de35",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de35",
-  "name": "TAF25mgFTC200mgSuppliedChoices",
-  "title": "TAF 25mg / FTC 200mg Supplied Choices",
+  "name": "TAF25mgFTC200mgSuppliedCodes",
+  "title": "TAF 25mg / FTC 200mg Supplied Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the TAF 25mg / FTC 200mg Supplied Choices element",
+  "description": "Codes representing possible values for the TAF 25mg / FTC 200mg Supplied element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/ndc",
       "concept": [ {
-        "code": "NACHC.G2.DE35",
+        "code": "61958-2002",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)"
       }, {
-        "code": "NACHC.G2.DE36",
+        "code": "70518-0230",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)"
       } ]
     } ]

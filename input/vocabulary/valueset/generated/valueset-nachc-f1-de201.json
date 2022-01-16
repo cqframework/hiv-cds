@@ -2,707 +2,707 @@
   "resourceType": "ValueSet",
   "id": "nachc-f1-de201",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de201",
-  "name": "InjectionDrugUseChoices",
-  "title": "Injection Drug Use Choices",
+  "name": "InjectionDrugUseCodes",
+  "title": "Injection Drug Use Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Injection Drug Use Choices element",
+  "description": "Codes representing possible values for the Injection Drug Use element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/icd-10",
       "concept": [ {
-        "code": "NACHC.F1.DE201",
+        "code": "F11.10",
         "display": "Opioid abuse, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE202",
+        "code": "F11.11",
         "display": "Opioid abuse, in remission"
       }, {
-        "code": "NACHC.F1.DE203",
+        "code": "F11.120",
         "display": "Opioid abuse with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE204",
+        "code": "F11.121",
         "display": "Opioid abuse with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE205",
+        "code": "F11.122",
         "display": "Opioid abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE206",
+        "code": "F11.129",
         "display": "Opioid abuse with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE207",
+        "code": "F11.14",
         "display": "Opioid abuse with opioid-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE208",
+        "code": "F11.150",
         "display": "Opioid abuse with opioid-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE209",
+        "code": "F11.151",
         "display": "Opioid abuse with opioid-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE210",
+        "code": "F11.159",
         "display": "Opioid abuse with opioid-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE211",
+        "code": "F11.181",
         "display": "Opioid abuse with opioid-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE212",
+        "code": "F11.182",
         "display": "Opioid abuse with opioid-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE213",
+        "code": "F11.188",
         "display": "Opioid abuse with other opioid-induced disorder"
       }, {
-        "code": "NACHC.F1.DE214",
+        "code": "F11.19",
         "display": "Opioid abuse with unspecified opioid-induced disorder"
       }, {
-        "code": "NACHC.F1.DE215",
+        "code": "F11.20",
         "display": "Opioid dependence, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE216",
+        "code": "F11.21",
         "display": "Opioid dependence, in remission"
       }, {
-        "code": "NACHC.F1.DE217",
+        "code": "F11.220",
         "display": "Opioid dependence with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE218",
+        "code": "F11.221",
         "display": "Opioid dependence with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE219",
+        "code": "F11.222",
         "display": "Opioid dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE220",
+        "code": "F11.229",
         "display": "Opioid dependence with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE221",
+        "code": "F11.23",
         "display": "Opioid dependence with withdrawal"
       }, {
-        "code": "NACHC.F1.DE222",
+        "code": "F11.24",
         "display": "Opioid dependence with opioid-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE223",
+        "code": "F11.250",
         "display": "Opioid dependence with opioid-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE224",
+        "code": "F11.251",
         "display": "Opioid dependence with opioid-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE225",
+        "code": "F11.259",
         "display": "Opioid dependence with opioid-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE226",
+        "code": "F11.281",
         "display": "Opioid dependence with opioid-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE227",
+        "code": "F11.282",
         "display": "Opioid dependence with opioid-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE228",
+        "code": "F11.288",
         "display": "Opioid dependence with other opioid-induced disorder"
       }, {
-        "code": "NACHC.F1.DE229",
+        "code": "F11.29",
         "display": "Opioid dependence with unspecified opioid-induced disorder"
       }, {
-        "code": "NACHC.F1.DE230",
+        "code": "F11.90",
         "display": "Opioid use, unspecified, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE231",
+        "code": "F11.920",
         "display": "Opioid use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE232",
+        "code": "F11.921",
         "display": "Opioid use, unspecified with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE233",
+        "code": "F11.922",
         "display": "Opioid use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE234",
+        "code": "F11.929",
         "display": "Opioid use, unspecified with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE235",
+        "code": "F11.93",
         "display": "Opioid use, unspecified with withdrawal"
       }, {
-        "code": "NACHC.F1.DE236",
+        "code": "F11.94",
         "display": "Opioid use, unspecified with opioid-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE237",
+        "code": "F11.950",
         "display": "Opioid use, unspecified with opioid-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE238",
+        "code": "F11.951",
         "display": "Opioid use, unspecified with opioid-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE239",
+        "code": "F11.959",
         "display": "Opioid use, unspecified with opioid-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE240",
+        "code": "F11.981",
         "display": "Opioid use, unspecified with opioid-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE241",
+        "code": "F11.982",
         "display": "Opioid use, unspecified with opioid-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE242",
+        "code": "F11.988",
         "display": "Opioid use, unspecified with other opioid-induced disorder"
       }, {
-        "code": "NACHC.F1.DE243",
+        "code": "F11.99",
         "display": "Opioid use, unspecified with unspecified opioid-induced disorder"
       }, {
-        "code": "NACHC.F1.DE244",
+        "code": "F14.10",
         "display": "Cocaine abuse, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE245",
+        "code": "F14.11",
         "display": "Cocaine abuse, in remission"
       }, {
-        "code": "NACHC.F1.DE246",
+        "code": "F14.120",
         "display": "Cocaine abuse with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE247",
+        "code": "F14.121",
         "display": "Cocaine abuse with intoxication with delirium"
       }, {
-        "code": "NACHC.F1.DE248",
+        "code": "F14.122",
         "display": "Cocaine abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE249",
+        "code": "F14.129",
         "display": "Cocaine abuse with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE250",
+        "code": "F14.14",
         "display": "Cocaine abuse with cocaine-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE251",
+        "code": "F14.150",
         "display": "Cocaine abuse with cocaine-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE252",
+        "code": "F14.151",
         "display": "Cocaine abuse with cocaine-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE253",
+        "code": "F14.159",
         "display": "Cocaine abuse with cocaine-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE254",
+        "code": "F14.180",
         "display": "Cocaine abuse with cocaine-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE255",
+        "code": "F14.181",
         "display": "Cocaine abuse with cocaine-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE256",
+        "code": "F14.182",
         "display": "Cocaine abuse with cocaine-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE257",
+        "code": "F14.188",
         "display": "Cocaine abuse with other cocaine-induced disorder"
       }, {
-        "code": "NACHC.F1.DE258",
+        "code": "F14.19",
         "display": "Cocaine abuse with unspecified cocaine-induced disorder"
       }, {
-        "code": "NACHC.F1.DE259",
+        "code": "F14.20",
         "display": "Cocaine dependence, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE260",
+        "code": "F14.21",
         "display": "Cocaine dependence, in remission"
       }, {
-        "code": "NACHC.F1.DE261",
+        "code": "F14.220",
         "display": "Cocaine dependence with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE262",
+        "code": "F14.221",
         "display": "Cocaine dependence with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE263",
+        "code": "F14.222",
         "display": "Cocaine dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE264",
+        "code": "F14.229",
         "display": "Cocaine dependence with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE265",
+        "code": "F14.23",
         "display": "Cocaine dependence with withdrawal"
       }, {
-        "code": "NACHC.F1.DE266",
+        "code": "F14.24",
         "display": "Cocaine dependence with cocaine-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE267",
+        "code": "F14.250",
         "display": "Cocaine dependence with cocaine-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE268",
+        "code": "F14.251",
         "display": "Cocaine dependence with cocaine-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE269",
+        "code": "F14.259",
         "display": "Cocaine dependence with cocaine-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE270",
+        "code": "F14.280",
         "display": "Cocaine dependence with cocaine-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE271",
+        "code": "F14.281",
         "display": "Cocaine dependence with cocaine-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE272",
+        "code": "F14.282",
         "display": "Cocaine dependence with cocaine-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE273",
+        "code": "F14.288",
         "display": "Cocaine dependence with other cocaine-induced disorder"
       }, {
-        "code": "NACHC.F1.DE274",
+        "code": "F14.29",
         "display": "Cocaine dependence with unspecified cocaine-induced disorder"
       }, {
-        "code": "NACHC.F1.DE275",
+        "code": "F14.90",
         "display": "Cocaine use, unspecified, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE276",
+        "code": "F14.920",
         "display": "Cocaine use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE277",
+        "code": "F14.921",
         "display": "Cocaine use, unspecified with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE278",
+        "code": "F14.922",
         "display": "Cocaine use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE279",
+        "code": "F14.929",
         "display": "Cocaine use, unspecified with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE280",
+        "code": "F14.94",
         "display": "Cocaine use, unspecified with cocaine-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE281",
+        "code": "F14.950",
         "display": "Cocaine use, unspecified with cocaine-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE282",
+        "code": "F14.951",
         "display": "Cocaine use, unspecified with cocaine-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE283",
+        "code": "F14.959",
         "display": "Cocaine use, unspecified with cocaine-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE284",
+        "code": "F14.980",
         "display": "Cocaine use, unspecified with cocaine-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE285",
+        "code": "F14.981",
         "display": "Cocaine use, unspecified with cocaine-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE286",
+        "code": "F14.982",
         "display": "Cocaine use, unspecified with cocaine-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE287",
+        "code": "F14.988",
         "display": "Cocaine use, unspecified with other cocaine-induced disorder"
       }, {
-        "code": "NACHC.F1.DE288",
+        "code": "F14.99",
         "display": "Cocaine use, unspecified with unspecified cocaine-induced disorder"
       }, {
-        "code": "NACHC.F1.DE289",
+        "code": "F15.10",
         "display": "Other stimulant abuse, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE290",
+        "code": "F15.11",
         "display": "Other stimulant abuse, in remission"
       }, {
-        "code": "NACHC.F1.DE291",
+        "code": "F15.120",
         "display": "Other stimulant abuse with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE292",
+        "code": "F15.121",
         "display": "Other stimulant abuse with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE293",
+        "code": "F15.122",
         "display": "Other stimulant abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE294",
+        "code": "F15.129",
         "display": "Other stimulant abuse with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE295",
+        "code": "F15.14",
         "display": "Other stimulant abuse with stimulant-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE296",
+        "code": "F15.150",
         "display": "Other stimulant abuse with stimulant-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE297",
+        "code": "F15.151",
         "display": "Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE298",
+        "code": "F15.159",
         "display": "Other stimulant abuse with stimulant-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE299",
+        "code": "F15.180",
         "display": "Other stimulant abuse with stimulant-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE300",
+        "code": "F15.181",
         "display": "Other stimulant abuse with stimulant-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE301",
+        "code": "F15.182",
         "display": "Other stimulant abuse with stimulant-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE302",
+        "code": "F15.188",
         "display": "Other stimulant abuse with other stimulant-induced disorder"
       }, {
-        "code": "NACHC.F1.DE303",
+        "code": "F15.19",
         "display": "Other stimulant abuse with unspecified stimulant-induced disorder"
       }, {
-        "code": "NACHC.F1.DE304",
+        "code": "F15.20",
         "display": "Other stimulant dependence, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE305",
+        "code": "F15.21",
         "display": "Other stimulant dependence, in remission"
       }, {
-        "code": "NACHC.F1.DE306",
+        "code": "F15.220",
         "display": "Other stimulant dependence with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE307",
+        "code": "F15.221",
         "display": "Other stimulant dependence with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE308",
+        "code": "F15.222",
         "display": "Other stimulant dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE309",
+        "code": "F15.229",
         "display": "Other stimulant dependence with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE310",
+        "code": "F15.23",
         "display": "Other stimulant dependence with withdrawal"
       }, {
-        "code": "NACHC.F1.DE311",
+        "code": "F15.24",
         "display": "Other stimulant dependence with stimulant-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE312",
+        "code": "F15.250",
         "display": "Other stimulant dependence with stimulant-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE313",
+        "code": "F15.251",
         "display": "Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE314",
+        "code": "F15.259",
         "display": "Other stimulant dependence with stimulant-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE315",
+        "code": "F15.280",
         "display": "Other stimulant dependence with stimulant-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE316",
+        "code": "F15.281",
         "display": "Other stimulant dependence with stimulant-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE317",
+        "code": "F15.282",
         "display": "Other stimulant dependence with stimulant-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE318",
+        "code": "F15.288",
         "display": "Other stimulant dependence with other stimulant-induced disorder"
       }, {
-        "code": "NACHC.F1.DE319",
+        "code": "F15.29",
         "display": "Other stimulant dependence with unspecified stimulant-induced disorder"
       }, {
-        "code": "NACHC.F1.DE320",
+        "code": "F15.90",
         "display": "Other stimulant use, unspecified, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE321",
+        "code": "F15.920",
         "display": "Other stimulant use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE322",
+        "code": "F15.921",
         "display": "Other stimulant use, unspecified with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE323",
+        "code": "F15.922",
         "display": "Other stimulant use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE324",
+        "code": "F15.929",
         "display": "Other stimulant use, unspecified with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE325",
+        "code": "F15.93",
         "display": "Other stimulant use, unspecified with withdrawal"
       }, {
-        "code": "NACHC.F1.DE326",
+        "code": "F15.94",
         "display": "Other stimulant use, unspecified with stimulant-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE327",
+        "code": "F15.950",
         "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE328",
+        "code": "F15.951",
         "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE329",
+        "code": "F15.959",
         "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE330",
+        "code": "F15.980",
         "display": "Other stimulant use, unspecified with stimulant-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE331",
+        "code": "F15.981",
         "display": "Other stimulant use, unspecified with stimulant-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE332",
+        "code": "F15.982",
         "display": "Other stimulant use, unspecified with stimulant-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE333",
+        "code": "F15.988",
         "display": "Other stimulant use, unspecified with other stimulant-induced disorder"
       }, {
-        "code": "NACHC.F1.DE334",
+        "code": "F15.99",
         "display": "Other stimulant use, unspecified with unspecified stimulant-induced disorder"
       }, {
-        "code": "NACHC.F1.DE335",
+        "code": "F16.10",
         "display": "Hallucinogen abuse, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE336",
+        "code": "F16.11",
         "display": "Hallucinogen abuse, in remission"
       }, {
-        "code": "NACHC.F1.DE337",
+        "code": "F16.120",
         "display": "Hallucinogen abuse with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE338",
+        "code": "F16.121",
         "display": "Hallucinogen abuse with intoxication with delirium"
       }, {
-        "code": "NACHC.F1.DE339",
+        "code": "F16.122",
         "display": "Hallucinogen abuse with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE340",
+        "code": "F16.129",
         "display": "Hallucinogen abuse with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE341",
+        "code": "F16.14",
         "display": "Hallucinogen abuse with hallucinogen-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE342",
+        "code": "F16.150",
         "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE343",
+        "code": "F16.151",
         "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE344",
+        "code": "F16.159",
         "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE345",
+        "code": "F16.180",
         "display": "Hallucinogen abuse with hallucinogen-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE346",
+        "code": "F16.183",
         "display": "Hallucinogen abuse with hallucinogen persisting perception disorder (flashbacks)"
       }, {
-        "code": "NACHC.F1.DE347",
+        "code": "F16.188",
         "display": "Hallucinogen abuse with other hallucinogen-induced disorder"
       }, {
-        "code": "NACHC.F1.DE348",
+        "code": "F16.19",
         "display": "Hallucinogen abuse with unspecified hallucinogen-induced disorder"
       }, {
-        "code": "NACHC.F1.DE349",
+        "code": "F16.20",
         "display": "Hallucinogen dependence, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE350",
+        "code": "F16.21",
         "display": "Hallucinogen dependence, in remission"
       }, {
-        "code": "NACHC.F1.DE351",
+        "code": "F16.220",
         "display": "Hallucinogen dependence with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE352",
+        "code": "F16.221",
         "display": "Hallucinogen dependence with intoxication with delirium"
       }, {
-        "code": "NACHC.F1.DE353",
+        "code": "F16.229",
         "display": "Hallucinogen dependence with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE354",
+        "code": "F16.24",
         "display": "Hallucinogen dependence with hallucinogen-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE355",
+        "code": "F16.250",
         "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE356",
+        "code": "F16.251",
         "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE357",
+        "code": "F16.259",
         "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE358",
+        "code": "F16.280",
         "display": "Hallucinogen dependence with hallucinogen-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE359",
+        "code": "F16.283",
         "display": "Hallucinogen dependence with hallucinogen persisting perception disorder (flashbacks)"
       }, {
-        "code": "NACHC.F1.DE360",
+        "code": "F16.288",
         "display": "Hallucinogen dependence with other hallucinogen-induced disorder"
       }, {
-        "code": "NACHC.F1.DE361",
+        "code": "F16.29",
         "display": "Hallucinogen dependence with unspecified hallucinogen-induced disorder"
       }, {
-        "code": "NACHC.F1.DE362",
+        "code": "F16.90",
         "display": "Hallucinogen use, unspecified, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE363",
+        "code": "F16.920",
         "display": "Hallucinogen use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE364",
+        "code": "F16.921",
         "display": "Hallucinogen use, unspecified with intoxication with delirium"
       }, {
-        "code": "NACHC.F1.DE365",
+        "code": "F16.929",
         "display": "Hallucinogen use, unspecified with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE366",
+        "code": "F16.94",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE367",
+        "code": "F16.950",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE368",
+        "code": "F16.951",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE369",
+        "code": "F16.959",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE370",
+        "code": "F16.980",
         "display": "Hallucinogen use, unspecified with hallucinogen-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE371",
+        "code": "F16.983",
         "display": "Hallucinogen use, unspecified with hallucinogen persisting perception disorder (flashbacks)"
       }, {
-        "code": "NACHC.F1.DE372",
+        "code": "F16.988",
         "display": "Hallucinogen use, unspecified with other hallucinogen-induced disorder"
       }, {
-        "code": "NACHC.F1.DE373",
+        "code": "F16.99",
         "display": "Hallucinogen use, unspecified with unspecified hallucinogen-induced disorder"
       }, {
-        "code": "NACHC.F1.DE374",
+        "code": "F19.10",
         "display": "Other psychoactive substance abuse, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE375",
+        "code": "F19.11",
         "display": "Other psychoactive substance abuse, in remission"
       }, {
-        "code": "NACHC.F1.DE376",
+        "code": "F19.120",
         "display": "Other psychoactive substance abuse with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE377",
+        "code": "F19.121",
         "display": "Other psychoactive substance abuse with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE378",
+        "code": "F19.122",
         "display": "Other psychoactive substance abuse with intoxication with perceptual disturbances"
       }, {
-        "code": "NACHC.F1.DE379",
+        "code": "F19.129",
         "display": "Other psychoactive substance abuse with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE380",
+        "code": "F19.14",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE381",
+        "code": "F19.150",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE382",
+        "code": "F19.151",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE383",
+        "code": "F19.159",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE384",
+        "code": "F19.16",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced persisting amnestic disorder"
       }, {
-        "code": "NACHC.F1.DE385",
+        "code": "F19.17",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced persisting dementia"
       }, {
-        "code": "NACHC.F1.DE386",
+        "code": "F19.180",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE387",
+        "code": "F19.181",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE388",
+        "code": "F19.182",
         "display": "Other psychoactive substance abuse with psychoactive substance-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE389",
+        "code": "F19.188",
         "display": "Other psychoactive substance abuse with other psychoactive substance-induced disorder"
       }, {
-        "code": "NACHC.F1.DE390",
+        "code": "F19.19",
         "display": "Other psychoactive substance abuse with unspecified psychoactive substance-induced disorder"
       }, {
-        "code": "NACHC.F1.DE391",
+        "code": "F19.20",
         "display": "Other psychoactive substance dependence, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE392",
+        "code": "F19.21",
         "display": "Other psychoactive substance dependence, in remission"
       }, {
-        "code": "NACHC.F1.DE393",
+        "code": "F19.220",
         "display": "Other psychoactive substance dependence with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE394",
+        "code": "F19.221",
         "display": "Other psychoactive substance dependence with intoxication delirium"
       }, {
-        "code": "NACHC.F1.DE395",
+        "code": "F19.222",
         "display": "Other psychoactive substance dependence with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE396",
+        "code": "F19.229",
         "display": "Other psychoactive substance dependence with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE397",
+        "code": "F19.230",
         "display": "Other psychoactive substance dependence with withdrawal, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE398",
+        "code": "F19.231",
         "display": "Other psychoactive substance dependence with withdrawal delirium"
       }, {
-        "code": "NACHC.F1.DE399",
+        "code": "F19.232",
         "display": "Other psychoactive substance dependence with withdrawal with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE400",
+        "code": "F19.239",
         "display": "Other psychoactive substance dependence with withdrawal, unspecified"
       }, {
-        "code": "NACHC.F1.DE401",
+        "code": "F19.24",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE402",
+        "code": "F19.250",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE403",
+        "code": "F19.251",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE404",
+        "code": "F19.259",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE405",
+        "code": "F19.26",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced persisting amnestic disorder"
       }, {
-        "code": "NACHC.F1.DE406",
+        "code": "F19.27",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced persisting dementia"
       }, {
-        "code": "NACHC.F1.DE407",
+        "code": "F19.280",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE408",
+        "code": "F19.281",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE409",
+        "code": "F19.282",
         "display": "Other psychoactive substance dependence with psychoactive substance-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE410",
+        "code": "F19.288",
         "display": "Other psychoactive substance dependence with other psychoactive substance-induced disorder"
       }, {
-        "code": "NACHC.F1.DE411",
+        "code": "F19.29",
         "display": "Other psychoactive substance dependence with unspecified psychoactive substance-induced disorder"
       }, {
-        "code": "NACHC.F1.DE412",
+        "code": "F19.90",
         "display": "Other psychoactive substance use, unspecified, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE413",
+        "code": "F19.920",
         "display": "Other psychoactive substance use, unspecified with intoxication, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE414",
+        "code": "F19.921",
         "display": "Other psychoactive substance use, unspecified with intoxication with delirium"
       }, {
-        "code": "NACHC.F1.DE415",
+        "code": "F19.922",
         "display": "Other psychoactive substance use, unspecified with intoxication with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE416",
+        "code": "F19.929",
         "display": "Other psychoactive substance use, unspecified with intoxication, unspecified"
       }, {
-        "code": "NACHC.F1.DE417",
+        "code": "F19.930",
         "display": "Other psychoactive substance use, unspecified with withdrawal, uncomplicated"
       }, {
-        "code": "NACHC.F1.DE418",
+        "code": "F19.931",
         "display": "Other psychoactive substance use, unspecified with withdrawal delirium"
       }, {
-        "code": "NACHC.F1.DE419",
+        "code": "F19.932",
         "display": "Other psychoactive substance use, unspecified with withdrawal with perceptual disturbance"
       }, {
-        "code": "NACHC.F1.DE420",
+        "code": "F19.939",
         "display": "Other psychoactive substance use, unspecified with withdrawal, unspecified"
       }, {
-        "code": "NACHC.F1.DE421",
+        "code": "F19.94",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced mood disorder"
       }, {
-        "code": "NACHC.F1.DE422",
+        "code": "F19.950",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with delusions"
       }, {
-        "code": "NACHC.F1.DE423",
+        "code": "F19.951",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with hallucinations"
       }, {
-        "code": "NACHC.F1.DE424",
+        "code": "F19.959",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder, unspecified"
       }, {
-        "code": "NACHC.F1.DE425",
+        "code": "F19.96",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced persisting amnestic disorder"
       }, {
-        "code": "NACHC.F1.DE426",
+        "code": "F19.97",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced persisting dementia"
       }, {
-        "code": "NACHC.F1.DE427",
+        "code": "F19.980",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced anxiety disorder"
       }, {
-        "code": "NACHC.F1.DE428",
+        "code": "F19.981",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced sexual dysfunction"
       }, {
-        "code": "NACHC.F1.DE429",
+        "code": "F19.982",
         "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced sleep disorder"
       }, {
-        "code": "NACHC.F1.DE430",
+        "code": "F19.988",
         "display": "Other psychoactive substance use, unspecified with other psychoactive substance-induced disorder"
       }, {
-        "code": "NACHC.F1.DE431",
+        "code": "F19.99",
         "display": "Other psychoactive substance use, unspecified with unspecified psychoactive substance-induced disorder"
       } ]
     } ]

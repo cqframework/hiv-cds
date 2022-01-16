@@ -2,96 +2,96 @@
   "resourceType": "ValueSet",
   "id": "nachc-e2-de164",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de164",
-  "name": "TestsforChlamydiatrachomatisNucleicAcidChoices",
-  "title": "Tests for Chlamydia trachomatis Nucleic Acid Choices",
+  "name": "TestsforChlamydiatrachomatisNucleicAcidCodes",
+  "title": "Tests for Chlamydia trachomatis Nucleic Acid Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Tests for Chlamydia trachomatis Nucleic Acid Choices element",
+  "description": "Codes representing possible values for the Tests for Chlamydia trachomatis Nucleic Acid element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.E2.DE164",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "16599-3",
+        "display": "Chlamydia trachomatis DNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE165",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "16601-7",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Urine by Probe"
       }, {
-        "code": "NACHC.E2.DE166",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "21187-0",
+        "display": "Chlamydia trachomatis DNA [Presence] in Conjunctival specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE167",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "21188-8",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Conjunctival specimen by Probe"
       }, {
-        "code": "NACHC.E2.DE168",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "21189-6",
+        "display": "Chlamydia trachomatis DNA [Presence] in Cervical mucus by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE169",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "21192-0",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by Probe"
       }, {
-        "code": "NACHC.E2.DE170",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "38469-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Blood by Probe"
       }, {
-        "code": "NACHC.E2.DE171",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45067-6",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
       }, {
-        "code": "NACHC.E2.DE172",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45070-0",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe"
       }, {
-        "code": "NACHC.E2.DE173",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45072-6",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe"
       }, {
-        "code": "NACHC.E2.DE174",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45073-4",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe"
       }, {
-        "code": "NACHC.E2.DE175",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45074-2",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe"
       }, {
-        "code": "NACHC.E2.DE176",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45078-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by Probe"
       }, {
-        "code": "NACHC.E2.DE177",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45080-9",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by Probe"
       }, {
-        "code": "NACHC.E2.DE178",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45085-8",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by Probe"
       }, {
-        "code": "NACHC.E2.DE179",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45086-6",
+        "display": "Chlamydia trachomatis DNA [Presence] in Nasopharynx by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE180",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45089-0",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Anal by Probe"
       }, {
-        "code": "NACHC.E2.DE181",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "45090-8",
+        "display": "Chlamydia trachomatis DNA [Presence] in Anal by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE182",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "51578-3",
+        "display": "Chlamydia trachomatis DNA [Presence] in Semen by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE183",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "57287-5",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Anal by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE184",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "57288-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE185",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "80363-5",
+        "display": "Chlamydia trachomatis DNA [Presence] in Rectum by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE186",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "80364-3",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Rectum by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE187",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "80365-0",
+        "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE188",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "82306-2",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Throat by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE189",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "87949-4",
+        "display": "Chlamydia trachomatis DNA [Presence] in Tissue by NAA with probe detection"
       }, {
-        "code": "NACHC.E2.DE190",
-        "display": "Tests for Chlamydia trachomatis Nucleic Acid"
+        "code": "88221-7",
+        "display": "Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection"
       } ]
     } ]
   }

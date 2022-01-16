@@ -42,11 +42,30 @@
       "comment": "Injection Finding mappings",
       "min": 1,
       "max": "1",
+      "patternCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.F1.DE12",
+          "display": "Injection Findings"
+        } ]
+      },
+      "mustSupport": true,
+      "mapping": [ {
+        "identity": "HIV",
+        "map": "NACHC.F1.DE12"
+      } ]
+    }, {
+      "id": "Observation.value[x]",
+      "path": "Observation.value[x]",
+      "short": "Injection Findings",
+      "comment": "Injection Finding mappings",
+      "min": 1,
+      "max": "1",
       "mustSupport": true,
       "binding": {
         "extension": [ {
           "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString": "Injection Findings Choices"
+          "valueString": "Injection Findings Codes"
         } ],
         "strength": "required",
         "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13"

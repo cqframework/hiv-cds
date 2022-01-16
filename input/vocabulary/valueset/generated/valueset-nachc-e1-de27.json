@@ -2,26 +2,26 @@
   "resourceType": "ValueSet",
   "id": "nachc-e1-de27",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de27",
-  "name": "ChlamydiaInfectionsandVenerealDiseasesChoices",
-  "title": "Chlamydia Infections and Venereal Diseases Choices",
+  "name": "ChlamydiaInfectionsandVenerealDiseasesCodes",
+  "title": "Chlamydia Infections and Venereal Diseases Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Chlamydia Infections and Venereal Diseases Choices element",
+  "description": "Codes representing possible values for the Chlamydia Infections and Venereal Diseases element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.E1.DE27",
+        "code": "420910002",
         "display": "Chlamydia trachomatis infection of anus and rectum (disorder)"
       }, {
-        "code": "NACHC.E1.DE28",
+        "code": "426165006",
         "display": "Acute genitourinary chlamydia infection (disorder)"
       }, {
-        "code": "NACHC.E1.DE29",
+        "code": "426247003",
         "display": "Acute genitourinary Chlamydia trachomatis infection (disorder)"
       }, {
-        "code": "NACHC.E1.DE30",
+        "code": "428015005",
         "display": "Chlamydia trachomatis infection of genital structure (disorder)"
       } ]
     } ]

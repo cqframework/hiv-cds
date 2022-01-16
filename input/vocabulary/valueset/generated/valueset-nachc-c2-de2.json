@@ -2,29 +2,29 @@
   "resourceType": "ValueSet",
   "id": "nachc-c2-de2",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de2",
-  "name": "SyphilisTestsforTreponemapallidumNucleicAcidChoices",
-  "title": "Syphilis (Tests for Treponema pallidum Nucleic Acid) Choices",
+  "name": "SyphilisTestsforTreponemapallidumNucleicAcidCodes",
+  "title": "Syphilis (Tests for Treponema pallidum Nucleic Acid) Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Syphilis (Tests for Treponema pallidum Nucleic Acid) Choices element",
+  "description": "Codes representing possible values for the Syphilis (Tests for Treponema pallidum Nucleic Acid) element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://loinc.org",
       "concept": [ {
-        "code": "NACHC.C2.DE2",
+        "code": "53605-2",
         "display": "Treponema pallidum DNA [Presence] in Blood by NAA with probe detection"
       }, {
-        "code": "NACHC.C2.DE3",
+        "code": "49799-0",
         "display": "Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
       }, {
-        "code": "NACHC.C2.DE4",
+        "code": "91846-6",
         "display": "Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.C2.DE5",
+        "code": "41163-7",
         "display": "Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection"
       }, {
-        "code": "NACHC.C2.DE6",
+        "code": "76766-5",
         "display": "Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection"
       } ]
     } ]

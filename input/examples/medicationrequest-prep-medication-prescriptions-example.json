@@ -7,10 +7,6 @@
   "status": "active",
   "medicationCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.G2.DE25",
-      "display": "tenofovir disoproxil fumarate 300 MG [Viread]"
-    }, {
       "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "code": "575802",
       "display": "tenofovir disoproxil fumarate 300 MG [Viread]"

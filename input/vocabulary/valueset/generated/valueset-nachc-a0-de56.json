@@ -2,35 +2,35 @@
   "resourceType": "ValueSet",
   "id": "nachc-a0-de56",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56",
-  "name": "GenderIdentityChoices",
-  "title": "Gender Identity Choices",
+  "name": "GenderIdentityCodes",
+  "title": "Gender Identity Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Gender Identity Choices element",
+  "description": "Codes representing possible values for the Gender Identity element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "NACHC.A0.DE56",
+        "code": "446151000124109",
         "display": "Male"
       }, {
-        "code": "NACHC.A0.DE57",
+        "code": "446141000124107",
         "display": "Female"
       }, {
-        "code": "NACHC.A0.DE58",
+        "code": "407377005",
         "display": "Female-to-Male (FTM)/Transgender Male/Trans Man"
       }, {
-        "code": "NACHC.A0.DE59",
+        "code": "407376001",
         "display": "Male-to-Female (MTF)/Transgender Female/Trans Woman"
       }, {
-        "code": "NACHC.A0.DE60",
+        "code": "446131000124102",
         "display": "Genderqueer, neither exclusively male nor female"
       }, {
-        "code": "NACHC.A0.DE61",
+        "code": "OTH",
         "display": "Additional gender category or other, please specify"
       }, {
-        "code": "NACHC.A0.DE62",
+        "code": "ASKU",
         "display": "Choose not to disclose"
       } ]
     } ]

@@ -7,9 +7,9 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.F2.DE904",
-      "display": "Pregnancy Observations"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Could not resolve binding valueset null"
     } ]
   },
   "subject": {
@@ -23,10 +23,6 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.F2.DE905",
-      "display": "Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid"
-    }, {
       "system": "http://loinc.org",
       "code": "15019-3",
       "display": "Alpha-1-Fetoprotein [Moles/volume] in Amniotic fluid"

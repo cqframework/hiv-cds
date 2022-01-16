@@ -7,10 +7,6 @@
   "status": "active",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.A2.DE217",
-      "display": "Human immunodeficiency virus test offered (finding)"
-    }, {
       "system": "http://snomed.info/sct",
       "code": "312484002",
       "display": "Human immunodeficiency virus test offered (finding)"

@@ -1,0 +1,771 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e2-de1-codes-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1-codes-grouper",
+  "name": "ChlamydiaTestCodesGrouper",
+  "title": "Chlamydia Test Codes Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-01-16T15:50:39-07:00",
+  "description": "Group Valueset with codes representing possible values for the Chlamydia Test Codes Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de2" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de49" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de123" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de125" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de154" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de164" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2022-01-16T15:50:39-07:00",
+    "contains": [ {
+      "system": "http://loinc.org",
+      "code": "14463-4",
+      "display": "Chlamydia trachomatis [Presence] in Cervix by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14464-2",
+      "display": "Chlamydia trachomatis [Presence] in Vaginal fluid by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14467-5",
+      "display": "Chlamydia trachomatis [Presence] in Urine sediment by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14474-1",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14513-6",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "16600-9",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Genital specimen by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "21190-4",
+      "display": "Chlamydia trachomatis DNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "21191-2",
+      "display": "Chlamydia trachomatis DNA [Presence] in Urethra by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "21613-5",
+      "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "23838-6",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Genital fluid by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31775-0",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urine sediment"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31777-6",
+      "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen"
+    }, {
+      "system": "http://loinc.org",
+      "code": "36902-5",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "36903-3",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "42931-6",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "43304-5",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "43404-3",
+      "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen by Probe with signal amplification"
+    }, {
+      "system": "http://loinc.org",
+      "code": "43405-0",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA [Identifier] in Unspecified specimen by Probe with signal amplification"
+    }, {
+      "system": "http://loinc.org",
+      "code": "43406-8",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe with signal amplification"
+    }, {
+      "system": "http://loinc.org",
+      "code": "44806-8",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "44807-6",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45068-4",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45069-2",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45075-9",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45076-7",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45084-1",
+      "display": "Chlamydia trachomatis DNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45091-6",
+      "display": "Chlamydia trachomatis Ag [Presence] in Genital specimen"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45095-7",
+      "display": "Chlamydia trachomatis [Presence] in Genital specimen by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45098-1",
+      "display": "Chlamydia sp identified in Cervix by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45100-5",
+      "display": "Chlamydia sp identified in Vaginal fluid by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "47211-8",
+      "display": "Chlamydia trachomatis L2 DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "47212-6",
+      "display": "Chlamydia trachomatis DNA [Identifier] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "49096-1",
+      "display": "Chlamydia trachomatis DNA [Units/volume] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1129729",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "50387-0",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "53925-4",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "53926-2",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "557-9",
+      "display": "Chlamydia sp identified in Genital specimen by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "560-3",
+      "display": "Chlamydia sp identified in Unspecified specimen by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1625086",
+      "display": "Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1626912",
+      "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1627188",
+      "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "6356-0",
+      "display": "Chlamydia trachomatis DNA [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1628100",
+      "display": "Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "80360-1",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "80361-9",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "80362-7",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14466-7",
+      "display": "Deprecated Chlamydia trachomatis [Presence] in Penis by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14512-8",
+      "display": "Deprecated Chlamydia trachomatis Ag [Presence] in Penis by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "16593-6",
+      "display": "Chlamydia sp Ag [Presence] in Urine"
+    }, {
+      "system": "http://loinc.org",
+      "code": "20755-5",
+      "display": "Chlamydia sp Ag [Presence] in Body fluid by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "20756-3",
+      "display": "Chlamydia sp Ag [Presence] in Stool by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "20757-1",
+      "display": "Chlamydia sp Ag [Presence] in Tissue by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31764-4",
+      "display": "Chlamydia sp Ag [Presence] in Body fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31765-1",
+      "display": "Chlamydia sp Ag [Presence] in Genital specimen"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31766-9",
+      "display": "Chlamydia sp Ag [Presence] in Stool"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31767-7",
+      "display": "Chlamydia sp Ag [Presence] in Unspecified specimen"
+    }, {
+      "system": "http://loinc.org",
+      "code": "32001-0",
+      "display": "Chlamydia sp Ag [Presence] in Vaginal fluid by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "32004-4",
+      "display": "Chlamydia sp Ag [Presence] in Urine by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "32671-0",
+      "display": "Chlamydia sp Ag [Presence] in Vaginal fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "32774-2",
+      "display": "Chlamydia sp DNA [Presence] in Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "34708-8",
+      "display": "Chlamydia sp DNA [Presence] in Urine by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35412-6",
+      "display": "Chlamydia sp DNA [Presence] in Nose by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35711-1",
+      "display": "Chlamydia sp DNA [Presence] in Anal by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35713-7",
+      "display": "Chlamydia sp DNA [Presence] in Cervix by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35714-5",
+      "display": "Chlamydia sp rRNA [Presence] in Cervix by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35715-2",
+      "display": "Chlamydia sp rRNA [Presence] in Genital specimen by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35716-0",
+      "display": "Chlamydia sp DNA [Presence] in Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35717-8",
+      "display": "Chlamydia sp rRNA [Presence] in Vaginal fluid by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35718-6",
+      "display": "Chlamydia sp rRNA [Presence] in Nose by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35721-0",
+      "display": "Chlamydia sp rRNA [Presence] in Anal by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35724-4",
+      "display": "Chlamydia sp DNA [Presence] in Throat by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35725-1",
+      "display": "Chlamydia sp rRNA [Presence] in Throat by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35726-9",
+      "display": "Chlamydia sp rRNA [Presence] in Urine by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35727-7",
+      "display": "Chlamydia sp DNA [Presence] in Urethra by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35728-5",
+      "display": "Chlamydia sp rRNA [Presence] in Urethra by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35730-1",
+      "display": "Chlamydia sp rRNA [Presence] in Unspecified specimen by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35736-8",
+      "display": "Chlamydia sp rRNA [Presence] in Nasopharynx by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "38467-7",
+      "display": "Chlamydia sp IgG Ab [Presence] in Body fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45071-8",
+      "display": "Deprecated Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Penis by DNA probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45097-3",
+      "display": "Chlamydia sp identified in Anal by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45099-9",
+      "display": "Chlamydia sp identified in Body fluid by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45101-3",
+      "display": "Chlamydia sp identified in Nasopharynx by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45103-9",
+      "display": "Chlamydia sp Ag [Presence] in Anal by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45104-7",
+      "display": "Chlamydia sp Ag [Presence] in Anal by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45105-4",
+      "display": "Chlamydia sp Ag [Presence] in Anal"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45106-2",
+      "display": "Chlamydia sp Ag [Presence] in Cervix by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45107-0",
+      "display": "Chlamydia sp Ag [Presence] in Cervix"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45108-8",
+      "display": "Chlamydia sp Ag [Presence] in Cervix by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45109-6",
+      "display": "Chlamydia sp Ag [Presence] in Body fluid by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45112-0",
+      "display": "Chlamydia sp Ag [Presence] in Urine by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45113-8",
+      "display": "Chlamydia sp Ag [Presence] in Urethra by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45114-6",
+      "display": "Chlamydia sp Ag [Presence] in Urethra"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45115-3",
+      "display": "Chlamydia sp Ag [Presence] in Urethra by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45130-2",
+      "display": "Chlamydia trachomatis Ab [Presence] in Body fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45131-0",
+      "display": "Chlamydia sp Ag [Presence] in Nasopharynx by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45132-8",
+      "display": "Chlamydia sp Ag [Presence] in Nasopharynx by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45133-6",
+      "display": "Chlamydia sp Ag [Presence] in Nasopharynx"
+    }, {
+      "system": "http://loinc.org",
+      "code": "47362-9",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "50311-0",
+      "display": "Chlamydia trachomatis DNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "50411-8",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen from Donor by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "561-1",
+      "display": "Chlamydia sp Ag [Presence] in Unspecified specimen by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "57817-9",
+      "display": "HEDIS 2010-2013 Codes to identify Chlamydia screening (CHL-C)"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1623564",
+      "display": "Chlamydia sp Ag [Presence] in Genital specimen by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1623870",
+      "display": "Chlamydia sp Ag [Presence] in Genital specimen by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1624478",
+      "display": "Chlamydia sp Ag [Presence] in Unspecified specimen by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "64017-7",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "70161-5",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urine by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "70162-3",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Urethra by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "70163-1",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Cervix by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "70164-9",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Vaginal fluid by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "72828-7",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Unspecified specimen"
+    }, {
+      "system": "http://loinc.org",
+      "code": "74241-1",
+      "display": "HEDIS 2014-2016 Value Set - Chlamydia Tests"
+    }, {
+      "system": "http://loinc.org",
+      "code": "77577-5",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae DNA panel - Urethra by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "82957-2",
+      "display": "HEDIS 2017, 2018 Value Set - Chlamydia Tests"
+    }, {
+      "system": "http://loinc.org",
+      "code": "90357-5",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Nasopharynx by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "90358-3",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel - Rectum by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "90763-4",
+      "display": "HEDIS 2019-2020 Value Set - Chlamydia Tests"
+    }, {
+      "system": "http://loinc.org",
+      "code": "92683-2",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Genital specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "92684-0",
+      "display": "Chlamydia trachomatis and Neisseria gonorrhoeae and Trichomonas vaginalis DNA panel - Urine by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "35729-3",
+      "display": "Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14468-3",
+      "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14469-1",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14470-9",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14471-7",
+      "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14472-5",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14507-8",
+      "display": "Chlamydia trachomatis Ag [Presence] in Blood by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14508-6",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14509-4",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cervix by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14510-2",
+      "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14511-0",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urethra by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31768-5",
+      "display": "Chlamydia trachomatis Ag [Presence] in Blood"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31769-3",
+      "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31770-1",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cerebral spinal fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31771-9",
+      "display": "Chlamydia trachomatis Ag [Presence] in Cervix"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31772-7",
+      "display": "Chlamydia trachomatis Ag [Presence] in Vaginal fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31774-3",
+      "display": "Chlamydia trachomatis Ag [Presence] in Stool"
+    }, {
+      "system": "http://loinc.org",
+      "code": "31776-8",
+      "display": "Chlamydia trachomatis Ag [Presence] in Urethra"
+    }, {
+      "system": "http://loinc.org",
+      "code": "34709-6",
+      "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx"
+    }, {
+      "system": "http://loinc.org",
+      "code": "34710-4",
+      "display": "Chlamydia trachomatis Ag [Presence] in Anal"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45092-4",
+      "display": "Chlamydia trachomatis Ag [Presence] in Nasopharynx by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "47234-0",
+      "display": "Chlamydia trachomatis Ag [Presence] in Body fluid"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1625390",
+      "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunoassay"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1625696",
+      "display": "Chlamydia trachomatis Ag [Presence] in Conjunctival specimen by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1626305",
+      "display": "Chlamydia trachomatis Ag [Presence] in Stool by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "1626608",
+      "display": "Chlamydia trachomatis Ag [Presence] in Tissue by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "91860-7",
+      "display": "Chlamydia trachomatis Ag [Presence] in Genital specimen by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "91861-5",
+      "display": "Chlamydia trachomatis Ag [Presence] in Aspirate by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "91873-0",
+      "display": "Chlamydia trachomatis Ag [Presence] in Throat by Immunofluorescence"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14461-8",
+      "display": "Chlamydia trachomatis [Presence] in Blood by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14462-6",
+      "display": "Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "14465-9",
+      "display": "Chlamydia trachomatis [Presence] in Urethra by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45093-2",
+      "display": "Chlamydia trachomatis [Presence] in Anal by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45094-0",
+      "display": "Chlamydia trachomatis [Presence] in Conjunctival specimen by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45096-5",
+      "display": "Chlamydia trachomatis [Presence] in Nasopharynx by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "80367-6",
+      "display": "Chlamydia trachomatis [Presence] in Rectum by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "87950-2",
+      "display": "Chlamydia trachomatis [Presence] in Tissue by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "89648-0",
+      "display": "Chlamydia trachomatis [Presence] in Throat by Organism specific culture"
+    }, {
+      "system": "http://loinc.org",
+      "code": "16599-3",
+      "display": "Chlamydia trachomatis DNA [Presence] in Blood by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "16601-7",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urine by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "21187-0",
+      "display": "Chlamydia trachomatis DNA [Presence] in Conjunctival specimen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "21188-8",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Conjunctival specimen by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "21189-6",
+      "display": "Chlamydia trachomatis DNA [Presence] in Cervical mucus by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "21192-0",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Urethra by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "38469-3",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Blood by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45067-6",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45070-0",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45072-6",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45073-4",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45074-2",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45078-3",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Cervix by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45080-9",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Vaginal fluid by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45085-8",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45086-6",
+      "display": "Chlamydia trachomatis DNA [Presence] in Nasopharynx by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45089-0",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Anal by Probe"
+    }, {
+      "system": "http://loinc.org",
+      "code": "45090-8",
+      "display": "Chlamydia trachomatis DNA [Presence] in Anal by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "51578-3",
+      "display": "Chlamydia trachomatis DNA [Presence] in Semen by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "57287-5",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Anal by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "57288-3",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Nasopharynx by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "80363-5",
+      "display": "Chlamydia trachomatis DNA [Presence] in Rectum by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "80364-3",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Rectum by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "80365-0",
+      "display": "Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Rectum by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "82306-2",
+      "display": "Chlamydia trachomatis rRNA [Presence] in Throat by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "87949-4",
+      "display": "Chlamydia trachomatis DNA [Presence] in Tissue by NAA with probe detection"
+    }, {
+      "system": "http://loinc.org",
+      "code": "88221-7",
+      "display": "Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection"
+    } ]
+  }
+}

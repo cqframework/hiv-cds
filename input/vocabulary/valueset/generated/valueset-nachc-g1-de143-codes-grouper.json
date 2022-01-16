@@ -1,0 +1,1055 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g1-de143-codes-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de143-codes-grouper",
+  "name": "PEPDispensedMedicationsCodesGrouper",
+  "title": "PEP Dispensed Medications Codes Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-01-16T15:50:39-07:00",
+  "description": "Group Valueset with codes representing possible values for the PEP Dispensed Medications Codes Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de144" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de299" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2022-01-16T15:50:39-07:00",
+    "contains": [ {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-1327",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "52125-613",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "59676-566",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69189-0566",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-1483",
+      "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-228",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-1355",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-1130",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61786-771",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "67296-1818",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-1487",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0093-5234",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-497",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69097-210",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-2905",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "76282-678",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "15584-0101",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "35356-064",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-0980",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0208",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-5805",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54868-5643",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69189-0118",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-0341",
+      "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "42543-719",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "51407-112",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "64380-719",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0093-7607",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0093-7704",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-1930",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "33342-106",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "42291-439",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "42385-913",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "42385-953",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "60219-2095",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "60505-4202",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-354",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "67296-1237",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "67296-1433",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68180-287",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69097-209",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69238-1527",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69238-2095",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-3077",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70710-1367",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70771-1594",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "76282-677",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "35356-070",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-0870",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "52959-969",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0805",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-5588",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54868-5141",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "55154-4425",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "58118-0100",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61786-596",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61919-669",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61958-0701",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "63629-7581",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68071-2112",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69189-0701",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-0097",
+      "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0004-0380",
+      "display": "Enfuvirtide KIT (FUZEON)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0004-0381",
+      "display": "Enfuvirtide KIT (FUZEON)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "63304-583",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-3520",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49349-811",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-207",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0281",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-1010",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "63379-030",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69189-0210",
+      "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0069-0807",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-215",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-223",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "52125-011",
+      "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0069-0808",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-216",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-224",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-1486",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-6214",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54868-5809",
+      "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-260",
+      "display": "maraviroc KIT (SELZENTRY)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61919-706",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "67296-1235",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0006-0227",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49349-430",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-1085",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0650",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-6034",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54868-0117",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61786-843",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "66336-214",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68071-2113",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69189-0227",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-1621",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "76519-1130",
+      "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0074-6633",
+      "display": "RITONAVIR 100mg/1 ORAL CAPSULE (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0074-3399",
+      "display": "RITONAVIR 100mg/1 ORAL POWDER (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-597",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65162-061",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-1519",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0054-0407",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "60687-364",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "60687-420",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-687",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "67296-1234",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68382-696",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-1086",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-2007",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0074-3333",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-1162",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-1119",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-6170",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61786-386",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69189-3335",
+      "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0004-0245",
+      "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49349-624",
+      "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0004-0244",
+      "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0674",
+      "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-5040",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-515",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "57237-234",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "64980-354",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-111",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0003-1964",
+      "display": "STAVUDINE 15mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-5041",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-516",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0852",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "57237-235",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "64980-355",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-112",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0003-1965",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0656",
+      "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-5042",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-517",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "57237-236",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "64980-356",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-046",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0003-1966",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0657",
+      "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0179-0028",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-5043",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-518",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49349-066",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0594",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0595",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "57237-237",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "64980-357",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-047",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0003-1967",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0795",
+      "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "55154-0082",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "72189-156",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "72189-227",
+      "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0093-5528",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "42385-922",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "51407-173",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69238-1138",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-0946",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70710-1052",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70771-1593",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0904-6875",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "16714-862",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "60687-399",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-713",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-1365",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "59762-0410",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "67296-1236",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69097-446",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-2832",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0003-3622",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-1007",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-5864",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54868-5838",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-0469",
+      "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-246",
+      "display": "DOLUTEGRAVIR SODIUM 50mg/1 LAMIVUDINE 300mg/1 ORAL TABLET, FILM COATED (Dovato)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "33342-003",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "55700-411",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "57297-284",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61919-061",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "64380-707",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68071-3311",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68180-284",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68788-6394",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "71335-0141",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "11819-359",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, COATED (Combivir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0093-5385",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-5180",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "21695-996",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-506",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-739",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "42291-363",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "43063-346",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "43063-900",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-1419",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-2018",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-3920",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50268-456",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50436-0597",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54741-102",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "55700-096",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "60760-385",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "63629-4872",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-036",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-597",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68071-4450",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68084-416",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68788-7298",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69097-315",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-0697",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "71335-0639",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "72865-144",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "76282-115",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "76519-1005",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0173-0595",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "16590-061",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (Combivir)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "21695-846",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49349-683",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-202",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "50090-0610",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "52959-546",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0895",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-4524",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "55289-389",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "63379-025",
+      "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "42799-403",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "52343-044",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53104-0100",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "64376-128",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-107",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68084-461",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0173-0108",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-211",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54868-1974",
+      "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0054-0052",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "31722-509",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49349-838",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61786-984",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "69189-0509",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "70518-1656",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0378-6106",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "0527-1905",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "21695-369",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "48792-7809",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49349-867",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "52343-045",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53104-0101",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0812",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "53808-0878",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "54569-6171",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "57237-241",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "61786-305",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "63629-4144",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "65862-024",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "68084-462",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "76365-0300",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+    }, {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "code": "49702-214",
+      "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (RETROVIR)"
+    } ]
+  }
+}

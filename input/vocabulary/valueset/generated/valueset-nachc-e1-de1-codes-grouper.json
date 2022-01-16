@@ -1,0 +1,363 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e1-de1-codes-grouper",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de1-codes-grouper",
+  "name": "ChlamydiaDiagnosisCodesGrouper",
+  "title": "Chlamydia Diagnosis Codes Grouper",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-01-16T15:50:39-07:00",
+  "description": "Group Valueset with codes representing possible values for the Chlamydia Diagnosis Codes Grouper element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de2" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de27" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de32" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de63" ]
+    } ]
+  },
+  "expansion": {
+    "timestamp": "2022-01-16T15:50:39-07:00",
+    "contains": [ {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "code": "A55",
+      "display": "Chlamydial lymphogranuloma (venereum)"
+    }, {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "code": "A56.00",
+      "display": "Chlamydial infection of lower genitourinary tract, unspecified"
+    }, {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "code": "A56.01",
+      "display": "Chlamydial cystitis and urethritis"
+    }, {
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "code": "A56.09",
+      "display": "Other chlamydial infection of lower genitourinary tract"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "105629000",
+      "display": "Chlamydial infection (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "10750051000119100",
+      "display": "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "1084821000119100",
+      "display": "Cystitis caused by Chlamydia (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "442505006",
+      "display": "Chlamydia trachomatis, serotype Ja (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "446471004",
+      "display": "Infection of epididymis caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "446594000",
+      "display": "Infection of pharynx caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "446642005",
+      "display": "Infection of anus caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "446752000",
+      "display": "Infection of peritoneum caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "446902002",
+      "display": "Infection of testis caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "447353001",
+      "display": "Infection of cervix caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "447372001",
+      "display": "Infection of rectum caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "447386002",
+      "display": "Infection of vulva caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "447402003",
+      "display": "Infection of vagina caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "460618008",
+      "display": "Endocarditis caused by Genus Chlamydia (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "59134003",
+      "display": "Lymphogranuloma venereum antigen (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "59484000",
+      "display": "Chlamydial polyarthritis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "63938009",
+      "display": "Chlamydia trachomatis (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "708219005",
+      "display": "Deoxyribonucleic acid of Chlamydia trachomatis L2 (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "722520001",
+      "display": "Non-ulcerative sexually transmitted infection caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "722552001",
+      "display": "Sequela of infection caused by Chlamydia (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "420910002",
+      "display": "Chlamydia trachomatis infection of anus and rectum (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "426165006",
+      "display": "Acute genitourinary chlamydia infection (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "426247003",
+      "display": "Acute genitourinary Chlamydia trachomatis infection (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "428015005",
+      "display": "Chlamydia trachomatis infection of genital structure (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "186729003",
+      "display": "Chlamydial infection of lower genitourinary tract (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "186731007",
+      "display": "Chlamydial infection of anus and rectum (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "186946009",
+      "display": "Lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "188463006",
+      "display": "Chlamydial pelvic inflammatory disease (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "189312004",
+      "display": "Pelvic inflammation with female sterility caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "197172005",
+      "display": "Chlamydial peritonitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "206289001",
+      "display": "Congenital chlamydial pneumonia (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "232403001",
+      "display": "Chlamydial pharyngitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "233610007",
+      "display": "Neonatal chlamydial pneumonia (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "234099003",
+      "display": "Lymphedema due to lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "236672003",
+      "display": "Chlamydial prostatitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "236683007",
+      "display": "Chlamydial urethritis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "236749007",
+      "display": "Chlamydial balanitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "236767000",
+      "display": "Chlamydial epididymitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "236773004",
+      "display": "Chlamydial epididymo-orchitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "237039009",
+      "display": "Chlamydial salpingitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "237043008",
+      "display": "Chlamydial perihepatitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "237084006",
+      "display": "Chlamydial cervicitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "237097008",
+      "display": "Chlamydial vulvovaginitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "237106009",
+      "display": "Chlamydial bartholinitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "238372002",
+      "display": "Chlamydial dermatological disorders (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "240589008",
+      "display": "Chlamydia trachomatis infection (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "240590004",
+      "display": "Neonatal chlamydial infection (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "240602008",
+      "display": "Early lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "240603003",
+      "display": "Late lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "240604009",
+      "display": "Latent lymphogranuloma venereum (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "272262003",
+      "display": "Esthiomene (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "276681001",
+      "display": "Neonatal chlamydial dacryocystitis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "367504009",
+      "display": "Pelvic inflammatory disease with female sterility due to Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "406566006",
+      "display": "Chlamydial infection of the central nervous system (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "112121000119105",
+      "display": "Venereal disease caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115289001",
+      "display": "Chlamydia trachomatis, serotype A (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115290005",
+      "display": "Chlamydia trachomatis, serotype B (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115291009",
+      "display": "Chlamydia trachomatis, serotype Ba (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115292002",
+      "display": "Chlamydia trachomatis, serotype C (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115293007",
+      "display": "Chlamydia trachomatis, serotype D (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115294001",
+      "display": "Chlamydia trachomatis, serotype E (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115295000",
+      "display": "Chlamydia trachomatis, serotype F (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115296004",
+      "display": "Chlamydia trachomatis, serotype I (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115297008",
+      "display": "Chlamydia trachomatis, serotype J (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115298003",
+      "display": "Chlamydia trachomatis, serotype K (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115299006",
+      "display": "Chlamydia trachomatis, serotype L (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115300003",
+      "display": "Chlamydia trachomatis, serotype L1 (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115301004",
+      "display": "Chlamydia trachomatis, serotype L2 (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115318000",
+      "display": "Chlamydia trachomatis, serotype L3 (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115319008",
+      "display": "Chlamydia trachomatis, serotype G (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "115328009",
+      "display": "Chlamydia trachomatis, serotype H (organism)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "121002007",
+      "display": "Antigen of Chlamydia trachomatis (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "121015003",
+      "display": "Antigen of Chlamydia trachomatis serotype F (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "121016002",
+      "display": "Antigen of Chlamydia trachomatis serotype G (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "121017006",
+      "display": "Antigen of Chlamydia trachomatis serotype K (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "121106008",
+      "display": "Ribosomal ribonucleic acid of Chlamydia trachomatis (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "121181000",
+      "display": "Deoxyribonucleic acid of Chlamydia trachomatis (substance)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "143511000119105",
+      "display": "Perihepatitis caused by Chlamydia trachomatis (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "1621000119101",
+      "display": "Chlamydia trachomatis infection in pregnancy (disorder)"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "179101003",
+      "display": "Urethritis caused by Chlamydia trachomatis (disorder)"
+    } ]
+  }
+}

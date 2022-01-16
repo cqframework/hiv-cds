@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "id": "nachc-b2-de103",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de103",
-  "name": "HepatitisCTestChoices",
-  "title": "Hepatitis C Test Choices",
+  "name": "HepatitisCTestCodes",
+  "title": "Hepatitis C Test Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Hepatitis C Test Choices element",
+  "description": "Codes representing possible values for the Hepatitis C Test element",
   "immutable": true,
   "compose": {
     "include": [ {
@@ -32,11 +32,17 @@
       }, {
         "code": "NACHC.B2.DE109",
         "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus"
-      }, {
-        "code": "NACHC.B2.DE110",
+      } ]
+    }, {
+      "system": "http://www.ama-assn.org/go/cpt",
+      "concept": [ {
+        "code": "1014274",
         "display": "Hepatitis C antibody"
-      }, {
-        "code": "NACHC.B2.DE111",
+      } ]
+    }, {
+      "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+      "concept": [ {
+        "code": "G0472",
         "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
       } ]
     } ]

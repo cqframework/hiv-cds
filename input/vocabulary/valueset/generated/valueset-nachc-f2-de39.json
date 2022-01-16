@@ -2,23 +2,23 @@
   "resourceType": "ValueSet",
   "id": "nachc-f2-de39",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de39",
-  "name": "ThirdTrimesterEncountersChoices",
-  "title": "Third Trimester Encounters Choices",
+  "name": "ThirdTrimesterEncountersCodes",
+  "title": "Third Trimester Encounters Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the Third Trimester Encounters Choices element",
+  "description": "Codes representing possible values for the Third Trimester Encounters element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/icd-10",
       "concept": [ {
-        "code": "NACHC.F2.DE39",
+        "code": "Z34.03",
         "display": "Encounter for supervision of normal first pregnancy, third trimester"
       }, {
-        "code": "NACHC.F2.DE40",
+        "code": "Z34.83",
         "display": "Encounter for supervision of other normal pregnancy, third trimester"
       }, {
-        "code": "NACHC.F2.DE41",
+        "code": "Z34.93",
         "display": "Encounter for supervision of normal pregnancy, unspecified, third trimester"
       } ]
     } ]

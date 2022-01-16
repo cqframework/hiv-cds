@@ -2,137 +2,137 @@
   "resourceType": "ValueSet",
   "id": "nachc-g2-de37",
   "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de37",
-  "name": "TDF300mgFTC200mgSuppliedChoices",
-  "title": "TDF 300mg / FTC 200mg Supplied Choices",
+  "name": "TDF300mgFTC200mgSuppliedCodes",
+  "title": "TDF 300mg / FTC 200mg Supplied Codes",
   "status": "draft",
   "experimental": false,
-  "description": "Codes representing possible values for the TDF 300mg / FTC 200mg Supplied Choices element",
+  "description": "Codes representing possible values for the TDF 300mg / FTC 200mg Supplied element",
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://hl7.org/fhir/sid/ndc",
       "concept": [ {
-        "code": "NACHC.G2.DE37",
+        "code": "0093-7607",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE38",
+        "code": "0093-7704",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE39",
+        "code": "0378-1930",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE40",
+        "code": "33342-106",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE41",
+        "code": "35356-070",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE42",
+        "code": "42291-439",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE43",
+        "code": "42385-913",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE44",
+        "code": "42385-953",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE45",
+        "code": "42543-719",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
-        "code": "NACHC.G2.DE46",
+        "code": "50090-0870",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE47",
+        "code": "51407-112",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
-        "code": "NACHC.G2.DE48",
+        "code": "52959-969",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE49",
+        "code": "53808-0805",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE50",
+        "code": "54569-5588",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE51",
+        "code": "54868-5141",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE52",
+        "code": "55154-0082",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)"
       }, {
-        "code": "NACHC.G2.DE53",
+        "code": "55154-4425",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
       }, {
-        "code": "NACHC.G2.DE54",
+        "code": "58118-0100",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE55",
+        "code": "60219-2095",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE56",
+        "code": "60505-4202",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE57",
+        "code": "61786-596",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE58",
+        "code": "61919-669",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
       }, {
-        "code": "NACHC.G2.DE59",
+        "code": "61958-0701",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE60",
+        "code": "63629-7581",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE61",
+        "code": "64380-719",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
       }, {
-        "code": "NACHC.G2.DE62",
+        "code": "65862-354",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE63",
+        "code": "67296-1237",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE64",
+        "code": "67296-1433",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE65",
+        "code": "68071-2112",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE66",
+        "code": "68180-287",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE67",
+        "code": "69097-209",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE68",
+        "code": "69189-0701",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE69",
+        "code": "69238-1527",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE70",
+        "code": "69238-2095",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE71",
+        "code": "70518-0097",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
       }, {
-        "code": "NACHC.G2.DE72",
+        "code": "70518-3077",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE73",
+        "code": "70710-1367",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE74",
+        "code": "70771-1594",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE75",
+        "code": "72189-156",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE76",
+        "code": "72189-227",
         "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
       }, {
-        "code": "NACHC.G2.DE77",
+        "code": "76282-677",
         "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
       } ]
     } ]

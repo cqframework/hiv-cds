@@ -7,13 +7,9 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-      "code": "NACHC.H2.DE2",
-      "display": "DAST 10 Question 2"
-    }, {
-      "system": "https://cde.drugabuse.gov",
-      "code": "3254057",
-      "display": "Do you use more than one drug at a time"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Could not resolve binding valueset null"
     } ]
   },
   "subject": {

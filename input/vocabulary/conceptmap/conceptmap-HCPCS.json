@@ -67,14 +67,6 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE111",
-      "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)",
-      "target": [ {
-        "code": "G0472",
-        "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)",
-        "equivalence": "equivalent"
-      } ]
-    }, {
       "code": "NACHC.B2.DE113",
       "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)",
       "target": [ {
