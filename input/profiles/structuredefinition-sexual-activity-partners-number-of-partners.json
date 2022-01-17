@@ -39,6 +39,7 @@
       "id": "Observation.code",
       "path": "Observation.code",
       "short": "Sexual Activity - Partners Number of Partners",
+      "definition": "Do you know whether your partner has had more than 1 sexual partner since their last HIV test?",
       "min": 1,
       "max": "1",
       "mustSupport": true,
@@ -50,6 +51,7 @@
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
       "short": "Sexual Activity - Partners Number of Partners",
+      "definition": "Do you know whether your partner has had more than 1 sexual partner since their last HIV test?",
       "min": 0,
       "max": "1",
       "type": [ {

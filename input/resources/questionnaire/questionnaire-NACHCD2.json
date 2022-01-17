@@ -37,7 +37,7 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/gonorrhea-test#Observation.code",
-    "text": "Gonorrhea Test",
+    "text": "Concepts Associated with Gonorrhea Testing",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de1-codes-grouper"
   } ]

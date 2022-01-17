@@ -39,6 +39,7 @@
       "id": "Procedure.code",
       "path": "Procedure.code",
       "short": "Hepatitis C Procedures",
+      "definition": "Concepts Associated with HCV Procedures",
       "comment": "HCV test Procedure mapping??Sourced: https://confluence.nachc.org/pages/viewpage.action?pageId=14485048",
       "min": 1,
       "max": "1",

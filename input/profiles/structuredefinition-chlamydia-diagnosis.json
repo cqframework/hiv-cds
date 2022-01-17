@@ -39,6 +39,7 @@
       "id": "Condition.code",
       "path": "Condition.code",
       "short": "Chlamydia Diagnosis",
+      "definition": "Concepts Associated with Chlamydia Diagnosis",
       "comment": "Chlamydia infection mapping",
       "min": 1,
       "max": "1",

@@ -39,6 +39,7 @@
       "id": "Procedure.code",
       "path": "Procedure.code",
       "short": "Maternal Care",
+      "definition": "Procedures identifying Maternal Care for Pregnancy",
       "comment": "Pregnancy Maternal Care mapping",
       "min": 1,
       "max": "1",

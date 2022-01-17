@@ -39,6 +39,7 @@
       "id": "Condition.code",
       "path": "Condition.code",
       "short": "Syphilis Diagnosis",
+      "definition": "Concepts Associated with Syphilis Diagnosis",
       "comment": "Syphilis infection mapping",
       "min": 1,
       "max": "1",

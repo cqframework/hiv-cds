@@ -37,57 +37,57 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-1#Observation.value[x]",
-    "text": "DAST 10 Question 1",
+    "text": "Have you used drugs other than those required for medical reasons?",
     "type": "boolean"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-2#Observation.value[x]",
-    "text": "DAST 10 Question 2",
+    "text": "Do you use more than one drug at a time?",
     "type": "boolean"
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-3#Observation.value[x]",
-    "text": "DAST 10 Question 3",
+    "text": "Are you always able to stop using drugs when you want to?",
     "type": "boolean"
   }, {
     "linkId": "4",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-4#Observation.value[x]",
-    "text": "DAST 10 Question 4",
+    "text": "Have you had blackouts or flashbacks as a result of drug use?",
     "type": "boolean"
   }, {
     "linkId": "5",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-5#Observation.value[x]",
-    "text": "DAST 10 Question 5",
+    "text": "Do you ever feel bad or guilty about your drug use? ",
     "type": "boolean"
   }, {
     "linkId": "6",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-6#Observation.value[x]",
-    "text": "DAST 10 Question 6",
+    "text": "Does your spouse (or parents) ever complain about your involvement with drugs?",
     "type": "boolean"
   }, {
     "linkId": "7",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-7#Observation.value[x]",
-    "text": "DAST 10 Question 7",
+    "text": "Have you neglected your family because of your use of drugs?",
     "type": "boolean"
   }, {
     "linkId": "8",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-8#Observation.value[x]",
-    "text": "DAST 10 Question 8",
+    "text": "Have you engaged in illegal activities in order to obtain drugs?",
     "type": "boolean"
   }, {
     "linkId": "9",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-9#Observation.value[x]",
-    "text": "DAST 10 Question 9",
+    "text": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?",
     "type": "boolean"
   }, {
     "linkId": "10",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-question-10#Observation.value[x]",
-    "text": "DAST 10 Question 10",
+    "text": "Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding, etc.)?",
     "type": "boolean"
   }, {
     "linkId": "11",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/dast-10-score#Observation.value[x]",
-    "text": "DAST 10 Score",
+    "text": "Substance Abuse Prescription Illicit Substance Over the Counter Product Screening Test Score",
     "type": "integer"
   } ]
 }

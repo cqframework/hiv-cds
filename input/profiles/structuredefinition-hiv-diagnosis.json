@@ -39,6 +39,7 @@
       "id": "Condition.code",
       "path": "Condition.code",
       "short": "HIV Diagnosis",
+      "definition": "Concepts Associated with HIV Diagnosis",
       "comment": "HIV infection mapping",
       "min": 1,
       "max": "1",

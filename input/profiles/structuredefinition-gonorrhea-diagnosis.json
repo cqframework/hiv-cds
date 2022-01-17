@@ -39,6 +39,7 @@
       "id": "Condition.code",
       "path": "Condition.code",
       "short": "Gonorrhea Diagnosis",
+      "definition": "Concepts Associated with Gonorrhea Diagnosis",
       "comment": "Gonorrhea infection mapping",
       "min": 1,
       "max": "1",

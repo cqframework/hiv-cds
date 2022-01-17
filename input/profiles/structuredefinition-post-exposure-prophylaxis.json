@@ -39,6 +39,7 @@
       "id": "Procedure.code",
       "path": "Procedure.code",
       "short": "Post Exposure Prophylaxis",
+      "definition": "Concepts and Procedures Identifying Post Exposure Prophylaxis",
       "comment": "PEP mapping",
       "min": 1,
       "max": "1",

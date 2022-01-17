@@ -39,6 +39,7 @@
       "id": "Observation.code",
       "path": "Observation.code",
       "short": "Previous HIV Diagnosis",
+      "definition": "Whether the patient has previously been diagnosed with HIV?",
       "min": 1,
       "max": "1",
       "mustSupport": true,
@@ -50,6 +51,7 @@
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
       "short": "Previous HIV Diagnosis",
+      "definition": "Whether the patient has previously been diagnosed with HIV?",
       "min": 0,
       "max": "1",
       "type": [ {

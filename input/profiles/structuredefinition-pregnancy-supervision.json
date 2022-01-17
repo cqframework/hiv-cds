@@ -39,6 +39,7 @@
       "id": "Procedure.code",
       "path": "Procedure.code",
       "short": "Pregnancy Supervision",
+      "definition": "Procedures in the usage of the Supervision of Pregnancy",
       "comment": "Pregnancy Supervision mapping",
       "min": 1,
       "max": "1",

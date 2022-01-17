@@ -37,7 +37,7 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/chlamydia-test#Observation.code",
-    "text": "Chlamydia Test",
+    "text": "Concepts Associated with Chlamydia Testing",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1-codes-grouper"
   } ]

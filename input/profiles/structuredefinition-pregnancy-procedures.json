@@ -39,6 +39,7 @@
       "id": "Procedure.code",
       "path": "Procedure.code",
       "short": "Pregnancy Procedures",
+      "definition": "Procedures identified for Pregnancy",
       "comment": "Pregnancy Procedure mapping",
       "min": 1,
       "max": "1",

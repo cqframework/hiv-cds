@@ -37,7 +37,7 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/syphilis-test#Observation.code",
-    "text": "Syphilis Test",
+    "text": "Concepts Associated with Syphilis Testing",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de1-codes-grouper"
   } ]

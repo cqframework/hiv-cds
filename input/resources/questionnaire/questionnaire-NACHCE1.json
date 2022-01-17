@@ -37,7 +37,7 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/chlamydia-diagnosis#Condition.code",
-    "text": "Chlamydia Diagnosis",
+    "text": "Concepts Associated with Chlamydia Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de1-codes-grouper"
   } ]

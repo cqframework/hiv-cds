@@ -39,6 +39,7 @@
       "id": "Condition.code",
       "path": "Condition.code",
       "short": "Pregnancy Conditions",
+      "definition": "Conditions identified for Pregnancy",
       "comment": "Pregnancy Condition mapping",
       "min": 1,
       "max": "1",

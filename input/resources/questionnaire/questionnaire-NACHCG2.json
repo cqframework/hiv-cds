@@ -37,13 +37,13 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/prep-medication-prescriptions#MedicationRequest.medication[x]",
-    "text": "Prep Medication Prescriptions",
+    "text": "List of Medication Prescriptions for Non-Occupational Pre Exposure Prophylaxis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de1-codes-grouper"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/prep-dispensed-medications#MedicationDispense.medication[x]",
-    "text": "Prep Dispensed Medications",
+    "text": "List of Medications Provisioned and Supplied for Non-Occupational Pre Exposure Prophylaxis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de26-codes-grouper"
   } ]

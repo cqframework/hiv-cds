@@ -39,6 +39,7 @@
       "id": "Procedure.code",
       "path": "Procedure.code",
       "short": "Drug Rehabilitation",
+      "definition": "Concepts related to Injection Drug Use Rehabiliation",
       "comment": "Injection Drug Rehabilitation mapping",
       "min": 1,
       "max": "1",

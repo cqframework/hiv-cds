@@ -39,6 +39,7 @@
       "id": "MedicationDispense.medication[x]",
       "path": "MedicationDispense.medication[x]",
       "short": "Prep Dispensed Medications",
+      "definition": "List of Medications Provisioned and Supplied for Non-Occupational Pre Exposure Prophylaxis",
       "comment": "PrEP Medication mapping??Sourced: https://confluence.nachc.org/download/attachments/17415026/2021-07-09%20HIV%20Pre-exposure%20prophylaxis%20%28PrEP%29%20%5BRxNorm%5D%20%5BNDC%5D.xlsx?version=1&modificationDate=1626704083728&api=v2Dispense",
       "min": 1,
       "max": "1",

@@ -39,6 +39,7 @@
       "id": "Condition.code",
       "path": "Condition.code",
       "short": "Hepatitis C Diagnosis",
+      "definition": "Concepts Associated with HCV Diagnosis",
       "comment": "HCV infection mapping",
       "min": 1,
       "max": "1",

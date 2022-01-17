@@ -1,0 +1,1911 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99202"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99202'); The code provided (http://www.ama-assn.org/go/cpt#99202) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99203"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99203'); The code provided (http://www.ama-assn.org/go/cpt#99203) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99204"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99204'); The code provided (http://www.ama-assn.org/go/cpt#99204) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99205"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99205'); The code provided (http://www.ama-assn.org/go/cpt#99205) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99212"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99212'); The code provided (http://www.ama-assn.org/go/cpt#99212) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99213"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99213'); The code provided (http://www.ama-assn.org/go/cpt#99213) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99214"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99214'); The code provided (http://www.ama-assn.org/go/cpt#99214) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99215"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99215'); The code provided (http://www.ama-assn.org/go/cpt#99215) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99218"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99218'); The code provided (http://www.ama-assn.org/go/cpt#99218) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99219"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99219'); The code provided (http://www.ama-assn.org/go/cpt#99219) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99220"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99220'); The code provided (http://www.ama-assn.org/go/cpt#99220) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99221"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99221'); The code provided (http://www.ama-assn.org/go/cpt#99221) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99222"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99222'); The code provided (http://www.ama-assn.org/go/cpt#99222) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99223"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99223'); The code provided (http://www.ama-assn.org/go/cpt#99223) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99231"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99231'); The code provided (http://www.ama-assn.org/go/cpt#99231) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99232"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99232'); The code provided (http://www.ama-assn.org/go/cpt#99232) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99233"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99233'); The code provided (http://www.ama-assn.org/go/cpt#99233) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99234"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99234'); The code provided (http://www.ama-assn.org/go/cpt#99234) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99235"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99235'); The code provided (http://www.ama-assn.org/go/cpt#99235) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99236"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99236'); The code provided (http://www.ama-assn.org/go/cpt#99236) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99291"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99291'); The code provided (http://www.ama-assn.org/go/cpt#99291) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99304"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99304'); The code provided (http://www.ama-assn.org/go/cpt#99304) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99305"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99305'); The code provided (http://www.ama-assn.org/go/cpt#99305) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99306"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99306'); The code provided (http://www.ama-assn.org/go/cpt#99306) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99307"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99307'); The code provided (http://www.ama-assn.org/go/cpt#99307) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99308"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99308'); The code provided (http://www.ama-assn.org/go/cpt#99308) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99309"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99309'); The code provided (http://www.ama-assn.org/go/cpt#99309) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99310"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99310'); The code provided (http://www.ama-assn.org/go/cpt#99310) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99324"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99324'); The code provided (http://www.ama-assn.org/go/cpt#99324) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99325"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99325'); The code provided (http://www.ama-assn.org/go/cpt#99325) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99326"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99326'); The code provided (http://www.ama-assn.org/go/cpt#99326) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99327"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99327'); The code provided (http://www.ama-assn.org/go/cpt#99327) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99328"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99328'); The code provided (http://www.ama-assn.org/go/cpt#99328) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99334"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99334'); The code provided (http://www.ama-assn.org/go/cpt#99334) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99335"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99335'); The code provided (http://www.ama-assn.org/go/cpt#99335) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99336"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99336'); The code provided (http://www.ama-assn.org/go/cpt#99336) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99337"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99337'); The code provided (http://www.ama-assn.org/go/cpt#99337) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99341"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99341'); The code provided (http://www.ama-assn.org/go/cpt#99341) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99342"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99342'); The code provided (http://www.ama-assn.org/go/cpt#99342) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99343"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99343'); The code provided (http://www.ama-assn.org/go/cpt#99343) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99344"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99344'); The code provided (http://www.ama-assn.org/go/cpt#99344) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99345"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99345'); The code provided (http://www.ama-assn.org/go/cpt#99345) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99347"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99347'); The code provided (http://www.ama-assn.org/go/cpt#99347) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99348"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99348'); The code provided (http://www.ama-assn.org/go/cpt#99348) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99349"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99349'); The code provided (http://www.ama-assn.org/go/cpt#99349) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99350"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '99350'); The code provided (http://www.ama-assn.org/go/cpt#99350) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "1014274"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '1014274'); The code provided (http://www.ama-assn.org/go/cpt#1014274) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "57022"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '57022'); The code provided (http://www.ama-assn.org/go/cpt#57022) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "58600"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '58600'); The code provided (http://www.ama-assn.org/go/cpt#58600) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "58605"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '58605'); The code provided (http://www.ama-assn.org/go/cpt#58605) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "58970"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '58970'); The code provided (http://www.ama-assn.org/go/cpt#58970) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "58974"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '58974'); The code provided (http://www.ama-assn.org/go/cpt#58974) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "58976"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '58976'); The code provided (http://www.ama-assn.org/go/cpt#58976) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59000'); The code provided (http://www.ama-assn.org/go/cpt#59000) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59001'); The code provided (http://www.ama-assn.org/go/cpt#59001) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59012"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59012'); The code provided (http://www.ama-assn.org/go/cpt#59012) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59015"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59015'); The code provided (http://www.ama-assn.org/go/cpt#59015) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59020"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59020'); The code provided (http://www.ama-assn.org/go/cpt#59020) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59025"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59025'); The code provided (http://www.ama-assn.org/go/cpt#59025) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59030"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59030'); The code provided (http://www.ama-assn.org/go/cpt#59030) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59050"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59050'); The code provided (http://www.ama-assn.org/go/cpt#59050) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59051"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59051'); The code provided (http://www.ama-assn.org/go/cpt#59051) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59070"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59070'); The code provided (http://www.ama-assn.org/go/cpt#59070) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59072"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59072'); The code provided (http://www.ama-assn.org/go/cpt#59072) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59074"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59074'); The code provided (http://www.ama-assn.org/go/cpt#59074) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59076"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59076'); The code provided (http://www.ama-assn.org/go/cpt#59076) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59100"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59100'); The code provided (http://www.ama-assn.org/go/cpt#59100) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59120"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59120'); The code provided (http://www.ama-assn.org/go/cpt#59120) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59121"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59121'); The code provided (http://www.ama-assn.org/go/cpt#59121) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59130"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59130'); The code provided (http://www.ama-assn.org/go/cpt#59130) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59135"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59135'); The code provided (http://www.ama-assn.org/go/cpt#59135) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59136"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59136'); The code provided (http://www.ama-assn.org/go/cpt#59136) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59140"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59140'); The code provided (http://www.ama-assn.org/go/cpt#59140) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59150"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59150'); The code provided (http://www.ama-assn.org/go/cpt#59150) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59151"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59151'); The code provided (http://www.ama-assn.org/go/cpt#59151) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59160"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59160'); The code provided (http://www.ama-assn.org/go/cpt#59160) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59200"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59200'); The code provided (http://www.ama-assn.org/go/cpt#59200) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59300"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59300'); The code provided (http://www.ama-assn.org/go/cpt#59300) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59320"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59320'); The code provided (http://www.ama-assn.org/go/cpt#59320) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59325"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59325'); The code provided (http://www.ama-assn.org/go/cpt#59325) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59350"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59350'); The code provided (http://www.ama-assn.org/go/cpt#59350) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59412"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59412'); The code provided (http://www.ama-assn.org/go/cpt#59412) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59414"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59414'); The code provided (http://www.ama-assn.org/go/cpt#59414) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59430"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59430'); The code provided (http://www.ama-assn.org/go/cpt#59430) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59525"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59525'); The code provided (http://www.ama-assn.org/go/cpt#59525) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59812"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59812'); The code provided (http://www.ama-assn.org/go/cpt#59812) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59820"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59820'); The code provided (http://www.ama-assn.org/go/cpt#59820) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59821"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59821'); The code provided (http://www.ama-assn.org/go/cpt#59821) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59830"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59830'); The code provided (http://www.ama-assn.org/go/cpt#59830) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59840"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59840'); The code provided (http://www.ama-assn.org/go/cpt#59840) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59841"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59841'); The code provided (http://www.ama-assn.org/go/cpt#59841) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59850"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59850'); The code provided (http://www.ama-assn.org/go/cpt#59850) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59851"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59851'); The code provided (http://www.ama-assn.org/go/cpt#59851) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59852"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59852'); The code provided (http://www.ama-assn.org/go/cpt#59852) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59855"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59855'); The code provided (http://www.ama-assn.org/go/cpt#59855) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59856"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59856'); The code provided (http://www.ama-assn.org/go/cpt#59856) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59857"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59857'); The code provided (http://www.ama-assn.org/go/cpt#59857) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59866"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59866'); The code provided (http://www.ama-assn.org/go/cpt#59866) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59870"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59870'); The code provided (http://www.ama-assn.org/go/cpt#59870) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59871"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59871'); The code provided (http://www.ama-assn.org/go/cpt#59871) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59897"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59897'); The code provided (http://www.ama-assn.org/go/cpt#59897) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59898"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59898'); The code provided (http://www.ama-assn.org/go/cpt#59898) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "59899"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59899'); The code provided (http://www.ama-assn.org/go/cpt#59899) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt",
+      "concept" : [{
+        "code" : "99202",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99203",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 30-44 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99204",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 45-59 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99205",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 60-74 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99212",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 10-19 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99213",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99214",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 30-39 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99215",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 40-54 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99218",
+        "display" : "Initial observation care, per day, for the evaluation and management of a patient which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99219",
+        "display" : "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99220",
+        "display" : "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99221",
+        "display" : "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99222",
+        "display" : "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99223",
+        "display" : "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99231",
+        "display" : "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering or improving. Typically, 15 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99232",
+        "display" : "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 25 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99233",
+        "display" : "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant complication or a significant new problem. Typically, 35 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99234",
+        "display" : "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of low severity. Typically, 40 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99235",
+        "display" : "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99236",
+        "display" : "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of high severity. Typically, 55 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99291",
+        "display" : "Critical care, evaluation and management of the critically ill or critically injured patient; first 30-74 minutes"
+      },
+      {
+        "code" : "99304",
+        "display" : "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99305",
+        "display" : "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99306",
+        "display" : "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 45 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99307",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering, or improving. Typically, 10 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99308",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 15 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99309",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient has developed a significant complication or a significant new problem. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99310",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99324",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99325",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99326",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99327",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99328",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99334",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self-limited or minor. Typically, 15 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99335",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99336",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 40 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99337",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99341",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99342",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99343",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99344",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99345",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99347",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 15 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99348",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99349",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99350",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt",
+      "concept" : [{
+        "code" : "57022",
+        "display" : "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
+      },
+      {
+        "code" : "58600",
+        "display" : "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, unilateral or bilateral"
+      },
+      {
+        "code" : "58605",
+        "display" : "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)"
+      },
+      {
+        "code" : "58970",
+        "display" : "Follicle puncture for oocyte retrieval, any method"
+      },
+      {
+        "code" : "58974",
+        "display" : "Embryo transfer, intrauterine"
+      },
+      {
+        "code" : "58976",
+        "display" : "Gamete, zygote, or embryo intrafallopian transfer, any method"
+      },
+      {
+        "code" : "59000",
+        "display" : "Amniocentesis; diagnostic"
+      },
+      {
+        "code" : "59001",
+        "display" : "Amniocentesis; therapeutic amniotic fluid reduction (includes ultrasound guidance)"
+      },
+      {
+        "code" : "59012",
+        "display" : "Cordocentesis (intrauterine), any method"
+      },
+      {
+        "code" : "59015",
+        "display" : "Chorionic villus sampling, any method"
+      },
+      {
+        "code" : "59020",
+        "display" : "Fetal contraction stress test"
+      },
+      {
+        "code" : "59025",
+        "display" : "Fetal non-stress test"
+      },
+      {
+        "code" : "59030",
+        "display" : "Fetal scalp blood sampling"
+      },
+      {
+        "code" : "59050",
+        "display" : "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; supervision and interpretation"
+      },
+      {
+        "code" : "59051",
+        "display" : "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; interpretation only"
+      },
+      {
+        "code" : "59070",
+        "display" : "Transabdominal amnioinfusion, including ultrasound guidance"
+      },
+      {
+        "code" : "59072",
+        "display" : "Fetal umbilical cord occlusion, including ultrasound guidance"
+      },
+      {
+        "code" : "59074",
+        "display" : "Fetal fluid drainage (eg, vesicocentesis, thoracocentesis, paracentesis), including ultrasound guidance"
+      },
+      {
+        "code" : "59076",
+        "display" : "Fetal shunt placement, including ultrasound guidance"
+      },
+      {
+        "code" : "59100",
+        "display" : "Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)"
+      },
+      {
+        "code" : "59120",
+        "display" : "Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach"
+      },
+      {
+        "code" : "59121",
+        "display" : "Surgical treatment of ectopic pregnancy; tubal or ovarian, without salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59130",
+        "display" : "Surgical treatment of ectopic pregnancy; abdominal pregnancy"
+      },
+      {
+        "code" : "59135",
+        "display" : "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy requiring total hysterectomy"
+      },
+      {
+        "code" : "59136",
+        "display" : "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy with partial resection of uterus"
+      },
+      {
+        "code" : "59140",
+        "display" : "Surgical treatment of ectopic pregnancy; cervical, with evacuation"
+      },
+      {
+        "code" : "59150",
+        "display" : "Laparoscopic treatment of ectopic pregnancy; without salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59151",
+        "display" : "Laparoscopic treatment of ectopic pregnancy; with salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59160",
+        "display" : "Curettage, postpartum"
+      },
+      {
+        "code" : "59200",
+        "display" : "Insertion of cervical dilator (eg, laminaria, prostaglandin) (separate procedure)"
+      },
+      {
+        "code" : "59300",
+        "display" : "Episiotomy or vaginal repair, by other than attending"
+      },
+      {
+        "code" : "59320",
+        "display" : "Cerclage of cervix, during pregnancy; vaginal"
+      },
+      {
+        "code" : "59325",
+        "display" : "Cerclage of cervix, during pregnancy; abdominal"
+      },
+      {
+        "code" : "59350",
+        "display" : "Hysterorrhaphy of ruptured uterus"
+      },
+      {
+        "code" : "59412",
+        "display" : "External cephalic version, with or without tocolysis"
+      },
+      {
+        "code" : "59414",
+        "display" : "Delivery of placenta (separate procedure)"
+      },
+      {
+        "code" : "59430",
+        "display" : "Postpartum care only (separate procedure)"
+      },
+      {
+        "code" : "59525",
+        "display" : "Subtotal or total hysterectomy after cesarean delivery (List separately in addition to code for primary procedure)"
+      },
+      {
+        "code" : "59812",
+        "display" : "Treatment of incomplete abortion, any trimester, completed surgically"
+      },
+      {
+        "code" : "59820",
+        "display" : "Treatment of missed abortion, completed surgically; first trimester"
+      },
+      {
+        "code" : "59821",
+        "display" : "Treatment of missed abortion, completed surgically; second trimester"
+      },
+      {
+        "code" : "59830",
+        "display" : "Treatment of septic abortion, completed surgically"
+      },
+      {
+        "code" : "59840",
+        "display" : "Induced abortion, by dilation and curettage"
+      },
+      {
+        "code" : "59841",
+        "display" : "Induced abortion, by dilation and evacuation"
+      },
+      {
+        "code" : "59850",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines"
+      },
+      {
+        "code" : "59851",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"
+      },
+      {
+        "code" : "59852",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)"
+      },
+      {
+        "code" : "59855",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines"
+      },
+      {
+        "code" : "59856",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"
+      },
+      {
+        "code" : "59857",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)"
+      },
+      {
+        "code" : "59866",
+        "display" : "Multifetal pregnancy reduction(s) (MPR)"
+      },
+      {
+        "code" : "59870",
+        "display" : "Uterine evacuation and curettage for hydatidiform mole"
+      },
+      {
+        "code" : "59871",
+        "display" : "Removal of cerclage suture under anesthesia (other than local)"
+      },
+      {
+        "code" : "59897",
+        "display" : "Unlisted fetal invasive procedure, including ultrasound guidance, when performed"
+      },
+      {
+        "code" : "59898",
+        "display" : "Unlisted laparoscopy procedure, maternity care and delivery"
+      },
+      {
+        "code" : "59899",
+        "display" : "Unlisted procedure, maternity care and delivery"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt",
+      "concept" : [{
+        "code" : "99202",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99203",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 30-44 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99204",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 45-59 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99205",
+        "display" : "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 60-74 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99212",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 10-19 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99213",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99214",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 30-39 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99215",
+        "display" : "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and high level of medical decision making. When using time for code selection, 40-54 minutes of total time is spent on the date of the encounter."
+      },
+      {
+        "code" : "99218",
+        "display" : "Initial observation care, per day, for the evaluation and management of a patient which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99219",
+        "display" : "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99220",
+        "display" : "Initial observation care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission to outpatient hospital \"observation status\" are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99221",
+        "display" : "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99222",
+        "display" : "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99223",
+        "display" : "Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 70 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99231",
+        "display" : "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering or improving. Typically, 15 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99232",
+        "display" : "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 25 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99233",
+        "display" : "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant complication or a significant new problem. Typically, 35 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99234",
+        "display" : "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of low severity. Typically, 40 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99235",
+        "display" : "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of moderate severity. Typically, 50 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99236",
+        "display" : "Observation or inpatient hospital care, for the evaluation and management of a patient including admission and discharge on the same date, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually the presenting problem(s) requiring admission are of high severity. Typically, 55 minutes are spent at the bedside and on the patient's hospital floor or unit."
+      },
+      {
+        "code" : "99291",
+        "display" : "Critical care, evaluation and management of the critically ill or critically injured patient; first 30-74 minutes"
+      },
+      {
+        "code" : "99304",
+        "display" : "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99305",
+        "display" : "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of moderate severity. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99306",
+        "display" : "Initial nursing facility care, per day, for the evaluation and management of a patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of high severity. Typically, 45 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99307",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is stable, recovering, or improving. Typically, 10 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99308",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 15 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99309",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient has developed a significant complication or a significant new problem. Typically, 25 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99310",
+        "display" : "Subsequent nursing facility care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 35 minutes are spent at the bedside and on the patient's facility floor or unit."
+      },
+      {
+        "code" : "99324",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99325",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99326",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99327",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99328",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99334",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self-limited or minor. Typically, 15 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99335",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99336",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 40 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99337",
+        "display" : "Domiciliary or rest home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent with the patient and/or family or caregiver."
+      },
+      {
+        "code" : "99341",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99342",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99343",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99344",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99345",
+        "display" : "Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99347",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 15 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99348",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99349",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family."
+      },
+      {
+        "code" : "99350",
+        "display" : "Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt",
+      "concept" : [{
+        "code" : "1014274",
+        "display" : "Hepatitis C antibody"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt",
+      "concept" : [{
+        "code" : "57022",
+        "display" : "Incision and drainage of vaginal hematoma; obstetrical/postpartum"
+      },
+      {
+        "code" : "58600",
+        "display" : "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, unilateral or bilateral"
+      },
+      {
+        "code" : "58605",
+        "display" : "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)"
+      },
+      {
+        "code" : "58970",
+        "display" : "Follicle puncture for oocyte retrieval, any method"
+      },
+      {
+        "code" : "58974",
+        "display" : "Embryo transfer, intrauterine"
+      },
+      {
+        "code" : "58976",
+        "display" : "Gamete, zygote, or embryo intrafallopian transfer, any method"
+      },
+      {
+        "code" : "59000",
+        "display" : "Amniocentesis; diagnostic"
+      },
+      {
+        "code" : "59001",
+        "display" : "Amniocentesis; therapeutic amniotic fluid reduction (includes ultrasound guidance)"
+      },
+      {
+        "code" : "59012",
+        "display" : "Cordocentesis (intrauterine), any method"
+      },
+      {
+        "code" : "59015",
+        "display" : "Chorionic villus sampling, any method"
+      },
+      {
+        "code" : "59020",
+        "display" : "Fetal contraction stress test"
+      },
+      {
+        "code" : "59025",
+        "display" : "Fetal non-stress test"
+      },
+      {
+        "code" : "59030",
+        "display" : "Fetal scalp blood sampling"
+      },
+      {
+        "code" : "59050",
+        "display" : "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; supervision and interpretation"
+      },
+      {
+        "code" : "59051",
+        "display" : "Fetal monitoring during labor by consulting physician (ie, non-attending physician) with written report; interpretation only"
+      },
+      {
+        "code" : "59070",
+        "display" : "Transabdominal amnioinfusion, including ultrasound guidance"
+      },
+      {
+        "code" : "59072",
+        "display" : "Fetal umbilical cord occlusion, including ultrasound guidance"
+      },
+      {
+        "code" : "59074",
+        "display" : "Fetal fluid drainage (eg, vesicocentesis, thoracocentesis, paracentesis), including ultrasound guidance"
+      },
+      {
+        "code" : "59076",
+        "display" : "Fetal shunt placement, including ultrasound guidance"
+      },
+      {
+        "code" : "59100",
+        "display" : "Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)"
+      },
+      {
+        "code" : "59120",
+        "display" : "Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy, abdominal or vaginal approach"
+      },
+      {
+        "code" : "59121",
+        "display" : "Surgical treatment of ectopic pregnancy; tubal or ovarian, without salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59130",
+        "display" : "Surgical treatment of ectopic pregnancy; abdominal pregnancy"
+      },
+      {
+        "code" : "59135",
+        "display" : "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy requiring total hysterectomy"
+      },
+      {
+        "code" : "59136",
+        "display" : "Surgical treatment of ectopic pregnancy; interstitial, uterine pregnancy with partial resection of uterus"
+      },
+      {
+        "code" : "59140",
+        "display" : "Surgical treatment of ectopic pregnancy; cervical, with evacuation"
+      },
+      {
+        "code" : "59150",
+        "display" : "Laparoscopic treatment of ectopic pregnancy; without salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59151",
+        "display" : "Laparoscopic treatment of ectopic pregnancy; with salpingectomy and/or oophorectomy"
+      },
+      {
+        "code" : "59160",
+        "display" : "Curettage, postpartum"
+      },
+      {
+        "code" : "59200",
+        "display" : "Insertion of cervical dilator (eg, laminaria, prostaglandin) (separate procedure)"
+      },
+      {
+        "code" : "59300",
+        "display" : "Episiotomy or vaginal repair, by other than attending"
+      },
+      {
+        "code" : "59320",
+        "display" : "Cerclage of cervix, during pregnancy; vaginal"
+      },
+      {
+        "code" : "59325",
+        "display" : "Cerclage of cervix, during pregnancy; abdominal"
+      },
+      {
+        "code" : "59350",
+        "display" : "Hysterorrhaphy of ruptured uterus"
+      },
+      {
+        "code" : "59412",
+        "display" : "External cephalic version, with or without tocolysis"
+      },
+      {
+        "code" : "59414",
+        "display" : "Delivery of placenta (separate procedure)"
+      },
+      {
+        "code" : "59430",
+        "display" : "Postpartum care only (separate procedure)"
+      },
+      {
+        "code" : "59525",
+        "display" : "Subtotal or total hysterectomy after cesarean delivery (List separately in addition to code for primary procedure)"
+      },
+      {
+        "code" : "59812",
+        "display" : "Treatment of incomplete abortion, any trimester, completed surgically"
+      },
+      {
+        "code" : "59820",
+        "display" : "Treatment of missed abortion, completed surgically; first trimester"
+      },
+      {
+        "code" : "59821",
+        "display" : "Treatment of missed abortion, completed surgically; second trimester"
+      },
+      {
+        "code" : "59830",
+        "display" : "Treatment of septic abortion, completed surgically"
+      },
+      {
+        "code" : "59840",
+        "display" : "Induced abortion, by dilation and curettage"
+      },
+      {
+        "code" : "59841",
+        "display" : "Induced abortion, by dilation and evacuation"
+      },
+      {
+        "code" : "59850",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines"
+      },
+      {
+        "code" : "59851",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"
+      },
+      {
+        "code" : "59852",
+        "display" : "Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)"
+      },
+      {
+        "code" : "59855",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines"
+      },
+      {
+        "code" : "59856",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"
+      },
+      {
+        "code" : "59857",
+        "display" : "Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)"
+      },
+      {
+        "code" : "59866",
+        "display" : "Multifetal pregnancy reduction(s) (MPR)"
+      },
+      {
+        "code" : "59870",
+        "display" : "Uterine evacuation and curettage for hydatidiform mole"
+      },
+      {
+        "code" : "59871",
+        "display" : "Removal of cerclage suture under anesthesia (other than local)"
+      },
+      {
+        "code" : "59897",
+        "display" : "Unlisted fetal invasive procedure, including ultrasound guidance, when performed"
+      },
+      {
+        "code" : "59898",
+        "display" : "Unlisted laparoscopy procedure, maternity care and delivery"
+      },
+      {
+        "code" : "59899",
+        "display" : "Unlisted procedure, maternity care and delivery"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+}
+-------------------------------------------------------------------------------------

@@ -37,25 +37,25 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/drug-rehabilitation#Procedure.code",
-    "text": "Drug Rehabilitation",
+    "text": "Concepts related to Injection Drug Use Rehabiliation",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de2"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-findings#Observation.code",
-    "text": "Injection Findings",
+    "text": "Concepts related to findings or observations related to Injection Drug Usage",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13"
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use-diagnosis#Condition.code",
-    "text": "Injection Drug Use Diagnosis",
+    "text": "Concepts Associated with Injection Drug Use Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de16"
   }, {
     "linkId": "4",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use#MedicationStatement.medication[x]",
-    "text": "Injection Drug Use",
+    "text": "Concepts related to Injection Drug Use History",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de201"
   } ]

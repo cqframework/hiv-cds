@@ -37,13 +37,13 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test#Observation.code",
-    "text": "HIV Test",
+    "text": "Concepts Associated with HIV Testing",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1-codes-grouper"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test-ordered#ServiceRequest.code",
-    "text": "HIV Test Ordered",
+    "text": "Concepts Associated with Ordering an HIV Test",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217"
   } ]

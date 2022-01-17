@@ -39,6 +39,7 @@
       "id": "Condition.code",
       "path": "Condition.code",
       "short": "Injection Drug Use Diagnosis",
+      "definition": "Concepts Associated with Injection Drug Use Diagnosis",
       "comment": "Injection Drug Conditions mapping",
       "min": 1,
       "max": "1",

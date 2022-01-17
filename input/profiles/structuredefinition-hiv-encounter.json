@@ -39,6 +39,7 @@
       "id": "Encounter.type",
       "path": "Encounter.type",
       "short": "Encounter Type",
+      "definition": "The type of patient encounter",
       "comment": "Patient Encounter mapping",
       "min": 1,
       "max": "1",

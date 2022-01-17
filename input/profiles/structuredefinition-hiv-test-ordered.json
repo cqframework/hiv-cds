@@ -39,6 +39,7 @@
       "id": "ServiceRequest.code",
       "path": "ServiceRequest.code",
       "short": "HIV Test Ordered",
+      "definition": "Concepts Associated with Ordering an HIV Test",
       "comment": "HIV test order mapping",
       "min": 1,
       "max": "1",

@@ -37,7 +37,7 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hepatitis-c-diagnosis#Condition.code",
-    "text": "Hepatitis C Diagnosis",
+    "text": "Concepts Associated with HCV Diagnosis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de1-codes-grouper"
   } ]

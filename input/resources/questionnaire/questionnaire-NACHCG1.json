@@ -37,19 +37,19 @@
   "item": [ {
     "linkId": "1",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/post-exposure-prophylaxis#Procedure.code",
-    "text": "Post Exposure Prophylaxis",
+    "text": "Concepts and Procedures Identifying Post Exposure Prophylaxis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de2"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pep-medication-prescriptions#MedicationRequest.medication[x]",
-    "text": "PEP Medication Prescriptions",
+    "text": "List of Medication Prescriptions for Non-Occupational Post Exposure Prophylaxis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de5-codes-grouper"
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pep-dispensed-medications#MedicationDispense.medication[x]",
-    "text": "PEP Dispensed Medications",
+    "text": "List of Medications Provisioned and Supplied for Non-Occupational Post Exposure Prophylaxis",
     "type": "choice",
     "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de143-codes-grouper"
   } ]

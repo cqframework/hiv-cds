@@ -39,6 +39,7 @@
       "id": "Observation.code",
       "path": "Observation.code",
       "short": "DAST 10 Question 7",
+      "definition": "Have you neglected your family because of your use of drugs?",
       "min": 1,
       "max": "1",
       "mustSupport": true,
@@ -50,6 +51,7 @@
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
       "short": "DAST 10 Question 7",
+      "definition": "Have you neglected your family because of your use of drugs?",
       "min": 1,
       "max": "1",
       "type": [ {

@@ -39,6 +39,7 @@
       "id": "MedicationStatement.medication[x]",
       "path": "MedicationStatement.medication[x]",
       "short": "Injection Drug Use",
+      "definition": "Concepts related to Injection Drug Use History",
       "comment": "Injection Drug Use Statments mapping",
       "min": 1,
       "max": "1",

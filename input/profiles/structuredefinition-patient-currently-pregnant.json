@@ -39,6 +39,7 @@
       "id": "Observation.code",
       "path": "Observation.code",
       "short": "Patient Currently Pregnant",
+      "definition": "Whether the patient is currently pregnant?",
       "min": 1,
       "max": "1",
       "mustSupport": true,
@@ -50,6 +51,7 @@
       "id": "Observation.value[x]",
       "path": "Observation.value[x]",
       "short": "Patient Currently Pregnant",
+      "definition": "Whether the patient is currently pregnant?",
       "min": 0,
       "max": "1",
       "type": [ {
