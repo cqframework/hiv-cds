@@ -3,8 +3,7 @@ library NACHCCommon version '4.0.1'
 using FHIR version '4.0.1'
 
 include FHIRHelpers version '4.0.1'
-
-/* include FHIRCommon called FC */
+include FHIRCommon called FC
 
 context Patient
 
@@ -35,6 +34,24 @@ define function MostRecent(observations List<Observation>):
   Last(
     observations O
       sort by issued
+  )
+
+define function MostRecent(conditions List<Condition>):
+  Last(
+    conditions C
+      sort by start of FC.ToInterval(onset)
+  )
+
+define function MostRecent(serviceRequests List<ServiceRequest>):
+  Last(
+    serviceRequests S
+      sort by start of FC.ToInterval(occurrence)
+  )
+
+define function MostRecent(procedures List<Procedure>):
+  Last(
+    procedures P
+      sort by start of FC.ToInterval(performed)
   )
 
 define function Lowest(observations List<Observation>):

@@ -40,6 +40,75 @@
     }
   }, {
     "resource": {
+      "resourceType": "Observation",
+      "id": "DrugAbuseScreeningPatient-observation-drug-screening-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "preliminary",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A0.DE65",
+          "display": "Total score [DAST-10]"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/DrugAbuseScreeningPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/DrugAbuseScreeningPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-03-08T10:20:00-07:00",
+      "valueInteger": 10
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/DrugAbuseScreeningPatient-observation-drug-screening-1"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "DrugAbuseScreeningPatient-observation-screening-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE1",
+          "display": "HIV Test"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/DrugAbuseScreeningPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/DrugAbuseScreeningPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-01-08T10:00:00-07:00",
+      "performer": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE215",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        }, {
+          "system": "http://loinc.org",
+          "code": "2898779",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/DrugAbuseScreeningPatient-observation-screening-1"
+    }
+  }, {
+    "resource": {
       "resourceType": "Patient",
       "id": "DrugAbuseScreeningPatient",
       "meta": {
@@ -111,75 +180,6 @@
     "request": {
       "method": "PUT",
       "url": "Patient/DrugAbuseScreeningPatient"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "DrugAbuseScreeningPatient-observation-drug-screening-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "preliminary",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A0.DE65",
-          "display": "Total score [DAST-10]"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/DrugAbuseScreeningPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/DrugAbuseScreeningPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-03-08T10:20:00-07:00",
-      "valueInteger": 10
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/DrugAbuseScreeningPatient-observation-drug-screening-1"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "DrugAbuseScreeningPatient-observation-screening-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE1",
-          "display": "HIV Test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/DrugAbuseScreeningPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/DrugAbuseScreeningPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-01-08T10:00:00-07:00",
-      "performer": [ {
-        "reference": "PractitionerRole/hiv-practitionerrole-example"
-      } ],
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE215",
-          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
-        }, {
-          "system": "http://loinc.org",
-          "code": "2898779",
-          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
-        } ]
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/DrugAbuseScreeningPatient-observation-screening-1"
     }
   } ]
 }

@@ -19,6 +19,9 @@ codesystem "ConditionVerificationStatusCodes": 'http://terminology.hl7.org/CodeS
 codesystem "AllergyIntoleranceClinicalStatusCodes": 'http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical'
 codesystem "AllergyIntoleranceVerificationStatusCodes": 'http://terminology.hl7.org/CodeSystem/allergyintolerance-verification'
 
+valueset "Active Condition": 'http://fhir.org/guides/cqf/common/ValueSet/active-condition'
+valueset "Inactive Condition": 'http://fhir.org/guides/cqf/common/ValueSet/inactive-condition'
+
 code "Birthdate": '21112-8' from "LOINC" display 'Birth date'
 code "Dead": '419099009' from "SNOMEDCT" display 'Dead'
 code "ER": 'ER' from "RoleCode" display 'Emergency room'
@@ -101,11 +104,7 @@ define function ToInterval(choice Choice<FHIR.dateTime, FHIR.Period, FHIR.Timing
 a run-time exception if used with a Condition instance that has a String as the abatement value.
 */
 define function ToAbatementInterval(condition Condition):
-  if condition.onset is not null and condition.abatement is null and (condition.clinicalStatus ~ "active"
-    or condition.clinicalStatus ~ "recurrence"
-    or condition.clinicalStatus ~ "relapse") then
-    Interval[Now(), Now()]
-  else if condition.abatement is FHIR.dateTime then
+	if condition.abatement is FHIR.dateTime then
 	  Interval[FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime), FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime)]
 	else if condition.abatement is FHIR.Period then
 	  FHIRHelpers.ToInterval(condition.abatement as FHIR.Period)
@@ -127,12 +126,12 @@ define function ToAbatementInterval(condition Condition):
 onset to abatement as specified in the given Condition.
 */
 define function ToPrevalenceInterval(condition Condition):
-  if condition.clinicalStatus ~ "active"
-    or condition.clinicalStatus ~ "recurrence"
-    or condition.clinicalStatus ~ "relapse" then
-    Interval[start of ToInterval(condition.onset), end of ToAbatementInterval(condition)]
-  else
-    Interval[start of ToInterval(condition.onset), end of ToAbatementInterval(condition))
+if condition.clinicalStatus ~ "active"
+  or condition.clinicalStatus ~ "recurrence"
+  or condition.clinicalStatus ~ "relapse" then
+  Interval[start of ToInterval(condition.onset), end of ToAbatementInterval(condition)]
+else
+  Interval[start of ToInterval(condition.onset), end of ToAbatementInterval(condition))
 
 /*
 @description: Returns any extensions defined on the given resource with the specified url.
