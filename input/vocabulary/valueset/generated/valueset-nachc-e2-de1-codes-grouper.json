@@ -6,7 +6,7 @@
   "title": "Chlamydia Test Codes Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2022-01-17T14:44:33-07:00",
+  "date": "2022-05-13T18:07:29-04:00",
   "description": "Group Valueset with codes representing possible values for the Chlamydia Test Codes Grouper element",
   "immutable": true,
   "compose": {
@@ -22,10 +22,20 @@
       "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de154" ]
     }, {
       "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de164" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de191" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de192" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de193" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de194" ]
+    }, {
+      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de195" ]
     } ]
   },
   "expansion": {
-    "timestamp": "2022-01-17T14:44:33-07:00",
+    "timestamp": "2022-05-13T18:07:29-04:00",
     "contains": [ {
       "system": "http://loinc.org",
       "code": "14463-4",

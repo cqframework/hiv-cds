@@ -23,7 +23,7 @@ valueset "HIV infection as a condition Codes": 'http://fhir.org/guides/nachc/hiv
 valueset "HIV-1 HIV 2 Ab Ag tests Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de2'
 valueset "HIV Viral Load Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de173'
 valueset "HIV Test Codes Grouper": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1-codes-grouper'
-valueset "HIV Test Ordered Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217'
+valueset "HIV Test Ordered Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de218'
 valueset "Hepatitis C Virus Infection (Disorders) Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de2'
 valueset "Chronic Infection of liver due to Hepatitis C virus Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de31'
 valueset "HCV Infection (Organism or Substance in Lab Results) Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b1-de33'
@@ -35,7 +35,7 @@ valueset "Hepatitis C virus antibody test Codes": 'http://fhir.org/guides/nachc/
 valueset "Hepatitis C virus nucleic (RNA) test Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de81'
 valueset "Hepatitis C Test Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de103'
 valueset "Hepatitis C Test Codes Grouper": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1-codes-grouper'
-valueset "Hepatitis C Procedures Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113'
+valueset "Hepatitis C Procedures Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de118'
 valueset "Syphilis Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de2'
 valueset "Syphilis (Organism or Substance in Lab Results) Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de185'
 valueset "Syphilis condition Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de192'
@@ -64,6 +64,11 @@ valueset "Chlamydia Trachomatis Tests, FPAR Codes": 'http://fhir.org/guides/nach
 valueset "Tests for Chlamydia trachomatis Antigen Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de125'
 valueset "Tests for Chlamydia trachomatis by Culture Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de154'
 valueset "Tests for Chlamydia trachomatis Nucleic Acid Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de164'
+valueset "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de191'
+valueset "Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de192'
+valueset "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de193'
+valueset "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunofluorescence Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de194'
+valueset "Chlamydia sp Ag [Presence] in Unspecified specimen by Immunoassay Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de195'
 valueset "Chlamydia Test Codes Grouper": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1-codes-grouper'
 valueset "Drug Rehabilitation Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de2'
 valueset "Injection Findings Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f1-de13'
@@ -95,10 +100,6 @@ valueset "TDF 300mg / FTC 200mg Supplied Codes": 'http://fhir.org/guides/nachc/h
 valueset "Tenofovir Alafenamide (TAF) 25 mg Supplied Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de78'
 valueset "Tenofovir Disoproxil Fumarate (TDF) 300mg Supplied Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de79'
 valueset "Prep Dispensed Medications Codes Grouper": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de26-codes-grouper'
-
-/* MANUAL VALUESETS -- *DO NOT OVERWRITE* */
-valueset "Gay Or Bisexual": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/GayOrBisexual'
-valueset "Transgender": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/Transgender'
 
 // Codes
 code "Sexual Orientation": '76690-7' from "LOINC" display 'Sexual orientation'

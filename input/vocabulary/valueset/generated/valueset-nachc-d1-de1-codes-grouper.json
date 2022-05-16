@@ -6,7 +6,7 @@
   "title": "Gonorrhea Diagnosis Codes Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2022-01-17T14:44:33-07:00",
+  "date": "2022-05-13T18:07:29-04:00",
   "description": "Group Valueset with codes representing possible values for the Gonorrhea Diagnosis Codes Grouper element",
   "immutable": true,
   "compose": {
@@ -19,7 +19,7 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2022-01-17T14:44:33-07:00",
+    "timestamp": "2022-05-13T18:07:29-04:00",
     "contains": [ {
       "system": "http://hl7.org/fhir/sid/icd-10",
       "code": "A50.01",
@@ -254,8 +254,8 @@
       "display": "Spirochetal infection, unspecified"
     }, {
       "system": "http://snomed.info/sct",
-      "code": "1087021000119100",
-      "display": "Periurethral abscess caused by Neisseria gonorrhoeae (disorder)"
+      "code": "1087021000119101",
+      "display": "Periurethral abscess caused by Neisseria gonorrhoeae"
     }, {
       "system": "http://snomed.info/sct",
       "code": "1087041000119110",
@@ -762,8 +762,8 @@
       "display": "Gonococcal pneumonia (disorder)"
     }, {
       "system": "http://snomed.info/sct",
-      "code": "1092501000119100",
-      "display": "Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)"
+      "code": "1092501000119104",
+      "display": "Septic shock co-occurrent with acute organ dysfunction due to Gonococcus"
     }, {
       "system": "http://snomed.info/sct",
       "code": "1092601000119100",

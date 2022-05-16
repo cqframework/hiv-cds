@@ -189,8 +189,8 @@
     }, {
       "system": "http://snomed.info/sct",
       "concept": [ {
-        "code": "1087021000119100",
-        "display": "Periurethral abscess caused by Neisseria gonorrhoeae (disorder)"
+        "code": "1087021000119101",
+        "display": "Periurethral abscess caused by Neisseria gonorrhoeae"
       }, {
         "code": "1087041000119110",
         "display": "Infection of kidney and ureter caused by Neisseria gonorrhoeae (disorder)"

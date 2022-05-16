@@ -45,6 +45,6 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hepatitis-c-procedures#Procedure.code",
     "text": "Concepts Associated with HCV Procedures",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de118"
   } ]
 }

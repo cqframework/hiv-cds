@@ -17,6 +17,9 @@
       }, {
         "code": "1675429",
         "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
+      }, {
+        "code": "1142632",
+        "display": "Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe"
       } ]
     } ]
   }

@@ -45,6 +45,6 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test-ordered#ServiceRequest.code",
     "text": "Concepts Associated with Ordering an HIV Test",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de218"
   } ]
 }

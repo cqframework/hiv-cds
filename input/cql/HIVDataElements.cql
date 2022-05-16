@@ -17,9 +17,9 @@ context Patient
   @description: Concepts Associated with Gender Identity Elements
 */
 define "Gender Identity":
-  NC.MostRecent(
-    [Observation: Cx."Gender Identity"] O
-      where O.status in { 'final', 'amended', 'corrected' }
+  WC.MostRecent(
+  [Observation: Cx."Gender Identity"] O
+    where O.status in { 'final', 'amended', 'corrected' }
   ).value as FHIR.CodeableConcept
 
 
@@ -39,9 +39,9 @@ define "Encounter Type":
   @description: Concepts Associated with Sexual Orientation Elements
 */
 define "Sexual Orientation":
-  NC.MostRecent(
-    [Observation: Cx."Sexual Orientation"] O
-      where O.status in { 'final', 'amended', 'corrected' }
+  WC.MostRecent(
+  [Observation: Cx."Sexual Orientation"] O
+    where O.status in { 'final', 'amended', 'corrected' }
   ).value as FHIR.CodeableConcept
 
 
@@ -54,7 +54,7 @@ define "HIV Diagnosis":
   [Condition: Cx."HIV infection as a condition Codes"] C
     where C.clinicalStatus in FC."Active Condition"
       and C.verificationStatus ~ FC."confirmed"
-    //return C.code
+    return C.code
 
 
 /*
@@ -65,11 +65,11 @@ define "HIV Diagnosis":
 define "HIV Test":
   [Observation: Cx."HIV Test"] O
     where O.status in { 'final', 'amended', 'corrected' }
-    //return O.value as FHIR.CodeableConcept
+    return O.value as FHIR.CodeableConcept
 
 
 /*
-  @dataElement: NACHC.A2.DE216 HIV Test Ordered
+  @dataElement: NACHC.A2.DE217 HIV Test Ordered
   @activity: NACHC.A2 HIV test
   @description: Concepts Associated with Ordering an HIV Test
 */
@@ -77,7 +77,7 @@ define "HIV Test Ordered":
   [ServiceRequest: Cx."HIV Test Ordered Codes"] SR
     where SR.status in { 'draft', 'active', 'on-hold', 'completed' }
       and SR.doNotPerform is not true
-    //return SR.code
+    return SR.code
 
 
 /*
@@ -89,18 +89,18 @@ define "Hepatitis C Diagnosis":
   [Condition: Cx."Hepatitis C Diagnosis Codes Grouper"] C
     where C.clinicalStatus in FC."Active Condition"
       and C.verificationStatus ~ FC."confirmed"
-    //return C.code
+    return C.code
 
 
 /*
-  @dataElement: NACHC.B2.DE112 Hepatitis C Procedures
+  @dataElement: NACHC.B2.DE117 Hepatitis C Procedures
   @activity: NACHC.B2 HCV test
   @description: Concepts Associated with HCV Procedures
 */
 define "Hepatitis C Procedures":
   [Procedure: Cx."Hepatitis C Procedures Codes"] P
     where P.status in { 'preparation', 'in-progress', 'on-hold', 'completed' }
-    //return P.code
+    return P.code
 
 
 /*
@@ -111,7 +111,7 @@ define "Hepatitis C Procedures":
 define "Hepatitis C Test":
   [Observation: Cx."Hepatitis C Test"] O
     where O.status in { 'final', 'amended', 'corrected' }
-    //return O.value as FHIR.CodeableConcept
+    return O.value as FHIR.CodeableConcept
 
 
 /*
@@ -123,7 +123,7 @@ define "Syphilis Diagnosis":
   [Condition: Cx."Syphilis Diagnosis Codes Grouper"] C
     where C.clinicalStatus in FC."Active Condition"
       and C.verificationStatus ~ FC."confirmed"
-    //return C.code
+    return C.code
 
 
 /*
@@ -134,7 +134,7 @@ define "Syphilis Diagnosis":
 define "Syphilis Test":
   [Observation: Cx."Syphilis Test"] O
     where O.status in { 'final', 'amended', 'corrected' }
-    //return O.value as FHIR.CodeableConcept
+    return O.value as FHIR.CodeableConcept
 
 
 /*
@@ -146,7 +146,7 @@ define "Gonorrhea Diagnosis":
   [Condition: Cx."Gonorrhea Diagnosis Codes Grouper"] C
     where C.clinicalStatus in FC."Active Condition"
       and C.verificationStatus ~ FC."confirmed"
-    //return C.code
+    return C.code
 
 
 /*
@@ -157,7 +157,7 @@ define "Gonorrhea Diagnosis":
 define "Gonorrhea Test":
   [Observation: Cx."Gonorrhea Test"] O
     where O.status in { 'final', 'amended', 'corrected' }
-    //return O.value as FHIR.CodeableConcept
+    return O.value as FHIR.CodeableConcept
 
 
 /*
@@ -169,7 +169,7 @@ define "Chlamydia Diagnosis":
   [Condition: Cx."Chlamydia Diagnosis Codes Grouper"] C
     where C.clinicalStatus in FC."Active Condition"
       and C.verificationStatus ~ FC."confirmed"
-    //return C.code
+    return C.code
 
 
 /*
@@ -180,7 +180,7 @@ define "Chlamydia Diagnosis":
 define "Chlamydia Test":
   [Observation: Cx."Chlamydia Test"] O
     where O.status in { 'final', 'amended', 'corrected' }
-    //return O.value as FHIR.CodeableConcept
+    return O.value as FHIR.CodeableConcept
 
 
 /*
@@ -191,7 +191,7 @@ define "Chlamydia Test":
 define "Drug Rehabilitation":
   [Procedure: Cx."Drug Rehabilitation Codes"] P
     where P.status in { 'preparation', 'in-progress', 'on-hold', 'completed' }
-    //return P.code
+    return P.code
 
 
 /*
@@ -211,7 +211,7 @@ define "Injection Drug Use Diagnosis":
   [Condition: Cx."Injection Drug Use Diagnosis Codes"] C
     where C.clinicalStatus in FC."Active Condition"
       and C.verificationStatus ~ FC."confirmed"
-    //return C.code
+    return C.code
 
 
 /*
@@ -222,7 +222,7 @@ define "Injection Drug Use Diagnosis":
 define "Injection Findings":
   [Observation: Cx."Injection Findings"] O
     where O.status in { 'final', 'amended', 'corrected' }
-    //return O.value as FHIR.CodeableConcept
+    return O.value as FHIR.CodeableConcept
 
 
 /*
@@ -233,7 +233,7 @@ define "Injection Findings":
 define "Maternal Care":
   [Procedure: Cx."Maternal Care Codes"] P
     where P.status in { 'preparation', 'in-progress', 'on-hold', 'completed' }
-    //return P.code
+    return P.code
 
 
 /*
@@ -245,7 +245,7 @@ define "Pregnancy Conditions":
   [Condition: Cx."Pregnancy Conditions Codes"] C
     where C.clinicalStatus in FC."Active Condition"
       and C.verificationStatus ~ FC."confirmed"
-    //return C.code
+    return C.code
 
 
 /*
@@ -256,7 +256,7 @@ define "Pregnancy Conditions":
 define "Pregnancy Encounters":
   [Encounter: Cx."Pregnancy Encounters Codes"] E
     where E.status = 'finished'
-    //return E.type
+    return E.type
 
 
 /*
@@ -267,7 +267,7 @@ define "Pregnancy Encounters":
 define "Pregnancy Observations":
   [Observation: Cx."Pregnancy Observations Codes"] O
     where O.status in { 'final', 'amended', 'corrected' }
-    //return O.value as FHIR.CodeableConcept
+    return O.value as FHIR.CodeableConcept
 
 
 /*
@@ -278,7 +278,7 @@ define "Pregnancy Observations":
 define "Pregnancy Procedures":
   [Procedure: Cx."Pregnancy Procedures Codes"] P
     where P.status in { 'preparation', 'in-progress', 'on-hold', 'completed' }
-    //return P.code
+    return P.code
 
 
 /*
@@ -289,7 +289,7 @@ define "Pregnancy Procedures":
 define "Pregnancy Supervision":
   [Procedure: Cx."Pregnancy Supervision Codes"] P
     where P.status in { 'preparation', 'in-progress', 'on-hold', 'completed' }
-    //return P.code
+    return P.code
 
 
 /*
@@ -300,7 +300,7 @@ define "Pregnancy Supervision":
 define "Third Trimester Encounters":
   [Encounter: Cx."Third Trimester Encounters Codes"] E
     where E.status = 'finished'
-    //return E.type
+    return E.type
 
 
 /*
@@ -320,7 +320,7 @@ define "PEP Medication Prescriptions":
   [MedicationRequest: Cx."PEP Medication Prescriptions Codes Grouper"] MR
     where MR.status in { 'draft', 'active', 'on-hold', 'completed' }
       and MR.doNotPerform is not true
-    //return MR.medication as FHIR.CodeableConcept
+    return MR.medication as FHIR.CodeableConcept
 
 
 /*
@@ -331,7 +331,7 @@ define "PEP Medication Prescriptions":
 define "Post Exposure Prophylaxis":
   [Procedure: Cx."Post Exposure Prophylaxis Codes"] P
     where P.status in { 'preparation', 'in-progress', 'on-hold', 'completed' }
-    //return P.code
+    return P.code
 
 
 /*
@@ -351,7 +351,7 @@ define "Prep Medication Prescriptions":
   [MedicationRequest: Cx."Prep Medication Prescriptions Codes Grouper"] MR
     where MR.status in { 'draft', 'active', 'on-hold', 'completed' }
       and MR.doNotPerform is not true
-    //return MR.medication as FHIR.CodeableConcept
+    return MR.medication as FHIR.CodeableConcept
 
 
 /*
@@ -722,3 +722,5 @@ define "DAST 10 Question 9":
 define "DAST 10 Score":
   [Observation: Cx."DAST 10 Score"] O
     where O.status in { 'final', 'amended', 'corrected' }
+
+

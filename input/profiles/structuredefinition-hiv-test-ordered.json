@@ -50,11 +50,11 @@
           "valueString": "HIV Test Ordered Codes"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de217"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de218"
       },
       "mapping": [ {
         "identity": "HIV",
-        "map": "NACHC.A2.DE216"
+        "map": "NACHC.A2.DE217"
       } ]
     } ]
   }

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e2-de191",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de191",
+  "name": "ChlamydiatrachomatisrRNAPresenceinUnspecifiedspecimenbyProbeCodes",
+  "title": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "1129729",
+        "display": "Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe"
+      } ]
+    } ]
+  }
+}

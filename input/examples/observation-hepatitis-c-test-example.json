@@ -23,9 +23,9 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
-      "code": "G0472",
-      "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
+      "system": "http://snomed.info/sct",
+      "code": "2815900",
+      "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot"
     } ]
   }
 }

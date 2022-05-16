@@ -45,6 +45,24 @@
         "code": "G0472",
         "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
       } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "1136302",
+        "display": "Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection"
+      }, {
+        "code": "1135996",
+        "display": "Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection"
+      }, {
+        "code": "2816203",
+        "display": "Hepatitis C virus c33c Ab [Presence] in Serum by Immunoblot"
+      }, {
+        "code": "1204753",
+        "display": "Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay"
+      }, {
+        "code": "2815900",
+        "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot"
+      } ]
     } ]
   }
 }
