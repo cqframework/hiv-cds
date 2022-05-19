@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-b2-de118",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de118",
+  "name": "HepatitisCProceduresCodes",
+  "title": "Hepatitis C Procedures Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Hepatitis C Procedures element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "concept": [ {
+        "code": "NACHC.B2.DE118",
+        "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)"
+      }, {
+        "code": "NACHC.B2.DE119",
+        "display": "Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)"
+      }, {
+        "code": "NACHC.B2.DE120",
+        "display": "Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)"
+      }, {
+        "code": "NACHC.B2.DE121",
+        "display": "Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)"
+      }, {
+        "code": "NACHC.B2.DE122",
+        "display": "Hepatitis C screening documented as performed (HIV)"
+      }, {
+        "code": "NACHC.B2.DE123",
+        "display": "Patient receiving antiviral treatment for Hepatitis C (HEP-C)"
+      }, {
+        "code": "NACHC.B2.DE124",
+        "display": "Collection of venous blood by venipuncture"
+      }, {
+        "code": "NACHC.B2.DE125",
+        "display": "Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver"
+      } ]
+    } ]
+  }
+}

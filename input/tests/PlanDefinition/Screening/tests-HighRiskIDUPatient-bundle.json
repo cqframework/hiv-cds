@@ -4,6 +4,42 @@
   "type": "transaction",
   "entry": [ {
     "resource": {
+      "resourceType": "Encounter",
+      "id": "HighRiskIDUPatient-encounter-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter" ]
+      },
+      "status": "in-progress",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "AMB",
+        "display": "ambulatory"
+      },
+      "type": [ {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A0.DE2",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+        }, {
+          "system": "http://www.ama-assn.org/go/cpt",
+          "code": "99202",
+          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
+        } ]
+      } ],
+      "subject": {
+        "reference": "Patient/HighRiskIDUPatient"
+      },
+      "period": {
+        "start": "2021-07-08T08:00:00-07:00",
+        "end": "2021-07-08T09:20:00-07:00"
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Encounter/HighRiskIDUPatient-encounter-1"
+    }
+  }, {
+    "resource": {
       "resourceType": "Condition",
       "id": "HighRiskIDUPatient-condition-hcv-1",
       "meta": {
@@ -52,83 +88,6 @@
     "request": {
       "method": "PUT",
       "url": "Condition/HighRiskIDUPatient-condition-hcv-1"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Encounter",
-      "id": "HighRiskIDUPatient-encounter-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/patient-encounter" ]
-      },
-      "status": "in-progress",
-      "class": {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "code": "AMB",
-        "display": "ambulatory"
-      },
-      "type": [ {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A0.DE2",
-          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
-        }, {
-          "system": "http://www.ama-assn.org/go/cpt",
-          "code": "99202",
-          "display": "Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward medical decision making. When using time for code selection, 15-29 minutes of total time is spent on the date of the encounter."
-        } ]
-      } ],
-      "subject": {
-        "reference": "Patient/HighRiskIDUPatient"
-      },
-      "period": {
-        "start": "2021-07-08T08:00:00-07:00",
-        "end": "2021-07-08T09:20:00-07:00"
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Encounter/HighRiskIDUPatient-encounter-1"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "HighRiskIDUPatient-observation-screening-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE1",
-          "display": "HIV Test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/HighRiskIDUPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/HighRiskIDUPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
-      "performer": [ {
-        "reference": "PractitionerRole/hiv-practitionerrole-example"
-      } ],
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE215",
-          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
-        }, {
-          "system": "http://loinc.org",
-          "code": "2898779",
-          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
-        } ]
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/HighRiskIDUPatient-observation-screening-1"
     }
   }, {
     "resource": {
@@ -203,6 +162,47 @@
     "request": {
       "method": "PUT",
       "url": "Patient/HighRiskIDUPatient"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "HighRiskIDUPatient-observation-screening-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE1",
+          "display": "HIV Test"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/HighRiskIDUPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/HighRiskIDUPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+      "performer": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE215",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        }, {
+          "system": "http://loinc.org",
+          "code": "2898779",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/HighRiskIDUPatient-observation-screening-1"
     }
   } ]
 }

@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e2-de195",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de195",
+  "name": "ChlamydiaspAgPresenceinUnspecifiedspecimenbyImmunoassayCodes",
+  "title": "Chlamydia sp Ag [Presence] in Unspecified specimen by Immunoassay Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia sp Ag [Presence] in Unspecified specimen by Immunoassay element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "1624478",
+        "display": "Chlamydia sp Ag [Presence] in Unspecified specimen by Immunoassay"
+      } ]
+    } ]
+  }
+}

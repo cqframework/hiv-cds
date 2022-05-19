@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e2-de192",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de192",
+  "name": "ChlamydiatrachomatisPresenceinUnspecifiedspecimenbyOrganismspecificcultureCodes",
+  "title": "Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "1625086",
+        "display": "Chlamydia trachomatis [Presence] in Unspecified specimen by Organism specific culture"
+      } ]
+    } ]
+  }
+}
