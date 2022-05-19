@@ -18,9 +18,9 @@
   },
   "code": {
     "coding": [ {
-      "system": "http://snomed.info/sct",
-      "code": "90428001",
-      "display": "Gonococcal pericarditis (disorder)"
+      "system": "http://hl7.org/fhir/sid/icd-10",
+      "code": "A69.9",
+      "display": "Spirochetal infection, unspecified"
     } ]
   },
   "subject": {

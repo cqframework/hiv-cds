@@ -3,7 +3,7 @@ library HIVContactDataElements
 using FHIR version '4.0.1'
 
 include FHIRHelpers version '4.0.1'
-include FHIRCommon called FC
+include FHIRCommon  version '4.0.1' called FC
 
 include NACHCCommon called NC
 include HIVCommon called AC
@@ -69,7 +69,7 @@ define "HIV Test":
 
 
 /*
-  @dataElement: NACHC.A2.DE217 HIV Test Ordered
+  @dataElement: NACHC.A2.DE216 HIV Test Ordered
   @activity: NACHC.A2 HIV test
   @description: Concepts Associated with Ordering an HIV Test
 */

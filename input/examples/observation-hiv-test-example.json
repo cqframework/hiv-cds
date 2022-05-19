@@ -23,9 +23,9 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://loinc.org",
-      "code": "2898779",
-      "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Valueset binding http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de1-codes-grouper resolved but contained no codes."
     } ]
   }
 }

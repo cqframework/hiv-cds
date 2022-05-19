@@ -24,7 +24,7 @@ Data elements for this activity can be collected using the [NACHCA2](Questionnai
 |Id|Label|Description|Type|Profile Path|
 |---|---|---|---|---|
 |NACHC.A2.DE1|HIV Test|Concepts Associated with HIV Testing|CodeableConcept|[Observation.code](StructureDefinition-hiv-test.html)|
-|NACHC.A2.DE217|HIV Test Ordered|Concepts Associated with Ordering an HIV Test|CodeableConcept|[ServiceRequest.code](StructureDefinition-hiv-test-ordered.html)|
+|NACHC.A2.DE216|HIV Test Ordered|Concepts Associated with Ordering an HIV Test|CodeableConcept|[ServiceRequest.code](StructureDefinition-hiv-test-ordered.html)|
 
 #### NACHC.B1 HCV
 

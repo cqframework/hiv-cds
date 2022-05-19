@@ -6,7 +6,7 @@
   "title": "Hepatitis C Test Codes Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2022-05-13T18:07:29-04:00",
+  "date": "2022-05-19T11:35:04-06:00",
   "description": "Group Valueset with codes representing possible values for the Hepatitis C Test Codes Grouper element",
   "immutable": true,
   "compose": {
@@ -23,7 +23,7 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2022-05-13T18:07:29-04:00",
+    "timestamp": "2022-05-19T11:35:04-06:00",
     "contains": [ {
       "system": "http://loinc.org",
       "code": "79189-7",
@@ -448,26 +448,6 @@
       "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
       "code": "G0472",
       "display": "Hepatitis c antibody screening, for individual at high risk and other covered indication(s)"
-    }, {
-      "system": "http://snomed.info/sct",
-      "code": "1136302",
-      "display": "Hepatitis C virus RNA [Presence] in Tissue by NAA with probe detection"
-    }, {
-      "system": "http://snomed.info/sct",
-      "code": "1135996",
-      "display": "Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection"
-    }, {
-      "system": "http://snomed.info/sct",
-      "code": "2816203",
-      "display": "Hepatitis C virus c33c Ab [Presence] in Serum by Immunoblot"
-    }, {
-      "system": "http://snomed.info/sct",
-      "code": "1204753",
-      "display": "Hepatitis C virus Ab [Units/volume] in Serum by Immunoassay"
-    }, {
-      "system": "http://snomed.info/sct",
-      "code": "2815900",
-      "display": "Hepatitis C virus 22-3 Ab [Presence] in Serum by Immunoblot"
     } ]
   }
 }
