@@ -6,7 +6,7 @@
   "title": "Syphilis Diagnosis Codes Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2022-01-17T14:44:33-07:00",
+  "date": "2022-05-19T11:35:04-06:00",
   "description": "Group Valueset with codes representing possible values for the Syphilis Diagnosis Codes Grouper element",
   "immutable": true,
   "compose": {
@@ -19,7 +19,7 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2022-01-17T14:44:33-07:00",
+    "timestamp": "2022-05-19T11:35:04-06:00",
     "contains": [ {
       "system": "http://snomed.info/sct",
       "code": "266130009",

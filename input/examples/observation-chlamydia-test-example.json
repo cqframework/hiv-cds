@@ -23,9 +23,9 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://loinc.org",
-      "code": "88221-7",
-      "display": "Chlamydia trachomatis DNA [Presence] in Throat by NAA with probe detection"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Valueset binding http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de1-codes-grouper resolved but contained no codes."
     } ]
   }
 }

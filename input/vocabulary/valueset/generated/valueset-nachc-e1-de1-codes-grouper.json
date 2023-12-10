@@ -6,7 +6,7 @@
   "title": "Chlamydia Diagnosis Codes Grouper",
   "status": "draft",
   "experimental": false,
-  "date": "2022-01-17T14:44:33-07:00",
+  "date": "2022-05-19T11:35:04-06:00",
   "description": "Group Valueset with codes representing possible values for the Chlamydia Diagnosis Codes Grouper element",
   "immutable": true,
   "compose": {
@@ -21,7 +21,7 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2022-01-17T14:44:33-07:00",
+    "timestamp": "2022-05-19T11:35:04-06:00",
     "contains": [ {
       "system": "http://hl7.org/fhir/sid/icd-10",
       "code": "A55",
@@ -44,8 +44,8 @@
       "display": "Chlamydial infection (disorder)"
     }, {
       "system": "http://snomed.info/sct",
-      "code": "10750051000119100",
-      "display": "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
+      "code": "10750051000119105",
+      "display": "Chlamydia trachomatis infection in mother complicating childbirth"
     }, {
       "system": "http://snomed.info/sct",
       "code": "1084821000119100",
