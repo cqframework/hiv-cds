@@ -50,4 +50,3 @@ There are existing open source [SMART-on-FHIR](https://www.hl7.org/fhir/smart-ap
 * https://github.com/asbi-cds-tools/asbi-intervention-app
 
 
-.
