@@ -62,20 +62,58 @@ Athena has no support for a pop up message or a disruptive alert to notify the p
 Following this guide and using Athena’s standards for security will result in a solution for patient data retrieval for analysis that is approved by Athena’s support group and enables sufficient data for review of the CDS Tool as described by NACHC.
 
 **Figure 1**
-| Endpoint | Method |
-|----------|--------|
-| EP1      | POST   |
-| | /v1/{practiceid}/appointments/changed/subscription |   
-| EP2      | GET    |
-| |/v1/{practiceid}/appointments/changed |   
-| EP3      | GET    |
-| | /v1/{practiceid}/patients/{patientid} |   
-| EP4      | GET    |
-| | /v1/{practiceid}/chart/{patientid}/labresults |   
-| EP5      | GET    |
-| | /v1/{practiceid}/chart/{patientid}/problems |   
-| EP6      | POST   |
-| | /v1/{practiceid}/chart/encounter/{encounterid}/encounterreasonnote |   
+<table>
+	<tr>
+		<td>
+			EP1
+		</td>
+		<td>
+			POST<br/>
+			/v1/{practiceid}/appointments/changed/subscription
+		</td>
+		
+		<td>
+			EP2
+		</td>
+		<td>
+			GET<br/>
+			/v1/{practiceid}/appointments/changed
+		</td>
+		
+		<td>
+			EP3
+		</td>
+		<td>
+			GET<br/>
+			/v1/{practiceid}/patients/{patientid}
+		</td>
+		
+		<td>
+			EP4
+		</td>
+		<td>
+			 GET<br/>
+			/v1/{practiceid}/chart/{patientid}/labresults
+		</td>
+		
+		<td>
+			EP5
+		</td>
+		<td>
+			GET<br/>
+			/v1/{practiceid}/chart/{patientid}/problems
+		</td>
+		
+		<td>
+			EP6
+		</td>
+		<td>
+			POST<br/>
+			/v1/{practiceid}/chart/encounter/{encounterid}/encounterreasonnote
+		</td>
+	</tr>
+</table>
+
 
 **Figure 2**
 
@@ -99,4 +137,13 @@ Following this guide and using Athena’s standards for security will result in 
            “Syphilis”: ["090" , "091" , "092" ,
 
 ```
+
+<br/>
+<img src="{{site.data.info.assets}}athena-one-diagram.jpg" style="max-width: 100%;" />
+<br/><br/>
+
+**References:**
+
+1.) Athena Best Practices; https://docs.athenahealth.com/api/guides/best-practices
+
 
