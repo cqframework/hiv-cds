@@ -62,7 +62,7 @@ Athena has no support for a pop up message or a disruptive alert to notify the p
 Following this guide and using Athena’s standards for security will result in a solution for patient data retrieval for analysis that is approved by Athena’s support group and enables sufficient data for review of the CDS Tool as described by NACHC.
 
 **Figure 1**
-<table>
+<table border="1">
 	<tr>
 		<td>
 			EP1
