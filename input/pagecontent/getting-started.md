@@ -143,15 +143,20 @@ Following this guide and using Athena’s standards for security will result in 
 
 ```
 
-<p>
-	<br/>
-	<img src="{{site.data.info.assets}}athena-one-diagram.jpg" style="max-width: 100%;" />
-	<br/><br/>
-</p>
+<table border="0">
+	<tr>
+		<td>
+			<img src="{{site.data.info.assets}}athena-one-diagram.jpg" style="max-width: 100%;" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			**References:**
 
-<p>
-**References:**
+			Athena Best Practices; https://docs.athenahealth.com/api/guides/best-practices
+		</td>
+	</tr>
+</table>
 
-Athena Best Practices; https://docs.athenahealth.com/api/guides/best-practices
-</p>
+Last Updated 2024-03-09
 
