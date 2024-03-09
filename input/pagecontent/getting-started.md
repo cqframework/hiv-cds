@@ -71,7 +71,8 @@ Following this guide and using Athena’s standards for security will result in 
 			POST<br/>
 			/v1/{practiceid}/appointments/changed/subscription
 		</td>
-		
+	</tr>
+	<tr>
 		<td>
 			EP2
 		</td>
@@ -79,7 +80,8 @@ Following this guide and using Athena’s standards for security will result in 
 			GET<br/>
 			/v1/{practiceid}/appointments/changed
 		</td>
-		
+	</tr>
+	<tr>		
 		<td>
 			EP3
 		</td>
@@ -87,7 +89,8 @@ Following this guide and using Athena’s standards for security will result in 
 			GET<br/>
 			/v1/{practiceid}/patients/{patientid}
 		</td>
-		
+	</tr>
+	<tr>
 		<td>
 			EP4
 		</td>
@@ -95,7 +98,8 @@ Following this guide and using Athena’s standards for security will result in 
 			 GET<br/>
 			/v1/{practiceid}/chart/{patientid}/labresults
 		</td>
-		
+	</tr>
+	<tr>
 		<td>
 			EP5
 		</td>
@@ -103,7 +107,8 @@ Following this guide and using Athena’s standards for security will result in 
 			GET<br/>
 			/v1/{practiceid}/chart/{patientid}/problems
 		</td>
-		
+	</tr>
+	<tr>
 		<td>
 			EP6
 		</td>
@@ -138,12 +143,15 @@ Following this guide and using Athena’s standards for security will result in 
 
 ```
 
-<br/>
-<img src="{{site.data.info.assets}}athena-one-diagram.jpg" style="max-width: 100%;" />
-<br/><br/>
+<p>
+	<br/>
+	<img src="{{site.data.info.assets}}athena-one-diagram.jpg" style="max-width: 100%;" />
+	<br/><br/>
+</p>
 
+<p>
 **References:**
 
-1.) Athena Best Practices; https://docs.athenahealth.com/api/guides/best-practices
-
+Athena Best Practices; https://docs.athenahealth.com/api/guides/best-practices
+</p>
 
