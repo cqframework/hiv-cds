@@ -35,7 +35,7 @@ valueset "Hepatitis C virus antibody test Codes": 'http://fhir.org/guides/nachc/
 valueset "Hepatitis C virus nucleic (RNA) test Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de81'
 valueset "Hepatitis C Test Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de103'
 valueset "Hepatitis C Test Codes Grouper": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1-codes-grouper'
-valueset "Hepatitis C Procedures Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113'
+valueset "Hepatitis C Procedures Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de118'
 valueset "Syphilis Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de2'
 valueset "Syphilis (Organism or Substance in Lab Results) Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de185'
 valueset "Syphilis condition Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de192'
@@ -95,10 +95,6 @@ valueset "TDF 300mg / FTC 200mg Supplied Codes": 'http://fhir.org/guides/nachc/h
 valueset "Tenofovir Alafenamide (TAF) 25 mg Supplied Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de78'
 valueset "Tenofovir Disoproxil Fumarate (TDF) 300mg Supplied Codes": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de79'
 valueset "Prep Dispensed Medications Codes Grouper": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g2-de26-codes-grouper'
-
-/* MANUAL VALUESETS -- *DO NOT OVERWRITE* */
-valueset "Gay Or Bisexual": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/GayOrBisexual'
-valueset "Transgender": 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/Transgender'
 
 // Codes
 code "Sexual Orientation": '76690-7' from "LOINC" display 'Sexual orientation'

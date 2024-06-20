@@ -7,56 +7,5 @@
   "status": "draft",
   "experimental": false,
   "description": "Codes representing possible values for the Gonorrhea Organism or Substance in Lab Results element",
-  "immutable": true,
-  "compose": {
-    "include": [ {
-      "system": "http://snomed.info/sct",
-      "concept": [ {
-        "code": "120977006",
-        "display": "Antigen of Neisseria gonorrhoeae (substance)"
-      }, {
-        "code": "121172006",
-        "display": "Ribosomal ribonucleic acid of Neisseria gonorrhoeae (substance)"
-      }, {
-        "code": "277501003",
-        "display": "Penicillinase-producing Neisseria gonorrhoeae (organism)"
-      }, {
-        "code": "277502005",
-        "display": "Tetracycline-resistant Neisseria gonorrhoeae (organism)"
-      }, {
-        "code": "277503000",
-        "display": "Cephalosporin-resistant Neisseria gonorrhoeae (organism)"
-      }, {
-        "code": "277504006",
-        "display": "Spectinomycin-resistant Neisseria gonorrhoeae (organism)"
-      }, {
-        "code": "409805000",
-        "display": "Fluoroquinolone-resistant Neisseria gonorrhoeae (organism)"
-      }, {
-        "code": "414809001",
-        "display": "Neisseria gonorrhoeae, beta lactamase negative (organism)"
-      }, {
-        "code": "68704007",
-        "display": "Neisseria gonorrhoeae (organism)"
-      }, {
-        "code": "703483000",
-        "display": "Deoxyribonucleic acid of Neisseria gonorrhoeae (substance)"
-      }, {
-        "code": "83410001",
-        "display": "Gram-negative diplococcus (organism)"
-      }, {
-        "code": "414811005",
-        "display": "Neisseria species not Neisseria gonococci (organism)"
-      }, {
-        "code": "59083001",
-        "display": "Genus Neisseria (organism)"
-      }, {
-        "code": "715869002",
-        "display": "Neisseria species, not Neisseria meningitidis (organism)"
-      }, {
-        "code": "715872009",
-        "display": "Neisseria species, not Neisseria gonorrhoeae and not Neisseria meningitidis (organism)"
-      } ]
-    } ]
-  }
+  "immutable": true
 }

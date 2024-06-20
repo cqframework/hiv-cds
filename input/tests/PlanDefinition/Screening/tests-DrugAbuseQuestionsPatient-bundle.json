@@ -40,140 +40,6 @@
     }
   }, {
     "resource": {
-      "resourceType": "Observation",
-      "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.H2.DE2",
-          "display": "Have you used drugs other than those required for medical reasons"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/DrugAbuseQuestionsPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
-      "performer": [ {
-        "reference": "PractitionerRole/hiv-practitionerrole-example"
-      } ],
-      "valueBoolean": true
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/DrugAbuseQuestionsPatient-observation-drug-abuse-question-1"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-2",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.H2.DE4",
-          "display": "Do you use more than one drug at a time"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/DrugAbuseQuestionsPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
-      "performer": [ {
-        "reference": "PractitionerRole/hiv-practitionerrole-example"
-      } ],
-      "valueString": "Yes"
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/DrugAbuseQuestionsPatient-observation-drug-abuse-question-2"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-3",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.H2.DE6",
-          "display": "Are you always able to stop using drugs when you want to"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/DrugAbuseQuestionsPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
-      "performer": [ {
-        "reference": "PractitionerRole/hiv-practitionerrole-example"
-      } ],
-      "valueBoolean": true
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/DrugAbuseQuestionsPatient-observation-drug-abuse-question-3"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "DrugAbuseQuestionsPatient-observation-screening-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE1",
-          "display": "HIV Test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/DrugAbuseQuestionsPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
-      "performer": [ {
-        "reference": "PractitionerRole/hiv-practitionerrole-example"
-      } ],
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE215",
-          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
-        }, {
-          "system": "http://loinc.org",
-          "code": "2898779",
-          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
-        } ]
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/DrugAbuseQuestionsPatient-observation-screening-1"
-    }
-  }, {
-    "resource": {
       "resourceType": "Patient",
       "id": "DrugAbuseQuestionsPatient",
       "meta": {
@@ -245,6 +111,140 @@
     "request": {
       "method": "PUT",
       "url": "Patient/DrugAbuseQuestionsPatient"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-3",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H2.DE6",
+          "display": "Are you always able to stop using drugs when you want to"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/DrugAbuseQuestionsPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+      "performer": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ],
+      "valueBoolean": true
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/DrugAbuseQuestionsPatient-observation-drug-abuse-question-3"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-2",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H2.DE4",
+          "display": "Do you use more than one drug at a time"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/DrugAbuseQuestionsPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+      "performer": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ],
+      "valueString": "Yes"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/DrugAbuseQuestionsPatient-observation-drug-abuse-question-2"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "DrugAbuseQuestionsPatient-observation-drug-abuse-question-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H2.DE2",
+          "display": "Have you used drugs other than those required for medical reasons"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/DrugAbuseQuestionsPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+      "performer": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ],
+      "valueBoolean": true
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/DrugAbuseQuestionsPatient-observation-drug-abuse-question-1"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "DrugAbuseQuestionsPatient-observation-screening-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE1",
+          "display": "HIV Test"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/DrugAbuseQuestionsPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/DrugAbuseQuestionsPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-03-08T10:00:00-07:00",
+      "performer": [ {
+        "reference": "PractitionerRole/hiv-practitionerrole-example"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE215",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        }, {
+          "system": "http://loinc.org",
+          "code": "2898779",
+          "display": "HIV proviral DNA [Presence] in Blood by Probe with amplification"
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/DrugAbuseQuestionsPatient-observation-screening-1"
     }
   } ]
 }

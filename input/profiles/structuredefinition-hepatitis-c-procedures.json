@@ -50,11 +50,11 @@
           "valueString": "Hepatitis C Procedures Codes"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113"
+        "valueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de118"
       },
       "mapping": [ {
         "identity": "HIV",
-        "map": "NACHC.B2.DE112"
+        "map": "NACHC.B2.DE117"
       } ]
     } ]
   }

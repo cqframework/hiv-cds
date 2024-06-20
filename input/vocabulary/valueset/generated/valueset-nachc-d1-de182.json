@@ -7,53 +7,5 @@
   "status": "draft",
   "experimental": false,
   "description": "Codes representing possible values for the Gonorrhea Secondary Sites element",
-  "immutable": true,
-  "compose": {
-    "include": [ {
-      "system": "http://snomed.info/sct",
-      "concept": [ {
-        "code": "10754031000119100",
-        "display": "Gonorrhea in mother complicating childbirth (disorder)"
-      }, {
-        "code": "1086991000119100",
-        "display": "Gonococcal abscess of brain (disorder)"
-      }, {
-        "code": "1087001000119110",
-        "display": "Infection of anus and rectum caused by Neisseria gonorrhoeae (disorder)"
-      }, {
-        "code": "1087011000119110",
-        "display": "Infection of lower genitourinary tract co-occurrent with abscess of periurethral gland caused by Gonococcus (disorder)"
-      }, {
-        "code": "1087061000119110",
-        "display": "Gonococcal pneumonia (disorder)"
-      }, {
-        "code": "1092501000119100",
-        "display": "Septic shock co-occurrent with acute organ dysfunction due to Gonococcus (disorder)"
-      }, {
-        "code": "1092601000119100",
-        "display": "Severe sepsis with acute organ dysfunction caused by Gonococcus (disorder)"
-      }, {
-        "code": "194910001",
-        "display": "Acute gonococcal pericarditis (disorder)"
-      }, {
-        "code": "240580007",
-        "display": "Gonococcal penile fistula (disorder)"
-      }, {
-        "code": "240584003",
-        "display": "Gonococcal cellulitis (disorder)"
-      }, {
-        "code": "342381000119109",
-        "display": "Gonococcal iritis (disorder)"
-      }, {
-        "code": "733131001",
-        "display": "Infection of musculoskeletal system caused by Neisseria gonorrhoeae (disorder)"
-      }, {
-        "code": "735516004",
-        "display": "Infection of genitourinary system caused by Neisseria gonorrhoeae (disorder)"
-      }, {
-        "code": "90428001",
-        "display": "Gonococcal pericarditis (disorder)"
-      } ]
-    } ]
-  }
+  "immutable": true
 }
