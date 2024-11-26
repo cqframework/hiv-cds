@@ -687,11 +687,11 @@
         "code": "457821000124106",
         "display": "Normal pregnancy in multigravida (finding)"
       }, {
-        "code": "10760981000119100",
-        "display": "Psychological abuse complicating pregnancy (finding)"
+        "code": "10760981000119107",
+        "display": "Psychological abuse complicating pregnancy"
       }, {
-        "code": "10761061000119100",
-        "display": "Sexual abuse complicating pregnancy (finding)"
+        "code": "10761061000119107",
+        "display": "Sexual abuse complicating pregnancy"
       } ]
     } ]
   }

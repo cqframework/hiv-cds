@@ -40,97 +40,6 @@
     }
   }, {
     "resource": {
-      "resourceType": "Observation",
-      "id": "MSMPatient-observation-msm-2",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-men" ]
-      },
-      "status": "preliminary",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.H1.DE13",
-          "display": "Sexual Activity - Men"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/MSMPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/MSMPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
-      "valueBoolean": true
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/MSMPatient-observation-msm-2"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "MSMPatient-observation-multiple-3",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-number-of-partners" ]
-      },
-      "status": "preliminary",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.H1.DE18",
-          "display": "Sexual Activity - Partners Number of Partners"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/MSMPatient"
-      },
-      "encounter": {
-        "reference": "Encounter/MSMPatient-encounter-1"
-      },
-      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
-      "valueBoolean": true
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/MSMPatient-observation-multiple-3"
-    }
-  }, {
-    "resource": {
-      "resourceType": "Observation",
-      "id": "MSMPatient-observation-screening-1",
-      "meta": {
-        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
-      },
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE1",
-          "display": "HIV Test"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/MSMPatient"
-      },
-      "effectiveDateTime": "2020-06-08T10:20:00-07:00",
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
-          "code": "NACHC.A2.DE200",
-          "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
-        }, {
-          "system": "http://loinc.org",
-          "code": "25835-0",
-          "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
-        } ]
-      }
-    },
-    "request": {
-      "method": "PUT",
-      "url": "Observation/MSMPatient-observation-screening-1"
-    }
-  }, {
-    "resource": {
       "resourceType": "Patient",
       "id": "MSMPatient",
       "meta": {
@@ -202,6 +111,97 @@
     "request": {
       "method": "PUT",
       "url": "Patient/MSMPatient"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "MSMPatient-observation-msm-2",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-men" ]
+      },
+      "status": "preliminary",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H1.DE13",
+          "display": "Sexual Activity - Men"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/MSMPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/MSMPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
+      "valueBoolean": true
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/MSMPatient-observation-msm-2"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "MSMPatient-observation-screening-1",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE1",
+          "display": "HIV Test"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/MSMPatient"
+      },
+      "effectiveDateTime": "2020-06-08T10:20:00-07:00",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.A2.DE200",
+          "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+        }, {
+          "system": "http://loinc.org",
+          "code": "25835-0",
+          "display": "HIV 1 RNA [Presence] in Serum or Plasma by NAA with probe detection"
+        } ]
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/MSMPatient-observation-screening-1"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "MSMPatient-observation-multiple-3",
+      "meta": {
+        "profile": [ "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-activity-partners-number-of-partners" ]
+      },
+      "status": "preliminary",
+      "code": {
+        "coding": [ {
+          "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+          "code": "NACHC.H1.DE18",
+          "display": "Sexual Activity - Partners Number of Partners"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/MSMPatient"
+      },
+      "encounter": {
+        "reference": "Encounter/MSMPatient-encounter-1"
+      },
+      "effectiveDateTime": "2021-07-31T10:30:00-07:00",
+      "valueBoolean": true
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/MSMPatient-observation-multiple-3"
     }
   } ]
 }

@@ -3,7 +3,7 @@ library HIVContactDataElements
 using FHIR version '4.0.1'
 
 include FHIRHelpers version '4.0.1'
-include FHIRCommon called FC
+include FHIRCommon  version '4.0.1' called FC
 
 include NACHCCommon called NC
 include HIVCommon called AC
@@ -28,8 +28,10 @@ define "Gender Identity":
   @description: The type of patient encounter
 */
 define "Encounter Type":
+  WC.Only(
   [Encounter: Cx."Encounter Type Codes"] E
     where E.status = 'finished'
+  ).type
 
 
 /*
@@ -91,7 +93,7 @@ define "Hepatitis C Diagnosis":
 
 
 /*
-  @dataElement: NACHC.B2.DE112 Hepatitis C Procedures
+  @dataElement: NACHC.B2.DE117 Hepatitis C Procedures
   @activity: NACHC.B2 HCV test
   @description: Concepts Associated with HCV Procedures
 */
@@ -356,7 +358,7 @@ define "Prep Medication Prescriptions":
   @description: Whether the patient is currently pregnant?
 */
 define "Patient Currently Pregnant":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Patient Currently Pregnant"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -369,7 +371,7 @@ define "Patient Currently Pregnant":
   @description: Whether the patient has been diagnosed with Chlamydia?
 */
 define "Patient Diagnosed with Chlamydia":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Patient Diagnosed with Chlamydia"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -382,7 +384,7 @@ define "Patient Diagnosed with Chlamydia":
   @description: Whether the patient has been diagnosed with Gonorrhea?
 */
 define "Patient Diagnosed with Gonorrhea":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Patient Diagnosed with Gonorrhea"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -395,7 +397,7 @@ define "Patient Diagnosed with Gonorrhea":
   @description: Whether the patient has been diagnosed with HCV?
 */
 define "Patient Diagnosed with HCV":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Patient Diagnosed with HCV"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -408,7 +410,7 @@ define "Patient Diagnosed with HCV":
   @description: Whether the patient has been diagnosed with Syphilis?
 */
 define "Patient Diagnosed with Syphilis":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Patient Diagnosed with Syphilis"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -421,7 +423,7 @@ define "Patient Diagnosed with Syphilis":
   @description: Whether the patient has been using Injection Drugs?
 */
 define "Patient has used Injection Drugs":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Patient has used Injection Drugs"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -434,7 +436,7 @@ define "Patient has used Injection Drugs":
   @description: Whether the patient has previously been given PREP?
 */
 define "Previous experience with PREP":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Previous experience with PREP"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -447,7 +449,7 @@ define "Previous experience with PREP":
   @description: Whether the patient has previously been diagnosed with HIV?
 */
 define "Previous HIV Diagnosis":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Previous HIV Diagnosis"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -460,7 +462,7 @@ define "Previous HIV Diagnosis":
   @description: Whether the patient has previously been screened for HIV?
 */
 define "Previous HIV Screening":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Previous HIV Screening"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -473,7 +475,7 @@ define "Previous HIV Screening":
   @description: Whether the patient is currently seeking evaluation and treatment of an STD?
 */
 define "Seeking STD Treatment":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Seeking STD Treatment"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -486,7 +488,7 @@ define "Seeking STD Treatment":
   @description: Have you ever been coerced or pressured to have sex?
 */
 define "Sexual Activity - Coercion":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Coercion"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -499,7 +501,7 @@ define "Sexual Activity - Coercion":
   @description: Have you or any of your partners used alcohol or drugs when you had sex?
 */
 define "Sexual Activity - Drug or Alcohol Use":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Drug or Alcohol Use"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -512,7 +514,7 @@ define "Sexual Activity - Drug or Alcohol Use":
   @description: Have you ever exchanged sex for drugs or money?
 */
 define "Sexual Activity - Exchanged for Sex":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Exchanged for Sex"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -525,7 +527,7 @@ define "Sexual Activity - Exchanged for Sex":
   @description: Have you ever been sexually active?
 */
 define "Sexual Activity - History":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - History"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -538,7 +540,7 @@ define "Sexual Activity - History":
   @description: In the past 3 months have you had anal sex?
 */
 define "Sexual Activity - Kind of Sex - Anal":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Kind of Sex - Anal"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -551,7 +553,7 @@ define "Sexual Activity - Kind of Sex - Anal":
   @description: In the past 3 months have you had vaginal sex?
 */
 define "Sexual Activity - Kind of Sex - Vaginal":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Kind of Sex - Vaginal"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -564,7 +566,7 @@ define "Sexual Activity - Kind of Sex - Vaginal":
   @description: If Male: In the past 3 months have you had insertive anal sex?
 */
 define "Sexual Activity - Male - Kind of Sex - Insertive Anal":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Male - Kind of Sex - Insertive Anal"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -577,7 +579,7 @@ define "Sexual Activity - Male - Kind of Sex - Insertive Anal":
   @description: If Male: In the past 3 months have you had receptive anal sex?
 */
 define "Sexual Activity - Male - Kind of Sex - Receptive Anal":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Male - Kind of Sex - Receptive Anal"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -590,7 +592,7 @@ define "Sexual Activity - Male - Kind of Sex - Receptive Anal":
   @description: Do you have sex with men?
 */
 define "Sexual Activity - Men":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Men"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -603,7 +605,7 @@ define "Sexual Activity - Men":
   @description: In the past 3 months, have you had sex with someone you didn’t know or had just met?
 */
 define "Sexual Activity - New Partner Past 3 Months":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - New Partner Past 3 Months"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -616,7 +618,7 @@ define "Sexual Activity - New Partner Past 3 Months":
   @description: Have you had more than 1 sexual partner since last being tested for HIV?
 */
 define "Sexual Activity - Number of Partners":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Number of Partners"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -629,7 +631,7 @@ define "Sexual Activity - Number of Partners":
   @description: Do you know whether your partner has other sexual partners?
 */
 define "Sexual Activity - Partners History":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Partners History"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -642,7 +644,7 @@ define "Sexual Activity - Partners History":
   @description: Do you know whether your partner has HIV?
 */
 define "Sexual Activity - Partners HIV History":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Partners HIV History"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -655,7 +657,7 @@ define "Sexual Activity - Partners HIV History":
   @description: Do you know whether your partner has had more than 1 sexual partner since their last HIV test?
 */
 define "Sexual Activity - Partners Number of Partners":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Partners Number of Partners"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -668,7 +670,7 @@ define "Sexual Activity - Partners Number of Partners":
   @description: Have you been sexually active in the past year?
 */
 define "Sexual Activity - Past Year":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Past Year"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -681,7 +683,7 @@ define "Sexual Activity - Past Year":
   @description: Do you have sex with women?
 */
 define "Sexual Activity - Women":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."Sexual Activity - Women"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -694,7 +696,7 @@ define "Sexual Activity - Women":
   @description: Have you used drugs other than those required for medical reasons?
 */
 define "DAST 10 Question 1":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 1"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -707,7 +709,7 @@ define "DAST 10 Question 1":
   @description: Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding, etc.)?
 */
 define "DAST 10 Question 10":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 10"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -720,7 +722,7 @@ define "DAST 10 Question 10":
   @description: Do you use more than one drug at a time?
 */
 define "DAST 10 Question 2":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 2"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -733,7 +735,7 @@ define "DAST 10 Question 2":
   @description: Are you always able to stop using drugs when you want to?
 */
 define "DAST 10 Question 3":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 3"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -746,7 +748,7 @@ define "DAST 10 Question 3":
   @description: Have you had blackouts or flashbacks as a result of drug use?
 */
 define "DAST 10 Question 4":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 4"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -759,7 +761,7 @@ define "DAST 10 Question 4":
   @description: Do you ever feel bad or guilty about your drug use? 
 */
 define "DAST 10 Question 5":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 5"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -772,7 +774,7 @@ define "DAST 10 Question 5":
   @description: Does your spouse (or parents) ever complain about your involvement with drugs?
 */
 define "DAST 10 Question 6":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 6"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -785,7 +787,7 @@ define "DAST 10 Question 6":
   @description: Have you neglected your family because of your use of drugs?
 */
 define "DAST 10 Question 7":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 7"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -798,7 +800,7 @@ define "DAST 10 Question 7":
   @description: Have you engaged in illegal activities in order to obtain drugs?
 */
 define "DAST 10 Question 8":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 8"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -811,7 +813,7 @@ define "DAST 10 Question 8":
   @description: Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?
 */
 define "DAST 10 Question 9":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Question 9"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
@@ -824,8 +826,10 @@ define "DAST 10 Question 9":
   @description: Substance Abuse Prescription Illicit Substance Over the Counter Product Screening Test Score
 */
 define "DAST 10 Score":
-  NC.Only(
+  WC.Only(
   [Observation: Cx."DAST 10 Score"] O
     where O.status in { 'final', 'amended', 'corrected' }
       and Last(Split(O.encounter.reference, '/')) = Encounter.id
   ).value as FHIR.integer
+
+

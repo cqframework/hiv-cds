@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a2-de218",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de218",
+  "name": "HIVTestOrderedCodes",
+  "title": "HIV Test Ordered Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HIV Test Ordered element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "312484002",
+        "display": "Human immunodeficiency virus test offered (finding)"
+      }, {
+        "code": "31676001",
+        "display": "Human immunodeficiency virus antigen test (procedure)"
+      } ]
+    } ]
+  }
+}

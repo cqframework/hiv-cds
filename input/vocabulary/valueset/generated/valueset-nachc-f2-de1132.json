@@ -10233,17 +10233,17 @@
         "code": "10741751000119100",
         "display": "Anemia in mother complicating childbirth (disorder)"
       }, {
-        "code": "10741871000119100",
-        "display": "Alcohol dependence in pregnancy (disorder)"
+        "code": "10741871000119101",
+        "display": "Alcohol dependence in pregnancy"
       }, {
-        "code": "10742121000119100",
-        "display": "Asthma in mother complicating childbirth (disorder)"
+        "code": "10742121000119104",
+        "display": "Asthma in mother complicating childbirth"
       }, {
-        "code": "10742471000119100",
-        "display": "Previous bariatric surgery in mother complicating childbirth (disorder)"
+        "code": "10742471000119108",
+        "display": "Previous bariatric surgery in mother complicating childbirth"
       }, {
-        "code": "10743121000119100",
-        "display": "Aortic valve disorder in mother complicating childbirth (disorder)"
+        "code": "10743121000119108",
+        "display": "Aortic valve disorder in mother complicating childbirth"
       }, {
         "code": "10743741000119100",
         "display": "Cardiac arrhythmia in mother complicating childbirth (disorder)"
@@ -10251,62 +10251,62 @@
         "code": "10743831000119100",
         "display": "Neoplasm of uterus affecting pregnancy (disorder)"
       }, {
-        "code": "10745231000119100",
-        "display": "Cardiac arrest due to administration of anesthesia for obstetric procedure in pregnancy (disorder)"
+        "code": "10745231000119102",
+        "display": "Cardiac arrest due to administration of anesthesia for obstetric procedure in pregnancy"
       }, {
-        "code": "10745291000119100",
-        "display": "Malignant neoplastic disease in mother complicating childbirth (disorder)"
+        "code": "10745291000119103",
+        "display": "Malignant neoplastic disease in mother complicating childbirth"
       }, {
-        "code": "10746341000119100",
-        "display": "Acquired immune deficiency syndrome complicating childbirth (disorder)"
+        "code": "10746341000119109",
+        "display": "Acquired immune deficiency syndrome complicating childbirth"
       }, {
         "code": "10749581000119100",
         "display": "Blood coagulation disorder complicating childbirth (disorder)"
       }, {
-        "code": "10749641000119100",
-        "display": "Blood coagulation disorder complicating pregnancy (disorder)"
+        "code": "10749641000119106",
+        "display": "Blood coagulation disorder complicating pregnancy"
       }, {
         "code": "10749691000119100",
         "display": "Obstetric anesthesia with cardiac complication in childbirth (disorder)"
       }, {
-        "code": "10749811000119100",
-        "display": "Obstetric anesthesia with central nervous system complication in childbirth (disorder)"
+        "code": "10749811000119108",
+        "display": "Obstetric anesthesia with central nervous system complication in childbirth"
       }, {
         "code": "10750051000119100",
         "display": "Chlamydia trachomatis infection in mother complicating childbirth (disorder)"
       }, {
-        "code": "10750161000119100",
-        "display": "Cholestasis of pregnancy complicating childbirth (disorder)"
+        "code": "10750161000119106",
+        "display": "Cholestasis of pregnancy complicating childbirth"
       }, {
-        "code": "10750411000119100",
-        "display": "Nonpurulent mastitis associated with lactation (disorder)"
+        "code": "10750411000119102",
+        "display": "Nonpurulent mastitis associated with lactation"
       }, {
         "code": "10750551000119100",
         "display": "Obesity in mother complicating childbirth (disorder)"
       }, {
-        "code": "10750951000119100",
-        "display": "Epilepsy in mother complicating childbirth (disorder)"
+        "code": "10750951000119106",
+        "display": "Epilepsy in mother complicating childbirth"
       }, {
         "code": "10751471000119100",
         "display": "Nutritional deficiency in mother complicating childbirth (disorder)"
       }, {
-        "code": "10751771000119100",
-        "display": "Placental abruption due to afibrinogenemia (disorder)"
+        "code": "10751771000119107",
+        "display": "Placental abruption due to afibrinogenemia"
       }, {
         "code": "10752251000119100",
         "display": "Galactorrhea in pregnancy (disorder)"
       }, {
-        "code": "10752641000119100",
-        "display": "Eclampsia with pre-existing hypertension in childbirth (disorder)"
+        "code": "10752641000119102",
+        "display": "Eclampsia with pre-existing hypertension in childbirth"
       }, {
         "code": "10752771000119100",
         "display": "Renal failure after ectopic pregnancy (disorder)"
       }, {
-        "code": "10753101000119100",
-        "display": "Heart disease in mother complicating childbirth (disorder)"
+        "code": "10753101000119102",
+        "display": "Heart disease in mother complicating childbirth"
       }, {
-        "code": "10753491000119100",
-        "display": "Gestational diabetes mellitus in childbirth (disorder)"
+        "code": "10753491000119101",
+        "display": "Gestational diabetes mellitus in childbirth"
       }, {
         "code": "10754031000119100",
         "display": "Gonorrhea in mother complicating childbirth (disorder)"
@@ -10317,14 +10317,14 @@
         "code": "10754701000119100",
         "display": "Genital herpes simplex in mother complicating childbirth (disorder)"
       }, {
-        "code": "10754781000119100",
-        "display": "Gallbladder calculus in mother complicating childbirth (disorder)"
+        "code": "10754781000119108",
+        "display": "Gallbladder calculus in mother complicating childbirth"
       }, {
-        "code": "10754881000119100",
-        "display": "Diabetes mellitus in mother complicating childbirth (disorder)"
+        "code": "10754881000119104",
+        "display": "Diabetes mellitus in mother complicating childbirth"
       }, {
-        "code": "10754921000119100",
-        "display": "Hyperthyroidism in childbirth (disorder)"
+        "code": "10754921000119106",
+        "display": "Hyperthyroidism in childbirth"
       }, {
         "code": "10755041000119100",
         "display": "Alcohol dependence in childbirth (disorder)"
@@ -10332,71 +10332,71 @@
         "code": "10755671000119100",
         "display": "Human immunodeficiency virus in mother complicating childbirth (disorder)"
       }, {
-        "code": "10756101000119100",
-        "display": "Group B streptococcus infection in mother complicating childbirth (disorder)"
+        "code": "10756101000119107",
+        "display": "Group B streptococcus infection in mother complicating childbirth"
       }, {
-        "code": "10756301000119100",
-        "display": "Physical abuse complicating pregnancy (finding)"
+        "code": "10756301000119105",
+        "display": "Physical abuse complicating pregnancy"
       }, {
         "code": "10757401000119100",
         "display": "Pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth (disorder)"
       }, {
-        "code": "10757441000119100",
-        "display": "Pre-existing hypertensive heart disease in mother complicating childbirth (disorder)"
+        "code": "10757441000119102",
+        "display": "Pre-existing hypertensive heart disease in mother complicating childbirth"
       }, {
         "code": "10757481000119100",
         "display": "Pre-existing hypertensive heart and chronic kidney disease in mother complicating pregnancy (disorder)"
       }, {
-        "code": "10759031000119100",
-        "display": "Pre-existing hypertensive heart disease in mother complicating pregnancy (disorder)"
+        "code": "10759031000119106",
+        "display": "Pre-existing hypertensive heart disease in mother complicating pregnancy"
       }, {
-        "code": "10759111000119100",
-        "display": "Viral hepatitis in mother complicating childbirth (disorder)"
+        "code": "10759111000119102",
+        "display": "Viral hepatitis in mother complicating childbirth"
       }, {
-        "code": "10759151000119100",
-        "display": "Viral hepatitis in mother complicating pregnancy (disorder)"
+        "code": "10759151000119101",
+        "display": "Viral hepatitis in mother complicating pregnancy"
       }, {
         "code": "10759191000119100",
         "display": "Postpartum septic thrombophlebitis (disorder)"
       }, {
-        "code": "10759231000119100",
-        "display": "Salpingo-oophoritis in pregnancy (disorder)"
+        "code": "10759231000119102",
+        "display": "Salpingo-oophoritis in pregnancy"
       }, {
         "code": "10759311000119100",
         "display": "Pulmonary embolism in childbirth (disorder)"
       }, {
-        "code": "10759351000119100",
-        "display": "Sickle cell anemia in mother complicating childbirth (disorder)"
+        "code": "10759351000119103",
+        "display": "Sickle cell anemia in mother complicating childbirth"
       }, {
-        "code": "10759401000119100",
-        "display": "Sickle cell trait in mother complicating childbirth (disorder)"
+        "code": "10759401000119105",
+        "display": "Sickle cell trait in mother complicating childbirth"
       }, {
         "code": "10759761000119100",
         "display": "Rubella in mother complicating childbirth (disorder)"
       }, {
-        "code": "10759841000119100",
-        "display": "Sexually transmitted infectious disease in mother complicating childbirth (disorder)"
+        "code": "10759841000119105",
+        "display": "Sexually transmitted infectious disease in mother complicating childbirth"
       }, {
         "code": "10759881000119100",
         "display": "Tuberculosis in mother complicating childbirth (disorder)"
       }, {
-        "code": "10759921000119100",
-        "display": "Syphilis in mother complicating childbirth (disorder)"
+        "code": "10759921000119107",
+        "display": "Syphilis in mother complicating childbirth"
       }, {
-        "code": "10759961000119100",
-        "display": "Viral disease in mother complicating childbirth (disorder)"
+        "code": "10759961000119102",
+        "display": "Viral disease in mother complicating childbirth"
       }, {
         "code": "10760001000119100",
         "display": "Thyroid disease in mother complicating childbirth (disorder)"
       }, {
-        "code": "10760041000119100",
-        "display": "Thyroiditis in mother complicating childbirth (disorder)"
+        "code": "10760041000119103",
+        "display": "Thyroiditis in mother complicating childbirth"
       }, {
-        "code": "10760081000119100",
-        "display": "Pyemic and septic embolism in childbirth (disorder)"
+        "code": "10760081000119108",
+        "display": "Pyemic and septic embolism in childbirth"
       }, {
-        "code": "10760131000119100",
-        "display": "Pyemic and septic embolism in pregnancy (disorder)"
+        "code": "10760131000119108",
+        "display": "Pyemic and septic embolism in pregnancy"
       }, {
         "code": "10760261000119100",
         "display": "Uterine laceration during delivery (disorder)"
@@ -10407,47 +10407,47 @@
         "code": "10760381000119100",
         "display": "Thyroiditis in pregnancy (disorder)"
       }, {
-        "code": "10760461000119100",
-        "display": "Psychotic disorder in mother complicating pregnancy (disorder)"
+        "code": "10760461000119107",
+        "display": "Psychotic disorder in mother complicating pregnancy"
       }, {
-        "code": "10805641000119100",
-        "display": "Congenital cardiovascular anomaly in mother complicating childbirth (disorder)"
+        "code": "10805641000119102",
+        "display": "Congenital cardiovascular anomaly in mother complicating childbirth"
       }, {
-        "code": "10806041000119100",
-        "display": "Infection of nipple associated with lactation (disorder)"
+        "code": "10806041000119104",
+        "display": "Infection of nipple associated with lactation"
       }, {
-        "code": "10806241000119100",
-        "display": "Thalassemia in mother complicating childbirth (disorder)"
+        "code": "10806241000119108",
+        "display": "Thalassemia in mother complicating childbirth"
       }, {
-        "code": "10807061000119100",
-        "display": "Liver disorder in mother complicating childbirth (disorder)"
+        "code": "10807061000119103",
+        "display": "Liver disorder in mother complicating childbirth"
       }, {
-        "code": "10808861000119100",
-        "display": "Maternal distress during childbirth (disorder)"
+        "code": "10808861000119105",
+        "display": "Maternal distress during childbirth"
       }, {
-        "code": "10809061000119100",
-        "display": "Malaria in mother complicating childbirth (disorder)"
+        "code": "10809061000119106",
+        "display": "Malaria in mother complicating childbirth"
       }, {
-        "code": "10809101000119100",
-        "display": "Hypothyroidism in childbirth (disorder)"
+        "code": "10809101000119109",
+        "display": "Hypothyroidism in childbirth"
       }, {
         "code": "10809641000119100",
         "display": "Mitral valve disorder in mother complicating childbirth (disorder)"
       }, {
-        "code": "10811161000119100",
-        "display": "Major depressive disorder in mother complicating pregnancy (disorder)"
+        "code": "10811161000119107",
+        "display": "Major depressive disorder in mother complicating pregnancy"
       }, {
-        "code": "10812041000119100",
-        "display": "Urinary tract infection due to incomplete miscarriage (disorder)"
+        "code": "10812041000119103",
+        "display": "Urinary tract infection due to incomplete miscarriage"
       }, {
-        "code": "10812081000119100",
-        "display": "Iron deficiency anemia in mother complicating childbirth (disorder)"
+        "code": "10812081000119108",
+        "display": "Iron deficiency anemia in mother complicating childbirth"
       }, {
-        "code": "10812131000119100",
-        "display": "Malnutrition in mother complicating childbirth (disorder)"
+        "code": "10812131000119108",
+        "display": "Malnutrition in mother complicating childbirth"
       }, {
-        "code": "10835571000119100",
-        "display": "Antepartum hemorrhage due to disseminated intravascular coagulation (disorder)"
+        "code": "10835571000119102",
+        "display": "Antepartum hemorrhage due to disseminated intravascular coagulation"
       }, {
         "code": "10835621000119100",
         "display": "Congenital anomaly of vagina in mother complicating pregnancy (disorder)"
@@ -10455,14 +10455,14 @@
         "code": "10835701000119100",
         "display": "Congenital anomaly of vulva in mother complicating pregnancy (disorder)"
       }, {
-        "code": "10835781000119100",
-        "display": "Amniotic fluid embolism in childbirth (disorder)"
+        "code": "10835781000119105",
+        "display": "Amniotic fluid embolism in childbirth"
       }, {
-        "code": "10835971000119100",
-        "display": "Anti-A sensitization in pregnancy (disorder)"
+        "code": "10835971000119109",
+        "display": "Anti-A sensitization in pregnancy"
       }, {
-        "code": "15643101000119100",
-        "display": "Gastroesophageal reflux disease in pregnancy (disorder)"
+        "code": "15643101000119103",
+        "display": "Gastroesophageal reflux disease in pregnancy"
       }, {
         "code": "15750121000119100",
         "display": "Pre-existing severe obesity in mother complicating pregnancy (disorder)"

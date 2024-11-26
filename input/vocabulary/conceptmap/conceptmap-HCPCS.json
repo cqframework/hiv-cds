@@ -67,7 +67,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE113",
+      "code": "NACHC.B2.DE118",
       "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)",
       "target": [ {
         "code": "3218F",
@@ -75,7 +75,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE114",
+      "code": "NACHC.B2.DE119",
       "display": "Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)",
       "target": [ {
         "code": "3220F",
@@ -83,7 +83,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE115",
+      "code": "NACHC.B2.DE120",
       "display": "Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)",
       "target": [ {
         "code": "3265F",
@@ -91,7 +91,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE116",
+      "code": "NACHC.B2.DE121",
       "display": "Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)",
       "target": [ {
         "code": "3266F",
@@ -99,7 +99,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE117",
+      "code": "NACHC.B2.DE122",
       "display": "Hepatitis C screening documented as performed (HIV)",
       "target": [ {
         "code": "3514F",
@@ -107,7 +107,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE118",
+      "code": "NACHC.B2.DE123",
       "display": "Patient receiving antiviral treatment for Hepatitis C (HEP-C)",
       "target": [ {
         "code": "4150F",
@@ -115,7 +115,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE119",
+      "code": "NACHC.B2.DE124",
       "display": "Collection of venous blood by venipuncture",
       "target": [ {
         "code": "36415",
@@ -123,7 +123,7 @@
         "equivalence": "equivalent"
       } ]
     }, {
-      "code": "NACHC.B2.DE120",
+      "code": "NACHC.B2.DE125",
       "display": "Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver",
       "target": [ {
         "code": "81596",

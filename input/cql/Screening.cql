@@ -1,9 +1,9 @@
-library HIVScreening
+library Screening
 
 using FHIR version '4.0.1'
 
 include FHIRHelpers version '4.0.1'
-include FHIRCommon  version '4.0.1' called FC
+include FHIRCommon called FC
 
 include NACHCCommon called NC
 include HIVCommon called HC
@@ -223,7 +223,7 @@ define "Exclusion Reason":
 define "Patient Encounter":
   Last(
     (HC.QualifiedEncounters(
-      HDE."Encounter Type"
+      HDE."Patient Encounter"
       union HDE."Pregnancy Encounters"
       union HDE."Third Trimester Encounters"
     )) PatientEncounter
@@ -277,8 +277,8 @@ define "Over 3 Months has Past Since Previous HIV Screening":
 
 define "Patient has Received Pre Exposure Prophylaxis":
   exists(
-    HC.QualifiedMedicationRequests(HDE."Prep Medication Prescriptions")
-    union HC.QualifiedMedicationDispenses(HDE."Prep Dispensed Medications")
+    HC.QualifiedMedicationRequests(HDE."Pre Exposure Prophylaxis Medication Prescriptions")
+    union HC.QualifiedMedicationDispenses(HDE."Pre Exposure Prophylaxis Dispensed Medications")
     union HC.QualifiedObservations(HDE."Previous experience with PREP")
   ) PrEP
 
@@ -290,11 +290,43 @@ define "Patient is Male":
 define "Patient is Female":
   if Patient.gender = 'female' then true else false
 
+define "Patient Gender Identity":
+  (
+    (
+      flatten
+      (
+        (HDE."Gender Identity") GenderIdentity
+          return GenderIdentity.extension
+      )
+    ) E
+    where E.url = 'Gender Identity'
+  ) E
+    return E.value as CodeableConcept
+
+define "Patient Sexual Orientation":
+  (
+    (
+      flatten
+      (
+        (HDE."Sexual Orientation") SexualOrientation
+          return SexualOrientation.extension
+      )
+    ) E
+    where E.url = 'Sexual Orientation'
+  ) E
+    return E.value as CodeableConcept
+
 define "Patient is Transgender":
-    HDE."Gender Identity" in Cx."Transgender"
+  exists (
+    "Patient Gender Identity" GenderIdentity
+      where GenderIdentity in Cx."Transgender"
+  )
 
 define "Patient is Gay or Bisexual":
-      HDE."Sexual Orientation" in Cx."Gay Or Bisexual"
+  exists (
+      "Patient Sexual Orientation" SexualOrientation
+        where SexualOrientation in Cx."Gay Or Bisexual"
+  )
 
 define "Patient is Pregnant":
   exists(
@@ -590,36 +622,46 @@ define "Patient is a Sexually Active MSM who should be Screened Every 3 Months":
 // No Risk: 0
 
 define "DAST 10 Result Score":
-  NC.MostRecent(HDE."DAST 10 Score").value as integer
+  (Last(
+    (HDE."DAST 10 Questionnaire" screening
+      where screening.value is not null) notNullScreening
+      sort by start of FC.ToInterval(effective))
+  ) latestScreening
+  return (latestScreening.value as integer).value
 
 define "All DAST 10 Questions":
-  {
-    NC.MostRecent(HDE."DAST 10 Question 1"),
-    NC.MostRecent(HDE."DAST 10 Question 2"),
-    NC.MostRecent(HDE."DAST 10 Question 3"),
-    NC.MostRecent(HDE."DAST 10 Question 4"),
-    NC.MostRecent(HDE."DAST 10 Question 5"),
-    NC.MostRecent(HDE."DAST 10 Question 6"),
-    NC.MostRecent(HDE."DAST 10 Question 7"),
-    NC.MostRecent(HDE."DAST 10 Question 8"),
-    NC.MostRecent(HDE."DAST 10 Question 9"),
-    NC.MostRecent(HDE."DAST 10 Question 10")
-  }
+  HDE."DAST 10 Question 1"
+  union HDE."DAST 10 Question 2"
+  union HDE."DAST 10 Question 3"
+  union HDE."DAST 10 Question 4"
+  union HDE."DAST 10 Question 5"
+  union HDE."DAST 10 Question 6"
+  union HDE."DAST 10 Question 7"
+  union HDE."DAST 10 Question 8"
+  union HDE."DAST 10 Question 9"
+  union HDE."DAST 10 Question 10"
 
 define "Latest DAST 10 Questions Date":
-  date from start of FC.ToInterval(NC.MostRecent("All DAST 10 Questions").effective)
+  (Last(
+    ("All DAST 10 Questions") questions
+    sort by start of FC.ToInterval(effective))
+  ) latestQuestion
+  return date from start of FC.ToInterval(latestQuestion.effective)
 
 define "DAST 10 Questions Score":
   Count(
     "All DAST 10 Questions" question
-      where question.value as boolean is true
+      where start of FC.ToInterval(question.effective) same day as "Latest DAST 10 Questions Date"
+      and Coalesce(Lower(question.value as string) in { 'yes' }, question.value as boolean = true)
   )
 
 define "Latest DAST 10 Screening Date":
-  date from start of FC.ToInterval(NC.MostRecent(
-    HDE."DAST 10 Score"
-      union "All DAST 10 Questions"
-  ).effective)
+  (Last(
+    (HDE."DAST 10 Questionnaire"
+    union "All DAST 10 Questions") results
+    sort by start of FC.ToInterval(effective))
+  ) latestScreening
+  return date from start of FC.ToInterval(latestScreening.effective)
 
 //"Patient is at High Risk Due to a STD"
 define "Patient Has High Degree Of Problems Related To Drug Abuse":

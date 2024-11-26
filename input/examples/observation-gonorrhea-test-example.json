@@ -23,9 +23,9 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://loinc.org",
-      "code": "1675429",
-      "display": "Neisseria gonorrhoeae Ag [Presence] in Genital specimen by Immunoassay"
+      "system": "http://example.org/fhir/CodeSystem/example-codes",
+      "code": "example",
+      "display": "Valueset binding http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de1-codes-grouper resolved but contained no codes."
     } ]
   }
 }

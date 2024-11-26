@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e2-de193",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de193",
+  "name": "ChlamydiatrachomatisAgPresenceinUnspecifiedspecimenbyImmunoassayCodes",
+  "title": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "1626912",
+        "display": "Chlamydia trachomatis Ag [Presence] in Unspecified specimen by Immunoassay"
+      } ]
+    } ]
+  }
+}
